@@ -28,7 +28,15 @@ class MinimapViewModel: ObservableObject {
   @Published var playerPosition: CGPoint = .zero
   @Published var npcs: [NPC] = []
   @Published var pois: [Any] = []
+  
   init() {
     
   }
+  
+  static var demo: MinimapViewModel {
+    let viewModel = MinimapViewModel()
+    viewModel.npcs = [NPC(position: CGPoint(x: 30, y: 20), type: .enemy)]
+    return viewModel
+  }
+  
 }

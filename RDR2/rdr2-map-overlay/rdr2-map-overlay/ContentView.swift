@@ -8,9 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
+  @State private var rotation: CGFloat = 0
     var body: some View {
+      VStack() {
+        Slider(value: $rotation)
+        Spacer()
         MinimapView()
-          .frame(width: 100, height: 100)
+          .frame(width: 250, height: 200)
+          .rotationEffect(.degrees(360.0 * Double(rotation)))
+        Spacer()
+      }
+      .padding()
     }
 }
 

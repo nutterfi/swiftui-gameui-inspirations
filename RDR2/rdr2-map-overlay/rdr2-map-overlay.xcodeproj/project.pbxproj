@@ -13,6 +13,7 @@
 		293066D825FDD11400B87E49 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 293066D725FDD11400B87E49 /* Preview Assets.xcassets */; };
 		293066E225FDD2BE00B87E49 /* MinimapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293066E125FDD2BE00B87E49 /* MinimapView.swift */; };
 		293066E525FDD2C600B87E49 /* MinimapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293066E425FDD2C600B87E49 /* MinimapViewModel.swift */; };
+		29805B04260704ED00E09844 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29805B03260704ED00E09844 /* Color+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		293066D925FDD11400B87E49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		293066E125FDD2BE00B87E49 /* MinimapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimapView.swift; sourceTree = "<group>"; };
 		293066E425FDD2C600B87E49 /* MinimapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimapViewModel.swift; sourceTree = "<group>"; };
+		29805B03260704ED00E09844 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				293066D425FDD11400B87E49 /* Assets.xcassets */,
 				293066D925FDD11400B87E49 /* Info.plist */,
 				293066D625FDD11400B87E49 /* Preview Content */,
+				29805B03260704ED00E09844 /* Color+Extensions.swift */,
 			);
 			path = "rdr2-map-overlay";
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29805B04260704ED00E09844 /* Color+Extensions.swift in Sources */,
 				293066E525FDD2C600B87E49 /* MinimapViewModel.swift in Sources */,
 				293066D325FDD11300B87E49 /* ContentView.swift in Sources */,
 				293066D125FDD11300B87E49 /* rdr2_map_overlayApp.swift in Sources */,
