@@ -17,6 +17,46 @@
 		2976E1D62626A61E00272ADC /* Shapes in Frameworks */ = {isa = PBXBuildFile; productRef = 2976E1D52626A61E00272ADC /* Shapes */; };
 		2976E1DA2626AD5C00272ADC /* Pulsar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2976E1D92626AD5C00272ADC /* Pulsar.swift */; };
 		2976E1DB2626AD5C00272ADC /* Pulsar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2976E1D92626AD5C00272ADC /* Pulsar.swift */; };
+		29A22CF52626D8C9000D9EAF /* LoadingRingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22CF02626D8C9000D9EAF /* LoadingRingsViewModel.swift */; };
+		29A22CF62626D8C9000D9EAF /* LoadingRingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22CF02626D8C9000D9EAF /* LoadingRingsViewModel.swift */; };
+		29A22CF72626D8C9000D9EAF /* LoadingRingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22CF12626D8C9000D9EAF /* LoadingRingsView.swift */; };
+		29A22CF82626D8C9000D9EAF /* LoadingRingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22CF12626D8C9000D9EAF /* LoadingRingsView.swift */; };
+		29A22CF92626D8C9000D9EAF /* LoadingRingsDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22CF22626D8C9000D9EAF /* LoadingRingsDemo.swift */; };
+		29A22CFA2626D8C9000D9EAF /* LoadingRingsDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22CF22626D8C9000D9EAF /* LoadingRingsDemo.swift */; };
+		29A22CFB2626D8C9000D9EAF /* MultipleVs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22CF32626D8C9000D9EAF /* MultipleVs.swift */; };
+		29A22CFC2626D8C9000D9EAF /* MultipleVs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22CF32626D8C9000D9EAF /* MultipleVs.swift */; };
+		29A22CFD2626D8C9000D9EAF /* ConsummateV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22CF42626D8C9000D9EAF /* ConsummateV.swift */; };
+		29A22CFE2626D8C9000D9EAF /* ConsummateV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22CF42626D8C9000D9EAF /* ConsummateV.swift */; };
+		29A22D042626D93A000D9EAF /* QuestDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D032626D93A000D9EAF /* QuestDescriptionView.swift */; };
+		29A22D052626D93A000D9EAF /* QuestDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D032626D93A000D9EAF /* QuestDescriptionView.swift */; };
+		29A22D102626DC60000D9EAF /* KombatKardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D092626DC60000D9EAF /* KombatKardView.swift */; };
+		29A22D112626DC60000D9EAF /* KombatKardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D092626DC60000D9EAF /* KombatKardView.swift */; };
+		29A22D122626DC60000D9EAF /* CountdownTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D0A2626DC60000D9EAF /* CountdownTimerView.swift */; };
+		29A22D132626DC60000D9EAF /* CountdownTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D0A2626DC60000D9EAF /* CountdownTimerView.swift */; };
+		29A22D162626DC60000D9EAF /* CountdownTimerDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D0C2626DC60000D9EAF /* CountdownTimerDemo.swift */; };
+		29A22D172626DC60000D9EAF /* CountdownTimerDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D0C2626DC60000D9EAF /* CountdownTimerDemo.swift */; };
+		29A22D182626DC60000D9EAF /* KombatKardContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D0D2626DC60000D9EAF /* KombatKardContentView.swift */; };
+		29A22D192626DC60000D9EAF /* KombatKardContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D0D2626DC60000D9EAF /* KombatKardContentView.swift */; };
+		29A22D1A2626DC60000D9EAF /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D0E2626DC60000D9EAF /* MenuView.swift */; };
+		29A22D1B2626DC60000D9EAF /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D0E2626DC60000D9EAF /* MenuView.swift */; };
+		29A22D1C2626DC60000D9EAF /* CountdownTimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D0F2626DC60000D9EAF /* CountdownTimerViewModel.swift */; };
+		29A22D1D2626DC60000D9EAF /* CountdownTimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D0F2626DC60000D9EAF /* CountdownTimerViewModel.swift */; };
+		29A22D3B2626DFF3000D9EAF /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D382626DFF3000D9EAF /* ProgressBar.swift */; };
+		29A22D3C2626DFF3000D9EAF /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D382626DFF3000D9EAF /* ProgressBar.swift */; };
+		29A22D3D2626DFF3000D9EAF /* GenshinImpactLoadingProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D392626DFF3000D9EAF /* GenshinImpactLoadingProgressBar.swift */; };
+		29A22D3E2626DFF3000D9EAF /* GenshinImpactLoadingProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D392626DFF3000D9EAF /* GenshinImpactLoadingProgressBar.swift */; };
+		29A22D3F2626DFF3000D9EAF /* MaskedProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D3A2626DFF3000D9EAF /* MaskedProgressBar.swift */; };
+		29A22D402626DFF3000D9EAF /* MaskedProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D3A2626DFF3000D9EAF /* MaskedProgressBar.swift */; };
+		29A22D472626E041000D9EAF /* MinimapDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D432626E041000D9EAF /* MinimapDemo.swift */; };
+		29A22D482626E041000D9EAF /* MinimapDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D432626E041000D9EAF /* MinimapDemo.swift */; };
+		29A22D492626E041000D9EAF /* MinimapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D442626E041000D9EAF /* MinimapViewModel.swift */; };
+		29A22D4A2626E041000D9EAF /* MinimapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D442626E041000D9EAF /* MinimapViewModel.swift */; };
+		29A22D4B2626E041000D9EAF /* MinimapModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D452626E041000D9EAF /* MinimapModel.swift */; };
+		29A22D4C2626E041000D9EAF /* MinimapModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D452626E041000D9EAF /* MinimapModel.swift */; };
+		29A22D4D2626E041000D9EAF /* MinimapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D462626E041000D9EAF /* MinimapView.swift */; };
+		29A22D4E2626E041000D9EAF /* MinimapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D462626E041000D9EAF /* MinimapView.swift */; };
+		29A22D522626E059000D9EAF /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D512626E059000D9EAF /* Color+Extensions.swift */; };
+		29A22D532626E059000D9EAF /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D512626E059000D9EAF /* Color+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +69,26 @@
 		2976E1BD2626A45000272ADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2976E1BE2626A45000272ADC /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		2976E1D92626AD5C00272ADC /* Pulsar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pulsar.swift; sourceTree = "<group>"; };
+		29A22CF02626D8C9000D9EAF /* LoadingRingsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingRingsViewModel.swift; sourceTree = "<group>"; };
+		29A22CF12626D8C9000D9EAF /* LoadingRingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingRingsView.swift; sourceTree = "<group>"; };
+		29A22CF22626D8C9000D9EAF /* LoadingRingsDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingRingsDemo.swift; sourceTree = "<group>"; };
+		29A22CF32626D8C9000D9EAF /* MultipleVs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipleVs.swift; sourceTree = "<group>"; };
+		29A22CF42626D8C9000D9EAF /* ConsummateV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsummateV.swift; sourceTree = "<group>"; };
+		29A22D032626D93A000D9EAF /* QuestDescriptionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestDescriptionView.swift; sourceTree = "<group>"; };
+		29A22D092626DC60000D9EAF /* KombatKardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KombatKardView.swift; sourceTree = "<group>"; };
+		29A22D0A2626DC60000D9EAF /* CountdownTimerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountdownTimerView.swift; sourceTree = "<group>"; };
+		29A22D0C2626DC60000D9EAF /* CountdownTimerDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountdownTimerDemo.swift; sourceTree = "<group>"; };
+		29A22D0D2626DC60000D9EAF /* KombatKardContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KombatKardContentView.swift; sourceTree = "<group>"; };
+		29A22D0E2626DC60000D9EAF /* MenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		29A22D0F2626DC60000D9EAF /* CountdownTimerViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountdownTimerViewModel.swift; sourceTree = "<group>"; };
+		29A22D382626DFF3000D9EAF /* ProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		29A22D392626DFF3000D9EAF /* GenshinImpactLoadingProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenshinImpactLoadingProgressBar.swift; sourceTree = "<group>"; };
+		29A22D3A2626DFF3000D9EAF /* MaskedProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaskedProgressBar.swift; sourceTree = "<group>"; };
+		29A22D432626E041000D9EAF /* MinimapDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinimapDemo.swift; sourceTree = "<group>"; };
+		29A22D442626E041000D9EAF /* MinimapViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinimapViewModel.swift; sourceTree = "<group>"; };
+		29A22D452626E041000D9EAF /* MinimapModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinimapModel.swift; sourceTree = "<group>"; };
+		29A22D462626E041000D9EAF /* MinimapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinimapView.swift; sourceTree = "<group>"; };
+		29A22D512626E059000D9EAF /* Color+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,10 +125,14 @@
 		2976E1AB2626A45000272ADC /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				29A22D082626DA50000D9EAF /* Extensions */,
+				29A22CBD2626D288000D9EAF /* GenshinImpact */,
+				29A22CBC2626D27F000D9EAF /* RDR2 */,
+				29A22CBB2626D279000D9EAF /* MK11 */,
+				29A22CB82626D22E000D9EAF /* Control */,
 				2976E1AC2626A45000272ADC /* Game_UI_InspirationsApp.swift */,
 				2976E1AD2626A45000272ADC /* ContentView.swift */,
 				2976E1AE2626A45000272ADC /* Assets.xcassets */,
-				2976E1D92626AD5C00272ADC /* Pulsar.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -104,6 +168,62 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		29A22CB82626D22E000D9EAF /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				29A22D032626D93A000D9EAF /* QuestDescriptionView.swift */,
+				29A22CF42626D8C9000D9EAF /* ConsummateV.swift */,
+				29A22CF22626D8C9000D9EAF /* LoadingRingsDemo.swift */,
+				29A22CF12626D8C9000D9EAF /* LoadingRingsView.swift */,
+				29A22CF02626D8C9000D9EAF /* LoadingRingsViewModel.swift */,
+				29A22CF32626D8C9000D9EAF /* MultipleVs.swift */,
+				2976E1D92626AD5C00272ADC /* Pulsar.swift */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		29A22CBB2626D279000D9EAF /* MK11 */ = {
+			isa = PBXGroup;
+			children = (
+				29A22D0C2626DC60000D9EAF /* CountdownTimerDemo.swift */,
+				29A22D0A2626DC60000D9EAF /* CountdownTimerView.swift */,
+				29A22D0F2626DC60000D9EAF /* CountdownTimerViewModel.swift */,
+				29A22D0D2626DC60000D9EAF /* KombatKardContentView.swift */,
+				29A22D092626DC60000D9EAF /* KombatKardView.swift */,
+				29A22D0E2626DC60000D9EAF /* MenuView.swift */,
+			);
+			path = MK11;
+			sourceTree = "<group>";
+		};
+		29A22CBC2626D27F000D9EAF /* RDR2 */ = {
+			isa = PBXGroup;
+			children = (
+				29A22D432626E041000D9EAF /* MinimapDemo.swift */,
+				29A22D452626E041000D9EAF /* MinimapModel.swift */,
+				29A22D462626E041000D9EAF /* MinimapView.swift */,
+				29A22D442626E041000D9EAF /* MinimapViewModel.swift */,
+			);
+			path = RDR2;
+			sourceTree = "<group>";
+		};
+		29A22CBD2626D288000D9EAF /* GenshinImpact */ = {
+			isa = PBXGroup;
+			children = (
+				29A22D392626DFF3000D9EAF /* GenshinImpactLoadingProgressBar.swift */,
+				29A22D3A2626DFF3000D9EAF /* MaskedProgressBar.swift */,
+				29A22D382626DFF3000D9EAF /* ProgressBar.swift */,
+			);
+			path = GenshinImpact;
+			sourceTree = "<group>";
+		};
+		29A22D082626DA50000D9EAF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				29A22D512626E059000D9EAF /* Color+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,8 +333,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				2976E1DA2626AD5C00272ADC /* Pulsar.swift in Sources */,
+				29A22D122626DC60000D9EAF /* CountdownTimerView.swift in Sources */,
+				29A22D182626DC60000D9EAF /* KombatKardContentView.swift in Sources */,
+				29A22CF92626D8C9000D9EAF /* LoadingRingsDemo.swift in Sources */,
+				29A22D522626E059000D9EAF /* Color+Extensions.swift in Sources */,
+				29A22D102626DC60000D9EAF /* KombatKardView.swift in Sources */,
 				2976E1C12626A45100272ADC /* ContentView.swift in Sources */,
+				29A22D3B2626DFF3000D9EAF /* ProgressBar.swift in Sources */,
+				29A22D1C2626DC60000D9EAF /* CountdownTimerViewModel.swift in Sources */,
 				2976E1BF2626A45100272ADC /* Game_UI_InspirationsApp.swift in Sources */,
+				29A22CFB2626D8C9000D9EAF /* MultipleVs.swift in Sources */,
+				29A22D3D2626DFF3000D9EAF /* GenshinImpactLoadingProgressBar.swift in Sources */,
+				29A22CF72626D8C9000D9EAF /* LoadingRingsView.swift in Sources */,
+				29A22D4D2626E041000D9EAF /* MinimapView.swift in Sources */,
+				29A22D492626E041000D9EAF /* MinimapViewModel.swift in Sources */,
+				29A22D472626E041000D9EAF /* MinimapDemo.swift in Sources */,
+				29A22D1A2626DC60000D9EAF /* MenuView.swift in Sources */,
+				29A22D042626D93A000D9EAF /* QuestDescriptionView.swift in Sources */,
+				29A22D4B2626E041000D9EAF /* MinimapModel.swift in Sources */,
+				29A22CFD2626D8C9000D9EAF /* ConsummateV.swift in Sources */,
+				29A22CF52626D8C9000D9EAF /* LoadingRingsViewModel.swift in Sources */,
+				29A22D162626DC60000D9EAF /* CountdownTimerDemo.swift in Sources */,
+				29A22D3F2626DFF3000D9EAF /* MaskedProgressBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,8 +363,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				2976E1DB2626AD5C00272ADC /* Pulsar.swift in Sources */,
+				29A22D132626DC60000D9EAF /* CountdownTimerView.swift in Sources */,
+				29A22D192626DC60000D9EAF /* KombatKardContentView.swift in Sources */,
+				29A22CFA2626D8C9000D9EAF /* LoadingRingsDemo.swift in Sources */,
+				29A22D532626E059000D9EAF /* Color+Extensions.swift in Sources */,
+				29A22D112626DC60000D9EAF /* KombatKardView.swift in Sources */,
 				2976E1C22626A45100272ADC /* ContentView.swift in Sources */,
+				29A22D3C2626DFF3000D9EAF /* ProgressBar.swift in Sources */,
+				29A22D1D2626DC60000D9EAF /* CountdownTimerViewModel.swift in Sources */,
 				2976E1C02626A45100272ADC /* Game_UI_InspirationsApp.swift in Sources */,
+				29A22CFC2626D8C9000D9EAF /* MultipleVs.swift in Sources */,
+				29A22D3E2626DFF3000D9EAF /* GenshinImpactLoadingProgressBar.swift in Sources */,
+				29A22CF82626D8C9000D9EAF /* LoadingRingsView.swift in Sources */,
+				29A22D4E2626E041000D9EAF /* MinimapView.swift in Sources */,
+				29A22D4A2626E041000D9EAF /* MinimapViewModel.swift in Sources */,
+				29A22D482626E041000D9EAF /* MinimapDemo.swift in Sources */,
+				29A22D1B2626DC60000D9EAF /* MenuView.swift in Sources */,
+				29A22D052626D93A000D9EAF /* QuestDescriptionView.swift in Sources */,
+				29A22D4C2626E041000D9EAF /* MinimapModel.swift in Sources */,
+				29A22CFE2626D8C9000D9EAF /* ConsummateV.swift in Sources */,
+				29A22CF62626D8C9000D9EAF /* LoadingRingsViewModel.swift in Sources */,
+				29A22D172626DC60000D9EAF /* CountdownTimerDemo.swift in Sources */,
+				29A22D402626DFF3000D9EAF /* MaskedProgressBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

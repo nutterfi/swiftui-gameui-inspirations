@@ -8,7 +8,7 @@
 import SwiftUI
 import Shapes
 
-struct ContentView: View {
+struct KombatKardContentView: View {
   @State private var cornerRadius: Float = 0
     var body: some View {
       VStack {
@@ -27,8 +27,8 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct KombatKardContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+      KombatKardContentView()
     }
 }

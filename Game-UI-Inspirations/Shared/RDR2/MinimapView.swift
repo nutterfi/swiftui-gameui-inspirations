@@ -9,7 +9,6 @@ import SwiftUI
 
 /**
  TODO:
- 1. make a shadow on each of the directional tick marks - DONE
  2. Make a map texture (Color for now)
  3. Add POI and NPC
  4. Oval-ish background
@@ -67,12 +66,12 @@ struct MinimapView: View {
                   .frame(width: dim / 10, height: dim / 10)
                   .offset(x: 0, y: -dim / 2 - 8)
                 
-                ForEach(0..<viewModel.npcs.count) { index in
-                  let npc = viewModel.npcs[index]
+                ForEach(0..<viewModel.entities.count) { index in
+                  let entity = viewModel.entities[index]
                   Circle()
                     .fill(Color.red)
                     .frame(width:10, height: 10)
-                    .offset(x: npc.position.x, y: npc.position.y)
+                    .offset(x: entity.position.x, y: entity.position.y)
                   
                 }
                 
@@ -80,6 +79,7 @@ struct MinimapView: View {
             )
             .overlay(
               // FIXME: Teardrop shape
+              // TODO: Opaque if riding a horse
               Circle()
                 .stroke(Color.black, lineWidth: 2)
                 .frame(width:10, height: 10)

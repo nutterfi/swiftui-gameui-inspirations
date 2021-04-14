@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  CountdownTimerDemo.swift
 //  mk11-countdown-timer
 //
 //  Created by nutterfi on 3/11/21.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct CountdownTimerDemo: View {
     var body: some View {
       VStack {
         CountdownTimerView()
@@ -21,8 +21,8 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct CountdownTimerDemo_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+      CountdownTimerDemo()
     }
 }

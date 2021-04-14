@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct MinimapDemo: View {
   @State private var rotation: CGFloat = 0
     var body: some View {
       VStack() {
@@ -22,8 +22,8 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct MinimapDemo_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+      MinimapDemo()
     }
 }

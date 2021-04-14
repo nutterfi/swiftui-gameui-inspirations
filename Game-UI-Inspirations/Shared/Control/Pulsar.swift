@@ -45,8 +45,11 @@ struct Pulsar: View {
 
 struct PulsatingTriangle_Previews: PreviewProvider {
   static var previews: some View {
-    Pulsar()
-      .frame(width: 300, height: 300, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-      .background(Color.black)
+    HStack {
+      Pulsar(duration: 0.5)
+      Pulsar(duration: 1.0)
+      Pulsar(duration: 10)
+    }
+    .background(Color.black)
   }
 }

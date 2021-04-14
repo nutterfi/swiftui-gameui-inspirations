@@ -1,13 +1,12 @@
 //
-//  ContentView.swift
-//  MaskedProgressBar
+//  GenshinImpactLoadingProgressBar.swift
 //
 //  Created by nutterfi on 2/15/21.
 //
 
 import SwiftUI
 
-struct ContentView: View {
+struct GenshinImpactLoadingProgressBar: View {
   @State var progress: Float = 0.0
   
     var body: some View {
@@ -38,8 +37,8 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct GenshinImpactLoadingProgressBar_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+      GenshinImpactLoadingProgressBar()
     }
 }

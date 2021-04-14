@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct LoadingRingsDemo: View {
   var body: some View {
     ZStack {
       Color.primary
@@ -18,8 +18,8 @@ struct ContentView: View {
   }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct LoadingRingsDemo_Previews: PreviewProvider {
   static var previews: some View {
-    ContentView()
+    LoadingRingsDemo()
   }
 }
