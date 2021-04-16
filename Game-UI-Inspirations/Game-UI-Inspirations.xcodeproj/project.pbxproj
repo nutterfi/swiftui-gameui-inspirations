@@ -23,8 +23,8 @@
 		29A22CF82626D8C9000D9EAF /* LoadingRingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22CF12626D8C9000D9EAF /* LoadingRingsView.swift */; };
 		29A22CF92626D8C9000D9EAF /* LoadingRingsDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22CF22626D8C9000D9EAF /* LoadingRingsDemo.swift */; };
 		29A22CFA2626D8C9000D9EAF /* LoadingRingsDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22CF22626D8C9000D9EAF /* LoadingRingsDemo.swift */; };
-		29A22CFB2626D8C9000D9EAF /* MultipleVs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22CF32626D8C9000D9EAF /* MultipleVs.swift */; };
-		29A22CFC2626D8C9000D9EAF /* MultipleVs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22CF32626D8C9000D9EAF /* MultipleVs.swift */; };
+		29A22CFB2626D8C9000D9EAF /* ConsummateVDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22CF32626D8C9000D9EAF /* ConsummateVDemo.swift */; };
+		29A22CFC2626D8C9000D9EAF /* ConsummateVDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22CF32626D8C9000D9EAF /* ConsummateVDemo.swift */; };
 		29A22CFD2626D8C9000D9EAF /* ConsummateV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22CF42626D8C9000D9EAF /* ConsummateV.swift */; };
 		29A22CFE2626D8C9000D9EAF /* ConsummateV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22CF42626D8C9000D9EAF /* ConsummateV.swift */; };
 		29A22D042626D93A000D9EAF /* QuestDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D032626D93A000D9EAF /* QuestDescriptionView.swift */; };
@@ -72,7 +72,7 @@
 		29A22CF02626D8C9000D9EAF /* LoadingRingsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingRingsViewModel.swift; sourceTree = "<group>"; };
 		29A22CF12626D8C9000D9EAF /* LoadingRingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingRingsView.swift; sourceTree = "<group>"; };
 		29A22CF22626D8C9000D9EAF /* LoadingRingsDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingRingsDemo.swift; sourceTree = "<group>"; };
-		29A22CF32626D8C9000D9EAF /* MultipleVs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipleVs.swift; sourceTree = "<group>"; };
+		29A22CF32626D8C9000D9EAF /* ConsummateVDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsummateVDemo.swift; sourceTree = "<group>"; };
 		29A22CF42626D8C9000D9EAF /* ConsummateV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsummateV.swift; sourceTree = "<group>"; };
 		29A22D032626D93A000D9EAF /* QuestDescriptionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestDescriptionView.swift; sourceTree = "<group>"; };
 		29A22D092626DC60000D9EAF /* KombatKardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KombatKardView.swift; sourceTree = "<group>"; };
@@ -178,7 +178,7 @@
 				29A22CF22626D8C9000D9EAF /* LoadingRingsDemo.swift */,
 				29A22CF12626D8C9000D9EAF /* LoadingRingsView.swift */,
 				29A22CF02626D8C9000D9EAF /* LoadingRingsViewModel.swift */,
-				29A22CF32626D8C9000D9EAF /* MultipleVs.swift */,
+				29A22CF32626D8C9000D9EAF /* ConsummateVDemo.swift */,
 				2976E1D92626AD5C00272ADC /* Pulsar.swift */,
 			);
 			path = Control;
@@ -342,7 +342,7 @@
 				29A22D3B2626DFF3000D9EAF /* ProgressBar.swift in Sources */,
 				29A22D1C2626DC60000D9EAF /* CountdownTimerViewModel.swift in Sources */,
 				2976E1BF2626A45100272ADC /* Game_UI_InspirationsApp.swift in Sources */,
-				29A22CFB2626D8C9000D9EAF /* MultipleVs.swift in Sources */,
+				29A22CFB2626D8C9000D9EAF /* ConsummateVDemo.swift in Sources */,
 				29A22D3D2626DFF3000D9EAF /* GenshinImpactLoadingProgressBar.swift in Sources */,
 				29A22CF72626D8C9000D9EAF /* LoadingRingsView.swift in Sources */,
 				29A22D4D2626E041000D9EAF /* MinimapView.swift in Sources */,
@@ -372,7 +372,7 @@
 				29A22D3C2626DFF3000D9EAF /* ProgressBar.swift in Sources */,
 				29A22D1D2626DC60000D9EAF /* CountdownTimerViewModel.swift in Sources */,
 				2976E1C02626A45100272ADC /* Game_UI_InspirationsApp.swift in Sources */,
-				29A22CFC2626D8C9000D9EAF /* MultipleVs.swift in Sources */,
+				29A22CFC2626D8C9000D9EAF /* ConsummateVDemo.swift in Sources */,
 				29A22D3E2626DFF3000D9EAF /* GenshinImpactLoadingProgressBar.swift in Sources */,
 				29A22CF82626D8C9000D9EAF /* LoadingRingsView.swift in Sources */,
 				29A22D4E2626E041000D9EAF /* MinimapView.swift in Sources */,

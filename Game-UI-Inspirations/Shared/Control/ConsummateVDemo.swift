@@ -1,5 +1,5 @@
 //
-//  MultipleVs.swift
+//  ConsummateVDemo.swift
 //  Control-Loading-Animations
 //
 //  Created by nutterfi on 3/4/21.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct MultipleVs: View {
+struct ConsummateVDemo: View {
     var body: some View {
       VStack {
         ConsummateV(count: 4, lineWidth: 1)
@@ -27,6 +27,6 @@ struct MultipleVs: View {
 
 struct MultipleVs_Previews: PreviewProvider {
     static var previews: some View {
-        MultipleVs()
+        ConsummateVDemo()
     }
 }
