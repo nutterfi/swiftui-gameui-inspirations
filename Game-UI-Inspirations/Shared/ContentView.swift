@@ -25,24 +25,54 @@ Each item in this list to have its own unique flair for the game that we are abo
 struct ContentView: View {
   @StateObject private var viewModel = ContentViewModel()
   
-  func destination(index: Int) -> some View {
-    MinimapDemo()
+  // TODO: Each game should have their own navigation list inside (e.g. Control we have multiple views so make a list in the style of each game)
+  func destination(for title: String) -> some View {
+    return ZStack {
+      switch title.lowercased() {
+      case "control":
+        QuestDescriptionView()
+      case "rdr2":
+        MinimapDemo()
+      case "mk11":
+        CountdownTimerDemo()
+      case "genshin impact":
+        GenshinImpactLoadingProgressBar()
+      default:
+        Circle().frame(width: .infinity, height: .infinity)
+          .overlay(
+            Text("ERROR\r\n Unknown Game Title")
+              .foregroundColor(.white)
+              .italic()
+          )
+          .padding()
+      }
+    }
+    
+  }
+  
+  func selectionView(for title: String) -> some View {
+    return ZStack {
+      switch title.lowercased() {
+      case "control":
+        ControlSelectionView()
+      default:
+        Text(title)
+        .font(.largeTitle)
+        .frame(maxWidth: .infinity)
+        .foregroundColor(.white)
+        .background(Color.blue)
+      }
+    }
   }
   
   var body: some View {
     NavigationView {
-      ZStack {
-        List(viewModel.titles, id: \.self) { data in
-          NavigationLink(destination: destination(index: 0)) {
-            Text(data)
-              .font(.largeTitle)
-              .frame(maxWidth: .infinity)
-              .foregroundColor(.white)
-              .background(Color.blue)
-          }
+      List(viewModel.titles, id: \.self) { data in
+        NavigationLink(destination: destination(for: data)) {
+          selectionView(for: data)
         }
-        .background(Color.purple)
       }
+      .foregroundColor(Color.purple)
       .navigationTitle("Games")
     }
   }

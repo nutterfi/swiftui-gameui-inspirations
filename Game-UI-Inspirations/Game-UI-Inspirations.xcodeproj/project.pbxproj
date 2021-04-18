@@ -57,6 +57,10 @@
 		29A22D4E2626E041000D9EAF /* MinimapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D462626E041000D9EAF /* MinimapView.swift */; };
 		29A22D522626E059000D9EAF /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D512626E059000D9EAF /* Color+Extensions.swift */; };
 		29A22D532626E059000D9EAF /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D512626E059000D9EAF /* Color+Extensions.swift */; };
+		29EB0A61262BEA570032E598 /* ControlSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EB0A60262BEA570032E598 /* ControlSelectionView.swift */; };
+		29EB0A62262BEA570032E598 /* ControlSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EB0A60262BEA570032E598 /* ControlSelectionView.swift */; };
+		29EB0A66262BF1D40032E598 /* ControlQuestMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EB0A65262BF1D40032E598 /* ControlQuestMarker.swift */; };
+		29EB0A67262BF1D40032E598 /* ControlQuestMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EB0A65262BF1D40032E598 /* ControlQuestMarker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -89,6 +93,8 @@
 		29A22D452626E041000D9EAF /* MinimapModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinimapModel.swift; sourceTree = "<group>"; };
 		29A22D462626E041000D9EAF /* MinimapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinimapView.swift; sourceTree = "<group>"; };
 		29A22D512626E059000D9EAF /* Color+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		29EB0A60262BEA570032E598 /* ControlSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlSelectionView.swift; sourceTree = "<group>"; };
+		29EB0A65262BF1D40032E598 /* ControlQuestMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlQuestMarker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +186,8 @@
 				29A22CF02626D8C9000D9EAF /* LoadingRingsViewModel.swift */,
 				29A22CF32626D8C9000D9EAF /* ConsummateVDemo.swift */,
 				2976E1D92626AD5C00272ADC /* Pulsar.swift */,
+				29EB0A60262BEA570032E598 /* ControlSelectionView.swift */,
+				29EB0A65262BF1D40032E598 /* ControlQuestMarker.swift */,
 			);
 			path = Control;
 			sourceTree = "<group>";
@@ -347,6 +355,8 @@
 				29A22CF72626D8C9000D9EAF /* LoadingRingsView.swift in Sources */,
 				29A22D4D2626E041000D9EAF /* MinimapView.swift in Sources */,
 				29A22D492626E041000D9EAF /* MinimapViewModel.swift in Sources */,
+				29EB0A66262BF1D40032E598 /* ControlQuestMarker.swift in Sources */,
+				29EB0A61262BEA570032E598 /* ControlSelectionView.swift in Sources */,
 				29A22D472626E041000D9EAF /* MinimapDemo.swift in Sources */,
 				29A22D1A2626DC60000D9EAF /* MenuView.swift in Sources */,
 				29A22D042626D93A000D9EAF /* QuestDescriptionView.swift in Sources */,
@@ -377,6 +387,8 @@
 				29A22CF82626D8C9000D9EAF /* LoadingRingsView.swift in Sources */,
 				29A22D4E2626E041000D9EAF /* MinimapView.swift in Sources */,
 				29A22D4A2626E041000D9EAF /* MinimapViewModel.swift in Sources */,
+				29EB0A67262BF1D40032E598 /* ControlQuestMarker.swift in Sources */,
+				29EB0A62262BEA570032E598 /* ControlSelectionView.swift in Sources */,
 				29A22D482626E041000D9EAF /* MinimapDemo.swift in Sources */,
 				29A22D1B2626DC60000D9EAF /* MenuView.swift in Sources */,
 				29A22D052626D93A000D9EAF /* QuestDescriptionView.swift in Sources */,
