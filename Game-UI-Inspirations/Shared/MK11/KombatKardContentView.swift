@@ -1,6 +1,5 @@
 //
-//  ContentView.swift
-//  MK11-KombatKard
+//  KombatKardContentView.swift
 //
 //  Created by nutterfi on 3/19/21.
 //

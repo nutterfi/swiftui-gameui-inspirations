@@ -1,28 +1,27 @@
 //
-//  CountdownTimerDemo.swift
-//  mk11-countdown-timer
+//  KountdownTimerDemo.swift
 //
 //  Created by nutterfi on 3/11/21.
 //
 
 import SwiftUI
 
-struct CountdownTimerDemo: View {
+struct KountdownTimerDemo: View {
     var body: some View {
       VStack {
-        CountdownTimerView()
+        KountdownTimerView()
           .frame(width: 100)
-        CountdownTimerView()
+        KountdownTimerView()
           .frame(width: 200)
-        CountdownTimerView()
+        KountdownTimerView()
           .frame(width: 50)
-        CountdownTimerView()
+        KountdownTimerView()
       }
     }
 }
 
 struct CountdownTimerDemo_Previews: PreviewProvider {
     static var previews: some View {
-      CountdownTimerDemo()
+      KountdownTimerDemo()
     }
 }

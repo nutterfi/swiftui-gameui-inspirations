@@ -1,14 +1,13 @@
 //
-//  CountdownTimerView.swift
-//  mk11-countdown-timer
+//  KountdownTimerView.swift
 //
 //  Created by nutterfi on 3/11/21.
 //
 
 import SwiftUI
 
-struct CountdownTimerView: View {
-  @StateObject private var viewModel = CountdownTimerViewModel()
+struct KountdownTimerView: View {
+  @StateObject private var viewModel = KountdownTimerViewModel()
   
     var body: some View {
       GeometryReader { proxy in
@@ -36,7 +35,7 @@ struct CountdownTimerView: View {
         }
         .frame(width: width, height: height)
       }
-      .border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
+      .border(Color.black)
     }
 }
 
@@ -44,7 +43,7 @@ struct CountdownTimerView_Previews: PreviewProvider {
     static var previews: some View {
       ZStack {
         Color.black
-        CountdownTimerView()
+        KountdownTimerView()
           .frame(width: 200, height: 200)
       }
     }

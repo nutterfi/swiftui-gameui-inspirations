@@ -1,6 +1,5 @@
 //
-//  CountdownTimerViewModel.swift
-//  mk11-countdown-timer
+//  KountdownTimerViewModel.swift
 //
 //  Created by nutterfi on 3/11/21.
 //
@@ -8,7 +7,7 @@
 import Foundation
 import Combine
 
-class CountdownTimerViewModel: ObservableObject {
+class KountdownTimerViewModel: ObservableObject {
   @Published private(set) var count: Int = 200
   
   private var timer: Timer?

@@ -34,7 +34,7 @@ struct ContentView: View {
       case "rdr2":
         MinimapDemo()
       case "mk11":
-        CountdownTimerDemo()
+        KountdownTimerDemo()
       case "genshin impact":
         GenshinImpactLoadingProgressBar()
       default:

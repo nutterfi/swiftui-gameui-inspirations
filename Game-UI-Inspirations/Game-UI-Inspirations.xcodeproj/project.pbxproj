@@ -31,16 +31,16 @@
 		29A22D052626D93A000D9EAF /* QuestDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D032626D93A000D9EAF /* QuestDescriptionView.swift */; };
 		29A22D102626DC60000D9EAF /* KombatKardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D092626DC60000D9EAF /* KombatKardView.swift */; };
 		29A22D112626DC60000D9EAF /* KombatKardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D092626DC60000D9EAF /* KombatKardView.swift */; };
-		29A22D122626DC60000D9EAF /* CountdownTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D0A2626DC60000D9EAF /* CountdownTimerView.swift */; };
-		29A22D132626DC60000D9EAF /* CountdownTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D0A2626DC60000D9EAF /* CountdownTimerView.swift */; };
-		29A22D162626DC60000D9EAF /* CountdownTimerDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D0C2626DC60000D9EAF /* CountdownTimerDemo.swift */; };
-		29A22D172626DC60000D9EAF /* CountdownTimerDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D0C2626DC60000D9EAF /* CountdownTimerDemo.swift */; };
+		29A22D122626DC60000D9EAF /* KountdownTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D0A2626DC60000D9EAF /* KountdownTimerView.swift */; };
+		29A22D132626DC60000D9EAF /* KountdownTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D0A2626DC60000D9EAF /* KountdownTimerView.swift */; };
+		29A22D162626DC60000D9EAF /* KountdownTimerDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D0C2626DC60000D9EAF /* KountdownTimerDemo.swift */; };
+		29A22D172626DC60000D9EAF /* KountdownTimerDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D0C2626DC60000D9EAF /* KountdownTimerDemo.swift */; };
 		29A22D182626DC60000D9EAF /* KombatKardContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D0D2626DC60000D9EAF /* KombatKardContentView.swift */; };
 		29A22D192626DC60000D9EAF /* KombatKardContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D0D2626DC60000D9EAF /* KombatKardContentView.swift */; };
 		29A22D1A2626DC60000D9EAF /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D0E2626DC60000D9EAF /* MenuView.swift */; };
 		29A22D1B2626DC60000D9EAF /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D0E2626DC60000D9EAF /* MenuView.swift */; };
-		29A22D1C2626DC60000D9EAF /* CountdownTimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D0F2626DC60000D9EAF /* CountdownTimerViewModel.swift */; };
-		29A22D1D2626DC60000D9EAF /* CountdownTimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D0F2626DC60000D9EAF /* CountdownTimerViewModel.swift */; };
+		29A22D1C2626DC60000D9EAF /* KountdownTimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D0F2626DC60000D9EAF /* KountdownTimerViewModel.swift */; };
+		29A22D1D2626DC60000D9EAF /* KountdownTimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D0F2626DC60000D9EAF /* KountdownTimerViewModel.swift */; };
 		29A22D3B2626DFF3000D9EAF /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D382626DFF3000D9EAF /* ProgressBar.swift */; };
 		29A22D3C2626DFF3000D9EAF /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D382626DFF3000D9EAF /* ProgressBar.swift */; };
 		29A22D3D2626DFF3000D9EAF /* GenshinImpactLoadingProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D392626DFF3000D9EAF /* GenshinImpactLoadingProgressBar.swift */; };
@@ -80,11 +80,11 @@
 		29A22CF42626D8C9000D9EAF /* ConsummateV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsummateV.swift; sourceTree = "<group>"; };
 		29A22D032626D93A000D9EAF /* QuestDescriptionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestDescriptionView.swift; sourceTree = "<group>"; };
 		29A22D092626DC60000D9EAF /* KombatKardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KombatKardView.swift; sourceTree = "<group>"; };
-		29A22D0A2626DC60000D9EAF /* CountdownTimerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountdownTimerView.swift; sourceTree = "<group>"; };
-		29A22D0C2626DC60000D9EAF /* CountdownTimerDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountdownTimerDemo.swift; sourceTree = "<group>"; };
+		29A22D0A2626DC60000D9EAF /* KountdownTimerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KountdownTimerView.swift; sourceTree = "<group>"; };
+		29A22D0C2626DC60000D9EAF /* KountdownTimerDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KountdownTimerDemo.swift; sourceTree = "<group>"; };
 		29A22D0D2626DC60000D9EAF /* KombatKardContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KombatKardContentView.swift; sourceTree = "<group>"; };
 		29A22D0E2626DC60000D9EAF /* MenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
-		29A22D0F2626DC60000D9EAF /* CountdownTimerViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountdownTimerViewModel.swift; sourceTree = "<group>"; };
+		29A22D0F2626DC60000D9EAF /* KountdownTimerViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KountdownTimerViewModel.swift; sourceTree = "<group>"; };
 		29A22D382626DFF3000D9EAF /* ProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
 		29A22D392626DFF3000D9EAF /* GenshinImpactLoadingProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenshinImpactLoadingProgressBar.swift; sourceTree = "<group>"; };
 		29A22D3A2626DFF3000D9EAF /* MaskedProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaskedProgressBar.swift; sourceTree = "<group>"; };
@@ -195,9 +195,9 @@
 		29A22CBB2626D279000D9EAF /* MK11 */ = {
 			isa = PBXGroup;
 			children = (
-				29A22D0C2626DC60000D9EAF /* CountdownTimerDemo.swift */,
-				29A22D0A2626DC60000D9EAF /* CountdownTimerView.swift */,
-				29A22D0F2626DC60000D9EAF /* CountdownTimerViewModel.swift */,
+				29A22D0C2626DC60000D9EAF /* KountdownTimerDemo.swift */,
+				29A22D0A2626DC60000D9EAF /* KountdownTimerView.swift */,
+				29A22D0F2626DC60000D9EAF /* KountdownTimerViewModel.swift */,
 				29A22D0D2626DC60000D9EAF /* KombatKardContentView.swift */,
 				29A22D092626DC60000D9EAF /* KombatKardView.swift */,
 				29A22D0E2626DC60000D9EAF /* MenuView.swift */,
@@ -341,14 +341,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2976E1DA2626AD5C00272ADC /* Pulsar.swift in Sources */,
-				29A22D122626DC60000D9EAF /* CountdownTimerView.swift in Sources */,
+				29A22D122626DC60000D9EAF /* KountdownTimerView.swift in Sources */,
 				29A22D182626DC60000D9EAF /* KombatKardContentView.swift in Sources */,
 				29A22CF92626D8C9000D9EAF /* LoadingRingsDemo.swift in Sources */,
 				29A22D522626E059000D9EAF /* Color+Extensions.swift in Sources */,
 				29A22D102626DC60000D9EAF /* KombatKardView.swift in Sources */,
 				2976E1C12626A45100272ADC /* ContentView.swift in Sources */,
 				29A22D3B2626DFF3000D9EAF /* ProgressBar.swift in Sources */,
-				29A22D1C2626DC60000D9EAF /* CountdownTimerViewModel.swift in Sources */,
+				29A22D1C2626DC60000D9EAF /* KountdownTimerViewModel.swift in Sources */,
 				2976E1BF2626A45100272ADC /* Game_UI_InspirationsApp.swift in Sources */,
 				29A22CFB2626D8C9000D9EAF /* ConsummateVDemo.swift in Sources */,
 				29A22D3D2626DFF3000D9EAF /* GenshinImpactLoadingProgressBar.swift in Sources */,
@@ -363,7 +363,7 @@
 				29A22D4B2626E041000D9EAF /* MinimapModel.swift in Sources */,
 				29A22CFD2626D8C9000D9EAF /* ConsummateV.swift in Sources */,
 				29A22CF52626D8C9000D9EAF /* LoadingRingsViewModel.swift in Sources */,
-				29A22D162626DC60000D9EAF /* CountdownTimerDemo.swift in Sources */,
+				29A22D162626DC60000D9EAF /* KountdownTimerDemo.swift in Sources */,
 				29A22D3F2626DFF3000D9EAF /* MaskedProgressBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -373,14 +373,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2976E1DB2626AD5C00272ADC /* Pulsar.swift in Sources */,
-				29A22D132626DC60000D9EAF /* CountdownTimerView.swift in Sources */,
+				29A22D132626DC60000D9EAF /* KountdownTimerView.swift in Sources */,
 				29A22D192626DC60000D9EAF /* KombatKardContentView.swift in Sources */,
 				29A22CFA2626D8C9000D9EAF /* LoadingRingsDemo.swift in Sources */,
 				29A22D532626E059000D9EAF /* Color+Extensions.swift in Sources */,
 				29A22D112626DC60000D9EAF /* KombatKardView.swift in Sources */,
 				2976E1C22626A45100272ADC /* ContentView.swift in Sources */,
 				29A22D3C2626DFF3000D9EAF /* ProgressBar.swift in Sources */,
-				29A22D1D2626DC60000D9EAF /* CountdownTimerViewModel.swift in Sources */,
+				29A22D1D2626DC60000D9EAF /* KountdownTimerViewModel.swift in Sources */,
 				2976E1C02626A45100272ADC /* Game_UI_InspirationsApp.swift in Sources */,
 				29A22CFC2626D8C9000D9EAF /* ConsummateVDemo.swift in Sources */,
 				29A22D3E2626DFF3000D9EAF /* GenshinImpactLoadingProgressBar.swift in Sources */,
@@ -395,7 +395,7 @@
 				29A22D4C2626E041000D9EAF /* MinimapModel.swift in Sources */,
 				29A22CFE2626D8C9000D9EAF /* ConsummateV.swift in Sources */,
 				29A22CF62626D8C9000D9EAF /* LoadingRingsViewModel.swift in Sources */,
-				29A22D172626DC60000D9EAF /* CountdownTimerDemo.swift in Sources */,
+				29A22D172626DC60000D9EAF /* KountdownTimerDemo.swift in Sources */,
 				29A22D402626DFF3000D9EAF /* MaskedProgressBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
