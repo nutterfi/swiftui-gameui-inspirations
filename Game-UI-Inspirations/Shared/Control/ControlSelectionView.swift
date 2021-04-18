@@ -17,7 +17,7 @@ struct ControlSelectionView: View {
           .kerning(-4)
           .foregroundColor(.white)
         }
-        .frame(width: width, height: proxy.size.height, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+        .frame(width: width, height: proxy.size.height)
         .background(Color.black)
       }
     }

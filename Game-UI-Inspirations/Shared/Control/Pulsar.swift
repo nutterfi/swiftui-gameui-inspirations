@@ -34,7 +34,7 @@ struct Pulsar: View {
           .frame(width: dim / 8, height: dim / 8)
           .rotationEffect(Angle(degrees: 90))
       }
-      .frame(width: proxy.size.width, height: proxy.size.height, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+      .frame(width: proxy.size.width, height: proxy.size.height)
       .onAppear {
         scale = 2
         opacity = 0

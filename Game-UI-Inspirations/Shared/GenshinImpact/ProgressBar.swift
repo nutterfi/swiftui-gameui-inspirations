@@ -32,7 +32,7 @@ struct ProgressBar_Previews: PreviewProvider {
           .previewLayout(.sizeThatFits)
           .frame(width: 200, height: 10)
         
-        ProgressBar(progress: 0.65, backView: Color.red, frontView: LinearGradient(gradient: Gradient(colors: [.white, .yellow]), startPoint: /*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/, endPoint: /*@START_MENU_TOKEN@*/.trailing/*@END_MENU_TOKEN@*/))
+        ProgressBar(progress: 0.65, backView: Color.red, frontView: LinearGradient(gradient: Gradient(colors: [.white, .yellow]), startPoint: .leading, endPoint: .trailing))
           .previewLayout(.sizeThatFits)
           .frame(width: 100, height: 25)
       }

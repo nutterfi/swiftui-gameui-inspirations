@@ -24,7 +24,7 @@ struct CountdownTimerView: View {
             .foregroundColor(.yellow)
             .overlay(
               Circle()
-                .frame(width: dim * 0.8, height: dim * 0.8, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                .frame(width: dim * 0.8, height: dim * 0.8)
                 .opacity(0.8)
                 .blur(radius: 10)
             )
@@ -45,7 +45,7 @@ struct CountdownTimerView_Previews: PreviewProvider {
       ZStack {
         Color.black
         CountdownTimerView()
-          .frame(width: 200, height: 200, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+          .frame(width: 200, height: 200)
       }
     }
 }
