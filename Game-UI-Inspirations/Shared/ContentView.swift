@@ -11,7 +11,7 @@ import Shapes
 class ContentViewModel: ObservableObject {
   @Published private(set) var titles: [String]
   init() {
-    titles = ["Control", "MK11", "Genshin Impact", "RDR2"]
+    titles = ["Control", "MK11", "Genshin Impact", "RDR2", "The Last of Us"]
   }
 }
 
@@ -37,6 +37,8 @@ struct ContentView: View {
         KountdownTimerDemo()
       case "genshin impact":
         GenshinImpactLoadingProgressBar()
+      case "the last of us":
+        TLOUIcon()
       default:
         Circle().frame(width: .infinity, height: .infinity)
           .overlay(

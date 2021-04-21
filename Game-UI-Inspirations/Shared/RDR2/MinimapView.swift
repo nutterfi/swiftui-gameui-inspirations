@@ -26,7 +26,7 @@ struct MinimapView: View {
         
         ZStack {
           Circle()
-            .fill(Color.rdr2map)
+            .fill(Color.rdr2Minimap)
             .frame(width: dim, height: dim)
           // Compass Markers
             .overlay(

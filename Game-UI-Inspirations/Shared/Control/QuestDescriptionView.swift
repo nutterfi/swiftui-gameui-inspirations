@@ -15,12 +15,6 @@ import SwiftUI
  Futura-CondensedExtraBold
  */
 
-extension Color {
-  static var controlYellow: Color {
-    Color(.sRGB, red: 1, green: 1, blue: 59.0/255, opacity: 1)
-  }
-}
-
 struct QuestDescriptionView: View {
   var body: some View {
     ZStack {
