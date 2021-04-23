@@ -17,12 +17,12 @@ struct DialogueMarker: View {
           Teardrop()
             .rotation(Angle(radians: .pi))
             .blur(radius: 5.0)
-            .frame(width: proxy.size.width, height: proxy.size.height, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+            .frame(width: proxy.size.width, height: proxy.size.height)
           
           Teardrop()
             .rotation(Angle(radians: .pi))
             .stroke(Color.tlouSecondary, lineWidth: 5)
-            .frame(width: proxy.size.width * inset, height: proxy.size.height * inset, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+            .frame(width: proxy.size.width * inset, height: proxy.size.height * inset)
           
           Crescent()
             .fill(Color.tlouSecondary)
@@ -52,7 +52,7 @@ struct DialogueMarker_Previews: PreviewProvider {
       ZStack {
         Color.blue.ignoresSafeArea()
         DialogueMarker()
-          .frame(width: 200, height: 180)
+          .frame(width: 100, height: 180)
       }
     }
 }
