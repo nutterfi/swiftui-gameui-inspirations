@@ -57,6 +57,9 @@ struct ContentView: View {
       switch title.lowercased() {
       case "control":
         ControlSelectionView()
+      case "mk11":
+        MK11SelectionView()
+          .frame(height: 120)
       default:
         Text(title)
         .font(.largeTitle)
@@ -74,7 +77,6 @@ struct ContentView: View {
           selectionView(for: data)
         }
       }
-      .foregroundColor(Color.purple)
       .navigationTitle("Games")
     }
   }
