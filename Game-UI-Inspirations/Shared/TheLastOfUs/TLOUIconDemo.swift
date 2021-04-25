@@ -11,10 +11,13 @@ struct TLOUIconDemo: View {
     var body: some View {
       VStack {
         TLOUIcon()
-          .frame(width: 100, height: 100, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+          .frame(width: 100, height: 100)
         
         DialogueMarker()
-          .frame(width: 100, height: 200, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+          .frame(width: 100, height: 200)
+        
+        FireflyPendant()
+          .frame(width: 150, height: 200)
       }
     }
 }
