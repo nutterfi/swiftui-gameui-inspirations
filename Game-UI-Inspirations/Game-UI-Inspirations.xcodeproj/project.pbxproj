@@ -25,8 +25,8 @@
 		2976E1D62626A61E00272ADC /* Shapes in Frameworks */ = {isa = PBXBuildFile; productRef = 2976E1D52626A61E00272ADC /* Shapes */; };
 		2976E1DA2626AD5C00272ADC /* Pulsar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2976E1D92626AD5C00272ADC /* Pulsar.swift */; };
 		2976E1DB2626AD5C00272ADC /* Pulsar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2976E1D92626AD5C00272ADC /* Pulsar.swift */; };
-		29813985263287BA00009D7B /* DialogueMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29813984263287BA00009D7B /* DialogueMarker.swift */; };
-		29813986263287BA00009D7B /* DialogueMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29813984263287BA00009D7B /* DialogueMarker.swift */; };
+		29813985263287BA00009D7B /* POIMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29813984263287BA00009D7B /* POIMarker.swift */; };
+		29813986263287BA00009D7B /* POIMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29813984263287BA00009D7B /* POIMarker.swift */; };
 		29922AC82633D270002469C2 /* MK11SelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29922AC72633D270002469C2 /* MK11SelectionView.swift */; };
 		29922AC92633D270002469C2 /* MK11SelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29922AC72633D270002469C2 /* MK11SelectionView.swift */; };
 		29922ACD2633D2FA002469C2 /* MK11Left.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29922ACC2633D2FA002469C2 /* MK11Left.swift */; };
@@ -93,7 +93,7 @@
 		2976E1BD2626A45000272ADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2976E1BE2626A45000272ADC /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		2976E1D92626AD5C00272ADC /* Pulsar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pulsar.swift; sourceTree = "<group>"; };
-		29813984263287BA00009D7B /* DialogueMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogueMarker.swift; sourceTree = "<group>"; };
+		29813984263287BA00009D7B /* POIMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POIMarker.swift; sourceTree = "<group>"; };
 		29922AC72633D270002469C2 /* MK11SelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MK11SelectionView.swift; sourceTree = "<group>"; };
 		29922ACC2633D2FA002469C2 /* MK11Left.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MK11Left.swift; sourceTree = "<group>"; };
 		29A22CF02626D8C9000D9EAF /* LoadingRingsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingRingsViewModel.swift; sourceTree = "<group>"; };
@@ -265,7 +265,7 @@
 			isa = PBXGroup;
 			children = (
 				29B44137262FDF2A00E442A6 /* TLOUIcon.swift */,
-				29813984263287BA00009D7B /* DialogueMarker.swift */,
+				29813984263287BA00009D7B /* POIMarker.swift */,
 				294FF9472632AE300057869B /* TLOUIconDemo.swift */,
 				2926BCED2635225100CEDC7E /* FireflyPendant.swift */,
 				2926BCF22635260D00CEDC7E /* FireflyWing.swift */,
@@ -389,7 +389,7 @@
 				29A22D522626E059000D9EAF /* Color+Extensions.swift in Sources */,
 				29A22D102626DC60000D9EAF /* KombatKardView.swift in Sources */,
 				2976E1C12626A45100272ADC /* ContentView.swift in Sources */,
-				29813985263287BA00009D7B /* DialogueMarker.swift in Sources */,
+				29813985263287BA00009D7B /* POIMarker.swift in Sources */,
 				29A22D3B2626DFF3000D9EAF /* ProgressBar.swift in Sources */,
 				29A22D1C2626DC60000D9EAF /* KountdownTimerViewModel.swift in Sources */,
 				2976E1BF2626A45100272ADC /* Game_UI_InspirationsApp.swift in Sources */,
@@ -429,7 +429,7 @@
 				29A22D532626E059000D9EAF /* Color+Extensions.swift in Sources */,
 				29A22D112626DC60000D9EAF /* KombatKardView.swift in Sources */,
 				2976E1C22626A45100272ADC /* ContentView.swift in Sources */,
-				29813986263287BA00009D7B /* DialogueMarker.swift in Sources */,
+				29813986263287BA00009D7B /* POIMarker.swift in Sources */,
 				29A22D3C2626DFF3000D9EAF /* ProgressBar.swift in Sources */,
 				29A22D1D2626DC60000D9EAF /* KountdownTimerViewModel.swift in Sources */,
 				2976E1C02626A45100272ADC /* Game_UI_InspirationsApp.swift in Sources */,
