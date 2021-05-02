@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		291026FF263E62EE00418FE1 /* BoonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291026FE263E62EE00418FE1 /* BoonView.swift */; };
+		29102700263E62EE00418FE1 /* BoonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291026FE263E62EE00418FE1 /* BoonView.swift */; };
+		29102706263E673300418FE1 /* ZeusBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29102705263E673300418FE1 /* ZeusBoon.swift */; };
+		29102707263E673300418FE1 /* ZeusBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29102705263E673300418FE1 /* ZeusBoon.swift */; };
+		2910270B263E6DAC00418FE1 /* PoseidonBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2910270A263E6DAC00418FE1 /* PoseidonBoon.swift */; };
+		2910270C263E6DAC00418FE1 /* PoseidonBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2910270A263E6DAC00418FE1 /* PoseidonBoon.swift */; };
 		2926BCEE2635225100CEDC7E /* FireflyPendant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2926BCED2635225100CEDC7E /* FireflyPendant.swift */; };
 		2926BCEF2635225100CEDC7E /* FireflyPendant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2926BCED2635225100CEDC7E /* FireflyPendant.swift */; };
 		2926BCF32635260D00CEDC7E /* FireflyWing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2926BCF22635260D00CEDC7E /* FireflyWing.swift */; };
@@ -82,6 +88,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		291026FE263E62EE00418FE1 /* BoonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoonView.swift; sourceTree = "<group>"; };
+		29102705263E673300418FE1 /* ZeusBoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusBoon.swift; sourceTree = "<group>"; };
+		2910270A263E6DAC00418FE1 /* PoseidonBoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoseidonBoon.swift; sourceTree = "<group>"; };
 		2926BCED2635225100CEDC7E /* FireflyPendant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireflyPendant.swift; sourceTree = "<group>"; };
 		2926BCF22635260D00CEDC7E /* FireflyWing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireflyWing.swift; sourceTree = "<group>"; };
 		2926BCF7263529D400CEDC7E /* FireflyTail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireflyTail.swift; sourceTree = "<group>"; };
@@ -144,6 +153,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		291026FD263E62BC00418FE1 /* Hades */ = {
+			isa = PBXGroup;
+			children = (
+				291026FE263E62EE00418FE1 /* BoonView.swift */,
+				29102705263E673300418FE1 /* ZeusBoon.swift */,
+				2910270A263E6DAC00418FE1 /* PoseidonBoon.swift */,
+			);
+			path = Hades;
+			sourceTree = "<group>";
+		};
 		2976E1A62626A44F00272ADC = {
 			isa = PBXGroup;
 			children = (
@@ -158,6 +177,7 @@
 		2976E1AB2626A45000272ADC /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				291026FD263E62BC00418FE1 /* Hades */,
 				29A22D082626DA50000D9EAF /* Extensions */,
 				29B44134262FDE7C00E442A6 /* TheLastOfUs */,
 				29A22CBD2626D288000D9EAF /* GenshinImpact */,
@@ -394,8 +414,10 @@
 				29A22D102626DC60000D9EAF /* KombatKardView.swift in Sources */,
 				2976E1C12626A45100272ADC /* ContentView.swift in Sources */,
 				29813985263287BA00009D7B /* POIMarker.swift in Sources */,
+				29102706263E673300418FE1 /* ZeusBoon.swift in Sources */,
 				29A22D3B2626DFF3000D9EAF /* ProgressBar.swift in Sources */,
 				29A22D1C2626DC60000D9EAF /* KountdownTimerViewModel.swift in Sources */,
+				291026FF263E62EE00418FE1 /* BoonView.swift in Sources */,
 				2976E1BF2626A45100272ADC /* Game_UI_InspirationsApp.swift in Sources */,
 				294FF9482632AE300057869B /* TLOUIconDemo.swift in Sources */,
 				29A22CFB2626D8C9000D9EAF /* ConsummateVDemo.swift in Sources */,
@@ -408,6 +430,7 @@
 				2926BCEE2635225100CEDC7E /* FireflyPendant.swift in Sources */,
 				29A22D492626E041000D9EAF /* MinimapViewModel.swift in Sources */,
 				29EB0A66262BF1D40032E598 /* ControlQuestMarker.swift in Sources */,
+				2910270B263E6DAC00418FE1 /* PoseidonBoon.swift in Sources */,
 				29B44138262FDF2A00E442A6 /* TLOUIcon.swift in Sources */,
 				29EB0A61262BEA570032E598 /* ControlSelectionView.swift in Sources */,
 				29A22D472626E041000D9EAF /* MinimapDemo.swift in Sources */,
@@ -435,8 +458,10 @@
 				29A22D112626DC60000D9EAF /* KombatKardView.swift in Sources */,
 				2976E1C22626A45100272ADC /* ContentView.swift in Sources */,
 				29813986263287BA00009D7B /* POIMarker.swift in Sources */,
+				29102707263E673300418FE1 /* ZeusBoon.swift in Sources */,
 				29A22D3C2626DFF3000D9EAF /* ProgressBar.swift in Sources */,
 				29A22D1D2626DC60000D9EAF /* KountdownTimerViewModel.swift in Sources */,
+				29102700263E62EE00418FE1 /* BoonView.swift in Sources */,
 				2976E1C02626A45100272ADC /* Game_UI_InspirationsApp.swift in Sources */,
 				294FF9492632AE300057869B /* TLOUIconDemo.swift in Sources */,
 				29A22CFC2626D8C9000D9EAF /* ConsummateVDemo.swift in Sources */,
@@ -449,6 +474,7 @@
 				2926BCEF2635225100CEDC7E /* FireflyPendant.swift in Sources */,
 				29A22D4A2626E041000D9EAF /* MinimapViewModel.swift in Sources */,
 				29EB0A67262BF1D40032E598 /* ControlQuestMarker.swift in Sources */,
+				2910270C263E6DAC00418FE1 /* PoseidonBoon.swift in Sources */,
 				29B44139262FDF2A00E442A6 /* TLOUIcon.swift in Sources */,
 				29EB0A62262BEA570032E598 /* ControlSelectionView.swift in Sources */,
 				29A22D482626E041000D9EAF /* MinimapDemo.swift in Sources */,
