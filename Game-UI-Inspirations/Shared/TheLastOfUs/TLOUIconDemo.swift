@@ -10,8 +10,13 @@ import SwiftUI
 struct TLOUIconDemo: View {
   var body: some View {
     VStack {
-      TLOUIcon()
-        .frame(width: 100, height: 100)
+      
+      HStack {
+        TLOUSkillsIcon(pointsAvailable: true)
+          .frame(width: 100, height: 100)
+        TLOUIcon()
+          .frame(width: 100, height: 100)
+      }
       
       HStack {
         POIMarker(markerType: POIMarkerType.dialogue)

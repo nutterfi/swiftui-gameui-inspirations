@@ -14,7 +14,7 @@ struct TLOUIcon: View {
         let dim = min(proxy.size.width, proxy.size.height)
         ZStack {
           Rectangle()
-            .stroke(Color.gray, lineWidth: 5)
+            .stroke(Color.gray, lineWidth: dim / 30)
             .frame(width: dim, height: dim)
           DoubleTeardrop()
             .frame(width: dim * 0.85, height: dim * 0.85)

@@ -79,6 +79,8 @@
 		29A22D4E2626E041000D9EAF /* MinimapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D462626E041000D9EAF /* MinimapView.swift */; };
 		29A22D522626E059000D9EAF /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D512626E059000D9EAF /* Color+Extensions.swift */; };
 		29A22D532626E059000D9EAF /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D512626E059000D9EAF /* Color+Extensions.swift */; };
+		29ACEC2B2642522C00DAE394 /* TLOUSkillsIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29ACEC2A2642522C00DAE394 /* TLOUSkillsIcon.swift */; };
+		29ACEC2C2642522C00DAE394 /* TLOUSkillsIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29ACEC2A2642522C00DAE394 /* TLOUSkillsIcon.swift */; };
 		29B44138262FDF2A00E442A6 /* TLOUIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B44137262FDF2A00E442A6 /* TLOUIcon.swift */; };
 		29B44139262FDF2A00E442A6 /* TLOUIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B44137262FDF2A00E442A6 /* TLOUIcon.swift */; };
 		29EB0A61262BEA570032E598 /* ControlSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EB0A60262BEA570032E598 /* ControlSelectionView.swift */; };
@@ -128,6 +130,7 @@
 		29A22D452626E041000D9EAF /* MinimapModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinimapModel.swift; sourceTree = "<group>"; };
 		29A22D462626E041000D9EAF /* MinimapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinimapView.swift; sourceTree = "<group>"; };
 		29A22D512626E059000D9EAF /* Color+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		29ACEC2A2642522C00DAE394 /* TLOUSkillsIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLOUSkillsIcon.swift; sourceTree = "<group>"; };
 		29B44137262FDF2A00E442A6 /* TLOUIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLOUIcon.swift; sourceTree = "<group>"; };
 		29EB0A60262BEA570032E598 /* ControlSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlSelectionView.swift; sourceTree = "<group>"; };
 		29EB0A65262BF1D40032E598 /* ControlQuestMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlQuestMarker.swift; sourceTree = "<group>"; };
@@ -177,6 +180,8 @@
 		2976E1AB2626A45000272ADC /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				29A22D3A2626DFF3000D9EAF /* MaskedProgressBar.swift */,
+				29A22D382626DFF3000D9EAF /* ProgressBar.swift */,
 				291026FD263E62BC00418FE1 /* Hades */,
 				29A22D082626DA50000D9EAF /* Extensions */,
 				29B44134262FDE7C00E442A6 /* TheLastOfUs */,
@@ -271,8 +276,6 @@
 			isa = PBXGroup;
 			children = (
 				29A22D392626DFF3000D9EAF /* GenshinImpactLoadingProgressBar.swift */,
-				29A22D3A2626DFF3000D9EAF /* MaskedProgressBar.swift */,
-				29A22D382626DFF3000D9EAF /* ProgressBar.swift */,
 			);
 			path = GenshinImpact;
 			sourceTree = "<group>";
@@ -294,6 +297,7 @@
 				2926BCED2635225100CEDC7E /* FireflyPendant.swift */,
 				2926BCF22635260D00CEDC7E /* FireflyWing.swift */,
 				2926BCF7263529D400CEDC7E /* FireflyTail.swift */,
+				29ACEC2A2642522C00DAE394 /* TLOUSkillsIcon.swift */,
 			);
 			path = TheLastOfUs;
 			sourceTree = "<group>";
@@ -434,6 +438,7 @@
 				29B44138262FDF2A00E442A6 /* TLOUIcon.swift in Sources */,
 				29EB0A61262BEA570032E598 /* ControlSelectionView.swift in Sources */,
 				29A22D472626E041000D9EAF /* MinimapDemo.swift in Sources */,
+				29ACEC2B2642522C00DAE394 /* TLOUSkillsIcon.swift in Sources */,
 				29A22D1A2626DC60000D9EAF /* MenuView.swift in Sources */,
 				29A22D042626D93A000D9EAF /* QuestDescriptionView.swift in Sources */,
 				29A22D4B2626E041000D9EAF /* MinimapModel.swift in Sources */,
@@ -478,6 +483,7 @@
 				29B44139262FDF2A00E442A6 /* TLOUIcon.swift in Sources */,
 				29EB0A62262BEA570032E598 /* ControlSelectionView.swift in Sources */,
 				29A22D482626E041000D9EAF /* MinimapDemo.swift in Sources */,
+				29ACEC2C2642522C00DAE394 /* TLOUSkillsIcon.swift in Sources */,
 				29A22D1B2626DC60000D9EAF /* MenuView.swift in Sources */,
 				29A22D052626D93A000D9EAF /* QuestDescriptionView.swift in Sources */,
 				29A22D4C2626E041000D9EAF /* MinimapModel.swift in Sources */,
