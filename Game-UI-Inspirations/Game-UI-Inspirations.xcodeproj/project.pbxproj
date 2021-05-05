@@ -182,6 +182,7 @@
 			children = (
 				29A22D3A2626DFF3000D9EAF /* MaskedProgressBar.swift */,
 				29A22D382626DFF3000D9EAF /* ProgressBar.swift */,
+				29816B6B263BBF1E0016F1BA /* Rustify.swift */,
 				291026FD263E62BC00418FE1 /* Hades */,
 				29A22D082626DA50000D9EAF /* Extensions */,
 				29B44134262FDE7C00E442A6 /* TheLastOfUs */,
@@ -192,7 +193,6 @@
 				2976E1AC2626A45000272ADC /* Game_UI_InspirationsApp.swift */,
 				2976E1AD2626A45000272ADC /* ContentView.swift */,
 				2976E1AE2626A45000272ADC /* Assets.xcassets */,
-				29816B6B263BBF1E0016F1BA /* Rustify.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";

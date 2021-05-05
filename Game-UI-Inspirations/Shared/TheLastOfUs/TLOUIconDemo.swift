@@ -14,6 +14,10 @@ struct TLOUIconDemo: View {
       HStack {
         TLOUSkillsIcon(pointsAvailable: true)
           .frame(width: 100, height: 100)
+        
+        TLOUSkillsIcon(pointsAvailable: false)
+          .frame(width: 100, height: 100)
+        
         TLOUIcon()
           .frame(width: 100, height: 100)
       }
