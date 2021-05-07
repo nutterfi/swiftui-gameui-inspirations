@@ -62,7 +62,7 @@ struct SkillSelectionRow: View {
             }
             Spacer()
           }
-          .offset(x: /*@START_MENU_TOKEN@*/10.0/*@END_MENU_TOKEN@*/, y: 0)
+          .offset(x: 10.0, y: 0)
           
         }
         

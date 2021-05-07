@@ -28,7 +28,7 @@ struct TLOUIcon: View {
             .frame(width: dim * 0.5, height: dim * 0.5)
             .foregroundColor(.tlouSecondary)
         }
-        .background(Color(red: 46.0/255, green: 47.0/255, blue: 45.0/255, opacity: 1))
+        .background(Color(red: 46.0/255, green: 47.0/255, blue: 45.0/255))
         .frame(width: proxy.size.width, height: proxy.size.height)
       }
     }

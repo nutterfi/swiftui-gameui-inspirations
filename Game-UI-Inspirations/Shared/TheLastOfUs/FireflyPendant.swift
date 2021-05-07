@@ -17,6 +17,7 @@ struct FireflyDemo: View {
       FireflyPendant(control: control, rustStyle: RustifyStyle.two)
       FireflyPendant(control: control, rustStyle: RustifyStyle.three)
     }
+    .padding()
   }
   
 }
@@ -38,21 +39,7 @@ struct FireflyPendant: View {
             .fill(Color.black)
             .frame(width: dim * 0.07)
             .offset(x: 0, y: -dim * 0.35)
-          HStack {
-            FireflyWing()
-            FireflyWing()
-              .scale(x: -1, y: 1)
-          }
-          .frame(width: dim * 0.75, height: dim * 0.25)
-          .offset(x: 0, y: -dim * 0.1)
-          
-          HStack {
-            FireflyTail()
-            FireflyTail()
-              .scale(x: -1, y: 1)
-          }
-          .frame(width: dim * 0.2, height: dim * 0.4)
-          .offset(x: 0, y: dim * 0.13)
+          FireflySymbol()
         }
         .frame(width: proxy.size.width, height: proxy.size.height)
         .overlay(

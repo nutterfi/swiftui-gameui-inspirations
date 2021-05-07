@@ -19,7 +19,7 @@ struct TLOUSkillsIcon: View {
         RadialGradient(gradient: Gradient(colors: [ Color.black.opacity(0.7), Color.gray.opacity(0.7)]), center: .center, startRadius: dim * 0.5 * 0.4, endRadius: dim)
           .frame(width: dim, height: dim)
         
-        SkillVitamin(color: pointsAvailable ? Color.tlouYellow : Color.white)
+        SkillVitamin(color: pointsAvailable ? .tlouYellow : .white)
           .frame(width: scaleFactor * dim, height: scaleFactor * dim)
           .offset(x: 0, y: dim / 12)
         
