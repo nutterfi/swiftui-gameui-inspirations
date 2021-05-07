@@ -19,16 +19,9 @@ struct TLOUSkillsIcon: View {
         RadialGradient(gradient: Gradient(colors: [ Color.black.opacity(0.7), Color.gray.opacity(0.7)]), center: .center, startRadius: dim * 0.5 * 0.4, endRadius: dim)
           .frame(width: dim, height: dim)
         
-        // Skill Pill
-        MaskedProgressBar(progress: 0.5, backView: Color.clear, frontView: pointsAvailable ? Color.tlouYellow : Color.white, mask: Capsule())
-          .frame(width: scaleFactor * dim * 0.7, height: scaleFactor * dim * 0.3)
-          .overlay(
-            Capsule()
-              .stroke(pointsAvailable ? Color.tlouYellow : Color.white, lineWidth: dim / 30)
-          )
-          .rotationEffect(Angle(degrees: -25))
+        SkillVitamin(color: pointsAvailable ? Color.tlouYellow : Color.white)
+          .frame(width: scaleFactor * dim, height: scaleFactor * dim)
           .offset(x: 0, y: dim / 12)
-        
         
         Rectangle()
           .stroke(Color.gray, lineWidth: dim / 30)

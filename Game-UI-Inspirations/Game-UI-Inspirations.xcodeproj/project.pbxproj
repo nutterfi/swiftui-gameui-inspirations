@@ -83,6 +83,10 @@
 		29ACEC2C2642522C00DAE394 /* TLOUSkillsIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29ACEC2A2642522C00DAE394 /* TLOUSkillsIcon.swift */; };
 		29B44138262FDF2A00E442A6 /* TLOUIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B44137262FDF2A00E442A6 /* TLOUIcon.swift */; };
 		29B44139262FDF2A00E442A6 /* TLOUIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B44137262FDF2A00E442A6 /* TLOUIcon.swift */; };
+		29D3FAB62644F4B000B6A02F /* SkillVitamin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D3FAB52644F4B000B6A02F /* SkillVitamin.swift */; };
+		29D3FAB72644F4B000B6A02F /* SkillVitamin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D3FAB52644F4B000B6A02F /* SkillVitamin.swift */; };
+		29D3FABB2644F6C500B6A02F /* SkillSelectionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D3FABA2644F6C500B6A02F /* SkillSelectionRow.swift */; };
+		29D3FABC2644F6C500B6A02F /* SkillSelectionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D3FABA2644F6C500B6A02F /* SkillSelectionRow.swift */; };
 		29EB0A61262BEA570032E598 /* ControlSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EB0A60262BEA570032E598 /* ControlSelectionView.swift */; };
 		29EB0A62262BEA570032E598 /* ControlSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EB0A60262BEA570032E598 /* ControlSelectionView.swift */; };
 		29EB0A66262BF1D40032E598 /* ControlQuestMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EB0A65262BF1D40032E598 /* ControlQuestMarker.swift */; };
@@ -132,6 +136,8 @@
 		29A22D512626E059000D9EAF /* Color+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 		29ACEC2A2642522C00DAE394 /* TLOUSkillsIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLOUSkillsIcon.swift; sourceTree = "<group>"; };
 		29B44137262FDF2A00E442A6 /* TLOUIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLOUIcon.swift; sourceTree = "<group>"; };
+		29D3FAB52644F4B000B6A02F /* SkillVitamin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillVitamin.swift; sourceTree = "<group>"; };
+		29D3FABA2644F6C500B6A02F /* SkillSelectionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillSelectionRow.swift; sourceTree = "<group>"; };
 		29EB0A60262BEA570032E598 /* ControlSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlSelectionView.swift; sourceTree = "<group>"; };
 		29EB0A65262BF1D40032E598 /* ControlQuestMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlQuestMarker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -298,6 +304,8 @@
 				2926BCF22635260D00CEDC7E /* FireflyWing.swift */,
 				2926BCF7263529D400CEDC7E /* FireflyTail.swift */,
 				29ACEC2A2642522C00DAE394 /* TLOUSkillsIcon.swift */,
+				29D3FAB52644F4B000B6A02F /* SkillVitamin.swift */,
+				29D3FABA2644F6C500B6A02F /* SkillSelectionRow.swift */,
 			);
 			path = TheLastOfUs;
 			sourceTree = "<group>";
@@ -445,7 +453,9 @@
 				29A22CFD2626D8C9000D9EAF /* ConsummateV.swift in Sources */,
 				29A22CF52626D8C9000D9EAF /* LoadingRingsViewModel.swift in Sources */,
 				29A22D162626DC60000D9EAF /* KountdownTimerDemo.swift in Sources */,
+				29D3FAB62644F4B000B6A02F /* SkillVitamin.swift in Sources */,
 				29A22D3F2626DFF3000D9EAF /* MaskedProgressBar.swift in Sources */,
+				29D3FABB2644F6C500B6A02F /* SkillSelectionRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,7 +500,9 @@
 				29A22CFE2626D8C9000D9EAF /* ConsummateV.swift in Sources */,
 				29A22CF62626D8C9000D9EAF /* LoadingRingsViewModel.swift in Sources */,
 				29A22D172626DC60000D9EAF /* KountdownTimerDemo.swift in Sources */,
+				29D3FAB72644F4B000B6A02F /* SkillVitamin.swift in Sources */,
 				29A22D402626DFF3000D9EAF /* MaskedProgressBar.swift in Sources */,
+				29D3FABC2644F6C500B6A02F /* SkillSelectionRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
