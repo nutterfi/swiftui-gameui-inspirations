@@ -16,12 +16,9 @@ struct SkillIcon: View {
         Circle()
           .stroke(Color.white, lineWidth: 3)
           .background(Circle().foregroundColor(.black))
-        
-        Image(systemName: icon)
-          .resizable()
-          .scaledToFit()
-          .foregroundColor(.white)
-          .frame(width: dim * 0.7, height: dim * 0.7)
+        // TODO: Replace hardcoded skill
+        SkillMaxHealth()
+          .frame(width: dim * 0.7, height: dim * 0.6)
       }
       .frame(width: proxy.size.width, height: proxy.size.height)
     }

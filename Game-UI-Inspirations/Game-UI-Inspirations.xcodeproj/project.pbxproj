@@ -33,6 +33,8 @@
 		2976E1D62626A61E00272ADC /* Shapes in Frameworks */ = {isa = PBXBuildFile; productRef = 2976E1D52626A61E00272ADC /* Shapes */; };
 		2976E1DA2626AD5C00272ADC /* Pulsar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2976E1D92626AD5C00272ADC /* Pulsar.swift */; };
 		2976E1DB2626AD5C00272ADC /* Pulsar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2976E1D92626AD5C00272ADC /* Pulsar.swift */; };
+		29801ACB2647A0320010B4C8 /* SkillMaxHealth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29801ACA2647A0320010B4C8 /* SkillMaxHealth.swift */; };
+		29801ACC2647A0320010B4C8 /* SkillMaxHealth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29801ACA2647A0320010B4C8 /* SkillMaxHealth.swift */; };
 		29813985263287BA00009D7B /* POIMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29813984263287BA00009D7B /* POIMarker.swift */; };
 		29813986263287BA00009D7B /* POIMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29813984263287BA00009D7B /* POIMarker.swift */; };
 		29816B6C263BBF1E0016F1BA /* Rustify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29816B6B263BBF1E0016F1BA /* Rustify.swift */; };
@@ -113,6 +115,7 @@
 		2976E1BD2626A45000272ADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2976E1BE2626A45000272ADC /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		2976E1D92626AD5C00272ADC /* Pulsar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pulsar.swift; sourceTree = "<group>"; };
+		29801ACA2647A0320010B4C8 /* SkillMaxHealth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillMaxHealth.swift; sourceTree = "<group>"; };
 		29813984263287BA00009D7B /* POIMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POIMarker.swift; sourceTree = "<group>"; };
 		29816B6B263BBF1E0016F1BA /* Rustify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rustify.swift; sourceTree = "<group>"; };
 		29922AC72633D270002469C2 /* MK11SelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MK11SelectionView.swift; sourceTree = "<group>"; };
@@ -318,6 +321,7 @@
 				29ACEC2A2642522C00DAE394 /* TLOUSkillsIcon.swift */,
 				29D3FAB52644F4B000B6A02F /* SkillVitamin.swift */,
 				29D3FABA2644F6C500B6A02F /* SkillSelectionRow.swift */,
+				29801ACA2647A0320010B4C8 /* SkillMaxHealth.swift */,
 			);
 			path = TheLastOfUs;
 			sourceTree = "<group>";
@@ -434,6 +438,7 @@
 				29A22D182626DC60000D9EAF /* KombatKardContentView.swift in Sources */,
 				29922ACD2633D2FA002469C2 /* MK11Left.swift in Sources */,
 				29A22CF92626D8C9000D9EAF /* LoadingRingsDemo.swift in Sources */,
+				29801ACB2647A0320010B4C8 /* SkillMaxHealth.swift in Sources */,
 				29A22D522626E059000D9EAF /* Color+Extensions.swift in Sources */,
 				29A22D102626DC60000D9EAF /* KombatKardView.swift in Sources */,
 				2976E1C12626A45100272ADC /* ContentView.swift in Sources */,
@@ -482,6 +487,7 @@
 				29A22D192626DC60000D9EAF /* KombatKardContentView.swift in Sources */,
 				29922ACE2633D2FA002469C2 /* MK11Left.swift in Sources */,
 				29A22CFA2626D8C9000D9EAF /* LoadingRingsDemo.swift in Sources */,
+				29801ACC2647A0320010B4C8 /* SkillMaxHealth.swift in Sources */,
 				29A22D532626E059000D9EAF /* Color+Extensions.swift in Sources */,
 				29A22D112626DC60000D9EAF /* KombatKardView.swift in Sources */,
 				2976E1C22626A45100272ADC /* ContentView.swift in Sources */,
