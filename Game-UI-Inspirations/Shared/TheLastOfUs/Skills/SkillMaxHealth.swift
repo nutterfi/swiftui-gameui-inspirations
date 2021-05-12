@@ -17,13 +17,13 @@ struct SkillMaxHealth: View {
       ZStack {
         Heart()
           .fill(primary)
-          .frame(width: dim, height: dim)
+          .frame(width: dim * 0.7, height: dim * 0.7)
         
         secondary
-          .frame(width: dim / 3, height: dim / 10, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+          .frame(width: dim / 3, height: dim / 10)
         
         secondary
-          .frame(width: dim / 10, height: dim / 3, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+          .frame(width: dim / 10, height: dim / 3)
       }
       .frame(width: proxy.size.width, height: proxy.size.height)
     }
@@ -35,7 +35,7 @@ struct SkillMaxHealth_Previews: PreviewProvider {
     VStack {
       SkillMaxHealth(primary: .purple, secondary: .yellow)
         .frame(width: 200, height: 200)
-        .border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
+        .border(Color.black)
       
       SkillMaxHealth()
         .frame(width: 200, height: 200)

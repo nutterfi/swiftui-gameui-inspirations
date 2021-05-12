@@ -39,6 +39,12 @@
 		29813986263287BA00009D7B /* POIMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29813984263287BA00009D7B /* POIMarker.swift */; };
 		29816B6C263BBF1E0016F1BA /* Rustify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29816B6B263BBF1E0016F1BA /* Rustify.swift */; };
 		29816B6D263BBF1E0016F1BA /* Rustify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29816B6B263BBF1E0016F1BA /* Rustify.swift */; };
+		298FE2FA264B8C6400BBC02A /* SkillWeaponSway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298FE2F9264B8C6400BBC02A /* SkillWeaponSway.swift */; };
+		298FE2FB264B8C6400BBC02A /* SkillWeaponSway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298FE2F9264B8C6400BBC02A /* SkillWeaponSway.swift */; };
+		298FE2FF264B8F1C00BBC02A /* SkillHealingSpeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298FE2FE264B8F1C00BBC02A /* SkillHealingSpeed.swift */; };
+		298FE300264B8F1C00BBC02A /* SkillHealingSpeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298FE2FE264B8F1C00BBC02A /* SkillHealingSpeed.swift */; };
+		298FE309264B939800BBC02A /* TLOUSkillSelectMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298FE308264B939800BBC02A /* TLOUSkillSelectMenu.swift */; };
+		298FE30A264B939800BBC02A /* TLOUSkillSelectMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298FE308264B939800BBC02A /* TLOUSkillSelectMenu.swift */; };
 		29922AC82633D270002469C2 /* MK11SelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29922AC72633D270002469C2 /* MK11SelectionView.swift */; };
 		29922AC92633D270002469C2 /* MK11SelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29922AC72633D270002469C2 /* MK11SelectionView.swift */; };
 		29922ACD2633D2FA002469C2 /* MK11Left.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29922ACC2633D2FA002469C2 /* MK11Left.swift */; };
@@ -118,6 +124,9 @@
 		29801ACA2647A0320010B4C8 /* SkillMaxHealth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillMaxHealth.swift; sourceTree = "<group>"; };
 		29813984263287BA00009D7B /* POIMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POIMarker.swift; sourceTree = "<group>"; };
 		29816B6B263BBF1E0016F1BA /* Rustify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rustify.swift; sourceTree = "<group>"; };
+		298FE2F9264B8C6400BBC02A /* SkillWeaponSway.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkillWeaponSway.swift; sourceTree = "<group>"; };
+		298FE2FE264B8F1C00BBC02A /* SkillHealingSpeed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkillHealingSpeed.swift; sourceTree = "<group>"; };
+		298FE308264B939800BBC02A /* TLOUSkillSelectMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLOUSkillSelectMenu.swift; sourceTree = "<group>"; };
 		29922AC72633D270002469C2 /* MK11SelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MK11SelectionView.swift; sourceTree = "<group>"; };
 		29922ACC2633D2FA002469C2 /* MK11Left.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MK11Left.swift; sourceTree = "<group>"; };
 		29A22CF02626D8C9000D9EAF /* LoadingRingsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingRingsViewModel.swift; sourceTree = "<group>"; };
@@ -252,6 +261,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		298FE305264B930700BBC02A /* Skills */ = {
+			isa = PBXGroup;
+			children = (
+				29D3FAB52644F4B000B6A02F /* SkillVitamin.swift */,
+				29D3FABA2644F6C500B6A02F /* SkillSelectionRow.swift */,
+				29801ACA2647A0320010B4C8 /* SkillMaxHealth.swift */,
+				298FE2FE264B8F1C00BBC02A /* SkillHealingSpeed.swift */,
+				298FE2F9264B8C6400BBC02A /* SkillWeaponSway.swift */,
+				298FE308264B939800BBC02A /* TLOUSkillSelectMenu.swift */,
+			);
+			path = Skills;
+			sourceTree = "<group>";
+		};
 		29A22CB82626D22E000D9EAF /* Control */ = {
 			isa = PBXGroup;
 			children = (
@@ -313,15 +335,13 @@
 		29B44134262FDE7C00E442A6 /* TheLastOfUs */ = {
 			isa = PBXGroup;
 			children = (
+				298FE305264B930700BBC02A /* Skills */,
 				290414B62645EDAE00B2C258 /* FireflySymbol */,
 				29B44137262FDF2A00E442A6 /* TLOUIcon.swift */,
 				29813984263287BA00009D7B /* POIMarker.swift */,
 				294FF9472632AE300057869B /* TLOUIconDemo.swift */,
 				2926BCED2635225100CEDC7E /* FireflyPendant.swift */,
 				29ACEC2A2642522C00DAE394 /* TLOUSkillsIcon.swift */,
-				29D3FAB52644F4B000B6A02F /* SkillVitamin.swift */,
-				29D3FABA2644F6C500B6A02F /* SkillSelectionRow.swift */,
-				29801ACA2647A0320010B4C8 /* SkillMaxHealth.swift */,
 			);
 			path = TheLastOfUs;
 			sourceTree = "<group>";
@@ -438,6 +458,7 @@
 				29A22D182626DC60000D9EAF /* KombatKardContentView.swift in Sources */,
 				29922ACD2633D2FA002469C2 /* MK11Left.swift in Sources */,
 				29A22CF92626D8C9000D9EAF /* LoadingRingsDemo.swift in Sources */,
+				298FE309264B939800BBC02A /* TLOUSkillSelectMenu.swift in Sources */,
 				29801ACB2647A0320010B4C8 /* SkillMaxHealth.swift in Sources */,
 				29A22D522626E059000D9EAF /* Color+Extensions.swift in Sources */,
 				29A22D102626DC60000D9EAF /* KombatKardView.swift in Sources */,
@@ -446,6 +467,7 @@
 				29102706263E673300418FE1 /* ZeusBoon.swift in Sources */,
 				29A22D3B2626DFF3000D9EAF /* ProgressBar.swift in Sources */,
 				29A22D1C2626DC60000D9EAF /* KountdownTimerViewModel.swift in Sources */,
+				298FE2FF264B8F1C00BBC02A /* SkillHealingSpeed.swift in Sources */,
 				291026FF263E62EE00418FE1 /* BoonView.swift in Sources */,
 				2976E1BF2626A45100272ADC /* Game_UI_InspirationsApp.swift in Sources */,
 				294FF9482632AE300057869B /* TLOUIconDemo.swift in Sources */,
@@ -457,6 +479,7 @@
 				29A22D4D2626E041000D9EAF /* MinimapView.swift in Sources */,
 				29532EFD26451D8B000F07F1 /* FireflySymbol.swift in Sources */,
 				2926BCF32635260D00CEDC7E /* FireflyWing.swift in Sources */,
+				298FE2FA264B8C6400BBC02A /* SkillWeaponSway.swift in Sources */,
 				2926BCEE2635225100CEDC7E /* FireflyPendant.swift in Sources */,
 				29A22D492626E041000D9EAF /* MinimapViewModel.swift in Sources */,
 				29EB0A66262BF1D40032E598 /* ControlQuestMarker.swift in Sources */,
@@ -487,6 +510,7 @@
 				29A22D192626DC60000D9EAF /* KombatKardContentView.swift in Sources */,
 				29922ACE2633D2FA002469C2 /* MK11Left.swift in Sources */,
 				29A22CFA2626D8C9000D9EAF /* LoadingRingsDemo.swift in Sources */,
+				298FE30A264B939800BBC02A /* TLOUSkillSelectMenu.swift in Sources */,
 				29801ACC2647A0320010B4C8 /* SkillMaxHealth.swift in Sources */,
 				29A22D532626E059000D9EAF /* Color+Extensions.swift in Sources */,
 				29A22D112626DC60000D9EAF /* KombatKardView.swift in Sources */,
@@ -495,6 +519,7 @@
 				29102707263E673300418FE1 /* ZeusBoon.swift in Sources */,
 				29A22D3C2626DFF3000D9EAF /* ProgressBar.swift in Sources */,
 				29A22D1D2626DC60000D9EAF /* KountdownTimerViewModel.swift in Sources */,
+				298FE300264B8F1C00BBC02A /* SkillHealingSpeed.swift in Sources */,
 				29102700263E62EE00418FE1 /* BoonView.swift in Sources */,
 				2976E1C02626A45100272ADC /* Game_UI_InspirationsApp.swift in Sources */,
 				294FF9492632AE300057869B /* TLOUIconDemo.swift in Sources */,
@@ -506,6 +531,7 @@
 				29A22D4E2626E041000D9EAF /* MinimapView.swift in Sources */,
 				29532EFE26451D8B000F07F1 /* FireflySymbol.swift in Sources */,
 				2926BCF42635260D00CEDC7E /* FireflyWing.swift in Sources */,
+				298FE2FB264B8C6400BBC02A /* SkillWeaponSway.swift in Sources */,
 				2926BCEF2635225100CEDC7E /* FireflyPendant.swift in Sources */,
 				29A22D4A2626E041000D9EAF /* MinimapViewModel.swift in Sources */,
 				29EB0A67262BF1D40032E598 /* ControlQuestMarker.swift in Sources */,
