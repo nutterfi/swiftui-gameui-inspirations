@@ -24,7 +24,8 @@ struct TLOUSkillModel: Identifiable {
 
 class TLOUSkillSelectMenuViewModel: ObservableObject {
   @Published private(set) var skills: [TLOUSkillModel] = []
-  @Published var selected$Index: Int = 0
+  @Published var selectedIndex: Int = 0
+  @Published private(set) var points: Int = 285
   
   init() {
     skills.append(TLOUSkillModel(id: SkillIconType.maximumHealth, currentLevel: 1, pointCost: [50, 100]))
@@ -33,17 +34,64 @@ class TLOUSkillSelectMenuViewModel: ObservableObject {
     
     skills.append(TLOUSkillModel(id: SkillIconType.weaponSway, currentLevel: 1, pointCost: [50, 100]))
   }
+  
+  func purchase(skillID: String) {
+    guard let index = skills.firstIndex(where: {$0.id == skillID})
+    else { return }
+    guard skills[index].nextLevelCost <= points else { return }
+    // check our skills and find the one that is being reference
+    // check to see if we have sufficient points to purchase
+    // if we do, update the skills current level (increasing by 1)
+    // also, deduct the skill points cost from total
+    // FIXME: array out of bounds errors abound! BEWARE
+    points -= skills[index].nextLevelCost
+    
+    if skills[index].currentLevel < skills[index].levelsAvailable {
+      skills[index].currentLevel += 1
+    }
+  }
+  
 }
 
 struct TLOUSkillSelectMenu: View {
   @StateObject var viewModel = TLOUSkillSelectMenuViewModel()
+  @State private var selectedSkillID: String = ""
     var body: some View {
-      List(viewModel.skills) { skill in
+      
+      VStack {
+        HStack {
+          Text("SKILLS")
+            .font(.largeTitle)
+          Spacer()
+          SkillVitamin(color: .tlouSecondary)
+            .frame(width: 50)
+          Text("\(viewModel.points)")
+            .font(.largeTitle)
+        }
+        .foregroundColor(.tlouSecondary)
+        .frame(height: 100)
+        .padding()
         
-        SkillSelectionRow(selected: false, points: skill.nextLevelCost, title: skill.id, icon: skill.id, skillLevelsAvailable: skill.levelsAvailable, currentSkillLevel: skill.currentLevel, enoughPoints: false)
-          .background(Color.black)
+        List(viewModel.skills) { skill in
+          SkillSelectionRow(selected: selectedSkillID == skill.id, points: skill.nextLevelCost, title: skill.id, icon: skill.id, skillLevelsAvailable: skill.levelsAvailable, currentSkillLevel: skill.currentLevel, enoughPoints: viewModel.points >= skill.nextLevelCost)
+            .background(Color.black)
+            .onTapGesture {
+              selectedSkillID = skill.id
+            }
+        }
+        .background(Color.black)
+        .frame(height: 300)
+        
+        Button("UPGRADE") {
+          viewModel.purchase(skillID: selectedSkillID)
+        }
+        .foregroundColor(.tlouSecondary)
+        .font(.title2)
+        
+        Spacer()
 
       }
+      .background(Color.black)
     }
 }
 
