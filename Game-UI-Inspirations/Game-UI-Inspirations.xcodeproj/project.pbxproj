@@ -35,10 +35,10 @@
 		2976E1C22626A45100272ADC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2976E1AD2626A45000272ADC /* ContentView.swift */; };
 		2976E1C32626A45100272ADC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2976E1AE2626A45000272ADC /* Assets.xcassets */; };
 		2976E1C42626A45100272ADC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2976E1AE2626A45000272ADC /* Assets.xcassets */; };
-		2976E1D12626A5D600272ADC /* Shapes in Frameworks */ = {isa = PBXBuildFile; productRef = 2976E1D02626A5D600272ADC /* Shapes */; };
-		2976E1D62626A61E00272ADC /* Shapes in Frameworks */ = {isa = PBXBuildFile; productRef = 2976E1D52626A61E00272ADC /* Shapes */; };
 		2976E1DA2626AD5C00272ADC /* Pulsar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2976E1D92626AD5C00272ADC /* Pulsar.swift */; };
 		2976E1DB2626AD5C00272ADC /* Pulsar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2976E1D92626AD5C00272ADC /* Pulsar.swift */; };
+		297A3D74265185FD00D0C79E /* Shapes in Frameworks */ = {isa = PBXBuildFile; productRef = 297A3D73265185FD00D0C79E /* Shapes */; };
+		297A3D782651860A00D0C79E /* Shapes in Frameworks */ = {isa = PBXBuildFile; productRef = 297A3D772651860A00D0C79E /* Shapes */; };
 		29801ACB2647A0320010B4C8 /* SkillMaxHealth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29801ACA2647A0320010B4C8 /* SkillMaxHealth.swift */; };
 		29801ACC2647A0320010B4C8 /* SkillMaxHealth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29801ACA2647A0320010B4C8 /* SkillMaxHealth.swift */; };
 		29813985263287BA00009D7B /* POIMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29813984263287BA00009D7B /* POIMarker.swift */; };
@@ -171,7 +171,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2976E1D12626A5D600272ADC /* Shapes in Frameworks */,
+				297A3D74265185FD00D0C79E /* Shapes in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,7 +179,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2976E1D62626A61E00272ADC /* Shapes in Frameworks */,
+				297A3D782651860A00D0C79E /* Shapes in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,7 +375,7 @@
 			);
 			name = "Game-UI-Inspirations (iOS)";
 			packageProductDependencies = (
-				2976E1D02626A5D600272ADC /* Shapes */,
+				297A3D73265185FD00D0C79E /* Shapes */,
 			);
 			productName = "Game-UI-Inspirations (iOS)";
 			productReference = 2976E1B32626A45000272ADC /* Game-UI-Inspirations.app */;
@@ -395,7 +395,7 @@
 			);
 			name = "Game-UI-Inspirations (macOS)";
 			packageProductDependencies = (
-				2976E1D52626A61E00272ADC /* Shapes */,
+				297A3D772651860A00D0C79E /* Shapes */,
 			);
 			productName = "Game-UI-Inspirations (macOS)";
 			productReference = 2976E1BB2626A45000272ADC /* Game-UI-Inspirations.app */;
@@ -428,7 +428,7 @@
 			);
 			mainGroup = 2976E1A62626A44F00272ADC;
 			packageReferences = (
-				2976E1CF2626A5D600272ADC /* XCRemoteSwiftPackageReference "Shapes" */,
+				297A3D72265185FD00D0C79E /* XCRemoteSwiftPackageReference "shapes" */,
 			);
 			productRefGroup = 2976E1B42626A45000272ADC /* Products */;
 			projectDirPath = "";
@@ -804,9 +804,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		2976E1CF2626A5D600272ADC /* XCRemoteSwiftPackageReference "Shapes" */ = {
+		297A3D72265185FD00D0C79E /* XCRemoteSwiftPackageReference "shapes" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "git@github.com:nutterfi/Shapes.git";
+			repositoryURL = "https://github.com/nutterfi/shapes.git";
 			requirement = {
 				branch = main;
 				kind = branch;
@@ -815,14 +815,14 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		2976E1D02626A5D600272ADC /* Shapes */ = {
+		297A3D73265185FD00D0C79E /* Shapes */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 2976E1CF2626A5D600272ADC /* XCRemoteSwiftPackageReference "Shapes" */;
+			package = 297A3D72265185FD00D0C79E /* XCRemoteSwiftPackageReference "shapes" */;
 			productName = Shapes;
 		};
-		2976E1D52626A61E00272ADC /* Shapes */ = {
+		297A3D772651860A00D0C79E /* Shapes */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 2976E1CF2626A5D600272ADC /* XCRemoteSwiftPackageReference "Shapes" */;
+			package = 297A3D72265185FD00D0C79E /* XCRemoteSwiftPackageReference "shapes" */;
 			productName = Shapes;
 		};
 /* End XCSwiftPackageProductDependency section */
