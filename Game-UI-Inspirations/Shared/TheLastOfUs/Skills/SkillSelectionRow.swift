@@ -7,40 +7,6 @@
 
 import SwiftUI
 
-struct SkillIconType {
-  static let maximumHealth = "maximumHealth"
-  static let healingSpeed = "healingSpeed"
-  static let weaponSway = "weaponSway"
-}
-
-struct SkillIcon: View {
-  var icon: String = SkillIconType.maximumHealth
-  var body: some View {
-    GeometryReader { proxy in
-      ZStack {
-        Circle()
-          .stroke(Color.white, lineWidth: 3)
-          .background(Circle().foregroundColor(.black))
-        
-        Group {
-          switch icon {
-          case SkillIconType.maximumHealth:
-            SkillMaxHealth()
-          case SkillIconType.healingSpeed:
-            SkillHealingSpeed()
-          case SkillIconType.weaponSway:
-            SkillWeaponSway()
-          default:
-            Circle()
-          }
-        }
-        
-      }
-      .frame(width: proxy.size.width, height: proxy.size.height)
-    }
-  }
-}
-
 struct SkillSelectionRow: View {
   var selected: Bool = false
   var points: Int = 0
@@ -49,48 +15,65 @@ struct SkillSelectionRow: View {
   var skillLevelsAvailable: Int = 2
   var currentSkillLevel: Int = 0
   var enoughPoints: Bool = false
+  // hide the skill points if max level
+  var showSkillPoints : Bool {
+    currentSkillLevel < skillLevelsAvailable
+  }
   
   var body: some View {
-    HStack(spacing: 10) {
+    ZStack(alignment: .leading) {
+      let offsetSize: CGSize = selected ? CGSize(width: -10, height: 0) : .zero
+      HStack() {
+        Spacer(minLength: 50)
+        VStack(alignment:.leading) {
+          Text(title.uppercased())
+            .font(.body)
+            .foregroundColor(showSkillPoints && enoughPoints ? .white : .red)
+          HStack {
+            ForEach(0..<skillLevelsAvailable) { index in
+              if index < currentSkillLevel {
+                Rectangle()
+                  .stroke(Color.white, lineWidth: 3)
+                  .frame(width: 20, height: 10)
+                  .overlay(Color.white)
+                
+              } else {
+                Rectangle()
+                  .stroke(Color.white, lineWidth: 3)
+                  .frame(width: 20, height: 10)
+              }
+            }
+            Spacer()
+          }
+          .offset(x: 10.0, y: 0)
+          
+        }
+        .padding(5)
+        
+        Spacer()
+        
+        // hide this if we are already max level
+        Group {
+          if showSkillPoints {
+            HStack(spacing: 0) {
+              SkillVitamin(color: enoughPoints ? .white : .red)
+                .frame(width: selected ? 50 : 30, height: selected ? 50 : 30)
+              Text("\(points)")
+                .font(.system(size: selected ? 28 : 16))
+                .foregroundColor(enoughPoints ? .white : .red)
+            }
+          } else {
+            EmptyView()
+          }
+        }
+        .padding(.trailing)
+      }
+      .border(selected ? Color.white : Color.clear, width: 2)
+      
       SkillIcon(icon: icon)
         .frame(width: selected ? 60 : 50, height: selected ? 60 : 50)
-      
-      VStack(alignment:.leading) {
-        Text(title.uppercased())
-          .font(.body)
-          .foregroundColor(enoughPoints ? .white : .red)
-        HStack {
-          ForEach(0..<skillLevelsAvailable) { index in
-            if index < currentSkillLevel {
-              Rectangle()
-                .stroke(Color.white, lineWidth: 3)
-                .frame(width: 20, height: 10)
-                .overlay(Color.white)
-              
-            } else {
-              Rectangle()
-                .stroke(Color.white, lineWidth: 3)
-                .frame(width: 20, height: 10)
-            }
-          }
-          Spacer()
-        }
-        .offset(x: 10.0, y: 0)
-        
-      }
-      
-      Spacer()
-      
-      HStack(spacing: 0) {
-        SkillVitamin(color: enoughPoints ? .white : .red)
-          .frame(width: selected ? 50 : 30, height: selected ? 50 : 30)
-        Text("\(points)")
-          .font(.system(size: selected ? 28 : 16))
-          .foregroundColor(enoughPoints ? .white : .red)
-      }
+        .offset(offsetSize)
     }
-    .padding()
-    .border(selected ? Color.white : Color.clear, width: 2)
   }
 }
 

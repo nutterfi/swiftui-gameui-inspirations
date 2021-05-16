@@ -23,6 +23,12 @@
 		294FF9492632AE300057869B /* TLOUIconDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294FF9472632AE300057869B /* TLOUIconDemo.swift */; };
 		29532EFD26451D8B000F07F1 /* FireflySymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29532EFC26451D8B000F07F1 /* FireflySymbol.swift */; };
 		29532EFE26451D8B000F07F1 /* FireflySymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29532EFC26451D8B000F07F1 /* FireflySymbol.swift */; };
+		295794742650D8DE00BDDE3A /* SkillIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295794732650D8DE00BDDE3A /* SkillIcon.swift */; };
+		295794752650D8DE00BDDE3A /* SkillIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295794732650D8DE00BDDE3A /* SkillIcon.swift */; };
+		295794792650D91D00BDDE3A /* TLOUSkillModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295794782650D91D00BDDE3A /* TLOUSkillModel.swift */; };
+		2957947A2650D91D00BDDE3A /* TLOUSkillModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295794782650D91D00BDDE3A /* TLOUSkillModel.swift */; };
+		2957947E2650D94000BDDE3A /* TLOUSkillSelectMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2957947D2650D94000BDDE3A /* TLOUSkillSelectMenuViewModel.swift */; };
+		2957947F2650D94000BDDE3A /* TLOUSkillSelectMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2957947D2650D94000BDDE3A /* TLOUSkillSelectMenuViewModel.swift */; };
 		2976E1BF2626A45100272ADC /* Game_UI_InspirationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2976E1AC2626A45000272ADC /* Game_UI_InspirationsApp.swift */; };
 		2976E1C02626A45100272ADC /* Game_UI_InspirationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2976E1AC2626A45000272ADC /* Game_UI_InspirationsApp.swift */; };
 		2976E1C12626A45100272ADC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2976E1AD2626A45000272ADC /* ContentView.swift */; };
@@ -112,6 +118,9 @@
 		2926BCF7263529D400CEDC7E /* FireflyTail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireflyTail.swift; sourceTree = "<group>"; };
 		294FF9472632AE300057869B /* TLOUIconDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLOUIconDemo.swift; sourceTree = "<group>"; };
 		29532EFC26451D8B000F07F1 /* FireflySymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireflySymbol.swift; sourceTree = "<group>"; };
+		295794732650D8DE00BDDE3A /* SkillIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillIcon.swift; sourceTree = "<group>"; };
+		295794782650D91D00BDDE3A /* TLOUSkillModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLOUSkillModel.swift; sourceTree = "<group>"; };
+		2957947D2650D94000BDDE3A /* TLOUSkillSelectMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLOUSkillSelectMenuViewModel.swift; sourceTree = "<group>"; };
 		2976E1AC2626A45000272ADC /* Game_UI_InspirationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game_UI_InspirationsApp.swift; sourceTree = "<group>"; };
 		2976E1AD2626A45000272ADC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2976E1AE2626A45000272ADC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -270,6 +279,9 @@
 				298FE2FE264B8F1C00BBC02A /* SkillHealingSpeed.swift */,
 				298FE2F9264B8C6400BBC02A /* SkillWeaponSway.swift */,
 				298FE308264B939800BBC02A /* TLOUSkillSelectMenu.swift */,
+				295794732650D8DE00BDDE3A /* SkillIcon.swift */,
+				295794782650D91D00BDDE3A /* TLOUSkillModel.swift */,
+				2957947D2650D94000BDDE3A /* TLOUSkillSelectMenuViewModel.swift */,
 			);
 			path = Skills;
 			sourceTree = "<group>";
@@ -454,6 +466,7 @@
 			files = (
 				2976E1DA2626AD5C00272ADC /* Pulsar.swift in Sources */,
 				29A22D122626DC60000D9EAF /* KountdownTimerView.swift in Sources */,
+				295794792650D91D00BDDE3A /* TLOUSkillModel.swift in Sources */,
 				2926BCF8263529D400CEDC7E /* FireflyTail.swift in Sources */,
 				29A22D182626DC60000D9EAF /* KombatKardContentView.swift in Sources */,
 				29922ACD2633D2FA002469C2 /* MK11Left.swift in Sources */,
@@ -472,6 +485,7 @@
 				2976E1BF2626A45100272ADC /* Game_UI_InspirationsApp.swift in Sources */,
 				294FF9482632AE300057869B /* TLOUIconDemo.swift in Sources */,
 				29A22CFB2626D8C9000D9EAF /* ConsummateVDemo.swift in Sources */,
+				2957947E2650D94000BDDE3A /* TLOUSkillSelectMenuViewModel.swift in Sources */,
 				29A22D3D2626DFF3000D9EAF /* GenshinImpactLoadingProgressBar.swift in Sources */,
 				29A22CF72626D8C9000D9EAF /* LoadingRingsView.swift in Sources */,
 				29816B6C263BBF1E0016F1BA /* Rustify.swift in Sources */,
@@ -490,6 +504,7 @@
 				29ACEC2B2642522C00DAE394 /* TLOUSkillsIcon.swift in Sources */,
 				29A22D1A2626DC60000D9EAF /* MenuView.swift in Sources */,
 				29A22D042626D93A000D9EAF /* QuestDescriptionView.swift in Sources */,
+				295794742650D8DE00BDDE3A /* SkillIcon.swift in Sources */,
 				29A22D4B2626E041000D9EAF /* MinimapModel.swift in Sources */,
 				29A22CFD2626D8C9000D9EAF /* ConsummateV.swift in Sources */,
 				29A22CF52626D8C9000D9EAF /* LoadingRingsViewModel.swift in Sources */,
@@ -506,6 +521,7 @@
 			files = (
 				2976E1DB2626AD5C00272ADC /* Pulsar.swift in Sources */,
 				29A22D132626DC60000D9EAF /* KountdownTimerView.swift in Sources */,
+				2957947A2650D91D00BDDE3A /* TLOUSkillModel.swift in Sources */,
 				2926BCF9263529D400CEDC7E /* FireflyTail.swift in Sources */,
 				29A22D192626DC60000D9EAF /* KombatKardContentView.swift in Sources */,
 				29922ACE2633D2FA002469C2 /* MK11Left.swift in Sources */,
@@ -524,6 +540,7 @@
 				2976E1C02626A45100272ADC /* Game_UI_InspirationsApp.swift in Sources */,
 				294FF9492632AE300057869B /* TLOUIconDemo.swift in Sources */,
 				29A22CFC2626D8C9000D9EAF /* ConsummateVDemo.swift in Sources */,
+				2957947F2650D94000BDDE3A /* TLOUSkillSelectMenuViewModel.swift in Sources */,
 				29A22D3E2626DFF3000D9EAF /* GenshinImpactLoadingProgressBar.swift in Sources */,
 				29A22CF82626D8C9000D9EAF /* LoadingRingsView.swift in Sources */,
 				29816B6D263BBF1E0016F1BA /* Rustify.swift in Sources */,
@@ -542,6 +559,7 @@
 				29ACEC2C2642522C00DAE394 /* TLOUSkillsIcon.swift in Sources */,
 				29A22D1B2626DC60000D9EAF /* MenuView.swift in Sources */,
 				29A22D052626D93A000D9EAF /* QuestDescriptionView.swift in Sources */,
+				295794752650D8DE00BDDE3A /* SkillIcon.swift in Sources */,
 				29A22D4C2626E041000D9EAF /* MinimapModel.swift in Sources */,
 				29A22CFE2626D8C9000D9EAF /* ConsummateV.swift in Sources */,
 				29A22CF62626D8C9000D9EAF /* LoadingRingsViewModel.swift in Sources */,

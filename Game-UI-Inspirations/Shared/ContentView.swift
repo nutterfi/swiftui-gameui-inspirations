@@ -38,7 +38,7 @@ struct ContentView: View {
       case "genshin impact":
         GenshinImpactLoadingProgressBar()
       case "the last of us":
-        TLOUIconDemo()
+        TLOUSkillSelectMenu()
       default:
         Circle().frame(width: .infinity, height: .infinity)
           .overlay(
