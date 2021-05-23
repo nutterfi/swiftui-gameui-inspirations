@@ -19,20 +19,20 @@ struct MGSVLoadingView: View {
           // Outer Arcs
           Circle()
             .trim(from: 0.0, to: 0.15)
-            .stroke(color, lineWidth: dim / 50)
+            .stroke(color, lineWidth: dim * 0.02)
             .frame(width: dim * 0.9, height: dim * 0.9)
             .rotationEffect(Angle(radians: Double(viewModel.outerRotation)))
           
           Circle()
             .trim(from: 0.5, to: 0.65)
-            .stroke(color, lineWidth: dim / 50)
+            .stroke(color, lineWidth: dim * 0.02)
             .frame(width: dim * 0.9, height: dim * 0.9)
             .rotationEffect(Angle(radians: Double(viewModel.outerRotation)))
           
           // Inner Circle
           Circle()
-            .stroke(gradient, lineWidth: dim / 5)
-            .frame(width: dim * 0.5, height: dim * 0.5)
+            .stroke(gradient, lineWidth: dim * 0.12)
+            .frame(width: dim * 0.65, height: dim * 0.65)
             .rotationEffect(Angle(radians: Double(viewModel.innerRotation)))
         }
         .frame(width: proxy.size.width, height: proxy.size.height)

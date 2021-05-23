@@ -14,16 +14,20 @@ class MGSVLoadingViewModel: ObservableObject {
   @Published private(set) var outerRotation: CGFloat = 0.0
   
   private var timer: Timer?
-  
+  private let timeInterval: TimeInterval = 1.0 / 30
   private var outerTick: Int = 0
-  private let tickMax = 50
+  private let tickMax = 15
 
+  private var deltaRotation: CGFloat {
+    2 * .pi * CGFloat(timeInterval)
+  }
+  
   init() {
     startTimer()
   }
   
   func startTimer() {
-    timer = Timer.scheduledTimer(withTimeInterval: 1.0 / 30, repeats: true) { [weak self] (timer) in
+    timer = Timer.scheduledTimer(withTimeInterval: timeInterval, repeats: true) { [weak self] (timer) in
       guard let s = self else { return }
       s.updateRotations()
     }
@@ -31,11 +35,10 @@ class MGSVLoadingViewModel: ObservableObject {
   }
   
   private func updateRotations() {
-    // every 50 ticks, update outerRotation
     outerTick += 1
     if outerTick % tickMax == 0 {
-      outerRotation -= 0.1
+      outerRotation -= deltaRotation
     }
-    innerRotation += 0.1
+    innerRotation += deltaRotation
   }
 }
