@@ -9,22 +9,23 @@ import SwiftUI
 
 struct MGSVLoadingView: View {
     @StateObject private var viewModel = MGSVLoadingViewModel()
+    var color: Color
     var body: some View {
       GeometryReader { proxy in
         let dim = min(proxy.size.width, proxy.size.height)
         ZStack {
-          let gradient = AngularGradient(gradient: Gradient(colors: [Color.purple, Color.clear]), center: .center, startAngle: .degrees(0), endAngle: .degrees(270))
+          let gradient = AngularGradient(gradient: Gradient(colors: [color, Color.clear]), center: .center, startAngle: .degrees(0), endAngle: .degrees(270))
           
           // Outer Arcs
           Circle()
             .trim(from: 0.0, to: 0.15)
-            .stroke(Color.purple, lineWidth: dim / 50)
+            .stroke(color, lineWidth: dim / 50)
             .frame(width: dim * 0.9, height: dim * 0.9)
             .rotationEffect(Angle(radians: Double(viewModel.outerRotation)))
           
           Circle()
             .trim(from: 0.5, to: 0.65)
-            .stroke(Color.purple, lineWidth: dim / 50)
+            .stroke(color, lineWidth: dim / 50)
             .frame(width: dim * 0.9, height: dim * 0.9)
             .rotationEffect(Angle(radians: Double(viewModel.outerRotation)))
           
@@ -42,16 +43,7 @@ struct MGSVLoadingView: View {
 struct MGSVLoadingView_Previews: PreviewProvider {
     static var previews: some View {
       ZStack {
-        VStack {
-          HStack {
-            MGSVLoadingView()
-            MGSVLoadingView()
-          }
-          HStack {
-            MGSVLoadingView()
-            MGSVLoadingView()
-          }
-        }
+        MGSVLoadingView(color: .orange)
       }
       .background(Color.black)
     }
