@@ -39,6 +39,10 @@
 		2976E1DB2626AD5C00272ADC /* Pulsar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2976E1D92626AD5C00272ADC /* Pulsar.swift */; };
 		297A3D74265185FD00D0C79E /* Shapes in Frameworks */ = {isa = PBXBuildFile; productRef = 297A3D73265185FD00D0C79E /* Shapes */; };
 		297A3D782651860A00D0C79E /* Shapes in Frameworks */ = {isa = PBXBuildFile; productRef = 297A3D772651860A00D0C79E /* Shapes */; };
+		297DC70C265A106800980DDE /* MGSVLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297DC70B265A106800980DDE /* MGSVLoadingView.swift */; };
+		297DC70D265A106800980DDE /* MGSVLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297DC70B265A106800980DDE /* MGSVLoadingView.swift */; };
+		297DC711265A107600980DDE /* MGSVLoadingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297DC710265A107600980DDE /* MGSVLoadingViewModel.swift */; };
+		297DC712265A107600980DDE /* MGSVLoadingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297DC710265A107600980DDE /* MGSVLoadingViewModel.swift */; };
 		29801ACB2647A0320010B4C8 /* SkillMaxHealth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29801ACA2647A0320010B4C8 /* SkillMaxHealth.swift */; };
 		29801ACC2647A0320010B4C8 /* SkillMaxHealth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29801ACA2647A0320010B4C8 /* SkillMaxHealth.swift */; };
 		29813985263287BA00009D7B /* POIMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29813984263287BA00009D7B /* POIMarker.swift */; };
@@ -130,6 +134,8 @@
 		2976E1BD2626A45000272ADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2976E1BE2626A45000272ADC /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		2976E1D92626AD5C00272ADC /* Pulsar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pulsar.swift; sourceTree = "<group>"; };
+		297DC70B265A106800980DDE /* MGSVLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MGSVLoadingView.swift; sourceTree = "<group>"; };
+		297DC710265A107600980DDE /* MGSVLoadingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MGSVLoadingViewModel.swift; sourceTree = "<group>"; };
 		29801ACA2647A0320010B4C8 /* SkillMaxHealth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillMaxHealth.swift; sourceTree = "<group>"; };
 		29813984263287BA00009D7B /* POIMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POIMarker.swift; sourceTree = "<group>"; };
 		29816B6B263BBF1E0016F1BA /* Rustify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rustify.swift; sourceTree = "<group>"; };
@@ -220,6 +226,7 @@
 		2976E1AB2626A45000272ADC /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				297DC708265A0F0700980DDE /* MGSV */,
 				29A22D3A2626DFF3000D9EAF /* MaskedProgressBar.swift */,
 				29A22D382626DFF3000D9EAF /* ProgressBar.swift */,
 				29816B6B263BBF1E0016F1BA /* Rustify.swift */,
@@ -268,6 +275,15 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		297DC708265A0F0700980DDE /* MGSV */ = {
+			isa = PBXGroup;
+			children = (
+				297DC70B265A106800980DDE /* MGSVLoadingView.swift */,
+				297DC710265A107600980DDE /* MGSVLoadingViewModel.swift */,
+			);
+			path = MGSV;
 			sourceTree = "<group>";
 		};
 		298FE305264B930700BBC02A /* Skills */ = {
@@ -480,6 +496,7 @@
 				29102706263E673300418FE1 /* ZeusBoon.swift in Sources */,
 				29A22D3B2626DFF3000D9EAF /* ProgressBar.swift in Sources */,
 				29A22D1C2626DC60000D9EAF /* KountdownTimerViewModel.swift in Sources */,
+				297DC70C265A106800980DDE /* MGSVLoadingView.swift in Sources */,
 				298FE2FF264B8F1C00BBC02A /* SkillHealingSpeed.swift in Sources */,
 				291026FF263E62EE00418FE1 /* BoonView.swift in Sources */,
 				2976E1BF2626A45100272ADC /* Game_UI_InspirationsApp.swift in Sources */,
@@ -487,6 +504,7 @@
 				29A22CFB2626D8C9000D9EAF /* ConsummateVDemo.swift in Sources */,
 				2957947E2650D94000BDDE3A /* TLOUSkillSelectMenuViewModel.swift in Sources */,
 				29A22D3D2626DFF3000D9EAF /* GenshinImpactLoadingProgressBar.swift in Sources */,
+				297DC711265A107600980DDE /* MGSVLoadingViewModel.swift in Sources */,
 				29A22CF72626D8C9000D9EAF /* LoadingRingsView.swift in Sources */,
 				29816B6C263BBF1E0016F1BA /* Rustify.swift in Sources */,
 				29922AC82633D270002469C2 /* MK11SelectionView.swift in Sources */,
@@ -535,6 +553,7 @@
 				29102707263E673300418FE1 /* ZeusBoon.swift in Sources */,
 				29A22D3C2626DFF3000D9EAF /* ProgressBar.swift in Sources */,
 				29A22D1D2626DC60000D9EAF /* KountdownTimerViewModel.swift in Sources */,
+				297DC70D265A106800980DDE /* MGSVLoadingView.swift in Sources */,
 				298FE300264B8F1C00BBC02A /* SkillHealingSpeed.swift in Sources */,
 				29102700263E62EE00418FE1 /* BoonView.swift in Sources */,
 				2976E1C02626A45100272ADC /* Game_UI_InspirationsApp.swift in Sources */,
@@ -542,6 +561,7 @@
 				29A22CFC2626D8C9000D9EAF /* ConsummateVDemo.swift in Sources */,
 				2957947F2650D94000BDDE3A /* TLOUSkillSelectMenuViewModel.swift in Sources */,
 				29A22D3E2626DFF3000D9EAF /* GenshinImpactLoadingProgressBar.swift in Sources */,
+				297DC712265A107600980DDE /* MGSVLoadingViewModel.swift in Sources */,
 				29A22CF82626D8C9000D9EAF /* LoadingRingsView.swift in Sources */,
 				29816B6D263BBF1E0016F1BA /* Rustify.swift in Sources */,
 				29922AC92633D270002469C2 /* MK11SelectionView.swift in Sources */,
