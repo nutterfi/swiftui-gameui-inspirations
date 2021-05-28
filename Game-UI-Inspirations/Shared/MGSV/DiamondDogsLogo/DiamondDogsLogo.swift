@@ -13,14 +13,12 @@ struct DiamondDogsLogo: View {
         let dim = min(proxy.size.width, proxy.size.height)
         ZStack {
           DiamondGem()
-            .stroke(Color.black, lineWidth: dim / 25)
+            .stroke(Color.black, lineWidth: 5)//dim / 25)
             .frame(width: dim, height: dim)
           
-          Color.yellow
-//            .fill(Color.yellow)
+          RibbonBanner(primary: .yellow, secondary: .tlouYellow, lineWidth: dim / 50)
             .frame(width: dim, height: dim / 3)
-            .mask(RibbonBanner())
-            .overlay(RibbonBanner().stroke(Color.black, lineWidth: dim / 50))
+          // FIXME: Text needs an arc
 //          Text("Diamond Dogs".uppercased())
 //            .foregroundColor(.white)
 //            .font(.largeTitle)

@@ -43,8 +43,8 @@
 		297A6E3B265E02B600201D1A /* DiamondDogsLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297A6E39265E02B600201D1A /* DiamondDogsLogo.swift */; };
 		297A6E3F265E04F200201D1A /* DiamondGem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297A6E3E265E04F200201D1A /* DiamondGem.swift */; };
 		297A6E40265E04F200201D1A /* DiamondGem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297A6E3E265E04F200201D1A /* DiamondGem.swift */; };
-		297A6E45265E057000201D1A /* RibbonBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297A6E44265E057000201D1A /* RibbonBanner.swift */; };
-		297A6E46265E057000201D1A /* RibbonBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297A6E44265E057000201D1A /* RibbonBanner.swift */; };
+		297A6E45265E057000201D1A /* RibbonShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297A6E44265E057000201D1A /* RibbonShapes.swift */; };
+		297A6E46265E057000201D1A /* RibbonShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297A6E44265E057000201D1A /* RibbonShapes.swift */; };
 		297DC70C265A106800980DDE /* MGSVLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297DC70B265A106800980DDE /* MGSVLoadingView.swift */; };
 		297DC70D265A106800980DDE /* MGSVLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297DC70B265A106800980DDE /* MGSVLoadingView.swift */; };
 		297DC711265A107600980DDE /* MGSVLoadingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297DC710265A107600980DDE /* MGSVLoadingViewModel.swift */; };
@@ -65,6 +65,8 @@
 		29922AC92633D270002469C2 /* MK11SelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29922AC72633D270002469C2 /* MK11SelectionView.swift */; };
 		29922ACD2633D2FA002469C2 /* MK11Left.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29922ACC2633D2FA002469C2 /* MK11Left.swift */; };
 		29922ACE2633D2FA002469C2 /* MK11Left.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29922ACC2633D2FA002469C2 /* MK11Left.swift */; };
+		2998BF022660B1CE00EA034B /* RibbonBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2998BF012660B1CE00EA034B /* RibbonBanner.swift */; };
+		2998BF032660B1CE00EA034B /* RibbonBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2998BF012660B1CE00EA034B /* RibbonBanner.swift */; };
 		29A22CF52626D8C9000D9EAF /* LoadingRingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22CF02626D8C9000D9EAF /* LoadingRingsViewModel.swift */; };
 		29A22CF62626D8C9000D9EAF /* LoadingRingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22CF02626D8C9000D9EAF /* LoadingRingsViewModel.swift */; };
 		29A22CF72626D8C9000D9EAF /* LoadingRingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22CF12626D8C9000D9EAF /* LoadingRingsView.swift */; };
@@ -144,7 +146,7 @@
 		2976E1D92626AD5C00272ADC /* Pulsar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pulsar.swift; sourceTree = "<group>"; };
 		297A6E39265E02B600201D1A /* DiamondDogsLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiamondDogsLogo.swift; sourceTree = "<group>"; };
 		297A6E3E265E04F200201D1A /* DiamondGem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiamondGem.swift; sourceTree = "<group>"; };
-		297A6E44265E057000201D1A /* RibbonBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RibbonBanner.swift; sourceTree = "<group>"; };
+		297A6E44265E057000201D1A /* RibbonShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RibbonShapes.swift; sourceTree = "<group>"; };
 		297DC70B265A106800980DDE /* MGSVLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MGSVLoadingView.swift; sourceTree = "<group>"; };
 		297DC710265A107600980DDE /* MGSVLoadingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MGSVLoadingViewModel.swift; sourceTree = "<group>"; };
 		29801ACA2647A0320010B4C8 /* SkillMaxHealth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillMaxHealth.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 		298FE308264B939800BBC02A /* TLOUSkillSelectMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLOUSkillSelectMenu.swift; sourceTree = "<group>"; };
 		29922AC72633D270002469C2 /* MK11SelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MK11SelectionView.swift; sourceTree = "<group>"; };
 		29922ACC2633D2FA002469C2 /* MK11Left.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MK11Left.swift; sourceTree = "<group>"; };
+		2998BF012660B1CE00EA034B /* RibbonBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RibbonBanner.swift; sourceTree = "<group>"; };
 		29A22CF02626D8C9000D9EAF /* LoadingRingsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingRingsViewModel.swift; sourceTree = "<group>"; };
 		29A22CF12626D8C9000D9EAF /* LoadingRingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingRingsView.swift; sourceTree = "<group>"; };
 		29A22CF22626D8C9000D9EAF /* LoadingRingsDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingRingsDemo.swift; sourceTree = "<group>"; };
@@ -294,8 +297,9 @@
 			children = (
 				297A6E39265E02B600201D1A /* DiamondDogsLogo.swift */,
 				297A6E3E265E04F200201D1A /* DiamondGem.swift */,
-				297A6E44265E057000201D1A /* RibbonBanner.swift */,
+				297A6E44265E057000201D1A /* RibbonShapes.swift */,
 				29BB327B265E0C3F00C3CCFE /* DiamondDog.swift */,
+				2998BF012660B1CE00EA034B /* RibbonBanner.swift */,
 			);
 			path = DiamondDogsLogo;
 			sourceTree = "<group>";
@@ -507,7 +511,7 @@
 				2976E1DA2626AD5C00272ADC /* Pulsar.swift in Sources */,
 				29A22D122626DC60000D9EAF /* KountdownTimerView.swift in Sources */,
 				295794792650D91D00BDDE3A /* TLOUSkillModel.swift in Sources */,
-				297A6E45265E057000201D1A /* RibbonBanner.swift in Sources */,
+				297A6E45265E057000201D1A /* RibbonShapes.swift in Sources */,
 				2926BCF8263529D400CEDC7E /* FireflyTail.swift in Sources */,
 				29A22D182626DC60000D9EAF /* KombatKardContentView.swift in Sources */,
 				29922ACD2633D2FA002469C2 /* MK11Left.swift in Sources */,
@@ -525,6 +529,7 @@
 				297DC70C265A106800980DDE /* MGSVLoadingView.swift in Sources */,
 				298FE2FF264B8F1C00BBC02A /* SkillHealingSpeed.swift in Sources */,
 				291026FF263E62EE00418FE1 /* BoonView.swift in Sources */,
+				2998BF022660B1CE00EA034B /* RibbonBanner.swift in Sources */,
 				2976E1BF2626A45100272ADC /* Game_UI_InspirationsApp.swift in Sources */,
 				294FF9482632AE300057869B /* TLOUIconDemo.swift in Sources */,
 				29A22CFB2626D8C9000D9EAF /* ConsummateVDemo.swift in Sources */,
@@ -568,7 +573,7 @@
 				2976E1DB2626AD5C00272ADC /* Pulsar.swift in Sources */,
 				29A22D132626DC60000D9EAF /* KountdownTimerView.swift in Sources */,
 				2957947A2650D91D00BDDE3A /* TLOUSkillModel.swift in Sources */,
-				297A6E46265E057000201D1A /* RibbonBanner.swift in Sources */,
+				297A6E46265E057000201D1A /* RibbonShapes.swift in Sources */,
 				2926BCF9263529D400CEDC7E /* FireflyTail.swift in Sources */,
 				29A22D192626DC60000D9EAF /* KombatKardContentView.swift in Sources */,
 				29922ACE2633D2FA002469C2 /* MK11Left.swift in Sources */,
@@ -586,6 +591,7 @@
 				297DC70D265A106800980DDE /* MGSVLoadingView.swift in Sources */,
 				298FE300264B8F1C00BBC02A /* SkillHealingSpeed.swift in Sources */,
 				29102700263E62EE00418FE1 /* BoonView.swift in Sources */,
+				2998BF032660B1CE00EA034B /* RibbonBanner.swift in Sources */,
 				2976E1C02626A45100272ADC /* Game_UI_InspirationsApp.swift in Sources */,
 				294FF9492632AE300057869B /* TLOUIconDemo.swift in Sources */,
 				29A22CFC2626D8C9000D9EAF /* ConsummateVDemo.swift in Sources */,
