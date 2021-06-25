@@ -121,6 +121,8 @@
 		29EB0A62262BEA570032E598 /* ControlSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EB0A60262BEA570032E598 /* ControlSelectionView.swift */; };
 		29EB0A66262BF1D40032E598 /* ControlQuestMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EB0A65262BF1D40032E598 /* ControlQuestMarker.swift */; };
 		29EB0A67262BF1D40032E598 /* ControlQuestMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EB0A65262BF1D40032E598 /* ControlQuestMarker.swift */; };
+		29F5337C26858D5100EADD37 /* MGSViDroidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F5337B26858D5100EADD37 /* MGSViDroidView.swift */; };
+		29F5337D26858D5100EADD37 /* MGSViDroidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F5337B26858D5100EADD37 /* MGSViDroidView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -185,6 +187,7 @@
 		29D3FABA2644F6C500B6A02F /* SkillSelectionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillSelectionRow.swift; sourceTree = "<group>"; };
 		29EB0A60262BEA570032E598 /* ControlSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlSelectionView.swift; sourceTree = "<group>"; };
 		29EB0A65262BF1D40032E598 /* ControlQuestMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlQuestMarker.swift; sourceTree = "<group>"; };
+		29F5337B26858D5100EADD37 /* MGSViDroidView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MGSViDroidView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -300,6 +303,7 @@
 				297A6E44265E057000201D1A /* RibbonShapes.swift */,
 				29BB327B265E0C3F00C3CCFE /* DiamondDog.swift */,
 				2998BF012660B1CE00EA034B /* RibbonBanner.swift */,
+				29F5337B26858D5100EADD37 /* MGSViDroidView.swift */,
 			);
 			path = DiamondDogsLogo;
 			sourceTree = "<group>";
@@ -518,6 +522,7 @@
 				29A22CF92626D8C9000D9EAF /* LoadingRingsDemo.swift in Sources */,
 				298FE309264B939800BBC02A /* TLOUSkillSelectMenu.swift in Sources */,
 				29801ACB2647A0320010B4C8 /* SkillMaxHealth.swift in Sources */,
+				29F5337C26858D5100EADD37 /* MGSViDroidView.swift in Sources */,
 				29A22D522626E059000D9EAF /* Color+Extensions.swift in Sources */,
 				29A22D102626DC60000D9EAF /* KombatKardView.swift in Sources */,
 				2976E1C12626A45100272ADC /* ContentView.swift in Sources */,
@@ -580,6 +585,7 @@
 				29A22CFA2626D8C9000D9EAF /* LoadingRingsDemo.swift in Sources */,
 				298FE30A264B939800BBC02A /* TLOUSkillSelectMenu.swift in Sources */,
 				29801ACC2647A0320010B4C8 /* SkillMaxHealth.swift in Sources */,
+				29F5337D26858D5100EADD37 /* MGSViDroidView.swift in Sources */,
 				29A22D532626E059000D9EAF /* Color+Extensions.swift in Sources */,
 				29A22D112626DC60000D9EAF /* KombatKardView.swift in Sources */,
 				2976E1C22626A45100272ADC /* ContentView.swift in Sources */,
@@ -750,7 +756,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -771,7 +777,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

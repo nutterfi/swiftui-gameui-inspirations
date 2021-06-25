@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct Game_UI_InspirationsApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+  var body: some Scene {
+    WindowGroup {
+      ContentView()
     }
+  }
+  
+  init() {
+    UITableView.appearance().backgroundColor = .clear
+    UITableViewCell.appearance().backgroundColor = .clear
+  }
 }
