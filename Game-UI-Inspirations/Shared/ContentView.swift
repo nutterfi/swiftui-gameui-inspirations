@@ -11,7 +11,7 @@ import Shapes
 class ContentViewModel: ObservableObject {
   @Published private(set) var titles: [String]
   init() {
-    titles = ["Control", "MK11", "Genshin Impact", "RDR2", "The Last of Us"]
+    titles = ["Control", "MK11", "Genshin Impact", "RDR2", "The Last of Us", "Overwatch"]
   }
 }
 
@@ -39,6 +39,8 @@ struct ContentView: View {
         GenshinImpactLoadingProgressBar()
       case "the last of us":
         TLOUSkillSelectMenu()
+      case "overwatch":
+        OverwatchLogoDemo()
       default:
         Circle().frame(width: .infinity, height: .infinity)
           .overlay(
@@ -60,6 +62,11 @@ struct ContentView: View {
       case "mk11":
         MK11SelectionView()
           .frame(height: 120)
+      case "overwatch":
+        OverwatchIcon(primary: Color.white, secondary: Color.orange)
+          .background(Color.black)
+          .frame(height: 100)
+
       default:
         Text(title)
         .font(.largeTitle)
