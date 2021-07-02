@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		290B5CF7268ED22C00EB93BD /* HadesBoonDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290B5CF6268ED22C00EB93BD /* HadesBoonDemo.swift */; };
+		290B5CF8268ED22C00EB93BD /* HadesBoonDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290B5CF6268ED22C00EB93BD /* HadesBoonDemo.swift */; };
 		291026FF263E62EE00418FE1 /* BoonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291026FE263E62EE00418FE1 /* BoonView.swift */; };
 		29102700263E62EE00418FE1 /* BoonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291026FE263E62EE00418FE1 /* BoonView.swift */; };
 		29102706263E673300418FE1 /* ZeusBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29102705263E673300418FE1 /* ZeusBoon.swift */; };
@@ -128,6 +130,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		290B5CF6268ED22C00EB93BD /* HadesBoonDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HadesBoonDemo.swift; sourceTree = "<group>"; };
 		291026FE263E62EE00418FE1 /* BoonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoonView.swift; sourceTree = "<group>"; };
 		29102705263E673300418FE1 /* ZeusBoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusBoon.swift; sourceTree = "<group>"; };
 		2910270A263E6DAC00418FE1 /* PoseidonBoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoseidonBoon.swift; sourceTree = "<group>"; };
@@ -230,6 +233,7 @@
 				291026FE263E62EE00418FE1 /* BoonView.swift */,
 				29102705263E673300418FE1 /* ZeusBoon.swift */,
 				2910270A263E6DAC00418FE1 /* PoseidonBoon.swift */,
+				290B5CF6268ED22C00EB93BD /* HadesBoonDemo.swift */,
 			);
 			path = Hades;
 			sourceTree = "<group>";
@@ -528,6 +532,7 @@
 			files = (
 				2976E1DA2626AD5C00272ADC /* Pulsar.swift in Sources */,
 				29A22D122626DC60000D9EAF /* KountdownTimerView.swift in Sources */,
+				290B5CF7268ED22C00EB93BD /* HadesBoonDemo.swift in Sources */,
 				295794792650D91D00BDDE3A /* TLOUSkillModel.swift in Sources */,
 				297A6E45265E057000201D1A /* RibbonShapes.swift in Sources */,
 				2926BCF8263529D400CEDC7E /* FireflyTail.swift in Sources */,
@@ -611,6 +616,7 @@
 				29A22D3C2626DFF3000D9EAF /* ProgressBar.swift in Sources */,
 				29A22D1D2626DC60000D9EAF /* KountdownTimerViewModel.swift in Sources */,
 				297DC70D265A106800980DDE /* MGSVLoadingView.swift in Sources */,
+				290B5CF8268ED22C00EB93BD /* HadesBoonDemo.swift in Sources */,
 				298FE300264B8F1C00BBC02A /* SkillHealingSpeed.swift in Sources */,
 				29102700263E62EE00418FE1 /* BoonView.swift in Sources */,
 				2998BF032660B1CE00EA034B /* RibbonBanner.swift in Sources */,
