@@ -21,6 +21,9 @@
 		2926BCF42635260D00CEDC7E /* FireflyWing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2926BCF22635260D00CEDC7E /* FireflyWing.swift */; };
 		2926BCF8263529D400CEDC7E /* FireflyTail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2926BCF7263529D400CEDC7E /* FireflyTail.swift */; };
 		2926BCF9263529D400CEDC7E /* FireflyTail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2926BCF7263529D400CEDC7E /* FireflyTail.swift */; };
+		2929B8102695604600C86BBB /* FFXIVCharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2929B80F2695604600C86BBB /* FFXIVCharacterView.swift */; };
+		2929B8112695604600C86BBB /* FFXIVCharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2929B80F2695604600C86BBB /* FFXIVCharacterView.swift */; };
+		29304D2F26916F49003512A1 /* TestingTiledImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29304D2E26916F49003512A1 /* TestingTiledImageView.swift */; };
 		294FF9482632AE300057869B /* TLOUIconDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294FF9472632AE300057869B /* TLOUIconDemo.swift */; };
 		294FF9492632AE300057869B /* TLOUIconDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294FF9472632AE300057869B /* TLOUIconDemo.swift */; };
 		2950E127268C24B4005EFAA9 /* OverwatchIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2950E126268C24B4005EFAA9 /* OverwatchIcon.swift */; };
@@ -137,6 +140,8 @@
 		2926BCED2635225100CEDC7E /* FireflyPendant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireflyPendant.swift; sourceTree = "<group>"; };
 		2926BCF22635260D00CEDC7E /* FireflyWing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireflyWing.swift; sourceTree = "<group>"; };
 		2926BCF7263529D400CEDC7E /* FireflyTail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireflyTail.swift; sourceTree = "<group>"; };
+		2929B80F2695604600C86BBB /* FFXIVCharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFXIVCharacterView.swift; sourceTree = "<group>"; };
+		29304D2E26916F49003512A1 /* TestingTiledImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingTiledImageView.swift; sourceTree = "<group>"; };
 		294FF9472632AE300057869B /* TLOUIconDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLOUIconDemo.swift; sourceTree = "<group>"; };
 		2950E126268C24B4005EFAA9 /* OverwatchIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverwatchIcon.swift; sourceTree = "<group>"; };
 		2950E128268C2CDC005EFAA9 /* OverwatchLogoDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverwatchLogoDemo.swift; sourceTree = "<group>"; };
@@ -238,10 +243,19 @@
 			path = Hades;
 			sourceTree = "<group>";
 		};
+		2929B80E2695601400C86BBB /* FFXIV */ = {
+			isa = PBXGroup;
+			children = (
+				2929B80F2695604600C86BBB /* FFXIVCharacterView.swift */,
+			);
+			path = FFXIV;
+			sourceTree = "<group>";
+		};
 		2950E125268C2499005EFAA9 /* Overwatch */ = {
 			isa = PBXGroup;
 			children = (
 				2950E126268C24B4005EFAA9 /* OverwatchIcon.swift */,
+				29304D2E26916F49003512A1 /* TestingTiledImageView.swift */,
 				2950E128268C2CDC005EFAA9 /* OverwatchLogoDemo.swift */,
 			);
 			path = Overwatch;
@@ -261,6 +275,7 @@
 		2976E1AB2626A45000272ADC /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				2929B80E2695601400C86BBB /* FFXIV */,
 				2950E125268C2499005EFAA9 /* Overwatch */,
 				297DC708265A0F0700980DDE /* MGSV */,
 				29A22D3A2626DFF3000D9EAF /* MaskedProgressBar.swift */,
@@ -575,6 +590,7 @@
 				29A22D492626E041000D9EAF /* MinimapViewModel.swift in Sources */,
 				29EB0A66262BF1D40032E598 /* ControlQuestMarker.swift in Sources */,
 				2910270B263E6DAC00418FE1 /* PoseidonBoon.swift in Sources */,
+				2929B8102695604600C86BBB /* FFXIVCharacterView.swift in Sources */,
 				29B44138262FDF2A00E442A6 /* TLOUIcon.swift in Sources */,
 				29EB0A61262BEA570032E598 /* ControlSelectionView.swift in Sources */,
 				29A22D472626E041000D9EAF /* MinimapDemo.swift in Sources */,
@@ -582,6 +598,7 @@
 				29A22D1A2626DC60000D9EAF /* MenuView.swift in Sources */,
 				29A22D042626D93A000D9EAF /* QuestDescriptionView.swift in Sources */,
 				295794742650D8DE00BDDE3A /* SkillIcon.swift in Sources */,
+				29304D2F26916F49003512A1 /* TestingTiledImageView.swift in Sources */,
 				29A22D4B2626E041000D9EAF /* MinimapModel.swift in Sources */,
 				29A22CFD2626D8C9000D9EAF /* ConsummateV.swift in Sources */,
 				29A22CF52626D8C9000D9EAF /* LoadingRingsViewModel.swift in Sources */,
@@ -636,6 +653,7 @@
 				297A6E40265E04F200201D1A /* DiamondGem.swift in Sources */,
 				298FE2FB264B8C6400BBC02A /* SkillWeaponSway.swift in Sources */,
 				2926BCEF2635225100CEDC7E /* FireflyPendant.swift in Sources */,
+				2929B8112695604600C86BBB /* FFXIVCharacterView.swift in Sources */,
 				29A22D4A2626E041000D9EAF /* MinimapViewModel.swift in Sources */,
 				29EB0A67262BF1D40032E598 /* ControlQuestMarker.swift in Sources */,
 				2910270C263E6DAC00418FE1 /* PoseidonBoon.swift in Sources */,
