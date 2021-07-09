@@ -16,6 +16,14 @@ extension Color {
   static var hadesZeusOrange: Color {
     Color(red: 252/255, green: 186/255, blue: 67/255)
   }
+  
+  static var hadesAphroditePink: Color {
+    Color(red: 247/255, green: 167/255, blue: 251/255)
+  }
+  
+  static var hadesAphroditeMagenta: Color {
+    Color(red: 249/255, green: 110/255, blue: 211/255)
+  }
 }
 
 struct Boon {
@@ -26,6 +34,9 @@ struct Boon {
   static let aphrodite = "aphrodite"
   static let poseidon = "poseidon"
   static let chaos = "chaos"
+  static let dionysis = "dionysis"
+  static let athena = "athena"
+  static let demeter = "demeter"
 }
 
 struct BoonView: View {
@@ -37,7 +48,7 @@ struct BoonView: View {
           Circle()
             .foregroundColor(Color.black.opacity(0.3))
           view(for: boon)
-            .frame(width: proxy.size.width * 0.5, height: proxy.size.height * 0.8)
+            .frame(width: proxy.size.width * 0.8, height: proxy.size.height * 0.8)
         }
         .frame(width: proxy.size.width, height: proxy.size.height)
       }
@@ -58,6 +69,12 @@ struct BoonView: View {
           LinearGradient(gradient: Gradient(colors: [.blue, .white, .blue]), startPoint: .topLeading, endPoint: .bottomTrailing)
             .mask(
               PoseidonBoon()
+//                .frame(width: dim * 0.8, height: dim * 0.8)
+            )
+        case Boon.aphrodite:
+          LinearGradient(gradient: Gradient(colors: [.white, .hadesAphroditeMagenta, .hadesAphroditePink]), startPoint: .topLeading, endPoint: .bottomTrailing)
+            .mask(
+              AphroditeBoon()
 //                .frame(width: dim * 0.8, height: dim * 0.8)
             )
           
