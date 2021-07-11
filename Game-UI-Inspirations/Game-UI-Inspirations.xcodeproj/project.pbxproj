@@ -64,6 +64,10 @@
 		29813986263287BA00009D7B /* POIMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29813984263287BA00009D7B /* POIMarker.swift */; };
 		29816B6C263BBF1E0016F1BA /* Rustify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29816B6B263BBF1E0016F1BA /* Rustify.swift */; };
 		29816B6D263BBF1E0016F1BA /* Rustify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29816B6B263BBF1E0016F1BA /* Rustify.swift */; };
+		298DA1C3269AA4CC0054463A /* OWUltimateMeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298DA1C2269AA4CC0054463A /* OWUltimateMeter.swift */; };
+		298DA1C4269AA4CC0054463A /* OWUltimateMeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298DA1C2269AA4CC0054463A /* OWUltimateMeter.swift */; };
+		298DA1C6269AAEF50054463A /* OWUltimateMeterDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298DA1C5269AAEF50054463A /* OWUltimateMeterDemo.swift */; };
+		298DA1C7269AAEF50054463A /* OWUltimateMeterDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298DA1C5269AAEF50054463A /* OWUltimateMeterDemo.swift */; };
 		298FE2FA264B8C6400BBC02A /* SkillWeaponSway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298FE2F9264B8C6400BBC02A /* SkillWeaponSway.swift */; };
 		298FE2FB264B8C6400BBC02A /* SkillWeaponSway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298FE2F9264B8C6400BBC02A /* SkillWeaponSway.swift */; };
 		298FE2FF264B8F1C00BBC02A /* SkillHealingSpeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298FE2FE264B8F1C00BBC02A /* SkillHealingSpeed.swift */; };
@@ -169,6 +173,8 @@
 		29801ACA2647A0320010B4C8 /* SkillMaxHealth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillMaxHealth.swift; sourceTree = "<group>"; };
 		29813984263287BA00009D7B /* POIMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POIMarker.swift; sourceTree = "<group>"; };
 		29816B6B263BBF1E0016F1BA /* Rustify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rustify.swift; sourceTree = "<group>"; };
+		298DA1C2269AA4CC0054463A /* OWUltimateMeter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OWUltimateMeter.swift; sourceTree = "<group>"; };
+		298DA1C5269AAEF50054463A /* OWUltimateMeterDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OWUltimateMeterDemo.swift; sourceTree = "<group>"; };
 		298FE2F9264B8C6400BBC02A /* SkillWeaponSway.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkillWeaponSway.swift; sourceTree = "<group>"; };
 		298FE2FE264B8F1C00BBC02A /* SkillHealingSpeed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkillHealingSpeed.swift; sourceTree = "<group>"; };
 		298FE308264B939800BBC02A /* TLOUSkillSelectMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLOUSkillSelectMenu.swift; sourceTree = "<group>"; };
@@ -261,6 +267,8 @@
 				2950E126268C24B4005EFAA9 /* OverwatchIcon.swift */,
 				29304D2E26916F49003512A1 /* TestingTiledImageView.swift */,
 				2950E128268C2CDC005EFAA9 /* OverwatchLogoDemo.swift */,
+				298DA1C2269AA4CC0054463A /* OWUltimateMeter.swift */,
+				298DA1C5269AAEF50054463A /* OWUltimateMeterDemo.swift */,
 			);
 			path = Overwatch;
 			sourceTree = "<group>";
@@ -581,6 +589,8 @@
 				2957947E2650D94000BDDE3A /* TLOUSkillSelectMenuViewModel.swift in Sources */,
 				29A22D3D2626DFF3000D9EAF /* GenshinImpactLoadingProgressBar.swift in Sources */,
 				297DC711265A107600980DDE /* MGSVLoadingViewModel.swift in Sources */,
+				298DA1C3269AA4CC0054463A /* OWUltimateMeter.swift in Sources */,
+				298DA1C6269AAEF50054463A /* OWUltimateMeterDemo.swift in Sources */,
 				297A6E3A265E02B600201D1A /* DiamondDogsLogo.swift in Sources */,
 				29A22CF72626D8C9000D9EAF /* LoadingRingsView.swift in Sources */,
 				29816B6C263BBF1E0016F1BA /* Rustify.swift in Sources */,
@@ -626,6 +636,7 @@
 				29A22D192626DC60000D9EAF /* KombatKardContentView.swift in Sources */,
 				29922ACE2633D2FA002469C2 /* MK11Left.swift in Sources */,
 				2910F3E7269801F7008475D6 /* AphroditeBoon.swift in Sources */,
+				298DA1C4269AA4CC0054463A /* OWUltimateMeter.swift in Sources */,
 				29A22CFA2626D8C9000D9EAF /* LoadingRingsDemo.swift in Sources */,
 				298FE30A264B939800BBC02A /* TLOUSkillSelectMenu.swift in Sources */,
 				29801ACC2647A0320010B4C8 /* SkillMaxHealth.swift in Sources */,
@@ -649,6 +660,7 @@
 				2957947F2650D94000BDDE3A /* TLOUSkillSelectMenuViewModel.swift in Sources */,
 				29A22D3E2626DFF3000D9EAF /* GenshinImpactLoadingProgressBar.swift in Sources */,
 				297DC712265A107600980DDE /* MGSVLoadingViewModel.swift in Sources */,
+				298DA1C7269AAEF50054463A /* OWUltimateMeterDemo.swift in Sources */,
 				297A6E3B265E02B600201D1A /* DiamondDogsLogo.swift in Sources */,
 				29A22CF82626D8C9000D9EAF /* LoadingRingsView.swift in Sources */,
 				29816B6D263BBF1E0016F1BA /* Rustify.swift in Sources */,
