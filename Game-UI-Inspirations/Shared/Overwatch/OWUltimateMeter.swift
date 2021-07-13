@@ -18,23 +18,20 @@ struct OWUltimateMeter: View {
         let dim = min(proxy.size.width, proxy.size.height)
         ZStack {
           
-          Circle()
-            .rotation(.degrees(-90))
-            .stroke(style: StrokeStyle.init(lineWidth: 25, lineCap: .butt, lineJoin: .bevel, miterLimit: 0, dash: [12, 3], dashPhase: 0))
-            .frame(width: dim * 0.55, height: dim * 0.55)
+          StrokeStyleCircle(numberOfSegments: 38, segmentRatio: 0.8, lineWidthRatio: 0.11)
+            .rotationEffect(Angle.degrees(-90))
+            .frame(width: dim * 0.53, height: dim * 0.53)
             .foregroundColor(Color.gray)
           
           // Outer circle highlighted
-          Circle()
-            .trim(from: 0, to: CGFloat(progress))
-            .rotation(.degrees(-90))
-            .stroke(style: StrokeStyle.init(lineWidth: 30, lineCap: .butt, lineJoin: .bevel, miterLimit: 2, dash: [12, 3], dashPhase: 0))
-            .frame(width: dim * 0.55, height: dim * 0.55)
+          StrokeStyleCircle(numberOfSegments: 38, segmentRatio: 0.8, lineWidthRatio: 0.15, trim: [0, CGFloat(progress)])
+            .rotationEffect(Angle.degrees(-90))
+            .frame(width: dim * 0.51, height: dim * 0.51)
             .foregroundColor(Color.yellow)
           
-          Circle()
-            .rotation(.degrees(-90))
-            .stroke(style: StrokeStyle.init(lineWidth: 10, lineCap: .butt, lineJoin: .bevel, miterLimit: 2, dash: [23, 3], dashPhase: 0))
+          StrokeStyleCircle(numberOfSegments: 18, segmentRatio: 0.85, lineWidthRatio: 0.08)
+            .rotationEffect(Angle.degrees(-90))
+            
             .frame(width: dim * 0.35, height: dim * 0.35)
             .foregroundColor(Color.yellow)
           
@@ -48,15 +45,16 @@ struct OWUltimateMeter: View {
             .frame(width: dim * 0.15, height: dim * 0.15)
             .offset(x: 0, y: dim * 0.4)
           Text("Q")
-            .font(.largeTitle)
+            .font(.custom("AvenirNextCondensed-MediumItalic", size: dim / 9))
             .foregroundColor(Color.gray)
             .offset(x: 0, y: dim * 0.4)
-          HStack(alignment: .bottom, spacing: 0) {
-//            let pString = String(format: "%d", progress)
+          Group {
             Text("\(Int(progress*100))")
-              .font(.custom("AvenirNextCondensed-Italic", size: 80))
+              .font(.custom("AvenirNextCondensed-MediumItalic", size: dim / 6))
+              .kerning(0)
             Text("%")
-              .font(.custom("AvenirNextCondensed-Italic", size: 40))
+              .font(.custom("AvenirNextCondensed-Italic", size: dim / 18))
+              .offset(x: dim / 9, y: dim / 25)
           }
           .foregroundColor(Color.white)
         }
@@ -70,6 +68,7 @@ struct OWUltimateMeter_Previews: PreviewProvider {
       ZStack {
         Color.black.ignoresSafeArea()
         OWUltimateMeter(progress: .constant(0.25))
+          .frame(width:400, height:400)
       }
       
     }

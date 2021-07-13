@@ -26,6 +26,8 @@
 		2929B8102695604600C86BBB /* FFXIVCharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2929B80F2695604600C86BBB /* FFXIVCharacterView.swift */; };
 		2929B8112695604600C86BBB /* FFXIVCharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2929B80F2695604600C86BBB /* FFXIVCharacterView.swift */; };
 		29304D2F26916F49003512A1 /* TestingTiledImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29304D2E26916F49003512A1 /* TestingTiledImageView.swift */; };
+		29415858269D33E70072A007 /* TestStrokeStyleCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29415857269D33E70072A007 /* TestStrokeStyleCircle.swift */; };
+		29415859269D33E70072A007 /* TestStrokeStyleCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29415857269D33E70072A007 /* TestStrokeStyleCircle.swift */; };
 		294FF9482632AE300057869B /* TLOUIconDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294FF9472632AE300057869B /* TLOUIconDemo.swift */; };
 		294FF9492632AE300057869B /* TLOUIconDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294FF9472632AE300057869B /* TLOUIconDemo.swift */; };
 		2950E127268C24B4005EFAA9 /* OverwatchIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2950E126268C24B4005EFAA9 /* OverwatchIcon.swift */; };
@@ -149,6 +151,7 @@
 		2926BCF7263529D400CEDC7E /* FireflyTail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireflyTail.swift; sourceTree = "<group>"; };
 		2929B80F2695604600C86BBB /* FFXIVCharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFXIVCharacterView.swift; sourceTree = "<group>"; };
 		29304D2E26916F49003512A1 /* TestingTiledImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingTiledImageView.swift; sourceTree = "<group>"; };
+		29415857269D33E70072A007 /* TestStrokeStyleCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestStrokeStyleCircle.swift; sourceTree = "<group>"; };
 		294FF9472632AE300057869B /* TLOUIconDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLOUIconDemo.swift; sourceTree = "<group>"; };
 		2950E126268C24B4005EFAA9 /* OverwatchIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverwatchIcon.swift; sourceTree = "<group>"; };
 		2950E128268C2CDC005EFAA9 /* OverwatchLogoDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverwatchLogoDemo.swift; sourceTree = "<group>"; };
@@ -269,6 +272,7 @@
 				2950E128268C2CDC005EFAA9 /* OverwatchLogoDemo.swift */,
 				298DA1C2269AA4CC0054463A /* OWUltimateMeter.swift */,
 				298DA1C5269AAEF50054463A /* OWUltimateMeterDemo.swift */,
+				29415857269D33E70072A007 /* TestStrokeStyleCircle.swift */,
 			);
 			path = Overwatch;
 			sourceTree = "<group>";
@@ -579,6 +583,7 @@
 				29BB327C265E0C3F00C3CCFE /* DiamondDog.swift in Sources */,
 				29A22D3B2626DFF3000D9EAF /* ProgressBar.swift in Sources */,
 				29A22D1C2626DC60000D9EAF /* KountdownTimerViewModel.swift in Sources */,
+				29415858269D33E70072A007 /* TestStrokeStyleCircle.swift in Sources */,
 				297DC70C265A106800980DDE /* MGSVLoadingView.swift in Sources */,
 				298FE2FF264B8F1C00BBC02A /* SkillHealingSpeed.swift in Sources */,
 				291026FF263E62EE00418FE1 /* BoonView.swift in Sources */,
@@ -651,6 +656,7 @@
 				29A22D1D2626DC60000D9EAF /* KountdownTimerViewModel.swift in Sources */,
 				297DC70D265A106800980DDE /* MGSVLoadingView.swift in Sources */,
 				290B5CF8268ED22C00EB93BD /* HadesBoonDemo.swift in Sources */,
+				29415859269D33E70072A007 /* TestStrokeStyleCircle.swift in Sources */,
 				298FE300264B8F1C00BBC02A /* SkillHealingSpeed.swift in Sources */,
 				29102700263E62EE00418FE1 /* BoonView.swift in Sources */,
 				2998BF032660B1CE00EA034B /* RibbonBanner.swift in Sources */,

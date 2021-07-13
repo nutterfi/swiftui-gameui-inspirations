@@ -15,6 +15,11 @@ struct OWUltimateMeterDemo: View {
         VStack {
           Slider(value:$progress)
           OWUltimateMeter(progress: $progress)
+            .frame(width: 100, height: 100)
+          OWUltimateMeter(progress: $progress)
+            .frame(width: 200, height: 200)
+          OWUltimateMeter(progress: $progress)
+            .frame(width: 300, height: 300)
         }
         .padding()
       }
@@ -23,6 +28,7 @@ struct OWUltimateMeterDemo: View {
 
 struct OWUltimateMeterDemo_Previews: PreviewProvider {
     static var previews: some View {
-        OWUltimateMeterDemo()
+      OWUltimateMeterDemo()
+        .previewDevice("iPhone 12 Pro Max")
     }
 }
