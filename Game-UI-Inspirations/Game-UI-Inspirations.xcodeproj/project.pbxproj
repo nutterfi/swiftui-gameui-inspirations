@@ -138,6 +138,12 @@
 		29EB0A67262BF1D40032E598 /* ControlQuestMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EB0A65262BF1D40032E598 /* ControlQuestMarker.swift */; };
 		29F5337C26858D5100EADD37 /* MGSViDroidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F5337B26858D5100EADD37 /* MGSViDroidView.swift */; };
 		29F5337D26858D5100EADD37 /* MGSViDroidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F5337B26858D5100EADD37 /* MGSViDroidView.swift */; };
+		29FADE16269E99E400CF6D73 /* TypewriterTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FADE15269E99E400CF6D73 /* TypewriterTextView.swift */; };
+		29FADE17269E99E400CF6D73 /* TypewriterTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FADE15269E99E400CF6D73 /* TypewriterTextView.swift */; };
+		29FADE19269EA23000CF6D73 /* TypewriterTextViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FADE18269EA23000CF6D73 /* TypewriterTextViewModel.swift */; };
+		29FADE1A269EA23000CF6D73 /* TypewriterTextViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FADE18269EA23000CF6D73 /* TypewriterTextViewModel.swift */; };
+		29FADE1C269EA6E800CF6D73 /* MGSVMissionTextDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FADE1B269EA6E800CF6D73 /* MGSVMissionTextDemo.swift */; };
+		29FADE1D269EA6E800CF6D73 /* MGSVMissionTextDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FADE1B269EA6E800CF6D73 /* MGSVMissionTextDemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -212,6 +218,9 @@
 		29EB0A60262BEA570032E598 /* ControlSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlSelectionView.swift; sourceTree = "<group>"; };
 		29EB0A65262BF1D40032E598 /* ControlQuestMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlQuestMarker.swift; sourceTree = "<group>"; };
 		29F5337B26858D5100EADD37 /* MGSViDroidView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MGSViDroidView.swift; sourceTree = "<group>"; };
+		29FADE15269E99E400CF6D73 /* TypewriterTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypewriterTextView.swift; sourceTree = "<group>"; };
+		29FADE18269EA23000CF6D73 /* TypewriterTextViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypewriterTextViewModel.swift; sourceTree = "<group>"; };
+		29FADE1B269EA6E800CF6D73 /* MGSVMissionTextDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MGSVMissionTextDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -363,6 +372,9 @@
 				297A6E43265E053F00201D1A /* DiamondDogsLogo */,
 				297DC70B265A106800980DDE /* MGSVLoadingView.swift */,
 				297DC710265A107600980DDE /* MGSVLoadingViewModel.swift */,
+				29FADE15269E99E400CF6D73 /* TypewriterTextView.swift */,
+				29FADE18269EA23000CF6D73 /* TypewriterTextViewModel.swift */,
+				29FADE1B269EA6E800CF6D73 /* MGSVMissionTextDemo.swift */,
 			);
 			path = MGSV;
 			sourceTree = "<group>";
@@ -574,6 +586,7 @@
 				298FE309264B939800BBC02A /* TLOUSkillSelectMenu.swift in Sources */,
 				29801ACB2647A0320010B4C8 /* SkillMaxHealth.swift in Sources */,
 				29F5337C26858D5100EADD37 /* MGSViDroidView.swift in Sources */,
+				29FADE1C269EA6E800CF6D73 /* MGSVMissionTextDemo.swift in Sources */,
 				29A22D522626E059000D9EAF /* Color+Extensions.swift in Sources */,
 				2950E129268C2CDC005EFAA9 /* OverwatchLogoDemo.swift in Sources */,
 				29A22D102626DC60000D9EAF /* KombatKardView.swift in Sources */,
@@ -588,6 +601,8 @@
 				298FE2FF264B8F1C00BBC02A /* SkillHealingSpeed.swift in Sources */,
 				291026FF263E62EE00418FE1 /* BoonView.swift in Sources */,
 				2998BF022660B1CE00EA034B /* RibbonBanner.swift in Sources */,
+				29FADE16269E99E400CF6D73 /* TypewriterTextView.swift in Sources */,
+				29FADE19269EA23000CF6D73 /* TypewriterTextViewModel.swift in Sources */,
 				2976E1BF2626A45100272ADC /* Game_UI_InspirationsApp.swift in Sources */,
 				294FF9482632AE300057869B /* TLOUIconDemo.swift in Sources */,
 				29A22CFB2626D8C9000D9EAF /* ConsummateVDemo.swift in Sources */,
@@ -633,6 +648,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29FADE17269E99E400CF6D73 /* TypewriterTextView.swift in Sources */,
 				2976E1DB2626AD5C00272ADC /* Pulsar.swift in Sources */,
 				29A22D132626DC60000D9EAF /* KountdownTimerView.swift in Sources */,
 				2957947A2650D91D00BDDE3A /* TLOUSkillModel.swift in Sources */,
@@ -672,6 +688,7 @@
 				29816B6D263BBF1E0016F1BA /* Rustify.swift in Sources */,
 				29922AC92633D270002469C2 /* MK11SelectionView.swift in Sources */,
 				29A22D4E2626E041000D9EAF /* MinimapView.swift in Sources */,
+				29FADE1A269EA23000CF6D73 /* TypewriterTextViewModel.swift in Sources */,
 				29532EFE26451D8B000F07F1 /* FireflySymbol.swift in Sources */,
 				2926BCF42635260D00CEDC7E /* FireflyWing.swift in Sources */,
 				297A6E40265E04F200201D1A /* DiamondGem.swift in Sources */,
@@ -683,6 +700,7 @@
 				2910270C263E6DAC00418FE1 /* PoseidonBoon.swift in Sources */,
 				29B44139262FDF2A00E442A6 /* TLOUIcon.swift in Sources */,
 				29EB0A62262BEA570032E598 /* ControlSelectionView.swift in Sources */,
+				29FADE1D269EA6E800CF6D73 /* MGSVMissionTextDemo.swift in Sources */,
 				29A22D482626E041000D9EAF /* MinimapDemo.swift in Sources */,
 				29ACEC2C2642522C00DAE394 /* TLOUSkillsIcon.swift in Sources */,
 				29A22D1B2626DC60000D9EAF /* MenuView.swift in Sources */,

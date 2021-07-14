@@ -21,6 +21,7 @@ struct StrokeStyleCircleDemo: View {
       Slider(value: $lineWidthRatio)
 
       StrokeStyleCircle(numberOfSegments: Int(numberOfSegments), segmentRatio: segmentRatio, ratio: ratio, lineWidthRatio: lineWidthRatio)
+        .foregroundStyle(LinearGradient(colors: [Color.blue, Color.purple], startPoint: .top, endPoint: .bottom))
     }
   }
 }

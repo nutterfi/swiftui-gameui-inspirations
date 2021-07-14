@@ -11,7 +11,7 @@ import Shapes
 class ContentViewModel: ObservableObject {
   @Published private(set) var titles: [String]
   init() {
-    titles = ["Control", "MK11", "Genshin Impact", "RDR2", "The Last of Us", "Overwatch"]
+    titles = ["MGSV", "Control", "MK11", "Genshin Impact", "RDR2", "The Last of Us", "Overwatch"]
   }
 }
 
@@ -41,6 +41,8 @@ struct ContentView: View {
         TLOUSkillSelectMenu()
       case "overwatch":
         OverwatchLogoDemo()
+      case "mgsv":
+        MGSVMissionTextDemo()
       default:
         Circle().frame(width: .infinity, height: .infinity)
           .overlay(
