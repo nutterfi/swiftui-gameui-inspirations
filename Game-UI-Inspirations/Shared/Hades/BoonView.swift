@@ -52,9 +52,6 @@ struct BoonView: View {
           view(for: boon)
             .frame(width: proxy.size.width * 0.8, height: proxy.size.height * 0.8)
             .offset(x: 0, y: !shouldAnimate ? 0 : isAnimating ? dim / 20 : -dim / 20 )
-//            .withAnimation(Animation.easeInOut(duration: 1).repeatForever(), {
-//
-//            })
             .animation(Animation.easeInOut(duration: 1).repeatForever(), value: isAnimating)
         }
         .frame(width: proxy.size.width, height: proxy.size.height)
