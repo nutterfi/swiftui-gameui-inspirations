@@ -17,6 +17,8 @@
 		2910270C263E6DAC00418FE1 /* PoseidonBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2910270A263E6DAC00418FE1 /* PoseidonBoon.swift */; };
 		2910F3E6269801F7008475D6 /* AphroditeBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2910F3E5269801F7008475D6 /* AphroditeBoon.swift */; };
 		2910F3E7269801F7008475D6 /* AphroditeBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2910F3E5269801F7008475D6 /* AphroditeBoon.swift */; };
+		29230B3F26A1460C00A052E7 /* AthenaBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29230B3E26A1460C00A052E7 /* AthenaBoon.swift */; };
+		29230B4026A1460C00A052E7 /* AthenaBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29230B3E26A1460C00A052E7 /* AthenaBoon.swift */; };
 		2926BCEE2635225100CEDC7E /* FireflyPendant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2926BCED2635225100CEDC7E /* FireflyPendant.swift */; };
 		2926BCEF2635225100CEDC7E /* FireflyPendant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2926BCED2635225100CEDC7E /* FireflyPendant.swift */; };
 		2926BCF32635260D00CEDC7E /* FireflyWing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2926BCF22635260D00CEDC7E /* FireflyWing.swift */; };
@@ -152,6 +154,7 @@
 		29102705263E673300418FE1 /* ZeusBoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusBoon.swift; sourceTree = "<group>"; };
 		2910270A263E6DAC00418FE1 /* PoseidonBoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoseidonBoon.swift; sourceTree = "<group>"; };
 		2910F3E5269801F7008475D6 /* AphroditeBoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AphroditeBoon.swift; sourceTree = "<group>"; };
+		29230B3E26A1460C00A052E7 /* AthenaBoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthenaBoon.swift; sourceTree = "<group>"; };
 		2926BCED2635225100CEDC7E /* FireflyPendant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireflyPendant.swift; sourceTree = "<group>"; };
 		2926BCF22635260D00CEDC7E /* FireflyWing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireflyWing.swift; sourceTree = "<group>"; };
 		2926BCF7263529D400CEDC7E /* FireflyTail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireflyTail.swift; sourceTree = "<group>"; };
@@ -261,6 +264,7 @@
 				2910270A263E6DAC00418FE1 /* PoseidonBoon.swift */,
 				290B5CF6268ED22C00EB93BD /* HadesBoonDemo.swift */,
 				2910F3E5269801F7008475D6 /* AphroditeBoon.swift */,
+				29230B3E26A1460C00A052E7 /* AthenaBoon.swift */,
 			);
 			path = Hades;
 			sourceTree = "<group>";
@@ -601,6 +605,7 @@
 				298FE2FF264B8F1C00BBC02A /* SkillHealingSpeed.swift in Sources */,
 				291026FF263E62EE00418FE1 /* BoonView.swift in Sources */,
 				2998BF022660B1CE00EA034B /* RibbonBanner.swift in Sources */,
+				29230B3F26A1460C00A052E7 /* AthenaBoon.swift in Sources */,
 				29FADE16269E99E400CF6D73 /* TypewriterTextView.swift in Sources */,
 				29FADE19269EA23000CF6D73 /* TypewriterTextViewModel.swift in Sources */,
 				2976E1BF2626A45100272ADC /* Game_UI_InspirationsApp.swift in Sources */,
@@ -712,6 +717,7 @@
 				29A22D172626DC60000D9EAF /* KountdownTimerDemo.swift in Sources */,
 				29D3FAB72644F4B000B6A02F /* SkillVitamin.swift in Sources */,
 				29A22D402626DFF3000D9EAF /* MaskedProgressBar.swift in Sources */,
+				29230B4026A1460C00A052E7 /* AthenaBoon.swift in Sources */,
 				29D3FABC2644F6C500B6A02F /* SkillSelectionRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

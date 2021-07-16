@@ -12,6 +12,7 @@ struct HadesBoonDemo: View {
   @State private var boons: [String] = [
     Boon.zeus, Boon.poseidon, Boon.athena, Boon.aphrodite, Boon.artemis, Boon.ares, Boon.dionysis, Boon.hermes, Boon.chaos, Boon.demeter]
   @State private var selectedIndex = 0
+  
     var body: some View {
       GeometryReader { proxy in
         let dim = min(proxy.size.width, proxy.size.height)
@@ -20,9 +21,9 @@ struct HadesBoonDemo: View {
             .ignoresSafeArea()
           
           VStack {
-            BoonView(boon: boons[selectedIndex])
+            BoonView(boon: boons[selectedIndex], shouldAnimate: true)
               .background(Color.black.opacity(0.3).mask(Circle()))
-                .padding()
+                
             Text("\(boons[selectedIndex])".uppercased())
               .font(.largeTitle)
               .foregroundColor(.primary)
@@ -34,6 +35,7 @@ struct HadesBoonDemo: View {
                     .background(Color.black.opacity(0.3).mask(Circle()))
                     .frame(width: dim / 4, height: dim / 4)
                       .overlay(Circle().stroke(Color.purple, lineWidth: selectedIndex == index ? 5 : 0))
+                      .padding()
                     .onTapGesture {
                       selectedIndex = index
                     }
@@ -41,6 +43,7 @@ struct HadesBoonDemo: View {
               }
             }
           }
+          .padding()
         }
         .frame(width: proxy.size.width, height: proxy.size.height)
       }

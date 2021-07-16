@@ -41,16 +41,28 @@ struct Boon {
 
 struct BoonView: View {
   var boon: String
-  
+  @State private var isAnimating = false
+    var shouldAnimate = false
     var body: some View {
       GeometryReader { proxy in
+        let dim = min(proxy.size.width, proxy.size.height)
         ZStack {
           Circle()
             .foregroundColor(Color.black.opacity(0.3))
           view(for: boon)
             .frame(width: proxy.size.width * 0.8, height: proxy.size.height * 0.8)
+            .offset(x: 0, y: !shouldAnimate ? 0 : isAnimating ? dim / 20 : -dim / 20 )
+//            .withAnimation(Animation.easeInOut(duration: 1).repeatForever(), {
+//
+//            })
+            .animation(Animation.easeInOut(duration: 1).repeatForever(), value: isAnimating)
         }
         .frame(width: proxy.size.width, height: proxy.size.height)
+      }
+      .onAppear {
+        if shouldAnimate {
+          isAnimating = true
+        }
       }
     }
   
@@ -63,21 +75,29 @@ struct BoonView: View {
           LinearGradient(gradient: Gradient(colors: [.white, .hadesZeusYellow, .hadesZeusOrange, .hadesZeusYellow]), startPoint: .topLeading, endPoint: .bottomTrailing)
             .mask(
               ZeusBoon()
-//                .frame(width: dim * 0.8, height: dim * 0.8)
             )
+            .frame(width: dim, height: dim)
         case Boon.poseidon:
           LinearGradient(gradient: Gradient(colors: [.blue, .white, .blue]), startPoint: .topLeading, endPoint: .bottomTrailing)
             .mask(
               PoseidonBoon()
-//                .frame(width: dim * 0.8, height: dim * 0.8)
             )
+            .frame(width: dim, height: dim)
+
         case Boon.aphrodite:
           LinearGradient(gradient: Gradient(colors: [.white, .hadesAphroditeMagenta, .hadesAphroditePink]), startPoint: .topLeading, endPoint: .bottomTrailing)
             .mask(
               AphroditeBoon()
-//                .frame(width: dim * 0.8, height: dim * 0.8)
             )
+            .frame(width: dim, height: dim)
           
+        case Boon.athena:
+          LinearGradient(gradient: Gradient(colors: [.white, .hadesZeusYellow]), startPoint: .topLeading, endPoint: .bottomTrailing)
+            .mask(
+              AthenaBoon()
+            )
+            .frame(width: dim, height: dim)
+
         default:
           Image(systemName: "questionmark.circle")
             .resizable()
@@ -93,11 +113,8 @@ struct BoonView: View {
 
 struct BoonView_Previews: PreviewProvider {
     static var previews: some View {
-      VStack {
-        BoonView(boon: Boon.zeus)
-        BoonView(boon: Boon.poseidon)
-      }
-      .background(Color.blue)
+      BoonView(boon: Boon.athena, shouldAnimate: true)
         .padding()
+        .background(Color.blue)
     }
 }
