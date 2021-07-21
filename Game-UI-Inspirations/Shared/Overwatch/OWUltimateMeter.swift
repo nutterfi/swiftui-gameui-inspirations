@@ -35,19 +35,8 @@ struct OWUltimateMeter: View {
             .frame(width: dim * 0.35, height: dim * 0.35)
             .foregroundColor(Color.yellow)
           
-          Circle()
-            .trim(from: 0, to: 0.94)
-            .rotation(.init(degrees: 101))
-            .stroke(Color.gray, lineWidth: 2)
-            .frame(width: dim * 0.8, height: dim * 0.8)
-          Circle()
-            .stroke(Color.gray, lineWidth: 2)
-            .frame(width: dim * 0.15, height: dim * 0.15)
-            .offset(x: 0, y: dim * 0.4)
-          Text("Q")
-            .font(.custom("AvenirNextCondensed-MediumItalic", size: dim / 9))
-            .foregroundColor(Color.gray)
-            .offset(x: 0, y: dim * 0.4)
+          OWUltimateMeterBorder()
+          
           Group {
             Text("\(Int(progress*100))")
               .font(.custom("AvenirNextCondensed-MediumItalic", size: dim / 6))
