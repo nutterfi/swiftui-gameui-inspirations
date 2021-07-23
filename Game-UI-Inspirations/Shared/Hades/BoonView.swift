@@ -24,6 +24,14 @@ extension Color {
   static var hadesAphroditeMagenta: Color {
     Color(red: 249/255, green: 110/255, blue: 211/255)
   }
+  
+  static var hadesArtemisYellow: Color {
+    Color(red: 217/255, green: 242/255, blue: 72/255)
+  }
+  
+  static var hadesArtemisGreen: Color {
+    Color(red: 190/255, green: 237/255, blue: 79/255)
+  }
 }
 
 struct Boon {
@@ -41,27 +49,36 @@ struct Boon {
 
 struct BoonView: View {
   var boon: String
+  var color: Color = Color.black.opacity(0.3)
+  
   @State private var isAnimating = false
-    var shouldAnimate = false
-    var body: some View {
-      GeometryReader { proxy in
-        let dim = min(proxy.size.width, proxy.size.height)
-        ZStack {
-          Circle()
-            .foregroundColor(Color.black.opacity(0.3))
-          view(for: boon)
-            .frame(width: proxy.size.width * 0.8, height: proxy.size.height * 0.8)
-            .offset(x: 0, y: !shouldAnimate ? 0 : isAnimating ? dim / 20 : -dim / 20 )
-            .animation(Animation.easeInOut(duration: 1).repeatForever(), value: isAnimating)
-        }
-        .frame(width: proxy.size.width, height: proxy.size.height)
+  var shouldAnimate = false
+  var body: some View {
+    GeometryReader { proxy in
+      let dim = min(proxy.size.width, proxy.size.height)
+      ZStack {
+        Circle()
+          .foregroundColor(color)
+        
+        view(for: boon)
+          .background(
+            view(for: boon).blur(radius: dim / 40)
+          )
+          .frame(width: proxy.size.width * 0.8, height: proxy.size.height * 0.8)
+          .offset(x: 0, y: !shouldAnimate ? 0 : isAnimating ? dim / 20 : -dim / 20 )
+          .animation(Animation.easeInOut(duration: 1).repeatForever(), value: isAnimating)
       }
-      .onAppear {
-        if shouldAnimate {
-          isAnimating = true
-        }
+      .frame(width: proxy.size.width, height: proxy.size.height)
+    }
+    .onAppear {
+      if shouldAnimate {
+        isAnimating = true
       }
     }
+    .onDisappear {
+      isAnimating = false
+    }
+  }
   
   func view(for boon: String) -> some View {
     GeometryReader { proxy in
@@ -80,7 +97,7 @@ struct BoonView: View {
               PoseidonBoon()
             )
             .frame(width: dim, height: dim)
-
+          
         case Boon.aphrodite:
           LinearGradient(gradient: Gradient(colors: [.white, .hadesAphroditeMagenta, .hadesAphroditePink]), startPoint: .topLeading, endPoint: .bottomTrailing)
             .mask(
@@ -94,7 +111,14 @@ struct BoonView: View {
               AthenaBoon()
             )
             .frame(width: dim, height: dim)
-
+          
+        case Boon.artemis:
+          LinearGradient(gradient: Gradient(colors: [.white, .hadesArtemisYellow, .hadesArtemisGreen]), startPoint: .topLeading, endPoint: .bottomTrailing)
+            .mask(
+              ArtemisBoon()
+            )
+            .frame(width: dim, height: dim)
+          
         default:
           Image(systemName: "questionmark.circle")
             .resizable()
@@ -105,13 +129,13 @@ struct BoonView: View {
     }
     
   }
-
+  
 }
 
 struct BoonView_Previews: PreviewProvider {
-    static var previews: some View {
-      BoonView(boon: Boon.athena, shouldAnimate: true)
-        .padding()
-        .background(Color.blue)
-    }
+  static var previews: some View {
+    BoonView(boon: Boon.artemis, shouldAnimate: false)
+      .padding()
+      .background(Color.blue)
+  }
 }

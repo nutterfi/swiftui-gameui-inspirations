@@ -17,12 +17,11 @@ struct HadesBoonDemo: View {
       GeometryReader { proxy in
         let dim = min(proxy.size.width, proxy.size.height)
         ZStack {
-          LinearGradient(colors: [.kombatBrown, .red, .hadesZeusOrange], startPoint: .top, endPoint: .bottom)
+          LinearGradient(colors: [.kombatBrown, .red, .hadesZeusOrange], startPoint: .top, endPoint: .bottomLeading)
             .ignoresSafeArea()
           
           VStack {
-            BoonView(boon: boons[selectedIndex], shouldAnimate: true)
-              .background(Color.black.opacity(0.3).mask(Circle()))
+            BoonView(boon: boons[selectedIndex], color: .purple, shouldAnimate: true)
                 
             Text("\(boons[selectedIndex])".uppercased())
               .font(.largeTitle)
@@ -31,11 +30,12 @@ struct HadesBoonDemo: View {
             ScrollView(.horizontal) {
               LazyHStack {
                 ForEach(0..<boons.count) { index in
-                  BoonView(boon: boons[index])
-                    .background(Color.black.opacity(0.3).mask(Circle()))
+                  BoonView(boon: boons[index], shouldAnimate: true)
                     .frame(width: dim / 4, height: dim / 4)
-                      .overlay(Circle().stroke(Color.purple, lineWidth: selectedIndex == index ? 5 : 0))
-                      .padding()
+                      .overlay(
+                        Circle()
+                          .stroke(.purple, lineWidth: selectedIndex == index ? 5 : 0)
+                      )
                     .onTapGesture {
                       selectedIndex = index
                     }
@@ -43,7 +43,6 @@ struct HadesBoonDemo: View {
               }
             }
           }
-          .padding()
         }
         .frame(width: proxy.size.width, height: proxy.size.height)
       }

@@ -134,6 +134,8 @@
 		29C9019026A7D85500AA9619 /* OWUltimateReadyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C9018E26A7D85500AA9619 /* OWUltimateReadyView.swift */; };
 		29C9019226A801A400AA9619 /* OWUltimateMeterBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C9019126A801A400AA9619 /* OWUltimateMeterBorder.swift */; };
 		29C9019326A801A400AA9619 /* OWUltimateMeterBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C9019126A801A400AA9619 /* OWUltimateMeterBorder.swift */; };
+		29D2AEBE26AA7821005A35D1 /* ArtemisBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D2AEBD26AA7821005A35D1 /* ArtemisBoon.swift */; };
+		29D2AEBF26AA7821005A35D1 /* ArtemisBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D2AEBD26AA7821005A35D1 /* ArtemisBoon.swift */; };
 		29D3FAB62644F4B000B6A02F /* SkillVitamin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D3FAB52644F4B000B6A02F /* SkillVitamin.swift */; };
 		29D3FAB72644F4B000B6A02F /* SkillVitamin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D3FAB52644F4B000B6A02F /* SkillVitamin.swift */; };
 		29D3FABB2644F6C500B6A02F /* SkillSelectionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D3FABA2644F6C500B6A02F /* SkillSelectionRow.swift */; };
@@ -222,6 +224,7 @@
 		29BB327B265E0C3F00C3CCFE /* DiamondDog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiamondDog.swift; sourceTree = "<group>"; };
 		29C9018E26A7D85500AA9619 /* OWUltimateReadyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OWUltimateReadyView.swift; sourceTree = "<group>"; };
 		29C9019126A801A400AA9619 /* OWUltimateMeterBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OWUltimateMeterBorder.swift; sourceTree = "<group>"; };
+		29D2AEBD26AA7821005A35D1 /* ArtemisBoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtemisBoon.swift; sourceTree = "<group>"; };
 		29D3FAB52644F4B000B6A02F /* SkillVitamin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillVitamin.swift; sourceTree = "<group>"; };
 		29D3FABA2644F6C500B6A02F /* SkillSelectionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillSelectionRow.swift; sourceTree = "<group>"; };
 		29EB0A60262BEA570032E598 /* ControlSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlSelectionView.swift; sourceTree = "<group>"; };
@@ -271,6 +274,7 @@
 				290B5CF6268ED22C00EB93BD /* HadesBoonDemo.swift */,
 				2910F3E5269801F7008475D6 /* AphroditeBoon.swift */,
 				29230B3E26A1460C00A052E7 /* AthenaBoon.swift */,
+				29D2AEBD26AA7821005A35D1 /* ArtemisBoon.swift */,
 			);
 			path = Hades;
 			sourceTree = "<group>";
@@ -640,6 +644,7 @@
 				29A22D4D2626E041000D9EAF /* MinimapView.swift in Sources */,
 				29532EFD26451D8B000F07F1 /* FireflySymbol.swift in Sources */,
 				2926BCF32635260D00CEDC7E /* FireflyWing.swift in Sources */,
+				29D2AEBE26AA7821005A35D1 /* ArtemisBoon.swift in Sources */,
 				297A6E3F265E04F200201D1A /* DiamondGem.swift in Sources */,
 				298FE2FA264B8C6400BBC02A /* SkillWeaponSway.swift in Sources */,
 				2926BCEE2635225100CEDC7E /* FireflyPendant.swift in Sources */,
@@ -697,6 +702,7 @@
 				290B5CF8268ED22C00EB93BD /* HadesBoonDemo.swift in Sources */,
 				29415859269D33E70072A007 /* StrokeStyleCircle.swift in Sources */,
 				298FE300264B8F1C00BBC02A /* SkillHealingSpeed.swift in Sources */,
+				29D2AEBF26AA7821005A35D1 /* ArtemisBoon.swift in Sources */,
 				29102700263E62EE00418FE1 /* BoonView.swift in Sources */,
 				2998BF032660B1CE00EA034B /* RibbonBanner.swift in Sources */,
 				2976E1C02626A45100272ADC /* Game_UI_InspirationsApp.swift in Sources */,
