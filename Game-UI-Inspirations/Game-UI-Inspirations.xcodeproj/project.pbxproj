@@ -42,6 +42,12 @@
 		2957947A2650D91D00BDDE3A /* TLOUSkillModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295794782650D91D00BDDE3A /* TLOUSkillModel.swift */; };
 		2957947E2650D94000BDDE3A /* TLOUSkillSelectMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2957947D2650D94000BDDE3A /* TLOUSkillSelectMenuViewModel.swift */; };
 		2957947F2650D94000BDDE3A /* TLOUSkillSelectMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2957947D2650D94000BDDE3A /* TLOUSkillSelectMenuViewModel.swift */; };
+		295E507526B3B16B00DA9FD4 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 295E507426B3B16B00DA9FD4 /* Colors.xcassets */; };
+		295E507626B3B16B00DA9FD4 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 295E507426B3B16B00DA9FD4 /* Colors.xcassets */; };
+		295E507826B3B3EA00DA9FD4 /* RDR2AwardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295E507726B3B3EA00DA9FD4 /* RDR2AwardItem.swift */; };
+		295E507926B3B3EA00DA9FD4 /* RDR2AwardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295E507726B3B3EA00DA9FD4 /* RDR2AwardItem.swift */; };
+		295E507B26B3B7CD00DA9FD4 /* RDR2AwardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295E507A26B3B7CD00DA9FD4 /* RDR2AwardView.swift */; };
+		295E507C26B3B7CD00DA9FD4 /* RDR2AwardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295E507A26B3B7CD00DA9FD4 /* RDR2AwardView.swift */; };
 		2976E1BF2626A45100272ADC /* Game_UI_InspirationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2976E1AC2626A45000272ADC /* Game_UI_InspirationsApp.swift */; };
 		2976E1C02626A45100272ADC /* Game_UI_InspirationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2976E1AC2626A45000272ADC /* Game_UI_InspirationsApp.swift */; };
 		2976E1C12626A45100272ADC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2976E1AD2626A45000272ADC /* ContentView.swift */; };
@@ -128,6 +134,8 @@
 		29ACEC2C2642522C00DAE394 /* TLOUSkillsIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29ACEC2A2642522C00DAE394 /* TLOUSkillsIcon.swift */; };
 		29B44138262FDF2A00E442A6 /* TLOUIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B44137262FDF2A00E442A6 /* TLOUIcon.swift */; };
 		29B44139262FDF2A00E442A6 /* TLOUIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B44137262FDF2A00E442A6 /* TLOUIcon.swift */; };
+		29B98CB426B1118500E1B7FF /* GIClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B98CB326B1118500E1B7FF /* GIClockView.swift */; };
+		29B98CB526B1118500E1B7FF /* GIClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B98CB326B1118500E1B7FF /* GIClockView.swift */; };
 		29BB327C265E0C3F00C3CCFE /* DiamondDog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BB327B265E0C3F00C3CCFE /* DiamondDog.swift */; };
 		29BB327D265E0C3F00C3CCFE /* DiamondDog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BB327B265E0C3F00C3CCFE /* DiamondDog.swift */; };
 		29C9018F26A7D85500AA9619 /* OWUltimateReadyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C9018E26A7D85500AA9619 /* OWUltimateReadyView.swift */; };
@@ -174,6 +182,9 @@
 		295794732650D8DE00BDDE3A /* SkillIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillIcon.swift; sourceTree = "<group>"; };
 		295794782650D91D00BDDE3A /* TLOUSkillModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLOUSkillModel.swift; sourceTree = "<group>"; };
 		2957947D2650D94000BDDE3A /* TLOUSkillSelectMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLOUSkillSelectMenuViewModel.swift; sourceTree = "<group>"; };
+		295E507426B3B16B00DA9FD4 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		295E507726B3B3EA00DA9FD4 /* RDR2AwardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDR2AwardItem.swift; sourceTree = "<group>"; };
+		295E507A26B3B7CD00DA9FD4 /* RDR2AwardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDR2AwardView.swift; sourceTree = "<group>"; };
 		2976E1AC2626A45000272ADC /* Game_UI_InspirationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game_UI_InspirationsApp.swift; sourceTree = "<group>"; };
 		2976E1AD2626A45000272ADC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2976E1AE2626A45000272ADC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -221,6 +232,7 @@
 		29A22D512626E059000D9EAF /* Color+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 		29ACEC2A2642522C00DAE394 /* TLOUSkillsIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLOUSkillsIcon.swift; sourceTree = "<group>"; };
 		29B44137262FDF2A00E442A6 /* TLOUIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLOUIcon.swift; sourceTree = "<group>"; };
+		29B98CB326B1118500E1B7FF /* GIClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIClockView.swift; sourceTree = "<group>"; };
 		29BB327B265E0C3F00C3CCFE /* DiamondDog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiamondDog.swift; sourceTree = "<group>"; };
 		29C9018E26A7D85500AA9619 /* OWUltimateReadyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OWUltimateReadyView.swift; sourceTree = "<group>"; };
 		29C9019126A801A400AA9619 /* OWUltimateMeterBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OWUltimateMeterBorder.swift; sourceTree = "<group>"; };
@@ -328,6 +340,7 @@
 				2976E1AC2626A45000272ADC /* Game_UI_InspirationsApp.swift */,
 				2976E1AD2626A45000272ADC /* ContentView.swift */,
 				2976E1AE2626A45000272ADC /* Assets.xcassets */,
+				295E507426B3B16B00DA9FD4 /* Colors.xcassets */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -445,6 +458,8 @@
 				29A22D452626E041000D9EAF /* MinimapModel.swift */,
 				29A22D462626E041000D9EAF /* MinimapView.swift */,
 				29A22D442626E041000D9EAF /* MinimapViewModel.swift */,
+				295E507726B3B3EA00DA9FD4 /* RDR2AwardItem.swift */,
+				295E507A26B3B7CD00DA9FD4 /* RDR2AwardView.swift */,
 			);
 			path = RDR2;
 			sourceTree = "<group>";
@@ -453,6 +468,7 @@
 			isa = PBXGroup;
 			children = (
 				29A22D392626DFF3000D9EAF /* GenshinImpactLoadingProgressBar.swift */,
+				29B98CB326B1118500E1B7FF /* GIClockView.swift */,
 			);
 			path = GenshinImpact;
 			sourceTree = "<group>";
@@ -578,6 +594,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				295E507526B3B16B00DA9FD4 /* Colors.xcassets in Resources */,
 				2976E1C32626A45100272ADC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -586,6 +603,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				295E507626B3B16B00DA9FD4 /* Colors.xcassets in Resources */,
 				2976E1C42626A45100272ADC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -605,6 +623,7 @@
 				2926BCF8263529D400CEDC7E /* FireflyTail.swift in Sources */,
 				29A22D182626DC60000D9EAF /* KombatKardContentView.swift in Sources */,
 				2950E127268C24B4005EFAA9 /* OverwatchIcon.swift in Sources */,
+				295E507826B3B3EA00DA9FD4 /* RDR2AwardItem.swift in Sources */,
 				29922ACD2633D2FA002469C2 /* MK11Left.swift in Sources */,
 				29A22CF92626D8C9000D9EAF /* LoadingRingsDemo.swift in Sources */,
 				298FE309264B939800BBC02A /* TLOUSkillSelectMenu.swift in Sources */,
@@ -616,6 +635,7 @@
 				29A22D102626DC60000D9EAF /* KombatKardView.swift in Sources */,
 				2976E1C12626A45100272ADC /* ContentView.swift in Sources */,
 				29813985263287BA00009D7B /* POIMarker.swift in Sources */,
+				29B98CB426B1118500E1B7FF /* GIClockView.swift in Sources */,
 				29102706263E673300418FE1 /* ZeusBoon.swift in Sources */,
 				29BB327C265E0C3F00C3CCFE /* DiamondDog.swift in Sources */,
 				29A22D3B2626DFF3000D9EAF /* ProgressBar.swift in Sources */,
@@ -645,6 +665,7 @@
 				29532EFD26451D8B000F07F1 /* FireflySymbol.swift in Sources */,
 				2926BCF32635260D00CEDC7E /* FireflyWing.swift in Sources */,
 				29D2AEBE26AA7821005A35D1 /* ArtemisBoon.swift in Sources */,
+				295E507B26B3B7CD00DA9FD4 /* RDR2AwardView.swift in Sources */,
 				297A6E3F265E04F200201D1A /* DiamondGem.swift in Sources */,
 				298FE2FA264B8C6400BBC02A /* SkillWeaponSway.swift in Sources */,
 				2926BCEE2635225100CEDC7E /* FireflyPendant.swift in Sources */,
@@ -711,7 +732,10 @@
 				2957947F2650D94000BDDE3A /* TLOUSkillSelectMenuViewModel.swift in Sources */,
 				29C9019326A801A400AA9619 /* OWUltimateMeterBorder.swift in Sources */,
 				29A22D3E2626DFF3000D9EAF /* GenshinImpactLoadingProgressBar.swift in Sources */,
+				295E507C26B3B7CD00DA9FD4 /* RDR2AwardView.swift in Sources */,
 				297DC712265A107600980DDE /* MGSVLoadingViewModel.swift in Sources */,
+				29B98CB526B1118500E1B7FF /* GIClockView.swift in Sources */,
+				295E507926B3B3EA00DA9FD4 /* RDR2AwardItem.swift in Sources */,
 				298DA1C7269AAEF50054463A /* OWUltimateMeterDemo.swift in Sources */,
 				297A6E3B265E02B600201D1A /* DiamondDogsLogo.swift in Sources */,
 				29A22CF82626D8C9000D9EAF /* LoadingRingsView.swift in Sources */,

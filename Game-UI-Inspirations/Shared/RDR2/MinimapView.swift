@@ -26,7 +26,7 @@ struct MinimapView: View {
         
         ZStack {
           Circle()
-            .fill(Color.rdr2Minimap)
+            .fill(Color("rdr2Minimap", bundle: nil))
             .frame(width: dim, height: dim)
           // Compass Markers
             .overlay(
@@ -81,7 +81,7 @@ struct MinimapView: View {
               // FIXME: Teardrop shape
               // TODO: Opaque if riding a horse
               Circle()
-                .stroke(Color.black, lineWidth: 2)
+                .stroke(Color.kombatBrown, lineWidth: 2)
                 .frame(width:10, height: 10)
             )
           

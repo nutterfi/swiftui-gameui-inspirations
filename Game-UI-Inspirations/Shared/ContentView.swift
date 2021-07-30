@@ -32,7 +32,7 @@ struct ContentView: View {
       case "control":
         QuestDescriptionView()
       case "rdr2":
-        MinimapDemo()
+        RDR2AwardView()
       case "mk11":
         KountdownTimerDemo()
       case "genshin impact":
