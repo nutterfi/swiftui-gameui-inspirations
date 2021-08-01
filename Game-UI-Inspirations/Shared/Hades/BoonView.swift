@@ -32,6 +32,12 @@ extension Color {
   static var hadesArtemisGreen: Color {
     Color(red: 190/255, green: 237/255, blue: 79/255)
   }
+  
+  static var hadesAresRed: Color {
+    Color(red: 235/255, green: 74/255, blue: 64/255)
+  }
+  
+  
 }
 
 struct Boon {
@@ -119,6 +125,20 @@ struct BoonView: View {
             )
             .frame(width: dim, height: dim)
           
+        case Boon.hermes:
+          LinearGradient(gradient: Gradient(colors: [.white, .hadesArtemisYellow, .hadesArtemisGreen]), startPoint: .topLeading, endPoint: .bottomTrailing)
+            .mask(
+              HermesBoon()
+            )
+            .frame(width: dim, height: dim)
+          
+        case Boon.ares:
+          LinearGradient(gradient: Gradient(colors: [.hadesAresRed, .white, .hadesAresRed, .hadesAresRed]), startPoint: .topLeading, endPoint: .bottomTrailing)
+            .mask(
+              AresBoon()
+            )
+            .frame(width: dim, height: dim)
+          
         default:
           Image(systemName: "questionmark.circle")
             .resizable()
@@ -134,7 +154,7 @@ struct BoonView: View {
 
 struct BoonView_Previews: PreviewProvider {
   static var previews: some View {
-    BoonView(boon: Boon.artemis, shouldAnimate: false)
+    BoonView(boon: Boon.ares, shouldAnimate: false)
       .padding()
       .background(Color.blue)
   }
