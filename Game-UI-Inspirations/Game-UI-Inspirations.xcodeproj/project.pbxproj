@@ -21,6 +21,11 @@
 		29150B1E26B653F500106A45 /* HermesBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29150B1C26B653F500106A45 /* HermesBoon.swift */; };
 		29150B2026B659EC00106A45 /* AresBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29150B1F26B659EC00106A45 /* AresBoon.swift */; };
 		29150B2126B659EC00106A45 /* AresBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29150B1F26B659EC00106A45 /* AresBoon.swift */; };
+		291A07E026BA4A3E000F4590 /* SWTORLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291A07DF26BA4A3E000F4590 /* SWTORLogo.swift */; };
+		291A07E226BA50B8000F4590 /* StrokeStyledPolygon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291A07E126BA50B8000F4590 /* StrokeStyledPolygon.swift */; };
+		291A07E326BA50B8000F4590 /* StrokeStyledPolygon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291A07E126BA50B8000F4590 /* StrokeStyledPolygon.swift */; };
+		291A07E526BA5257000F4590 /* StrokeStyledPolygonDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291A07E426BA5257000F4590 /* StrokeStyledPolygonDemo.swift */; };
+		291A07E626BA5257000F4590 /* StrokeStyledPolygonDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291A07E426BA5257000F4590 /* StrokeStyledPolygonDemo.swift */; };
 		29230B3F26A1460C00A052E7 /* AthenaBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29230B3E26A1460C00A052E7 /* AthenaBoon.swift */; };
 		29230B4026A1460C00A052E7 /* AthenaBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29230B3E26A1460C00A052E7 /* AthenaBoon.swift */; };
 		2926BCEE2635225100CEDC7E /* FireflyPendant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2926BCED2635225100CEDC7E /* FireflyPendant.swift */; };
@@ -174,6 +179,9 @@
 		2910F3E5269801F7008475D6 /* AphroditeBoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AphroditeBoon.swift; sourceTree = "<group>"; };
 		29150B1C26B653F500106A45 /* HermesBoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HermesBoon.swift; sourceTree = "<group>"; };
 		29150B1F26B659EC00106A45 /* AresBoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AresBoon.swift; sourceTree = "<group>"; };
+		291A07DF26BA4A3E000F4590 /* SWTORLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWTORLogo.swift; sourceTree = "<group>"; };
+		291A07E126BA50B8000F4590 /* StrokeStyledPolygon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeStyledPolygon.swift; sourceTree = "<group>"; };
+		291A07E426BA5257000F4590 /* StrokeStyledPolygonDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeStyledPolygonDemo.swift; sourceTree = "<group>"; };
 		29230B3E26A1460C00A052E7 /* AthenaBoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthenaBoon.swift; sourceTree = "<group>"; };
 		2926BCED2635225100CEDC7E /* FireflyPendant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireflyPendant.swift; sourceTree = "<group>"; };
 		2926BCF22635260D00CEDC7E /* FireflyWing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireflyWing.swift; sourceTree = "<group>"; };
@@ -299,6 +307,14 @@
 			path = Hades;
 			sourceTree = "<group>";
 		};
+		291A07DE26BA4A24000F4590 /* SWTOR */ = {
+			isa = PBXGroup;
+			children = (
+				291A07DF26BA4A3E000F4590 /* SWTORLogo.swift */,
+			);
+			path = SWTOR;
+			sourceTree = "<group>";
+		};
 		2929B80E2695601400C86BBB /* FFXIV */ = {
 			isa = PBXGroup;
 			children = (
@@ -334,6 +350,7 @@
 		2976E1AB2626A45000272ADC /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				291A07DE26BA4A24000F4590 /* SWTOR */,
 				29A22D082626DA50000D9EAF /* Extensions */,
 				29C9018D26A7D6F600AA9619 /* Reusable */,
 				2929B80E2695601400C86BBB /* FFXIV */,
@@ -511,6 +528,8 @@
 				29A22D3A2626DFF3000D9EAF /* MaskedProgressBar.swift */,
 				29A22D382626DFF3000D9EAF /* ProgressBar.swift */,
 				29816B6B263BBF1E0016F1BA /* Rustify.swift */,
+				291A07E126BA50B8000F4590 /* StrokeStyledPolygon.swift */,
+				291A07E426BA5257000F4590 /* StrokeStyledPolygonDemo.swift */,
 			);
 			path = Reusable;
 			sourceTree = "<group>";
@@ -647,6 +666,7 @@
 				29150B1D26B653F500106A45 /* HermesBoon.swift in Sources */,
 				29102706263E673300418FE1 /* ZeusBoon.swift in Sources */,
 				29BB327C265E0C3F00C3CCFE /* DiamondDog.swift in Sources */,
+				291A07E026BA4A3E000F4590 /* SWTORLogo.swift in Sources */,
 				29A22D3B2626DFF3000D9EAF /* ProgressBar.swift in Sources */,
 				29A22D1C2626DC60000D9EAF /* KountdownTimerViewModel.swift in Sources */,
 				29415858269D33E70072A007 /* StrokeStyleCircle.swift in Sources */,
@@ -656,6 +676,7 @@
 				2998BF022660B1CE00EA034B /* RibbonBanner.swift in Sources */,
 				29230B3F26A1460C00A052E7 /* AthenaBoon.swift in Sources */,
 				29FADE16269E99E400CF6D73 /* TypewriterTextView.swift in Sources */,
+				291A07E226BA50B8000F4590 /* StrokeStyledPolygon.swift in Sources */,
 				29FADE19269EA23000CF6D73 /* TypewriterTextViewModel.swift in Sources */,
 				2976E1BF2626A45100272ADC /* Game_UI_InspirationsApp.swift in Sources */,
 				294FF9482632AE300057869B /* TLOUIconDemo.swift in Sources */,
@@ -682,6 +703,7 @@
 				29150B2026B659EC00106A45 /* AresBoon.swift in Sources */,
 				29EB0A66262BF1D40032E598 /* ControlQuestMarker.swift in Sources */,
 				2910270B263E6DAC00418FE1 /* PoseidonBoon.swift in Sources */,
+				291A07E526BA5257000F4590 /* StrokeStyledPolygonDemo.swift in Sources */,
 				2929B8102695604600C86BBB /* FFXIVCharacterView.swift in Sources */,
 				29B44138262FDF2A00E442A6 /* TLOUIcon.swift in Sources */,
 				29EB0A61262BEA570032E598 /* ControlSelectionView.swift in Sources */,
@@ -720,6 +742,7 @@
 				298DA1C4269AA4CC0054463A /* OWUltimateMeter.swift in Sources */,
 				29A22CFA2626D8C9000D9EAF /* LoadingRingsDemo.swift in Sources */,
 				298FE30A264B939800BBC02A /* TLOUSkillSelectMenu.swift in Sources */,
+				291A07E626BA5257000F4590 /* StrokeStyledPolygonDemo.swift in Sources */,
 				29801ACC2647A0320010B4C8 /* SkillMaxHealth.swift in Sources */,
 				29F5337D26858D5100EADD37 /* MGSViDroidView.swift in Sources */,
 				29A22D532626E059000D9EAF /* Color+Extensions.swift in Sources */,
@@ -776,6 +799,7 @@
 				29A22D4C2626E041000D9EAF /* MinimapModel.swift in Sources */,
 				29A22CFE2626D8C9000D9EAF /* ConsummateV.swift in Sources */,
 				29A22CF62626D8C9000D9EAF /* LoadingRingsViewModel.swift in Sources */,
+				291A07E326BA50B8000F4590 /* StrokeStyledPolygon.swift in Sources */,
 				29A22D172626DC60000D9EAF /* KountdownTimerDemo.swift in Sources */,
 				29D3FAB72644F4B000B6A02F /* SkillVitamin.swift in Sources */,
 				29A22D402626DFF3000D9EAF /* MaskedProgressBar.swift in Sources */,
