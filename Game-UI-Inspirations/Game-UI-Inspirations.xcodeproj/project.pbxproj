@@ -37,6 +37,8 @@
 		2929B8102695604600C86BBB /* FFXIVCharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2929B80F2695604600C86BBB /* FFXIVCharacterView.swift */; };
 		2929B8112695604600C86BBB /* FFXIVCharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2929B80F2695604600C86BBB /* FFXIVCharacterView.swift */; };
 		29304D2F26916F49003512A1 /* TestingTiledImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29304D2E26916F49003512A1 /* TestingTiledImageView.swift */; };
+		2939687426BCFA7D00B08586 /* RDR2AwardBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2939687326BCFA7D00B08586 /* RDR2AwardBadge.swift */; };
+		2939687526BCFA7D00B08586 /* RDR2AwardBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2939687326BCFA7D00B08586 /* RDR2AwardBadge.swift */; };
 		29415858269D33E70072A007 /* StrokeStyleCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29415857269D33E70072A007 /* StrokeStyleCircle.swift */; };
 		29415859269D33E70072A007 /* StrokeStyleCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29415857269D33E70072A007 /* StrokeStyleCircle.swift */; };
 		294FF9482632AE300057869B /* TLOUIconDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294FF9472632AE300057869B /* TLOUIconDemo.swift */; };
@@ -188,6 +190,7 @@
 		2926BCF7263529D400CEDC7E /* FireflyTail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireflyTail.swift; sourceTree = "<group>"; };
 		2929B80F2695604600C86BBB /* FFXIVCharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFXIVCharacterView.swift; sourceTree = "<group>"; };
 		29304D2E26916F49003512A1 /* TestingTiledImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingTiledImageView.swift; sourceTree = "<group>"; };
+		2939687326BCFA7D00B08586 /* RDR2AwardBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDR2AwardBadge.swift; sourceTree = "<group>"; };
 		29415857269D33E70072A007 /* StrokeStyleCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeStyleCircle.swift; sourceTree = "<group>"; };
 		294FF9472632AE300057869B /* TLOUIconDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLOUIconDemo.swift; sourceTree = "<group>"; };
 		2950E126268C24B4005EFAA9 /* OverwatchIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverwatchIcon.swift; sourceTree = "<group>"; };
@@ -485,6 +488,7 @@
 				29A22D442626E041000D9EAF /* MinimapViewModel.swift */,
 				295E507726B3B3EA00DA9FD4 /* RDR2AwardItem.swift */,
 				295E507A26B3B7CD00DA9FD4 /* RDR2AwardView.swift */,
+				2939687326BCFA7D00B08586 /* RDR2AwardBadge.swift */,
 			);
 			path = RDR2;
 			sourceTree = "<group>";
@@ -695,6 +699,7 @@
 				29532EFD26451D8B000F07F1 /* FireflySymbol.swift in Sources */,
 				2926BCF32635260D00CEDC7E /* FireflyWing.swift in Sources */,
 				29D2AEBE26AA7821005A35D1 /* ArtemisBoon.swift in Sources */,
+				2939687426BCFA7D00B08586 /* RDR2AwardBadge.swift in Sources */,
 				295E507B26B3B7CD00DA9FD4 /* RDR2AwardView.swift in Sources */,
 				297A6E3F265E04F200201D1A /* DiamondGem.swift in Sources */,
 				298FE2FA264B8C6400BBC02A /* SkillWeaponSway.swift in Sources */,
@@ -804,6 +809,7 @@
 				29D3FAB72644F4B000B6A02F /* SkillVitamin.swift in Sources */,
 				29A22D402626DFF3000D9EAF /* MaskedProgressBar.swift in Sources */,
 				29230B4026A1460C00A052E7 /* AthenaBoon.swift in Sources */,
+				2939687526BCFA7D00B08586 /* RDR2AwardBadge.swift in Sources */,
 				29D3FABC2644F6C500B6A02F /* SkillSelectionRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

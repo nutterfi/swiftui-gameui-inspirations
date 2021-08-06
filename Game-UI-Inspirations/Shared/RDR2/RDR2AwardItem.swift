@@ -18,18 +18,8 @@ struct RDR2AwardItem: View {
         let dim = min(proxy.size.width, proxy.size.height)
         ZStack {
           Color("rdr2Gray", bundle: nil)
-            
-          Polygon(sides: 6)
-            .stroke(foreground, lineWidth: 3)
-            .frame(width: dim * 0.5, height: dim * 0.5)
-            .background(background.mask(Polygon(sides: 6)))
-            .rotationEffect(.degrees(90))
           
-          Image(systemName: image)
-            .resizable()
-            .scaledToFit()
-            .frame(width: dim * 0.25, height: dim * 0.25)
-            .foregroundColor(foreground)
+          RDR2AwardBadge(image: image, foreground: foreground, background: background)
           
           VStack {
             Spacer()
