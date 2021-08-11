@@ -11,7 +11,7 @@ import Shapes
 class ContentViewModel: ObservableObject {
   @Published private(set) var titles: [String]
   init() {
-    titles = [Games.mgsv, Games.control, Games.mk11, Games.rdr2, Games.genshinImpact, Games.overwatch, Games.swtor, Games.tlou]
+    titles = [Games.mgsv, Games.control, Games.mk11, Games.rdr2, Games.genshinImpact, Games.overwatch, Games.swtor, Games.tlou, Games.hades].sorted()
   }
 }
 
@@ -45,6 +45,8 @@ struct ContentView: View {
         MGSVMissionTextDemo()
       case Games.swtor:
         SWTOREmpireLogo()
+      case Games.hades:
+        HadesBoonDemo()
       default:
         Circle().frame(width: .infinity, height: .infinity)
           .overlay(
@@ -97,5 +99,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
   static var previews: some View {
     ContentView()
+.previewInterfaceOrientation(.portrait)
   }
 }

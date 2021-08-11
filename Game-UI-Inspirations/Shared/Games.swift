@@ -16,4 +16,6 @@ struct Games {
   static let tlou = "The Last of Us"
   static let overwatch = "Overwatch"
   static let swtor = "SWTOR"
+  static let hades = "Hades"
+  static let ff14 = "FFXIV"
 }
