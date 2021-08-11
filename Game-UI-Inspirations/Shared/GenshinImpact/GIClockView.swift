@@ -28,7 +28,7 @@ struct GIClockView: View {
           
 
           
-          StrokeStyleCircle(numberOfSegments: 120, segmentRatio: 0.8, scale: 1, lineWidthRatio: 0.05)
+          StrokeStyledCircle(numberOfSegments: 120, segmentRatio: 0.8, scale: 1, lineWidthRatio: 0.05)
             .frame(width: dim * 0.55, height: dim * 0.55)
             .foregroundColor(Color.blue.opacity(0.2))
           

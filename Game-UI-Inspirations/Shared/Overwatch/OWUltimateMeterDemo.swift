@@ -9,26 +9,43 @@ import SwiftUI
 
 struct OWUltimateMeterDemo: View {
   @State private var progress: Float = 0
-    var body: some View {
+  
+  var body: some View {
+    GeometryReader { proxy in
+      let dim = min(proxy.size.width, proxy.size.height)
       ZStack {
         Color.black.ignoresSafeArea()
-        VStack {
+        Group {
+          LinearGradient(colors: [.red, .yellow], startPoint: .topTrailing, endPoint: .bottom)
+            .ignoresSafeArea()
+
+          RadialGradient(gradient: Gradient(colors: [.white, .black]), center: .bottom, startRadius: dim / 4, endRadius: dim)
+            .ignoresSafeArea()
+            .opacity(0.4)
+
+          StrokeStyledCircle(numberOfSegments: 20, segmentRatio: 0.5, scale: 1, lineWidthRatio: 1, dashPhaseRatio: 0)
+            .foregroundColor(.blue)
+            .scaleEffect(2)
+        }
+        .opacity(0.1)
+        
+        VStack() {
           Slider(value:$progress)
+          Spacer()
           OWUltimateMeter(progress: $progress)
-            .frame(width: 100, height: 100)
-          OWUltimateMeter(progress: $progress)
-            .frame(width: 200, height: 200)
-          OWUltimateMeter(progress: $progress)
-            .frame(width: 300, height: 300)
+            .frame(width: dim * 0.8, height: dim * 0.8)
+          Spacer()
         }
         .padding()
+
       }
+      .frame(width: proxy.size.width, height: proxy.size.height)
     }
+  }
 }
 
 struct OWUltimateMeterDemo_Previews: PreviewProvider {
-    static var previews: some View {
-      OWUltimateMeterDemo()
-        .previewDevice("iPhone 12 Pro Max")
-    }
+  static var previews: some View {
+    OWUltimateMeterDemo()
+  }
 }

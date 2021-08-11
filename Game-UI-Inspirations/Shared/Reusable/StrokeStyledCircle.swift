@@ -17,7 +17,6 @@ struct StrokeStyleCircleDemo: View {
   var body: some View {
     VStack {
       Slider(value: $numberOfSegments, in: ClosedRange(uncheckedBounds: (1.0, 40.0))) {
-        Text("Why can't we see this?")
       } minimumValueLabel: {
         Text("1")
       } maximumValueLabel: {
@@ -29,14 +28,14 @@ struct StrokeStyleCircleDemo: View {
       Slider(value: $lineWidthRatio)
       Slider(value: $dashPhaseRatio)
 
-      StrokeStyleCircle(numberOfSegments: Int(numberOfSegments), segmentRatio: segmentRatio, scale: scale, lineWidthRatio: lineWidthRatio, dashPhaseRatio: dashPhaseRatio)
+      StrokeStyledCircle(numberOfSegments: Int(numberOfSegments), segmentRatio: segmentRatio, scale: scale, lineWidthRatio: lineWidthRatio, dashPhaseRatio: dashPhaseRatio)
         .foregroundStyle(LinearGradient(colors: [Color.blue, Color.purple], startPoint: .top, endPoint: .bottom))
     }
     .padding()
   }
 }
 
-struct StrokeStyleCircle: View {
+struct StrokeStyledCircle: View {
   var numberOfSegments: Int = 4
   var segmentRatio: CGFloat = 0.9
   var scale: CGFloat = 1.0

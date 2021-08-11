@@ -12,17 +12,6 @@ struct OWUltimateReadyView: View {
       GeometryReader { proxy in
         let dim = min(proxy.size.width, proxy.size.height)
         ZStack {
-          LinearGradient(colors: [.red, .yellow], startPoint: .topTrailing, endPoint: .bottom)
-            .ignoresSafeArea()
-
-          RadialGradient(gradient: Gradient(colors: [.white, .black]), center: .bottom, startRadius: dim / 4, endRadius: dim)
-            .ignoresSafeArea()
-            .opacity(0.4)
-
-          StrokeStyleCircle(numberOfSegments: 20, segmentRatio: 0.5, scale: 1, lineWidthRatio: 1, dashPhaseRatio: 0)
-            .foregroundColor(.blue)
-            .frame(width: dim * 2, height: dim * 2)
-          
           Circle()
             .foregroundColor(.black.opacity(0.3))
             .overlay(
@@ -53,5 +42,6 @@ struct OWUltimateReadyView: View {
 struct OWUltimateReadyView_Previews: PreviewProvider {
     static var previews: some View {
         OWUltimateReadyView()
+        .background(Color.black)
     }
 }

@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-// TODO: GEometry Reader landscape dimensions?!
+// TODO: Geometry Reader landscape dimensions?!
 struct FFXIVCharacterView: View {
   
   // reusable placeholder

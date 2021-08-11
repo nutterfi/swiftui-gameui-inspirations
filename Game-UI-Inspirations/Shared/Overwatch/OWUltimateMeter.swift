@@ -7,10 +7,6 @@
 
 import SwiftUI
 
-class OWUltimateViewModel: ObservableObject {
-  @Published private(set) var progress: Float = 0 // 0 - 100
-}
-
 struct OWUltimateMeter: View {
   @Binding var progress: Float
     var body: some View {
@@ -18,18 +14,18 @@ struct OWUltimateMeter: View {
         let dim = min(proxy.size.width, proxy.size.height)
         ZStack {
           
-          StrokeStyleCircle(numberOfSegments: 38, segmentRatio: 0.8, lineWidthRatio: 0.11)
+          StrokeStyledCircle(numberOfSegments: 38, segmentRatio: 0.8, lineWidthRatio: 0.11)
             .rotationEffect(Angle.degrees(-90))
             .frame(width: dim * 0.53, height: dim * 0.53)
             .foregroundColor(Color.gray)
           
           // Outer circle highlighted
-          StrokeStyleCircle(numberOfSegments: 38, segmentRatio: 0.8, lineWidthRatio: 0.15, trim: [0, CGFloat(progress)])
+          StrokeStyledCircle(numberOfSegments: 38, segmentRatio: 0.8, lineWidthRatio: 0.15, trim: [0, CGFloat(progress)])
             .rotationEffect(Angle.degrees(-90))
             .frame(width: dim * 0.51, height: dim * 0.51)
             .foregroundColor(Color.yellow)
           
-          StrokeStyleCircle(numberOfSegments: 18, segmentRatio: 0.85, lineWidthRatio: 0.08)
+          StrokeStyledCircle(numberOfSegments: 18, segmentRatio: 0.85, lineWidthRatio: 0.08)
             .rotationEffect(Angle.degrees(-90))
             
             .frame(width: dim * 0.35, height: dim * 0.35)

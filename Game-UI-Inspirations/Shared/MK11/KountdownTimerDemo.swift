@@ -10,12 +10,6 @@ struct KountdownTimerDemo: View {
     var body: some View {
       VStack {
         KountdownTimerView()
-          .frame(width: 100)
-        KountdownTimerView()
-          .frame(width: 200)
-        KountdownTimerView()
-          .frame(width: 50)
-        KountdownTimerView()
       }
     }
 }

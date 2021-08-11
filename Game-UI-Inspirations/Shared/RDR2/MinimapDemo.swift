@@ -10,15 +10,25 @@ import SwiftUI
 struct MinimapDemo: View {
   @State private var rotation: CGFloat = 0
     var body: some View {
-      VStack() {
-        Slider(value: $rotation)
-        Spacer()
-        MinimapView()
-          .frame(width: 250, height: 200)
-          .rotationEffect(.degrees(360.0 * Double(rotation)))
-        Spacer()
+      GeometryReader { proxy in
+        let dim = min(proxy.size.width, proxy.size.height)
+        ZStack {
+          LinearGradient(colors: [.hadesArtemisGreen, .kombatBrown], startPoint: .topTrailing, endPoint: .bottom)
+            .ignoresSafeArea()
+          
+          VStack() {
+            Slider(value: $rotation)
+            Spacer()
+            MinimapView()
+              .frame(width: dim * 0.8, height: dim * 0.8)
+              .rotationEffect(.degrees(360.0 * Double(rotation)))
+            Spacer()
+          }
+          .padding()
+        }
+        .frame(width: proxy.size.width, height: proxy.size.height)
       }
-      .padding()
+      
     }
 }
 

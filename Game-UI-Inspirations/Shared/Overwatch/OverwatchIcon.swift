@@ -67,7 +67,6 @@ struct OverwatchIcon_Previews: PreviewProvider {
       Color.black.ignoresSafeArea()
       OverwatchIcon(primary: Color.purple, secondary: Color.brown)
         .frame(width: 256, height: 256)
-        .border(Color.white)
     }
   }
 }

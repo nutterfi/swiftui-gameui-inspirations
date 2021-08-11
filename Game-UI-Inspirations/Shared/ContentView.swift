@@ -11,7 +11,7 @@ import Shapes
 class ContentViewModel: ObservableObject {
   @Published private(set) var titles: [String]
   init() {
-    titles = ["MGSV", "Control", "MK11", "Genshin Impact", "RDR2", "The Last of Us", "Overwatch"]
+    titles = [Games.mgsv, Games.control, Games.mk11, Games.rdr2, Games.genshinImpact, Games.overwatch, Games.swtor, Games.tlou]
   }
 }
 
@@ -28,21 +28,23 @@ struct ContentView: View {
   // TODO: Each game should have their own navigation list inside (e.g. Control we have multiple views so make a list in the style of each game)
   func destination(for title: String) -> some View {
     return ZStack {
-      switch title.lowercased() {
-      case "control":
+      switch title {
+      case Games.control:
         QuestDescriptionView()
-      case "rdr2":
-        RDR2AwardView()
-      case "mk11":
+      case Games.rdr2:
+        MinimapDemo()
+      case Games.mk11:
         KountdownTimerDemo()
-      case "genshin impact":
+      case Games.genshinImpact:
         GenshinImpactLoadingProgressBar()
-      case "the last of us":
+      case Games.tlou:
         TLOUSkillSelectMenu()
-      case "overwatch":
-        OverwatchLogoDemo()
-      case "mgsv":
+      case Games.overwatch:
+        OWUltimateMeterDemo()
+      case Games.mgsv:
         MGSVMissionTextDemo()
+      case Games.swtor:
+        SWTOREmpireLogo()
       default:
         Circle().frame(width: .infinity, height: .infinity)
           .overlay(
@@ -58,14 +60,15 @@ struct ContentView: View {
   
   func selectionView(for title: String) -> some View {
     return ZStack {
-      switch title.lowercased() {
-      case "control":
+      switch title {
+      case Games.control:
         ControlSelectionView()
-      case "mk11":
+      case Games.mk11:
         MK11SelectionView()
           .frame(height: 120)
-      case "overwatch":
+      case Games.overwatch:
         OverwatchIcon(primary: Color.white, secondary: Color.orange)
+          .padding(5)
           .background(Color.black)
           .frame(height: 100)
 
