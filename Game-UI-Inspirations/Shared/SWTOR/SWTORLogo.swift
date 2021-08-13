@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct SWTORLogo: View {
-  var color: Color = .black
+  var color: Color
     var body: some View {
       GeometryReader { proxy in
         let dim = min(proxy.size.width, proxy.size.height)

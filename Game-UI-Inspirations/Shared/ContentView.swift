@@ -44,7 +44,7 @@ struct ContentView: View {
       case Games.mgsv:
         MGSVMissionTextDemo()
       case Games.swtor:
-        SWTOREmpireLogo()
+        SWTOREmpireLogo(color: .purple)
       case Games.hades:
         HadesBoonDemo()
       default:
@@ -70,6 +70,12 @@ struct ContentView: View {
           .frame(height: 120)
       case Games.overwatch:
         OverwatchIcon(primary: Color.white, secondary: Color.orange)
+          .padding(5)
+          .background(Color.black)
+          .frame(height: 100)
+        
+      case Games.swtor:
+        SWTOREmpireLogo(color: Color.purple)
           .padding(5)
           .background(Color.black)
           .frame(height: 100)
