@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		290B5CF7268ED22C00EB93BD /* HadesBoonDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290B5CF6268ED22C00EB93BD /* HadesBoonDemo.swift */; };
 		290B5CF8268ED22C00EB93BD /* HadesBoonDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290B5CF6268ED22C00EB93BD /* HadesBoonDemo.swift */; };
+		290BBC3126CCC06F004D57D9 /* TextEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290BBC3026CCC06F004D57D9 /* TextEffectView.swift */; };
+		290BBC3226CCC06F004D57D9 /* TextEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290BBC3026CCC06F004D57D9 /* TextEffectView.swift */; };
+		290BBC3426CCC8AA004D57D9 /* TextEffectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290BBC3326CCC8AA004D57D9 /* TextEffectViewModel.swift */; };
+		290BBC3526CCC8AA004D57D9 /* TextEffectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290BBC3326CCC8AA004D57D9 /* TextEffectViewModel.swift */; };
 		291026FF263E62EE00418FE1 /* BoonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291026FE263E62EE00418FE1 /* BoonView.swift */; };
 		29102700263E62EE00418FE1 /* BoonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291026FE263E62EE00418FE1 /* BoonView.swift */; };
 		29102706263E673300418FE1 /* ZeusBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29102705263E673300418FE1 /* ZeusBoon.swift */; };
@@ -163,6 +167,8 @@
 		29D3FAB72644F4B000B6A02F /* SkillVitamin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D3FAB52644F4B000B6A02F /* SkillVitamin.swift */; };
 		29D3FABB2644F6C500B6A02F /* SkillSelectionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D3FABA2644F6C500B6A02F /* SkillSelectionRow.swift */; };
 		29D3FABC2644F6C500B6A02F /* SkillSelectionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D3FABA2644F6C500B6A02F /* SkillSelectionRow.swift */; };
+		29DBCD2826C62F7D003254C6 /* SWTORRepublicLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DBCD2726C62F7D003254C6 /* SWTORRepublicLogo.swift */; };
+		29DBCD2926C62F7D003254C6 /* SWTORRepublicLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DBCD2726C62F7D003254C6 /* SWTORRepublicLogo.swift */; };
 		29EB0A61262BEA570032E598 /* ControlSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EB0A60262BEA570032E598 /* ControlSelectionView.swift */; };
 		29EB0A62262BEA570032E598 /* ControlSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EB0A60262BEA570032E598 /* ControlSelectionView.swift */; };
 		29EB0A66262BF1D40032E598 /* ControlQuestMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EB0A65262BF1D40032E598 /* ControlQuestMarker.swift */; };
@@ -179,6 +185,8 @@
 
 /* Begin PBXFileReference section */
 		290B5CF6268ED22C00EB93BD /* HadesBoonDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HadesBoonDemo.swift; sourceTree = "<group>"; };
+		290BBC3026CCC06F004D57D9 /* TextEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEffectView.swift; sourceTree = "<group>"; };
+		290BBC3326CCC8AA004D57D9 /* TextEffectViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextEffectViewModel.swift; sourceTree = "<group>"; };
 		291026FE263E62EE00418FE1 /* BoonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoonView.swift; sourceTree = "<group>"; };
 		29102705263E673300418FE1 /* ZeusBoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusBoon.swift; sourceTree = "<group>"; };
 		2910270A263E6DAC00418FE1 /* PoseidonBoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoseidonBoon.swift; sourceTree = "<group>"; };
@@ -262,6 +270,7 @@
 		29D2AEBD26AA7821005A35D1 /* ArtemisBoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtemisBoon.swift; sourceTree = "<group>"; };
 		29D3FAB52644F4B000B6A02F /* SkillVitamin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillVitamin.swift; sourceTree = "<group>"; };
 		29D3FABA2644F6C500B6A02F /* SkillSelectionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillSelectionRow.swift; sourceTree = "<group>"; };
+		29DBCD2726C62F7D003254C6 /* SWTORRepublicLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWTORRepublicLogo.swift; sourceTree = "<group>"; };
 		29EB0A60262BEA570032E598 /* ControlSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlSelectionView.swift; sourceTree = "<group>"; };
 		29EB0A65262BF1D40032E598 /* ControlQuestMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlQuestMarker.swift; sourceTree = "<group>"; };
 		29F5337B26858D5100EADD37 /* MGSViDroidView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MGSViDroidView.swift; sourceTree = "<group>"; };
@@ -320,6 +329,7 @@
 			isa = PBXGroup;
 			children = (
 				291A07DF26BA4A3E000F4590 /* SWTORLogo.swift */,
+				29DBCD2726C62F7D003254C6 /* SWTORRepublicLogo.swift */,
 				2964BAAF26C383EE00F37FDC /* SWTOREmpireLogo.swift */,
 			);
 			path = SWTOR;
@@ -433,8 +443,6 @@
 				297A6E43265E053F00201D1A /* DiamondDogsLogo */,
 				297DC70B265A106800980DDE /* MGSVLoadingView.swift */,
 				297DC710265A107600980DDE /* MGSVLoadingViewModel.swift */,
-				29FADE15269E99E400CF6D73 /* TypewriterTextView.swift */,
-				29FADE18269EA23000CF6D73 /* TypewriterTextViewModel.swift */,
 				29FADE1B269EA6E800CF6D73 /* MGSVMissionTextDemo.swift */,
 			);
 			path = MGSV;
@@ -535,6 +543,9 @@
 		29C9018D26A7D6F600AA9619 /* Reusable */ = {
 			isa = PBXGroup;
 			children = (
+				29FADE15269E99E400CF6D73 /* TypewriterTextView.swift */,
+				29FADE18269EA23000CF6D73 /* TypewriterTextViewModel.swift */,
+				290BBC3326CCC8AA004D57D9 /* TextEffectViewModel.swift */,
 				29304D2E26916F49003512A1 /* TestingTiledImageView.swift */,
 				29415857269D33E70072A007 /* StrokeStyledCircle.swift */,
 				29A22D3A2626DFF3000D9EAF /* MaskedProgressBar.swift */,
@@ -542,6 +553,7 @@
 				29816B6B263BBF1E0016F1BA /* Rustify.swift */,
 				291A07E126BA50B8000F4590 /* StrokeStyledPolygon.swift */,
 				291A07E426BA5257000F4590 /* StrokeStyledPolygonDemo.swift */,
+				290BBC3026CCC06F004D57D9 /* TextEffectView.swift */,
 			);
 			path = Reusable;
 			sourceTree = "<group>";
@@ -656,10 +668,12 @@
 			files = (
 				2976E1DA2626AD5C00272ADC /* Pulsar.swift in Sources */,
 				29A22D122626DC60000D9EAF /* KountdownTimerView.swift in Sources */,
+				290BBC3426CCC8AA004D57D9 /* TextEffectViewModel.swift in Sources */,
 				290B5CF7268ED22C00EB93BD /* HadesBoonDemo.swift in Sources */,
 				295794792650D91D00BDDE3A /* TLOUSkillModel.swift in Sources */,
 				297A6E45265E057000201D1A /* RibbonShapes.swift in Sources */,
 				2926BCF8263529D400CEDC7E /* FireflyTail.swift in Sources */,
+				290BBC3126CCC06F004D57D9 /* TextEffectView.swift in Sources */,
 				29A22D182626DC60000D9EAF /* KombatKardContentView.swift in Sources */,
 				2950E127268C24B4005EFAA9 /* OverwatchIcon.swift in Sources */,
 				295E507826B3B3EA00DA9FD4 /* RDR2AwardItem.swift in Sources */,
@@ -722,6 +736,7 @@
 				29B44138262FDF2A00E442A6 /* TLOUIcon.swift in Sources */,
 				29EB0A61262BEA570032E598 /* ControlSelectionView.swift in Sources */,
 				2964BAB326C384B000F37FDC /* Games.swift in Sources */,
+				29DBCD2826C62F7D003254C6 /* SWTORRepublicLogo.swift in Sources */,
 				29C9019226A801A400AA9619 /* OWUltimateMeterBorder.swift in Sources */,
 				29A22D472626E041000D9EAF /* MinimapDemo.swift in Sources */,
 				29ACEC2B2642522C00DAE394 /* TLOUSkillsIcon.swift in Sources */,
@@ -772,6 +787,7 @@
 				290B5CF8268ED22C00EB93BD /* HadesBoonDemo.swift in Sources */,
 				29415859269D33E70072A007 /* StrokeStyledCircle.swift in Sources */,
 				298FE300264B8F1C00BBC02A /* SkillHealingSpeed.swift in Sources */,
+				290BBC3226CCC06F004D57D9 /* TextEffectView.swift in Sources */,
 				29D2AEBF26AA7821005A35D1 /* ArtemisBoon.swift in Sources */,
 				29102700263E62EE00418FE1 /* BoonView.swift in Sources */,
 				2998BF032660B1CE00EA034B /* RibbonBanner.swift in Sources */,
@@ -800,6 +816,7 @@
 				2929B8112695604600C86BBB /* FFXIVCharacterView.swift in Sources */,
 				29A22D4A2626E041000D9EAF /* MinimapViewModel.swift in Sources */,
 				29EB0A67262BF1D40032E598 /* ControlQuestMarker.swift in Sources */,
+				29DBCD2926C62F7D003254C6 /* SWTORRepublicLogo.swift in Sources */,
 				29C9019026A7D85500AA9619 /* OWUltimateReadyView.swift in Sources */,
 				2910270C263E6DAC00418FE1 /* PoseidonBoon.swift in Sources */,
 				29B44139262FDF2A00E442A6 /* TLOUIcon.swift in Sources */,
@@ -816,6 +833,7 @@
 				29A22CFE2626D8C9000D9EAF /* ConsummateV.swift in Sources */,
 				29A22CF62626D8C9000D9EAF /* LoadingRingsViewModel.swift in Sources */,
 				291A07E326BA50B8000F4590 /* StrokeStyledPolygon.swift in Sources */,
+				290BBC3526CCC8AA004D57D9 /* TextEffectViewModel.swift in Sources */,
 				29A22D172626DC60000D9EAF /* KountdownTimerDemo.swift in Sources */,
 				29D3FAB72644F4B000B6A02F /* SkillVitamin.swift in Sources */,
 				29A22D402626DFF3000D9EAF /* MaskedProgressBar.swift in Sources */,
