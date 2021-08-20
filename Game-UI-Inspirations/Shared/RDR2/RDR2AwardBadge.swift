@@ -34,6 +34,15 @@ struct RDR2AwardBadge: View {
   }
 }
 
+extension RDR2AwardBadge: RDR2Badgeable {
+  init(award: RDR2Award) {
+    image = award.image
+    let colors = color(for: award.rank)
+    foreground = colors.0
+    background = colors.1
+  }
+}
+
 struct RDR2AwardBadge_Previews: PreviewProvider {
     static var previews: some View {
       RDR2AwardBadge(image: "lasso")

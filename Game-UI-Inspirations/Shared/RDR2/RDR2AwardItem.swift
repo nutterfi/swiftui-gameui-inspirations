@@ -13,32 +13,43 @@ struct RDR2AwardItem: View {
   var progress: Float // between 0...1
   var foreground: Color = .white
   var background: Color = .black
-    var body: some View {
-      GeometryReader { proxy in
-        let dim = min(proxy.size.width, proxy.size.height)
-        ZStack {
-          Color("rdr2Gray", bundle: nil)
-          
-          RDR2AwardBadge(image: image, foreground: foreground, background: background)
-          
-          VStack {
-            Spacer()
-            ProgressBar(progress: progress, backView: Color("rdr2AwardProgressGray", bundle: nil), frontView: Color("rdr2White", bundle: nil))
-              .frame(height: dim * 0.1)
-          }
-           
+  
+  var body: some View {
+    GeometryReader { proxy in
+      let dim = min(proxy.size.width, proxy.size.height)
+      ZStack {
+        Color("rdr2Gray", bundle: nil)
+        
+        RDR2AwardBadge(image: image, foreground: foreground, background: background)
+        
+        VStack {
+          Spacer()
+          ProgressBar(progress: progress, backView: Color("rdr2AwardProgressGray", bundle: nil), frontView: Color("rdr2White", bundle: nil))
+            .frame(height: dim * 0.1)
         }
-        .frame(width: proxy.size.width, height: proxy.size.height)
+        
       }
+      .frame(width: proxy.size.width, height: proxy.size.height)
     }
+  }
+}
+
+extension RDR2AwardItem: RDR2Badgeable {
+  init(award: RDR2Award) {
+    image = award.image
+    progress = award.progress
+    let colors = color(for: award.rank)
+    foreground = colors.0
+    background = colors.1
+  }
 }
 
 struct RDR2AwardItem_Previews: PreviewProvider {
-    static var previews: some View {
-      ZStack {
-        Color.black.ignoresSafeArea()
-        RDR2AwardItem(image: "lasso", progress: 0.25)
-          .frame(width: 300, height: 200)
-      }
+  static var previews: some View {
+    ZStack {
+      Color.black.ignoresSafeArea()
+      RDR2AwardItem(image: "lasso", progress: 0.25)
+        .frame(width: 300, height: 200)
     }
+  }
 }

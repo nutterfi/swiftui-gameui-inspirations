@@ -41,6 +41,10 @@
 		2929B8102695604600C86BBB /* FFXIVCharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2929B80F2695604600C86BBB /* FFXIVCharacterView.swift */; };
 		2929B8112695604600C86BBB /* FFXIVCharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2929B80F2695604600C86BBB /* FFXIVCharacterView.swift */; };
 		29304D2F26916F49003512A1 /* TestingTiledImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29304D2E26916F49003512A1 /* TestingTiledImageView.swift */; };
+		29351A4926CF63F00069BE75 /* RDR2AwardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29351A4826CF63F00069BE75 /* RDR2AwardViewModel.swift */; };
+		29351A4A26CF63F00069BE75 /* RDR2AwardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29351A4826CF63F00069BE75 /* RDR2AwardViewModel.swift */; };
+		29351A4C26CF706D0069BE75 /* RDR2Badgeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29351A4B26CF706D0069BE75 /* RDR2Badgeable.swift */; };
+		29351A4D26CF706D0069BE75 /* RDR2Badgeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29351A4B26CF706D0069BE75 /* RDR2Badgeable.swift */; };
 		2939687426BCFA7D00B08586 /* RDR2AwardBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2939687326BCFA7D00B08586 /* RDR2AwardBadge.swift */; };
 		2939687526BCFA7D00B08586 /* RDR2AwardBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2939687326BCFA7D00B08586 /* RDR2AwardBadge.swift */; };
 		29415858269D33E70072A007 /* StrokeStyledCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29415857269D33E70072A007 /* StrokeStyledCircle.swift */; };
@@ -202,6 +206,8 @@
 		2926BCF7263529D400CEDC7E /* FireflyTail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireflyTail.swift; sourceTree = "<group>"; };
 		2929B80F2695604600C86BBB /* FFXIVCharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFXIVCharacterView.swift; sourceTree = "<group>"; };
 		29304D2E26916F49003512A1 /* TestingTiledImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingTiledImageView.swift; sourceTree = "<group>"; };
+		29351A4826CF63F00069BE75 /* RDR2AwardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDR2AwardViewModel.swift; sourceTree = "<group>"; };
+		29351A4B26CF706D0069BE75 /* RDR2Badgeable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDR2Badgeable.swift; sourceTree = "<group>"; };
 		2939687326BCFA7D00B08586 /* RDR2AwardBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDR2AwardBadge.swift; sourceTree = "<group>"; };
 		29415857269D33E70072A007 /* StrokeStyledCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeStyledCircle.swift; sourceTree = "<group>"; };
 		294FF9472632AE300057869B /* TLOUIconDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLOUIconDemo.swift; sourceTree = "<group>"; };
@@ -505,6 +511,8 @@
 				295E507726B3B3EA00DA9FD4 /* RDR2AwardItem.swift */,
 				295E507A26B3B7CD00DA9FD4 /* RDR2AwardView.swift */,
 				2939687326BCFA7D00B08586 /* RDR2AwardBadge.swift */,
+				29351A4826CF63F00069BE75 /* RDR2AwardViewModel.swift */,
+				29351A4B26CF706D0069BE75 /* RDR2Badgeable.swift */,
 			);
 			path = RDR2;
 			sourceTree = "<group>";
@@ -671,6 +679,7 @@
 				290BBC3426CCC8AA004D57D9 /* TextEffectViewModel.swift in Sources */,
 				290B5CF7268ED22C00EB93BD /* HadesBoonDemo.swift in Sources */,
 				295794792650D91D00BDDE3A /* TLOUSkillModel.swift in Sources */,
+				29351A4926CF63F00069BE75 /* RDR2AwardViewModel.swift in Sources */,
 				297A6E45265E057000201D1A /* RibbonShapes.swift in Sources */,
 				2926BCF8263529D400CEDC7E /* FireflyTail.swift in Sources */,
 				290BBC3126CCC06F004D57D9 /* TextEffectView.swift in Sources */,
@@ -712,6 +721,7 @@
 				29A22D3D2626DFF3000D9EAF /* GenshinImpactLoadingProgressBar.swift in Sources */,
 				297DC711265A107600980DDE /* MGSVLoadingViewModel.swift in Sources */,
 				298DA1C3269AA4CC0054463A /* OWUltimateMeter.swift in Sources */,
+				29351A4C26CF706D0069BE75 /* RDR2Badgeable.swift in Sources */,
 				2964BAB026C383EE00F37FDC /* SWTOREmpireLogo.swift in Sources */,
 				298DA1C6269AAEF50054463A /* OWUltimateMeterDemo.swift in Sources */,
 				297A6E3A265E02B600201D1A /* DiamondDogsLogo.swift in Sources */,
@@ -808,6 +818,7 @@
 				29922AC92633D270002469C2 /* MK11SelectionView.swift in Sources */,
 				29A22D4E2626E041000D9EAF /* MinimapView.swift in Sources */,
 				29FADE1A269EA23000CF6D73 /* TypewriterTextViewModel.swift in Sources */,
+				29351A4A26CF63F00069BE75 /* RDR2AwardViewModel.swift in Sources */,
 				29532EFE26451D8B000F07F1 /* FireflySymbol.swift in Sources */,
 				2926BCF42635260D00CEDC7E /* FireflyWing.swift in Sources */,
 				297A6E40265E04F200201D1A /* DiamondGem.swift in Sources */,
@@ -821,6 +832,7 @@
 				2910270C263E6DAC00418FE1 /* PoseidonBoon.swift in Sources */,
 				29B44139262FDF2A00E442A6 /* TLOUIcon.swift in Sources */,
 				29EB0A62262BEA570032E598 /* ControlSelectionView.swift in Sources */,
+				29351A4D26CF706D0069BE75 /* RDR2Badgeable.swift in Sources */,
 				2964BAB126C383EE00F37FDC /* SWTOREmpireLogo.swift in Sources */,
 				29FADE1D269EA6E800CF6D73 /* MGSVMissionTextDemo.swift in Sources */,
 				29150B2126B659EC00106A45 /* AresBoon.swift in Sources */,

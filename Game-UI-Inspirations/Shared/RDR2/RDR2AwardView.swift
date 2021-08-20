@@ -7,42 +7,26 @@
 
 import SwiftUI
 
-// MODEL
-struct RDR2Award: Identifiable {
-  var id: UUID
-  var progress: Float
-  var image: String
-  var rank: String
-  
-  struct Rank {
-    static let gold = "gold"
-    static let silver = "silver"
-    
-  }
-}
-
-class RDR2AwardViewModel: ObservableObject {
-  @Published private(set) var items: [RDR2Award]
-  
-  init() {
-    items = []
-  }
-}
-
 struct RDR2AwardView: View {
   @StateObject private var viewModel = RDR2AwardViewModel()
+  @State private var selectedAward: RDR2Award?
   
   var leftSide: some View {
     GeometryReader { proxy in
       let dim = min(proxy.size.width, proxy.size.height)
       ZStack {
         VStack(alignment: .leading) {
-          
           Divider()
           
-          Color("rdr2Gray", bundle: nil)
+          Color("rdr2Gray")
             .overlay(
-              RDR2AwardBadge(image: "lasso", foreground: Color("rdr2Gold"), background: Color("rdr2Rust"))
+              Group {
+                if let selectedAward = selectedAward {
+                  RDR2AwardBadge(award: selectedAward)
+                } else {
+                  Color("rdr2Gray")
+                }
+              }
             )
             .frame(height: dim * 0.75)
           
@@ -55,12 +39,13 @@ struct RDR2AwardView: View {
             .foregroundColor(.white)
           
         }
+        .border(Color.red)
       }
       .frame(width: proxy.size.width, height: proxy.size.height)
     }
     
   }
-  
+    
   var rightSide: some View {
     GeometryReader { proxy in
       let dim = min(proxy.size.width, proxy.size.height)
@@ -74,37 +59,13 @@ struct RDR2AwardView: View {
           
           LazyVGrid(columns:gridItems, spacing: dim * 0.05) {
             // TODO: Separate spacing between award items -- use LazyHGrid?
-            ForEach(0..<viewModel.items.count) { item in
-              // TODO: Create RDR2AwardItems from view model
+            ForEach(viewModel.items) { award in
+              RDR2AwardItem(award: award)
+                .frame(height: itemHeight)
+                .onTapGesture {
+                  selectedAward = award
+                }
             }
-            
-            RDR2AwardItem(image: "lasso", progress: 0.7, foreground: Color("rdr2Gold"), background: Color("rdr2Rust"))
-              .frame(height: itemHeight)
-            
-            RDR2AwardItem(image: "lasso.sparkles", progress: 0.1, foreground: Color("rdr2Teal"), background: Color("rdr2Black"))
-              .frame(height: itemHeight)
-            
-            RDR2AwardItem(image: "hare", progress: 0.3,
-                          foreground: Color("rdr2Bronze"), background: Color("rdr2Black"))
-              .frame(height: itemHeight)
-            
-            
-            RDR2AwardItem(image: "eye", progress: 0,
-                          foreground: Color("rdr2Gray-1"), background: Color("rdr2Black"))
-              .frame(height: itemHeight)
-            
-            RDR2AwardItem(image: "mustache", progress: 0.7)
-              .frame(height: itemHeight)
-            
-            RDR2AwardItem(image: "person.fill.questionmark", progress: 0.1)
-              .frame(height: itemHeight)
-            
-            RDR2AwardItem(image: "flame", progress: 0.3)
-              .frame(height: itemHeight)
-            
-            
-            RDR2AwardItem(image: "leaf.fill", progress: 0)
-              .frame(height: itemHeight)
             
           }
           
@@ -113,6 +74,8 @@ struct RDR2AwardView: View {
           Text("Reset progress and earn Gold Nuggets")
             .foregroundColor(.white)
         }
+        .border(Color.red)
+
       }
       .frame(width: proxy.size.width, height: proxy.size.height)
     }
