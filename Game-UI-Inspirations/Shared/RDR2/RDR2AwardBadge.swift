@@ -37,7 +37,7 @@ struct RDR2AwardBadge: View {
 extension RDR2AwardBadge: RDR2Badgeable {
   init(award: RDR2Award) {
     image = award.image
-    let colors = color(for: award.rank)
+    let colors = colors(for: award.rank)
     foreground = colors.0
     background = colors.1
   }

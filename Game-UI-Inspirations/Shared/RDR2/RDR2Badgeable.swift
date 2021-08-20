@@ -8,11 +8,11 @@
 import SwiftUI
 
 protocol RDR2Badgeable {
-  func color(for rank: String) -> (Color, Color)
+  func colors(for rank: String) -> (Color, Color)
 }
 
 extension RDR2Badgeable {
-  func color(for rank: String) -> (Color, Color) {
+  func colors(for rank: String) -> (Color, Color) {
     switch rank {
     case RDR2Award.Rank.gold:
       return (Color("rdr2Gold"), Color("rdr2Rust"))
