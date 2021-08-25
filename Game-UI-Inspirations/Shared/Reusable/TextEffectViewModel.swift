@@ -9,9 +9,9 @@ import Foundation
 
 class TextEffectViewModel: ObservableObject {
   
-  @Published var phase: Double = 0
+  @Published var value: Double = 0
   
-  private let timeInterval: TimeInterval = 0.1
+  private let timeInterval: TimeInterval = 0.013
   private var timer: Timer?
   
   func start() {
@@ -25,13 +25,13 @@ class TextEffectViewModel: ObservableObject {
   private func startTimer() {
     timer = Timer.scheduledTimer(withTimeInterval: timeInterval, repeats: true) { [weak self] (timer) in
       guard let s = self else { return }
-      s.updateIndex()
+      s.updateValue()
     }
     timer?.fire()
   }
                                  
-  private func updateIndex() {
-    phase += timeInterval
+  private func updateValue() {
+    value += timeInterval
   }
   
 }
