@@ -22,7 +22,8 @@ struct StrokeStyledPolygon: View {
     GeometryReader { proxy in
       let dim = min(proxy.size.width, proxy.size.height)
       let perimeter = CGFloat(sides) * dim * sin(.pi / CGFloat(sides))
-      let strokeRatio: CGFloat = perimeter / CGFloat(dashes)
+      let strokeRatio: CGFloat =
+      dashes > 0 ? perimeter / CGFloat(dashes) : 0
       ZStack {
         Polygon(sides:sides)
           .stroke(style: StrokeStyle(
