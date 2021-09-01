@@ -11,7 +11,7 @@ class TextEffectViewModel: ObservableObject {
   
   @Published var value: Double = 0
   
-  private let timeInterval: TimeInterval = 0.013
+  private let timeInterval: TimeInterval = 0.017
   private var timer: Timer?
   
   func start() {

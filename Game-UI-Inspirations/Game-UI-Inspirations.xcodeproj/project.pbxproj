@@ -55,6 +55,8 @@
 		294FF9492632AE300057869B /* TLOUIconDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294FF9472632AE300057869B /* TLOUIconDemo.swift */; };
 		2950E127268C24B4005EFAA9 /* OverwatchIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2950E126268C24B4005EFAA9 /* OverwatchIcon.swift */; };
 		2950E129268C2CDC005EFAA9 /* OverwatchLogoDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2950E128268C2CDC005EFAA9 /* OverwatchLogoDemo.swift */; };
+		2952A69226DF3859007BABFC /* StarPolygonDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2952A69126DF3859007BABFC /* StarPolygonDemo.swift */; };
+		2952A69326DF3859007BABFC /* StarPolygonDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2952A69126DF3859007BABFC /* StarPolygonDemo.swift */; };
 		29532EFD26451D8B000F07F1 /* FireflySymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29532EFC26451D8B000F07F1 /* FireflySymbol.swift */; };
 		29532EFE26451D8B000F07F1 /* FireflySymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29532EFC26451D8B000F07F1 /* FireflySymbol.swift */; };
 		295794742650D8DE00BDDE3A /* SkillIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295794732650D8DE00BDDE3A /* SkillIcon.swift */; };
@@ -216,6 +218,7 @@
 		294FF9472632AE300057869B /* TLOUIconDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLOUIconDemo.swift; sourceTree = "<group>"; };
 		2950E126268C24B4005EFAA9 /* OverwatchIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverwatchIcon.swift; sourceTree = "<group>"; };
 		2950E128268C2CDC005EFAA9 /* OverwatchLogoDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverwatchLogoDemo.swift; sourceTree = "<group>"; };
+		2952A69126DF3859007BABFC /* StarPolygonDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarPolygonDemo.swift; sourceTree = "<group>"; };
 		29532EFC26451D8B000F07F1 /* FireflySymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireflySymbol.swift; sourceTree = "<group>"; };
 		295794732650D8DE00BDDE3A /* SkillIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillIcon.swift; sourceTree = "<group>"; };
 		295794782650D91D00BDDE3A /* TLOUSkillModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLOUSkillModel.swift; sourceTree = "<group>"; };
@@ -566,6 +569,7 @@
 				291A07E426BA5257000F4590 /* StrokeStyledPolygonDemo.swift */,
 				290BBC3026CCC06F004D57D9 /* TextEffectView.swift */,
 				2906F21726D603A500E38EFF /* TextEffectViewDemo.swift */,
+				2952A69126DF3859007BABFC /* StarPolygonDemo.swift */,
 			);
 			path = Reusable;
 			sourceTree = "<group>";
@@ -701,6 +705,7 @@
 				2950E129268C2CDC005EFAA9 /* OverwatchLogoDemo.swift in Sources */,
 				29A22D102626DC60000D9EAF /* KombatKardView.swift in Sources */,
 				2976E1C12626A45100272ADC /* ContentView.swift in Sources */,
+				2952A69226DF3859007BABFC /* StarPolygonDemo.swift in Sources */,
 				29813985263287BA00009D7B /* POIMarker.swift in Sources */,
 				29B98CB426B1118500E1B7FF /* GIClockView.swift in Sources */,
 				29150B1D26B653F500106A45 /* HermesBoon.swift in Sources */,
@@ -819,6 +824,7 @@
 				29B98CB526B1118500E1B7FF /* GIClockView.swift in Sources */,
 				295E507926B3B3EA00DA9FD4 /* RDR2AwardItem.swift in Sources */,
 				298DA1C7269AAEF50054463A /* OWUltimateMeterDemo.swift in Sources */,
+				2952A69326DF3859007BABFC /* StarPolygonDemo.swift in Sources */,
 				297A6E3B265E02B600201D1A /* DiamondDogsLogo.swift in Sources */,
 				29A22CF82626D8C9000D9EAF /* LoadingRingsView.swift in Sources */,
 				29816B6D263BBF1E0016F1BA /* Rustify.swift in Sources */,
