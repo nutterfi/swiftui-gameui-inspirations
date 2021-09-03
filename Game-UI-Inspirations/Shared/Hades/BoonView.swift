@@ -56,6 +56,8 @@ struct Boon {
 struct BoonView: View {
   var boon: String
   var color: Color = Color.black.opacity(0.3)
+  var polygonSides: Int = 12
+  var polygonDensity: Int = 2
   
   @State private var isAnimating = false
   var shouldAnimate = false
@@ -63,7 +65,8 @@ struct BoonView: View {
     GeometryReader { proxy in
       let dim = min(proxy.size.width, proxy.size.height)
       ZStack {
-        Circle()
+        StarPolygon(points: polygonSides, density: polygonDensity)
+          .rotationEffect(.degrees(-90))
           .foregroundColor(color)
         
         view(for: boon)

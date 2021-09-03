@@ -15,7 +15,12 @@ struct StrokeStyledPolygonDemo: View {
   @State private var lineJoin: CGLineJoin = .miter
   @State private var lineWidthRatio = 0.01
   @State private var dashPhaseRatio: CGFloat = 0.36
+  @State private var density: CGFloat = 1.0
 
+  // TODO: Save FEATURE!
+  /**
+    12 sides, density 2, dashes 14, segment ratio 0.47, round, miter, .1 line width ration, 0.52 dash phase ratio
+   */
   var body: some View {
     VStack {
       Group {
@@ -26,6 +31,16 @@ struct StrokeStyledPolygonDemo: View {
         } maximumValueLabel: {
           Text("20")
         }
+        
+        Text("Density: \(Int(density))")
+
+        Slider(value: $density, in: ClosedRange(uncheckedBounds: (1.0, 10.0))) {
+        } minimumValueLabel: {
+          Text("1")
+        } maximumValueLabel: {
+          Text("10")
+        }
+        
       }
       
       Group {
@@ -39,7 +54,7 @@ struct StrokeStyledPolygonDemo: View {
       }
       
       Group {
-        Text("segment ratio: \(segmentRatio)")
+        Text("segment ratio: \(String(format: "%.02f", segmentRatio))")
         Slider(value: $segmentRatio)
         
         Picker("Cap", selection: $lineCap) {
@@ -54,14 +69,13 @@ struct StrokeStyledPolygonDemo: View {
           Text("Miter").tag(CGLineJoin.miter)
         }
         
-        Text("Line Width Ratio: \(lineWidthRatio)")
+        Text("Line Width Ratio: \(String(format: "%.02f", lineWidthRatio))")
         Slider(value: $lineWidthRatio)
-        
-        Text("Dash Phase Ratio: \(dashPhaseRatio)")
+        Text("Dash Phase Ratio: \(String(format: "%.02f", dashPhaseRatio))")
         Slider(value: $dashPhaseRatio)
       }
       
-      StrokeStyledPolygon(sides: Int(numberOfSides), dashes: Int(numberOfDashes), dashFillRatio: segmentRatio, lineWidthRatio: lineWidthRatio, dashPhaseRatio: dashPhaseRatio, lineCap: lineCap, lineJoin: lineJoin)
+      StrokeStyledPolygon(sides: Int(numberOfSides), dashes: Int(numberOfDashes), density: Int(density), dashFillRatio: segmentRatio, lineWidthRatio: lineWidthRatio, dashPhaseRatio: dashPhaseRatio, lineCap: lineCap, lineJoin: lineJoin)
         .foregroundStyle(LinearGradient(colors: [Color.blue, Color.purple], startPoint: .top, endPoint: .bottom))
 
     }
