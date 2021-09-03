@@ -43,6 +43,6 @@ struct ZeusBoon_Previews: PreviewProvider {
         ZeusBoon()
           .fill(Color.orange)
           .frame(width: 100, height: 100)
-          .border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
+          .border(.black)
     }
 }

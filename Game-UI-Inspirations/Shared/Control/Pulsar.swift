@@ -21,7 +21,7 @@ struct Pulsar: View {
       let dim = min(width, height)
       
       ZStack {
-        Shapes.Polygon(sides: 3)
+        Shapes.ConvexPolygon(sides: 3)
           .stroke(Color.red, lineWidth: 2)
           .frame(width: scale * dim / 2, height: scale * dim / 2)
           .rotationEffect(Angle(degrees: 90))
@@ -29,7 +29,7 @@ struct Pulsar: View {
           .animation(Animation.easeInOut(duration: duration).repeatForever(autoreverses: false)
           )
         
-        Shapes.Polygon(sides: 3)
+        Shapes.ConvexPolygon(sides: 3)
           .fill(Color.red)
           .frame(width: dim / 8, height: dim / 8)
           .rotationEffect(Angle(degrees: 90))

@@ -23,11 +23,11 @@ struct SWTOREmpireLogo: View {
               .foregroundStyle(color)
               .frame(width: dim, height: dim)
               .mask(
-                Polygon(sides: 6)
+                ConvexPolygon(sides: 6)
                   .rotationEffect(.degrees(90))
               )
             
-            Polygon(sides: 6)
+          ConvexPolygon(sides: 6)
               .foregroundStyle(color)
               .rotationEffect(.degrees(90))
               .frame(width: dim * 0.5)

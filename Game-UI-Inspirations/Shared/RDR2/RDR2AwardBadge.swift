@@ -17,10 +17,10 @@ struct RDR2AwardBadge: View {
     GeometryReader { proxy in
       let dim = min(proxy.size.width, proxy.size.height)
       ZStack {
-        Polygon(sides: 6)
+        ConvexPolygon(sides: 6)
           .stroke(foreground, lineWidth: 3)
           .frame(width: dim * 0.5, height: dim * 0.5)
-          .background(background.mask(Polygon(sides: 6)))
+          .background(background.mask(ConvexPolygon(sides: 6)))
           .rotationEffect(.degrees(90))
         
         Image(systemName: image)

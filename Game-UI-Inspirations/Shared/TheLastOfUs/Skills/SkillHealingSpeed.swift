@@ -22,8 +22,8 @@ struct SkillHealingSpeed: View {
         
         HStack(spacing: dim / 60) {
           Group {
-            Polygon(sides: 3)
-            Polygon(sides: 3)
+            ConvexPolygon(sides: 3)
+            ConvexPolygon(sides: 3)
           }
           .foregroundColor(color)
           .frame(width: dim / 10)

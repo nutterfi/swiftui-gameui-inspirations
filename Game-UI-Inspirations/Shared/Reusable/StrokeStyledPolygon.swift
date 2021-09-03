@@ -25,7 +25,7 @@ struct StrokeStyledPolygon: View {
       let strokeRatio: CGFloat =
       dashes > 0 ? perimeter / CGFloat(dashes) : 0
       ZStack {
-        Polygon(sides:sides)
+        ConvexPolygon(sides:sides)
           .stroke(style: StrokeStyle(
             lineWidth: lineWidthRatio * dim,
             lineCap: lineCap,

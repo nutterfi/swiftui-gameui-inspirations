@@ -23,7 +23,7 @@ struct Rustify: View {
     var body: some View {
       GeometryReader { proxy in
         ZStack {
-          RadialGradient(gradient: Gradient(colors: [.kombatBrown, .green]), center: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/, startRadius: proxy.size.width * startRadius, endRadius: proxy.size.width * endRadius)
+          RadialGradient(gradient: Gradient(colors: [.kombatBrown, .green]), center: .center, startRadius: proxy.size.width * startRadius, endRadius: proxy.size.width * endRadius)
             .mask(
               Image(systemName: style)
                 .resizable()

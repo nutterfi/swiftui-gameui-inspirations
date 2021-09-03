@@ -59,6 +59,6 @@ struct PoseidonBoon_Previews: PreviewProvider {
     static var previews: some View {
         PoseidonBoon()
           .stroke()
-          .frame(width: 200, height: 200, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+          .frame(width: 200, height: 200)
     }
 }
