@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2906484F26FAD6CF009A20A1 /* DBHTitleScreenMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2906484E26FAD6CF009A20A1 /* DBHTitleScreenMenuItem.swift */; };
+		2906485026FAD6CF009A20A1 /* DBHTitleScreenMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2906484E26FAD6CF009A20A1 /* DBHTitleScreenMenuItem.swift */; };
+		2906485226FAD748009A20A1 /* StrokeStyledRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2906485126FAD748009A20A1 /* StrokeStyledRectangle.swift */; };
+		2906485326FAD748009A20A1 /* StrokeStyledRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2906485126FAD748009A20A1 /* StrokeStyledRectangle.swift */; };
+		2906485526FAD882009A20A1 /* StrokeStyledRectangleDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2906485426FAD882009A20A1 /* StrokeStyledRectangleDemo.swift */; };
+		2906485626FAD882009A20A1 /* StrokeStyledRectangleDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2906485426FAD882009A20A1 /* StrokeStyledRectangleDemo.swift */; };
 		2906F21826D603A500E38EFF /* TextEffectViewDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2906F21726D603A500E38EFF /* TextEffectViewDemo.swift */; };
 		2906F21926D603A500E38EFF /* TextEffectViewDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2906F21726D603A500E38EFF /* TextEffectViewDemo.swift */; };
 		290B5CF7268ED22C00EB93BD /* HadesBoonDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290B5CF6268ED22C00EB93BD /* HadesBoonDemo.swift */; };
@@ -192,6 +198,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2906484E26FAD6CF009A20A1 /* DBHTitleScreenMenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBHTitleScreenMenuItem.swift; sourceTree = "<group>"; };
+		2906485126FAD748009A20A1 /* StrokeStyledRectangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrokeStyledRectangle.swift; sourceTree = "<group>"; };
+		2906485426FAD882009A20A1 /* StrokeStyledRectangleDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrokeStyledRectangleDemo.swift; sourceTree = "<group>"; };
 		2906F21726D603A500E38EFF /* TextEffectViewDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEffectViewDemo.swift; sourceTree = "<group>"; };
 		290B5CF6268ED22C00EB93BD /* HadesBoonDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HadesBoonDemo.swift; sourceTree = "<group>"; };
 		290BBC3026CCC06F004D57D9 /* TextEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEffectView.swift; sourceTree = "<group>"; };
@@ -321,6 +330,14 @@
 			path = FireflySymbol;
 			sourceTree = "<group>";
 		};
+		2906484D26FAD656009A20A1 /* DetroitBecomeHuman */ = {
+			isa = PBXGroup;
+			children = (
+				2906484E26FAD6CF009A20A1 /* DBHTitleScreenMenuItem.swift */,
+			);
+			path = DetroitBecomeHuman;
+			sourceTree = "<group>";
+		};
 		291026FD263E62BC00418FE1 /* Hades */ = {
 			isa = PBXGroup;
 			children = (
@@ -384,6 +401,7 @@
 				2964BAB226C384B000F37FDC /* Games.swift */,
 				2976E1AD2626A45000272ADC /* ContentView.swift */,
 				2976E1AC2626A45000272ADC /* Game_UI_InspirationsApp.swift */,
+				2906484D26FAD656009A20A1 /* DetroitBecomeHuman */,
 				291A07DE26BA4A24000F4590 /* SWTOR */,
 				29A22D082626DA50000D9EAF /* Extensions */,
 				29C9018D26A7D6F600AA9619 /* Reusable */,
@@ -566,7 +584,9 @@
 				29A22D382626DFF3000D9EAF /* ProgressBar.swift */,
 				29816B6B263BBF1E0016F1BA /* Rustify.swift */,
 				291A07E126BA50B8000F4590 /* StrokeStyledPolygon.swift */,
+				2906485126FAD748009A20A1 /* StrokeStyledRectangle.swift */,
 				291A07E426BA5257000F4590 /* StrokeStyledPolygonDemo.swift */,
+				2906485426FAD882009A20A1 /* StrokeStyledRectangleDemo.swift */,
 				290BBC3026CCC06F004D57D9 /* TextEffectView.swift */,
 				2906F21726D603A500E38EFF /* TextEffectViewDemo.swift */,
 				2952A69126DF3859007BABFC /* StarPolygonDemo.swift */,
@@ -683,6 +703,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2976E1DA2626AD5C00272ADC /* Pulsar.swift in Sources */,
+				2906484F26FAD6CF009A20A1 /* DBHTitleScreenMenuItem.swift in Sources */,
 				29A22D122626DC60000D9EAF /* KountdownTimerView.swift in Sources */,
 				290BBC3426CCC8AA004D57D9 /* TextEffectViewModel.swift in Sources */,
 				290B5CF7268ED22C00EB93BD /* HadesBoonDemo.swift in Sources */,
@@ -693,6 +714,7 @@
 				290BBC3126CCC06F004D57D9 /* TextEffectView.swift in Sources */,
 				29A22D182626DC60000D9EAF /* KombatKardContentView.swift in Sources */,
 				295FECD226D89D5400C70220 /* RDR2ConfirmButton.swift in Sources */,
+				2906485226FAD748009A20A1 /* StrokeStyledRectangle.swift in Sources */,
 				2950E127268C24B4005EFAA9 /* OverwatchIcon.swift in Sources */,
 				295E507826B3B3EA00DA9FD4 /* RDR2AwardItem.swift in Sources */,
 				29922ACD2633D2FA002469C2 /* MK11Left.swift in Sources */,
@@ -757,6 +779,7 @@
 				29B44138262FDF2A00E442A6 /* TLOUIcon.swift in Sources */,
 				29EB0A61262BEA570032E598 /* ControlSelectionView.swift in Sources */,
 				2964BAB326C384B000F37FDC /* Games.swift in Sources */,
+				2906485526FAD882009A20A1 /* StrokeStyledRectangleDemo.swift in Sources */,
 				29C9019226A801A400AA9619 /* OWUltimateMeterBorder.swift in Sources */,
 				29A22D472626E041000D9EAF /* MinimapDemo.swift in Sources */,
 				29ACEC2B2642522C00DAE394 /* TLOUSkillsIcon.swift in Sources */,
@@ -800,6 +823,7 @@
 				29A22D112626DC60000D9EAF /* KombatKardView.swift in Sources */,
 				2976E1C22626A45100272ADC /* ContentView.swift in Sources */,
 				295FECD326D89D5400C70220 /* RDR2ConfirmButton.swift in Sources */,
+				2906485026FAD6CF009A20A1 /* DBHTitleScreenMenuItem.swift in Sources */,
 				29813986263287BA00009D7B /* POIMarker.swift in Sources */,
 				29102707263E673300418FE1 /* ZeusBoon.swift in Sources */,
 				29BB327D265E0C3F00C3CCFE /* DiamondDog.swift in Sources */,
@@ -810,6 +834,7 @@
 				29415859269D33E70072A007 /* StrokeStyledCircle.swift in Sources */,
 				298FE300264B8F1C00BBC02A /* SkillHealingSpeed.swift in Sources */,
 				290BBC3226CCC06F004D57D9 /* TextEffectView.swift in Sources */,
+				2906485326FAD748009A20A1 /* StrokeStyledRectangle.swift in Sources */,
 				29D2AEBF26AA7821005A35D1 /* ArtemisBoon.swift in Sources */,
 				29102700263E62EE00418FE1 /* BoonView.swift in Sources */,
 				2998BF032660B1CE00EA034B /* RibbonBanner.swift in Sources */,
@@ -836,6 +861,7 @@
 				2926BCF42635260D00CEDC7E /* FireflyWing.swift in Sources */,
 				297A6E40265E04F200201D1A /* DiamondGem.swift in Sources */,
 				298FE2FB264B8C6400BBC02A /* SkillWeaponSway.swift in Sources */,
+				2906485626FAD882009A20A1 /* StrokeStyledRectangleDemo.swift in Sources */,
 				2926BCEF2635225100CEDC7E /* FireflyPendant.swift in Sources */,
 				2929B8112695604600C86BBB /* FFXIVCharacterView.swift in Sources */,
 				29A22D4A2626E041000D9EAF /* MinimapViewModel.swift in Sources */,

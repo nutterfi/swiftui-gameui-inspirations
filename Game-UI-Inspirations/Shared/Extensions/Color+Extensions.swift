@@ -9,6 +9,12 @@ import SwiftUI
 
 extension Color {
   
+  static var randomBlue : Color {
+    let r = CGFloat.random(in: 0...1)
+    let g = CGFloat.random(in: 0...1)
+    return .init(red: r, green: g, blue: 1)
+  }
+  
   static var controlYellow: Color {
     Color(red: 1, green: 1, blue: 59.0/255, opacity: 1)
   }

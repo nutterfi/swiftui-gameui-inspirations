@@ -11,7 +11,7 @@ import Shapes
 class ContentViewModel: ObservableObject {
   @Published private(set) var titles: [String]
   init() {
-    titles = [Games.mgsv, Games.control, Games.mk11, Games.rdr2, Games.genshinImpact, Games.overwatch, Games.swtor, Games.tlou, Games.hades].sorted()
+    titles = [Games.mgsv, Games.control, Games.mk11, Games.rdr2, Games.genshinImpact, Games.overwatch, Games.swtor, Games.tlou, Games.hades, Games.detroit].sorted()
   }
 }
 
@@ -47,6 +47,9 @@ struct ContentView: View {
         SWTOREmpireLogo(color: .purple)
       case Games.hades:
         HadesBoonDemo()
+      case Games.detroit:
+        DBHTitleScreenMenuItem()
+          .frame(width: 256, height: 48)
       default:
         Circle().frame(width: .infinity, height: .infinity)
           .overlay(

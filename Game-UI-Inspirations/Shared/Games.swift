@@ -18,4 +18,5 @@ struct Games {
   static let swtor = "SWTOR"
   static let hades = "Hades"
   static let ff14 = "FFXIV"
+  static let detroit = "Detroit: Become Human"
 }
