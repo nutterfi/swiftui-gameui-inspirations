@@ -8,18 +8,6 @@
 import SwiftUI
 import Shapes
 
-// TODO: Add to shapes library
-struct IsoscelesTriangle: Shape {
-  func path(in rect: CGRect) -> Path {
-    Path { path in
-      path.move(to: CGPoint(x: rect.midX, y: 0))
-      path.addLine(to: CGPoint(x: rect.width, y: rect.height))
-      path.addLine(to: CGPoint(x: 0, y: rect.height))
-      path.closeSubpath()
-    }
-  }
-}
-
 struct DBHTitleScreenMenuItem: View {
   @State private var isSelected: Bool = false
     var body: some View {
