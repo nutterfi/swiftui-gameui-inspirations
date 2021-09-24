@@ -19,4 +19,5 @@ struct Games {
   static let hades = "Hades"
   static let ff14 = "FFXIV"
   static let detroit = "Detroit: Become Human"
+  static let destiny2 = "Destiny 2"
 }

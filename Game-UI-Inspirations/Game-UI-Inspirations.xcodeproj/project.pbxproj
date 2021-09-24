@@ -79,6 +79,10 @@
 		295E507C26B3B7CD00DA9FD4 /* RDR2AwardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295E507A26B3B7CD00DA9FD4 /* RDR2AwardView.swift */; };
 		295FECD226D89D5400C70220 /* RDR2ConfirmButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295FECD126D89D5400C70220 /* RDR2ConfirmButton.swift */; };
 		295FECD326D89D5400C70220 /* RDR2ConfirmButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295FECD126D89D5400C70220 /* RDR2ConfirmButton.swift */; };
+		2962057926FD788C002F9D3E /* Destiny2FastTravelIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2962057826FD788B002F9D3E /* Destiny2FastTravelIcon.swift */; };
+		2962057A26FD788C002F9D3E /* Destiny2FastTravelIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2962057826FD788B002F9D3E /* Destiny2FastTravelIcon.swift */; };
+		2962057C26FD7EFD002F9D3E /* Destiny2FastTravelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2962057B26FD7EFD002F9D3E /* Destiny2FastTravelView.swift */; };
+		2962057D26FD7EFD002F9D3E /* Destiny2FastTravelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2962057B26FD7EFD002F9D3E /* Destiny2FastTravelView.swift */; };
 		2964BAB026C383EE00F37FDC /* SWTOREmpireLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2964BAAF26C383EE00F37FDC /* SWTOREmpireLogo.swift */; };
 		2964BAB126C383EE00F37FDC /* SWTOREmpireLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2964BAAF26C383EE00F37FDC /* SWTOREmpireLogo.swift */; };
 		2964BAB326C384B000F37FDC /* Games.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2964BAB226C384B000F37FDC /* Games.swift */; };
@@ -236,6 +240,8 @@
 		295E507726B3B3EA00DA9FD4 /* RDR2AwardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDR2AwardItem.swift; sourceTree = "<group>"; };
 		295E507A26B3B7CD00DA9FD4 /* RDR2AwardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDR2AwardView.swift; sourceTree = "<group>"; };
 		295FECD126D89D5400C70220 /* RDR2ConfirmButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDR2ConfirmButton.swift; sourceTree = "<group>"; };
+		2962057826FD788B002F9D3E /* Destiny2FastTravelIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destiny2FastTravelIcon.swift; sourceTree = "<group>"; };
+		2962057B26FD7EFD002F9D3E /* Destiny2FastTravelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destiny2FastTravelView.swift; sourceTree = "<group>"; };
 		2964BAAF26C383EE00F37FDC /* SWTOREmpireLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWTOREmpireLogo.swift; sourceTree = "<group>"; };
 		2964BAB226C384B000F37FDC /* Games.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Games.swift; sourceTree = "<group>"; };
 		2976E1AC2626A45000272ADC /* Game_UI_InspirationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game_UI_InspirationsApp.swift; sourceTree = "<group>"; };
@@ -384,6 +390,15 @@
 			path = Overwatch;
 			sourceTree = "<group>";
 		};
+		2962057726FD7841002F9D3E /* Destiny2 */ = {
+			isa = PBXGroup;
+			children = (
+				2962057826FD788B002F9D3E /* Destiny2FastTravelIcon.swift */,
+				2962057B26FD7EFD002F9D3E /* Destiny2FastTravelView.swift */,
+			);
+			path = Destiny2;
+			sourceTree = "<group>";
+		};
 		2976E1A62626A44F00272ADC = {
 			isa = PBXGroup;
 			children = (
@@ -401,6 +416,7 @@
 				2964BAB226C384B000F37FDC /* Games.swift */,
 				2976E1AD2626A45000272ADC /* ContentView.swift */,
 				2976E1AC2626A45000272ADC /* Game_UI_InspirationsApp.swift */,
+				2962057726FD7841002F9D3E /* Destiny2 */,
 				2906484D26FAD656009A20A1 /* DetroitBecomeHuman */,
 				291A07DE26BA4A24000F4590 /* SWTOR */,
 				29A22D082626DA50000D9EAF /* Extensions */,
@@ -726,6 +742,7 @@
 				29A22D522626E059000D9EAF /* Color+Extensions.swift in Sources */,
 				2950E129268C2CDC005EFAA9 /* OverwatchLogoDemo.swift in Sources */,
 				29A22D102626DC60000D9EAF /* KombatKardView.swift in Sources */,
+				2962057C26FD7EFD002F9D3E /* Destiny2FastTravelView.swift in Sources */,
 				2976E1C12626A45100272ADC /* ContentView.swift in Sources */,
 				2952A69226DF3859007BABFC /* StarPolygonDemo.swift in Sources */,
 				29813985263287BA00009D7B /* POIMarker.swift in Sources */,
@@ -758,6 +775,7 @@
 				298DA1C6269AAEF50054463A /* OWUltimateMeterDemo.swift in Sources */,
 				297A6E3A265E02B600201D1A /* DiamondDogsLogo.swift in Sources */,
 				29A22CF72626D8C9000D9EAF /* LoadingRingsView.swift in Sources */,
+				2962057926FD788C002F9D3E /* Destiny2FastTravelIcon.swift in Sources */,
 				29816B6C263BBF1E0016F1BA /* Rustify.swift in Sources */,
 				29922AC82633D270002469C2 /* MK11SelectionView.swift in Sources */,
 				29A22D4D2626E041000D9EAF /* MinimapView.swift in Sources */,
@@ -865,9 +883,11 @@
 				2926BCEF2635225100CEDC7E /* FireflyPendant.swift in Sources */,
 				2929B8112695604600C86BBB /* FFXIVCharacterView.swift in Sources */,
 				29A22D4A2626E041000D9EAF /* MinimapViewModel.swift in Sources */,
+				2962057D26FD7EFD002F9D3E /* Destiny2FastTravelView.swift in Sources */,
 				29EB0A67262BF1D40032E598 /* ControlQuestMarker.swift in Sources */,
 				29C9019026A7D85500AA9619 /* OWUltimateReadyView.swift in Sources */,
 				2910270C263E6DAC00418FE1 /* PoseidonBoon.swift in Sources */,
+				2962057A26FD788C002F9D3E /* Destiny2FastTravelIcon.swift in Sources */,
 				29B44139262FDF2A00E442A6 /* TLOUIcon.swift in Sources */,
 				29EB0A62262BEA570032E598 /* ControlSelectionView.swift in Sources */,
 				29351A4D26CF706D0069BE75 /* RDR2Badgeable.swift in Sources */,
