@@ -47,7 +47,7 @@ struct RDR2ConfirmButton: View {
           
           StrokeStyledPolygon(sides:4, dashes: value > 0 ? 1 : 0, dashFillRatio: CGFloat(value), dashPhaseRatio: 0.125)
             .scaleEffect(1.4) // CODE SMELL
-            .rotationEffect(.degrees(-45))
+            .rotationEffect(.degrees(45))
             .foregroundStyle(Color("rdr2White"))
             
           Text("E")

@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Shapes
 
 /**
  TODO:
@@ -19,9 +20,7 @@ struct MinimapView: View {
   
     var body: some View {
       GeometryReader { proxy in
-        let width = proxy.size.width
-        let height = proxy.size.height
-        let dim = min(width, height)
+        let dim = min(proxy.size.width, proxy.size.height)
         let systemSize: CGFloat = max(dim / 20, 12.0)
         
         ZStack {
@@ -32,6 +31,12 @@ struct MinimapView: View {
             .overlay(
               
               ZStack {
+                ElevationMap()
+                  .opacity(0.3)
+                  .frame(width: dim, height: dim)
+                  .offset(x: 0.25 * dim, y: 0.17 * dim)
+                  .mask(Circle())
+                
                 Text("E")
                   .font(.system(size: systemSize))
                   .offset(x: dim / 2 - 15, y: 0)
@@ -78,15 +83,14 @@ struct MinimapView: View {
               }
             )
             .overlay(
-              // FIXME: Teardrop shape
               // TODO: Opaque if riding a horse
-              Circle()
+              Teardrop()
                 .stroke(Color.kombatBrown, lineWidth: 2)
-                .frame(width:10, height: 10)
+                .frame(width:10, height: 20)
             )
           
         }
-        .frame(width: width, height: height)
+        .frame(width: proxy.size.width, height: proxy.size.height)
       }
      
     }

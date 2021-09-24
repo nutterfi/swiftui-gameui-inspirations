@@ -21,7 +21,6 @@ struct RDR2AwardBadge: View {
           .stroke(foreground, lineWidth: 3)
           .frame(width: dim * 0.5, height: dim * 0.5)
           .background(background.mask(ConvexPolygon(sides: 6)))
-          .rotationEffect(.degrees(90))
         
         Image(systemName: image)
           .resizable()
