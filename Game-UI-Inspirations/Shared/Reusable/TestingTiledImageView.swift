@@ -40,7 +40,7 @@ struct TestingTiledImageView: View {
           isAnimating = true
         }
       }
-      .animation(Animation.easeInOut(duration: 2))
+      .animation(Animation.easeInOut(duration: 2), value: isAnimating)
     }
 }
 

@@ -11,7 +11,7 @@ import Shapes
 class ContentViewModel: ObservableObject {
   @Published private(set) var titles: [String]
   init() {
-    titles = [Games.mgsv, Games.control, Games.mk11, Games.rdr2, Games.genshinImpact, Games.overwatch, Games.swtor, Games.tlou, Games.hades, Games.detroit, Games.destiny2].sorted()
+    titles = [Games.mgsv, Games.control, Games.mk11, Games.rdr2, Games.genshinImpact, Games.overwatch, Games.swtor, Games.tlou, Games.hades, Games.detroit, Games.destiny2, Games.celeste].sorted()
   }
 }
 
@@ -48,10 +48,11 @@ struct ContentView: View {
       case Games.hades:
         HadesBoonDemo()
       case Games.detroit:
-        DBHTitleScreenMenuItem()
-          .frame(width: 256, height: 48)
+        DBHTitleScreenMenu()
       case Games.destiny2:
         Destiny2FastTravelView()
+      case Games.celeste:
+        CelesteDemo()
       default:
         Circle().frame(width: .infinity, height: .infinity)
           .overlay(

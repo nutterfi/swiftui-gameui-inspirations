@@ -26,7 +26,7 @@ struct Pulsar: View {
           .frame(width: scale * dim / 2, height: scale * dim / 2)
           .rotationEffect(Angle(degrees: 90))
           .opacity(opacity)
-          .animation(Animation.easeInOut(duration: duration).repeatForever(autoreverses: false)
+          .animation(Animation.easeInOut(duration: duration).repeatForever(autoreverses: false),value: scale
           )
         
         Shapes.ConvexPolygon(sides: 3)

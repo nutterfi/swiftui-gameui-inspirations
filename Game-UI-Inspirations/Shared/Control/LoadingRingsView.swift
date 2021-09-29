@@ -37,7 +37,6 @@ struct LoadingRingsView: View {
       }
       .frame(width: width, height: height)
     }
-    .animation(.easeInOut(duration: 0.1))
     
   }
   

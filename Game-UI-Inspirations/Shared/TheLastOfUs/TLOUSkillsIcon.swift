@@ -28,7 +28,7 @@ struct TLOUSkillsIcon: View {
           .frame(width: dim, height: dim)
         
       }
-      .animation(Animation.easeInOut(duration: 0.75).repeatForever(autoreverses: true))
+      .animation(Animation.easeInOut(duration: 0.75).repeatForever(), value: isAnimating)
       .frame(width: proxy.size.width, height: proxy.size.height)
     }
     .onAppear {

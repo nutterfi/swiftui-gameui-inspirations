@@ -21,6 +21,10 @@
 		290BBC3226CCC06F004D57D9 /* TextEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290BBC3026CCC06F004D57D9 /* TextEffectView.swift */; };
 		290BBC3426CCC8AA004D57D9 /* TextEffectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290BBC3326CCC8AA004D57D9 /* TextEffectViewModel.swift */; };
 		290BBC3526CCC8AA004D57D9 /* TextEffectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290BBC3326CCC8AA004D57D9 /* TextEffectViewModel.swift */; };
+		29101792270410150021E672 /* CelesteDeathAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29101791270410150021E672 /* CelesteDeathAnimation.swift */; };
+		29101793270410160021E672 /* CelesteDeathAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29101791270410150021E672 /* CelesteDeathAnimation.swift */; };
+		29101795270429580021E672 /* CelesteDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29101794270429580021E672 /* CelesteDemo.swift */; };
+		29101796270429580021E672 /* CelesteDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29101794270429580021E672 /* CelesteDemo.swift */; };
 		291026FF263E62EE00418FE1 /* BoonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291026FE263E62EE00418FE1 /* BoonView.swift */; };
 		29102700263E62EE00418FE1 /* BoonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291026FE263E62EE00418FE1 /* BoonView.swift */; };
 		29102706263E673300418FE1 /* ZeusBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29102705263E673300418FE1 /* ZeusBoon.swift */; };
@@ -201,6 +205,8 @@
 		29FADE1A269EA23000CF6D73 /* TypewriterTextViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FADE18269EA23000CF6D73 /* TypewriterTextViewModel.swift */; };
 		29FADE1C269EA6E800CF6D73 /* MGSVMissionTextDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FADE1B269EA6E800CF6D73 /* MGSVMissionTextDemo.swift */; };
 		29FADE1D269EA6E800CF6D73 /* MGSVMissionTextDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FADE1B269EA6E800CF6D73 /* MGSVMissionTextDemo.swift */; };
+		29FC00032703A8DE00900F5B /* DBHTitleScreenMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FC00022703A8DE00900F5B /* DBHTitleScreenMenu.swift */; };
+		29FC00042703A8DE00900F5B /* DBHTitleScreenMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FC00022703A8DE00900F5B /* DBHTitleScreenMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -211,6 +217,8 @@
 		290B5CF6268ED22C00EB93BD /* HadesBoonDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HadesBoonDemo.swift; sourceTree = "<group>"; };
 		290BBC3026CCC06F004D57D9 /* TextEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEffectView.swift; sourceTree = "<group>"; };
 		290BBC3326CCC8AA004D57D9 /* TextEffectViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextEffectViewModel.swift; sourceTree = "<group>"; };
+		29101791270410150021E672 /* CelesteDeathAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelesteDeathAnimation.swift; sourceTree = "<group>"; };
+		29101794270429580021E672 /* CelesteDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelesteDemo.swift; sourceTree = "<group>"; };
 		291026FE263E62EE00418FE1 /* BoonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoonView.swift; sourceTree = "<group>"; };
 		29102705263E673300418FE1 /* ZeusBoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusBoon.swift; sourceTree = "<group>"; };
 		2910270A263E6DAC00418FE1 /* PoseidonBoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoseidonBoon.swift; sourceTree = "<group>"; };
@@ -307,6 +315,7 @@
 		29FADE15269E99E400CF6D73 /* TypewriterTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypewriterTextView.swift; sourceTree = "<group>"; };
 		29FADE18269EA23000CF6D73 /* TypewriterTextViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypewriterTextViewModel.swift; sourceTree = "<group>"; };
 		29FADE1B269EA6E800CF6D73 /* MGSVMissionTextDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MGSVMissionTextDemo.swift; sourceTree = "<group>"; };
+		29FC00022703A8DE00900F5B /* DBHTitleScreenMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBHTitleScreenMenu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -343,8 +352,18 @@
 			isa = PBXGroup;
 			children = (
 				2906484E26FAD6CF009A20A1 /* DBHTitleScreenMenuItem.swift */,
+				29FC00022703A8DE00900F5B /* DBHTitleScreenMenu.swift */,
 			);
 			path = DetroitBecomeHuman;
+			sourceTree = "<group>";
+		};
+		2910179027040FF00021E672 /* Celeste */ = {
+			isa = PBXGroup;
+			children = (
+				29101791270410150021E672 /* CelesteDeathAnimation.swift */,
+				29101794270429580021E672 /* CelesteDemo.swift */,
+			);
+			path = Celeste;
 			sourceTree = "<group>";
 		};
 		291026FD263E62BC00418FE1 /* Hades */ = {
@@ -419,6 +438,7 @@
 				2964BAB226C384B000F37FDC /* Games.swift */,
 				2976E1AD2626A45000272ADC /* ContentView.swift */,
 				2976E1AC2626A45000272ADC /* Game_UI_InspirationsApp.swift */,
+				2910179027040FF00021E672 /* Celeste */,
 				2962057726FD7841002F9D3E /* Destiny2 */,
 				2906484D26FAD656009A20A1 /* DetroitBecomeHuman */,
 				291A07DE26BA4A24000F4590 /* SWTOR */,
@@ -787,6 +807,7 @@
 				2906F21826D603A500E38EFF /* TextEffectViewDemo.swift in Sources */,
 				29532EFD26451D8B000F07F1 /* FireflySymbol.swift in Sources */,
 				2926BCF32635260D00CEDC7E /* FireflyWing.swift in Sources */,
+				29101795270429580021E672 /* CelesteDemo.swift in Sources */,
 				29D2AEBE26AA7821005A35D1 /* ArtemisBoon.swift in Sources */,
 				2939687426BCFA7D00B08586 /* RDR2AwardBadge.swift in Sources */,
 				295E507B26B3B7CD00DA9FD4 /* RDR2AwardView.swift in Sources */,
@@ -802,6 +823,7 @@
 				29B44138262FDF2A00E442A6 /* TLOUIcon.swift in Sources */,
 				29EB0A61262BEA570032E598 /* ControlSelectionView.swift in Sources */,
 				2964BAB326C384B000F37FDC /* Games.swift in Sources */,
+				29FC00032703A8DE00900F5B /* DBHTitleScreenMenu.swift in Sources */,
 				2906485526FAD882009A20A1 /* StrokeStyledRectangleDemo.swift in Sources */,
 				29C9019226A801A400AA9619 /* OWUltimateMeterBorder.swift in Sources */,
 				29A22D472626E041000D9EAF /* MinimapDemo.swift in Sources */,
@@ -814,6 +836,7 @@
 				29A22CFD2626D8C9000D9EAF /* ConsummateV.swift in Sources */,
 				2910F3E6269801F7008475D6 /* AphroditeBoon.swift in Sources */,
 				29A22CF52626D8C9000D9EAF /* LoadingRingsViewModel.swift in Sources */,
+				29101792270410150021E672 /* CelesteDeathAnimation.swift in Sources */,
 				29A22D162626DC60000D9EAF /* KountdownTimerDemo.swift in Sources */,
 				29D3FAB62644F4B000B6A02F /* SkillVitamin.swift in Sources */,
 				29A22D3F2626DFF3000D9EAF /* MaskedProgressBar.swift in Sources */,
@@ -857,6 +880,7 @@
 				29415859269D33E70072A007 /* StrokeStyledCircle.swift in Sources */,
 				298FE300264B8F1C00BBC02A /* SkillHealingSpeed.swift in Sources */,
 				290BBC3226CCC06F004D57D9 /* TextEffectView.swift in Sources */,
+				29FC00042703A8DE00900F5B /* DBHTitleScreenMenu.swift in Sources */,
 				2906485326FAD748009A20A1 /* StrokeStyledRectangle.swift in Sources */,
 				29D2AEBF26AA7821005A35D1 /* ArtemisBoon.swift in Sources */,
 				29102700263E62EE00418FE1 /* BoonView.swift in Sources */,
@@ -896,6 +920,7 @@
 				2962057A26FD788C002F9D3E /* Destiny2FastTravelIcon.swift in Sources */,
 				29B44139262FDF2A00E442A6 /* TLOUIcon.swift in Sources */,
 				29EB0A62262BEA570032E598 /* ControlSelectionView.swift in Sources */,
+				29101796270429580021E672 /* CelesteDemo.swift in Sources */,
 				29351A4D26CF706D0069BE75 /* RDR2Badgeable.swift in Sources */,
 				2964BAB126C383EE00F37FDC /* SWTOREmpireLogo.swift in Sources */,
 				29FADE1D269EA6E800CF6D73 /* MGSVMissionTextDemo.swift in Sources */,
@@ -907,6 +932,7 @@
 				295794752650D8DE00BDDE3A /* SkillIcon.swift in Sources */,
 				29A22D4C2626E041000D9EAF /* MinimapModel.swift in Sources */,
 				29A22CFE2626D8C9000D9EAF /* ConsummateV.swift in Sources */,
+				29101793270410160021E672 /* CelesteDeathAnimation.swift in Sources */,
 				29A22CF62626D8C9000D9EAF /* LoadingRingsViewModel.swift in Sources */,
 				291A07E326BA50B8000F4590 /* StrokeStyledPolygon.swift in Sources */,
 				290BBC3526CCC8AA004D57D9 /* TextEffectViewModel.swift in Sources */,

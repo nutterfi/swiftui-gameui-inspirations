@@ -14,7 +14,6 @@ struct TypewriterTextView<T: ShapeStyle>: View {
   @StateObject private var viewModel = TypewriterTextViewModel()
   var body: some View {
     GeometryReader { proxy in
-      let dim = min(proxy.size.width, proxy.size.height)
       ZStack {
         HStack {
           Text(viewModel.text)

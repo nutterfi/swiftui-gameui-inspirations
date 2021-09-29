@@ -9,7 +9,8 @@ import SwiftUI
 import Shapes
 
 struct DBHTitleScreenMenuItem: View {
-  @State private var isSelected: Bool = false
+  var title: String = "TEST"
+  var isSelected: Bool = false
     var body: some View {
       GeometryReader { proxy in
         let dim = min(proxy.size.width, proxy.size.height)
@@ -53,15 +54,12 @@ struct DBHTitleScreenMenuItem: View {
           )
           HStack {
             Color.clear.frame(width: 10)
-            Text("CONTINUE").foregroundColor(.white)
+            Text(title).foregroundColor(.white)
             Spacer()
           }
 
         }
         .frame(width: proxy.size.width, height: proxy.size.height)
-        .onAppear {
-          isSelected = true
-        }
       }
     }
 }
