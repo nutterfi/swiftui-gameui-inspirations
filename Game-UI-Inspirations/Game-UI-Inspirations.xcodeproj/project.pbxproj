@@ -93,6 +93,8 @@
 		2964BAB126C383EE00F37FDC /* SWTOREmpireLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2964BAAF26C383EE00F37FDC /* SWTOREmpireLogo.swift */; };
 		2964BAB326C384B000F37FDC /* Games.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2964BAB226C384B000F37FDC /* Games.swift */; };
 		2964BAB426C384B000F37FDC /* Games.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2964BAB226C384B000F37FDC /* Games.swift */; };
+		296C7F512706B35D00BFACC1 /* DBHLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296C7F502706B35D00BFACC1 /* DBHLoadingView.swift */; };
+		296C7F522706B35D00BFACC1 /* DBHLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296C7F502706B35D00BFACC1 /* DBHLoadingView.swift */; };
 		2976E1BF2626A45100272ADC /* Game_UI_InspirationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2976E1AC2626A45000272ADC /* Game_UI_InspirationsApp.swift */; };
 		2976E1C02626A45100272ADC /* Game_UI_InspirationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2976E1AC2626A45000272ADC /* Game_UI_InspirationsApp.swift */; };
 		2976E1C12626A45100272ADC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2976E1AD2626A45000272ADC /* ContentView.swift */; };
@@ -255,6 +257,7 @@
 		2962057E26FD85DE002F9D3E /* ElevationMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElevationMap.swift; sourceTree = "<group>"; };
 		2964BAAF26C383EE00F37FDC /* SWTOREmpireLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWTOREmpireLogo.swift; sourceTree = "<group>"; };
 		2964BAB226C384B000F37FDC /* Games.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Games.swift; sourceTree = "<group>"; };
+		296C7F502706B35D00BFACC1 /* DBHLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBHLoadingView.swift; sourceTree = "<group>"; };
 		2976E1AC2626A45000272ADC /* Game_UI_InspirationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game_UI_InspirationsApp.swift; sourceTree = "<group>"; };
 		2976E1AD2626A45000272ADC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2976E1AE2626A45000272ADC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -353,6 +356,7 @@
 			children = (
 				2906484E26FAD6CF009A20A1 /* DBHTitleScreenMenuItem.swift */,
 				29FC00022703A8DE00900F5B /* DBHTitleScreenMenu.swift */,
+				296C7F502706B35D00BFACC1 /* DBHLoadingView.swift */,
 			);
 			path = DetroitBecomeHuman;
 			sourceTree = "<group>";
@@ -760,6 +764,7 @@
 				29922ACD2633D2FA002469C2 /* MK11Left.swift in Sources */,
 				29A22CF92626D8C9000D9EAF /* LoadingRingsDemo.swift in Sources */,
 				298FE309264B939800BBC02A /* TLOUSkillSelectMenu.swift in Sources */,
+				296C7F512706B35D00BFACC1 /* DBHLoadingView.swift in Sources */,
 				29801ACB2647A0320010B4C8 /* SkillMaxHealth.swift in Sources */,
 				29F5337C26858D5100EADD37 /* MGSViDroidView.swift in Sources */,
 				29FADE1C269EA6E800CF6D73 /* MGSVMissionTextDemo.swift in Sources */,
@@ -934,6 +939,7 @@
 				29A22CFE2626D8C9000D9EAF /* ConsummateV.swift in Sources */,
 				29101793270410160021E672 /* CelesteDeathAnimation.swift in Sources */,
 				29A22CF62626D8C9000D9EAF /* LoadingRingsViewModel.swift in Sources */,
+				296C7F522706B35D00BFACC1 /* DBHLoadingView.swift in Sources */,
 				291A07E326BA50B8000F4590 /* StrokeStyledPolygon.swift in Sources */,
 				290BBC3526CCC8AA004D57D9 /* TextEffectViewModel.swift in Sources */,
 				29A22D172626DC60000D9EAF /* KountdownTimerDemo.swift in Sources */,
