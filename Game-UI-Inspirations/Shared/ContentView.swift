@@ -71,6 +71,8 @@ struct ContentView: View {
       switch title {
       case Games.control:
         ControlSelectionView()
+          .frame(height: 120)
+
       case Games.mk11:
         MK11SelectionView()
           .frame(height: 120)
@@ -78,18 +80,20 @@ struct ContentView: View {
         OverwatchIcon(primary: Color.white, secondary: Color.orange)
           .padding(5)
           .background(Color.black)
-          .frame(height: 100)
+          .frame(height: 120)
         
       case Games.swtor:
         SWTOREmpireLogo(color: Color.purple)
           .padding(5)
           .background(Color.black)
-          .frame(height: 100)
-
+          .frame(height: 120)
+      case Games.rdr2:
+        RDR2ShowdownTitle(title: "RDR2")
+          .frame(height: 120)
       default:
         Text(title)
         .font(.largeTitle)
-        .frame(maxWidth: .infinity)
+        .frame(maxWidth: .infinity, minHeight: 120)
         .foregroundColor(.white)
         .background(Color.blue)
       }

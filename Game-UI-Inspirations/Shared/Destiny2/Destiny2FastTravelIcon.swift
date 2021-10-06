@@ -9,6 +9,7 @@ import SwiftUI
 import Shapes
 
 struct Destiny2FastTravelIcon: View {
+  @State private var shouldAnimate: Bool = false
   var color: Color = .black
     var body: some View {
       GeometryReader { proxy in
@@ -16,6 +17,12 @@ struct Destiny2FastTravelIcon: View {
         ZStack {
           StarPolygon(points: 16, density: 3)
             .stroke(color)
+            .opacity(0.3)
+            
+          StarPolygon(points: 16, density: 3)
+            .stroke(color)
+            .rotationEffect(.radians(shouldAnimate ? .pi / 4 : 0))
+            .animation(Animation.linear(duration: 1.5).repeatForever(autoreverses: false), value: shouldAnimate)
           
           Circle()
             .inset(by: dim * 0.08)
@@ -53,12 +60,16 @@ struct Destiny2FastTravelIcon: View {
         }
         .frame(width: proxy.size.width, height: proxy.size.height)
       }
+      .onAppear {
+        shouldAnimate = true
+      }
+    
     }
+    
 }
 
 struct Destiny2FastTravelIcon_Previews: PreviewProvider {
     static var previews: some View {
         Destiny2FastTravelIcon()
-//      .frame(width: 256, height: 256)
     }
 }

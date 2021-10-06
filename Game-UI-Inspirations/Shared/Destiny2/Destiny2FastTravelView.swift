@@ -27,6 +27,8 @@ struct Destiny2FastTravelView: View {
 
 struct Destiny2FastTravelView_Previews: PreviewProvider {
     static var previews: some View {
-        Destiny2FastTravelView()
+      Destiny2FastTravelView()
+        .previewDevice("iPad mini (6th generation)")
+.previewInterfaceOrientation(.landscapeLeft)
     }
 }
