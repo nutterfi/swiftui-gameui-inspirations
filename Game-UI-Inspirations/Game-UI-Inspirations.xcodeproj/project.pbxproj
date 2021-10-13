@@ -59,6 +59,10 @@
 		29351A4A26CF63F00069BE75 /* RDR2AwardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29351A4826CF63F00069BE75 /* RDR2AwardViewModel.swift */; };
 		29351A4C26CF706D0069BE75 /* RDR2Badgeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29351A4B26CF706D0069BE75 /* RDR2Badgeable.swift */; };
 		29351A4D26CF706D0069BE75 /* RDR2Badgeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29351A4B26CF706D0069BE75 /* RDR2Badgeable.swift */; };
+		2935A9E027169EAE0043F964 /* GISelectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2935A9DF27169EAE0043F964 /* GISelectionItem.swift */; };
+		2935A9E127169EAE0043F964 /* GISelectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2935A9DF27169EAE0043F964 /* GISelectionItem.swift */; };
+		2935A9E32716B45E0043F964 /* RoundedCornerRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2935A9E22716B45E0043F964 /* RoundedCornerRectangle.swift */; };
+		2935A9E42716B45E0043F964 /* RoundedCornerRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2935A9E22716B45E0043F964 /* RoundedCornerRectangle.swift */; };
 		2939687426BCFA7D00B08586 /* RDR2AwardBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2939687326BCFA7D00B08586 /* RDR2AwardBadge.swift */; };
 		2939687526BCFA7D00B08586 /* RDR2AwardBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2939687326BCFA7D00B08586 /* RDR2AwardBadge.swift */; };
 		29415858269D33E70072A007 /* StrokeStyledCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29415857269D33E70072A007 /* StrokeStyledCircle.swift */; };
@@ -251,6 +255,8 @@
 		29350C702709930F00A2B8FA /* SpirolateralDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpirolateralDemo.swift; sourceTree = "<group>"; };
 		29351A4826CF63F00069BE75 /* RDR2AwardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDR2AwardViewModel.swift; sourceTree = "<group>"; };
 		29351A4B26CF706D0069BE75 /* RDR2Badgeable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDR2Badgeable.swift; sourceTree = "<group>"; };
+		2935A9DF27169EAE0043F964 /* GISelectionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GISelectionItem.swift; sourceTree = "<group>"; };
+		2935A9E22716B45E0043F964 /* RoundedCornerRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornerRectangle.swift; sourceTree = "<group>"; };
 		2939687326BCFA7D00B08586 /* RDR2AwardBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDR2AwardBadge.swift; sourceTree = "<group>"; };
 		29415857269D33E70072A007 /* StrokeStyledCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeStyledCircle.swift; sourceTree = "<group>"; };
 		294D37352710082700524868 /* SpirolateralAnimationDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpirolateralAnimationDemo.swift; sourceTree = "<group>"; };
@@ -626,6 +632,7 @@
 			children = (
 				29A22D392626DFF3000D9EAF /* GenshinImpactLoadingProgressBar.swift */,
 				29B98CB326B1118500E1B7FF /* GIClockView.swift */,
+				2935A9DF27169EAE0043F964 /* GISelectionItem.swift */,
 			);
 			path = GenshinImpact;
 			sourceTree = "<group>";
@@ -666,6 +673,7 @@
 				291A07E126BA50B8000F4590 /* StrokeStyledPolygon.swift */,
 				2906485126FAD748009A20A1 /* StrokeStyledRectangle.swift */,
 				290BBC3026CCC06F004D57D9 /* TextEffectView.swift */,
+				2935A9E22716B45E0043F964 /* RoundedCornerRectangle.swift */,
 			);
 			path = Reusable;
 			sourceTree = "<group>";
@@ -820,6 +828,7 @@
 				29A22D1C2626DC60000D9EAF /* KountdownTimerViewModel.swift in Sources */,
 				29415858269D33E70072A007 /* StrokeStyledCircle.swift in Sources */,
 				297DC70C265A106800980DDE /* MGSVLoadingView.swift in Sources */,
+				2935A9E32716B45E0043F964 /* RoundedCornerRectangle.swift in Sources */,
 				298FE2FF264B8F1C00BBC02A /* SkillHealingSpeed.swift in Sources */,
 				291026FF263E62EE00418FE1 /* BoonView.swift in Sources */,
 				2998BF022660B1CE00EA034B /* RibbonBanner.swift in Sources */,
@@ -857,6 +866,7 @@
 				298FE2FA264B8C6400BBC02A /* SkillWeaponSway.swift in Sources */,
 				2926BCEE2635225100CEDC7E /* FireflyPendant.swift in Sources */,
 				29A22D492626E041000D9EAF /* MinimapViewModel.swift in Sources */,
+				2935A9E027169EAE0043F964 /* GISelectionItem.swift in Sources */,
 				29150B2026B659EC00106A45 /* AresBoon.swift in Sources */,
 				29EB0A66262BF1D40032E598 /* ControlQuestMarker.swift in Sources */,
 				2910270B263E6DAC00418FE1 /* PoseidonBoon.swift in Sources */,
@@ -925,6 +935,7 @@
 				298FE300264B8F1C00BBC02A /* SkillHealingSpeed.swift in Sources */,
 				290BBC3226CCC06F004D57D9 /* TextEffectView.swift in Sources */,
 				29FC00042703A8DE00900F5B /* DBHTitleScreenMenu.swift in Sources */,
+				2935A9E127169EAE0043F964 /* GISelectionItem.swift in Sources */,
 				2906485326FAD748009A20A1 /* StrokeStyledRectangle.swift in Sources */,
 				29D2AEBF26AA7821005A35D1 /* ArtemisBoon.swift in Sources */,
 				29102700263E62EE00418FE1 /* BoonView.swift in Sources */,
@@ -968,6 +979,7 @@
 				2910270C263E6DAC00418FE1 /* PoseidonBoon.swift in Sources */,
 				2962057A26FD788C002F9D3E /* Destiny2FastTravelIcon.swift in Sources */,
 				29B44139262FDF2A00E442A6 /* TLOUIcon.swift in Sources */,
+				2935A9E42716B45E0043F964 /* RoundedCornerRectangle.swift in Sources */,
 				29EB0A62262BEA570032E598 /* ControlSelectionView.swift in Sources */,
 				29101796270429580021E672 /* CelesteDemo.swift in Sources */,
 				29351A4D26CF706D0069BE75 /* RDR2Badgeable.swift in Sources */,
@@ -1234,8 +1246,8 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/nutterfi/shapes.git";
 			requirement = {
-				kind = revision;
-				revision = f78839d8b3a5d95766cb3db970c0ac0a7a7c72e8;
+				branch = main;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
