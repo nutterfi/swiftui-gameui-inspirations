@@ -36,7 +36,7 @@ struct ContentView: View {
       case Games.mk11:
         KountdownTimerDemo()
       case Games.genshinImpact:
-        GenshinImpactLoadingProgressBar()
+        GIInventoryMenu()
       case Games.tlou:
         TLOUSkillSelectMenu()
       case Games.overwatch:
@@ -90,6 +90,11 @@ struct ContentView: View {
       case Games.rdr2:
         RDR2ShowdownTitle(title: "RDR2")
           .frame(height: 120)
+      case Games.genshinImpact:
+        GIItemRarityBackground(rarity: .four)
+          .frame(height: 120)
+          .overlay(Text("Genshin Impact"))
+
       default:
         Text(title)
         .font(.largeTitle)
