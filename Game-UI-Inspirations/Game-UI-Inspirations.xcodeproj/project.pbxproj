@@ -217,6 +217,8 @@
 		29D3FAB72644F4B000B6A02F /* SkillVitamin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D3FAB52644F4B000B6A02F /* SkillVitamin.swift */; };
 		29D3FABB2644F6C500B6A02F /* SkillSelectionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D3FABA2644F6C500B6A02F /* SkillSelectionRow.swift */; };
 		29D3FABC2644F6C500B6A02F /* SkillSelectionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D3FABA2644F6C500B6A02F /* SkillSelectionRow.swift */; };
+		29E7056A271BF39800D6B9CC /* IsotoxalPolygonDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E70569271BF39800D6B9CC /* IsotoxalPolygonDemo.swift */; };
+		29E7056B271BF39800D6B9CC /* IsotoxalPolygonDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E70569271BF39800D6B9CC /* IsotoxalPolygonDemo.swift */; };
 		29EB0A61262BEA570032E598 /* ControlSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EB0A60262BEA570032E598 /* ControlSelectionView.swift */; };
 		29EB0A62262BEA570032E598 /* ControlSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EB0A60262BEA570032E598 /* ControlSelectionView.swift */; };
 		29EB0A66262BF1D40032E598 /* ControlQuestMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EB0A65262BF1D40032E598 /* ControlQuestMarker.swift */; };
@@ -345,6 +347,7 @@
 		29D2AEBD26AA7821005A35D1 /* ArtemisBoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtemisBoon.swift; sourceTree = "<group>"; };
 		29D3FAB52644F4B000B6A02F /* SkillVitamin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillVitamin.swift; sourceTree = "<group>"; };
 		29D3FABA2644F6C500B6A02F /* SkillSelectionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillSelectionRow.swift; sourceTree = "<group>"; };
+		29E70569271BF39800D6B9CC /* IsotoxalPolygonDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsotoxalPolygonDemo.swift; sourceTree = "<group>"; };
 		29EB0A60262BEA570032E598 /* ControlSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlSelectionView.swift; sourceTree = "<group>"; };
 		29EB0A65262BF1D40032E598 /* ControlQuestMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlQuestMarker.swift; sourceTree = "<group>"; };
 		29F5337B26858D5100EADD37 /* MGSViDroidView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MGSViDroidView.swift; sourceTree = "<group>"; };
@@ -555,6 +558,7 @@
 				2906485426FAD882009A20A1 /* StrokeStyledRectangleDemo.swift */,
 				291A07E426BA5257000F4590 /* StrokeStyledPolygonDemo.swift */,
 				2960C694270A0B850024872D /* OrnateCorners.swift */,
+				29E70569271BF39800D6B9CC /* IsotoxalPolygonDemo.swift */,
 			);
 			path = Demos;
 			sourceTree = "<group>";
@@ -866,6 +870,7 @@
 				2962057926FD788C002F9D3E /* Destiny2FastTravelIcon.swift in Sources */,
 				29816B6C263BBF1E0016F1BA /* Rustify.swift in Sources */,
 				29922AC82633D270002469C2 /* MK11SelectionView.swift in Sources */,
+				29E7056A271BF39800D6B9CC /* IsotoxalPolygonDemo.swift in Sources */,
 				2960C695270A0B850024872D /* OrnateCorners.swift in Sources */,
 				29A22D4D2626E041000D9EAF /* MinimapView.swift in Sources */,
 				2906F21826D603A500E38EFF /* TextEffectViewDemo.swift in Sources */,
@@ -952,6 +957,7 @@
 				290BBC3226CCC06F004D57D9 /* TextEffectView.swift in Sources */,
 				29FC00042703A8DE00900F5B /* DBHTitleScreenMenu.swift in Sources */,
 				2935A9E127169EAE0043F964 /* GISelectionItem.swift in Sources */,
+				29E7056B271BF39800D6B9CC /* IsotoxalPolygonDemo.swift in Sources */,
 				2906485326FAD748009A20A1 /* StrokeStyledRectangle.swift in Sources */,
 				29D2AEBF26AA7821005A35D1 /* ArtemisBoon.swift in Sources */,
 				29102700263E62EE00418FE1 /* BoonView.swift in Sources */,
