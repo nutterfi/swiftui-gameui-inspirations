@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Shapes
 
 struct GIRewardItem: View {
   var item: GIItem
@@ -25,7 +26,7 @@ struct GIRewardItem: View {
         Color.black.opacity(0.5)
           .frame(height: dim * 0.25)
         Text(item.label)
-          .font(.system(size: dim * 0.2))
+          .font(.custom("GillSans", size: dim * 0.2))
           .foregroundColor(.white)
       }
       .clipShape(RoundedRectangle(cornerRadius: 5))
@@ -36,13 +37,13 @@ struct GIRewardItem: View {
 struct GIRewardItem_Previews: PreviewProvider {
   static var previews: some View {
     Group {
-      GIRewardItem(item: GIItem(image: "heart", rarity: .four, label: "50"))
+      GIRewardItem(item: GIItem(image: "heart", rarity: .five, label: "50"))
         .background(Color.gray)
         .frame(width: 256, height: 256)
       
       GIRewardItem(item: GIItem(image: "house", rarity: .two, label: "1"))
         .background(Color.gray)
-        .frame(width: 128, height: 256)
+        .frame(width: 256, height: 256)
     }
     .previewLayout(.sizeThatFits)
     

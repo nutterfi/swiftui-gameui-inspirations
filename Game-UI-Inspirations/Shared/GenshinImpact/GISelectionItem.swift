@@ -41,7 +41,7 @@ struct GISelectionItem: View {
         VStack {
           Spacer()
           Text(item.label)
-            .font(.system(size: dim * 0.15))
+            .font(.custom("GillSans", size: dim * 0.15))
         }
       }
       .background(Color("giWhite"))

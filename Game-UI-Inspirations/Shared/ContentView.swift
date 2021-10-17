@@ -93,7 +93,11 @@ struct ContentView: View {
       case Games.genshinImpact:
         GIItemRarityBackground(rarity: .four)
           .frame(height: 120)
-          .overlay(Text("Genshin Impact"))
+          .overlay(
+            Text("Genshin Impact")
+              .font(.custom("GillSans", size: 24))
+              .foregroundColor(.white)
+          )
 
       default:
         Text(title)

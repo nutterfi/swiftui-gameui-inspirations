@@ -8,13 +8,6 @@
 import SwiftUI
 import Shapes
 
-/**
- TODO:
- 2. Make a map texture (Color for now)
- 3. Add POI and NPC
- 4. Oval-ish background
- */
-
 struct MinimapView: View {
   @StateObject private var viewModel = MinimapViewModel.demo
   
@@ -73,9 +66,9 @@ struct MinimapView: View {
                 
                 ForEach(0..<viewModel.entities.count) { index in
                   let entity = viewModel.entities[index]
-                  Circle()
+                  IsotoxalPolygon(sides: 8, innerRadius: 0.5)
                     .fill(Color.red)
-                    .frame(width:10, height: 10)
+                    .frame(width:20, height: 20)
                     .offset(x: entity.position.x, y: entity.position.y)
                   
                 }

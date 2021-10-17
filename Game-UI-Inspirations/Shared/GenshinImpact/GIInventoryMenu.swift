@@ -42,6 +42,6 @@ struct GIInventoryMenu: View {
 struct GIInventoryMenu_Previews: PreviewProvider {
   static var previews: some View {
     GIInventoryMenu()
-      .previewInterfaceOrientation(.portraitUpsideDown)
+      .previewInterfaceOrientation(.portrait)
   }
 }
