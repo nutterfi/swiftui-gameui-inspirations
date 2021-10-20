@@ -31,6 +31,8 @@
 		29102707263E673300418FE1 /* ZeusBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29102705263E673300418FE1 /* ZeusBoon.swift */; };
 		2910270B263E6DAC00418FE1 /* PoseidonBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2910270A263E6DAC00418FE1 /* PoseidonBoon.swift */; };
 		2910270C263E6DAC00418FE1 /* PoseidonBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2910270A263E6DAC00418FE1 /* PoseidonBoon.swift */; };
+		2910BBE8271FD5670019329D /* PersonProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2910BBE7271FD5670019329D /* PersonProfile.swift */; };
+		2910BBE9271FD5670019329D /* PersonProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2910BBE7271FD5670019329D /* PersonProfile.swift */; };
 		2910F3E6269801F7008475D6 /* AphroditeBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2910F3E5269801F7008475D6 /* AphroditeBoon.swift */; };
 		2910F3E7269801F7008475D6 /* AphroditeBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2910F3E5269801F7008475D6 /* AphroditeBoon.swift */; };
 		29150B1D26B653F500106A45 /* HermesBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29150B1C26B653F500106A45 /* HermesBoon.swift */; };
@@ -248,6 +250,7 @@
 		291026FE263E62EE00418FE1 /* BoonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoonView.swift; sourceTree = "<group>"; };
 		29102705263E673300418FE1 /* ZeusBoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusBoon.swift; sourceTree = "<group>"; };
 		2910270A263E6DAC00418FE1 /* PoseidonBoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoseidonBoon.swift; sourceTree = "<group>"; };
+		2910BBE7271FD5670019329D /* PersonProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonProfile.swift; sourceTree = "<group>"; };
 		2910F3E5269801F7008475D6 /* AphroditeBoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AphroditeBoon.swift; sourceTree = "<group>"; };
 		29150B1C26B653F500106A45 /* HermesBoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HermesBoon.swift; sourceTree = "<group>"; };
 		29150B1F26B659EC00106A45 /* AresBoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AresBoon.swift; sourceTree = "<group>"; };
@@ -690,6 +693,7 @@
 				291A07E126BA50B8000F4590 /* StrokeStyledPolygon.swift */,
 				2906485126FAD748009A20A1 /* StrokeStyledRectangle.swift */,
 				290BBC3026CCC06F004D57D9 /* TextEffectView.swift */,
+				2910BBE7271FD5670019329D /* PersonProfile.swift */,
 			);
 			path = Reusable;
 			sourceTree = "<group>";
@@ -827,6 +831,7 @@
 				296C7F512706B35D00BFACC1 /* DBHLoadingView.swift in Sources */,
 				29801ACB2647A0320010B4C8 /* SkillMaxHealth.swift in Sources */,
 				29F5337C26858D5100EADD37 /* MGSViDroidView.swift in Sources */,
+				2910BBE8271FD5670019329D /* PersonProfile.swift in Sources */,
 				29FADE1C269EA6E800CF6D73 /* MGSVMissionTextDemo.swift in Sources */,
 				29A22D522626E059000D9EAF /* Color+Extensions.swift in Sources */,
 				2950E129268C2CDC005EFAA9 /* OverwatchLogoDemo.swift in Sources */,
@@ -980,6 +985,7 @@
 				297A6E3B265E02B600201D1A /* DiamondDogsLogo.swift in Sources */,
 				29A22CF82626D8C9000D9EAF /* LoadingRingsView.swift in Sources */,
 				298CD786270FEF2A00C9D6B9 /* KiteAnimationDemo.swift in Sources */,
+				2910BBE9271FD5670019329D /* PersonProfile.swift in Sources */,
 				29816B6D263BBF1E0016F1BA /* Rustify.swift in Sources */,
 				29922AC92633D270002469C2 /* MK11SelectionView.swift in Sources */,
 				29A22D4E2626E041000D9EAF /* MinimapView.swift in Sources */,
