@@ -85,6 +85,12 @@
 		2952A69326DF3859007BABFC /* StarPolygonDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2952A69126DF3859007BABFC /* StarPolygonDemo.swift */; };
 		29532EFD26451D8B000F07F1 /* FireflySymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29532EFC26451D8B000F07F1 /* FireflySymbol.swift */; };
 		29532EFE26451D8B000F07F1 /* FireflySymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29532EFC26451D8B000F07F1 /* FireflySymbol.swift */; };
+		295678852722636C00FA372A /* Mora.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295678842722636C00FA372A /* Mora.swift */; };
+		295678862722636C00FA372A /* Mora.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295678842722636C00FA372A /* Mora.swift */; };
+		2956788827226CB500FA372A /* MasterlessStardust.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2956788727226CB500FA372A /* MasterlessStardust.swift */; };
+		2956788927226CB500FA372A /* MasterlessStardust.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2956788727226CB500FA372A /* MasterlessStardust.swift */; };
+		2956788B2722795400FA372A /* MasterlessStarglitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2956788A2722795400FA372A /* MasterlessStarglitter.swift */; };
+		2956788C2722795400FA372A /* MasterlessStarglitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2956788A2722795400FA372A /* MasterlessStarglitter.swift */; };
 		295794742650D8DE00BDDE3A /* SkillIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295794732650D8DE00BDDE3A /* SkillIcon.swift */; };
 		295794752650D8DE00BDDE3A /* SkillIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295794732650D8DE00BDDE3A /* SkillIcon.swift */; };
 		295794792650D91D00BDDE3A /* TLOUSkillModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295794782650D91D00BDDE3A /* TLOUSkillModel.swift */; };
@@ -279,6 +285,9 @@
 		2950E128268C2CDC005EFAA9 /* OverwatchLogoDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverwatchLogoDemo.swift; sourceTree = "<group>"; };
 		2952A69126DF3859007BABFC /* StarPolygonDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarPolygonDemo.swift; sourceTree = "<group>"; };
 		29532EFC26451D8B000F07F1 /* FireflySymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireflySymbol.swift; sourceTree = "<group>"; };
+		295678842722636C00FA372A /* Mora.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mora.swift; sourceTree = "<group>"; };
+		2956788727226CB500FA372A /* MasterlessStardust.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterlessStardust.swift; sourceTree = "<group>"; };
+		2956788A2722795400FA372A /* MasterlessStarglitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterlessStarglitter.swift; sourceTree = "<group>"; };
 		295794732650D8DE00BDDE3A /* SkillIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillIcon.swift; sourceTree = "<group>"; };
 		295794782650D91D00BDDE3A /* TLOUSkillModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLOUSkillModel.swift; sourceTree = "<group>"; };
 		2957947D2650D94000BDDE3A /* TLOUSkillSelectMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLOUSkillSelectMenuViewModel.swift; sourceTree = "<group>"; };
@@ -653,6 +662,9 @@
 				29421CA327192FC600CBEDBB /* GIRewardItem.swift */,
 				29421CA62719325800CBEDBB /* GIItemRarityBackground.swift */,
 				29421CA927193ED200CBEDBB /* GIInventoryMenu.swift */,
+				295678842722636C00FA372A /* Mora.swift */,
+				2956788727226CB500FA372A /* MasterlessStardust.swift */,
+				2956788A2722795400FA372A /* MasterlessStarglitter.swift */,
 			);
 			path = GenshinImpact;
 			sourceTree = "<group>";
@@ -822,6 +834,7 @@
 				295FECD226D89D5400C70220 /* RDR2ConfirmButton.swift in Sources */,
 				2906485226FAD748009A20A1 /* StrokeStyledRectangle.swift in Sources */,
 				2950E127268C24B4005EFAA9 /* OverwatchIcon.swift in Sources */,
+				295678852722636C00FA372A /* Mora.swift in Sources */,
 				29A13505270D49F900F19B6F /* RDR2ShowdownTitle.swift in Sources */,
 				295E507826B3B3EA00DA9FD4 /* RDR2AwardItem.swift in Sources */,
 				294D37362710082700524868 /* SpirolateralAnimationDemo.swift in Sources */,
@@ -835,6 +848,7 @@
 				29FADE1C269EA6E800CF6D73 /* MGSVMissionTextDemo.swift in Sources */,
 				29A22D522626E059000D9EAF /* Color+Extensions.swift in Sources */,
 				2950E129268C2CDC005EFAA9 /* OverwatchLogoDemo.swift in Sources */,
+				2956788B2722795400FA372A /* MasterlessStarglitter.swift in Sources */,
 				29A22D102626DC60000D9EAF /* KombatKardView.swift in Sources */,
 				2962057C26FD7EFD002F9D3E /* Destiny2FastTravelView.swift in Sources */,
 				2976E1C12626A45100272ADC /* ContentView.swift in Sources */,
@@ -918,6 +932,7 @@
 				29A22D162626DC60000D9EAF /* KountdownTimerDemo.swift in Sources */,
 				29D3FAB62644F4B000B6A02F /* SkillVitamin.swift in Sources */,
 				29A22D3F2626DFF3000D9EAF /* MaskedProgressBar.swift in Sources */,
+				2956788827226CB500FA372A /* MasterlessStardust.swift in Sources */,
 				29D3FABB2644F6C500B6A02F /* SkillSelectionRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -964,6 +979,7 @@
 				2935A9E127169EAE0043F964 /* GISelectionItem.swift in Sources */,
 				29E7056B271BF39800D6B9CC /* IsotoxalPolygonDemo.swift in Sources */,
 				2906485326FAD748009A20A1 /* StrokeStyledRectangle.swift in Sources */,
+				2956788927226CB500FA372A /* MasterlessStardust.swift in Sources */,
 				29D2AEBF26AA7821005A35D1 /* ArtemisBoon.swift in Sources */,
 				29102700263E62EE00418FE1 /* BoonView.swift in Sources */,
 				2998BF032660B1CE00EA034B /* RibbonBanner.swift in Sources */,
@@ -1019,6 +1035,7 @@
 				29ACEC2C2642522C00DAE394 /* TLOUSkillsIcon.swift in Sources */,
 				29A22D1B2626DC60000D9EAF /* MenuView.swift in Sources */,
 				29A22D052626D93A000D9EAF /* QuestDescriptionView.swift in Sources */,
+				2956788C2722795400FA372A /* MasterlessStarglitter.swift in Sources */,
 				295794752650D8DE00BDDE3A /* SkillIcon.swift in Sources */,
 				29A22D4C2626E041000D9EAF /* MinimapModel.swift in Sources */,
 				29A22CFE2626D8C9000D9EAF /* ConsummateV.swift in Sources */,
@@ -1026,6 +1043,7 @@
 				29A22CF62626D8C9000D9EAF /* LoadingRingsViewModel.swift in Sources */,
 				296C7F522706B35D00BFACC1 /* DBHLoadingView.swift in Sources */,
 				291A07E326BA50B8000F4590 /* StrokeStyledPolygon.swift in Sources */,
+				295678862722636C00FA372A /* Mora.swift in Sources */,
 				290BBC3526CCC8AA004D57D9 /* TextEffectViewModel.swift in Sources */,
 				29A22D172626DC60000D9EAF /* KountdownTimerDemo.swift in Sources */,
 				29D3FAB72644F4B000B6A02F /* SkillVitamin.swift in Sources */,

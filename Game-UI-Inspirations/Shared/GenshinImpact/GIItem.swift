@@ -9,7 +9,7 @@ import Foundation
 
 struct GIItem: Identifiable {
   var id = UUID().uuidString
-  
+  // TODO: Replace with "GIItemType"
   var image: String
   var rarity: GIItemRarity
   var label: String

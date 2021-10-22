@@ -23,11 +23,11 @@ extension Color {
   }
   
   static var controlYellow: Color {
-    Color(red: 1, green: 1, blue: 59.0/255, opacity: 1)
+    Color(red: 1, green: 1, blue: 59.0/255)
   }
 
   static var rdr2Minimap: Color {
-    Color(red: 222.0/255, green: 214.0/255, blue: 192.0/255, opacity: 1)
+    Color(red: 222.0/255, green: 214.0/255, blue: 192.0/255)
   }
   
   static var tlouSecondary: Color {
