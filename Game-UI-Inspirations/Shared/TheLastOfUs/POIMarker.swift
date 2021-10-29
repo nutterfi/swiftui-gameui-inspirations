@@ -89,9 +89,10 @@ struct POIMarker: View {
 struct DialogueMarker_Previews: PreviewProvider {
   static var previews: some View {
     ZStack {
-      Color.blue.ignoresSafeArea()
+      Color.blue
       POIMarker(markerType: POIMarkerType.dialogue)
-        .frame(width: 100, height: 180)
     }
+    .frame(width: 100, height: 180)
+    .previewLayout(.sizeThatFits)
   }
 }

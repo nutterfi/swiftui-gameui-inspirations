@@ -15,13 +15,6 @@ class ContentViewModel: ObservableObject {
   }
 }
 
-/*
- TODO:
- 
-Each item in this list to have its own unique flair for the game that we are about to peruse
- 
- **/
-
 struct ContentView: View {
   @StateObject private var viewModel = ContentViewModel()
   
@@ -38,7 +31,7 @@ struct ContentView: View {
       case Games.genshinImpact:
         GIInventoryMenu()
       case Games.tlou:
-        TLOUSkillSelectMenu()
+        TLOUMenu()
       case Games.overwatch:
         OWUltimateMeterDemo()
       case Games.mgsv:
@@ -98,7 +91,10 @@ struct ContentView: View {
               .font(.custom("GillSans", size: 24))
               .foregroundColor(.white)
           )
-
+      case Games.tlou:
+        TLOUMainMenuIcon()
+          .frame(height: 120)
+        
       default:
         Text(title)
         .font(.largeTitle)

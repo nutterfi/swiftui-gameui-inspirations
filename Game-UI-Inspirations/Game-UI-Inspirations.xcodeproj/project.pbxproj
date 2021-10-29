@@ -39,6 +39,10 @@
 		29150B1E26B653F500106A45 /* HermesBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29150B1C26B653F500106A45 /* HermesBoon.swift */; };
 		29150B2026B659EC00106A45 /* AresBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29150B1F26B659EC00106A45 /* AresBoon.swift */; };
 		29150B2126B659EC00106A45 /* AresBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29150B1F26B659EC00106A45 /* AresBoon.swift */; };
+		29155FF0272BA2D500BA2FE4 /* TLOUMainMenuIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29155FEF272BA2D500BA2FE4 /* TLOUMainMenuIcon.swift */; };
+		29155FF1272BA2D500BA2FE4 /* TLOUMainMenuIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29155FEF272BA2D500BA2FE4 /* TLOUMainMenuIcon.swift */; };
+		29155FF3272BA64800BA2FE4 /* TLOUMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29155FF2272BA64800BA2FE4 /* TLOUMenu.swift */; };
+		29155FF4272BA64800BA2FE4 /* TLOUMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29155FF2272BA64800BA2FE4 /* TLOUMenu.swift */; };
 		29188616272505320060E33C /* RDR2Revolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29188615272505320060E33C /* RDR2Revolver.swift */; };
 		29188617272505320060E33C /* RDR2Revolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29188615272505320060E33C /* RDR2Revolver.swift */; };
 		29188619272511E50060E33C /* RDR2RevolverLoadingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29188618272511E50060E33C /* RDR2RevolverLoadingAnimation.swift */; };
@@ -264,6 +268,8 @@
 		2910F3E5269801F7008475D6 /* AphroditeBoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AphroditeBoon.swift; sourceTree = "<group>"; };
 		29150B1C26B653F500106A45 /* HermesBoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HermesBoon.swift; sourceTree = "<group>"; };
 		29150B1F26B659EC00106A45 /* AresBoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AresBoon.swift; sourceTree = "<group>"; };
+		29155FEF272BA2D500BA2FE4 /* TLOUMainMenuIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLOUMainMenuIcon.swift; sourceTree = "<group>"; };
+		29155FF2272BA64800BA2FE4 /* TLOUMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLOUMenu.swift; sourceTree = "<group>"; };
 		29188615272505320060E33C /* RDR2Revolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDR2Revolver.swift; sourceTree = "<group>"; };
 		29188618272511E50060E33C /* RDR2RevolverLoadingAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDR2RevolverLoadingAnimation.swift; sourceTree = "<group>"; };
 		291A07DF26BA4A3E000F4590 /* SWTORLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWTORLogo.swift; sourceTree = "<group>"; };
@@ -695,6 +701,8 @@
 				294FF9472632AE300057869B /* TLOUIconDemo.swift */,
 				2926BCED2635225100CEDC7E /* FireflyPendant.swift */,
 				29ACEC2A2642522C00DAE394 /* TLOUSkillsIcon.swift */,
+				29155FEF272BA2D500BA2FE4 /* TLOUMainMenuIcon.swift */,
+				29155FF2272BA64800BA2FE4 /* TLOUMenu.swift */,
 			);
 			path = TheLastOfUs;
 			sourceTree = "<group>";
@@ -919,10 +927,12 @@
 				29EB0A66262BF1D40032E598 /* ControlQuestMarker.swift in Sources */,
 				2910270B263E6DAC00418FE1 /* PoseidonBoon.swift in Sources */,
 				291A07E526BA5257000F4590 /* StrokeStyledPolygonDemo.swift in Sources */,
+				29155FF0272BA2D500BA2FE4 /* TLOUMainMenuIcon.swift in Sources */,
 				2929B8102695604600C86BBB /* FFXIVCharacterView.swift in Sources */,
 				29B44138262FDF2A00E442A6 /* TLOUIcon.swift in Sources */,
 				29EB0A61262BEA570032E598 /* ControlSelectionView.swift in Sources */,
 				2964BAB326C384B000F37FDC /* Games.swift in Sources */,
+				29155FF3272BA64800BA2FE4 /* TLOUMenu.swift in Sources */,
 				29FC00032703A8DE00900F5B /* DBHTitleScreenMenu.swift in Sources */,
 				2906485526FAD882009A20A1 /* StrokeStyledRectangleDemo.swift in Sources */,
 				29C9019226A801A400AA9619 /* OWUltimateMeterBorder.swift in Sources */,
@@ -989,6 +999,7 @@
 				29FC00042703A8DE00900F5B /* DBHTitleScreenMenu.swift in Sources */,
 				2935A9E127169EAE0043F964 /* GISelectionItem.swift in Sources */,
 				29E7056B271BF39800D6B9CC /* IsotoxalPolygonDemo.swift in Sources */,
+				29155FF4272BA64800BA2FE4 /* TLOUMenu.swift in Sources */,
 				2906485326FAD748009A20A1 /* StrokeStyledRectangle.swift in Sources */,
 				2956788927226CB500FA372A /* MasterlessStardust.swift in Sources */,
 				29188617272505320060E33C /* RDR2Revolver.swift in Sources */,
@@ -1054,6 +1065,7 @@
 				29101793270410160021E672 /* CelesteDeathAnimation.swift in Sources */,
 				29A22CF62626D8C9000D9EAF /* LoadingRingsViewModel.swift in Sources */,
 				296C7F522706B35D00BFACC1 /* DBHLoadingView.swift in Sources */,
+				29155FF1272BA2D500BA2FE4 /* TLOUMainMenuIcon.swift in Sources */,
 				291A07E326BA50B8000F4590 /* StrokeStyledPolygon.swift in Sources */,
 				295678862722636C00FA372A /* Mora.swift in Sources */,
 				290BBC3526CCC8AA004D57D9 /* TextEffectViewModel.swift in Sources */,
