@@ -21,4 +21,5 @@ struct Games {
   static let detroit = "Detroit: Become Human"
   static let destiny2 = "Destiny 2"
   static let celeste = "Celeste"
+  static let re7 = "RE:7"
 }

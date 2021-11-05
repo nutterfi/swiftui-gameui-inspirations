@@ -31,6 +31,8 @@
 		29102707263E673300418FE1 /* ZeusBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29102705263E673300418FE1 /* ZeusBoon.swift */; };
 		2910270B263E6DAC00418FE1 /* PoseidonBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2910270A263E6DAC00418FE1 /* PoseidonBoon.swift */; };
 		2910270C263E6DAC00418FE1 /* PoseidonBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2910270A263E6DAC00418FE1 /* PoseidonBoon.swift */; };
+		291035822734D677004DA378 /* WheelOfFortune.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291035812734D677004DA378 /* WheelOfFortune.swift */; };
+		291035832734D677004DA378 /* WheelOfFortune.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291035812734D677004DA378 /* WheelOfFortune.swift */; };
 		2910BBE8271FD5670019329D /* PersonProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2910BBE7271FD5670019329D /* PersonProfile.swift */; };
 		2910BBE9271FD5670019329D /* PersonProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2910BBE7271FD5670019329D /* PersonProfile.swift */; };
 		2910F3E6269801F7008475D6 /* AphroditeBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2910F3E5269801F7008475D6 /* AphroditeBoon.swift */; };
@@ -223,6 +225,8 @@
 		29B98CB526B1118500E1B7FF /* GIClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B98CB326B1118500E1B7FF /* GIClockView.swift */; };
 		29BB327C265E0C3F00C3CCFE /* DiamondDog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BB327B265E0C3F00C3CCFE /* DiamondDog.swift */; };
 		29BB327D265E0C3F00C3CCFE /* DiamondDog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BB327B265E0C3F00C3CCFE /* DiamondDog.swift */; };
+		29C5AFC3272E420900BFACD4 /* RDR2Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C5AFC2272E420900BFACD4 /* RDR2Menu.swift */; };
+		29C5AFC4272E420900BFACD4 /* RDR2Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C5AFC2272E420900BFACD4 /* RDR2Menu.swift */; };
 		29C9018F26A7D85500AA9619 /* OWUltimateReadyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C9018E26A7D85500AA9619 /* OWUltimateReadyView.swift */; };
 		29C9019026A7D85500AA9619 /* OWUltimateReadyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C9018E26A7D85500AA9619 /* OWUltimateReadyView.swift */; };
 		29C9019226A801A400AA9619 /* OWUltimateMeterBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C9019126A801A400AA9619 /* OWUltimateMeterBorder.swift */; };
@@ -264,6 +268,7 @@
 		291026FE263E62EE00418FE1 /* BoonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoonView.swift; sourceTree = "<group>"; };
 		29102705263E673300418FE1 /* ZeusBoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusBoon.swift; sourceTree = "<group>"; };
 		2910270A263E6DAC00418FE1 /* PoseidonBoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoseidonBoon.swift; sourceTree = "<group>"; };
+		291035812734D677004DA378 /* WheelOfFortune.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelOfFortune.swift; sourceTree = "<group>"; };
 		2910BBE7271FD5670019329D /* PersonProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonProfile.swift; sourceTree = "<group>"; };
 		2910F3E5269801F7008475D6 /* AphroditeBoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AphroditeBoon.swift; sourceTree = "<group>"; };
 		29150B1C26B653F500106A45 /* HermesBoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HermesBoon.swift; sourceTree = "<group>"; };
@@ -366,6 +371,7 @@
 		29B44137262FDF2A00E442A6 /* TLOUIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLOUIcon.swift; sourceTree = "<group>"; };
 		29B98CB326B1118500E1B7FF /* GIClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIClockView.swift; sourceTree = "<group>"; };
 		29BB327B265E0C3F00C3CCFE /* DiamondDog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiamondDog.swift; sourceTree = "<group>"; };
+		29C5AFC2272E420900BFACD4 /* RDR2Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RDR2Menu.swift; sourceTree = "<group>"; };
 		29C9018E26A7D85500AA9619 /* OWUltimateReadyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OWUltimateReadyView.swift; sourceTree = "<group>"; };
 		29C9019126A801A400AA9619 /* OWUltimateMeterBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OWUltimateMeterBorder.swift; sourceTree = "<group>"; };
 		29D2AEBD26AA7821005A35D1 /* ArtemisBoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtemisBoon.swift; sourceTree = "<group>"; };
@@ -583,6 +589,7 @@
 				291A07E426BA5257000F4590 /* StrokeStyledPolygonDemo.swift */,
 				2960C694270A0B850024872D /* OrnateCorners.swift */,
 				29E70569271BF39800D6B9CC /* IsotoxalPolygonDemo.swift */,
+				291035812734D677004DA378 /* WheelOfFortune.swift */,
 			);
 			path = Demos;
 			sourceTree = "<group>";
@@ -648,6 +655,7 @@
 		29A22CBC2626D27F000D9EAF /* RDR2 */ = {
 			isa = PBXGroup;
 			children = (
+				29C5AFC2272E420900BFACD4 /* RDR2Menu.swift */,
 				29A22D432626E041000D9EAF /* MinimapDemo.swift */,
 				29A22D452626E041000D9EAF /* MinimapModel.swift */,
 				29A22D462626E041000D9EAF /* MinimapView.swift */,
@@ -842,6 +850,7 @@
 				298CD785270FEF2A00C9D6B9 /* KiteAnimationDemo.swift in Sources */,
 				295794792650D91D00BDDE3A /* TLOUSkillModel.swift in Sources */,
 				29351A4926CF63F00069BE75 /* RDR2AwardViewModel.swift in Sources */,
+				291035822734D677004DA378 /* WheelOfFortune.swift in Sources */,
 				29350C712709930F00A2B8FA /* SpirolateralDemo.swift in Sources */,
 				297A6E45265E057000201D1A /* RibbonShapes.swift in Sources */,
 				2926BCF8263529D400CEDC7E /* FireflyTail.swift in Sources */,
@@ -911,6 +920,7 @@
 				2960C695270A0B850024872D /* OrnateCorners.swift in Sources */,
 				29A22D4D2626E041000D9EAF /* MinimapView.swift in Sources */,
 				2906F21826D603A500E38EFF /* TextEffectViewDemo.swift in Sources */,
+				29C5AFC3272E420900BFACD4 /* RDR2Menu.swift in Sources */,
 				29532EFD26451D8B000F07F1 /* FireflySymbol.swift in Sources */,
 				2926BCF32635260D00CEDC7E /* FireflyWing.swift in Sources */,
 				29101795270429580021E672 /* CelesteDemo.swift in Sources */,
@@ -1009,6 +1019,7 @@
 				2976E1C02626A45100272ADC /* Game_UI_InspirationsApp.swift in Sources */,
 				294FF9492632AE300057869B /* TLOUIconDemo.swift in Sources */,
 				29A22CFC2626D8C9000D9EAF /* ConsummateVDemo.swift in Sources */,
+				29C5AFC4272E420900BFACD4 /* RDR2Menu.swift in Sources */,
 				2957947F2650D94000BDDE3A /* TLOUSkillSelectMenuViewModel.swift in Sources */,
 				29C9019326A801A400AA9619 /* OWUltimateMeterBorder.swift in Sources */,
 				29350C722709930F00A2B8FA /* SpirolateralDemo.swift in Sources */,
@@ -1044,6 +1055,7 @@
 				29421CA82719325800CBEDBB /* GIItemRarityBackground.swift in Sources */,
 				2962057D26FD7EFD002F9D3E /* Destiny2FastTravelView.swift in Sources */,
 				29EB0A67262BF1D40032E598 /* ControlQuestMarker.swift in Sources */,
+				291035832734D677004DA378 /* WheelOfFortune.swift in Sources */,
 				29C9019026A7D85500AA9619 /* OWUltimateReadyView.swift in Sources */,
 				2910270C263E6DAC00418FE1 /* PoseidonBoon.swift in Sources */,
 				2962057A26FD788C002F9D3E /* Destiny2FastTravelIcon.swift in Sources */,

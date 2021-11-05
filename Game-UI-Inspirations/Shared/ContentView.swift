@@ -25,7 +25,7 @@ struct ContentView: View {
       case Games.control:
         QuestDescriptionView()
       case Games.rdr2:
-        MinimapDemo()
+        RDR2Menu()
       case Games.mk11:
         KountdownTimerDemo()
       case Games.genshinImpact:
