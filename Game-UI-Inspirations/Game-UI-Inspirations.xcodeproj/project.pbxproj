@@ -37,6 +37,8 @@
 		2910BBE9271FD5670019329D /* PersonProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2910BBE7271FD5670019329D /* PersonProfile.swift */; };
 		2910F3E6269801F7008475D6 /* AphroditeBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2910F3E5269801F7008475D6 /* AphroditeBoon.swift */; };
 		2910F3E7269801F7008475D6 /* AphroditeBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2910F3E5269801F7008475D6 /* AphroditeBoon.swift */; };
+		2911E5102737870C00F3E967 /* RDR2HUDCoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2911E50F2737870C00F3E967 /* RDR2HUDCoreView.swift */; };
+		2911E5112737870C00F3E967 /* RDR2HUDCoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2911E50F2737870C00F3E967 /* RDR2HUDCoreView.swift */; };
 		29150B1D26B653F500106A45 /* HermesBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29150B1C26B653F500106A45 /* HermesBoon.swift */; };
 		29150B1E26B653F500106A45 /* HermesBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29150B1C26B653F500106A45 /* HermesBoon.swift */; };
 		29150B2026B659EC00106A45 /* AresBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29150B1F26B659EC00106A45 /* AresBoon.swift */; };
@@ -271,6 +273,7 @@
 		291035812734D677004DA378 /* WheelOfFortune.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelOfFortune.swift; sourceTree = "<group>"; };
 		2910BBE7271FD5670019329D /* PersonProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonProfile.swift; sourceTree = "<group>"; };
 		2910F3E5269801F7008475D6 /* AphroditeBoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AphroditeBoon.swift; sourceTree = "<group>"; };
+		2911E50F2737870C00F3E967 /* RDR2HUDCoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDR2HUDCoreView.swift; sourceTree = "<group>"; };
 		29150B1C26B653F500106A45 /* HermesBoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HermesBoon.swift; sourceTree = "<group>"; };
 		29150B1F26B659EC00106A45 /* AresBoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AresBoon.swift; sourceTree = "<group>"; };
 		29155FEF272BA2D500BA2FE4 /* TLOUMainMenuIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLOUMainMenuIcon.swift; sourceTree = "<group>"; };
@@ -670,6 +673,7 @@
 				29A13504270D49F900F19B6F /* RDR2ShowdownTitle.swift */,
 				29188615272505320060E33C /* RDR2Revolver.swift */,
 				29188618272511E50060E33C /* RDR2RevolverLoadingAnimation.swift */,
+				2911E50F2737870C00F3E967 /* RDR2HUDCoreView.swift */,
 			);
 			path = RDR2;
 			sourceTree = "<group>";
@@ -953,6 +957,7 @@
 				295794742650D8DE00BDDE3A /* SkillIcon.swift in Sources */,
 				29304D2F26916F49003512A1 /* TestingTiledImageView.swift in Sources */,
 				29A22D4B2626E041000D9EAF /* MinimapModel.swift in Sources */,
+				2911E5102737870C00F3E967 /* RDR2HUDCoreView.swift in Sources */,
 				29A22CFD2626D8C9000D9EAF /* ConsummateV.swift in Sources */,
 				298CD783270FEF2900C9D6B9 /* TesselationDemo.swift in Sources */,
 				2910F3E6269801F7008475D6 /* AphroditeBoon.swift in Sources */,
@@ -1010,6 +1015,7 @@
 				2935A9E127169EAE0043F964 /* GISelectionItem.swift in Sources */,
 				29E7056B271BF39800D6B9CC /* IsotoxalPolygonDemo.swift in Sources */,
 				29155FF4272BA64800BA2FE4 /* TLOUMenu.swift in Sources */,
+				2911E5112737870C00F3E967 /* RDR2HUDCoreView.swift in Sources */,
 				2906485326FAD748009A20A1 /* StrokeStyledRectangle.swift in Sources */,
 				2956788927226CB500FA372A /* MasterlessStardust.swift in Sources */,
 				29188617272505320060E33C /* RDR2Revolver.swift in Sources */,
