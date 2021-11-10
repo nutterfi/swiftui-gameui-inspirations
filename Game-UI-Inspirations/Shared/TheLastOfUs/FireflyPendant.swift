@@ -13,9 +13,9 @@ struct FireflyPendantDemo: View {
   var body: some View {
     VStack {
       Slider(value: $rustLevel)
-      FireflyPendant(rustLevel: rustLevel, rustStyle: RustifyStyle.one)
-      FireflyPendant(rustLevel: rustLevel, rustStyle: RustifyStyle.two)
-      FireflyPendant(rustLevel: rustLevel, rustStyle: RustifyStyle.three)
+      FireflyPendant(rustLevel: rustLevel, rustStyle: RustifierStyle.one)
+      FireflyPendant(rustLevel: rustLevel, rustStyle: RustifierStyle.two)
+      FireflyPendant(rustLevel: rustLevel, rustStyle: RustifierStyle.three)
     }
     .padding()
   }
@@ -24,23 +24,20 @@ struct FireflyPendantDemo: View {
 
 struct FireflyPendant: View {
     var rustLevel: CGFloat = 0.1
-    var rustStyle: String = RustifyStyle.one
+    var rustStyle: String = RustifierStyle.one
     var body: some View {
       GeometryReader { proxy in
         let dim = min(proxy.size.width, proxy.size.height)
         ZStack {
           Circle()
+            .frame(width: dim * 0.99)
             .foregroundColor(.gray)
           Circle()
             .stroke(Color.black, lineWidth: 2)
             .frame(width: dim * 0.9)
           
-          
           FireflySymbol()
-            .overlay(
-              Rustify(blur: rustLevel * 100,                         style: rustStyle)
-                .mask(Circle())
-            )
+            .frame(width: dim * 0.9)
           
           // pendant hole
           Circle()
@@ -49,6 +46,7 @@ struct FireflyPendant: View {
             .offset(x: 0, y: -dim * 0.35)
         }
         .frame(width: proxy.size.width, height: proxy.size.height)
+        .rustify(blur: rustLevel * 100, style: rustStyle)
       }
     }
 }

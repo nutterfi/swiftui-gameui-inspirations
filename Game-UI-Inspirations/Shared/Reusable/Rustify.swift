@@ -7,37 +7,42 @@
 
 import SwiftUI
 
-struct RustifyStyle {
+struct RustifierStyle {
   static let one = "lasso.sparkles"
   static let two = "trash.circle.fill"
   static let three = "paperplane.fill"
 }
 
-struct Rustify: View {
+struct Rustifier: ViewModifier {
   
-  var blur: CGFloat
+  var blur: CGFloat = .zero
   var startRadius: CGFloat = 0.2
   var endRadius: CGFloat = 1.0
-  var style: String = RustifyStyle.one
-  
-    var body: some View {
-      GeometryReader { proxy in
-        ZStack {
-          RadialGradient(gradient: Gradient(colors: [.kombatBrown, .green]), center: .center, startRadius: proxy.size.width * startRadius, endRadius: proxy.size.width * endRadius)
-            .mask(
-              Image(systemName: style)
-                .resizable()
-                .scaledToFit()
-                .blur(radius: blur)
-            )
-        }
-        .frame(width: proxy.size.width, height: proxy.size.height)
+  var style: String = RustifierStyle.one
+
+  func body(content: Content) -> some View {
+    GeometryReader { proxy in
+      let dim = max(proxy.size.width, proxy.size.height)
+      ZStack {
+        content
+          .overlay(
+            RadialGradient(gradient: Gradient(colors: [.kombatBrown, .green]), center: .center, startRadius: dim * startRadius, endRadius: dim * endRadius)
+              .mask(
+                Image(systemName: style)
+                  .resizable()
+                  .scaledToFit()
+                  .blur(radius: blur)
+              )
+              .mask(content)
+          )
       }
+      .frame(width: proxy.size.width, height: proxy.size.height)
     }
+  }
 }
 
-struct Rustify_Previews: PreviewProvider {
-    static var previews: some View {
-      Rustify(blur: 10)
-    }
+extension View {
+  func rustify(blur: CGFloat, style: String) -> some View {
+    modifier(Rustifier(blur: blur, style: style))
+  }
 }
