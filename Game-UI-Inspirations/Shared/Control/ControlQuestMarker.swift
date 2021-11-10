@@ -30,8 +30,8 @@ struct ControlQuestMarker: View {
 struct ControlQuestMarker_Previews: PreviewProvider {
     static var previews: some View {
       ControlQuestMarker()
+        .frame(width: 150, height: 150)
+        .background(Color.black)
         .previewLayout(.sizeThatFits)
-          .frame(width: 15, height: 15)
-          .background(Color.black)
     }
 }

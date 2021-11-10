@@ -56,13 +56,11 @@ struct MK11_Previews: PreviewProvider {
     static var previews: some View {
       HStack(spacing: 10) {
         MK11Left()
-            .fill()
-          .border(Color.purple)
+          .fill(LinearGradient(colors: [.red, .black], startPoint: .top, endPoint: .bottom))
             .frame(width: 60)
         
         MK11Right()
-            .fill()
-          .border(Color.purple)
+          .fill(LinearGradient(colors: [.red, .black], startPoint: .top, endPoint: .bottom))
             .frame(width: 60)
       }
       .frame(height: 200)

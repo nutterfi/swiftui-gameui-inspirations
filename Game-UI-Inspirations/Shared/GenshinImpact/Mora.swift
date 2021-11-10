@@ -72,8 +72,15 @@ struct Mora: View {
 
 struct Mora_Previews: PreviewProvider {
     static var previews: some View {
-      Mora()
-        .frame(width: 256, height: 256)
-        .previewLayout(.sizeThatFits)
+      
+        ZStack {
+          Circle().foregroundColor(.white)
+            .frame(width: 500, height: 500)
+          Mora().frame(width: 480, height: 480)
+        }
+        .frame(width: 512, height: 512)
+      
+      .background(Color.black)
+      .previewLayout(.sizeThatFits)
     }
 }

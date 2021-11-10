@@ -229,6 +229,8 @@
 		29AF0320273B7F9D00B5BA4B /* RDR2HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF031E273B7F9D00B5BA4B /* RDR2HUD.swift */; };
 		29AF0323273B83EA00B5BA4B /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF0322273B83EA00B5BA4B /* View+Extensions.swift */; };
 		29AF0324273B83EA00B5BA4B /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF0322273B83EA00B5BA4B /* View+Extensions.swift */; };
+		29AF0326273B952200B5BA4B /* CodeSnippets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF0325273B952200B5BA4B /* CodeSnippets.swift */; };
+		29AF0327273B952200B5BA4B /* CodeSnippets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF0325273B952200B5BA4B /* CodeSnippets.swift */; };
 		29B44138262FDF2A00E442A6 /* TLOUIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B44137262FDF2A00E442A6 /* TLOUIcon.swift */; };
 		29B44139262FDF2A00E442A6 /* TLOUIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B44137262FDF2A00E442A6 /* TLOUIcon.swift */; };
 		29B98CB426B1118500E1B7FF /* GIClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B98CB326B1118500E1B7FF /* GIClockView.swift */; };
@@ -383,6 +385,7 @@
 		29AF031B273B7EFA00B5BA4B /* RDR2HUDCoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDR2HUDCoreViewModel.swift; sourceTree = "<group>"; };
 		29AF031E273B7F9D00B5BA4B /* RDR2HUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDR2HUD.swift; sourceTree = "<group>"; };
 		29AF0322273B83EA00B5BA4B /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		29AF0325273B952200B5BA4B /* CodeSnippets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeSnippets.swift; sourceTree = "<group>"; };
 		29B44137262FDF2A00E442A6 /* TLOUIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLOUIcon.swift; sourceTree = "<group>"; };
 		29B98CB326B1118500E1B7FF /* GIClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIClockView.swift; sourceTree = "<group>"; };
 		29BB327B265E0C3F00C3CCFE /* DiamondDog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiamondDog.swift; sourceTree = "<group>"; };
@@ -766,6 +769,7 @@
 				2906485126FAD748009A20A1 /* StrokeStyledRectangle.swift */,
 				290BBC3026CCC06F004D57D9 /* TextEffectView.swift */,
 				2910BBE7271FD5670019329D /* PersonProfile.swift */,
+				29AF0325273B952200B5BA4B /* CodeSnippets.swift */,
 			);
 			path = Reusable;
 			sourceTree = "<group>";
@@ -940,6 +944,7 @@
 				2957947E2650D94000BDDE3A /* TLOUSkillSelectMenuViewModel.swift in Sources */,
 				29C9018F26A7D85500AA9619 /* OWUltimateReadyView.swift in Sources */,
 				29421CAA27193ED200CBEDBB /* GIInventoryMenu.swift in Sources */,
+				29AF0326273B952200B5BA4B /* CodeSnippets.swift in Sources */,
 				29421CA127192C6900CBEDBB /* GIItem.swift in Sources */,
 				29A22D3D2626DFF3000D9EAF /* GenshinImpactLoadingProgressBar.swift in Sources */,
 				29AF031F273B7F9D00B5BA4B /* RDR2HUD.swift in Sources */,
@@ -1078,6 +1083,7 @@
 				297A6E3B265E02B600201D1A /* DiamondDogsLogo.swift in Sources */,
 				29A22CF82626D8C9000D9EAF /* LoadingRingsView.swift in Sources */,
 				298CD786270FEF2A00C9D6B9 /* KiteAnimationDemo.swift in Sources */,
+				29AF0327273B952200B5BA4B /* CodeSnippets.swift in Sources */,
 				2910BBE9271FD5670019329D /* PersonProfile.swift in Sources */,
 				29816B6D263BBF1E0016F1BA /* Rustify.swift in Sources */,
 				29922AC92633D270002469C2 /* MK11SelectionView.swift in Sources */,

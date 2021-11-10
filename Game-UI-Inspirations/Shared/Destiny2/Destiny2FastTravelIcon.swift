@@ -46,13 +46,13 @@ struct Destiny2FastTravelIcon: View {
           .offset(x: 0, y: dim * 0.05)
           
           Group {
-            Circle().frame(width: dim * 0.05)
+            Circle().frame(width: dim * 0.05, height: dim * 0.05)
               .offset(x: -dim * 0.4, y: -dim * 0.4)
-            Circle().frame(width: dim * 0.05)
+            Circle().frame(width: dim * 0.05, height: dim * 0.05)
               .offset(x: -dim * 0.4, y: dim * 0.4)
-            Circle().frame(width: dim * 0.05)
+            Circle().frame(width: dim * 0.05, height: dim * 0.05)
               .offset(x: dim * 0.4, y: -dim * 0.4)
-            Circle().frame(width: dim * 0.05)
+            Circle().frame(width: dim * 0.05, height: dim * 0.05)
               .offset(x: dim * 0.4, y: dim * 0.4)
           }
           .foregroundColor(color)
@@ -70,6 +70,8 @@ struct Destiny2FastTravelIcon: View {
 
 struct Destiny2FastTravelIcon_Previews: PreviewProvider {
     static var previews: some View {
-        Destiny2FastTravelIcon()
+      Destiny2FastTravelIcon()
+      .frame(width: 512, height: 512)
+      .previewLayout(.sizeThatFits)
     }
 }
