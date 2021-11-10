@@ -221,6 +221,14 @@
 		29A22D532626E059000D9EAF /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D512626E059000D9EAF /* Color+Extensions.swift */; };
 		29ACEC2B2642522C00DAE394 /* TLOUSkillsIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29ACEC2A2642522C00DAE394 /* TLOUSkillsIcon.swift */; };
 		29ACEC2C2642522C00DAE394 /* TLOUSkillsIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29ACEC2A2642522C00DAE394 /* TLOUSkillsIcon.swift */; };
+		29AF0319273B7ED700B5BA4B /* RDR2CoreModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF0318273B7ED700B5BA4B /* RDR2CoreModel.swift */; };
+		29AF031A273B7ED700B5BA4B /* RDR2CoreModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF0318273B7ED700B5BA4B /* RDR2CoreModel.swift */; };
+		29AF031C273B7EFA00B5BA4B /* RDR2HUDCoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF031B273B7EFA00B5BA4B /* RDR2HUDCoreViewModel.swift */; };
+		29AF031D273B7EFA00B5BA4B /* RDR2HUDCoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF031B273B7EFA00B5BA4B /* RDR2HUDCoreViewModel.swift */; };
+		29AF031F273B7F9D00B5BA4B /* RDR2HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF031E273B7F9D00B5BA4B /* RDR2HUD.swift */; };
+		29AF0320273B7F9D00B5BA4B /* RDR2HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF031E273B7F9D00B5BA4B /* RDR2HUD.swift */; };
+		29AF0323273B83EA00B5BA4B /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF0322273B83EA00B5BA4B /* View+Extensions.swift */; };
+		29AF0324273B83EA00B5BA4B /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF0322273B83EA00B5BA4B /* View+Extensions.swift */; };
 		29B44138262FDF2A00E442A6 /* TLOUIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B44137262FDF2A00E442A6 /* TLOUIcon.swift */; };
 		29B44139262FDF2A00E442A6 /* TLOUIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B44137262FDF2A00E442A6 /* TLOUIcon.swift */; };
 		29B98CB426B1118500E1B7FF /* GIClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B98CB326B1118500E1B7FF /* GIClockView.swift */; };
@@ -371,6 +379,10 @@
 		29A22D462626E041000D9EAF /* MinimapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinimapView.swift; sourceTree = "<group>"; };
 		29A22D512626E059000D9EAF /* Color+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 		29ACEC2A2642522C00DAE394 /* TLOUSkillsIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLOUSkillsIcon.swift; sourceTree = "<group>"; };
+		29AF0318273B7ED700B5BA4B /* RDR2CoreModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDR2CoreModel.swift; sourceTree = "<group>"; };
+		29AF031B273B7EFA00B5BA4B /* RDR2HUDCoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDR2HUDCoreViewModel.swift; sourceTree = "<group>"; };
+		29AF031E273B7F9D00B5BA4B /* RDR2HUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDR2HUD.swift; sourceTree = "<group>"; };
+		29AF0322273B83EA00B5BA4B /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 		29B44137262FDF2A00E442A6 /* TLOUIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLOUIcon.swift; sourceTree = "<group>"; };
 		29B98CB326B1118500E1B7FF /* GIClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIClockView.swift; sourceTree = "<group>"; };
 		29BB327B265E0C3F00C3CCFE /* DiamondDog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiamondDog.swift; sourceTree = "<group>"; };
@@ -658,6 +670,7 @@
 		29A22CBC2626D27F000D9EAF /* RDR2 */ = {
 			isa = PBXGroup;
 			children = (
+				29AF0317273B7EA600B5BA4B /* RDR2HUD */,
 				29C5AFC2272E420900BFACD4 /* RDR2Menu.swift */,
 				29A22D432626E041000D9EAF /* MinimapDemo.swift */,
 				29A22D452626E041000D9EAF /* MinimapModel.swift */,
@@ -673,7 +686,6 @@
 				29A13504270D49F900F19B6F /* RDR2ShowdownTitle.swift */,
 				29188615272505320060E33C /* RDR2Revolver.swift */,
 				29188618272511E50060E33C /* RDR2RevolverLoadingAnimation.swift */,
-				2911E50F2737870C00F3E967 /* RDR2HUDCoreView.swift */,
 			);
 			path = RDR2;
 			sourceTree = "<group>";
@@ -699,8 +711,28 @@
 			isa = PBXGroup;
 			children = (
 				29A22D512626E059000D9EAF /* Color+Extensions.swift */,
+				29AF0322273B83EA00B5BA4B /* View+Extensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		29AF0317273B7EA600B5BA4B /* RDR2HUD */ = {
+			isa = PBXGroup;
+			children = (
+				29AF0321273B82D100B5BA4B /* RDR2Core */,
+				29AF031E273B7F9D00B5BA4B /* RDR2HUD.swift */,
+			);
+			path = RDR2HUD;
+			sourceTree = "<group>";
+		};
+		29AF0321273B82D100B5BA4B /* RDR2Core */ = {
+			isa = PBXGroup;
+			children = (
+				29AF031B273B7EFA00B5BA4B /* RDR2HUDCoreViewModel.swift */,
+				29AF0318273B7ED700B5BA4B /* RDR2CoreModel.swift */,
+				2911E50F2737870C00F3E967 /* RDR2HUDCoreView.swift */,
+			);
+			path = RDR2Core;
 			sourceTree = "<group>";
 		};
 		29B44134262FDE7C00E442A6 /* TheLastOfUs */ = {
@@ -891,6 +923,7 @@
 				291A07E026BA4A3E000F4590 /* SWTORLogo.swift in Sources */,
 				29A22D3B2626DFF3000D9EAF /* ProgressBar.swift in Sources */,
 				29A22D1C2626DC60000D9EAF /* KountdownTimerViewModel.swift in Sources */,
+				29AF0323273B83EA00B5BA4B /* View+Extensions.swift in Sources */,
 				29415858269D33E70072A007 /* StrokeStyledCircle.swift in Sources */,
 				297DC70C265A106800980DDE /* MGSVLoadingView.swift in Sources */,
 				298FE2FF264B8F1C00BBC02A /* SkillHealingSpeed.swift in Sources */,
@@ -909,6 +942,7 @@
 				29421CAA27193ED200CBEDBB /* GIInventoryMenu.swift in Sources */,
 				29421CA127192C6900CBEDBB /* GIItem.swift in Sources */,
 				29A22D3D2626DFF3000D9EAF /* GenshinImpactLoadingProgressBar.swift in Sources */,
+				29AF031F273B7F9D00B5BA4B /* RDR2HUD.swift in Sources */,
 				2962057F26FD85DE002F9D3E /* ElevationMap.swift in Sources */,
 				297DC711265A107600980DDE /* MGSVLoadingViewModel.swift in Sources */,
 				298DA1C3269AA4CC0054463A /* OWUltimateMeter.swift in Sources */,
@@ -927,11 +961,13 @@
 				29C5AFC3272E420900BFACD4 /* RDR2Menu.swift in Sources */,
 				29532EFD26451D8B000F07F1 /* FireflySymbol.swift in Sources */,
 				2926BCF32635260D00CEDC7E /* FireflyWing.swift in Sources */,
+				29AF031C273B7EFA00B5BA4B /* RDR2HUDCoreViewModel.swift in Sources */,
 				29101795270429580021E672 /* CelesteDemo.swift in Sources */,
 				29D2AEBE26AA7821005A35D1 /* ArtemisBoon.swift in Sources */,
 				2939687426BCFA7D00B08586 /* RDR2AwardBadge.swift in Sources */,
 				295E507B26B3B7CD00DA9FD4 /* RDR2AwardView.swift in Sources */,
 				297A6E3F265E04F200201D1A /* DiamondGem.swift in Sources */,
+				29AF0319273B7ED700B5BA4B /* RDR2CoreModel.swift in Sources */,
 				298FE2FA264B8C6400BBC02A /* SkillWeaponSway.swift in Sources */,
 				2926BCEE2635225100CEDC7E /* FireflyPendant.swift in Sources */,
 				29A22D492626E041000D9EAF /* MinimapViewModel.swift in Sources */,
@@ -1019,6 +1055,7 @@
 				2906485326FAD748009A20A1 /* StrokeStyledRectangle.swift in Sources */,
 				2956788927226CB500FA372A /* MasterlessStardust.swift in Sources */,
 				29188617272505320060E33C /* RDR2Revolver.swift in Sources */,
+				29AF0324273B83EA00B5BA4B /* View+Extensions.swift in Sources */,
 				29D2AEBF26AA7821005A35D1 /* ArtemisBoon.swift in Sources */,
 				29102700263E62EE00418FE1 /* BoonView.swift in Sources */,
 				2998BF032660B1CE00EA034B /* RibbonBanner.swift in Sources */,
@@ -1050,6 +1087,7 @@
 				29532EFE26451D8B000F07F1 /* FireflySymbol.swift in Sources */,
 				2926BCF42635260D00CEDC7E /* FireflyWing.swift in Sources */,
 				297A6E40265E04F200201D1A /* DiamondGem.swift in Sources */,
+				29AF031A273B7ED700B5BA4B /* RDR2CoreModel.swift in Sources */,
 				298FE2FB264B8C6400BBC02A /* SkillWeaponSway.swift in Sources */,
 				2906485626FAD882009A20A1 /* StrokeStyledRectangleDemo.swift in Sources */,
 				2926BCEF2635225100CEDC7E /* FireflyPendant.swift in Sources */,
@@ -1065,6 +1103,7 @@
 				29C9019026A7D85500AA9619 /* OWUltimateReadyView.swift in Sources */,
 				2910270C263E6DAC00418FE1 /* PoseidonBoon.swift in Sources */,
 				2962057A26FD788C002F9D3E /* Destiny2FastTravelIcon.swift in Sources */,
+				29AF031D273B7EFA00B5BA4B /* RDR2HUDCoreViewModel.swift in Sources */,
 				29B44139262FDF2A00E442A6 /* TLOUIcon.swift in Sources */,
 				29EB0A62262BEA570032E598 /* ControlSelectionView.swift in Sources */,
 				29101796270429580021E672 /* CelesteDemo.swift in Sources */,
@@ -1085,6 +1124,7 @@
 				296C7F522706B35D00BFACC1 /* DBHLoadingView.swift in Sources */,
 				29155FF1272BA2D500BA2FE4 /* TLOUMainMenuIcon.swift in Sources */,
 				291A07E326BA50B8000F4590 /* StrokeStyledPolygon.swift in Sources */,
+				29AF0320273B7F9D00B5BA4B /* RDR2HUD.swift in Sources */,
 				295678862722636C00FA372A /* Mora.swift in Sources */,
 				290BBC3526CCC8AA004D57D9 /* TextEffectViewModel.swift in Sources */,
 				29A22D172626DC60000D9EAF /* KountdownTimerDemo.swift in Sources */,

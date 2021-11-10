@@ -8,32 +8,6 @@
 import SwiftUI
 import Shapes
 
-struct RDR2CoreModel {
-  
-  enum CoreType {
-    case health
-    case stamina
-    case deadeye
-  }
-
-  var coreLevel: Float
-  var barLevel: Float
-  var type: CoreType
-}
-
-class RDR2HUDCoreViewModel: ObservableObject {
-  @Published private(set) var healthCore: RDR2CoreModel
-  @Published private(set) var staminaCore: RDR2CoreModel
-  @Published private(set) var deadeyeCore: RDR2CoreModel
-  
-  init() {
-    healthCore = RDR2CoreModel(coreLevel: 0.5, barLevel: 0.25, type: .health)
-    staminaCore = RDR2CoreModel(coreLevel: 0.2, barLevel: 0.1, type: .stamina)
-    deadeyeCore = RDR2CoreModel(coreLevel: 0.8, barLevel: 0.75, type: .deadeye)
-  }
-  
-}
-
 struct RDR2HUDCoreView: View {
   var model: RDR2CoreModel
   
@@ -47,7 +21,7 @@ struct RDR2HUDCoreView: View {
         Heart()
       case .deadeye:
         DoubleTeardrop()
-          .padding()
+          .padding(5)
           .rotationEffect(.degrees(135))
       }
     }
@@ -60,7 +34,7 @@ struct RDR2HUDCoreView: View {
         Circle().fill()
         
         MaskedProgressBar(progress: model.coreLevel,
-                          backView: Color.gray,
+                          backView: model.coreLevel == 0 ? Color.red : Color.gray,
                           frontView: Color.white,
                           mask: maskForType(model.type)
                               .rotationEffect(.degrees(90))
@@ -84,30 +58,32 @@ struct RDR2HUDCoreView: View {
 
 struct RDR2HUDCoreMenu: View {
   @StateObject private var viewModel = RDR2HUDCoreViewModel()
-    var body: some View {
-      GeometryReader { proxy in
-        let dim = min(proxy.size.width, proxy.size.height)
-        ZStack {
-          Color.rdr2Minimap
-          RDR2HUDCoreView(model: viewModel.healthCore)
-            .frame(width: dim * 0.2, height: dim * 0.2)
-            .offset(x: -dim * 0.25, y: -dim * 0.25)
-          RDR2HUDCoreView(model: viewModel.staminaCore)
-            .frame(width: dim * 0.2, height: dim * 0.2)
-            .offset(x: -dim * 0.0, y: -dim * 0.35)
+  var body: some View {
+    GeometryReader { proxy in
+      let dim = min(proxy.size.width, proxy.size.height)
+      ZStack {
+        Group {
           RDR2HUDCoreView(model: viewModel.deadeyeCore)
-            .overlay((Text("x").scaleEffect(4.4).foregroundColor(.black)))
-            .frame(width: dim * 0.2, height: dim * 0.2)
-            .offset(x: dim * 0.25, y: -dim * 0.45)
+            .angularOffset(magnitude: dim * 0.4, angle: .degrees(270))
+          
+          RDR2HUDCoreView(model: viewModel.healthCore)
+            .angularOffset(magnitude: dim * 0.41, angle: .degrees(248))
+          
+          RDR2HUDCoreView(model: viewModel.staminaCore)
+            .angularOffset(magnitude: dim * 0.44, angle: .degrees(226))
         }
-        .frame(width: proxy.size.width, height: proxy.size.height)
+        .frame(width: dim * 0.13, height: dim * 0.2)
       }
-     
+      .frame(width: proxy.size.width, height: proxy.size.height)
     }
+    
+  }
 }
 
 struct RDR2HUDCoreMenu_Previews: PreviewProvider {
     static var previews: some View {
       RDR2HUDCoreMenu()
+        .previewLayout(.sizeThatFits)
+      .frame(width: 256, height: 256)
     }
 }

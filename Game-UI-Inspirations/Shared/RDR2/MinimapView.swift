@@ -50,7 +50,7 @@ struct MinimapView: View {
                 ForEach(0..<numberOfMarks) { index in
                   let rotation = Angle(radians: 2 * .pi / Double(numberOfMarks) * Double(index))
                   Rectangle()
-                    .frame(width: 3, height: 15)
+                    .frame(width: 1, height: 10)
                     .shadow(color: .white, radius: 5, x: 0, y: 0)
                     .offset(x: 0, y: -dim / 2 - 3)
                     .rotationEffect(rotation)
@@ -61,8 +61,8 @@ struct MinimapView: View {
                 Image(systemName: "arrow.up")
                   .resizable()
                   .scaledToFill()
-                  .frame(width: dim / 10, height: dim / 10)
-                  .offset(x: 0, y: -dim / 2 - 8)
+                  .frame(width: dim / 20, height: dim / 15)
+                  .offset(x: 0, y: -dim / 2 - 3)
                 
                 ForEach(0..<viewModel.entities.count) { index in
                   let entity = viewModel.entities[index]
