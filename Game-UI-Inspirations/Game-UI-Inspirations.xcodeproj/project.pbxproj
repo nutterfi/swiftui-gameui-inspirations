@@ -175,6 +175,8 @@
 		29922AC92633D270002469C2 /* MK11SelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29922AC72633D270002469C2 /* MK11SelectionView.swift */; };
 		29922ACD2633D2FA002469C2 /* MK11Left.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29922ACC2633D2FA002469C2 /* MK11Left.swift */; };
 		29922ACE2633D2FA002469C2 /* MK11Left.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29922ACC2633D2FA002469C2 /* MK11Left.swift */; };
+		299363D3273F969400CA089A /* GIAchievementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299363D2273F969400CA089A /* GIAchievementView.swift */; };
+		299363D4273F969400CA089A /* GIAchievementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299363D2273F969400CA089A /* GIAchievementView.swift */; };
 		2998BF022660B1CE00EA034B /* RibbonBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2998BF012660B1CE00EA034B /* RibbonBanner.swift */; };
 		2998BF032660B1CE00EA034B /* RibbonBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2998BF012660B1CE00EA034B /* RibbonBanner.swift */; };
 		29A13505270D49F900F19B6F /* RDR2ShowdownTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A13504270D49F900F19B6F /* RDR2ShowdownTitle.swift */; };
@@ -358,6 +360,7 @@
 		298FE308264B939800BBC02A /* TLOUSkillSelectMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLOUSkillSelectMenu.swift; sourceTree = "<group>"; };
 		29922AC72633D270002469C2 /* MK11SelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MK11SelectionView.swift; sourceTree = "<group>"; };
 		29922ACC2633D2FA002469C2 /* MK11Left.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MK11Left.swift; sourceTree = "<group>"; };
+		299363D2273F969400CA089A /* GIAchievementView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GIAchievementView.swift; sourceTree = "<group>"; };
 		2998BF012660B1CE00EA034B /* RibbonBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RibbonBanner.swift; sourceTree = "<group>"; };
 		29A13504270D49F900F19B6F /* RDR2ShowdownTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDR2ShowdownTitle.swift; sourceTree = "<group>"; };
 		29A22CF02626D8C9000D9EAF /* LoadingRingsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingRingsViewModel.swift; sourceTree = "<group>"; };
@@ -696,6 +699,7 @@
 		29A22CBD2626D288000D9EAF /* GenshinImpact */ = {
 			isa = PBXGroup;
 			children = (
+				299363D2273F969400CA089A /* GIAchievementView.swift */,
 				29A22D392626DFF3000D9EAF /* GenshinImpactLoadingProgressBar.swift */,
 				29B98CB326B1118500E1B7FF /* GIClockView.swift */,
 				2935A9DF27169EAE0043F964 /* GISelectionItem.swift */,
@@ -958,6 +962,7 @@
 				29A22CF72626D8C9000D9EAF /* LoadingRingsView.swift in Sources */,
 				2962057926FD788C002F9D3E /* Destiny2FastTravelIcon.swift in Sources */,
 				29816B6C263BBF1E0016F1BA /* Rustify.swift in Sources */,
+				299363D3273F969400CA089A /* GIAchievementView.swift in Sources */,
 				29922AC82633D270002469C2 /* MK11SelectionView.swift in Sources */,
 				29E7056A271BF39800D6B9CC /* IsotoxalPolygonDemo.swift in Sources */,
 				2960C695270A0B850024872D /* OrnateCorners.swift in Sources */,
@@ -1040,6 +1045,7 @@
 				29A22D112626DC60000D9EAF /* KombatKardView.swift in Sources */,
 				2976E1C22626A45100272ADC /* ContentView.swift in Sources */,
 				295FECD326D89D5400C70220 /* RDR2ConfirmButton.swift in Sources */,
+				299363D4273F969400CA089A /* GIAchievementView.swift in Sources */,
 				2906485026FAD6CF009A20A1 /* DBHTitleScreenMenuItem.swift in Sources */,
 				29813986263287BA00009D7B /* POIMarker.swift in Sources */,
 				29102707263E673300418FE1 /* ZeusBoon.swift in Sources */,
