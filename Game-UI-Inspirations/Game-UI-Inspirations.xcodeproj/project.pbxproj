@@ -15,6 +15,10 @@
 		2906485626FAD882009A20A1 /* StrokeStyledRectangleDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2906485426FAD882009A20A1 /* StrokeStyledRectangleDemo.swift */; };
 		2906F21826D603A500E38EFF /* TextEffectViewDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2906F21726D603A500E38EFF /* TextEffectViewDemo.swift */; };
 		2906F21926D603A500E38EFF /* TextEffectViewDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2906F21726D603A500E38EFF /* TextEffectViewDemo.swift */; };
+		290B177327572D590075AE24 /* SpiderManIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290B177227572D590075AE24 /* SpiderManIcon.swift */; };
+		290B177527573D740075AE24 /* Shapes+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290B177427573D740075AE24 /* Shapes+Extensions.swift */; };
+		290B177627573D740075AE24 /* Shapes+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290B177427573D740075AE24 /* Shapes+Extensions.swift */; };
+		290B177727573DB40075AE24 /* SpiderManIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290B177227572D590075AE24 /* SpiderManIcon.swift */; };
 		290B5CF7268ED22C00EB93BD /* HadesBoonDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290B5CF6268ED22C00EB93BD /* HadesBoonDemo.swift */; };
 		290B5CF8268ED22C00EB93BD /* HadesBoonDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290B5CF6268ED22C00EB93BD /* HadesBoonDemo.swift */; };
 		290BBC3126CCC06F004D57D9 /* TextEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290BBC3026CCC06F004D57D9 /* TextEffectView.swift */; };
@@ -274,6 +278,8 @@
 		2906485126FAD748009A20A1 /* StrokeStyledRectangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrokeStyledRectangle.swift; sourceTree = "<group>"; };
 		2906485426FAD882009A20A1 /* StrokeStyledRectangleDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrokeStyledRectangleDemo.swift; sourceTree = "<group>"; };
 		2906F21726D603A500E38EFF /* TextEffectViewDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEffectViewDemo.swift; sourceTree = "<group>"; };
+		290B177227572D590075AE24 /* SpiderManIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiderManIcon.swift; sourceTree = "<group>"; };
+		290B177427573D740075AE24 /* Shapes+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Shapes+Extensions.swift"; sourceTree = "<group>"; };
 		290B5CF6268ED22C00EB93BD /* HadesBoonDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HadesBoonDemo.swift; sourceTree = "<group>"; };
 		290BBC3026CCC06F004D57D9 /* TextEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEffectView.swift; sourceTree = "<group>"; };
 		290BBC3326CCC8AA004D57D9 /* TextEffectViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextEffectViewModel.swift; sourceTree = "<group>"; };
@@ -448,6 +454,14 @@
 			path = DetroitBecomeHuman;
 			sourceTree = "<group>";
 		};
+		290B177127572D3E0075AE24 /* SpiderMan */ = {
+			isa = PBXGroup;
+			children = (
+				290B177227572D590075AE24 /* SpiderManIcon.swift */,
+			);
+			path = SpiderMan;
+			sourceTree = "<group>";
+		};
 		2910179027040FF00021E672 /* Celeste */ = {
 			isa = PBXGroup;
 			children = (
@@ -526,6 +540,7 @@
 		2976E1AB2626A45000272ADC /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				290B177127572D3E0075AE24 /* SpiderMan */,
 				297A96B9270D5BBA001489DF /* Demos */,
 				2964BAB226C384B000F37FDC /* Games.swift */,
 				2976E1AD2626A45000272ADC /* ContentView.swift */,
@@ -719,6 +734,7 @@
 			children = (
 				29A22D512626E059000D9EAF /* Color+Extensions.swift */,
 				29AF0322273B83EA00B5BA4B /* View+Extensions.swift */,
+				290B177427573D740075AE24 /* Shapes+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -895,6 +911,7 @@
 				295794792650D91D00BDDE3A /* TLOUSkillModel.swift in Sources */,
 				29351A4926CF63F00069BE75 /* RDR2AwardViewModel.swift in Sources */,
 				291035822734D677004DA378 /* WheelOfFortune.swift in Sources */,
+				290B177527573D740075AE24 /* Shapes+Extensions.swift in Sources */,
 				29350C712709930F00A2B8FA /* SpirolateralDemo.swift in Sources */,
 				297A6E45265E057000201D1A /* RibbonShapes.swift in Sources */,
 				2926BCF8263529D400CEDC7E /* FireflyTail.swift in Sources */,
@@ -907,6 +924,7 @@
 				29A13505270D49F900F19B6F /* RDR2ShowdownTitle.swift in Sources */,
 				295E507826B3B3EA00DA9FD4 /* RDR2AwardItem.swift in Sources */,
 				294D37362710082700524868 /* SpirolateralAnimationDemo.swift in Sources */,
+				290B177327572D590075AE24 /* SpiderManIcon.swift in Sources */,
 				29922ACD2633D2FA002469C2 /* MK11Left.swift in Sources */,
 				29A22CF92626D8C9000D9EAF /* LoadingRingsDemo.swift in Sources */,
 				298FE309264B939800BBC02A /* TLOUSkillSelectMenu.swift in Sources */,
@@ -1143,8 +1161,10 @@
 				29D3FAB72644F4B000B6A02F /* SkillVitamin.swift in Sources */,
 				29A22D402626DFF3000D9EAF /* MaskedProgressBar.swift in Sources */,
 				2964BAB426C384B000F37FDC /* Games.swift in Sources */,
+				290B177727573DB40075AE24 /* SpiderManIcon.swift in Sources */,
 				29421CA527192FC600CBEDBB /* GIRewardItem.swift in Sources */,
 				29230B4026A1460C00A052E7 /* AthenaBoon.swift in Sources */,
+				290B177627573D740075AE24 /* Shapes+Extensions.swift in Sources */,
 				2939687526BCFA7D00B08586 /* RDR2AwardBadge.swift in Sources */,
 				29D3FABC2644F6C500B6A02F /* SkillSelectionRow.swift in Sources */,
 			);
