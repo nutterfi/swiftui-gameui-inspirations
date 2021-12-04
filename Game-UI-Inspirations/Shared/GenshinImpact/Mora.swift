@@ -46,7 +46,7 @@ struct Mora: View {
             .inset(by: dim * 0.1)
             .stroke(Color("giBrown"), lineWidth: dim * 0.03)
           
-          BendyTriangle()
+          Torx(sides: 3, controlPointRatio: 0.35)
             .inset(by: dim * 0.15)
             .stroke(Color("giBrown"), lineWidth: dim * 0.02)
             .rotationEffect(.radians(.pi))

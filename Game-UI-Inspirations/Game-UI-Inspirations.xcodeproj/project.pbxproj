@@ -249,6 +249,10 @@
 		29C9019026A7D85500AA9619 /* OWUltimateReadyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C9018E26A7D85500AA9619 /* OWUltimateReadyView.swift */; };
 		29C9019226A801A400AA9619 /* OWUltimateMeterBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C9019126A801A400AA9619 /* OWUltimateMeterBorder.swift */; };
 		29C9019326A801A400AA9619 /* OWUltimateMeterBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C9019126A801A400AA9619 /* OWUltimateMeterBorder.swift */; };
+		29D0110E2759D014002E393B /* SpiderManSkillsMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D0110D2759D014002E393B /* SpiderManSkillsMap.swift */; };
+		29D0110F2759D014002E393B /* SpiderManSkillsMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D0110D2759D014002E393B /* SpiderManSkillsMap.swift */; };
+		29D011112759EAA1002E393B /* SpiderManSkillModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D011102759EAA1002E393B /* SpiderManSkillModel.swift */; };
+		29D011122759EAA1002E393B /* SpiderManSkillModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D011102759EAA1002E393B /* SpiderManSkillModel.swift */; };
 		29D2AEBE26AA7821005A35D1 /* ArtemisBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D2AEBD26AA7821005A35D1 /* ArtemisBoon.swift */; };
 		29D2AEBF26AA7821005A35D1 /* ArtemisBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D2AEBD26AA7821005A35D1 /* ArtemisBoon.swift */; };
 		29D3FAB62644F4B000B6A02F /* SkillVitamin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D3FAB52644F4B000B6A02F /* SkillVitamin.swift */; };
@@ -401,6 +405,8 @@
 		29C5AFC2272E420900BFACD4 /* RDR2Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RDR2Menu.swift; sourceTree = "<group>"; };
 		29C9018E26A7D85500AA9619 /* OWUltimateReadyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OWUltimateReadyView.swift; sourceTree = "<group>"; };
 		29C9019126A801A400AA9619 /* OWUltimateMeterBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OWUltimateMeterBorder.swift; sourceTree = "<group>"; };
+		29D0110D2759D014002E393B /* SpiderManSkillsMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiderManSkillsMap.swift; sourceTree = "<group>"; };
+		29D011102759EAA1002E393B /* SpiderManSkillModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiderManSkillModel.swift; sourceTree = "<group>"; };
 		29D2AEBD26AA7821005A35D1 /* ArtemisBoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtemisBoon.swift; sourceTree = "<group>"; };
 		29D3FAB52644F4B000B6A02F /* SkillVitamin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillVitamin.swift; sourceTree = "<group>"; };
 		29D3FABA2644F6C500B6A02F /* SkillSelectionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillSelectionRow.swift; sourceTree = "<group>"; };
@@ -458,6 +464,8 @@
 			isa = PBXGroup;
 			children = (
 				290B177227572D590075AE24 /* SpiderManIcon.swift */,
+				29D0110D2759D014002E393B /* SpiderManSkillsMap.swift */,
+				29D011102759EAA1002E393B /* SpiderManSkillModel.swift */,
 			);
 			path = SpiderMan;
 			sourceTree = "<group>";
@@ -959,6 +967,7 @@
 				29FADE16269E99E400CF6D73 /* TypewriterTextView.swift in Sources */,
 				291A07E226BA50B8000F4590 /* StrokeStyledPolygon.swift in Sources */,
 				29FADE19269EA23000CF6D73 /* TypewriterTextViewModel.swift in Sources */,
+				29D0110E2759D014002E393B /* SpiderManSkillsMap.swift in Sources */,
 				2976E1BF2626A45100272ADC /* Game_UI_InspirationsApp.swift in Sources */,
 				29188616272505320060E33C /* RDR2Revolver.swift in Sources */,
 				294FF9482632AE300057869B /* TLOUIconDemo.swift in Sources */,
@@ -977,6 +986,7 @@
 				2964BAB026C383EE00F37FDC /* SWTOREmpireLogo.swift in Sources */,
 				298DA1C6269AAEF50054463A /* OWUltimateMeterDemo.swift in Sources */,
 				297A6E3A265E02B600201D1A /* DiamondDogsLogo.swift in Sources */,
+				29D011112759EAA1002E393B /* SpiderManSkillModel.swift in Sources */,
 				29A22CF72626D8C9000D9EAF /* LoadingRingsView.swift in Sources */,
 				2962057926FD788C002F9D3E /* Destiny2FastTravelIcon.swift in Sources */,
 				29816B6C263BBF1E0016F1BA /* Rustify.swift in Sources */,
@@ -1045,6 +1055,7 @@
 				2976E1DB2626AD5C00272ADC /* Pulsar.swift in Sources */,
 				29A22D132626DC60000D9EAF /* KountdownTimerView.swift in Sources */,
 				2957947A2650D91D00BDDE3A /* TLOUSkillModel.swift in Sources */,
+				29D0110F2759D014002E393B /* SpiderManSkillsMap.swift in Sources */,
 				297A6E46265E057000201D1A /* RibbonShapes.swift in Sources */,
 				2926BCF9263529D400CEDC7E /* FireflyTail.swift in Sources */,
 				29A22D192626DC60000D9EAF /* KombatKardContentView.swift in Sources */,
@@ -1076,6 +1087,7 @@
 				29415859269D33E70072A007 /* StrokeStyledCircle.swift in Sources */,
 				298FE300264B8F1C00BBC02A /* SkillHealingSpeed.swift in Sources */,
 				290BBC3226CCC06F004D57D9 /* TextEffectView.swift in Sources */,
+				29D011122759EAA1002E393B /* SpiderManSkillModel.swift in Sources */,
 				29FC00042703A8DE00900F5B /* DBHTitleScreenMenu.swift in Sources */,
 				2935A9E127169EAE0043F964 /* GISelectionItem.swift in Sources */,
 				29E7056B271BF39800D6B9CC /* IsotoxalPolygonDemo.swift in Sources */,

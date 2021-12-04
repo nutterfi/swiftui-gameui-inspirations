@@ -11,7 +11,7 @@ import Shapes
 class ContentViewModel: ObservableObject {
   @Published private(set) var titles: [String]
   init() {
-    titles = [Games.mgsv, Games.control, Games.mk11, Games.rdr2, Games.genshinImpact, Games.overwatch, Games.swtor, Games.tlou, Games.hades, Games.detroit, Games.destiny2, Games.celeste].sorted()
+    titles = [Games.mgsv, Games.control, Games.mk11, Games.rdr2, Games.genshinImpact, Games.overwatch, Games.swtor, Games.tlou, Games.hades, Games.detroit, Games.destiny2, Games.celeste, Games.spiderMan].sorted()
   }
 }
 
@@ -46,6 +46,8 @@ struct ContentView: View {
         Destiny2FastTravelView()
       case Games.celeste:
         CelesteDemo()
+      case Games.spiderMan:
+        SpiderManSkillsMap()
       default:
         Circle().frame(width: .infinity, height: .infinity)
           .overlay(
@@ -94,7 +96,11 @@ struct ContentView: View {
       case Games.tlou:
         TLOUMainMenuIcon()
           .frame(height: 120)
-        
+      case Games.spiderMan:
+        SpiderManIcon()
+          .background(LinearGradient(colors: [.blue, .black], startPoint: .topLeading, endPoint: .bottomTrailing))
+          .frame(height: 120)
+
       default:
         Text(title)
         .font(.largeTitle)

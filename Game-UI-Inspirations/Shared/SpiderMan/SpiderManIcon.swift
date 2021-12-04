@@ -130,7 +130,7 @@ struct SpiderManIcon : View {
       .frame(width: proxy.size.width, height: proxy.size.height)
     }
     .padding()
-    .background(LinearGradient(colors: [.blue, .black], startPoint: .topLeading, endPoint: .bottomTrailing))
+    
   }
 }
 
