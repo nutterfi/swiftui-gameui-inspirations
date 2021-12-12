@@ -27,19 +27,19 @@ struct POIMarker: View {
             .fill(Color.tlouSecondary)
             .frame(width: proxy.size.width * 0.4, height: proxy.size.height * 0.3)
             .scaleEffect(-1)
-            .offset(x: -dim / 4, y: dim / 10)
+            .offset(x: -dim / 4, y: 0)
           
           Crescent()
             .fill(Color.tlouSecondary)
             .frame(width: proxy.size.width * 0.4, height: proxy.size.height * 0.3)
             .scaleEffect(-0.8)
-            .offset(x: -dim / 16, y: dim / 10)
+            .offset(x: -dim / 16, y: 0)
           
           Crescent()
             .fill(Color.tlouSecondary)
             .frame(width: proxy.size.width * 0.4, height: proxy.size.height * 0.3)
             .scaleEffect(-0.5)
-            .offset(x: dim / 8, y: dim / 10)
+            .offset(x: dim / 8, y: 0)
           
         case POIMarkerType.objectInteract:
           Arrowhead(
@@ -48,7 +48,7 @@ struct POIMarker: View {
             .fill(Color.tlouSecondary)
             .rotationEffect(Angle(degrees: 180))
             .frame(width: proxy.size.width * 0.3, height: proxy.size.width * 0.5)
-            .offset(x: 0, y: dim / 10)
+            .offset(x: 0, y: 0)
           
         default:
           Circle().frame(width: .infinity, height: .infinity)
