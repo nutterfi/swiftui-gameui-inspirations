@@ -14,7 +14,7 @@ extension Color {
     let g = CGFloat.random(in: 0...1)
     return .init(red: r, green: g, blue: 1)
   }
-
+  
   static var random: Color {
     let r = CGFloat.random(in: 0...1)
     let g = CGFloat.random(in: 0...1)
@@ -25,7 +25,7 @@ extension Color {
   static var controlYellow: Color {
     Color(red: 1, green: 1, blue: 59.0/255)
   }
-
+  
   static var rdr2Minimap: Color {
     Color(red: 222.0/255, green: 214.0/255, blue: 192.0/255)
   }
@@ -38,4 +38,48 @@ extension Color {
     Color(red: 173.0/255, green: 156.0/255, blue: 93.0/255)
   }
   
+  static var hadesZeusYellow: Color {
+    Color(red: 251/255, green: 246/255, blue: 92/255)
+  }
+  
+  static var hadesZeusOrange: Color {
+    Color(red: 252/255, green: 186/255, blue: 67/255)
+  }
+  
+  static var hadesAphroditePink: Color {
+    Color(red: 247/255, green: 167/255, blue: 251/255)
+  }
+  
+  static var hadesAphroditeMagenta: Color {
+    Color(red: 249/255, green: 110/255, blue: 211/255)
+  }
+  
+  static var hadesArtemisYellow: Color {
+    Color(red: 217/255, green: 242/255, blue: 72/255)
+  }
+  
+  static var hadesArtemisGreen: Color {
+    Color(red: 190/255, green: 237/255, blue: 79/255)
+  }
+  
+  static var hadesAresRed: Color {
+    Color(red: 235/255, green: 74/255, blue: 64/255)
+  }
+  
+  static var spiderManTeal: Color {
+    Color(red: 16/255, green: 59/255, blue: 79/255)
+  }
+  
+  static var spiderManSkillBorder: Color {
+    Color(red: 67/255, green: 108/255, blue: 118/255)
+  }
+    
+  static var spiderManSkillFillLocked: Color {
+    Color(red: 24/255, green: 34/255, blue: 48/255)
+  }
+  
+  static var spiderManUnlockedIconFill: Color {
+    Color(red: 18/255, green: 253/255, blue: 255/255)
+  }
+    
 }

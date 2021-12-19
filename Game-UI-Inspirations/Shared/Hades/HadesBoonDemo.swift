@@ -7,11 +7,20 @@
 
 import SwiftUI
 
-struct HadesBoonDemo: View {
+class HadesBoonDemoViewModel: ObservableObject {
+  @Published private(set) var boons: [Boon] = []
+  @Published var selectedBoon: Boon?
   
-  @State private var boons: [String] = [
-    Boon.zeus, Boon.poseidon, Boon.athena, Boon.aphrodite, Boon.artemis, Boon.ares, Boon.dionysis, Boon.hermes, Boon.chaos, Boon.demeter]
-  @State private var selectedIndex = 0
+  func load() {
+    let group = [
+      Boon.zeus, Boon.poseidon, Boon.athena, Boon.aphrodite, Boon.artemis, Boon.ares, Boon.dionysis, Boon.hermes, Boon.chaos, Boon.demeter]
+    
+    boons = group.map { Boon(boon: $0) }
+  }
+}
+
+struct HadesBoonDemo: View {
+  @StateObject private var viewModel = HadesBoonDemoViewModel()
   
     var body: some View {
       GeometryReader { proxy in
@@ -21,30 +30,35 @@ struct HadesBoonDemo: View {
             .ignoresSafeArea()
           
           VStack {
-            BoonView(boon: boons[selectedIndex], color: .purple, shouldAnimate: true)
+            BoonView(boon: viewModel.selectedBoon ?? Boon(boon: Boon.zeus), color: .purple, shouldAnimate: true)
                 
-            Text("\(boons[selectedIndex])".uppercased())
+            Text("\(viewModel.selectedBoon?.boon ?? "")".uppercased())
               .font(.largeTitle)
               .foregroundColor(.primary)
               
             ScrollView(.horizontal) {
-              LazyHStack {
-                ForEach(0..<boons.count) { index in
-                  BoonView(boon: boons[index], shouldAnimate: true)
+              HStack {
+                ForEach(viewModel.boons) { item in
+                  
+                  BoonView(boon: item, shouldAnimate: true)
                     .frame(width: dim / 4, height: dim / 4)
-                      .overlay(
-                        Circle()
-                          .stroke(.purple, lineWidth: selectedIndex == index ? 5 : 0)
-                      )
+                    .overlay(
+                      Circle()
+                        .stroke(.purple, lineWidth: viewModel.selectedBoon == item ? 5 : 0)
+                    )
                     .onTapGesture {
-                      selectedIndex = index
+                      viewModel.selectedBoon = item
                     }
                 }
               }
             }
+            .padding()
           }
         }
         .frame(width: proxy.size.width, height: proxy.size.height)
+      }
+      .onAppear {
+        viewModel.load()
       }
     }
 }
