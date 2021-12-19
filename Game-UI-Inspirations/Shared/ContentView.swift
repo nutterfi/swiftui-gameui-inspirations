@@ -11,14 +11,13 @@ import Shapes
 class ContentViewModel: ObservableObject {
   @Published private(set) var titles: [String]
   init() {
-    titles = [Games.mgsv, Games.control, Games.mk11, Games.rdr2, Games.genshinImpact, Games.overwatch, Games.swtor, Games.tlou, Games.hades, Games.detroit, Games.destiny2, Games.celeste, Games.spiderMan].sorted()
+    titles = Games.all.sorted()
   }
 }
 
 struct ContentView: View {
   @StateObject private var viewModel = ContentViewModel()
   
-  // TODO: Each game should have their own navigation list inside (e.g. Control we have multiple views so make a list in the style of each game)
   func destination(for title: String) -> some View {
     return ZStack {
       switch title {
@@ -47,9 +46,10 @@ struct ContentView: View {
       case Games.celeste:
         CelesteDemo()
       case Games.spiderMan:
-        SpiderManSkillsMap()
+        SpiderManSkillsMenu(selectedSkill: SpiderManSkill.sample)
       default:
-        Circle().frame(width: .infinity, height: .infinity)
+        Circle()
+          .frame(width: .infinity, height: .infinity)
           .overlay(
             Text("ERROR\r\n Unknown Game Title")
               .foregroundColor(.white)
@@ -97,13 +97,14 @@ struct ContentView: View {
         TLOUMainMenuIcon()
           .frame(height: 120)
       case Games.spiderMan:
-        SpiderManIcon()
+        SpiderManMask()
           .background(LinearGradient(colors: [.blue, .black], startPoint: .topLeading, endPoint: .bottomTrailing))
           .frame(height: 120)
 
       default:
         Text(title)
         .font(.largeTitle)
+        .multilineTextAlignment(.center)
         .frame(maxWidth: .infinity, minHeight: 120)
         .foregroundColor(.white)
         .background(Color.blue)
@@ -126,6 +127,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
   static var previews: some View {
     ContentView()
-.previewInterfaceOrientation(.portrait)
+      .previewInterfaceOrientation(.portrait)
   }
 }
