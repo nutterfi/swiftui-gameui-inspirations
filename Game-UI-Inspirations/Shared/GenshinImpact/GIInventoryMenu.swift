@@ -29,8 +29,6 @@ struct GIInventoryMenu: View {
               }
             }
           }
-          Spacer()
-          GenshinImpactLoadingProgressBar()
         }
         
       }

@@ -28,7 +28,7 @@ struct ContentView: View {
       case Games.mk11:
         KountdownTimerDemo()
       case Games.genshinImpact:
-        GIInventoryMenu()
+        GIAchievementMenu()
       case Games.tlou:
         TLOUMenu()
       case Games.overwatch:

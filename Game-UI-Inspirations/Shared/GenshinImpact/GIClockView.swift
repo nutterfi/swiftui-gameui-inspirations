@@ -26,8 +26,6 @@ struct GIClockView: View {
             .stroke(Color.yellow.opacity(0.2), lineWidth: 3)
             .frame(width: dim * 0.75, height: dim * 0.75)
           
-
-          
           StrokeStyledCircle(numberOfSegments: 120, segmentRatio: 0.8, scale: 1, lineWidthRatio: 0.05)
             .frame(width: dim * 0.55, height: dim * 0.55)
             .foregroundColor(Color.blue.opacity(0.2))
@@ -86,9 +84,6 @@ struct GIClockView: View {
               .rotationEffect(.degrees(360 * minuteRotation), anchor: .leading)
               .offset(x: dim * 0.075, y: 0)
           }
-          
-          
-          
         }
         .frame(width: proxy.size.width, height: proxy.size.height)
       }

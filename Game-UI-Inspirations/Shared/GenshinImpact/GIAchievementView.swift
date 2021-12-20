@@ -29,8 +29,6 @@ struct GIAchievementBorder: NFiShape {
       
       path.addLine(to: CGPoint(x: path.currentPoint!.x, y: path.currentPoint!.y + cornerInset))
       
-      
-      
       path.addArc(center: path.currentPoint!.offsetBy(x: 0, y: arcRadius), radius: arcRadius, startAngle: .radians(-.pi / 2), endAngle: .zero, clockwise: false)
       
       path.addLine(to: CGPoint(x: path.currentPoint!.x + cornerInset, y: path.currentPoint!.y))
@@ -66,43 +64,47 @@ struct GIAchievementBorder: NFiShape {
       path.addArc(center: path.currentPoint!.offsetBy(x: arcRadius, y: 0), radius: arcRadius, startAngle: .radians(.pi), endAngle: .radians(-.pi / 2), clockwise: false)
       
       path.closeSubpath()
-      
     }
   }
-  
   
 }
 
 struct GIAchievementView: View {
+  var text: String
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+      GeometryReader { proxy in
+        let dim = min(proxy.size.width, proxy.size.height)
+        ZStack {
+          GIAchievementBorder()
+            .fill(Color.black.opacity(0.8))
+          GIAchievementBorder()
+            .inset(by: 8)
+            .fill(Color(red: 79/255, green: 86/255, blue: 102/255))
+          GIAchievementBorder()
+            .inset(by: 8)
+            .stroke(Color("giGold"), lineWidth: 2)
+          
+          GIAchievementBorder()
+            .inset(by: 12)
+            .stroke(Color("giGold").opacity(0.5), lineWidth: 1)
+          VStack {
+            Mora()
+              .frame(width: dim * 0.5, height: dim * 0.5)
+            Text(text)
+              .font(.system(size: dim * 0.1))
+              .foregroundColor(.white)
+              .multilineTextAlignment(.center)
+              .frame(width: dim * 0.6)
+          }
+        }
+        .frame(width: proxy.size.width, height: proxy.size.height)
+      }
     }
 }
 
 struct GIAchievementView_Previews: PreviewProvider {
     static var previews: some View {
-      ZStack {
-        GIAchievementBorder()
-          .fill(Color.black.opacity(0.8))
-        GIAchievementBorder()
-          .inset(by: 8)
-          .fill(Color(red: 79/255, green: 86/255, blue: 102/255))
-        GIAchievementBorder()
-          .inset(by: 8)
-          .stroke(Color("giGold"), lineWidth: 2)
-        
-        GIAchievementBorder()
-          .inset(by: 12)
-          .stroke(Color("giGold").opacity(0.5), lineWidth: 1)
-        VStack {
-          Mora()
-            .frame(width: 100, height: 100)
-          Text("Wonders of the World")
-            .foregroundColor(.white)
-            .multilineTextAlignment(.center)
-            .frame(width: 150)
-        }
-      }
+      GIAchievementView(text: "Wonders of the World")
       .frame(width: 200, height: 300)
       .previewLayout(.sizeThatFits)
       .background(LinearGradient(colors: [.blue, .green], startPoint: .topLeading, endPoint: .bottomTrailing))
