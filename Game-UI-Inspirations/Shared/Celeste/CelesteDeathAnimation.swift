@@ -49,7 +49,7 @@ struct CelesteDeathAnimation: View {
                             .delay(0.5)
                             .repeatForever(autoreverses: false), value: isAnimating)
                 .frame(width: frame / 2, height: frame / 2)
-                .scaleEffect(isAnimating ? 0 : 1)
+                .scaleEffect(isAnimating ? CGFloat.ulpOfOne : 1)
                 .animation(Animation.easeOut(duration: 1)
                             .delay(0.5)
                             .repeatForever(autoreverses: false), value: isAnimating)
