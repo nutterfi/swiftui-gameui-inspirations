@@ -8,11 +8,12 @@ import SwiftUI
 
 struct StrokeStyledRectangleDemo: View {
   @State private var numberOfDashes = 4.0
-  @State private var segmentRatio = 0.70
+  @State private var dashFillRatio = 0.70
   @State private var lineCap: CGLineCap = .round
   @State private var lineJoin: CGLineJoin = .miter
   @State private var lineWidthRatio = 0.01
   @State private var dashPhaseRatio: CGFloat = 0.36
+  @State private var trim: CGFloat = 0.8
 
   // TODO: Save FEATURE!
   /**
@@ -31,8 +32,8 @@ struct StrokeStyledRectangleDemo: View {
       }
       
       Group {
-        Text("segment ratio: \(String(format: "%.02f", segmentRatio))")
-        Slider(value: $segmentRatio)
+        Text("Dash fill ratio: \(String(format: "%.02f", dashFillRatio))")
+        Slider(value: $dashFillRatio)
         
         Picker("Cap", selection: $lineCap) {
           Text("Round").tag(CGLineCap.round)
@@ -50,9 +51,19 @@ struct StrokeStyledRectangleDemo: View {
         Slider(value: $lineWidthRatio)
         Text("Dash Phase Ratio: \(String(format: "%.02f", dashPhaseRatio))")
         Slider(value: $dashPhaseRatio)
+        
+        Text("Trim")
+        Slider(value: $trim)
       }
       
-      StrokeStyledRectangle(dashes: Int(numberOfDashes), dashFillRatio: segmentRatio, lineWidthRatio: lineWidthRatio, dashPhaseRatio: dashPhaseRatio, lineCap: lineCap, lineJoin: lineJoin)
+      StrokeStyledRectangle(
+        dashes: Int(numberOfDashes),
+        dashFillRatio: dashFillRatio,
+        lineWidthRatio: lineWidthRatio,
+        dashPhaseRatio: dashPhaseRatio,
+        lineCap: lineCap,
+        lineJoin: lineJoin,
+        trim: (0, trim))
         .foregroundStyle(LinearGradient(colors: [Color.blue, Color.purple], startPoint: .top, endPoint: .bottom))
 
     }

@@ -16,24 +16,29 @@ struct StrokeStyledRectangle: View {
   var dashPhaseRatio: CGFloat = 0.36
   var lineCap: CGLineCap = .round
   var lineJoin: CGLineJoin = .miter
+  var trim: (CGFloat, CGFloat) = (0, 1)
   
   var body: some View {
     
     GeometryReader { proxy in
-      let perimeter = 2 * (proxy.size.width + proxy.size.height)
+      let normalLineWidthRatio = lineWidthRatio.clamped(to: 0...CGFloat(0.5))
+      let dim = min(proxy.size.width, proxy.size.height)
+      let perimeter = 2 * (proxy.size.width + proxy.size.height) * (1 - normalLineWidthRatio)
       let strokeRatio: CGFloat =
       dashes > 0 ? perimeter / CGFloat(dashes) : 0
       ZStack {
         Rectangle()
-          .stroke(style: StrokeStyle(
-            lineWidth: 1, // linewidthratio
-            lineCap: lineCap,
-            lineJoin: lineJoin,
-            dash: [strokeRatio * dashFillRatio, strokeRatio * (1.0 - dashFillRatio)],
-            dashPhase: strokeRatio * dashPhaseRatio
+          .inset(by: dim * normalLineWidthRatio * 0.5)
+          .trim(from: trim.0, to: trim.1)
+          .stroke(
+            style: StrokeStyle(
+              lineWidth: dim * normalLineWidthRatio,
+              lineCap: lineCap,
+              lineJoin: lineJoin,
+              dash: [strokeRatio * dashFillRatio, strokeRatio * (1.0 - dashFillRatio)],
+              dashPhase: strokeRatio * dashPhaseRatio
+            )
           )
-          )
-          .frame(width: proxy.size.width, height: proxy.size.height)
       }
       .frame(width: proxy.size.width, height: proxy.size.height)
     }
@@ -43,7 +48,7 @@ struct StrokeStyledRectangle: View {
 struct StrokeStyledRectangle_Previews: PreviewProvider {
   static var previews: some View {
     StrokeStyledRectangle()
-      .padding()
       .frame(width: 256, height: 256)
+      .previewLayout(.sizeThatFits)
   }
 }
