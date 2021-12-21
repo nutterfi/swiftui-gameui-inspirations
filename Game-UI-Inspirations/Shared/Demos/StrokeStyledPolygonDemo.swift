@@ -16,6 +16,7 @@ struct StrokeStyledPolygonDemo: View {
   @State private var lineWidthRatio = 0.01
   @State private var dashPhaseRatio: CGFloat = 0.36
   @State private var density: CGFloat = 1.0
+  @State private var trim: CGFloat = 1.0
 
   // TODO: Save FEATURE!
   /**
@@ -73,10 +74,24 @@ struct StrokeStyledPolygonDemo: View {
         Slider(value: $lineWidthRatio)
         Text("Dash Phase Ratio: \(String(format: "%.02f", dashPhaseRatio))")
         Slider(value: $dashPhaseRatio)
+        
+        Text("Trim")
+        Slider(value: $trim)
       }
       
-      StrokeStyledPolygon(sides: Int(numberOfSides), dashes: Int(numberOfDashes), density: Int(density), dashFillRatio: segmentRatio, lineWidthRatio: lineWidthRatio, dashPhaseRatio: dashPhaseRatio, lineCap: lineCap, lineJoin: lineJoin)
+      StrokeStyledPolygon(
+        sides: Int(numberOfSides),
+        dashes: Int(numberOfDashes),
+        density: Int(density),
+        dashFillRatio: segmentRatio,
+        lineWidthRatio: lineWidthRatio,
+        dashPhaseRatio: dashPhaseRatio,
+        lineCap: lineCap,
+        lineJoin: lineJoin,
+        trim: (0, trim)
+      )
         .foregroundStyle(LinearGradient(colors: [Color.blue, Color.purple], startPoint: .top, endPoint: .bottom))
+        .border(Color.purple)
 
     }
     .padding()
