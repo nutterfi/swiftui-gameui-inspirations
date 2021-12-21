@@ -23,9 +23,12 @@ struct OWUltimateMeterDemo: View {
             .ignoresSafeArea()
             .opacity(0.4)
 
-          StrokeStyledCircle(numberOfSegments: 20, segmentRatio: 0.5, scale: 1, lineWidthRatio: 1, dashPhaseRatio: 0)
+          StrokeStyledCircle(
+            numberOfSegments: 20,
+            segmentRatio: 0.5,
+            lineWidthRatio: 0.5)
             .foregroundColor(.blue)
-            .scaleEffect(2)
+            .scaleEffect(2.5)
         }
         .opacity(0.1)
         

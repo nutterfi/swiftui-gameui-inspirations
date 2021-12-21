@@ -71,7 +71,7 @@ struct Destiny2FastTravelIcon: View {
 struct Destiny2FastTravelIcon_Previews: PreviewProvider {
     static var previews: some View {
       Destiny2FastTravelIcon()
-      .frame(width: 512, height: 512)
+      .frame(width: 256, height: 256)
       .previewLayout(.sizeThatFits)
     }
 }

@@ -13,22 +13,21 @@ struct OWUltimateMeter: View {
       GeometryReader { proxy in
         let dim = min(proxy.size.width, proxy.size.height)
         ZStack {
-          
-          StrokeStyledCircle(numberOfSegments: 38, segmentRatio: 0.8, lineWidthRatio: 0.11)
+          StrokeStyledCircle(numberOfSegments: 38, segmentRatio: 0.8, lineWidthRatio: 0.1)
             .rotationEffect(Angle.degrees(-90))
-            .frame(width: dim * 0.53, height: dim * 0.53)
+            .frame(width: dim * 0.6, height: dim * 0.6)
             .foregroundColor(Color.gray)
           
           // Outer circle highlighted
-          StrokeStyledCircle(numberOfSegments: 38, segmentRatio: 0.8, lineWidthRatio: 0.15, trim: [0, CGFloat(progress)])
+          StrokeStyledCircle(numberOfSegments: 38, segmentRatio: 0.8, lineWidthRatio: 0.14, trim: (0, CGFloat(progress)))
             .rotationEffect(Angle.degrees(-90))
-            .frame(width: dim * 0.51, height: dim * 0.51)
+            .frame(width: dim * 0.6, height: dim * 0.6)
             .foregroundColor(Color.yellow)
           
           StrokeStyledCircle(numberOfSegments: 18, segmentRatio: 0.85, lineWidthRatio: 0.08)
             .rotationEffect(Angle.degrees(-90))
             
-            .frame(width: dim * 0.35, height: dim * 0.35)
+            .frame(width: dim * 0.36, height: dim * 0.36)
             .foregroundColor(Color.yellow)
           
           OWUltimateMeterBorder()
@@ -37,6 +36,7 @@ struct OWUltimateMeter: View {
             Text("\(Int(progress*100))")
               .font(.custom("AvenirNextCondensed-MediumItalic", size: dim / 6))
               .kerning(0)
+              .frame(maxWidth: .infinity)
             Text("%")
               .font(.custom("AvenirNextCondensed-Italic", size: dim / 18))
               .offset(x: dim / 9, y: dim / 25)
