@@ -71,6 +71,8 @@
 		2929B8102695604600C86BBB /* FFXIVCharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2929B80F2695604600C86BBB /* FFXIVCharacterView.swift */; };
 		2929B8112695604600C86BBB /* FFXIVCharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2929B80F2695604600C86BBB /* FFXIVCharacterView.swift */; };
 		29304D2F26916F49003512A1 /* TestingTiledImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29304D2E26916F49003512A1 /* TestingTiledImageView.swift */; };
+		2933C0A62772FA470063CF78 /* DragonCurveDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2933C0A52772FA470063CF78 /* DragonCurveDemo.swift */; };
+		2933C0A72772FA470063CF78 /* DragonCurveDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2933C0A52772FA470063CF78 /* DragonCurveDemo.swift */; };
 		29350C712709930F00A2B8FA /* SpirolateralDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29350C702709930F00A2B8FA /* SpirolateralDemo.swift */; };
 		29350C722709930F00A2B8FA /* SpirolateralDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29350C702709930F00A2B8FA /* SpirolateralDemo.swift */; };
 		29351A4926CF63F00069BE75 /* RDR2AwardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29351A4826CF63F00069BE75 /* RDR2AwardViewModel.swift */; };
@@ -335,6 +337,7 @@
 		2926BCF7263529D400CEDC7E /* FireflyTail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireflyTail.swift; sourceTree = "<group>"; };
 		2929B80F2695604600C86BBB /* FFXIVCharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFXIVCharacterView.swift; sourceTree = "<group>"; };
 		29304D2E26916F49003512A1 /* TestingTiledImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingTiledImageView.swift; sourceTree = "<group>"; };
+		2933C0A52772FA470063CF78 /* DragonCurveDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonCurveDemo.swift; sourceTree = "<group>"; };
 		29350C702709930F00A2B8FA /* SpirolateralDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpirolateralDemo.swift; sourceTree = "<group>"; };
 		29351A4826CF63F00069BE75 /* RDR2AwardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDR2AwardViewModel.swift; sourceTree = "<group>"; };
 		29351A4B26CF706D0069BE75 /* RDR2Badgeable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDR2Badgeable.swift; sourceTree = "<group>"; };
@@ -659,6 +662,7 @@
 		297A96B9270D5BBA001489DF /* Demos */ = {
 			isa = PBXGroup;
 			children = (
+				2933C0A52772FA470063CF78 /* DragonCurveDemo.swift */,
 				294D37352710082700524868 /* SpirolateralAnimationDemo.swift */,
 				298CD782270FEF2900C9D6B9 /* KiteAnimationDemo.swift */,
 				298CD781270FEF2900C9D6B9 /* TesselationDemo.swift */,
@@ -1017,6 +1021,7 @@
 				2910BBE8271FD5670019329D /* PersonProfile.swift in Sources */,
 				29FADE1C269EA6E800CF6D73 /* MGSVMissionTextDemo.swift in Sources */,
 				29A22D522626E059000D9EAF /* Color+Extensions.swift in Sources */,
+				2933C0A62772FA470063CF78 /* DragonCurveDemo.swift in Sources */,
 				2950E129268C2CDC005EFAA9 /* OverwatchLogoDemo.swift in Sources */,
 				2956788B2722795400FA372A /* MasterlessStarglitter.swift in Sources */,
 				29567DB7276D80FC00946491 /* LineSegmentGroup.swift in Sources */,
@@ -1205,6 +1210,7 @@
 				295E507926B3B3EA00DA9FD4 /* RDR2AwardItem.swift in Sources */,
 				2962058026FD85DE002F9D3E /* ElevationMap.swift in Sources */,
 				298DA1C7269AAEF50054463A /* OWUltimateMeterDemo.swift in Sources */,
+				2933C0A72772FA470063CF78 /* DragonCurveDemo.swift in Sources */,
 				2952A69326DF3859007BABFC /* StarPolygonDemo.swift in Sources */,
 				297A6E3B265E02B600201D1A /* DiamondDogsLogo.swift in Sources */,
 				29A22CF82626D8C9000D9EAF /* LoadingRingsView.swift in Sources */,

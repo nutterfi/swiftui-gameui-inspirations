@@ -50,7 +50,7 @@ struct IsotoxalPolygonDemo: View {
         .padding()
         .onAppear {
           isAnimating.toggle()
-      }
+        }
       }
     }
 }
