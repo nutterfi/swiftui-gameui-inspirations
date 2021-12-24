@@ -62,32 +62,24 @@ struct ContentView: View {
   }
   
   func selectionView(for title: String) -> some View {
-    return ZStack {
+    ZStack {
       switch title {
       case Games.control:
         ControlSelectionView()
-          .frame(height: 120)
-
       case Games.mk11:
         MK11SelectionView()
-          .frame(height: 120)
       case Games.overwatch:
         OverwatchIcon(primary: Color.white, secondary: Color.orange)
           .padding(5)
           .background(Color.black)
-          .frame(height: 120)
-        
       case Games.swtor:
         SWTOREmpireLogo(color: Color.purple)
           .padding(5)
           .background(Color.black)
-          .frame(height: 120)
       case Games.rdr2:
         RDR2ShowdownTitle(title: "RDR2")
-          .frame(height: 120)
       case Games.genshinImpact:
         GIItemRarityBackground(rarity: .four)
-          .frame(height: 120)
           .overlay(
             Text("Genshin Impact")
               .font(.custom("GillSans", size: 24))
@@ -95,11 +87,9 @@ struct ContentView: View {
           )
       case Games.tlou:
         TLOUMainMenuIcon()
-          .frame(height: 120)
       case Games.spiderMan:
         SpiderManMask()
           .background(LinearGradient(colors: [.blue, .black], startPoint: .topLeading, endPoint: .bottomTrailing))
-          .frame(height: 120)
 
       default:
         Text(title)
@@ -110,16 +100,16 @@ struct ContentView: View {
         .background(Color.blue)
       }
     }
+    .frame(height: 120)
   }
   
   var body: some View {
     NavigationView {
-      List(viewModel.titles, id: \.self) { data in
-        NavigationLink(destination: destination(for: data)) {
-          selectionView(for: data)
+      List(viewModel.titles, id: \.self) { title in
+        NavigationLink(destination: destination(for: title)) {
+          selectionView(for: title)
         }
       }
-      .navigationTitle("Games")
     }
   }
 }
