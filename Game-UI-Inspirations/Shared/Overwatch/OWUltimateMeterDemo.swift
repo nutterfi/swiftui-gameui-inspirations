@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Shapes
 
 struct OWUltimateMeterDemo: View {
   @State private var progress: Float = 0

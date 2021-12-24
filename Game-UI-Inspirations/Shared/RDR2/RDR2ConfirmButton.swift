@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Shapes
 
 struct RDR2ConfirmButtonDemo: View {
   @State private var progress: Float = 0.0

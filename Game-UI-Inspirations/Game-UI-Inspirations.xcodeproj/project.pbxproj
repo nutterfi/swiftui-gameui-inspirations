@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		2906484F26FAD6CF009A20A1 /* DBHTitleScreenMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2906484E26FAD6CF009A20A1 /* DBHTitleScreenMenuItem.swift */; };
 		2906485026FAD6CF009A20A1 /* DBHTitleScreenMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2906484E26FAD6CF009A20A1 /* DBHTitleScreenMenuItem.swift */; };
-		2906485226FAD748009A20A1 /* StrokeStyledRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2906485126FAD748009A20A1 /* StrokeStyledRectangle.swift */; };
-		2906485326FAD748009A20A1 /* StrokeStyledRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2906485126FAD748009A20A1 /* StrokeStyledRectangle.swift */; };
 		2906485526FAD882009A20A1 /* StrokeStyledRectangleDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2906485426FAD882009A20A1 /* StrokeStyledRectangleDemo.swift */; };
 		2906485626FAD882009A20A1 /* StrokeStyledRectangleDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2906485426FAD882009A20A1 /* StrokeStyledRectangleDemo.swift */; };
 		2906F21826D603A500E38EFF /* TextEffectViewDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2906F21726D603A500E38EFF /* TextEffectViewDemo.swift */; };
@@ -56,8 +54,6 @@
 		29188619272511E50060E33C /* RDR2RevolverLoadingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29188618272511E50060E33C /* RDR2RevolverLoadingAnimation.swift */; };
 		2918861A272511E50060E33C /* RDR2RevolverLoadingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29188618272511E50060E33C /* RDR2RevolverLoadingAnimation.swift */; };
 		291A07E026BA4A3E000F4590 /* SWTORLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291A07DF26BA4A3E000F4590 /* SWTORLogo.swift */; };
-		291A07E226BA50B8000F4590 /* StrokeStyledPolygon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291A07E126BA50B8000F4590 /* StrokeStyledPolygon.swift */; };
-		291A07E326BA50B8000F4590 /* StrokeStyledPolygon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291A07E126BA50B8000F4590 /* StrokeStyledPolygon.swift */; };
 		291A07E526BA5257000F4590 /* StrokeStyledPolygonDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291A07E426BA5257000F4590 /* StrokeStyledPolygonDemo.swift */; };
 		291A07E626BA5257000F4590 /* StrokeStyledPolygonDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291A07E426BA5257000F4590 /* StrokeStyledPolygonDemo.swift */; };
 		29230B3F26A1460C00A052E7 /* AthenaBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29230B3E26A1460C00A052E7 /* AthenaBoon.swift */; };
@@ -85,8 +81,6 @@
 		2936E04F27707CDF0075FADF /* GIAchievementMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2936E04D27707CDF0075FADF /* GIAchievementMenu.swift */; };
 		2939687426BCFA7D00B08586 /* RDR2AwardBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2939687326BCFA7D00B08586 /* RDR2AwardBadge.swift */; };
 		2939687526BCFA7D00B08586 /* RDR2AwardBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2939687326BCFA7D00B08586 /* RDR2AwardBadge.swift */; };
-		29415858269D33E70072A007 /* StrokeStyledCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29415857269D33E70072A007 /* StrokeStyledCircle.swift */; };
-		29415859269D33E70072A007 /* StrokeStyledCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29415857269D33E70072A007 /* StrokeStyledCircle.swift */; };
 		29421CA127192C6900CBEDBB /* GIItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29421CA027192C6900CBEDBB /* GIItem.swift */; };
 		29421CA227192C6900CBEDBB /* GIItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29421CA027192C6900CBEDBB /* GIItem.swift */; };
 		29421CA427192FC600CBEDBB /* GIRewardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29421CA327192FC600CBEDBB /* GIRewardItem.swift */; };
@@ -305,7 +299,6 @@
 
 /* Begin PBXFileReference section */
 		2906484E26FAD6CF009A20A1 /* DBHTitleScreenMenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBHTitleScreenMenuItem.swift; sourceTree = "<group>"; };
-		2906485126FAD748009A20A1 /* StrokeStyledRectangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrokeStyledRectangle.swift; sourceTree = "<group>"; };
 		2906485426FAD882009A20A1 /* StrokeStyledRectangleDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrokeStyledRectangleDemo.swift; sourceTree = "<group>"; };
 		2906F21726D603A500E38EFF /* TextEffectViewDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEffectViewDemo.swift; sourceTree = "<group>"; };
 		290B177227572D590075AE24 /* SpiderManMask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiderManMask.swift; sourceTree = "<group>"; };
@@ -329,7 +322,6 @@
 		29188615272505320060E33C /* RDR2Revolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDR2Revolver.swift; sourceTree = "<group>"; };
 		29188618272511E50060E33C /* RDR2RevolverLoadingAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDR2RevolverLoadingAnimation.swift; sourceTree = "<group>"; };
 		291A07DF26BA4A3E000F4590 /* SWTORLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWTORLogo.swift; sourceTree = "<group>"; };
-		291A07E126BA50B8000F4590 /* StrokeStyledPolygon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeStyledPolygon.swift; sourceTree = "<group>"; };
 		291A07E426BA5257000F4590 /* StrokeStyledPolygonDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeStyledPolygonDemo.swift; sourceTree = "<group>"; };
 		29230B3E26A1460C00A052E7 /* AthenaBoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthenaBoon.swift; sourceTree = "<group>"; };
 		2926BCED2635225100CEDC7E /* FireflyPendant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireflyPendant.swift; sourceTree = "<group>"; };
@@ -344,7 +336,6 @@
 		2935A9DF27169EAE0043F964 /* GISelectionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GISelectionItem.swift; sourceTree = "<group>"; };
 		2936E04D27707CDF0075FADF /* GIAchievementMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIAchievementMenu.swift; sourceTree = "<group>"; };
 		2939687326BCFA7D00B08586 /* RDR2AwardBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDR2AwardBadge.swift; sourceTree = "<group>"; };
-		29415857269D33E70072A007 /* StrokeStyledCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeStyledCircle.swift; sourceTree = "<group>"; };
 		29421CA027192C6900CBEDBB /* GIItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIItem.swift; sourceTree = "<group>"; };
 		29421CA327192FC600CBEDBB /* GIRewardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIRewardItem.swift; sourceTree = "<group>"; };
 		29421CA62719325800CBEDBB /* GIItemRarityBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIItemRarityBackground.swift; sourceTree = "<group>"; };
@@ -866,9 +857,6 @@
 				2910BBE7271FD5670019329D /* PersonProfile.swift */,
 				29A22D382626DFF3000D9EAF /* ProgressBar.swift */,
 				29816B6B263BBF1E0016F1BA /* Rustify.swift */,
-				29415857269D33E70072A007 /* StrokeStyledCircle.swift */,
-				2906485126FAD748009A20A1 /* StrokeStyledRectangle.swift */,
-				291A07E126BA50B8000F4590 /* StrokeStyledPolygon.swift */,
 				29FADE15269E99E400CF6D73 /* TypewriterTextView.swift */,
 				29FADE18269EA23000CF6D73 /* TypewriterTextViewModel.swift */,
 				29304D2E26916F49003512A1 /* TestingTiledImageView.swift */,
@@ -1004,7 +992,6 @@
 				290BBC3126CCC06F004D57D9 /* TextEffectView.swift in Sources */,
 				29A22D182626DC60000D9EAF /* KombatKardContentView.swift in Sources */,
 				295FECD226D89D5400C70220 /* RDR2ConfirmButton.swift in Sources */,
-				2906485226FAD748009A20A1 /* StrokeStyledRectangle.swift in Sources */,
 				2950E127268C24B4005EFAA9 /* OverwatchIcon.swift in Sources */,
 				295678852722636C00FA372A /* Mora.swift in Sources */,
 				29A13505270D49F900F19B6F /* RDR2ShowdownTitle.swift in Sources */,
@@ -1039,7 +1026,6 @@
 				29A22D3B2626DFF3000D9EAF /* ProgressBar.swift in Sources */,
 				29A22D1C2626DC60000D9EAF /* KountdownTimerViewModel.swift in Sources */,
 				29AF0323273B83EA00B5BA4B /* View+Extensions.swift in Sources */,
-				29415858269D33E70072A007 /* StrokeStyledCircle.swift in Sources */,
 				297DC70C265A106800980DDE /* MGSVLoadingView.swift in Sources */,
 				298FE2FF264B8F1C00BBC02A /* SkillHealingSpeed.swift in Sources */,
 				291026FF263E62EE00418FE1 /* BoonView.swift in Sources */,
@@ -1047,7 +1033,6 @@
 				29230B3F26A1460C00A052E7 /* AthenaBoon.swift in Sources */,
 				29FADE16269E99E400CF6D73 /* TypewriterTextView.swift in Sources */,
 				2910377B275C745A00A9EEB6 /* LongPressProgressView.swift in Sources */,
-				291A07E226BA50B8000F4590 /* StrokeStyledPolygon.swift in Sources */,
 				29FADE19269EA23000CF6D73 /* TypewriterTextViewModel.swift in Sources */,
 				29EEFDD1276EFAA300290CA2 /* Spider.swift in Sources */,
 				29D0110E2759D014002E393B /* SpiderManSkillsMenu.swift in Sources */,
@@ -1177,7 +1162,6 @@
 				297DC70D265A106800980DDE /* MGSVLoadingView.swift in Sources */,
 				290B5CF8268ED22C00EB93BD /* HadesBoonDemo.swift in Sources */,
 				2936E04F27707CDF0075FADF /* GIAchievementMenu.swift in Sources */,
-				29415859269D33E70072A007 /* StrokeStyledCircle.swift in Sources */,
 				298FE300264B8F1C00BBC02A /* SkillHealingSpeed.swift in Sources */,
 				290BBC3226CCC06F004D57D9 /* TextEffectView.swift in Sources */,
 				29D011122759EAA1002E393B /* SpiderManSkillModel.swift in Sources */,
@@ -1186,7 +1170,6 @@
 				29E7056B271BF39800D6B9CC /* IsotoxalPolygonDemo.swift in Sources */,
 				29155FF4272BA64800BA2FE4 /* TLOUMenu.swift in Sources */,
 				2911E5112737870C00F3E967 /* RDR2HUDCoreView.swift in Sources */,
-				2906485326FAD748009A20A1 /* StrokeStyledRectangle.swift in Sources */,
 				2956788927226CB500FA372A /* MasterlessStardust.swift in Sources */,
 				29188617272505320060E33C /* RDR2Revolver.swift in Sources */,
 				29AF0324273B83EA00B5BA4B /* View+Extensions.swift in Sources */,
@@ -1265,7 +1248,6 @@
 				29A22CF62626D8C9000D9EAF /* LoadingRingsViewModel.swift in Sources */,
 				296C7F522706B35D00BFACC1 /* DBHLoadingView.swift in Sources */,
 				29155FF1272BA2D500BA2FE4 /* TLOUMainMenuIcon.swift in Sources */,
-				291A07E326BA50B8000F4590 /* StrokeStyledPolygon.swift in Sources */,
 				29AF0320273B7F9D00B5BA4B /* RDR2HUD.swift in Sources */,
 				295678862722636C00FA372A /* Mora.swift in Sources */,
 				29C11DEA27630F0300D0CA09 /* SpiderManSkillView.swift in Sources */,

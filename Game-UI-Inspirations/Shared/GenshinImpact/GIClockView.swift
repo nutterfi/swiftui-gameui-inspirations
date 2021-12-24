@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Shapes
 
 struct GIClockView: View {
   // normalized rotation from 0 to 1

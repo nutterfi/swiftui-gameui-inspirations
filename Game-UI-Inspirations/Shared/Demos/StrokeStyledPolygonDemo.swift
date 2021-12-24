@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Shapes
 
 struct StrokeStyledPolygonDemo: View {
   @State private var numberOfSides = 6.0

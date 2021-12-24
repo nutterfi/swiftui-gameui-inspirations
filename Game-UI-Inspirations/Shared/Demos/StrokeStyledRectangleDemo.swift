@@ -5,6 +5,7 @@
 //
 
 import SwiftUI
+import Shapes
 
 struct StrokeStyledRectangleDemo: View {
   @State private var numberOfDashes = 4.0

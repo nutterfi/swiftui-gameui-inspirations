@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Shapes
 
 struct StrokeStyledCircleDemo: View {
   @State private var numberOfSegments = 10.0

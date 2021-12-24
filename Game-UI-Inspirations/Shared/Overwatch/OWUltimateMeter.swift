@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Shapes
 
 struct OWUltimateMeter: View {
   @Binding var progress: Float
