@@ -56,6 +56,10 @@
 		291A07E026BA4A3E000F4590 /* SWTORLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291A07DF26BA4A3E000F4590 /* SWTORLogo.swift */; };
 		291A07E526BA5257000F4590 /* StrokeStyledPolygonDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291A07E426BA5257000F4590 /* StrokeStyledPolygonDemo.swift */; };
 		291A07E626BA5257000F4590 /* StrokeStyledPolygonDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291A07E426BA5257000F4590 /* StrokeStyledPolygonDemo.swift */; };
+		2920DB582785540E00DE5BEE /* PorterGradeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2920DB572785540E00DE5BEE /* PorterGradeView.swift */; };
+		2920DB592785540E00DE5BEE /* PorterGradeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2920DB572785540E00DE5BEE /* PorterGradeView.swift */; };
+		2920DB5B278566EB00DE5BEE /* TwoTonedIsotoxalPolygon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2920DB5A278566EB00DE5BEE /* TwoTonedIsotoxalPolygon.swift */; };
+		2920DB5C278566EB00DE5BEE /* TwoTonedIsotoxalPolygon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2920DB5A278566EB00DE5BEE /* TwoTonedIsotoxalPolygon.swift */; };
 		29230B3F26A1460C00A052E7 /* AthenaBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29230B3E26A1460C00A052E7 /* AthenaBoon.swift */; };
 		29230B4026A1460C00A052E7 /* AthenaBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29230B3E26A1460C00A052E7 /* AthenaBoon.swift */; };
 		2926BCEE2635225100CEDC7E /* FireflyPendant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2926BCED2635225100CEDC7E /* FireflyPendant.swift */; };
@@ -331,6 +335,8 @@
 		29188618272511E50060E33C /* RDR2RevolverLoadingAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDR2RevolverLoadingAnimation.swift; sourceTree = "<group>"; };
 		291A07DF26BA4A3E000F4590 /* SWTORLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWTORLogo.swift; sourceTree = "<group>"; };
 		291A07E426BA5257000F4590 /* StrokeStyledPolygonDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeStyledPolygonDemo.swift; sourceTree = "<group>"; };
+		2920DB572785540E00DE5BEE /* PorterGradeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PorterGradeView.swift; sourceTree = "<group>"; };
+		2920DB5A278566EB00DE5BEE /* TwoTonedIsotoxalPolygon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoTonedIsotoxalPolygon.swift; sourceTree = "<group>"; };
 		29230B3E26A1460C00A052E7 /* AthenaBoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthenaBoon.swift; sourceTree = "<group>"; };
 		2926BCED2635225100CEDC7E /* FireflyPendant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireflyPendant.swift; sourceTree = "<group>"; };
 		2926BCF22635260D00CEDC7E /* FireflyWing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireflyWing.swift; sourceTree = "<group>"; };
@@ -559,6 +565,7 @@
 			children = (
 				2948EF08277ED33E00966236 /* DeathStrandingTitle.swift */,
 				29EF029027816DF30029C67B /* DeathStrandAnimation.swift */,
+				2920DB572785540E00DE5BEE /* PorterGradeView.swift */,
 			);
 			path = DeathStranding;
 			sourceTree = "<group>";
@@ -886,6 +893,7 @@
 				290BBC3026CCC06F004D57D9 /* TextEffectView.swift */,
 				290BBC3326CCC8AA004D57D9 /* TextEffectViewModel.swift */,
 				29BCCFB6277C2AD90055DE94 /* CircularText.swift */,
+				2920DB5A278566EB00DE5BEE /* TwoTonedIsotoxalPolygon.swift */,
 			);
 			path = Reusable;
 			sourceTree = "<group>";
@@ -1060,6 +1068,7 @@
 				29230B3F26A1460C00A052E7 /* AthenaBoon.swift in Sources */,
 				29FADE16269E99E400CF6D73 /* TypewriterTextView.swift in Sources */,
 				2910377B275C745A00A9EEB6 /* LongPressProgressView.swift in Sources */,
+				2920DB5B278566EB00DE5BEE /* TwoTonedIsotoxalPolygon.swift in Sources */,
 				29FADE19269EA23000CF6D73 /* TypewriterTextViewModel.swift in Sources */,
 				29EEFDD1276EFAA300290CA2 /* Spider.swift in Sources */,
 				29D0110E2759D014002E393B /* SpiderManSkillsMenu.swift in Sources */,
@@ -1132,6 +1141,7 @@
 				29304D2F26916F49003512A1 /* TestingTiledImageView.swift in Sources */,
 				29A22D4B2626E041000D9EAF /* MinimapModel.swift in Sources */,
 				29C11DE327630B6D00D0CA09 /* SpiderManSkillDetailView.swift in Sources */,
+				2920DB582785540E00DE5BEE /* PorterGradeView.swift in Sources */,
 				2911E5102737870C00F3E967 /* RDR2HUDCoreView.swift in Sources */,
 				29A22CFD2626D8C9000D9EAF /* ConsummateV.swift in Sources */,
 				298CD783270FEF2900C9D6B9 /* TesselationDemo.swift in Sources */,
@@ -1194,6 +1204,8 @@
 				290BBC3226CCC06F004D57D9 /* TextEffectView.swift in Sources */,
 				29D011122759EAA1002E393B /* SpiderManSkillModel.swift in Sources */,
 				29FC00042703A8DE00900F5B /* DBHTitleScreenMenu.swift in Sources */,
+				2920DB5C278566EB00DE5BEE /* TwoTonedIsotoxalPolygon.swift in Sources */,
+				2920DB592785540E00DE5BEE /* PorterGradeView.swift in Sources */,
 				2935A9E127169EAE0043F964 /* GISelectionItem.swift in Sources */,
 				29E7056B271BF39800D6B9CC /* IsotoxalPolygonDemo.swift in Sources */,
 				29155FF4272BA64800BA2FE4 /* TLOUMenu.swift in Sources */,
