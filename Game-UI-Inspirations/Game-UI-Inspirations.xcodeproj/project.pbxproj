@@ -273,6 +273,9 @@
 		29C9019026A7D85500AA9619 /* OWUltimateReadyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C9018E26A7D85500AA9619 /* OWUltimateReadyView.swift */; };
 		29C9019226A801A400AA9619 /* OWUltimateMeterBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C9019126A801A400AA9619 /* OWUltimateMeterBorder.swift */; };
 		29C9019326A801A400AA9619 /* OWUltimateMeterBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C9019126A801A400AA9619 /* OWUltimateMeterBorder.swift */; };
+		29CA754327912F8800298F47 /* Persona5AnimatedMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CA754227912F8800298F47 /* Persona5AnimatedMenu.swift */; };
+		29CA75452791378A00298F47 /* TextShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CA75442791378A00298F47 /* TextShape.swift */; };
+		29CA75462791378A00298F47 /* TextShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CA75442791378A00298F47 /* TextShape.swift */; };
 		29D0110E2759D014002E393B /* SpiderManSkillsMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D0110D2759D014002E393B /* SpiderManSkillsMenu.swift */; };
 		29D0110F2759D014002E393B /* SpiderManSkillsMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D0110D2759D014002E393B /* SpiderManSkillsMenu.swift */; };
 		29D011112759EAA1002E393B /* SpiderManSkillModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D011102759EAA1002E393B /* SpiderManSkillModel.swift */; };
@@ -449,6 +452,8 @@
 		29C71B29276C064300CAFA70 /* LongPressHoldable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressHoldable.swift; sourceTree = "<group>"; };
 		29C9018E26A7D85500AA9619 /* OWUltimateReadyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OWUltimateReadyView.swift; sourceTree = "<group>"; };
 		29C9019126A801A400AA9619 /* OWUltimateMeterBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OWUltimateMeterBorder.swift; sourceTree = "<group>"; };
+		29CA754227912F8800298F47 /* Persona5AnimatedMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persona5AnimatedMenu.swift; sourceTree = "<group>"; };
+		29CA75442791378A00298F47 /* TextShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextShape.swift; sourceTree = "<group>"; };
 		29D0110D2759D014002E393B /* SpiderManSkillsMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiderManSkillsMenu.swift; sourceTree = "<group>"; };
 		29D011102759EAA1002E393B /* SpiderManSkillModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiderManSkillModel.swift; sourceTree = "<group>"; };
 		29D2AEBD26AA7821005A35D1 /* ArtemisBoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtemisBoon.swift; sourceTree = "<group>"; };
@@ -623,6 +628,7 @@
 				297DC708265A0F0700980DDE /* MGSV */,
 				29A22CBB2626D279000D9EAF /* MK11 */,
 				2950E125268C2499005EFAA9 /* Overwatch */,
+				29CA754127912F5D00298F47 /* Persona5 */,
 				29A22CBC2626D27F000D9EAF /* RDR2 */,
 				290B177127572D3E0075AE24 /* SpiderMan */,
 				291A07DE26BA4A24000F4590 /* SWTOR */,
@@ -894,8 +900,17 @@
 				290BBC3326CCC8AA004D57D9 /* TextEffectViewModel.swift */,
 				29BCCFB6277C2AD90055DE94 /* CircularText.swift */,
 				2920DB5A278566EB00DE5BEE /* TwoTonedIsotoxalPolygon.swift */,
+				29CA75442791378A00298F47 /* TextShape.swift */,
 			);
 			path = Reusable;
+			sourceTree = "<group>";
+		};
+		29CA754127912F5D00298F47 /* Persona5 */ = {
+			isa = PBXGroup;
+			children = (
+				29CA754227912F8800298F47 /* Persona5AnimatedMenu.swift */,
+			);
+			path = Persona5;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1054,6 +1069,7 @@
 				29813985263287BA00009D7B /* POIMarker.swift in Sources */,
 				29B98CB426B1118500E1B7FF /* GIClockView.swift in Sources */,
 				29150B1D26B653F500106A45 /* HermesBoon.swift in Sources */,
+				29CA754327912F8800298F47 /* Persona5AnimatedMenu.swift in Sources */,
 				29102706263E673300418FE1 /* ZeusBoon.swift in Sources */,
 				29AFD3942764595700493800 /* SpiderManSkill.swift in Sources */,
 				29BB327C265E0C3F00C3CCFE /* DiamondDog.swift in Sources */,
@@ -1140,6 +1156,7 @@
 				295794742650D8DE00BDDE3A /* SkillIcon.swift in Sources */,
 				29304D2F26916F49003512A1 /* TestingTiledImageView.swift in Sources */,
 				29A22D4B2626E041000D9EAF /* MinimapModel.swift in Sources */,
+				29CA75452791378A00298F47 /* TextShape.swift in Sources */,
 				29C11DE327630B6D00D0CA09 /* SpiderManSkillDetailView.swift in Sources */,
 				2920DB582785540E00DE5BEE /* PorterGradeView.swift in Sources */,
 				2911E5102737870C00F3E967 /* RDR2HUDCoreView.swift in Sources */,
@@ -1174,6 +1191,7 @@
 				2918861A272511E50060E33C /* RDR2RevolverLoadingAnimation.swift in Sources */,
 				298CD784270FEF2900C9D6B9 /* TesselationDemo.swift in Sources */,
 				29922ACE2633D2FA002469C2 /* MK11Left.swift in Sources */,
+				29CA75462791378A00298F47 /* TextShape.swift in Sources */,
 				2910F3E7269801F7008475D6 /* AphroditeBoon.swift in Sources */,
 				298DA1C4269AA4CC0054463A /* OWUltimateMeter.swift in Sources */,
 				29EEFDCF276EEA7400290CA2 /* SpiderManSkillLoadingView.swift in Sources */,
