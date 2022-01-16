@@ -47,6 +47,8 @@ struct ContentView: View {
         CelesteDemo()
       case Games.spiderMan:
         SpiderManSkillsMenu(selectedSkill: SpiderManSkill.sample)
+      case Games.persona5:
+        Persona5AnimatedMenu()
       default:
         Circle()
           .frame(width: .infinity, height: .infinity)
@@ -90,7 +92,10 @@ struct ContentView: View {
       case Games.spiderMan:
         SpiderManMask()
           .background(LinearGradient(colors: [.blue, .black], startPoint: .topLeading, endPoint: .bottomTrailing))
-
+      case Games.persona5:
+        Persona5MenuItem(text: "Persona5")
+          .background(Color.red)
+        .frame(maxWidth: .infinity, minHeight: 120)
       default:
         Text(title)
         .font(.largeTitle)
