@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum SpiderManSkillType {
+enum SpiderManSkillType: String {
   case venom
   case combat
   case camoflauge

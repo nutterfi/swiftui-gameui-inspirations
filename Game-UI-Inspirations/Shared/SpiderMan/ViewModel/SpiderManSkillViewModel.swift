@@ -9,7 +9,8 @@ import Foundation
 import Combine
 
 class SpiderManSkillViewModel: ObservableObject {
-  @Published var model: SpiderManSkillModel
+  @Published private(set) var model: SpiderManSkillModel
+  @Published private(set) var selectedSkillId: String = SpiderManSkill.sample.id
   
   init() {
     model = SpiderManSkillModel()
@@ -29,9 +30,25 @@ class SpiderManSkillViewModel: ObservableObject {
     return blob
   }
   
-  // TODO: Grab meaningful data from the model
-  private func blob(with id: String) -> SpiderManSkillState? {
-      return nil
+  func skillState(with id: String) -> SpiderManSkillState? {
+    model.skills[id]
+  }
+  
+  func selectSkill(id: String) {
+    selectedSkillId = id
+  }
+  
+  func skillStates(skillType: SpiderManSkillType) -> [SpiderManSkillState] {
+    let skills: [SpiderManSkillState]
+    switch skillType {
+    case .venom:
+      skills = model.venomTree.skills
+    case .combat:
+      skills = model.combatTree.skills
+    case .camoflauge:
+      skills = model.cloakTree.skills
+    }
+    return skills
   }
   
 }

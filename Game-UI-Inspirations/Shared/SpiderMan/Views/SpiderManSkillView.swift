@@ -11,6 +11,8 @@ import Shapes
 /// visualization of a single skill 
 struct SpiderManSkillView: View {
   var skill: SpiderManSkillState
+  var selected = false
+  @State private var animating = false
   
   /// the background shape is determined by the skill type
   func sides(with type: SpiderManSkillType) -> Int {
@@ -50,9 +52,27 @@ struct SpiderManSkillView: View {
         )
           .frame(width: dim * 0.6, height: dim * 0.6)
           .opacity(skill.availability == .hidden ? 0.0 : 1.0)
+        
+        
       }
       .frame(width: proxy.size.width, height: proxy.size.height)
+      .background(
+        Circle()
+          .opacity(selected ? 1 : 0)
+          .scaleEffect(animating ? 1.25 : 1)
+          .blur(radius: 2)
+          .foregroundColor(Color.white.opacity(0.3))
+          .animation(
+            Animation.easeInOut(duration: 1)
+              .repeatForever(autoreverses: true),
+            value: animating
+          )
+          .onAppear {
+            animating.toggle()
+          }
+      )
     }
+    
   }
 }
 
@@ -68,7 +88,8 @@ struct SpiderManSkillView_Previews: PreviewProvider {
             requiredSkillIds: [],
             cost: 1),
           availability: .locked
-        )
+        ),
+        selected: true
       )
 
       SpiderManSkillView(
@@ -106,6 +127,7 @@ struct SpiderManSkillView_Previews: PreviewProvider {
       )
     }
     .frame(width: 256, height: 256)
+    .background(Color.spiderManTeal)
     .previewLayout(.sizeThatFits)
   }
 }

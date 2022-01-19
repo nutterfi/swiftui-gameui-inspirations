@@ -8,14 +8,14 @@
 import SwiftUI
 
 struct SpiderManSkillTreeView: View {
-  @Binding var model: SpiderManSkillModel
-  
+  @ObservedObject var viewModel: SpiderManSkillViewModel
   @StateObject private var progressModel = LongPressHoldModel()
   
-  @State private var selectedSkill: SpiderManSkill?
-  
-  let lateralOffset = 0.3
+  var skillType: SpiderManSkillType
     
+  let lateralOffset = 0.3
+  
+  // relative positions of each skill view
   var points: [CGPoint] {
     [
       CGPoint(x: 0, y: 0.4), // tier 1
@@ -42,14 +42,16 @@ struct SpiderManSkillTreeView: View {
     ]
   }
   
+  /// used to visualize long press and hold to unlock a skill
+  ///  identifier needs to match the viewModel's selected skill to show progress in an overlay
   func overlay(with identifier: String) -> some View {
     Group {
         MaskedProgressBar(
-          progress: identifier == selectedSkill?.id ? Float(progressModel.progress) : 0,
+          progress: identifier == viewModel.selectedSkillId ? Float(progressModel.progress) : 0,
           backView: Color.clear,
           frontView: Color.yellow,
           mask: SpiderManSkillView(
-            skill: model.skills["venom2"]! // FIXME: Unique identifiers man!
+            skill:  viewModel.skillState(with: viewModel.selectedSkillId)!
           )
             .rotationEffect(.degrees(-90))
         )
@@ -68,12 +70,18 @@ struct SpiderManSkillTreeView: View {
           .stroke(Color.spiderManUnlockedIconFill, lineWidth: 3)
           .offset(x: proxy.size.width * 0.5, y: proxy.size.height * 0.5)
         
-        // TODO: Unique Skills!
-        ForEach(0..<points.count) { index in
-          SpiderManSkillView(skill: model.skills["venom2"]!)
+        let skillStates = viewModel.skillStates(skillType: skillType)
+        
+        ForEach(0..<skillStates.count) { index in
+          let skillState = skillStates[index]
+          let identifier = skillState.skill.id
+          SpiderManSkillView(
+            skill: skillState,
+            selected: identifier == viewModel.selectedSkillId
+          )
             .frame(width: skillViewFrame, height: skillViewFrame)
             .overlay(
-              overlay(with: model.skills["venom2"]?.skill.id ?? "venom2")
+              overlay(with: identifier)
             )
             .offset(x: points[index].x * dim, y: points[index].y * height)
             .longPressHoldable { state in
@@ -103,8 +111,12 @@ extension SpiderManSkillModel {
 
 struct SpiderManSkillTreeView_Previews: PreviewProvider {
   static var previews: some View {
-    SpiderManSkillTreeView(model: .constant(SpiderManSkillModel.sample))
-      .frame(width: 256, height: 256)
+    ZStack {
+      Color.black.ignoresSafeArea()
+      Color.spiderManTeal.opacity(0.1).ignoresSafeArea()
+      SpiderManSkillTreeView(viewModel: SpiderManSkillViewModel(), skillType: .combat)
+        .frame(width: 256, height: 256)
       .previewLayout(.sizeThatFits)
+    }
   }
 }

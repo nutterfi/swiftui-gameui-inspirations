@@ -8,9 +8,10 @@
 
 /**
  TODO
- Top-level view owns a selected SpiderManSkill
- this is passed down to its child views via Bindings
- as the selected skill changes from interacting with the skilltreeview, the tooltip should also update
+ Top-level view SpiderManSkillsMenu owns a selected SpiderManSkill - DONE
+ this is passed down to its child views via Bindings // IN PROGRESS
+ // right now the view model is passed down
+ as the selected skill changes from interacting with the skilltreeview, the tooltip should also update // IN PROGRESS
  */
 
 import SwiftUI
@@ -19,7 +20,6 @@ import Shapes
 struct SpiderManSkillsMenu: View {
   @StateObject private var viewModel = SpiderManSkillViewModel()
   
-  var selectedSkill: SpiderManSkill
   var body: some View {
     GeometryReader { proxy in
       let dim = min(proxy.size.width, proxy.size.height)
@@ -28,7 +28,7 @@ struct SpiderManSkillsMenu: View {
         SpiderManSkillsMap(viewModel: viewModel)
           .frame(width: proxy.size.width * 0.75, height: proxy.size.height * 0.7)
           .offset(x: -dim * 0.1, y: dim * 0.01)
-        
+        let selectedSkill = viewModel.skillState(with: viewModel.selectedSkillId)?.skill ?? SpiderManSkill.sample
         SpiderManSkillDetailView(skill: selectedSkill)
           .frame(width: proxy.size.width * 0.25, height: proxy.size.height * 0.65)
           .offset(x: proxy.size.width * 0.35, y: -proxy.size.height * 0.1)
@@ -49,18 +49,18 @@ struct SpiderManSkillsMap: View {
       ZStack {
         SpiderManSkillTreeWeb(sides: sides)
         
-        SpiderManSkillTreeView(model: $viewModel.model)
+        SpiderManSkillTreeView(viewModel: viewModel, skillType: .venom)
           .foregroundColor(Color.spiderManTeal)
           .frame(width: dim * 0.5, height: dim * 0.6)
           .offset(x: 0, y: -dim * 0.17)
         
-        SpiderManSkillTreeView(model: $viewModel.model)
+        SpiderManSkillTreeView(viewModel: viewModel, skillType: .camoflauge)
           .foregroundColor(Color.spiderManTeal)
           .frame(width: dim * 0.5, height: dim * 0.6)
           .rotationEffect(.degrees(60))
           .offset(x: dim * 0.57, y: dim * 0.17)
         
-        SpiderManSkillTreeView(model: $viewModel.model)
+        SpiderManSkillTreeView(viewModel: viewModel, skillType: .combat)
           .foregroundColor(Color.spiderManTeal)
           .frame(width: dim * 0.5, height: dim * 0.6)
           .rotationEffect(.degrees(-60))
@@ -73,7 +73,7 @@ struct SpiderManSkillsMap: View {
 
 struct SpiderManSkillMenu_Previews: PreviewProvider {
   static var previews: some View {
-    SpiderManSkillsMenu(selectedSkill: SpiderManSkill.sample)
+    SpiderManSkillsMenu()
       .previewInterfaceOrientation(.landscapeLeft)
   }
 }

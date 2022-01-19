@@ -152,7 +152,6 @@ struct SpiderManSkillLoadingView: View {
 struct SpiderManSkillLoadingView_Previews: PreviewProvider {
   static var previews: some View {
     SpiderManSkillLoadingView()
-    .frame(width: 512, height: 512)
-    .border(Color.purple)
+    .background(Color.spiderManTeal)
   }
 }
