@@ -17,19 +17,6 @@ class SpiderManSkillViewModel: ObservableObject {
     model.buildTrees()
   }
   
-  var sections: Int {
-    return 4
-  }
-  
-  func numberOfRows(in section: Int) -> Int {
-    return 1
-  }
-  
-  func blob(at index: IndexPath) -> SpiderManSkillState {
-    guard let blob = model.skills["venom2"] else { fatalError() }
-    return blob
-  }
-  
   func skillState(with id: String) -> SpiderManSkillState? {
     model.skills[id]
   }
@@ -39,16 +26,15 @@ class SpiderManSkillViewModel: ObservableObject {
   }
   
   func skillStates(skillType: SpiderManSkillType) -> [SpiderManSkillState] {
-    let skills: [SpiderManSkillState]
-    switch skillType {
-    case .venom:
-      skills = model.venomTree.skills
-    case .combat:
-      skills = model.combatTree.skills
-    case .camoflauge:
-      skills = model.cloakTree.skills
-    }
-    return skills
+    model.skillStates(skillType: skillType)
+  }
+  
+  func unlockSkill(id: String) {
+    model.unlockSkill(id: id)
+  }
+  
+  func isSkillUnlockable(id: String) -> Bool {
+    model.isSkillUnlockable(id: id)
   }
   
 }

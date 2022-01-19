@@ -9,13 +9,13 @@ import SwiftUI
 import Shapes
 
 struct SpiderManSkillDetailView: View {
-  var skill: SpiderManSkill
+  var skillState: SpiderManSkill
   var body: some View {
     GeometryReader { proxy in
       let dim = min(proxy.size.width, proxy.size.height)
       ZStack {
         VStack(alignment: .leading) {
-          Text(skill.name.uppercased())
+          Text(skillState.name.uppercased())
             .padding(.horizontal, 8)
 
           // Placeholder for a video loading animation
@@ -30,7 +30,7 @@ struct SpiderManSkillDetailView: View {
               .foregroundColor(.red)
               .frame(width: 10, height: 10)
               .offset(x:0, y: 8)
-            Text(skill.description)
+            Text(skillState.description)
               .multilineTextAlignment(.leading)
           }
           .padding(.horizontal, 8)
@@ -70,7 +70,7 @@ struct SpiderManSkillDetailView: View {
 
 struct SpiderManSkillToolTip_Previews: PreviewProvider {
   static var previews: some View {
-    SpiderManSkillDetailView(skill: SpiderManSkill.sample)
+    SpiderManSkillDetailView(skillState: SpiderManSkill.sample)
       .frame(width: 256, height: 512)
       .previewLayout(.sizeThatFits)
     

@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+// TODO: Provide means to rotate skill tree while keeping icons facing 'straight up'
+// warning: rotating this view will cause all the icons within to look strange
 struct SpiderManSkillTreeView: View {
   @ObservedObject var viewModel: SpiderManSkillViewModel
   @StateObject private var progressModel = LongPressHoldModel()
@@ -83,10 +85,22 @@ struct SpiderManSkillTreeView: View {
             .overlay(
               overlay(with: identifier)
             )
-            .offset(x: points[index].x * dim, y: points[index].y * height)
+            .onTapGesture {
+              viewModel.selectSkill(id: identifier)
+            }
             .longPressHoldable { state in
+              if identifier != viewModel.selectedSkillId {
+                viewModel.selectSkill(id: identifier)
+              }
+              
+              guard viewModel.isSkillUnlockable(id: identifier) else { return }
+              
+              
               switch state {
               case .inactive:
+                if progressModel.unlocked {
+                  viewModel.unlockSkill(id: identifier)
+                }
                 progressModel.end()
               case .pressing:
                 print("hold on for now")
@@ -94,6 +108,7 @@ struct SpiderManSkillTreeView: View {
                 progressModel.start()
               }
             }
+            .offset(x: points[index].x * dim, y: points[index].y * height)
         }
       }
       .frame(width: proxy.size.width, height: proxy.size.height)
@@ -115,8 +130,7 @@ struct SpiderManSkillTreeView_Previews: PreviewProvider {
       Color.black.ignoresSafeArea()
       Color.spiderManTeal.opacity(0.1).ignoresSafeArea()
       SpiderManSkillTreeView(viewModel: SpiderManSkillViewModel(), skillType: .combat)
-        .frame(width: 256, height: 256)
-      .previewLayout(.sizeThatFits)
     }
+    .previewLayout(.sizeThatFits)
   }
 }

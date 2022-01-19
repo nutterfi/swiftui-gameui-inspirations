@@ -34,10 +34,6 @@ struct SpiderManSkillTree: Identifiable {
   var id = UUID()
   var skills: [SpiderManSkillState] = []
   
-//  init() {
-//    buildSkills()
-//  }
-  
   mutating func buildSkills(_ type: SpiderManSkillType = .venom) {
     let idString: String = type.rawValue
     
@@ -87,33 +83,75 @@ struct SpiderManSkillModel {
       return []
   }
   
-  var venomTree = SpiderManSkillTree()
-  var combatTree = SpiderManSkillTree()
-  var cloakTree = SpiderManSkillTree()
+  private var venomTree = SpiderManSkillTree()
+  private var combatTree = SpiderManSkillTree()
+  private var cloakTree = SpiderManSkillTree()
   
   private(set) var skills: [String: SpiderManSkillState] = [:]
   
   private(set) var skillPoints = 10
   
   mutating func buildTrees() {
+    skills.removeAll()
+    
     venomTree.buildSkills(.venom)
     combatTree.buildSkills(.combat)
     cloakTree.buildSkills(.camoflauge)
     
-    venomTree.skills.forEach { blob in
-      skills[blob.skill.id] = blob
+    venomTree.skills.forEach { skillState in
+      skills[skillState.skill.id] = skillState
     }
+    combatTree.skills.forEach { skillState in
+      skills[skillState.skill.id] = skillState
+    }
+    cloakTree.skills.forEach { skillState in
+      skills[skillState.skill.id] = skillState
+    }
+  }
+  
+  func skillStates(skillType: SpiderManSkillType) -> [SpiderManSkillState] {
+    let orderedIDs: [String]
+    switch skillType {
+    case .venom:
+      orderedIDs = venomTree.skills.map { $0.skill.id }
+    case .combat:
+      orderedIDs = combatTree.skills.map { $0.skill.id }
+    case .camoflauge:
+      orderedIDs = cloakTree.skills.map { $0.skill.id }
+    }
+    // I want to get an ordered array of SpiderManSkillStates that have the same skillType as the input arg
+    let skillStates = skills.map { (k, v) in v }
+      .filter {$0.skill.type == skillType}
+      .sorted(by: { first, second in
+        let id0 = first.skill.id
+        let id1 = second.skill.id
+        return orderedIDs.firstIndex(of: id0) ?? 0 < orderedIDs.firstIndex(of: id1) ?? 0
+      })
+    return skillStates
+  }
+  
+  func isSkillUnlockable(id: String) -> Bool {
+    guard let skillState = skills[id],
+            skillState.availability == .locked,
+          skillPoints >= skillState.requirements.cost else { return false }
+    
+    // Also need to check whether the required skills have also been unlocked
+    var availableToUnlock = true
+    skillState.requirements.requiredSkillIds.forEach { id in
+      if skills[id]?.availability != .unlocked {
+        availableToUnlock = false
+      }
+    }
+    return availableToUnlock
   }
   
   mutating func unlockSkill(id: String) {
     // find the node wherever that is and deduct the skill cost from skillPoints
-    guard var skillBlob = skills[id],
-    skillBlob.availability != .unlocked,
-          skillPoints >= skillBlob.requirements.cost else { return }
+    guard isSkillUnlockable(id: id), var skillState = skills[id] else { return }
     
-    skillPoints -= skillBlob.requirements.cost
-    skillBlob.availability = .unlocked
-    skills[id] = skillBlob
+    skillPoints -= skillState.requirements.cost
+    skillState.availability = .unlocked
+    skills[id] = skillState
   }
   
   mutating func reset() {

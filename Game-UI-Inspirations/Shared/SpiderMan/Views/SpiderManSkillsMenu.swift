@@ -5,13 +5,21 @@
 //  Created by nutterfi on 12/2/21.
 //
 
-
-/**
+/*
  TODO
- Top-level view SpiderManSkillsMenu owns a selected SpiderManSkill - DONE
- this is passed down to its child views via Bindings // IN PROGRESS
- // right now the view model is passed down
- as the selected skill changes from interacting with the skilltreeview, the tooltip should also update // IN PROGRESS
+ 1. Long-press to unlock skill results in progress view getting stuck - DONE
+ 2. Update all fields in the skill detail view when selected skill changes
+ 3. Gyroscope effect on rotating skill trees so that icons always face up
+ 4. Layout fixes so that detail view does not obscure skills underneath
+ 5. Provide more detail in skill descriptions with help of JSON files
+ 6. Overall state updates (skill unlocked should update view and skill points remaining
+ - Only allow locked skills to respond to long-press-and-hold gesture - DONE
+ - reduce model to single source of truth to fix UI bugs - DONE
+ - Check skill points remaining
+ - Long-press should update selected skill - DONE
+ 
+ ??. What the freak is happening with NavigationView?!
+ 
  */
 
 import SwiftUI
@@ -29,7 +37,7 @@ struct SpiderManSkillsMenu: View {
           .frame(width: proxy.size.width * 0.75, height: proxy.size.height * 0.7)
           .offset(x: -dim * 0.1, y: dim * 0.01)
         let selectedSkill = viewModel.skillState(with: viewModel.selectedSkillId)?.skill ?? SpiderManSkill.sample
-        SpiderManSkillDetailView(skill: selectedSkill)
+        SpiderManSkillDetailView(skillState: selectedSkill)
           .frame(width: proxy.size.width * 0.25, height: proxy.size.height * 0.65)
           .offset(x: proxy.size.width * 0.35, y: -proxy.size.height * 0.1)
       }
@@ -73,7 +81,7 @@ struct SpiderManSkillsMap: View {
 
 struct SpiderManSkillMenu_Previews: PreviewProvider {
   static var previews: some View {
-    SpiderManSkillsMenu()
-      .previewInterfaceOrientation(.landscapeLeft)
+      SpiderManSkillsMenu()
+        .previewInterfaceOrientation(.landscapeLeft)
   }
 }
