@@ -18,6 +18,16 @@ class ContentViewModel: ObservableObject {
 struct ContentView: View {
   @StateObject private var viewModel = ContentViewModel()
   
+  var body: some View {
+    NavigationView {
+      List(viewModel.titles, id: \.self) { title in
+        NavigationLink(destination: destination(for: title)) {
+          selectionView(for: title)
+        }
+      }
+    }
+  }
+  
   func destination(for title: String) -> some View {
     return ZStack {
       switch title {
@@ -46,7 +56,7 @@ struct ContentView: View {
       case Games.celeste:
         CelesteDemo()
       case Games.spiderMan:
-        SpiderManSkillsMenu(selectedSkill: SpiderManSkill.sample)
+        SpiderManSkillsMenu()
       case Games.persona5:
         Persona5AnimatedMenu()
       default:
@@ -108,20 +118,11 @@ struct ContentView: View {
     .frame(height: 120)
   }
   
-  var body: some View {
-    NavigationView {
-      List(viewModel.titles, id: \.self) { title in
-        NavigationLink(destination: destination(for: title)) {
-          selectionView(for: title)
-        }
-      }
-    }
-  }
 }
 
 struct ContentView_Previews: PreviewProvider {
   static var previews: some View {
     ContentView()
-      .previewInterfaceOrientation(.portrait)
+.previewInterfaceOrientation(.landscapeLeft)
   }
 }
