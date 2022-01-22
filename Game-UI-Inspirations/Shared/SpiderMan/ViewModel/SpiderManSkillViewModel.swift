@@ -12,6 +12,10 @@ class SpiderManSkillViewModel: ObservableObject {
   @Published private(set) var model: SpiderManSkillModel
   @Published private(set) var selectedSkillId: String = SpiderManSkill.sample.id
   
+  var selectedSkillState: SpiderManSkillState {
+    skillState(with: selectedSkillId) ?? SpiderManSkillState.sample
+  }
+  
   init() {
     model = SpiderManSkillModel()
     model.buildTrees()

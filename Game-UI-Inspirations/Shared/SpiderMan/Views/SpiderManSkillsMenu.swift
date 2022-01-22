@@ -36,8 +36,10 @@ struct SpiderManSkillsMenu: View {
         SpiderManSkillsMap(viewModel: viewModel)
           .frame(width: proxy.size.width * 0.75, height: proxy.size.height * 0.7)
           .offset(x: -dim * 0.1, y: dim * 0.01)
-        let selectedSkill = viewModel.skillState(with: viewModel.selectedSkillId)?.skill ?? SpiderManSkill.sample
-        SpiderManSkillDetailView(skillState: selectedSkill)
+        
+        SpiderManSkillDetailView(
+          viewModel: SpiderManSkillDetailViewModel(skillState: viewModel.selectedSkillState)
+        )
           .frame(width: proxy.size.width * 0.25, height: proxy.size.height * 0.65)
           .offset(x: proxy.size.width * 0.35, y: -proxy.size.height * 0.1)
       }
