@@ -36,9 +36,8 @@ class LongPressHoldModel: ObservableObject {
   
   func end() {
     timer?.invalidate()
-    if !unlocked {
-      progress = 0
-    }
+    unlocked = false
+    progress = 0
   }
   
   @objc private func update() {
