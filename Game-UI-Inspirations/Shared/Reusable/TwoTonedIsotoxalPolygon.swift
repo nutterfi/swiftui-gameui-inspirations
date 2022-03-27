@@ -18,7 +18,6 @@ struct TwoTonedIsotoxalPolygon: View {
       let rect = proxy.frame(in: .local)
       
       ZStack {
-        Color.black.ignoresSafeArea()
         // includes outer(star) and inner (pentagon) vertices
         // use the outer points as the maximum
         // compute the midpoint of the pentagon vertices
