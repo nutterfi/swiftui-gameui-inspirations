@@ -121,6 +121,8 @@
 		2957947A2650D91D00BDDE3A /* TLOUSkillModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295794782650D91D00BDDE3A /* TLOUSkillModel.swift */; };
 		2957947E2650D94000BDDE3A /* TLOUSkillSelectMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2957947D2650D94000BDDE3A /* TLOUSkillSelectMenuViewModel.swift */; };
 		2957947F2650D94000BDDE3A /* TLOUSkillSelectMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2957947D2650D94000BDDE3A /* TLOUSkillSelectMenuViewModel.swift */; };
+		295E145D27F0132500724FB7 /* OWDecorPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295E145C27F0132500724FB7 /* OWDecorPattern.swift */; };
+		295E145E27F0132500724FB7 /* OWDecorPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295E145C27F0132500724FB7 /* OWDecorPattern.swift */; };
 		295E507526B3B16B00DA9FD4 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 295E507426B3B16B00DA9FD4 /* Colors.xcassets */; };
 		295E507626B3B16B00DA9FD4 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 295E507426B3B16B00DA9FD4 /* Colors.xcassets */; };
 		295E507826B3B3EA00DA9FD4 /* RDR2AwardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295E507726B3B3EA00DA9FD4 /* RDR2AwardItem.swift */; };
@@ -380,6 +382,7 @@
 		295794732650D8DE00BDDE3A /* SkillIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillIcon.swift; sourceTree = "<group>"; };
 		295794782650D91D00BDDE3A /* TLOUSkillModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLOUSkillModel.swift; sourceTree = "<group>"; };
 		2957947D2650D94000BDDE3A /* TLOUSkillSelectMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLOUSkillSelectMenuViewModel.swift; sourceTree = "<group>"; };
+		295E145C27F0132500724FB7 /* OWDecorPattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OWDecorPattern.swift; sourceTree = "<group>"; };
 		295E507426B3B16B00DA9FD4 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		295E507726B3B3EA00DA9FD4 /* RDR2AwardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDR2AwardItem.swift; sourceTree = "<group>"; };
 		295E507A26B3B7CD00DA9FD4 /* RDR2AwardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDR2AwardView.swift; sourceTree = "<group>"; };
@@ -590,6 +593,7 @@
 		2950E125268C2499005EFAA9 /* Overwatch */ = {
 			isa = PBXGroup;
 			children = (
+				295E145C27F0132500724FB7 /* OWDecorPattern.swift */,
 				2950E126268C24B4005EFAA9 /* OverwatchIcon.swift */,
 				2950E128268C2CDC005EFAA9 /* OverwatchLogoDemo.swift */,
 				298DA1C2269AA4CC0054463A /* OWUltimateMeter.swift */,
@@ -1185,6 +1189,7 @@
 				29AD4BB227717A130017F2DB /* StrokeStyledCircleDemo.swift in Sources */,
 				2910F3E6269801F7008475D6 /* AphroditeBoon.swift in Sources */,
 				29421CA72719325800CBEDBB /* GIItemRarityBackground.swift in Sources */,
+				295E145D27F0132500724FB7 /* OWDecorPattern.swift in Sources */,
 				29A22CF52626D8C9000D9EAF /* LoadingRingsViewModel.swift in Sources */,
 				29101792270410150021E672 /* CelesteDeathAnimation.swift in Sources */,
 				29A22D162626DC60000D9EAF /* KountdownTimerDemo.swift in Sources */,
@@ -1236,6 +1241,7 @@
 				29A22D1D2626DC60000D9EAF /* KountdownTimerViewModel.swift in Sources */,
 				29421CAB27193ED200CBEDBB /* GIInventoryMenu.swift in Sources */,
 				297DC70D265A106800980DDE /* MGSVLoadingView.swift in Sources */,
+				295E145E27F0132500724FB7 /* OWDecorPattern.swift in Sources */,
 				290B5CF8268ED22C00EB93BD /* HadesBoonDemo.swift in Sources */,
 				2936E04F27707CDF0075FADF /* GIAchievementMenu.swift in Sources */,
 				298FE300264B8F1C00BBC02A /* SkillHealingSpeed.swift in Sources */,
