@@ -20,7 +20,7 @@ struct TLOUMainMenuIcon: View {
           .font(.custom("AvenirNextCondensed-Medium", size: 32))
         }
         .foregroundColor(.white)
-        .background(Color.black.frame(width: .infinity))
+        .background(Color.black.frame(maxWidth: .infinity))
         
         LinearGradient(colors: [.black.opacity(0.9), .clear], startPoint: .bottomLeading, endPoint: .topTrailing)
       }

@@ -42,7 +42,9 @@ struct SkillIcon: View {
 }
 
 struct SkillIcon_Previews: PreviewProvider {
-    static var previews: some View {
-        SkillIcon()
-    }
+  static var previews: some View {
+    SkillIcon()
+      .frame(width: 256, height: 256)
+      .previewLayout(.sizeThatFits)
+  }
 }
