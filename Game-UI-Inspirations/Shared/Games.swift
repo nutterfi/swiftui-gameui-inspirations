@@ -21,13 +21,13 @@ struct Games {
   static let detroit = "Detroit: Become Human"
   static let destiny2 = "Destiny 2"
   static let celeste = "Celeste"
-  static let re7 = "RE:7"
   static let spiderMan = "Spider-Man"
   static let persona5 = "Persona 5"
+  static let lostArk = "Lost Ark"
 }
 
 extension Games {
   static var all: [String] {
-    [Games.mgsv, Games.control, Games.mk11, Games.rdr2, Games.genshinImpact, Games.overwatch, Games.swtor, Games.tlou, Games.hades, Games.detroit, Games.destiny2, Games.celeste, Games.spiderMan, Games.persona5]
+    [Games.mgsv, Games.control, Games.mk11, Games.rdr2, Games.genshinImpact, Games.overwatch, Games.swtor, Games.tlou, Games.hades, Games.detroit, Games.destiny2, Games.celeste, Games.spiderMan, Games.persona5, Games.lostArk]
   }
 }

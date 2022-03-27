@@ -81,5 +81,13 @@ extension Color {
   static var spiderManUnlockedIconFill: Color {
     Color(red: 18/255, green: 253/255, blue: 255/255)
   }
+  
+  static var lostArkBrown: Color {
+    Color(red: 58/255, green: 48/255, blue: 38/255)
+  }
+  
+  static var lostArkLightBrown: Color {
+    Color(red: 131/255, green: 112/255, blue: 87/255)
+  }
     
 }
