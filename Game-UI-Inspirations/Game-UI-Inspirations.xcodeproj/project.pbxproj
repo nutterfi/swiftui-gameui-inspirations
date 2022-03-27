@@ -123,6 +123,14 @@
 		2957947F2650D94000BDDE3A /* TLOUSkillSelectMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2957947D2650D94000BDDE3A /* TLOUSkillSelectMenuViewModel.swift */; };
 		295E145D27F0132500724FB7 /* OWDecorPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295E145C27F0132500724FB7 /* OWDecorPattern.swift */; };
 		295E145E27F0132500724FB7 /* OWDecorPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295E145C27F0132500724FB7 /* OWDecorPattern.swift */; };
+		295E146427F013C900724FB7 /* LASecretDungeonFloorPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295E146027F013C900724FB7 /* LASecretDungeonFloorPattern.swift */; };
+		295E146527F013C900724FB7 /* LASecretDungeonFloorPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295E146027F013C900724FB7 /* LASecretDungeonFloorPattern.swift */; };
+		295E146627F013C900724FB7 /* TrebleClef.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295E146127F013C900724FB7 /* TrebleClef.swift */; };
+		295E146727F013C900724FB7 /* TrebleClef.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295E146127F013C900724FB7 /* TrebleClef.swift */; };
+		295E146827F013C900724FB7 /* PolygonSegmentWrapAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295E146227F013C900724FB7 /* PolygonSegmentWrapAnimation.swift */; };
+		295E146927F013C900724FB7 /* PolygonSegmentWrapAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295E146227F013C900724FB7 /* PolygonSegmentWrapAnimation.swift */; };
+		295E146A27F013C900724FB7 /* LABardStigmaSkillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295E146327F013C900724FB7 /* LABardStigmaSkillView.swift */; };
+		295E146B27F013C900724FB7 /* LABardStigmaSkillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295E146327F013C900724FB7 /* LABardStigmaSkillView.swift */; };
 		295E507526B3B16B00DA9FD4 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 295E507426B3B16B00DA9FD4 /* Colors.xcassets */; };
 		295E507626B3B16B00DA9FD4 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 295E507426B3B16B00DA9FD4 /* Colors.xcassets */; };
 		295E507826B3B3EA00DA9FD4 /* RDR2AwardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295E507726B3B3EA00DA9FD4 /* RDR2AwardItem.swift */; };
@@ -383,6 +391,10 @@
 		295794782650D91D00BDDE3A /* TLOUSkillModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLOUSkillModel.swift; sourceTree = "<group>"; };
 		2957947D2650D94000BDDE3A /* TLOUSkillSelectMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLOUSkillSelectMenuViewModel.swift; sourceTree = "<group>"; };
 		295E145C27F0132500724FB7 /* OWDecorPattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OWDecorPattern.swift; sourceTree = "<group>"; };
+		295E146027F013C900724FB7 /* LASecretDungeonFloorPattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LASecretDungeonFloorPattern.swift; sourceTree = "<group>"; };
+		295E146127F013C900724FB7 /* TrebleClef.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrebleClef.swift; sourceTree = "<group>"; };
+		295E146227F013C900724FB7 /* PolygonSegmentWrapAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PolygonSegmentWrapAnimation.swift; sourceTree = "<group>"; };
+		295E146327F013C900724FB7 /* LABardStigmaSkillView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LABardStigmaSkillView.swift; sourceTree = "<group>"; };
 		295E507426B3B16B00DA9FD4 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		295E507726B3B3EA00DA9FD4 /* RDR2AwardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDR2AwardItem.swift; sourceTree = "<group>"; };
 		295E507A26B3B7CD00DA9FD4 /* RDR2AwardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDR2AwardView.swift; sourceTree = "<group>"; };
@@ -604,6 +616,17 @@
 			path = Overwatch;
 			sourceTree = "<group>";
 		};
+		295E145F27F013C900724FB7 /* LostArk */ = {
+			isa = PBXGroup;
+			children = (
+				295E146027F013C900724FB7 /* LASecretDungeonFloorPattern.swift */,
+				295E146127F013C900724FB7 /* TrebleClef.swift */,
+				295E146227F013C900724FB7 /* PolygonSegmentWrapAnimation.swift */,
+				295E146327F013C900724FB7 /* LABardStigmaSkillView.swift */,
+			);
+			path = LostArk;
+			sourceTree = "<group>";
+		};
 		2962057726FD7841002F9D3E /* Destiny2 */ = {
 			isa = PBXGroup;
 			children = (
@@ -641,6 +664,7 @@
 				2929B80E2695601400C86BBB /* FFXIV */,
 				29A22CBD2626D288000D9EAF /* GenshinImpact */,
 				291026FD263E62BC00418FE1 /* Hades */,
+				295E145F27F013C900724FB7 /* LostArk */,
 				297DC708265A0F0700980DDE /* MGSV */,
 				29A22CBB2626D279000D9EAF /* MK11 */,
 				2950E125268C2499005EFAA9 /* Overwatch */,
@@ -1068,8 +1092,10 @@
 				294D37362710082700524868 /* SpirolateralAnimationDemo.swift in Sources */,
 				290B177327572D590075AE24 /* SpiderManMask.swift in Sources */,
 				29922ACD2633D2FA002469C2 /* MK11Left.swift in Sources */,
+				295E146A27F013C900724FB7 /* LABardStigmaSkillView.swift in Sources */,
 				29A22CF92626D8C9000D9EAF /* LoadingRingsDemo.swift in Sources */,
 				298FE309264B939800BBC02A /* TLOUSkillSelectMenu.swift in Sources */,
+				295E146827F013C900724FB7 /* PolygonSegmentWrapAnimation.swift in Sources */,
 				296C7F512706B35D00BFACC1 /* DBHLoadingView.swift in Sources */,
 				29801ACB2647A0320010B4C8 /* SkillMaxHealth.swift in Sources */,
 				29F5337C26858D5100EADD37 /* MGSViDroidView.swift in Sources */,
@@ -1090,6 +1116,7 @@
 				29813985263287BA00009D7B /* POIMarker.swift in Sources */,
 				29B98CB426B1118500E1B7FF /* GIClockView.swift in Sources */,
 				29150B1D26B653F500106A45 /* HermesBoon.swift in Sources */,
+				295E146427F013C900724FB7 /* LASecretDungeonFloorPattern.swift in Sources */,
 				29CA754327912F8800298F47 /* Persona5AnimatedMenu.swift in Sources */,
 				29102706263E673300418FE1 /* ZeusBoon.swift in Sources */,
 				29AFD3942764595700493800 /* SpiderManSkill.swift in Sources */,
@@ -1185,6 +1212,7 @@
 				2920DB582785540E00DE5BEE /* PorterGradeView.swift in Sources */,
 				2911E5102737870C00F3E967 /* RDR2HUDCoreView.swift in Sources */,
 				29A22CFD2626D8C9000D9EAF /* ConsummateV.swift in Sources */,
+				295E146627F013C900724FB7 /* TrebleClef.swift in Sources */,
 				298CD783270FEF2900C9D6B9 /* TesselationDemo.swift in Sources */,
 				29AD4BB227717A130017F2DB /* StrokeStyledCircleDemo.swift in Sources */,
 				2910F3E6269801F7008475D6 /* AphroditeBoon.swift in Sources */,
@@ -1217,6 +1245,7 @@
 				298CD784270FEF2900C9D6B9 /* TesselationDemo.swift in Sources */,
 				29922ACE2633D2FA002469C2 /* MK11Left.swift in Sources */,
 				29CA75462791378A00298F47 /* TextShape.swift in Sources */,
+				295E146527F013C900724FB7 /* LASecretDungeonFloorPattern.swift in Sources */,
 				2910F3E7269801F7008475D6 /* AphroditeBoon.swift in Sources */,
 				298DA1C4269AA4CC0054463A /* OWUltimateMeter.swift in Sources */,
 				29EEFDCF276EEA7400290CA2 /* SpiderManSkillLoadingView.swift in Sources */,
@@ -1232,6 +1261,7 @@
 				29AD4BB327717A130017F2DB /* StrokeStyledCircleDemo.swift in Sources */,
 				295FECD326D89D5400C70220 /* RDR2ConfirmButton.swift in Sources */,
 				299363D4273F969400CA089A /* GIAchievementView.swift in Sources */,
+				295E146727F013C900724FB7 /* TrebleClef.swift in Sources */,
 				29AFD3952764595700493800 /* SpiderManSkill.swift in Sources */,
 				2906485026FAD6CF009A20A1 /* DBHTitleScreenMenuItem.swift in Sources */,
 				29813986263287BA00009D7B /* POIMarker.swift in Sources */,
@@ -1255,6 +1285,7 @@
 				29155FF4272BA64800BA2FE4 /* TLOUMenu.swift in Sources */,
 				2911E5112737870C00F3E967 /* RDR2HUDCoreView.swift in Sources */,
 				2956788927226CB500FA372A /* MasterlessStardust.swift in Sources */,
+				295E146927F013C900724FB7 /* PolygonSegmentWrapAnimation.swift in Sources */,
 				29188617272505320060E33C /* RDR2Revolver.swift in Sources */,
 				29AF0324273B83EA00B5BA4B /* View+Extensions.swift in Sources */,
 				29D2AEBF26AA7821005A35D1 /* ArtemisBoon.swift in Sources */,
@@ -1293,6 +1324,7 @@
 				29532EFE26451D8B000F07F1 /* FireflySymbol.swift in Sources */,
 				2926BCF42635260D00CEDC7E /* FireflyWing.swift in Sources */,
 				297A6E40265E04F200201D1A /* DiamondGem.swift in Sources */,
+				295E146B27F013C900724FB7 /* LABardStigmaSkillView.swift in Sources */,
 				29AF031A273B7ED700B5BA4B /* RDR2CoreModel.swift in Sources */,
 				298FE2FB264B8C6400BBC02A /* SkillWeaponSway.swift in Sources */,
 				2906485626FAD882009A20A1 /* StrokeStyledRectangleDemo.swift in Sources */,

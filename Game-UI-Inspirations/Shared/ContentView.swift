@@ -28,6 +28,17 @@ struct ContentView: View {
     }
   }
   
+  var unknownGameView: some View {
+    Circle()
+      .frame(maxWidth: .infinity, maxHeight: .infinity)
+      .overlay(
+        Text("ERROR\r\n Unknown Game Title")
+          .foregroundColor(.white)
+          .italic()
+      )
+      .padding()
+  }
+  
   func destination(for title: String) -> some View {
     return ZStack {
       switch title {
@@ -59,15 +70,10 @@ struct ContentView: View {
         SpiderManSkillsMenu()
       case Games.persona5:
         Persona5AnimatedMenu()
+      case Games.lostArk:
+        LASecretDungeonFloorPatternDemo()
       default:
-        Circle()
-          .frame(width: .infinity, height: .infinity)
-          .overlay(
-            Text("ERROR\r\n Unknown Game Title")
-              .foregroundColor(.white)
-              .italic()
-          )
-          .padding()
+        unknownGameView
       }
     }
     
