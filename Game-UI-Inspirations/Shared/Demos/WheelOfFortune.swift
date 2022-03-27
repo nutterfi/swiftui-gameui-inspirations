@@ -13,7 +13,7 @@ class WheelOfFortuneViewModel: ObservableObject {
   
   var data: [String] {
     [
-      Games.mgsv, Games.control, Games.mk11, Games.rdr2, Games.genshinImpact, Games.overwatch, Games.swtor, Games.tlou, Games.hades, Games.detroit, Games.destiny2, Games.celeste, Games.re7, "Shapes"
+      Games.mgsv, Games.control, Games.mk11, Games.rdr2, Games.genshinImpact, Games.overwatch, Games.swtor, Games.tlou, Games.hades, Games.detroit, Games.destiny2, Games.celeste, "Shapes"
     ]
   }
   
