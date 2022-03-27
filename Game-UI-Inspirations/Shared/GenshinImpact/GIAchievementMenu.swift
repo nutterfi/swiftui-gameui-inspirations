@@ -60,7 +60,7 @@ struct GIAchievementMenu: View {
       case GIMenuIdentifier.loadingProgressBar:
         GILoadingProgressBar()
       case GIMenuIdentifier.rewardItem:
-        GIRewardItem(item: GIItem(image: "does not matter", rarity: .five, label: "100"))
+        GIReward(item: GIItem(itemType: .mora, rarity: .three, name: "100"))
           .frame(width: 100, height: 100)
       default:
         Circle().frame(width: .infinity, height: .infinity)
@@ -77,6 +77,8 @@ struct GIAchievementMenu: View {
 
 struct GIAchievementMenu_Previews: PreviewProvider {
   static var previews: some View {
-    GIAchievementMenu()
+    NavigationView {
+      GIAchievementMenu()
+    }
   }
 }

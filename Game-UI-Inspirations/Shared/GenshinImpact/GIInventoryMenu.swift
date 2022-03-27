@@ -16,11 +16,11 @@ struct GIInventoryMenu: View {
           ScrollView(.horizontal) {
             HStack {
               let items: [GIItem] = [
-                GIItem(image: "person.fill", rarity: .five, label: "Nutterfi", showStars: false),
-                GIItem(image: "pencil.tip", rarity: .two, label: "Lv. 80"),
-                GIItem(image: "ladybug", rarity: .three, label: "23"),
-                GIItem(image: "", rarity: .one, label: "1"),
-                GIItem(image: "bicycle", rarity: .four, label: "1")
+                GIItem(itemType: .character, rarity: .five, name: "Nutterfi", showStars: false),
+                GIItem(itemType: .mora, rarity: .two, name: "10000"),
+                GIItem(itemType: .stardust, rarity: .three, name: "23"),
+                GIItem(itemType: .starglitter, rarity: .one, name: "1"),
+                GIItem(itemType: .primogem, rarity: .four, name: "1")
               ]
               
               ForEach(items) { item in

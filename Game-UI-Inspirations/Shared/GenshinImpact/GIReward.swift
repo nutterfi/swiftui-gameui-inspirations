@@ -8,7 +8,7 @@
 import SwiftUI
 import Shapes
 
-struct GIRewardItem: View {
+struct GIReward: View {
   var item: GIItem
   var body: some View {
     GeometryReader { proxy in
@@ -16,16 +16,12 @@ struct GIRewardItem: View {
       ZStack(alignment: .bottom) {
         GIItemRarityBackground(rarity: item.rarity)
         
-        Image(systemName: item.image)
-          .resizable()
-          .scaledToFit()
-          .foregroundColor(Color.brown)
-          .shadow(color: .black, radius: 5, x: 1, y: 1)
-          .padding()
+        GIItemView(item: item)
+          .frame(width: dim * 0.8)
         
         Color.black.opacity(0.5)
           .frame(height: dim * 0.25)
-        Text(item.label)
+        Text(item.name)
           .font(.custom("GillSans", size: dim * 0.2))
           .foregroundColor(.white)
       }
@@ -37,11 +33,11 @@ struct GIRewardItem: View {
 struct GIRewardItem_Previews: PreviewProvider {
   static var previews: some View {
     Group {
-      GIRewardItem(item: GIItem(image: "heart", rarity: .five, label: "50"))
+      GIReward(item: GIItem(itemType: .starglitter, rarity: .five, name: "50"))
         .background(Color.gray)
         .frame(width: 256, height: 256)
       
-      GIRewardItem(item: GIItem(image: "house", rarity: .two, label: "1"))
+      GIReward(item: GIItem(itemType: .stardust, rarity: .two, name: "1"))
         .background(Color.gray)
         .frame(width: 256, height: 256)
     }

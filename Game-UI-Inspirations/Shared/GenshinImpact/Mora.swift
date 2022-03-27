@@ -8,32 +8,6 @@
 import SwiftUI
 import Shapes
 
-struct BendyTriangle: NFiShape {
-  var inset: CGFloat = .zero
-  var bendiness: CGFloat
-  
-  init(bendiness: CGFloat = .zero) {
-    self.bendiness = bendiness
-  }
-  
-  func path(in rect: CGRect) -> Path {
-    let insetRect = rect.insetBy(dx: inset, dy: inset)
-    let dim = min(insetRect.width, insetRect.height)
-    let vertices = ConvexPolygon(sides: 3).vertices(in: insetRect)
-    let mid = CGPoint(x: insetRect.midX, y: insetRect.midY)
-    
-    return Path { path in
-      path.move(to: vertices.first!)
-      path.addQuadCurve(to: vertices[1], control: CGPoint(x: mid.x + bendiness * dim, y: mid.y + bendiness * dim))
-      path.addQuadCurve(to: vertices[2], control: mid)
-      path.addQuadCurve(to: vertices[0], control: mid)
-      path.closeSubpath()
-    }
-  }
-  
-  
-}
-
 struct Mora: View {
     var body: some View {
       GeometryReader { proxy in

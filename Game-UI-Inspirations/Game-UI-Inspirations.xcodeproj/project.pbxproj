@@ -89,8 +89,8 @@
 		2939687526BCFA7D00B08586 /* RDR2AwardBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2939687326BCFA7D00B08586 /* RDR2AwardBadge.swift */; };
 		29421CA127192C6900CBEDBB /* GIItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29421CA027192C6900CBEDBB /* GIItem.swift */; };
 		29421CA227192C6900CBEDBB /* GIItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29421CA027192C6900CBEDBB /* GIItem.swift */; };
-		29421CA427192FC600CBEDBB /* GIRewardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29421CA327192FC600CBEDBB /* GIRewardItem.swift */; };
-		29421CA527192FC600CBEDBB /* GIRewardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29421CA327192FC600CBEDBB /* GIRewardItem.swift */; };
+		29421CA427192FC600CBEDBB /* GIReward.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29421CA327192FC600CBEDBB /* GIReward.swift */; };
+		29421CA527192FC600CBEDBB /* GIReward.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29421CA327192FC600CBEDBB /* GIReward.swift */; };
 		29421CA72719325800CBEDBB /* GIItemRarityBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29421CA62719325800CBEDBB /* GIItemRarityBackground.swift */; };
 		29421CA82719325800CBEDBB /* GIItemRarityBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29421CA62719325800CBEDBB /* GIItemRarityBackground.swift */; };
 		29421CAA27193ED200CBEDBB /* GIInventoryMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29421CA927193ED200CBEDBB /* GIInventoryMenu.swift */; };
@@ -373,7 +373,7 @@
 		2936E04D27707CDF0075FADF /* GIAchievementMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIAchievementMenu.swift; sourceTree = "<group>"; };
 		2939687326BCFA7D00B08586 /* RDR2AwardBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDR2AwardBadge.swift; sourceTree = "<group>"; };
 		29421CA027192C6900CBEDBB /* GIItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIItem.swift; sourceTree = "<group>"; };
-		29421CA327192FC600CBEDBB /* GIRewardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIRewardItem.swift; sourceTree = "<group>"; };
+		29421CA327192FC600CBEDBB /* GIReward.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIReward.swift; sourceTree = "<group>"; };
 		29421CA62719325800CBEDBB /* GIItemRarityBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIItemRarityBackground.swift; sourceTree = "<group>"; };
 		29421CA927193ED200CBEDBB /* GIInventoryMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIInventoryMenu.swift; sourceTree = "<group>"; };
 		2948EF08277ED33E00966236 /* DeathStrandingTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeathStrandingTitle.swift; sourceTree = "<group>"; };
@@ -837,7 +837,7 @@
 				29B98CB326B1118500E1B7FF /* GIClockView.swift */,
 				2935A9DF27169EAE0043F964 /* GISelectionItem.swift */,
 				29421CA027192C6900CBEDBB /* GIItem.swift */,
-				29421CA327192FC600CBEDBB /* GIRewardItem.swift */,
+				29421CA327192FC600CBEDBB /* GIReward.swift */,
 				29421CA62719325800CBEDBB /* GIItemRarityBackground.swift */,
 				29421CA927193ED200CBEDBB /* GIInventoryMenu.swift */,
 				295678842722636C00FA372A /* Mora.swift */,
@@ -1185,7 +1185,7 @@
 				2935A9E027169EAE0043F964 /* GISelectionItem.swift in Sources */,
 				29150B2026B659EC00106A45 /* AresBoon.swift in Sources */,
 				29D8B98927607A3300F21B7A /* SpiderManSkillViewModel.swift in Sources */,
-				29421CA427192FC600CBEDBB /* GIRewardItem.swift in Sources */,
+				29421CA427192FC600CBEDBB /* GIReward.swift in Sources */,
 				29EB0A66262BF1D40032E598 /* ControlQuestMarker.swift in Sources */,
 				2910270B263E6DAC00418FE1 /* PoseidonBoon.swift in Sources */,
 				291A07E526BA5257000F4590 /* StrokeStyledPolygonDemo.swift in Sources */,
@@ -1380,7 +1380,7 @@
 				29A22D402626DFF3000D9EAF /* MaskedProgressBar.swift in Sources */,
 				2964BAB426C384B000F37FDC /* Games.swift in Sources */,
 				290B177727573DB40075AE24 /* SpiderManMask.swift in Sources */,
-				29421CA527192FC600CBEDBB /* GIRewardItem.swift in Sources */,
+				29421CA527192FC600CBEDBB /* GIReward.swift in Sources */,
 				29567DB8276D80FC00946491 /* LineSegmentGroup.swift in Sources */,
 				292D45D427AA3DBB003A1020 /* TextPath.swift in Sources */,
 				29230B4026A1460C00A052E7 /* AthenaBoon.swift in Sources */,
