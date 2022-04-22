@@ -112,6 +112,9 @@ struct ContentView: View {
         Persona5MenuItem(text: "Persona5")
           .background(Color.red)
         .frame(maxWidth: .infinity, minHeight: 120)
+      case Games.lostArk:
+        LostArkSelectionView()
+          .frame(maxWidth: .infinity, minHeight: 120)
       default:
         Text(title)
         .font(.largeTitle)
@@ -129,6 +132,5 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
   static var previews: some View {
     ContentView()
-.previewInterfaceOrientation(.landscapeLeft)
   }
 }

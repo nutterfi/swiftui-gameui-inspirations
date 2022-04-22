@@ -8,6 +8,28 @@
 import SwiftUI
 import Shapes
 
+struct MaskedShimmer: ViewModifier {
+  var duration: Double
+  var delay: Double
+  var trajectory: (UnitPoint, UnitPoint)
+  
+  func body(content: Content) -> some View {
+    content
+      .overlay(
+        Shimmer(duration: duration,
+                delay: delay,
+                trajectory: trajectory)
+        .mask(content)
+      )
+  }
+}
+
+extension View {
+  func shimmer(duration: Double, delay: Double, trajectory: (UnitPoint, UnitPoint)) -> some View {
+    modifier(MaskedShimmer(duration: duration, delay: delay, trajectory: trajectory))
+  }
+}
+
 struct AngularOffset: ViewModifier {
   var magnitude: CGFloat
   var angle: Angle
