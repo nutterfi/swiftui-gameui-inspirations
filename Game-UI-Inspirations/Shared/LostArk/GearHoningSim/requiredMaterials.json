@@ -1,0 +1,56 @@
+{
+  "id" : "armor_t1_r1_i320",
+  
+  "target" :
+  {
+    "gear" : "armor",
+    "tier" : 1,
+    "rank" : 1,
+    "itemLevel" : 320
+  },
+  
+  "materials" :
+  {
+    "silver" : 1500,
+    "gold" : 0,
+    "shards" : {
+      "id" : "harmony_shard",
+      "count" : 900
+    },
+    "stones" : {
+      "id" : "destruction_stone_fragment",
+      "count" : 150
+    },
+    "leapStones" : {
+      "id" : "harmony_leapstone",
+      "count" : 2
+    },
+    "fusionMaterials" : null
+  },
+  
+  "successRate" :
+  {
+    "base" : 0.3,
+    "failureBonusPercentOfBase" : 0.1, // every time we fail we get to add to the baseline ( baseline + numberOfFailures * failureBonusPercentOfBase)
+    "artisanenergyincreasepercentageperfailure"
+    "additional" : [
+      {
+        "id" : "star_breath",
+        "rateIncrease" : 0.05,
+        "maximum" : 2
+      },
+      {
+        "id" : "solar_grace", // T3
+        "rateIncrease" : 0.05,
+        "maximum" : 2
+      },
+      {
+        "id" : "solar_blessing", // T3
+        "rateIncrease" : 0.05,
+        "maximum" : 2
+      }
+    ]
+  }
+  
+}
+

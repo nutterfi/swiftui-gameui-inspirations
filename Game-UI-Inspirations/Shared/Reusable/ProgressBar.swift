@@ -29,9 +29,11 @@ struct ProgressBar_Previews: PreviewProvider {
     static var previews: some View {
       Group {
         ProgressBar(progress: 0.25, backView: Color.gray, frontView: Color.green)
+          .previewLayout(.sizeThatFits)
           .frame(width: 200, height: 10)
         
         ProgressBar(progress: 0.65, backView: Color.red, frontView: LinearGradient(gradient: Gradient(colors: [.white, .yellow]), startPoint: .leading, endPoint: .trailing))
+          .previewLayout(.sizeThatFits)
           .frame(width: 100, height: 25)
       }
     }
