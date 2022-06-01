@@ -76,8 +76,7 @@ struct ContentView: View {
       case Games.lostArk:
         LASecretDungeonFloorPatternDemo()
       case Games.stardewValley:
-        SpiderManMask()
-          .pixellate()
+        CIFilterView(input: Spider(), filter: CIFilter.pointillize())
       default:
         unknownGameView
       }

@@ -324,8 +324,8 @@
 		29D8B98A27607A3300F21B7A /* SpiderManSkillViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D8B98827607A3300F21B7A /* SpiderManSkillViewModel.swift */; };
 		29DA940E27CF674800741B9B /* Path+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DA940D27CF674800741B9B /* Path+Extensions.swift */; };
 		29DA940F27CF674800741B9B /* Path+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DA940D27CF674800741B9B /* Path+Extensions.swift */; };
-		29DD474328431E4900BF4BAE /* StardewValleyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD474228431E4900BF4BAE /* StardewValleyView.swift */; };
-		29DD474428431E4900BF4BAE /* StardewValleyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD474228431E4900BF4BAE /* StardewValleyView.swift */; };
+		29DD474328431E4900BF4BAE /* CIFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD474228431E4900BF4BAE /* CIFilterView.swift */; };
+		29DD474428431E4900BF4BAE /* CIFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD474228431E4900BF4BAE /* CIFilterView.swift */; };
 		29DD47472843234600BF4BAE /* Pixellate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD47462843234600BF4BAE /* Pixellate.swift */; };
 		29DD47482843234600BF4BAE /* Pixellate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD47462843234600BF4BAE /* Pixellate.swift */; };
 		29E7056A271BF39800D6B9CC /* IsotoxalPolygonDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E70569271BF39800D6B9CC /* IsotoxalPolygonDemo.swift */; };
@@ -530,7 +530,7 @@
 		29D3FABA2644F6C500B6A02F /* SkillSelectionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillSelectionRow.swift; sourceTree = "<group>"; };
 		29D8B98827607A3300F21B7A /* SpiderManSkillViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiderManSkillViewModel.swift; sourceTree = "<group>"; };
 		29DA940D27CF674800741B9B /* Path+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Path+Extensions.swift"; sourceTree = "<group>"; };
-		29DD474228431E4900BF4BAE /* StardewValleyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StardewValleyView.swift; sourceTree = "<group>"; };
+		29DD474228431E4900BF4BAE /* CIFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CIFilterView.swift; sourceTree = "<group>"; };
 		29DD47462843234600BF4BAE /* Pixellate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pixellate.swift; sourceTree = "<group>"; };
 		29E70569271BF39800D6B9CC /* IsotoxalPolygonDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsotoxalPolygonDemo.swift; sourceTree = "<group>"; };
 		29EB0A60262BEA570032E598 /* ControlSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlSelectionView.swift; sourceTree = "<group>"; };
@@ -708,7 +708,6 @@
 		2976E1AB2626A45000272ADC /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				29DD474128431E2000BF4BAE /* StardewValley */,
 				2976E1AC2626A45000272ADC /* Game_UI_InspirationsApp.swift */,
 				2976E1AD2626A45000272ADC /* ContentView.swift */,
 				2964BAB226C384B000F37FDC /* Games.swift */,
@@ -730,6 +729,7 @@
 				29CA754127912F5D00298F47 /* Persona5 */,
 				29A22CBC2626D27F000D9EAF /* RDR2 */,
 				290B177127572D3E0075AE24 /* SpiderMan */,
+				29DD474128431E2000BF4BAE /* StardewValley */,
 				291A07DE26BA4A24000F4590 /* SWTOR */,
 				29B44134262FDE7C00E442A6 /* TheLastOfUs */,
 				2976E1AE2626A45000272ADC /* Assets.xcassets */,
@@ -1024,7 +1024,7 @@
 		29DD474128431E2000BF4BAE /* StardewValley */ = {
 			isa = PBXGroup;
 			children = (
-				29DD474228431E4900BF4BAE /* StardewValleyView.swift */,
+				29DD474228431E4900BF4BAE /* CIFilterView.swift */,
 			);
 			path = StardewValley;
 			sourceTree = "<group>";
@@ -1171,7 +1171,7 @@
 				290B5CF7268ED22C00EB93BD /* HadesBoonDemo.swift in Sources */,
 				298CD785270FEF2A00C9D6B9 /* KiteAnimationDemo.swift in Sources */,
 				295794792650D91D00BDDE3A /* TLOUSkillModel.swift in Sources */,
-				29DD474328431E4900BF4BAE /* StardewValleyView.swift in Sources */,
+				29DD474328431E4900BF4BAE /* CIFilterView.swift in Sources */,
 				29351A4926CF63F00069BE75 /* RDR2AwardViewModel.swift in Sources */,
 				29A4F49F283DEC9F0078F32D /* LAItem.swift in Sources */,
 				29C11DEF2763129200D0CA09 /* SpiderManSkillTreeView.swift in Sources */,
@@ -1387,7 +1387,7 @@
 				297DC70D265A106800980DDE /* MGSVLoadingView.swift in Sources */,
 				295E145E27F0132500724FB7 /* OWDecorPattern.swift in Sources */,
 				290B5CF8268ED22C00EB93BD /* HadesBoonDemo.swift in Sources */,
-				29DD474428431E4900BF4BAE /* StardewValleyView.swift in Sources */,
+				29DD474428431E4900BF4BAE /* CIFilterView.swift in Sources */,
 				29EDA2DA283743CD00BC3C72 /* GearHoningCalculator.swift in Sources */,
 				2936E04F27707CDF0075FADF /* GIAchievementMenu.swift in Sources */,
 				298FE300264B8F1C00BBC02A /* SkillHealingSpeed.swift in Sources */,
