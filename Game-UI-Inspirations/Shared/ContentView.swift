@@ -29,14 +29,17 @@ struct ContentView: View {
   }
   
   var unknownGameView: some View {
-    Circle()
+    Reuleaux.triangle
+      .strokeBorder(lineWidth: 20)
       .frame(maxWidth: .infinity, maxHeight: .infinity)
       .overlay(
         Text("ERROR\r\n Unknown Game Title")
-          .foregroundColor(.white)
+          .foregroundColor(.black)
           .italic()
       )
       .padding()
+      .pixellate()
+
   }
   
   func destination(for title: String) -> some View {
@@ -72,6 +75,9 @@ struct ContentView: View {
         Persona5AnimatedMenu()
       case Games.lostArk:
         LASecretDungeonFloorPatternDemo()
+      case Games.stardewValley:
+        SpiderManMask()
+          .pixellate()
       default:
         unknownGameView
       }
