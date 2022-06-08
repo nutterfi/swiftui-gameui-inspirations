@@ -32,21 +32,17 @@ struct GIAchievementMenu: View {
   }
   
   var body: some View {
-    GeometryReader { proxy in
-      let dim = min(proxy.size.width, proxy.size.height)
-      ZStack {
-        LinearGradient(colors: [.blue, .green], startPoint: .topLeading, endPoint: .bottomTrailing)
-          .ignoresSafeArea()
-        LazyVGrid(columns: layout) {
-          ForEach(items) { item in
-            NavigationLink(destination: destination(for: item.menuIdentifier)) {
-              GIAchievementView(text: item.title)
-                .frame(width: 100, height: 150)
-            }
+    ZStack {
+      LinearGradient(colors: [.blue, .green], startPoint: .topLeading, endPoint: .bottomTrailing)
+        .ignoresSafeArea()
+      LazyVGrid(columns: layout) {
+        ForEach(items) { item in
+          NavigationLink(destination: destination(for: item.menuIdentifier)) {
+            GIAchievementView(text: item.title)
+              .frame(width: 100, height: 150)
           }
         }
       }
-      .frame(width: proxy.size.width, height: proxy.size.height)
     }
   }
   

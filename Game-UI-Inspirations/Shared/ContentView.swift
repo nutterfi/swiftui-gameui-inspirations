@@ -17,9 +17,10 @@ class ContentViewModel: ObservableObject {
 
 struct ContentView: View {
   @StateObject private var viewModel = ContentViewModel()
+  @State var navigationPath = NavigationPath()
   
   var body: some View {
-    NavigationView {
+    NavigationStack(path: $navigationPath) {
       List(viewModel.titles, id: \.self) { title in
         NavigationLink(destination: destination(for: title)) {
           selectionView(for: title)
@@ -43,7 +44,7 @@ struct ContentView: View {
   }
   
   func destination(for title: String) -> some View {
-    return ZStack {
+    Group {
       switch title {
       case Games.control:
         QuestDescriptionView()
@@ -85,7 +86,7 @@ struct ContentView: View {
   }
   
   func selectionView(for title: String) -> some View {
-    ZStack {
+    Group {
       switch title {
       case Games.control:
         ControlSelectionView()
