@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  Shared
+//  Game-UI-Inspirations
 //
 //  Created by nutterfi on 4/13/21.
 //
@@ -9,9 +9,11 @@ import SwiftUI
 import Shapes
 
 class ContentViewModel: ObservableObject {
-  @Published private(set) var titles: [String]
+  @Published private(set) var games: [Game]
   init() {
-    titles = Games.all.sorted()
+    games = Game.allCases.sorted(by: { g1, g2 in
+      g1.rawValue < g2.rawValue
+    })
   }
 }
 
@@ -21,9 +23,9 @@ struct ContentView: View {
   
   var body: some View {
     NavigationStack(path: $navigationPath) {
-      List(viewModel.titles, id: \.self) { title in
-        NavigationLink(destination: destination(for: title)) {
-          selectionView(for: title)
+      List(viewModel.games) { game in
+        NavigationLink(destination: destination(for: game)) {
+          selectionView(for: game)
         }
       }
     }
@@ -43,40 +45,42 @@ struct ContentView: View {
 
   }
   
-  func destination(for title: String) -> some View {
+  func destination(for game: Game) -> some View {
     Group {
-      switch title {
-      case Games.control:
+      switch game {
+      case Game.deathStranding:
+        PorterGradeView()
+      case Game.control:
         QuestDescriptionView()
-      case Games.rdr2:
+      case Game.rdr2:
         RDR2Menu()
-      case Games.mk11:
+      case Game.mk11:
         KountdownTimerDemo()
-      case Games.genshinImpact:
+      case Game.genshinImpact:
         GIAchievementMenu()
-      case Games.tlou:
+      case Game.tlou:
         TLOUMenu()
-      case Games.overwatch:
+      case Game.overwatch:
         OWUltimateMeterDemo()
-      case Games.mgsv:
+      case Game.mgsv:
         MGSVMissionTextDemo()
-      case Games.swtor:
+      case Game.swtor:
         SWTOREmpireLogo(color: .purple)
-      case Games.hades:
+      case Game.hades:
         HadesBoonDemo()
-      case Games.detroit:
+      case Game.detroit:
         DBHTitleScreenMenu()
-      case Games.destiny2:
+      case Game.destiny2:
         Destiny2FastTravelView()
-      case Games.celeste:
+      case Game.celeste:
         CelesteDemo()
-      case Games.spiderMan:
+      case Game.spiderMan:
         SpiderManSkillsMenu()
-      case Games.persona5:
+      case Game.persona5:
         Persona5AnimatedMenu()
-      case Games.lostArk:
+      case Game.lostArk:
         LASecretDungeonFloorPatternDemo()
-      case Games.stardewValley:
+      case Game.stardewValley:
         CIFilterView(input: Spider(), filter: CIFilter.pointillize())
       default:
         unknownGameView
@@ -85,44 +89,46 @@ struct ContentView: View {
     
   }
   
-  func selectionView(for title: String) -> some View {
+  func selectionView(for game: Game) -> some View {
     Group {
-      switch title {
-      case Games.control:
+      switch game {
+      case Game.deathStranding:
+        DeathStrandingTitle()
+      case Game.control:
         ControlSelectionView()
-      case Games.mk11:
+      case Game.mk11:
         MK11SelectionView()
-      case Games.overwatch:
+      case Game.overwatch:
         OverwatchIcon(primary: Color.white, secondary: Color.orange)
           .padding(5)
           .background(Color.black)
-      case Games.swtor:
+      case Game.swtor:
         SWTOREmpireLogo(color: Color.purple)
           .padding(5)
           .background(Color.black)
-      case Games.rdr2:
+      case Game.rdr2:
         RDR2ShowdownTitle(title: "RDR2")
-      case Games.genshinImpact:
+      case Game.genshinImpact:
         GIItemRarityBackground(rarity: .four)
           .overlay(
             Text("Genshin Impact")
               .font(.custom("GillSans", size: 24))
               .foregroundColor(.white)
           )
-      case Games.tlou:
+      case Game.tlou:
         TLOUMainMenuIcon()
-      case Games.spiderMan:
+      case Game.spiderMan:
         SpiderManMask()
           .background(LinearGradient(colors: [.blue, .black], startPoint: .topLeading, endPoint: .bottomTrailing))
-      case Games.persona5:
+      case Game.persona5:
         Persona5MenuItem(text: "Persona5")
           .background(Color.red)
         .frame(maxWidth: .infinity, minHeight: 120)
-      case Games.lostArk:
+      case Game.lostArk:
         LostArkSelectionView()
           .frame(maxWidth: .infinity, minHeight: 120)
       default:
-        Text(title)
+        Text(game.title)
         .font(.largeTitle)
         .multilineTextAlignment(.center)
         .frame(maxWidth: .infinity, minHeight: 120)

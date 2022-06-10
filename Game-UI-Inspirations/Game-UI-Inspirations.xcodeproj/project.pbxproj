@@ -153,8 +153,8 @@
 		2962058026FD85DE002F9D3E /* ElevationMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2962057E26FD85DE002F9D3E /* ElevationMap.swift */; };
 		2964BAB026C383EE00F37FDC /* SWTOREmpireLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2964BAAF26C383EE00F37FDC /* SWTOREmpireLogo.swift */; };
 		2964BAB126C383EE00F37FDC /* SWTOREmpireLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2964BAAF26C383EE00F37FDC /* SWTOREmpireLogo.swift */; };
-		2964BAB326C384B000F37FDC /* Games.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2964BAB226C384B000F37FDC /* Games.swift */; };
-		2964BAB426C384B000F37FDC /* Games.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2964BAB226C384B000F37FDC /* Games.swift */; };
+		2964BAB326C384B000F37FDC /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2964BAB226C384B000F37FDC /* Game.swift */; };
+		2964BAB426C384B000F37FDC /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2964BAB226C384B000F37FDC /* Game.swift */; };
 		296C1F1627F6A44D00BAEA23 /* Shimmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296C1F1527F6A44D00BAEA23 /* Shimmer.swift */; };
 		296C1F1727F6A44D00BAEA23 /* Shimmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296C1F1527F6A44D00BAEA23 /* Shimmer.swift */; };
 		296C7F512706B35D00BFACC1 /* DBHLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296C7F502706B35D00BFACC1 /* DBHLoadingView.swift */; };
@@ -440,7 +440,7 @@
 		2962057B26FD7EFD002F9D3E /* Destiny2FastTravelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destiny2FastTravelView.swift; sourceTree = "<group>"; };
 		2962057E26FD85DE002F9D3E /* ElevationMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElevationMap.swift; sourceTree = "<group>"; };
 		2964BAAF26C383EE00F37FDC /* SWTOREmpireLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWTOREmpireLogo.swift; sourceTree = "<group>"; };
-		2964BAB226C384B000F37FDC /* Games.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Games.swift; sourceTree = "<group>"; };
+		2964BAB226C384B000F37FDC /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		296C1F1527F6A44D00BAEA23 /* Shimmer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shimmer.swift; sourceTree = "<group>"; };
 		296C7F502706B35D00BFACC1 /* DBHLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBHLoadingView.swift; sourceTree = "<group>"; };
 		2976E1AC2626A45000272ADC /* Game_UI_InspirationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game_UI_InspirationsApp.swift; sourceTree = "<group>"; };
@@ -710,7 +710,7 @@
 			children = (
 				2976E1AC2626A45000272ADC /* Game_UI_InspirationsApp.swift */,
 				2976E1AD2626A45000272ADC /* ContentView.swift */,
-				2964BAB226C384B000F37FDC /* Games.swift */,
+				2964BAB226C384B000F37FDC /* Game.swift */,
 				29A22D082626DA50000D9EAF /* Extensions */,
 				29C9018D26A7D6F600AA9619 /* Reusable */,
 				297A96B9270D5BBA001489DF /* Demos */,
@@ -1302,7 +1302,7 @@
 				2929B8102695604600C86BBB /* FFXIVCharacterView.swift in Sources */,
 				29B44138262FDF2A00E442A6 /* TLOUIcon.swift in Sources */,
 				29EB0A61262BEA570032E598 /* ControlSelectionView.swift in Sources */,
-				2964BAB326C384B000F37FDC /* Games.swift in Sources */,
+				2964BAB326C384B000F37FDC /* Game.swift in Sources */,
 				29155FF3272BA64800BA2FE4 /* TLOUMenu.swift in Sources */,
 				29FC00032703A8DE00900F5B /* DBHTitleScreenMenu.swift in Sources */,
 				2906485526FAD882009A20A1 /* StrokeStyledRectangleDemo.swift in Sources */,
@@ -1502,7 +1502,7 @@
 				29D3FAB72644F4B000B6A02F /* SkillVitamin.swift in Sources */,
 				29EEFDD2276EFAA300290CA2 /* Spider.swift in Sources */,
 				29A22D402626DFF3000D9EAF /* MaskedProgressBar.swift in Sources */,
-				2964BAB426C384B000F37FDC /* Games.swift in Sources */,
+				2964BAB426C384B000F37FDC /* Game.swift in Sources */,
 				290B177727573DB40075AE24 /* SpiderManMask.swift in Sources */,
 				29421CA527192FC600CBEDBB /* GIReward.swift in Sources */,
 				29567DB8276D80FC00946491 /* LineSegmentGroup.swift in Sources */,

@@ -13,7 +13,7 @@ class WheelOfFortuneViewModel: ObservableObject {
   
   var data: [String] {
     [
-      Games.mgsv, Games.control, Games.mk11, Games.rdr2, Games.genshinImpact, Games.overwatch, Games.swtor, Games.tlou, Games.hades, Games.detroit, Games.destiny2, Games.celeste, "Shapes"
+      Game.mgsv.rawValue, Game.control.rawValue, Game.mk11.rawValue, Game.rdr2.rawValue, Game.genshinImpact.rawValue, Game.overwatch.rawValue, Game.swtor.rawValue, Game.tlou.rawValue, Game.hades.rawValue, Game.detroit.rawValue, Game.destiny2.rawValue, Game.celeste.rawValue, "Shapes"
     ]
   }
   
@@ -83,9 +83,9 @@ struct WheelOfFortune: View {
   func segmentView(for game: String) -> some View {
     Group {
       switch game {
-      case Games.control:
+      case Game.control.rawValue:
         LoadingRingsView(color: .white, lineWidth: 8)
-      case Games.mk11:
+      case Game.mk11.rawValue:
         HStack(spacing: 10) {
           MK11Left()
             .fill(LinearGradient(colors: [.red, .black], startPoint: .top, endPoint: .bottom))
@@ -96,28 +96,28 @@ struct WheelOfFortune: View {
               .frame(width: 30)
         }
         .frame(width: 120, height: 120)
-      case Games.overwatch:
+      case Game.overwatch.rawValue:
         OverwatchIcon(primary: Color.white, secondary: Color.orange)
-      case Games.swtor:
+      case Game.swtor.rawValue:
         SWTOREmpireLogo(color: Color.purple)
-      case Games.rdr2:
+      case Game.rdr2.rawValue:
         RDR2RevolverLoadingAnimation().foregroundColor(.red)
-      case Games.genshinImpact:
+      case Game.genshinImpact.rawValue:
         Mora()
-      case Games.tlou:
+      case Game.tlou.rawValue:
         FireflyPendant()
-      case Games.hades:
+      case Game.hades.rawValue:
         LinearGradient(gradient: Gradient(colors: [.hadesAresRed, .white, .hadesAresRed, .hadesAresRed]), startPoint: .topLeading, endPoint: .bottomTrailing)
           .mask(
             AresBoon()
           )
-      case Games.destiny2:
+      case Game.destiny2.rawValue:
         Destiny2FastTravelIcon(color: .white)
-      case Games.detroit:
+      case Game.detroit.rawValue:
         DBHTitleScreenMenuItem(title:"").frame(width:120)
-      case Games.celeste:
+      case Game.celeste.rawValue:
         CelesteDeathAnimation()
-      case Games.mgsv:
+      case Game.mgsv.rawValue:
         DiamondDogsLogo()
       case "Shapes":
         KiteAnimationDemo()

@@ -77,7 +77,7 @@ class PorterGradeViewModel: ObservableObject {
 }
 
 struct PorterGradeView: View {
-  var sides: Int
+  var sides: Int { 5 }
   @StateObject var viewModel = PorterGradeViewModel()
   
   var body: some View {
@@ -176,6 +176,6 @@ struct PorterGradeView: View {
 
 struct PorterGradeView_Previews: PreviewProvider {
   static var previews: some View {
-    PorterGradeView(sides: 5)
+    PorterGradeView()
   }
 }
