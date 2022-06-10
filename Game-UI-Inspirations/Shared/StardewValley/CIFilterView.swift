@@ -20,7 +20,7 @@ struct CIFilterView<T: View>: View {
   var body: some View {
     GeometryReader { proxy in
       ZStack {
-        if let filteredImage = filteredImage {
+        if let filteredImage {
           filteredImage
             .resizable()
             .scaledToFit()

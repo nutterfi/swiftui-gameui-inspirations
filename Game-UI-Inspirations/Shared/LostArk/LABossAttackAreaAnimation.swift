@@ -34,7 +34,7 @@ struct LABossAttackAreaAnimation: View {
             )
           
           ZStack {
-            if let image = image {
+            if let image {
               image
                 .resizable(resizingMode: .tile)
                 .scaledToFit()

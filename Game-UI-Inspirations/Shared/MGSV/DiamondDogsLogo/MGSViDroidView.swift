@@ -87,7 +87,7 @@ struct MGSViDroidView: View {
           }
           
           // Back image
-          if let image = image {
+          if let image {
             image
               .resizable()
               .scaledToFill()

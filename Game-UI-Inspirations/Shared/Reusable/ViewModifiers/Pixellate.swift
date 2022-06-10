@@ -16,7 +16,7 @@ struct Pixellate: ViewModifier {
     AnyView(content)
       .overlay(
         VStack {
-          if let filteredImage = filteredImage {
+          if let filteredImage {
             filteredImage
               .resizable()
               .scaledToFit()

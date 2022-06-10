@@ -21,7 +21,7 @@ struct RDR2AwardView: View {
           Color("rdr2Gray")
             .overlay(
               Group {
-                if let selectedAward = selectedAward {
+                if let selectedAward {
                   RDR2AwardBadge(award: selectedAward)
                 } else {
                   Color("rdr2Gray")
