@@ -35,13 +35,12 @@ struct LABardStigmaSkillView: View {
           RadialGradient(colors: [centerColor, .clear], center: .center, startRadius: 0, endRadius: dim * 0.75)
             .frame(width: dim * 0.75, height: dim * 0.75)
             .mask(Circle().blur(radius: 10))
-            .opacity(animating ? 0.1 : 0.5)
+            .opacity(animating ? 1.1 : 0.5)
             .animation(Animation.linear(duration: 1).repeatForever(autoreverses: true), value: animating)
-                    
         }
         .frame(width: proxy.size.width, height: proxy.size.height)
       }
-      .onAppear {
+      .task {
         animating.toggle()
       }
     }
@@ -86,6 +85,6 @@ struct LABardStigmaSkillDemo: View {
 
 struct LABardStigmaSkillView_Previews: PreviewProvider {
     static var previews: some View {
-      LABardStigmaSkillDemo()
+      LABardStigmaSkillView()
     }
 }

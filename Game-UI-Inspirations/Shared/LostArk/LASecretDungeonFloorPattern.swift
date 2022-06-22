@@ -117,7 +117,7 @@ struct LASecretDungeonFloorPatternDemo: View {
           .animation(Animation.easeInOut(duration: 2).repeatForever(), value: animating)
       }
       .frame(width: proxy.size.width, height: proxy.size.height)
-      .onAppear {
+      .task {
         animating = true
       }
     }

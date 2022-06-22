@@ -23,22 +23,16 @@ struct LostArkSelectionView: View {
           Diamond()
             .stroke(embossColor, lineWidth: dim * 0.05)
             .frame(width: dim, height: dim)
-//            .shadow(color: Color.black.opacity(0.2), radius: dim * 0.1, x: dim * 0.1, y: dim * 0.1)
-//                        .shadow(color: Color.white.opacity(0.7), radius: dim * 0.1, x: -dim * 0.05, y: -dim * 0.5)
             .padding()
             
           Diamond()
             .inset(by: dim * 0.1)
             .stroke(embossColor, lineWidth: dim * 0.02)
             .frame(width: dim, height: dim)
-//            .shadow(color: Color.black.opacity(0.2), radius: dim * 0.1, x: dim * 0.1, y: dim * 0.1)
-//                        .shadow(color: Color.white.opacity(0.7), radius: dim * 0.1, x: -dim * 0.05, y: -dim * 0.5)
           
           LostArkLogo()
             .frame(width: dim, height: dim)
             .foregroundColor(embossColor)
-//            .shadow(color: Color.black.opacity(0.2), radius: dim * 0.1, x: dim * 0.1, y: dim * 0.1)
-//                        .shadow(color: Color.white.opacity(0.7), radius: dim * 0.1, x: -dim * 0.05, y: -dim * 0.5)
         }
         .frame(width: proxy.size.width, height: proxy.size.height)
       }

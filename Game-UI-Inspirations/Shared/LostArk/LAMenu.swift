@@ -11,13 +11,9 @@ import Shapes
 struct LAMenu: View {
   var body: some View {
     Grid {
-      Spacer()
-      // TODO: More rigorous testing of composed views with different parent view content frames
-      // probably need to use something different than GeometryReader
       GridRow {
         LABardStigmaSkillView()
           .scaledToFit()
-          .background(Color.yellow)
         LostArkLogo()
           .scaledToFit()
           
@@ -31,11 +27,13 @@ struct LAMenu: View {
           .scaledToFit()
         PolygonSegmentWrapAnimation(sides: 8)
           .scaledToFit()
-        LASecretDungeonFloorPattern()
+        LASecretDungeonFloorPatternDemo()
           .scaledToFit()
       }
-
-      Spacer()
+      
+      GridRow {
+        LACardBack()
+      }
       
     }
   }

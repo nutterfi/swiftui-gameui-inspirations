@@ -13,11 +13,11 @@ struct LACardBack: View {
   
   var cardTexture: some View {
     GeometryReader { proxy in
-      let dim = min(proxy.size.width, proxy.size.height)
+      let dim: Double = min(proxy.size.width, proxy.size.height)
       ZStack {
         Group {
           // box layer
-          Group {
+          ZStack {
             Rectangle()
               .inset(by: dim * 0.14)
               .strokeBorder(.white, lineWidth: dim * 0.01)
@@ -52,7 +52,7 @@ struct LACardBack: View {
             .opacity(0.3)
           
           // vertical notch layer
-          Group {
+          ZStack {
             Rectangle()
               .strokeBorder(.white, lineWidth: dim * 0.01)
               .offset(x: dim * 0.2, y: -dim * 0.67)
@@ -75,10 +75,10 @@ struct LACardBack: View {
           .opacity(0.5)
           
           // horizontal notch layer
-          Group {
+          ZStack {
             Rectangle()
               .strokeBorder(.white, lineWidth: dim * 0.01)
-              .offset(x: dim * 0.52, y: -dim * 0.67)
+              .offset(x: dim * 0.2, y: -dim * 0.67)
             Rectangle()
               .strokeBorder(.white, lineWidth: dim * 0.01)
               .offset(x: -dim * 0.2, y: -dim * 0.67)

@@ -55,7 +55,7 @@ struct LABossAttackAreaAnimation: View {
           .mask(mask)
         }
         .frame(width: proxy.size.width, height: proxy.size.height)
-        .onAppear {
+        .task {
           animating = true
 
           let uiimage = ConvexPolygon(sides: 6)
