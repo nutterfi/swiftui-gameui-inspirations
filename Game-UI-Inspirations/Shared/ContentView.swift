@@ -32,8 +32,10 @@ struct ContentView: View {
   }
   
   var unknownGameView: some View {
-    Reuleaux.triangle
-      .strokeBorder(lineWidth: 20)
+    let style = StrokeStyle(lineWidth: 20, lineJoin: .round, miterLimit: 0)
+      
+    return Reuleaux.triangle
+      .strokeBorder(Color.purple, style: style)
       .frame(maxWidth: .infinity, maxHeight: .infinity)
       .overlay(
         Text("ERROR\r\n Unknown Game Title")
@@ -45,43 +47,54 @@ struct ContentView: View {
 
   }
   
+  func defaultTitle(for game: Game) -> some View {
+    Text(game.title)
+      .font(.largeTitle)
+      .multilineTextAlignment(.center)
+      .frame(maxWidth: .infinity, minHeight: 120)
+      .foregroundColor(.white)
+      .background(Color.blue)
+  }
+  
   func destination(for game: Game) -> some View {
     Group {
       switch game {
-      case Game.deathStranding:
+      case .deathStranding:
         PorterGradeView()
-      case Game.control:
+      case .control:
         QuestDescriptionView()
-      case Game.rdr2:
+      case .rdr2:
         RDR2Menu()
-      case Game.mk11:
+      case .mk11:
         KountdownTimerDemo()
-      case Game.genshinImpact:
+      case .genshinImpact:
         GIAchievementMenu()
-      case Game.tlou:
+      case .tlou:
         TLOUMenu()
-      case Game.overwatch:
+      case .overwatch:
         OWUltimateMeterDemo()
-      case Game.mgsv:
+      case .mgsv:
         MGSVMissionTextDemo()
-      case Game.swtor:
+      case .swtor:
         SWTOREmpireLogo(color: .purple)
-      case Game.hades:
+      case .hades:
         HadesBoonDemo()
-      case Game.detroit:
+      case .detroit:
         DBHTitleScreenMenu()
-      case Game.destiny2:
+      case .destiny2:
         Destiny2FastTravelView()
-      case Game.celeste:
+      case .celeste:
         CelesteDemo()
-      case Game.spiderMan:
+      case .spiderMan:
         SpiderManSkillsMenu()
-      case Game.persona5:
+      case .persona5:
         Persona5AnimatedMenu()
-      case Game.lostArk:
-        LASecretDungeonFloorPatternDemo()
-      case Game.stardewValley:
+      case .lostArk:
+        LAMenu()
+      case .stardewValley:
         CIFilterView(input: Spider(), filter: CIFilter.pointillize())
+      case .ori:
+        OriSkillTreeDemo()
       default:
         unknownGameView
       }
@@ -128,12 +141,7 @@ struct ContentView: View {
         LostArkSelectionView()
           .frame(maxWidth: .infinity, minHeight: 120)
       default:
-        Text(game.title)
-        .font(.largeTitle)
-        .multilineTextAlignment(.center)
-        .frame(maxWidth: .infinity, minHeight: 120)
-        .foregroundColor(.white)
-        .background(Color.blue)
+        defaultTitle(for: game)
       }
     }
     .frame(height: 120)
@@ -144,5 +152,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
   static var previews: some View {
     ContentView()
+      .previewInterfaceOrientation(.landscapeLeft)
   }
 }
