@@ -33,9 +33,16 @@ struct LAMenu: View {
       
       GridRow {
         LACardBack()
+        
+        MokokoSeed()
+          .scaledToFit()
+          .foregroundStyle(
+            LinearGradient(colors: [Color.mokokoLeafYellow, Color.mokokoBelly], startPoint: .topTrailing, endPoint: .bottomLeading)
+          )
       }
       
     }
+    .background(Color.purple.opacity(0.3).ignoresSafeArea())
   }
 }
 

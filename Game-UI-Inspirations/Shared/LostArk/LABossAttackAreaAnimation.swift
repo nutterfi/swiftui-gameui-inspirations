@@ -25,7 +25,6 @@ struct LABossAttackAreaAnimation: View {
       GeometryReader { proxy in
         let dim = min(proxy.size.width, proxy.size.height)
         ZStack {
-          Color.white
           let mask = Circle()
             .frame(width: animating ? dim : 0.01 * dim, height: animating ? dim : 0.01 * dim)
             .animation(
