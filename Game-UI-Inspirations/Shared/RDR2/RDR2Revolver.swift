@@ -14,8 +14,14 @@ struct RDR2Revolver: Shape {
     let dim = min(rect.width, rect.height)
     let mid = CGPoint(x: rect.midX, y: rect.midY)
     return Path { path in
-      path.addArc(center: mid, radius: dim * 0.5, startAngle: .zero, endAngle: .init(degrees: 360), clockwise: false)
-      path.closeSubpath()
+      
+      // start with a circle
+      var firstCircle = Path()
+      firstCircle.addArc(center: mid, radius: dim * 0.5, startAngle: .zero, endAngle: .init(degrees: 360), clockwise: false)
+      firstCircle.closeSubpath()
+      var cgFirstCircle = firstCircle.cgPath
+      
+      // get six points around a circle and use them as centers for smaller circles
       
       let polygon = ConvexPolygon(sides: 6)
       let innerVertices = polygon
@@ -29,32 +35,32 @@ struct RDR2Revolver: Shape {
         var p = Path()
         p.addArc(center: vertex, radius: dim * 0.14, startAngle: .zero, endAngle: .init(degrees: 360), clockwise: true)
         
-        path.addPath(p)
-        path.closeSubpath()
+        cgFirstCircle = cgFirstCircle.subtracting(p.cgPath)
       }
       
       innerVertices.forEach { vertex in
         var p = Path()
         p.addArc(center: vertex, radius: dim * 0.13, startAngle: .zero, endAngle: .init(degrees: 360), clockwise: true)
         
-        path.addPath(p)
-        path.closeSubpath()
+        cgFirstCircle = cgFirstCircle.subtracting(p.cgPath)
       }
       
       var p = Path()
       p.addArc(center: mid, radius: dim * 0.06, startAngle: .zero, endAngle: .init(degrees: 360), clockwise: true)
-      path.addPath(p)
+      
+      cgFirstCircle = cgFirstCircle.subtracting(p.cgPath)
+      
+      path.addPath(Path(cgFirstCircle))
     }
   }
 }
 
 struct RDR2Revolver_Previews: PreviewProvider {
-    static var previews: some View {
-      RDR2Revolver()
-        .fill(Color.white)
-        .frame(width: 256, height: 256)
-        .clipShape(Circle().inset(by: 1))
-        .background(Color.red)
-        .previewLayout(.sizeThatFits)
-    }
+  static var previews: some View {
+    RDR2Revolver()
+      .stroke(Color.white, lineWidth: 5)
+      .frame(width: 256, height: 256)
+      .background(Color.red)
+      .previewLayout(.sizeThatFits)
+  }
 }
