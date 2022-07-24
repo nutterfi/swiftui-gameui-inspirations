@@ -57,10 +57,12 @@ struct RDR2Revolver: Shape {
 
 struct RDR2Revolver_Previews: PreviewProvider {
   static var previews: some View {
-    RDR2Revolver()
-      .stroke(Color.white, lineWidth: 5)
-      .frame(width: 256, height: 256)
-      .background(Color.red)
+    ZStack {
+      Color.red.ignoresSafeArea()
+      RDR2Revolver()
+        .stroke(Color.white, lineWidth: 5)
+        .frame(width: 256, height: 256)
       .previewLayout(.sizeThatFits)
+    }
   }
 }

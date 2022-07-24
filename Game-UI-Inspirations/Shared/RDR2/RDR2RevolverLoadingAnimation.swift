@@ -11,17 +11,11 @@ struct RDR2RevolverLoadingView: View {
   var body: some View {
     GeometryReader { proxy in
       let dim = min(proxy.size.width, proxy.size.height)
-      ZStack() {
+      ZStack(alignment: .bottomTrailing) {
         Color.black.ignoresSafeArea()
-        VStack {
-          Spacer()
-          HStack {
-            Spacer()
-            RDR2RevolverLoadingAnimation()
-              .foregroundColor(Color.white)
-              .frame(width: dim / 5, height: dim / 5)
-          }
-        }
+        RDR2RevolverLoadingAnimation()
+          .foregroundColor(Color.white)
+          .frame(width: dim / 5, height: dim / 5)
       }
       .frame(width: proxy.size.width, height: proxy.size.height)
     }
@@ -32,7 +26,6 @@ struct RDR2RevolverLoadingAnimation: View {
   @State private var isAnimating = false
     var body: some View {
       RDR2Revolver()
-        .clipShape(Circle().inset(by: 1))
         .rotationEffect(isAnimating ? .radians(.pi / 4) : .zero)
         .onAppear {
           withAnimation(Animation.spring().delay(0.25).repeatForever(autoreverses: false)) {

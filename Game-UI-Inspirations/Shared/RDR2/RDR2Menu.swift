@@ -36,7 +36,7 @@ struct RDR2Menu: View {
     Group {
       switch menuIdentifier {
       case RDR2MenuIdentifier.awardView:
-        RDR2AwardBadge(award: RDR2Award(id: UUID(), progress: 0.1, image: "lasso.sparkles", rank: RDR2Award.Rank.teal))
+        RDR2AwardView()
       case RDR2MenuIdentifier.minimap:
         RDR2MinimapDemo()
       case RDR2MenuIdentifier.revolverAnimation:
