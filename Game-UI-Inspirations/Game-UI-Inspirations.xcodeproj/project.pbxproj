@@ -60,6 +60,10 @@
 		291A07E026BA4A3E000F4590 /* SWTORLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291A07DF26BA4A3E000F4590 /* SWTORLogo.swift */; };
 		291A07E526BA5257000F4590 /* StrokeStyledPolygonDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291A07E426BA5257000F4590 /* StrokeStyledPolygonDemo.swift */; };
 		291A07E626BA5257000F4590 /* StrokeStyledPolygonDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291A07E426BA5257000F4590 /* StrokeStyledPolygonDemo.swift */; };
+		291B290928812DCE0035BDCE /* JustCause4Compass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291B290828812DCE0035BDCE /* JustCause4Compass.swift */; };
+		291B290A28812DCE0035BDCE /* JustCause4Compass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291B290828812DCE0035BDCE /* JustCause4Compass.swift */; };
+		291B290C288138F00035BDCE /* JustCause4CompassBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291B290B288138F00035BDCE /* JustCause4CompassBorder.swift */; };
+		291B290D288138F00035BDCE /* JustCause4CompassBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291B290B288138F00035BDCE /* JustCause4CompassBorder.swift */; };
 		291ECAF3286817E2004B7A03 /* BDMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291ECAF2286817E2004B7A03 /* BDMenuItem.swift */; };
 		2920DB582785540E00DE5BEE /* PorterGradeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2920DB572785540E00DE5BEE /* PorterGradeView.swift */; };
 		2920DB592785540E00DE5BEE /* PorterGradeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2920DB572785540E00DE5BEE /* PorterGradeView.swift */; };
@@ -405,6 +409,8 @@
 		29188618272511E50060E33C /* RDR2RevolverLoadingAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDR2RevolverLoadingAnimation.swift; sourceTree = "<group>"; };
 		291A07DF26BA4A3E000F4590 /* SWTORLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWTORLogo.swift; sourceTree = "<group>"; };
 		291A07E426BA5257000F4590 /* StrokeStyledPolygonDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeStyledPolygonDemo.swift; sourceTree = "<group>"; };
+		291B290828812DCE0035BDCE /* JustCause4Compass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustCause4Compass.swift; sourceTree = "<group>"; };
+		291B290B288138F00035BDCE /* JustCause4CompassBorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JustCause4CompassBorder.swift; path = Shared/JustCause4/JustCause4CompassBorder.swift; sourceTree = SOURCE_ROOT; };
 		291ECAF2286817E2004B7A03 /* BDMenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDMenuItem.swift; sourceTree = "<group>"; };
 		2920DB572785540E00DE5BEE /* PorterGradeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PorterGradeView.swift; sourceTree = "<group>"; };
 		2920DB5A278566EB00DE5BEE /* TwoTonedIsotoxalPolygon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoTonedIsotoxalPolygon.swift; sourceTree = "<group>"; };
@@ -657,6 +663,15 @@
 			path = SWTOR;
 			sourceTree = "<group>";
 		};
+		291B290728812DA10035BDCE /* JustCause4 */ = {
+			isa = PBXGroup;
+			children = (
+				291B290B288138F00035BDCE /* JustCause4CompassBorder.swift */,
+				291B290828812DCE0035BDCE /* JustCause4Compass.swift */,
+			);
+			path = JustCause4;
+			sourceTree = "<group>";
+		};
 		291ECAF1286817BF004B7A03 /* BoyfriendDungeon */ = {
 			isa = PBXGroup;
 			children = (
@@ -755,6 +770,7 @@
 				2929B80E2695601400C86BBB /* FFXIV */,
 				29A22CBD2626D288000D9EAF /* GenshinImpact */,
 				291026FD263E62BC00418FE1 /* Hades */,
+				291B290728812DA10035BDCE /* JustCause4 */,
 				295E145F27F013C900724FB7 /* LostArk */,
 				297DC708265A0F0700980DDE /* MGSV */,
 				29A22CBB2626D279000D9EAF /* MK11 */,
@@ -1353,6 +1369,7 @@
 				2935A9E027169EAE0043F964 /* GISelectionItem.swift in Sources */,
 				29150B2026B659EC00106A45 /* AresBoon.swift in Sources */,
 				29D8B98927607A3300F21B7A /* SpiderManSkillViewModel.swift in Sources */,
+				291B290C288138F00035BDCE /* JustCause4CompassBorder.swift in Sources */,
 				29421CA427192FC600CBEDBB /* GIReward.swift in Sources */,
 				29EB0A66262BF1D40032E598 /* ControlQuestMarker.swift in Sources */,
 				2910270B263E6DAC00418FE1 /* PoseidonBoon.swift in Sources */,
@@ -1375,6 +1392,7 @@
 				29A22D042626D93A000D9EAF /* QuestDescriptionView.swift in Sources */,
 				295794742650D8DE00BDDE3A /* SkillIcon.swift in Sources */,
 				290089012840815900F840D8 /* ProgressBarWithDeltaDemo.swift in Sources */,
+				291B290928812DCE0035BDCE /* JustCause4Compass.swift in Sources */,
 				29C611D428530B0C00804EFD /* LAMenu.swift in Sources */,
 				29B02F002793DEF60034A6F9 /* P5AnimatedStars.swift in Sources */,
 				29304D2F26916F49003512A1 /* TestingTiledImageView.swift in Sources */,
@@ -1479,6 +1497,7 @@
 				29A22CFC2626D8C9000D9EAF /* ConsummateVDemo.swift in Sources */,
 				29C5AFC4272E420900BFACD4 /* RDR2Menu.swift in Sources */,
 				2957947F2650D94000BDDE3A /* TLOUSkillSelectMenuViewModel.swift in Sources */,
+				291B290D288138F00035BDCE /* JustCause4CompassBorder.swift in Sources */,
 				2910377C275C745A00A9EEB6 /* LongPressProgressView.swift in Sources */,
 				29C9019326A801A400AA9619 /* OWUltimateMeterBorder.swift in Sources */,
 				29350C722709930F00A2B8FA /* SpirolateralDemo.swift in Sources */,
@@ -1539,6 +1558,7 @@
 				29C11DED276310C000D0CA09 /* SpiderManSkillTreeWeb.swift in Sources */,
 				29EB0A62262BEA570032E598 /* ControlSelectionView.swift in Sources */,
 				29101796270429580021E672 /* CelesteDemo.swift in Sources */,
+				291B290A28812DCE0035BDCE /* JustCause4Compass.swift in Sources */,
 				29351A4D26CF706D0069BE75 /* RDR2Badgeable.swift in Sources */,
 				2964BAB126C383EE00F37FDC /* SWTOREmpireLogo.swift in Sources */,
 				29FADE1D269EA6E800CF6D73 /* MGSVMissionTextDemo.swift in Sources */,

@@ -95,6 +95,8 @@ struct ContentView: View {
         CIFilterView(input: Spider(), filter: CIFilter.pointillize())
       case .ori:
         OriSkillTreeDemo()
+      case .justCause4:
+        JustCause4Demo()
       default:
         unknownGameView
       }

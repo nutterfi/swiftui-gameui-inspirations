@@ -31,5 +31,6 @@ enum Game: String, Identifiable, Hashable, CaseIterable {
   case stardewValley = "Stardew Valley"
   case deathStranding = "Death Stranding"
   case ori = "Ori"
+  case justCause4 = "Just Cause 4"
   
 }
