@@ -1,6 +1,6 @@
 //
-//  MinimapView.swift
-//  rdr2-map-overlay
+//  RDR2MinimapView.swift
+//  Game-UI-Inspirations
 //
 //  Created by nutterfi on 3/13/21.
 //
@@ -8,8 +8,8 @@
 import SwiftUI
 import Shapes
 
-struct MinimapView: View {
-  @StateObject private var viewModel = MinimapViewModel.demo
+struct RDR2MinimapView: View {
+  @StateObject private var viewModel = RDR2MinimapViewModel.demo
   
     var body: some View {
       GeometryReader { proxy in
@@ -93,7 +93,7 @@ struct MinimapView_Previews: PreviewProvider {
     static var previews: some View {
       ZStack {
         Color.gray
-        MinimapView()
+        RDR2MinimapView()
           .padding()
       }
     }

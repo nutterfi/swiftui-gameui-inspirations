@@ -33,12 +33,12 @@ struct RDR2Menu: View {
   let layout = Array(repeating: GridItem(), count: 2)
   
   func destination(for menuIdentifier: String) -> some View {
-    return ZStack {
+    Group {
       switch menuIdentifier {
       case RDR2MenuIdentifier.awardView:
         RDR2AwardBadge(award: RDR2Award(id: UUID(), progress: 0.1, image: "lasso.sparkles", rank: RDR2Award.Rank.teal))
       case RDR2MenuIdentifier.minimap:
-        MinimapDemo()
+        RDR2MinimapDemo()
       case RDR2MenuIdentifier.revolverAnimation:
         RDR2RevolverLoadingView()
       case RDR2MenuIdentifier.confirmButton:
@@ -57,38 +57,35 @@ struct RDR2Menu: View {
   }
   
   var body: some View {
-    GeometryReader { proxy in
-      ZStack {
-        LinearGradient(colors: [Color("rdr2Bronze"), Color("rdr2Gold")], startPoint: .topLeading, endPoint: .bottomTrailing)
-          .ignoresSafeArea()
-        
-        LinearGradient(colors: [.white, .black], startPoint: .bottom, endPoint: .top)
-          .opacity(0.6)
-          .ignoresSafeArea()
-        
-        ScrollView() {
-          LazyVGrid(columns: layout) {
-            ForEach(items) { item in
-              NavigationLink(destination: destination(for: item.menuIdentifier)) {
-                ZStack {
-                  Color.white
-                  let titleArray = item.title.components(separatedBy: .whitespacesAndNewlines)
-                  VStack {
-                    ForEach(titleArray, id:\.self) { title in
-                      Text(title.uppercased())
-                        .font(.custom("AmericanTypewriter", size: 28))
-                        .shadow(color: Color.black, radius: 5, x: 1, y: 1)
-                        .foregroundColor(title.isEmpty ? .white : .black)
-                    }
+    ZStack {
+      LinearGradient(colors: [Color("rdr2Bronze"), Color("rdr2Gold")], startPoint: .topLeading, endPoint: .bottomTrailing)
+        .ignoresSafeArea()
+      
+      LinearGradient(colors: [.white, .black], startPoint: .bottom, endPoint: .top)
+        .opacity(0.6)
+        .ignoresSafeArea()
+      
+      ScrollView() {
+        LazyVGrid(columns: layout) {
+          ForEach(items) { item in
+            NavigationLink(destination: destination(for: item.menuIdentifier)) {
+              ZStack {
+                Color.white
+                let titleArray = item.title.components(separatedBy: .whitespacesAndNewlines)
+                VStack {
+                  ForEach(titleArray, id:\.self) { title in
+                    Text(title.uppercased())
+                      .font(.custom("AmericanTypewriter", size: 28))
+                      .shadow(color: Color.black, radius: 5, x: 1, y: 1)
+                      .foregroundColor(title.isEmpty ? .white : .black)
                   }
                 }
-                .foregroundColor(.black)
               }
+              .foregroundColor(.black)
             }
           }
         }
       }
-      .frame(width: proxy.size.width, height: proxy.size.height)
     }
   }
 }

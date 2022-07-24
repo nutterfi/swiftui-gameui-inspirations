@@ -1,6 +1,6 @@
 //
 //  MinimapModel.swift
-//  rdr2-map-overlay
+//  Game-UI-Inspirations
 //
 //  Created by nutterfi on 4/2/21.
 //

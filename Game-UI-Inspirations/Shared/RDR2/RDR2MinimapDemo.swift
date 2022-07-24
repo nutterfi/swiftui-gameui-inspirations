@@ -1,13 +1,13 @@
 //
-//  ContentView.swift
-//  rdr2-map-overlay
+//  RDR2MinimapDemo.swift
+//  Game-UI-Inspirations
 //
 //  Created by nutterfi on 3/13/21.
 //
 
 import SwiftUI
 
-struct MinimapDemo: View {
+struct RDR2MinimapDemo: View {
   @State private var rotation: CGFloat = 0
     var body: some View {
       GeometryReader { proxy in
@@ -17,11 +17,10 @@ struct MinimapDemo: View {
             .ignoresSafeArea()
           
           VStack() {
-            Slider(value: $rotation)
+            Slider(value: $rotation, in: 0...360)
             Spacer()
-            MinimapView()
+            RDR2HUD(mapRotation: .degrees(rotation))
               .frame(width: dim * 0.8, height: dim * 0.8)
-              .rotationEffect(.degrees(360.0 * Double(rotation)))
             Spacer()
           }
           .padding()
@@ -34,6 +33,6 @@ struct MinimapDemo: View {
 
 struct MinimapDemo_Previews: PreviewProvider {
     static var previews: some View {
-      MinimapDemo()
+      RDR2MinimapDemo()
     }
 }

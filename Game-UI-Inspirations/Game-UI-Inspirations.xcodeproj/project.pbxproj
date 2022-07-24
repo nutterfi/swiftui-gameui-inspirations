@@ -248,14 +248,14 @@
 		29A22D3E2626DFF3000D9EAF /* GILoadingProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D392626DFF3000D9EAF /* GILoadingProgressBar.swift */; };
 		29A22D3F2626DFF3000D9EAF /* MaskedProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D3A2626DFF3000D9EAF /* MaskedProgressBar.swift */; };
 		29A22D402626DFF3000D9EAF /* MaskedProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D3A2626DFF3000D9EAF /* MaskedProgressBar.swift */; };
-		29A22D472626E041000D9EAF /* MinimapDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D432626E041000D9EAF /* MinimapDemo.swift */; };
-		29A22D482626E041000D9EAF /* MinimapDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D432626E041000D9EAF /* MinimapDemo.swift */; };
-		29A22D492626E041000D9EAF /* MinimapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D442626E041000D9EAF /* MinimapViewModel.swift */; };
-		29A22D4A2626E041000D9EAF /* MinimapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D442626E041000D9EAF /* MinimapViewModel.swift */; };
-		29A22D4B2626E041000D9EAF /* MinimapModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D452626E041000D9EAF /* MinimapModel.swift */; };
-		29A22D4C2626E041000D9EAF /* MinimapModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D452626E041000D9EAF /* MinimapModel.swift */; };
-		29A22D4D2626E041000D9EAF /* MinimapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D462626E041000D9EAF /* MinimapView.swift */; };
-		29A22D4E2626E041000D9EAF /* MinimapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D462626E041000D9EAF /* MinimapView.swift */; };
+		29A22D472626E041000D9EAF /* RDR2MinimapDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D432626E041000D9EAF /* RDR2MinimapDemo.swift */; };
+		29A22D482626E041000D9EAF /* RDR2MinimapDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D432626E041000D9EAF /* RDR2MinimapDemo.swift */; };
+		29A22D492626E041000D9EAF /* RDR2MinimapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D442626E041000D9EAF /* RDR2MinimapViewModel.swift */; };
+		29A22D4A2626E041000D9EAF /* RDR2MinimapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D442626E041000D9EAF /* RDR2MinimapViewModel.swift */; };
+		29A22D4B2626E041000D9EAF /* RDR2MinimapModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D452626E041000D9EAF /* RDR2MinimapModel.swift */; };
+		29A22D4C2626E041000D9EAF /* RDR2MinimapModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D452626E041000D9EAF /* RDR2MinimapModel.swift */; };
+		29A22D4D2626E041000D9EAF /* RDR2MinimapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D462626E041000D9EAF /* RDR2MinimapView.swift */; };
+		29A22D4E2626E041000D9EAF /* RDR2MinimapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D462626E041000D9EAF /* RDR2MinimapView.swift */; };
 		29A22D522626E059000D9EAF /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D512626E059000D9EAF /* Color+Extensions.swift */; };
 		29A22D532626E059000D9EAF /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D512626E059000D9EAF /* Color+Extensions.swift */; };
 		29A38D44281254DE00DEEB69 /* LostArkLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A38D43281254DE00DEEB69 /* LostArkLogo.swift */; };
@@ -270,6 +270,8 @@
 		29A4F4A3283DFB260078F32D /* LACardBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A4F4A1283DFB260078F32D /* LACardBack.swift */; };
 		29A6CDD228068BBA006CDAF8 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A6CDD128068BBA006CDAF8 /* UIView+Extensions.swift */; };
 		29A6CDD328068BBA006CDAF8 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A6CDD128068BBA006CDAF8 /* UIView+Extensions.swift */; };
+		29AC8E91288D07470007D1C5 /* RDR2HUDCoreMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AC8E90288D07470007D1C5 /* RDR2HUDCoreMenu.swift */; };
+		29AC8E92288D07470007D1C5 /* RDR2HUDCoreMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AC8E90288D07470007D1C5 /* RDR2HUDCoreMenu.swift */; };
 		29ACEC2B2642522C00DAE394 /* TLOUSkillsIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29ACEC2A2642522C00DAE394 /* TLOUSkillsIcon.swift */; };
 		29ACEC2C2642522C00DAE394 /* TLOUSkillsIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29ACEC2A2642522C00DAE394 /* TLOUSkillsIcon.swift */; };
 		29AD4BB227717A130017F2DB /* StrokeStyledCircleDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AD4BB127717A130017F2DB /* StrokeStyledCircleDemo.swift */; };
@@ -509,10 +511,10 @@
 		29A22D382626DFF3000D9EAF /* ProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
 		29A22D392626DFF3000D9EAF /* GILoadingProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GILoadingProgressBar.swift; sourceTree = "<group>"; };
 		29A22D3A2626DFF3000D9EAF /* MaskedProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaskedProgressBar.swift; sourceTree = "<group>"; };
-		29A22D432626E041000D9EAF /* MinimapDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinimapDemo.swift; sourceTree = "<group>"; };
-		29A22D442626E041000D9EAF /* MinimapViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinimapViewModel.swift; sourceTree = "<group>"; };
-		29A22D452626E041000D9EAF /* MinimapModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinimapModel.swift; sourceTree = "<group>"; };
-		29A22D462626E041000D9EAF /* MinimapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinimapView.swift; sourceTree = "<group>"; };
+		29A22D432626E041000D9EAF /* RDR2MinimapDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RDR2MinimapDemo.swift; sourceTree = "<group>"; };
+		29A22D442626E041000D9EAF /* RDR2MinimapViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RDR2MinimapViewModel.swift; sourceTree = "<group>"; };
+		29A22D452626E041000D9EAF /* RDR2MinimapModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RDR2MinimapModel.swift; sourceTree = "<group>"; };
+		29A22D462626E041000D9EAF /* RDR2MinimapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RDR2MinimapView.swift; sourceTree = "<group>"; };
 		29A22D512626E059000D9EAF /* Color+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 		29A38D43281254DE00DEEB69 /* LostArkLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LostArkLogo.swift; sourceTree = "<group>"; };
 		29A38D4628125A1400DEEB69 /* LostArkSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LostArkSelectionView.swift; sourceTree = "<group>"; };
@@ -520,6 +522,7 @@
 		29A4F49E283DEC9F0078F32D /* LAItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LAItem.swift; path = Shared/LostArk/LAItem.swift; sourceTree = SOURCE_ROOT; };
 		29A4F4A1283DFB260078F32D /* LACardBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LACardBack.swift; sourceTree = "<group>"; };
 		29A6CDD128068BBA006CDAF8 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		29AC8E90288D07470007D1C5 /* RDR2HUDCoreMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDR2HUDCoreMenu.swift; sourceTree = "<group>"; };
 		29ACEC2A2642522C00DAE394 /* TLOUSkillsIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLOUSkillsIcon.swift; sourceTree = "<group>"; };
 		29AD4BB127717A130017F2DB /* StrokeStyledCircleDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeStyledCircleDemo.swift; sourceTree = "<group>"; };
 		29AF0318273B7ED700B5BA4B /* RDR2CoreModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDR2CoreModel.swift; sourceTree = "<group>"; };
@@ -929,10 +932,10 @@
 			children = (
 				29AF0317273B7EA600B5BA4B /* RDR2HUD */,
 				29C5AFC2272E420900BFACD4 /* RDR2Menu.swift */,
-				29A22D432626E041000D9EAF /* MinimapDemo.swift */,
-				29A22D452626E041000D9EAF /* MinimapModel.swift */,
-				29A22D462626E041000D9EAF /* MinimapView.swift */,
-				29A22D442626E041000D9EAF /* MinimapViewModel.swift */,
+				29A22D432626E041000D9EAF /* RDR2MinimapDemo.swift */,
+				29A22D452626E041000D9EAF /* RDR2MinimapModel.swift */,
+				29A22D462626E041000D9EAF /* RDR2MinimapView.swift */,
+				29A22D442626E041000D9EAF /* RDR2MinimapViewModel.swift */,
 				295E507726B3B3EA00DA9FD4 /* RDR2AwardItem.swift */,
 				295E507A26B3B7CD00DA9FD4 /* RDR2AwardView.swift */,
 				2939687326BCFA7D00B08586 /* RDR2AwardBadge.swift */,
@@ -992,6 +995,7 @@
 				29AF031B273B7EFA00B5BA4B /* RDR2HUDCoreViewModel.swift */,
 				29AF0318273B7ED700B5BA4B /* RDR2CoreModel.swift */,
 				2911E50F2737870C00F3E967 /* RDR2HUDCoreView.swift */,
+				29AC8E90288D07470007D1C5 /* RDR2HUDCoreMenu.swift */,
 			);
 			path = RDR2Core;
 			sourceTree = "<group>";
@@ -1334,6 +1338,7 @@
 				297A6E3A265E02B600201D1A /* DiamondDogsLogo.swift in Sources */,
 				29D66FDD286EA34B00FA0002 /* MokokoSeed.swift in Sources */,
 				29C71B2A276C064300CAFA70 /* LongPressHoldable.swift in Sources */,
+				29AC8E91288D07470007D1C5 /* RDR2HUDCoreMenu.swift in Sources */,
 				29D011112759EAA1002E393B /* SpiderManSkillModel.swift in Sources */,
 				29A22CF72626D8C9000D9EAF /* LoadingRingsView.swift in Sources */,
 				2962057926FD788C002F9D3E /* Destiny2FastTravelIcon.swift in Sources */,
@@ -1345,7 +1350,7 @@
 				29922AC82633D270002469C2 /* MK11SelectionView.swift in Sources */,
 				29E7056A271BF39800D6B9CC /* IsotoxalPolygonDemo.swift in Sources */,
 				2960C695270A0B850024872D /* OrnateCorners.swift in Sources */,
-				29A22D4D2626E041000D9EAF /* MinimapView.swift in Sources */,
+				29A22D4D2626E041000D9EAF /* RDR2MinimapView.swift in Sources */,
 				2906F21826D603A500E38EFF /* TextEffectViewDemo.swift in Sources */,
 				29C5AFC3272E420900BFACD4 /* RDR2Menu.swift in Sources */,
 				29532EFD26451D8B000F07F1 /* FireflySymbol.swift in Sources */,
@@ -1365,7 +1370,7 @@
 				29AF0319273B7ED700B5BA4B /* RDR2CoreModel.swift in Sources */,
 				298FE2FA264B8C6400BBC02A /* SkillWeaponSway.swift in Sources */,
 				2926BCEE2635225100CEDC7E /* FireflyPendant.swift in Sources */,
-				29A22D492626E041000D9EAF /* MinimapViewModel.swift in Sources */,
+				29A22D492626E041000D9EAF /* RDR2MinimapViewModel.swift in Sources */,
 				2935A9E027169EAE0043F964 /* GISelectionItem.swift in Sources */,
 				29150B2026B659EC00106A45 /* AresBoon.swift in Sources */,
 				29D8B98927607A3300F21B7A /* SpiderManSkillViewModel.swift in Sources */,
@@ -1386,7 +1391,7 @@
 				2906485526FAD882009A20A1 /* StrokeStyledRectangleDemo.swift in Sources */,
 				29C9019226A801A400AA9619 /* OWUltimateMeterBorder.swift in Sources */,
 				29EDA2DF2837496700BC3C72 /* GearHoningView.swift in Sources */,
-				29A22D472626E041000D9EAF /* MinimapDemo.swift in Sources */,
+				29A22D472626E041000D9EAF /* RDR2MinimapDemo.swift in Sources */,
 				29ACEC2B2642522C00DAE394 /* TLOUSkillsIcon.swift in Sources */,
 				29A22D1A2626DC60000D9EAF /* MenuView.swift in Sources */,
 				29A22D042626D93A000D9EAF /* QuestDescriptionView.swift in Sources */,
@@ -1396,7 +1401,7 @@
 				29C611D428530B0C00804EFD /* LAMenu.swift in Sources */,
 				29B02F002793DEF60034A6F9 /* P5AnimatedStars.swift in Sources */,
 				29304D2F26916F49003512A1 /* TestingTiledImageView.swift in Sources */,
-				29A22D4B2626E041000D9EAF /* MinimapModel.swift in Sources */,
+				29A22D4B2626E041000D9EAF /* RDR2MinimapModel.swift in Sources */,
 				29CA75452791378A00298F47 /* TextShape.swift in Sources */,
 				29C11DE327630B6D00D0CA09 /* SpiderManSkillDetailView.swift in Sources */,
 				2920DB582785540E00DE5BEE /* PorterGradeView.swift in Sources */,
@@ -1448,6 +1453,7 @@
 				29801ACC2647A0320010B4C8 /* SkillMaxHealth.swift in Sources */,
 				2906F21926D603A500E38EFF /* TextEffectViewDemo.swift in Sources */,
 				29F5337D26858D5100EADD37 /* MGSViDroidView.swift in Sources */,
+				29AC8E92288D07470007D1C5 /* RDR2HUDCoreMenu.swift in Sources */,
 				29A22D532626E059000D9EAF /* Color+Extensions.swift in Sources */,
 				29A22D112626DC60000D9EAF /* KombatKardView.swift in Sources */,
 				2976E1C22626A45100272ADC /* ContentView.swift in Sources */,
@@ -1525,7 +1531,7 @@
 				29A4F4A0283DEC9F0078F32D /* LAItem.swift in Sources */,
 				296C1F1727F6A44D00BAEA23 /* Shimmer.swift in Sources */,
 				29922AC92633D270002469C2 /* MK11SelectionView.swift in Sources */,
-				29A22D4E2626E041000D9EAF /* MinimapView.swift in Sources */,
+				29A22D4E2626E041000D9EAF /* RDR2MinimapView.swift in Sources */,
 				29FADE1A269EA23000CF6D73 /* TypewriterTextViewModel.swift in Sources */,
 				29351A4A26CF63F00069BE75 /* RDR2AwardViewModel.swift in Sources */,
 				29532EFE26451D8B000F07F1 /* FireflySymbol.swift in Sources */,
@@ -1541,7 +1547,7 @@
 				29A13506270D49F900F19B6F /* RDR2ShowdownTitle.swift in Sources */,
 				29421CA227192C6900CBEDBB /* GIItem.swift in Sources */,
 				2960C696270A0B850024872D /* OrnateCorners.swift in Sources */,
-				29A22D4A2626E041000D9EAF /* MinimapViewModel.swift in Sources */,
+				29A22D4A2626E041000D9EAF /* RDR2MinimapViewModel.swift in Sources */,
 				29B02F042793E30B0034A6F9 /* P5AnimatedStarParty.swift in Sources */,
 				29421CA82719325800CBEDBB /* GIItemRarityBackground.swift in Sources */,
 				2962057D26FD7EFD002F9D3E /* Destiny2FastTravelView.swift in Sources */,
@@ -1563,7 +1569,7 @@
 				2964BAB126C383EE00F37FDC /* SWTOREmpireLogo.swift in Sources */,
 				29FADE1D269EA6E800CF6D73 /* MGSVMissionTextDemo.swift in Sources */,
 				29150B2126B659EC00106A45 /* AresBoon.swift in Sources */,
-				29A22D482626E041000D9EAF /* MinimapDemo.swift in Sources */,
+				29A22D482626E041000D9EAF /* RDR2MinimapDemo.swift in Sources */,
 				29D8B98A27607A3300F21B7A /* SpiderManSkillViewModel.swift in Sources */,
 				29DA940F27CF674800741B9B /* Path+Extensions.swift in Sources */,
 				29C71B2B276C064300CAFA70 /* LongPressHoldable.swift in Sources */,
@@ -1572,7 +1578,7 @@
 				29A22D052626D93A000D9EAF /* QuestDescriptionView.swift in Sources */,
 				2956788C2722795400FA372A /* MasterlessStarglitter.swift in Sources */,
 				295794752650D8DE00BDDE3A /* SkillIcon.swift in Sources */,
-				29A22D4C2626E041000D9EAF /* MinimapModel.swift in Sources */,
+				29A22D4C2626E041000D9EAF /* RDR2MinimapModel.swift in Sources */,
 				2993C98828656288002E09CB /* MarqueeText.swift in Sources */,
 				29A22CFE2626D8C9000D9EAF /* ConsummateV.swift in Sources */,
 				29101793270410160021E672 /* CelesteDeathAnimation.swift in Sources */,

@@ -33,57 +33,33 @@ struct RDR2HUDCoreView: View {
       ZStack {
         Circle().fill()
         
-        MaskedProgressBar(progress: model.coreLevel,
-                          backView: model.coreLevel == 0 ? Color.red : Color.gray,
-                          frontView: Color.white,
-                          mask: maskForType(model.type)
-                              .rotationEffect(.degrees(90))
+        MaskedProgressBar(
+          progress: model.coreLevel,
+          backView: model.coreLevel == 0 ? Color.red : Color.gray,
+          frontView: Color.white,
+          mask: maskForType(model.type)
+            .rotationEffect(.degrees(90))
         )
           .frame(width: dim * 0.5, height: dim * 0.5)
           .rotationEffect(.degrees(-90))
         
-        
-        //
+        // progress bar
         Circle()
           .inset(by: dim * 0.05)
           .trim(from: 0, to: CGFloat(model.barLevel))
           .stroke(Color.white, lineWidth: dim * 0.1)
           .rotationEffect(.degrees(-90))
-          
       }
       .frame(width: proxy.size.width, height: proxy.size.height)
     }
   }
 }
 
-struct RDR2HUDCoreMenu: View {
-  @StateObject private var viewModel = RDR2HUDCoreViewModel()
-  var body: some View {
-    GeometryReader { proxy in
-      let dim = min(proxy.size.width, proxy.size.height)
-      ZStack {
-        Group {
-          RDR2HUDCoreView(model: viewModel.deadeyeCore)
-            .angularOffset(magnitude: dim * 0.4, angle: .degrees(270))
-          
-          RDR2HUDCoreView(model: viewModel.healthCore)
-            .angularOffset(magnitude: dim * 0.41, angle: .degrees(248))
-          
-          RDR2HUDCoreView(model: viewModel.staminaCore)
-            .angularOffset(magnitude: dim * 0.44, angle: .degrees(226))
-        }
-        .frame(width: dim * 0.13, height: dim * 0.2)
-      }
-      .frame(width: proxy.size.width, height: proxy.size.height)
-    }
-    
-  }
-}
-
-struct RDR2HUDCoreMenu_Previews: PreviewProvider {
-    static var previews: some View {
-      RDR2HUDCoreMenu()
-        .previewLayout(.sizeThatFits)
+struct RDR2HUDCoreView_Previews: PreviewProvider {
+  static var previews: some View {
+    RDR2HUDCoreView(model: RDR2CoreModel(coreLevel: 0.28, barLevel: 0.1, type: .stamina))
+      .previewLayout(.sizeThatFits)
       .frame(width: 256, height: 256)
-    }
+      .background(Color.gray)
+  }
 }
