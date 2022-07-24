@@ -10,6 +10,7 @@ import Shapes
 
 struct TwoTonedIsotoxalPolygon: View {
   var sides: Int
+  var innerRadius: Float = 0.38
   var color1: Color
   var color2: Color
   
@@ -27,7 +28,7 @@ struct TwoTonedIsotoxalPolygon: View {
         // TOP [0] is the max
         // midpoint (computed above) is the min
         // actual is min + fraction of the distance between min and max
-        let vertices = IsotoxalPolygon(sides: sides * 2, innerRadius: 0.38)
+        let vertices = IsotoxalPolygon(sides: sides * 2, innerRadius: CGFloat(innerRadius))
           .vertices(in: proxy.frame(in: .local))
         
         // 2 paths per subgrade, to draw symmetric triangles with different colors
@@ -72,6 +73,11 @@ struct TwoTonedIsotoxalPolygon: View {
 
 struct TwoTonedIsotoxalPolygon_Previews: PreviewProvider {
   static var previews: some View {
-    TwoTonedIsotoxalPolygon(sides: 4, color1: Color.porterlightGreen, color2: Color.porterDarkGreen)
+    TwoTonedIsotoxalPolygon(
+      sides: 4,
+      innerRadius: 0.2,
+      color1: Color.porterlightGreen,
+      color2: Color.porterDarkGreen
+    )
   }
 }
