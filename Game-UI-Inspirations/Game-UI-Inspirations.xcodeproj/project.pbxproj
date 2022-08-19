@@ -130,6 +130,16 @@
 		2957947A2650D91D00BDDE3A /* TLOUSkillModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295794782650D91D00BDDE3A /* TLOUSkillModel.swift */; };
 		2957947E2650D94000BDDE3A /* TLOUSkillSelectMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2957947D2650D94000BDDE3A /* TLOUSkillSelectMenuViewModel.swift */; };
 		2957947F2650D94000BDDE3A /* TLOUSkillSelectMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2957947D2650D94000BDDE3A /* TLOUSkillSelectMenuViewModel.swift */; };
+		2959343A28AF41A1005F8EE0 /* FFXIVWindowHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2959343928AF41A1005F8EE0 /* FFXIVWindowHeaderView.swift */; };
+		2959343B28AF41A1005F8EE0 /* FFXIVWindowHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2959343928AF41A1005F8EE0 /* FFXIVWindowHeaderView.swift */; };
+		2959343D28AF42E1005F8EE0 /* FFXIVCharacterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2959343C28AF42E1005F8EE0 /* FFXIVCharacterModel.swift */; };
+		2959343E28AF42E1005F8EE0 /* FFXIVCharacterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2959343C28AF42E1005F8EE0 /* FFXIVCharacterModel.swift */; };
+		2959344028AF4489005F8EE0 /* FFXIVCharacterTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2959343F28AF4489005F8EE0 /* FFXIVCharacterTabView.swift */; };
+		2959344128AF4489005F8EE0 /* FFXIVCharacterTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2959343F28AF4489005F8EE0 /* FFXIVCharacterTabView.swift */; };
+		2959344328AF4CC9005F8EE0 /* FFXIVCharacterPointsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2959344228AF4CC9005F8EE0 /* FFXIVCharacterPointsView.swift */; };
+		2959344428AF4CC9005F8EE0 /* FFXIVCharacterPointsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2959344228AF4CC9005F8EE0 /* FFXIVCharacterPointsView.swift */; };
+		2959344628AF532F005F8EE0 /* FFXIVTargetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2959344528AF532F005F8EE0 /* FFXIVTargetView.swift */; };
+		2959344728AF532F005F8EE0 /* FFXIVTargetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2959344528AF532F005F8EE0 /* FFXIVTargetView.swift */; };
 		295E145D27F0132500724FB7 /* OWDecorPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295E145C27F0132500724FB7 /* OWDecorPattern.swift */; };
 		295E145E27F0132500724FB7 /* OWDecorPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295E145C27F0132500724FB7 /* OWDecorPattern.swift */; };
 		295E146427F013C900724FB7 /* LASecretDungeonFloorPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295E146027F013C900724FB7 /* LASecretDungeonFloorPattern.swift */; };
@@ -448,6 +458,11 @@
 		295794732650D8DE00BDDE3A /* SkillIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillIcon.swift; sourceTree = "<group>"; };
 		295794782650D91D00BDDE3A /* TLOUSkillModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLOUSkillModel.swift; sourceTree = "<group>"; };
 		2957947D2650D94000BDDE3A /* TLOUSkillSelectMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLOUSkillSelectMenuViewModel.swift; sourceTree = "<group>"; };
+		2959343928AF41A1005F8EE0 /* FFXIVWindowHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFXIVWindowHeaderView.swift; sourceTree = "<group>"; };
+		2959343C28AF42E1005F8EE0 /* FFXIVCharacterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFXIVCharacterModel.swift; sourceTree = "<group>"; };
+		2959343F28AF4489005F8EE0 /* FFXIVCharacterTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFXIVCharacterTabView.swift; sourceTree = "<group>"; };
+		2959344228AF4CC9005F8EE0 /* FFXIVCharacterPointsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFXIVCharacterPointsView.swift; sourceTree = "<group>"; };
+		2959344528AF532F005F8EE0 /* FFXIVTargetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFXIVTargetView.swift; sourceTree = "<group>"; };
 		295E145C27F0132500724FB7 /* OWDecorPattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OWDecorPattern.swift; sourceTree = "<group>"; };
 		295E146027F013C900724FB7 /* LASecretDungeonFloorPattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LASecretDungeonFloorPattern.swift; sourceTree = "<group>"; };
 		295E146127F013C900724FB7 /* TrebleClef.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrebleClef.swift; sourceTree = "<group>"; };
@@ -687,6 +702,11 @@
 			isa = PBXGroup;
 			children = (
 				2929B80F2695604600C86BBB /* FFXIVCharacterView.swift */,
+				2959343928AF41A1005F8EE0 /* FFXIVWindowHeaderView.swift */,
+				2959343C28AF42E1005F8EE0 /* FFXIVCharacterModel.swift */,
+				2959343F28AF4489005F8EE0 /* FFXIVCharacterTabView.swift */,
+				2959344228AF4CC9005F8EE0 /* FFXIVCharacterPointsView.swift */,
+				2959344528AF532F005F8EE0 /* FFXIVTargetView.swift */,
 			);
 			path = FFXIV;
 			sourceTree = "<group>";
@@ -1289,6 +1309,7 @@
 				29A22D102626DC60000D9EAF /* KombatKardView.swift in Sources */,
 				2962057C26FD7EFD002F9D3E /* Destiny2FastTravelView.swift in Sources */,
 				29EF029127816DF30029C67B /* DeathStrandAnimation.swift in Sources */,
+				2959344628AF532F005F8EE0 /* FFXIVTargetView.swift in Sources */,
 				2976E1C12626A45100272ADC /* ContentView.swift in Sources */,
 				2952A69226DF3859007BABFC /* StarPolygonDemo.swift in Sources */,
 				29813985263287BA00009D7B /* POIMarker.swift in Sources */,
@@ -1326,6 +1347,7 @@
 				29421CAA27193ED200CBEDBB /* GIInventoryMenu.swift in Sources */,
 				29C11DE927630F0300D0CA09 /* SpiderManSkillView.swift in Sources */,
 				29AF0326273B952200B5BA4B /* CodeSnippets.swift in Sources */,
+				2959344028AF4489005F8EE0 /* FFXIVCharacterTabView.swift in Sources */,
 				29421CA127192C6900CBEDBB /* GIItem.swift in Sources */,
 				29A22D3D2626DFF3000D9EAF /* GILoadingProgressBar.swift in Sources */,
 				29AF031F273B7F9D00B5BA4B /* RDR2HUD.swift in Sources */,
@@ -1335,8 +1357,10 @@
 				29351A4C26CF706D0069BE75 /* RDR2Badgeable.swift in Sources */,
 				2964BAB026C383EE00F37FDC /* SWTOREmpireLogo.swift in Sources */,
 				298DA1C6269AAEF50054463A /* OWUltimateMeterDemo.swift in Sources */,
+				2959343D28AF42E1005F8EE0 /* FFXIVCharacterModel.swift in Sources */,
 				297A6E3A265E02B600201D1A /* DiamondDogsLogo.swift in Sources */,
 				29D66FDD286EA34B00FA0002 /* MokokoSeed.swift in Sources */,
+				2959343A28AF41A1005F8EE0 /* FFXIVWindowHeaderView.swift in Sources */,
 				29C71B2A276C064300CAFA70 /* LongPressHoldable.swift in Sources */,
 				29AC8E91288D07470007D1C5 /* RDR2HUDCoreMenu.swift in Sources */,
 				29D011112759EAA1002E393B /* SpiderManSkillModel.swift in Sources */,
@@ -1373,6 +1397,7 @@
 				29A22D492626E041000D9EAF /* RDR2MinimapViewModel.swift in Sources */,
 				2935A9E027169EAE0043F964 /* GISelectionItem.swift in Sources */,
 				29150B2026B659EC00106A45 /* AresBoon.swift in Sources */,
+				2959344328AF4CC9005F8EE0 /* FFXIVCharacterPointsView.swift in Sources */,
 				29D8B98927607A3300F21B7A /* SpiderManSkillViewModel.swift in Sources */,
 				291B290C288138F00035BDCE /* JustCause4CompassBorder.swift in Sources */,
 				29421CA427192FC600CBEDBB /* GIReward.swift in Sources */,
@@ -1450,11 +1475,13 @@
 				29A22CFA2626D8C9000D9EAF /* LoadingRingsDemo.swift in Sources */,
 				298FE30A264B939800BBC02A /* TLOUSkillSelectMenu.swift in Sources */,
 				291A07E626BA5257000F4590 /* StrokeStyledPolygonDemo.swift in Sources */,
+				2959344128AF4489005F8EE0 /* FFXIVCharacterTabView.swift in Sources */,
 				29801ACC2647A0320010B4C8 /* SkillMaxHealth.swift in Sources */,
 				2906F21926D603A500E38EFF /* TextEffectViewDemo.swift in Sources */,
 				29F5337D26858D5100EADD37 /* MGSViDroidView.swift in Sources */,
 				29AC8E92288D07470007D1C5 /* RDR2HUDCoreMenu.swift in Sources */,
 				29A22D532626E059000D9EAF /* Color+Extensions.swift in Sources */,
+				2959343B28AF41A1005F8EE0 /* FFXIVWindowHeaderView.swift in Sources */,
 				29A22D112626DC60000D9EAF /* KombatKardView.swift in Sources */,
 				2976E1C22626A45100272ADC /* ContentView.swift in Sources */,
 				29AD4BB327717A130017F2DB /* StrokeStyledCircleDemo.swift in Sources */,
@@ -1571,6 +1598,7 @@
 				29150B2126B659EC00106A45 /* AresBoon.swift in Sources */,
 				29A22D482626E041000D9EAF /* RDR2MinimapDemo.swift in Sources */,
 				29D8B98A27607A3300F21B7A /* SpiderManSkillViewModel.swift in Sources */,
+				2959344728AF532F005F8EE0 /* FFXIVTargetView.swift in Sources */,
 				29DA940F27CF674800741B9B /* Path+Extensions.swift in Sources */,
 				29C71B2B276C064300CAFA70 /* LongPressHoldable.swift in Sources */,
 				29ACEC2C2642522C00DAE394 /* TLOUSkillsIcon.swift in Sources */,
@@ -1581,6 +1609,7 @@
 				29A22D4C2626E041000D9EAF /* RDR2MinimapModel.swift in Sources */,
 				2993C98828656288002E09CB /* MarqueeText.swift in Sources */,
 				29A22CFE2626D8C9000D9EAF /* ConsummateV.swift in Sources */,
+				2959343E28AF42E1005F8EE0 /* FFXIVCharacterModel.swift in Sources */,
 				29101793270410160021E672 /* CelesteDeathAnimation.swift in Sources */,
 				29A22CF62626D8C9000D9EAF /* LoadingRingsViewModel.swift in Sources */,
 				29BCCFB8277C2AD90055DE94 /* CircularText.swift in Sources */,
@@ -1592,6 +1621,7 @@
 				29C11DEA27630F0300D0CA09 /* SpiderManSkillView.swift in Sources */,
 				290BBC3526CCC8AA004D57D9 /* TextEffectViewModel.swift in Sources */,
 				29A22D172626DC60000D9EAF /* KountdownTimerDemo.swift in Sources */,
+				2959344428AF4CC9005F8EE0 /* FFXIVCharacterPointsView.swift in Sources */,
 				2993C98C286572BD002E09CB /* NMSCraftingMenuItem.swift in Sources */,
 				29D3FAB72644F4B000B6A02F /* SkillVitamin.swift in Sources */,
 				29EEFDD2276EFAA300290CA2 /* Spider.swift in Sources */,
