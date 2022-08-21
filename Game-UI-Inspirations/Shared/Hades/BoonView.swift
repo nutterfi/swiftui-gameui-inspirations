@@ -108,6 +108,12 @@ struct BoonView: View {
             AresBoon()
           )
         
+      case Boon.chaos:
+        RadialGradient(colors: [.white, .hadesPurple], center: UnitPoint(x: 0.5, y: 0.6), startRadius: 0, endRadius: 80)
+          .mask(
+            ChaosBoon()
+          )
+        
       default:
         Image(systemName: "questionmark.circle")
           .resizable()

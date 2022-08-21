@@ -104,6 +104,8 @@
 		29421CA82719325800CBEDBB /* GIItemRarityBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29421CA62719325800CBEDBB /* GIItemRarityBackground.swift */; };
 		29421CAA27193ED200CBEDBB /* GIInventoryMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29421CA927193ED200CBEDBB /* GIInventoryMenu.swift */; };
 		29421CAB27193ED200CBEDBB /* GIInventoryMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29421CA927193ED200CBEDBB /* GIInventoryMenu.swift */; };
+		2943790528B1DD6300E7E717 /* ChaosBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2943790428B1DD6300E7E717 /* ChaosBoon.swift */; };
+		2943790628B1DD6300E7E717 /* ChaosBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2943790428B1DD6300E7E717 /* ChaosBoon.swift */; };
 		2948EF09277ED33E00966236 /* DeathStrandingTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2948EF08277ED33E00966236 /* DeathStrandingTitle.swift */; };
 		2948EF0A277ED33E00966236 /* DeathStrandingTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2948EF08277ED33E00966236 /* DeathStrandingTitle.swift */; };
 		294D37362710082700524868 /* SpirolateralAnimationDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294D37352710082700524868 /* SpirolateralAnimationDemo.swift */; };
@@ -444,6 +446,7 @@
 		29421CA327192FC600CBEDBB /* GIReward.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIReward.swift; sourceTree = "<group>"; };
 		29421CA62719325800CBEDBB /* GIItemRarityBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIItemRarityBackground.swift; sourceTree = "<group>"; };
 		29421CA927193ED200CBEDBB /* GIInventoryMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIInventoryMenu.swift; sourceTree = "<group>"; };
+		2943790428B1DD6300E7E717 /* ChaosBoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaosBoon.swift; sourceTree = "<group>"; };
 		2948EF08277ED33E00966236 /* DeathStrandingTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeathStrandingTitle.swift; sourceTree = "<group>"; };
 		294D37352710082700524868 /* SpirolateralAnimationDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpirolateralAnimationDemo.swift; sourceTree = "<group>"; };
 		294FF9472632AE300057869B /* TLOUIconDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLOUIconDemo.swift; sourceTree = "<group>"; };
@@ -668,6 +671,7 @@
 				29D2AEBD26AA7821005A35D1 /* ArtemisBoon.swift */,
 				29150B1C26B653F500106A45 /* HermesBoon.swift */,
 				29150B1F26B659EC00106A45 /* AresBoon.swift */,
+				2943790428B1DD6300E7E717 /* ChaosBoon.swift */,
 			);
 			path = Hades;
 			sourceTree = "<group>";
@@ -1350,6 +1354,7 @@
 				2959344028AF4489005F8EE0 /* FFXIVCharacterTabView.swift in Sources */,
 				29421CA127192C6900CBEDBB /* GIItem.swift in Sources */,
 				29A22D3D2626DFF3000D9EAF /* GILoadingProgressBar.swift in Sources */,
+				2943790528B1DD6300E7E717 /* ChaosBoon.swift in Sources */,
 				29AF031F273B7F9D00B5BA4B /* RDR2HUD.swift in Sources */,
 				2962057F26FD85DE002F9D3E /* ElevationMap.swift in Sources */,
 				297DC711265A107600980DDE /* MGSVLoadingViewModel.swift in Sources */,
@@ -1455,6 +1460,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2943790628B1DD6300E7E717 /* ChaosBoon.swift in Sources */,
 				29FADE17269E99E400CF6D73 /* TypewriterTextView.swift in Sources */,
 				29150B1E26B653F500106A45 /* HermesBoon.swift in Sources */,
 				2976E1DB2626AD5C00272ADC /* Pulsar.swift in Sources */,
