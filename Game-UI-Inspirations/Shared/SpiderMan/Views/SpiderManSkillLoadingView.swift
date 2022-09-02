@@ -96,20 +96,11 @@ struct SpiderManSkillLoadingView: View {
   }
   
   var rotatingRing: some View {
-    ZStack {
-      StrokeStyledCircle(
-        numberOfSegments: 4,
-        segmentRatio: 0.45,
-        lineWidthRatio: 0.02
-      )
-      
-      StrokeStyledCircle(
-        numberOfSegments: 4,
-        segmentRatio: 0.04,
-        lineWidthRatio: 0.01,
-        dashPhaseRatio: 0.3
-      )
-    }
+    StrokeStyledCircle(
+      numberOfSegments: 4,
+      dashPattern: [0.45, 0.275, 0.04, 0.275],
+      lineWidthRatio: 0.02
+    )
   }
   
   var body: some View {

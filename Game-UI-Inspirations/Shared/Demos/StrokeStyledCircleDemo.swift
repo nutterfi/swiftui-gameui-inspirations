@@ -44,7 +44,7 @@ struct StrokeStyledCircleDemo: View {
 
       StrokeStyledCircle(
         numberOfSegments: Int(numberOfSegments),
-        segmentRatio: segmentRatio,
+        dashPattern: [segmentRatio, 1 - segmentRatio],
         lineWidthRatio: lineWidthRatio,
         trim: (0, trim),
         dashPhaseRatio: dashPhaseRatio

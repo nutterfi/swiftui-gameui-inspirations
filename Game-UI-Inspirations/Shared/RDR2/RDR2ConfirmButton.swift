@@ -43,7 +43,7 @@ struct RDR2ConfirmButton: View {
           
           StrokeStyledRectangle(
             dashes: value > 0 ? 1 : 0,
-            dashFillRatio: CGFloat(value),
+            dashPattern: [CGFloat(value), 1 - CGFloat(value)],
             lineWidthRatio: 0.05,
             dashPhaseRatio: 0.87,
             lineCap: .square

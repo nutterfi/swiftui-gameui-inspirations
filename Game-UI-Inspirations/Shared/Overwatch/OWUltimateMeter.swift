@@ -14,18 +14,18 @@ struct OWUltimateMeter: View {
       GeometryReader { proxy in
         let dim = min(proxy.size.width, proxy.size.height)
         ZStack {
-          StrokeStyledCircle(numberOfSegments: 38, segmentRatio: 0.8, lineWidthRatio: 0.1)
+          StrokeStyledCircle(numberOfSegments: 38, dashPattern: [4, 1], lineWidthRatio: 0.1)
             .rotationEffect(Angle.degrees(-90))
             .frame(width: dim * 0.6, height: dim * 0.6)
             .foregroundColor(Color.gray)
           
           // Outer circle highlighted
-          StrokeStyledCircle(numberOfSegments: 38, segmentRatio: 0.8, lineWidthRatio: 0.14, trim: (0, CGFloat(progress)))
+          StrokeStyledCircle(numberOfSegments: 38, dashPattern: [4, 1], lineWidthRatio: 0.14, trim: (0, CGFloat(progress)))
             .rotationEffect(Angle.degrees(-90))
             .frame(width: dim * 0.6, height: dim * 0.6)
             .foregroundColor(Color.yellow)
           
-          StrokeStyledCircle(numberOfSegments: 18, segmentRatio: 0.85, lineWidthRatio: 0.08)
+          StrokeStyledCircle(numberOfSegments: 18, dashPattern: [0.85, 0.15], lineWidthRatio: 0.08)
             .rotationEffect(Angle.degrees(-90))
             
             .frame(width: dim * 0.36, height: dim * 0.36)

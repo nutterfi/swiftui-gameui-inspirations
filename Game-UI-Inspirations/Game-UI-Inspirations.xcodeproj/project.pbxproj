@@ -168,6 +168,8 @@
 		2962057D26FD7EFD002F9D3E /* Destiny2FastTravelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2962057B26FD7EFD002F9D3E /* Destiny2FastTravelView.swift */; };
 		2962057F26FD85DE002F9D3E /* ElevationMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2962057E26FD85DE002F9D3E /* ElevationMap.swift */; };
 		2962058026FD85DE002F9D3E /* ElevationMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2962057E26FD85DE002F9D3E /* ElevationMap.swift */; };
+		29637C9528BB347A0065ECB5 /* ACOTargetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29637C9428BB347A0065ECB5 /* ACOTargetView.swift */; };
+		29637C9628BB347A0065ECB5 /* ACOTargetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29637C9428BB347A0065ECB5 /* ACOTargetView.swift */; };
 		2964BAB026C383EE00F37FDC /* SWTOREmpireLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2964BAAF26C383EE00F37FDC /* SWTOREmpireLogo.swift */; };
 		2964BAB126C383EE00F37FDC /* SWTOREmpireLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2964BAAF26C383EE00F37FDC /* SWTOREmpireLogo.swift */; };
 		2964BAB326C384B000F37FDC /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2964BAB226C384B000F37FDC /* Game.swift */; };
@@ -479,6 +481,7 @@
 		2962057826FD788B002F9D3E /* Destiny2FastTravelIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destiny2FastTravelIcon.swift; sourceTree = "<group>"; };
 		2962057B26FD7EFD002F9D3E /* Destiny2FastTravelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destiny2FastTravelView.swift; sourceTree = "<group>"; };
 		2962057E26FD85DE002F9D3E /* ElevationMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElevationMap.swift; sourceTree = "<group>"; };
+		29637C9428BB347A0065ECB5 /* ACOTargetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACOTargetView.swift; sourceTree = "<group>"; };
 		2964BAAF26C383EE00F37FDC /* SWTOREmpireLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWTOREmpireLogo.swift; sourceTree = "<group>"; };
 		2964BAB226C384B000F37FDC /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		296C1F1527F6A44D00BAEA23 /* Shimmer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shimmer.swift; sourceTree = "<group>"; };
@@ -768,6 +771,14 @@
 			path = Destiny2;
 			sourceTree = "<group>";
 		};
+		29637C9328BB345C0065ECB5 /* AssassinsCreedOrigins */ = {
+			isa = PBXGroup;
+			children = (
+				29637C9428BB347A0065ECB5 /* ACOTargetView.swift */,
+			);
+			path = AssassinsCreedOrigins;
+			sourceTree = "<group>";
+		};
 		2976E1A62626A44F00272ADC = {
 			isa = PBXGroup;
 			children = (
@@ -788,6 +799,7 @@
 				29A22D082626DA50000D9EAF /* Extensions */,
 				29C9018D26A7D6F600AA9619 /* Reusable */,
 				297A96B9270D5BBA001489DF /* Demos */,
+				29637C9328BB345C0065ECB5 /* AssassinsCreedOrigins */,
 				291ECAF1286817BF004B7A03 /* BoyfriendDungeon */,
 				2910179027040FF00021E672 /* Celeste */,
 				29A22CB82626D22E000D9EAF /* Control */,
@@ -1335,6 +1347,7 @@
 				2998BF022660B1CE00EA034B /* RibbonBanner.swift in Sources */,
 				29230B3F26A1460C00A052E7 /* AthenaBoon.swift in Sources */,
 				29EDA2D9283743CD00BC3C72 /* GearHoningCalculator.swift in Sources */,
+				29637C9528BB347A0065ECB5 /* ACOTargetView.swift in Sources */,
 				29FADE16269E99E400CF6D73 /* TypewriterTextView.swift in Sources */,
 				2910377B275C745A00A9EEB6 /* LongPressProgressView.swift in Sources */,
 				2920DB5B278566EB00DE5BEE /* TwoTonedIsotoxalPolygon.swift in Sources */,
@@ -1479,6 +1492,7 @@
 				298DA1C4269AA4CC0054463A /* OWUltimateMeter.swift in Sources */,
 				29EEFDCF276EEA7400290CA2 /* SpiderManSkillLoadingView.swift in Sources */,
 				29A22CFA2626D8C9000D9EAF /* LoadingRingsDemo.swift in Sources */,
+				29637C9628BB347A0065ECB5 /* ACOTargetView.swift in Sources */,
 				298FE30A264B939800BBC02A /* TLOUSkillSelectMenu.swift in Sources */,
 				291A07E626BA5257000F4590 /* StrokeStyledPolygonDemo.swift in Sources */,
 				2959344128AF4489005F8EE0 /* FFXIVCharacterTabView.swift in Sources */,

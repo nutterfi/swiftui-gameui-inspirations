@@ -59,16 +59,22 @@ struct StrokeStyledPolygonDemo: View {
         Text("segment ratio: \(String(format: "%.02f", segmentRatio))")
         Slider(value: $segmentRatio)
         
-        Picker("Cap", selection: $lineCap) {
-          Text("Round").tag(CGLineCap.round)
-          Text("Square").tag(CGLineCap.square)
-          Text("Butt").tag(CGLineCap.butt)
+        HStack {
+          Text("Line Cap")
+          Picker("Cap", selection: $lineCap) {
+            Text("Round").tag(CGLineCap.round)
+            Text("Square").tag(CGLineCap.square)
+            Text("Butt").tag(CGLineCap.butt)
+          }
         }
         
-        Picker("Join", selection: $lineJoin) {
-          Text("Round").tag(CGLineJoin.round)
-          Text("Bevel").tag(CGLineJoin.bevel)
-          Text("Miter").tag(CGLineJoin.miter)
+        HStack {
+          Text("Line Join")
+          Picker("Join", selection: $lineJoin) {
+            Text("Round").tag(CGLineJoin.round)
+            Text("Bevel").tag(CGLineJoin.bevel)
+            Text("Miter").tag(CGLineJoin.miter)
+          }
         }
         
         Text("Line Width Ratio: \(String(format: "%.02f", lineWidthRatio))")
@@ -84,7 +90,7 @@ struct StrokeStyledPolygonDemo: View {
         sides: Int(numberOfSides),
         dashes: Int(numberOfDashes),
         density: Int(density),
-        dashFillRatio: segmentRatio,
+        dashPattern: [segmentRatio, 1 - segmentRatio],
         lineWidthRatio: lineWidthRatio,
         dashPhaseRatio: dashPhaseRatio,
         lineCap: lineCap,

@@ -17,10 +17,10 @@ struct SWTOREmpireLogo: View {
           StrokeStyledPolygon(
             sides: 6,
             dashes: 6,
-            dashFillRatio: 0.7,
+            dashPattern: [7, 3],
             lineWidthRatio: dim * 0.8 * 0.0001,
             dashPhaseRatio: 0.36,
-            lineCap: .butt,
+            lineCap: .round,
             lineJoin: .round
           )
             .foregroundStyle(color)
@@ -28,7 +28,7 @@ struct SWTOREmpireLogo: View {
           
           StrokeStyledCircle(
             numberOfSegments: 6,
-            segmentRatio: 0.25,
+            dashPattern: [1, 3],
             lineWidthRatio: 1,
             dashPhaseRatio: 0.63
           )

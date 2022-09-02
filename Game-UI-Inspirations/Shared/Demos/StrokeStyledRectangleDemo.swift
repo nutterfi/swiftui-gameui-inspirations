@@ -59,7 +59,7 @@ struct StrokeStyledRectangleDemo: View {
       
       StrokeStyledRectangle(
         dashes: Int(numberOfDashes),
-        dashFillRatio: dashFillRatio,
+        dashPattern: [dashFillRatio, 1 - dashFillRatio],
         lineWidthRatio: lineWidthRatio,
         dashPhaseRatio: dashPhaseRatio,
         lineCap: lineCap,

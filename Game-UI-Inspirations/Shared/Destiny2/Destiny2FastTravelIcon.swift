@@ -28,7 +28,7 @@ struct Destiny2FastTravelIcon: View {
             .inset(by: dim * 0.08)
             .strokeBorder(color, lineWidth: 10)
           
-          StrokeStyledCircle(numberOfSegments: 72, segmentRatio: 0.25, lineWidthRatio: 0.01)
+          StrokeStyledCircle(numberOfSegments: 72, dashPattern: [1, 4], lineWidthRatio: 0.01)
             .frame(width: dim * 0.75, height: dim * 0.75)
             .foregroundColor(color)
           

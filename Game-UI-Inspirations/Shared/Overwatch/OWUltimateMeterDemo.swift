@@ -26,7 +26,6 @@ struct OWUltimateMeterDemo: View {
 
           StrokeStyledCircle(
             numberOfSegments: 20,
-            segmentRatio: 0.5,
             lineWidthRatio: 0.5)
             .foregroundColor(.blue)
             .scaleEffect(2.5)
