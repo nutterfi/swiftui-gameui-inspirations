@@ -82,6 +82,8 @@
 		292D45D327AA3DBB003A1020 /* TextPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292D45D227AA3DBB003A1020 /* TextPath.swift */; };
 		292D45D427AA3DBB003A1020 /* TextPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292D45D227AA3DBB003A1020 /* TextPath.swift */; };
 		29304D2F26916F49003512A1 /* TestingTiledImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29304D2E26916F49003512A1 /* TestingTiledImageView.swift */; };
+		2931FC6128C44E4E00D7B60B /* ACOQuestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2931FC6028C44E4E00D7B60B /* ACOQuestView.swift */; };
+		2931FC6228C44E4E00D7B60B /* ACOQuestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2931FC6028C44E4E00D7B60B /* ACOQuestView.swift */; };
 		2933C0A62772FA470063CF78 /* DragonCurveDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2933C0A52772FA470063CF78 /* DragonCurveDemo.swift */; };
 		2933C0A72772FA470063CF78 /* DragonCurveDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2933C0A52772FA470063CF78 /* DragonCurveDemo.swift */; };
 		29350C712709930F00A2B8FA /* SpirolateralDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29350C702709930F00A2B8FA /* SpirolateralDemo.swift */; };
@@ -186,6 +188,8 @@
 		2976E1C42626A45100272ADC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2976E1AE2626A45000272ADC /* Assets.xcassets */; };
 		2976E1DA2626AD5C00272ADC /* Pulsar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2976E1D92626AD5C00272ADC /* Pulsar.swift */; };
 		2976E1DB2626AD5C00272ADC /* Pulsar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2976E1D92626AD5C00272ADC /* Pulsar.swift */; };
+		2978B27528C1B451007EC9AF /* ACONewLocationBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2978B27428C1B451007EC9AF /* ACONewLocationBanner.swift */; };
+		2978B27628C1B451007EC9AF /* ACONewLocationBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2978B27428C1B451007EC9AF /* ACONewLocationBanner.swift */; };
 		297A3D74265185FD00D0C79E /* Shapes in Frameworks */ = {isa = PBXBuildFile; productRef = 297A3D73265185FD00D0C79E /* Shapes */; };
 		297A3D782651860A00D0C79E /* Shapes in Frameworks */ = {isa = PBXBuildFile; productRef = 297A3D772651860A00D0C79E /* Shapes */; };
 		297A6E3A265E02B600201D1A /* DiamondDogsLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297A6E39265E02B600201D1A /* DiamondDogsLogo.swift */; };
@@ -437,6 +441,7 @@
 		2929B80F2695604600C86BBB /* FFXIVCharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFXIVCharacterView.swift; sourceTree = "<group>"; };
 		292D45D227AA3DBB003A1020 /* TextPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextPath.swift; sourceTree = "<group>"; };
 		29304D2E26916F49003512A1 /* TestingTiledImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingTiledImageView.swift; sourceTree = "<group>"; };
+		2931FC6028C44E4E00D7B60B /* ACOQuestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACOQuestView.swift; sourceTree = "<group>"; };
 		2933C0A52772FA470063CF78 /* DragonCurveDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonCurveDemo.swift; sourceTree = "<group>"; };
 		29350C702709930F00A2B8FA /* SpirolateralDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpirolateralDemo.swift; sourceTree = "<group>"; };
 		29351A4826CF63F00069BE75 /* RDR2AwardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDR2AwardViewModel.swift; sourceTree = "<group>"; };
@@ -495,6 +500,7 @@
 		2976E1BD2626A45000272ADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2976E1BE2626A45000272ADC /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		2976E1D92626AD5C00272ADC /* Pulsar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pulsar.swift; sourceTree = "<group>"; };
+		2978B27428C1B451007EC9AF /* ACONewLocationBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACONewLocationBanner.swift; sourceTree = "<group>"; };
 		297A6E39265E02B600201D1A /* DiamondDogsLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiamondDogsLogo.swift; sourceTree = "<group>"; };
 		297A6E3E265E04F200201D1A /* DiamondGem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiamondGem.swift; sourceTree = "<group>"; };
 		297A6E44265E057000201D1A /* RibbonShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RibbonShapes.swift; sourceTree = "<group>"; };
@@ -775,6 +781,8 @@
 			isa = PBXGroup;
 			children = (
 				29637C9428BB347A0065ECB5 /* ACOTargetView.swift */,
+				2978B27428C1B451007EC9AF /* ACONewLocationBanner.swift */,
+				2931FC6028C44E4E00D7B60B /* ACOQuestView.swift */,
 			);
 			path = AssassinsCreedOrigins;
 			sourceTree = "<group>";
@@ -1385,6 +1393,7 @@
 				29A22CF72626D8C9000D9EAF /* LoadingRingsView.swift in Sources */,
 				2962057926FD788C002F9D3E /* Destiny2FastTravelIcon.swift in Sources */,
 				29A4F4A2283DFB260078F32D /* LACardBack.swift in Sources */,
+				2931FC6128C44E4E00D7B60B /* ACOQuestView.swift in Sources */,
 				29816B6C263BBF1E0016F1BA /* Rustify.swift in Sources */,
 				29B7991D285C2FBD005FD3D2 /* OriSkillView.swift in Sources */,
 				299363D3273F969400CA089A /* GIAchievementView.swift in Sources */,
@@ -1441,6 +1450,7 @@
 				295794742650D8DE00BDDE3A /* SkillIcon.swift in Sources */,
 				290089012840815900F840D8 /* ProgressBarWithDeltaDemo.swift in Sources */,
 				291B290928812DCE0035BDCE /* JustCause4Compass.swift in Sources */,
+				2978B27528C1B451007EC9AF /* ACONewLocationBanner.swift in Sources */,
 				29C611D428530B0C00804EFD /* LAMenu.swift in Sources */,
 				29B02F002793DEF60034A6F9 /* P5AnimatedStars.swift in Sources */,
 				29304D2F26916F49003512A1 /* TestingTiledImageView.swift in Sources */,
@@ -1534,6 +1544,7 @@
 				2920DB592785540E00DE5BEE /* PorterGradeView.swift in Sources */,
 				2935A9E127169EAE0043F964 /* GISelectionItem.swift in Sources */,
 				29E7056B271BF39800D6B9CC /* IsotoxalPolygonDemo.swift in Sources */,
+				2931FC6228C44E4E00D7B60B /* ACOQuestView.swift in Sources */,
 				29155FF4272BA64800BA2FE4 /* TLOUMenu.swift in Sources */,
 				29DD47482843234600BF4BAE /* Pixellate.swift in Sources */,
 				2911E5112737870C00F3E967 /* RDR2HUDCoreView.swift in Sources */,
@@ -1582,6 +1593,7 @@
 				29FADE1A269EA23000CF6D73 /* TypewriterTextViewModel.swift in Sources */,
 				29351A4A26CF63F00069BE75 /* RDR2AwardViewModel.swift in Sources */,
 				29532EFE26451D8B000F07F1 /* FireflySymbol.swift in Sources */,
+				2978B27628C1B451007EC9AF /* ACONewLocationBanner.swift in Sources */,
 				2926BCF42635260D00CEDC7E /* FireflyWing.swift in Sources */,
 				297A6E40265E04F200201D1A /* DiamondGem.swift in Sources */,
 				295E146B27F013C900724FB7 /* LABardStigmaSkillView.swift in Sources */,

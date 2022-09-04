@@ -89,5 +89,25 @@ extension Color {
   static var lostArkLightBrown: Color {
     Color(red: 131/255, green: 112/255, blue: 87/255)
   }
-    
+
+  static var acoGold: Color {
+    Color(red: 243/255, green: 233/255, blue: 157/255)
+  }
+  
+  static var acoBrown: Color {
+    Color(red: 51/255, green: 39/255, blue: 26/255)
+  }
+  
+  static var acoNotQuiteBlack: Color {
+    Color(red: 10/255, green: 12/255, blue: 8/255)
+  }
+  
+  static var acoGoldAgain: Color {
+    Color(red: 245/255, green: 203/255, blue: 92/255)
+  }
+  
+  static var acoBlue: Color {
+    Color(red: 38/255, green: 51/255, blue: 67/255)
+  }
+  
 }
