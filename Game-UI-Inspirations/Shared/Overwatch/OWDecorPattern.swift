@@ -32,7 +32,7 @@ struct OWDecorPattern: View {
             .inset(by: dim * 0.4)
             .stroke(lineWidth: 1)
             
-          ForEach(0..<numHexes) { index in
+          ForEach(0..<numHexes, id:\.self) { index in
             let angle = Angle(radians: 2 * .pi / CGFloat(numHexes) * CGFloat(index))
             ConvexPolygon(sides: 6)
               .stroke(lineWidth: dim * 0.01)

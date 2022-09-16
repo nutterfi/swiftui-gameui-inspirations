@@ -73,10 +73,10 @@ struct ProgressBarWithDeltaDemo: View {
         .frame(width: 350, height: 50)
         .animation(Animation.easeInOut(duration: 0.3), value: delta)
         .mask(
-          TaperedRect(taper: 25)
+          TaperedRectangle(taper: 25)
         )
         .background(
-          TaperedRect(taper: 25)
+          TaperedRectangle(taper: 25)
             .scale(1.051)
           )
         

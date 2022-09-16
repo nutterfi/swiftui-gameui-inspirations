@@ -30,7 +30,7 @@ struct SkillSelectionRow: View {
             .font(.body)
             .foregroundColor(showSkillPoints && enoughPoints ? .white : .red)
           HStack {
-            ForEach(0..<skillLevelsAvailable) { index in
+            ForEach(0..<skillLevelsAvailable, id:\.self) { index in
               if index < currentSkillLevel {
                 Rectangle()
                   .stroke(Color.white, lineWidth: 3)

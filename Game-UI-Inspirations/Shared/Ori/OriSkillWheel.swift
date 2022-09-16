@@ -19,6 +19,9 @@ struct OriSkillWheel: View {
     GeometryReader { proxy in
       let dim = min(proxy.size.width, proxy.size.height)
       ZStack {
+        let polygon = ConvexPolygon(sides: skills.count)
+          .inset(by: dim * 0.11)
+        
         let vertices = ConvexPolygon(sides: skills.count)
           .vertices(in: CGRect(x: 0, y: 0, width: dim, height: dim).insetBy(dx: dim * 0.11, dy: dim * 0.11))
         
@@ -74,6 +77,7 @@ struct OriSkillWheel: View {
               showSkillDetail.toggle()
             }
         }
+        polygon.stroke()
       }
       .frame(width: proxy.size.width, height: proxy.size.height)
     }

@@ -56,7 +56,7 @@ struct MGSViDroidView: View {
 
           VStack {
             List {
-              ForEach(0..<viewModel.titles.count) { index in
+              ForEach(0..<viewModel.titles.count, id:\.self) { index in
                 HStack {
                 Image(systemName: "checkmark.square")
                   .resizable()

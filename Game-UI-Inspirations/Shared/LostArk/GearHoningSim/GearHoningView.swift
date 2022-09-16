@@ -10,7 +10,6 @@ import SwiftUI
 struct GearHoningView: View {
     var body: some View {
       GeometryReader { proxy in
-        let dim = min(proxy.size.width, proxy.size.height)
         ZStack {
           Text("Lost Ark Gear Honing Sim")
         }

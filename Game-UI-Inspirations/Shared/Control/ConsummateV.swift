@@ -18,7 +18,7 @@ struct ConsummateV: View {
       let deltaX: CGFloat = size.width * 0.5 / CGFloat(count)
       let deltaY: CGFloat = size.height / CGFloat(count)
       
-      ForEach(0..<count) { index in
+      ForEach(0..<count, id:\.self) { index in
         Path { path in
           let start: CGPoint = CGPoint(x: CGFloat(index) * deltaX, y: 0)
           path.move(to: start)

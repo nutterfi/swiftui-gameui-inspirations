@@ -47,7 +47,7 @@ struct RDR2MinimapView: View {
                 
                 // TICK MARKS
                 let numberOfMarks: Int = 8
-                ForEach(0..<numberOfMarks) { index in
+                ForEach(0..<numberOfMarks, id:\.self) { index in
                   let rotation = Angle(radians: 2 * .pi / Double(numberOfMarks) * Double(index))
                   Rectangle()
                     .frame(width: 1, height: 10)
@@ -64,7 +64,7 @@ struct RDR2MinimapView: View {
                   .frame(width: dim / 20, height: dim / 15)
                   .offset(x: 0, y: -dim / 2 - 3)
                 
-                ForEach(0..<viewModel.entities.count) { index in
+                ForEach(0..<viewModel.entities.count, id:\.self) { index in
                   let entity = viewModel.entities[index]
                   IsotoxalPolygon(sides: 8, innerRadius: 0.5)
                     .fill(Color.red)

@@ -31,8 +31,8 @@
   "successRate" :
   {
     "base" : 0.3,
-    "failureBonusPercentOfBase" : 0.1, // every time we fail we get to add to the baseline ( baseline + numberOfFailures * failureBonusPercentOfBase)
-    "artisanenergyincreasepercentageperfailure"
+    "failureBonusPercentOfBase" : 0.1,
+    "artisanenergyincreasepercentageperfailure" : 0.1
     "additional" : [
       {
         "id" : "star_breath",

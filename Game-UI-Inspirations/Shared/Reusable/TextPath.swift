@@ -27,7 +27,7 @@ struct TextPath<S: Shape>: View {
           let path = shape.path(in: rect)
           let points = path.equallySpacedPoints(count: text.count)
           
-          ForEach(0..<points.count) { index in
+          ForEach(0..<points.count, id:\.self) { index in
             let vertex = points[index]
             let i = text.utf16.index(text.utf16.startIndex, offsetBy: index)
             let character = text[i]

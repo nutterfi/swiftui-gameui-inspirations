@@ -15,38 +15,46 @@ struct CIFilterView<T: View>: View {
   var outputSize: CGSize = .init(width: 150, height: 150)
   
   @State private var context = CIContext()
-  @State private var filteredImage: Image?
+  @State private var result: Image?
   
   var body: some View {
     GeometryReader { proxy in
       ZStack {
-        if let filteredImage {
-          filteredImage
+        if let result {
+          result
             .resizable()
             .scaledToFit()
         }
       }
       .task {
-        self.loadImage()
+        await self.loadImage()
       }
       .frame(width: proxy.size.width, height: proxy.size.height)
     }
   }
   
-  func loadImage() {
-    let uiimage = input.uiimage(
-      rect: CGRect(
-        origin: .zero,
-        size: outputSize
+  func loadImage() async {
+    let uiInputImage: UIImage
+    
+    if #available(iOS 16.0, *) {
+      guard let image = await ImageRenderer(content: input).uiImage else { return }
+      uiInputImage = image
+    } else {
+      uiInputImage = input.uiImage(
+        rect: CGRect(
+          origin: .zero,
+          size: outputSize
+        )
       )
-    )
-    let ciimage = CIImage(image: uiimage)
-    filter.setValue(ciimage, forKey: kCIInputImageKey)
-    guard let output = filter.outputImage else { return }
+    }
+    
+    let ciInputImage = CIImage(image: uiInputImage)
+    filter.setValue(ciInputImage, forKey: kCIInputImageKey)
+    guard let filteredImage = filter.outputImage else { return }
     
     // make the image from the context
-    if let cgimage = context.createCGImage(output, from: output.extent) {
-      filteredImage = Image(uiImage: UIImage(cgImage: cgimage))
+    if let cgFilteredImage = context.createCGImage(filteredImage, from: filteredImage.extent) {
+      result = Image(cgImage: cgFilteredImage)
     }
     
   }

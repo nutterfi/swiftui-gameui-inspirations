@@ -1,6 +1,6 @@
 //
 //  TextEffectView.swift
-//  TextEffectView
+//  Game-UI-Inspirations
 //
 //  Created by nutterfi on 8/17/21.
 //
@@ -46,7 +46,7 @@ struct TextEffectView: View {
   var body: some View {
     let characters = text.map{String($0)}
     
-    LazyVGrid(columns: columns, spacing: -10) {
+    LazyVGrid(columns: columns, spacing: 0) {
       ForEach(0..<characters.count, id: \.self) { index in
         let offset: (CGFloat, CGFloat) =
         offset(index: index)
@@ -65,7 +65,8 @@ struct TextEffectView: View {
 struct TextEffectView_Previews: PreviewProvider {
   static var previews: some View {
 
-    TextEffectView(style: "none", amplitude: 1, text: "The quick brown fox jumped over the lazy dog and some other words to make this a very long paragraph because you never know how long your string will become")
+    TextEffectView(style: TextEffectView.TextOffsetStyle.elevator, amplitude: 1, text: "The quick brown fox jumped over the lazy dog and some other words to make this a very long paragraph because you never know how long your string will become")
+      .frame(width:100, height: 256)
       .previewDevice("iPhone 8")
   }
 }

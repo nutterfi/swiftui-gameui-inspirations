@@ -19,13 +19,12 @@ import SwiftUI
     duration = [text.sizeThatFits + parent.width] / 5.0 cps
  */
 
-
 struct MarqueeText: View {
   var text: String
   var speed: Double = 50.0 // character width per second
   var fontSize: Double = 40.0
-  // character width is roughly 60% of the fontSize
   
+  // character width is roughly 60% of the fontSize
   private var characterWidth: Double {
     fontSize * 0.52
   }
@@ -37,7 +36,6 @@ struct MarqueeText: View {
   @State private var animating = false
   var body: some View {
     GeometryReader { proxy in
-      let dim = min(proxy.size.width, proxy.size.height)
       let width = Double(text.count) * characterWidth
       
       ZStack {

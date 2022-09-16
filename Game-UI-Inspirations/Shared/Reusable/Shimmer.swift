@@ -26,10 +26,7 @@ struct Shimmer: View {
         let trailing: CGSize = CGSize(width: -dim + trajectory.1.x * 2 * dim, height: -dim + trajectory.1.y * 2 * dim)
         
         let grad = LinearGradient(colors: [.clear, .clear, .clear, .white, .clear, .clear, .clear], startPoint: trajectory.0, endPoint: trajectory.1)
-//
-        let shimmer = Color.white
-          .frame(height: dim * 0.9)
-          .blur(radius: 10)
+
         // TODO: This seems to be the best solution without a linear gradient (because I don't want the dark portion of the outside
         
         ZStack {

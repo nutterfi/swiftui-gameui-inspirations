@@ -118,7 +118,7 @@ struct SpirolateralDemo: View {
         VStack {
           row(rg)
             .background(Color.white)
-          row(rg)
+          row(rg2)
             .background(Color.black)
         }
       }

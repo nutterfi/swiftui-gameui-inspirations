@@ -40,7 +40,7 @@ struct TwoTonedIsotoxalPolygon: View {
         let rightPoint = vertices[1]
         let minPoint = CGPoint(x: (leftPoint.x + rightPoint.x) * 0.5, y: (leftPoint.y + rightPoint.y) * 0.5) // midpoint actually...
         
-        ForEach(0..<sides) { index in
+        ForEach(0..<sides, id:\.self) { index in
           let fIndex = CGFloat(index)
           let rotation: Angle = .degrees(360.0/CGFloat(sides) * fIndex)
           let percentage = 1.0//viewModel.value(at: index)

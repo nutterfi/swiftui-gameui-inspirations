@@ -8,7 +8,7 @@
 import SwiftUI
 import Shapes
 /**
-      TODO:
+ TODO:
  View MODEL!!!!!!!
  
  */
@@ -22,7 +22,7 @@ struct DeathStrandingLetter: View {
       ZStack {
         VStack(spacing: 0) {
           Text(letter)
-            .font(.system(size: 50))
+            .font(.system(size: 36))
             .foregroundColor(.gray)
           if let data = data {
             DataPath(data: data)
@@ -60,7 +60,7 @@ struct DeathStrandingTitle: View {
                   dampingFactor: 0.001
                 )
               )
-                .frame(width: dim * 0.1)
+              .frame(width: dim * 0.1)
               
               DeathStrandingLetter(
                 letter: "A",
@@ -70,7 +70,7 @@ struct DeathStrandingTitle: View {
                   dampingFactor: 0.001
                 )
               )
-                .frame(width: dim * 0.1)
+              .frame(width: dim * 0.1)
               
               DeathStrandingLetter(
                 letter: "T",
@@ -80,12 +80,11 @@ struct DeathStrandingTitle: View {
                   dampingFactor: 0.001
                 )
               )
-                .frame(width: dim * 0.1)
+              .frame(width: dim * 0.1)
               DeathStrandingLetter(letter: "H")
                 .frame(width: dim * 0.1)
               Spacer()
             }
-            .frame(width: dim * 0.1, height: dim * 0.7)
           }
           
           HStack {
@@ -138,7 +137,7 @@ struct DeathStrandingTitle: View {
               )
             )
           }
-          .offset(x: 0, y: dim * 0.4)
+          .offset(x: 0, y: proxy.size.height * 0.4)
         }
       }
       .frame(width: proxy.size.width, height: proxy.size.height)
@@ -148,7 +147,18 @@ struct DeathStrandingTitle: View {
 
 struct DeathStrandingTitle_Previews: PreviewProvider {
   static var previews: some View {
-    DeathStrandingTitle()
-      .previewInterfaceOrientation(.landscapeLeft)
+    Group {
+      DeathStrandingTitle()
+        .previewInterfaceOrientation(.landscapeLeft)
+      
+      DeathStrandingLetter(
+        letter: "E",
+        data: Math.dampedOscillator(
+          points: 1000,
+          sampleRate: 1000,
+          dampingFactor: 0.001
+        )
+      )
+    }
   }
 }

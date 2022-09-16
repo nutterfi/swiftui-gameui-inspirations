@@ -47,7 +47,7 @@ struct PolygonSegmentWrapAnimation: View {
           let v0 = vertices[0]
           let v1 = vertices[1]
           
-          ForEach(0..<sides) { index in
+          ForEach(0..<sides, id:\.self) { index in
             let fIndex = CGFloat(index)
             let rotation: Angle = .degrees(animating ? 360.0/CGFloat(sides) * fIndex : 0)
             

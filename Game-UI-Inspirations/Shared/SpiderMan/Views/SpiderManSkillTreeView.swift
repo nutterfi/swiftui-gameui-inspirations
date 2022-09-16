@@ -74,7 +74,7 @@ struct SpiderManSkillTreeView: View {
         
         let skillStates = viewModel.skillStates(skillType: skillType)
         
-        ForEach(0..<skillStates.count) { index in
+        ForEach(0..<skillStates.count, id:\.self) { index in
           let skillState = skillStates[index]
           let identifier = skillState.skill.id
           SpiderManSkillView(

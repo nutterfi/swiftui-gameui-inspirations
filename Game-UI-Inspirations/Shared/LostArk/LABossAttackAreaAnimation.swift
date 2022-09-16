@@ -60,7 +60,7 @@ struct LABossAttackAreaAnimation: View {
           let uiimage = ConvexPolygon(sides: 6)
             .rotation(.degrees(30))
             .stroke(Color.red.opacity(0.5), lineWidth: 5)
-            .uiimage(rect: CGRect(origin: .zero, size: CGSize(width: 49, height: 49)))
+            .uiImage(rect: CGRect(origin: .zero, size: CGSize(width: 49, height: 49)))
           
           self.image = Image(uiImage: uiimage)
         }

@@ -18,7 +18,7 @@ struct Persona5MenuItem: View {
       let dim = min(proxy.size.width, proxy.size.height)
       ZStack {
         HStack(spacing: 0) {
-          ForEach(0..<text.count) { index in
+          ForEach(0..<text.count, id:\.self) { index in
             let letter = String(text.prefix(index+1).suffix(1))
             TextShape(letter: letter.lowercased())
               .outline()
@@ -51,7 +51,6 @@ struct Persona5MenuItem: View {
   }
 }
 
-// TODO: Animate!
 struct Persona5AnimatedMenu: View {
   var body: some View {
     GeometryReader { proxy in

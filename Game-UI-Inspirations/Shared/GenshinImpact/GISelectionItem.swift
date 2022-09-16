@@ -27,7 +27,7 @@ struct GISelectionItem: View {
         )
         
         HStack(spacing: 0) {
-          ForEach(0..<item.rarity.rawValue) { _ in
+          ForEach(0..<item.rarity.rawValue, id:\.self) { _ in
             IsotoxalPolygon(sides: 10, innerRadius: 0.6 ).fill(item.showStars ? Color.yellow : Color.clear)
               .frame(width: dim * 0.15)
           }

@@ -11,7 +11,6 @@ import Shapes
 struct OrnateCorners: View {
     var body: some View {
       GeometryReader { proxy in
-        let sides = 4
         let dim = min(proxy.size.width, proxy.size.height)
         let vertices = IsoscelesTriangle()
           .vertices(in: CGRect(x: 0, y: 0, width: dim, height: dim))

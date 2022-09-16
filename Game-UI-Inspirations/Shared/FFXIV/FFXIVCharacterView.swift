@@ -28,7 +28,6 @@ struct FFXIVCharacterView: View {
   
   var body: some View {
     GeometryReader { proxy in
-      let dim = min(proxy.size.width, proxy.size.height)
       ZStack(alignment: .topLeading) {
         VStack {
           FFXIVWindowHeaderView(title: $title, description: $model.name)
@@ -71,9 +70,7 @@ struct FFXIVCharacterView: View {
                 RoundedRectangle(cornerRadius: 6)
                   .foregroundColor(Color.black.opacity(0.8))
               )
-              
-              
-              
+
               Color.red
             }
             
@@ -146,7 +143,6 @@ struct FFXIVCharacterView: View {
               Spacer()
             }
             .padding()
-//            .frame(width: dim * 0.5)
           }
           
           Spacer()

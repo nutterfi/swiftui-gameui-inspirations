@@ -69,7 +69,7 @@ struct ChaosBoon: NFiShape {
   }
   
   func path(in rect: CGRect) -> Path {
-    var insetRect = rect.insetBy(dx: inset, dy: inset)
+    let insetRect = rect.insetBy(dx: inset, dy: inset)
     return Path { path in
       path.addPath(arrowPath(in: insetRect))
       

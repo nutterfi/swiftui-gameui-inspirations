@@ -23,7 +23,6 @@ struct SpirolateralAnimationDemo: View {
           let rg = RadialGradient(colors: [.white, .purple], center: .center, startRadius: 0, endRadius: dim)
           
           Spirolateral(turns: [6], turningAngle: isAnimating ? 62 : 61, repetitions: 52, reversedIndexes: [2, 5])
-            .stroke()
             .fill(rg, style: .init(eoFill: true, antialiased: true))
             .frame(width: dim, height: dim)
             .scaleEffect(isAnimating ? 3 : 1)

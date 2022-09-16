@@ -23,12 +23,11 @@ struct LACardAnimation: View {
               .frame(width: dim * 0.1, height: dim * 0.15)
               .rotationEffect(animating ? .zero : .degrees(360))
             // TODO: Finalize these options
-//              .animation(.easeInOut(duration: 2).repeatForever(), value: animating)
+              .animation(.easeInOut(duration: 2).repeatForever(), value: animating)
               
-//              .offset(x: animating ? .zero : -dim * 0.5 + v.x,
-//                      y: animating ? .zero : -dim * 0.5 + v.y)
-//              .offset(animating ? .zero : CGSize(width: dim, height: dim))
-              .angularOffset(magnitude: animating ? 0 : dim * 0.5, angle: .degrees(20 * Double(index)))
+              .offset(x: animating ? .zero : -dim * 0.5 + v.x,
+                      y: animating ? .zero : -dim * 0.5 + v.y)
+              .angularOffset(magnitude: animating ? 0 : dim * 0.5, angle: .degrees(10 * Double(index)))
               .animation(.easeInOut(duration: 1).repeatForever(autoreverses: true), value: animating)
           }
         }
