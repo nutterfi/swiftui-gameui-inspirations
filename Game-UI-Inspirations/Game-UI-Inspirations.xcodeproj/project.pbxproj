@@ -112,6 +112,7 @@
 		2943790628B1DD6300E7E717 /* ChaosBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2943790428B1DD6300E7E717 /* ChaosBoon.swift */; };
 		2948EF09277ED33E00966236 /* DeathStrandingTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2948EF08277ED33E00966236 /* DeathStrandingTitle.swift */; };
 		2948EF0A277ED33E00966236 /* DeathStrandingTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2948EF08277ED33E00966236 /* DeathStrandingTitle.swift */; };
+		294B9B6228D6CC7100B79EEC /* PapersPleaseSettingsIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294B9B6128D6CC7100B79EEC /* PapersPleaseSettingsIcon.swift */; };
 		294D37362710082700524868 /* SpirolateralAnimationDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294D37352710082700524868 /* SpirolateralAnimationDemo.swift */; };
 		294D37372710082700524868 /* SpirolateralAnimationDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294D37352710082700524868 /* SpirolateralAnimationDemo.swift */; };
 		294FF9482632AE300057869B /* TLOUIconDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294FF9472632AE300057869B /* TLOUIconDemo.swift */; };
@@ -462,6 +463,7 @@
 		29421CA927193ED200CBEDBB /* GIInventoryMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIInventoryMenu.swift; sourceTree = "<group>"; };
 		2943790428B1DD6300E7E717 /* ChaosBoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaosBoon.swift; sourceTree = "<group>"; };
 		2948EF08277ED33E00966236 /* DeathStrandingTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeathStrandingTitle.swift; sourceTree = "<group>"; };
+		294B9B6128D6CC7100B79EEC /* PapersPleaseSettingsIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PapersPleaseSettingsIcon.swift; sourceTree = "<group>"; };
 		294D37352710082700524868 /* SpirolateralAnimationDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpirolateralAnimationDemo.swift; sourceTree = "<group>"; };
 		294FF9472632AE300057869B /* TLOUIconDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLOUIconDemo.swift; sourceTree = "<group>"; };
 		2950E126268C24B4005EFAA9 /* OverwatchIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverwatchIcon.swift; sourceTree = "<group>"; };
@@ -743,6 +745,14 @@
 			path = DeathStranding;
 			sourceTree = "<group>";
 		};
+		294B9B6028D6CC6200B79EEC /* PapersPlease */ = {
+			isa = PBXGroup;
+			children = (
+				294B9B6128D6CC7100B79EEC /* PapersPleaseSettingsIcon.swift */,
+			);
+			path = PapersPlease;
+			sourceTree = "<group>";
+		};
 		2950E125268C2499005EFAA9 /* Overwatch */ = {
 			isa = PBXGroup;
 			children = (
@@ -835,6 +845,7 @@
 				2993C98928657290002E09CB /* NoMansSky */,
 				29B79919285C2EE3005FD3D2 /* Ori */,
 				2950E125268C2499005EFAA9 /* Overwatch */,
+				294B9B6028D6CC6200B79EEC /* PapersPlease */,
 				29CA754127912F5D00298F47 /* Persona5 */,
 				29A22CBC2626D27F000D9EAF /* RDR2 */,
 				290B177127572D3E0075AE24 /* SpiderMan */,
@@ -1380,6 +1391,7 @@
 				29188616272505320060E33C /* RDR2Revolver.swift in Sources */,
 				294FF9482632AE300057869B /* TLOUIconDemo.swift in Sources */,
 				29A22CFB2626D8C9000D9EAF /* ConsummateVDemo.swift in Sources */,
+				294B9B6228D6CC7100B79EEC /* PapersPleaseSettingsIcon.swift in Sources */,
 				2957947E2650D94000BDDE3A /* TLOUSkillSelectMenuViewModel.swift in Sources */,
 				29C9018F26A7D85500AA9619 /* OWUltimateReadyView.swift in Sources */,
 				29421CAA27193ED200CBEDBB /* GIInventoryMenu.swift in Sources */,
