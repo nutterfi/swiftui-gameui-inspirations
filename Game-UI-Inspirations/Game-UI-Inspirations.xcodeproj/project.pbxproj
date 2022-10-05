@@ -112,6 +112,8 @@
 		2943790628B1DD6300E7E717 /* ChaosBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2943790428B1DD6300E7E717 /* ChaosBoon.swift */; };
 		2948EF09277ED33E00966236 /* DeathStrandingTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2948EF08277ED33E00966236 /* DeathStrandingTitle.swift */; };
 		2948EF0A277ED33E00966236 /* DeathStrandingTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2948EF08277ED33E00966236 /* DeathStrandingTitle.swift */; };
+		294AA01628DAB7E300B9B14B /* OWPlayerWaitingIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294AA01528DAB7E300B9B14B /* OWPlayerWaitingIcon.swift */; };
+		294AA01728DAB7E300B9B14B /* OWPlayerWaitingIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294AA01528DAB7E300B9B14B /* OWPlayerWaitingIcon.swift */; };
 		294B9B6228D6CC7100B79EEC /* PapersPleaseSettingsIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294B9B6128D6CC7100B79EEC /* PapersPleaseSettingsIcon.swift */; };
 		294D37362710082700524868 /* SpirolateralAnimationDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294D37352710082700524868 /* SpirolateralAnimationDemo.swift */; };
 		294D37372710082700524868 /* SpirolateralAnimationDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294D37352710082700524868 /* SpirolateralAnimationDemo.swift */; };
@@ -197,6 +199,7 @@
 		2976E1DB2626AD5C00272ADC /* Pulsar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2976E1D92626AD5C00272ADC /* Pulsar.swift */; };
 		2978B27528C1B451007EC9AF /* ACONewLocationBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2978B27428C1B451007EC9AF /* ACONewLocationBanner.swift */; };
 		2978B27628C1B451007EC9AF /* ACONewLocationBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2978B27428C1B451007EC9AF /* ACONewLocationBanner.swift */; };
+		2979E34E28ED3701001E8730 /* OW2FindingGameAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2979E34D28ED3701001E8730 /* OW2FindingGameAnimation.swift */; };
 		297A3D74265185FD00D0C79E /* Shapes in Frameworks */ = {isa = PBXBuildFile; productRef = 297A3D73265185FD00D0C79E /* Shapes */; };
 		297A3D782651860A00D0C79E /* Shapes in Frameworks */ = {isa = PBXBuildFile; productRef = 297A3D772651860A00D0C79E /* Shapes */; };
 		297A6E3A265E02B600201D1A /* DiamondDogsLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297A6E39265E02B600201D1A /* DiamondDogsLogo.swift */; };
@@ -463,6 +466,7 @@
 		29421CA927193ED200CBEDBB /* GIInventoryMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIInventoryMenu.swift; sourceTree = "<group>"; };
 		2943790428B1DD6300E7E717 /* ChaosBoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaosBoon.swift; sourceTree = "<group>"; };
 		2948EF08277ED33E00966236 /* DeathStrandingTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeathStrandingTitle.swift; sourceTree = "<group>"; };
+		294AA01528DAB7E300B9B14B /* OWPlayerWaitingIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OWPlayerWaitingIcon.swift; sourceTree = "<group>"; };
 		294B9B6128D6CC7100B79EEC /* PapersPleaseSettingsIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PapersPleaseSettingsIcon.swift; sourceTree = "<group>"; };
 		294D37352710082700524868 /* SpirolateralAnimationDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpirolateralAnimationDemo.swift; sourceTree = "<group>"; };
 		294FF9472632AE300057869B /* TLOUIconDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLOUIconDemo.swift; sourceTree = "<group>"; };
@@ -512,6 +516,7 @@
 		2976E1BE2626A45000272ADC /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		2976E1D92626AD5C00272ADC /* Pulsar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pulsar.swift; sourceTree = "<group>"; };
 		2978B27428C1B451007EC9AF /* ACONewLocationBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACONewLocationBanner.swift; sourceTree = "<group>"; };
+		2979E34D28ED3701001E8730 /* OW2FindingGameAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OW2FindingGameAnimation.swift; sourceTree = "<group>"; };
 		297A6E39265E02B600201D1A /* DiamondDogsLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiamondDogsLogo.swift; sourceTree = "<group>"; };
 		297A6E3E265E04F200201D1A /* DiamondGem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiamondGem.swift; sourceTree = "<group>"; };
 		297A6E44265E057000201D1A /* RibbonShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RibbonShapes.swift; sourceTree = "<group>"; };
@@ -756,6 +761,7 @@
 		2950E125268C2499005EFAA9 /* Overwatch */ = {
 			isa = PBXGroup;
 			children = (
+				2979E34C28ED3669001E8730 /* OW2 */,
 				295E145C27F0132500724FB7 /* OWDecorPattern.swift */,
 				2950E126268C24B4005EFAA9 /* OverwatchIcon.swift */,
 				2950E128268C2CDC005EFAA9 /* OverwatchLogoDemo.swift */,
@@ -763,6 +769,7 @@
 				298DA1C5269AAEF50054463A /* OWUltimateMeterDemo.swift */,
 				29C9018E26A7D85500AA9619 /* OWUltimateReadyView.swift */,
 				29C9019126A801A400AA9619 /* OWUltimateMeterBorder.swift */,
+				294AA01528DAB7E300B9B14B /* OWPlayerWaitingIcon.swift */,
 			);
 			path = Overwatch;
 			sourceTree = "<group>";
@@ -889,6 +896,14 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2979E34C28ED3669001E8730 /* OW2 */ = {
+			isa = PBXGroup;
+			children = (
+				2979E34D28ED3701001E8730 /* OW2FindingGameAnimation.swift */,
+			);
+			path = OW2;
 			sourceTree = "<group>";
 		};
 		297A6E43265E053F00201D1A /* DiamondDogsLogo */ = {
@@ -1422,6 +1437,7 @@
 				2931FC6128C44E4E00D7B60B /* ACOQuestView.swift in Sources */,
 				29816B6C263BBF1E0016F1BA /* Rustify.swift in Sources */,
 				29B7991D285C2FBD005FD3D2 /* OriSkillView.swift in Sources */,
+				2979E34E28ED3701001E8730 /* OW2FindingGameAnimation.swift in Sources */,
 				299363D3273F969400CA089A /* GIAchievementView.swift in Sources */,
 				29EEFDCE276EEA7400290CA2 /* SpiderManSkillLoadingView.swift in Sources */,
 				29922AC82633D270002469C2 /* MK11SelectionView.swift in Sources */,
@@ -1457,6 +1473,7 @@
 				29EB0A66262BF1D40032E598 /* ControlQuestMarker.swift in Sources */,
 				2910270B263E6DAC00418FE1 /* PoseidonBoon.swift in Sources */,
 				291A07E526BA5257000F4590 /* StrokeStyledPolygonDemo.swift in Sources */,
+				294AA01628DAB7E300B9B14B /* OWPlayerWaitingIcon.swift in Sources */,
 				29DA940E27CF674800741B9B /* Path+Extensions.swift in Sources */,
 				29EDA2D6283741F800BC3C72 /* GearHoningModel.swift in Sources */,
 				29155FF0272BA2D500BA2FE4 /* TLOUMainMenuIcon.swift in Sources */,
@@ -1531,6 +1548,7 @@
 				29A22CFA2626D8C9000D9EAF /* LoadingRingsDemo.swift in Sources */,
 				29637C9628BB347A0065ECB5 /* ACOTargetView.swift in Sources */,
 				298FE30A264B939800BBC02A /* TLOUSkillSelectMenu.swift in Sources */,
+				294AA01728DAB7E300B9B14B /* OWPlayerWaitingIcon.swift in Sources */,
 				291A07E626BA5257000F4590 /* StrokeStyledPolygonDemo.swift in Sources */,
 				2959344128AF4489005F8EE0 /* FFXIVCharacterTabView.swift in Sources */,
 				29801ACC2647A0320010B4C8 /* SkillMaxHealth.swift in Sources */,

@@ -110,4 +110,24 @@ extension Color {
     Color(red: 38/255, green: 51/255, blue: 67/255)
   }
   
+  static var ow2Orange: Color {
+    Color(red: 223/255, green: 113/255, blue: 66/255)
+  }
+  
+  static var ow2BackgroundBlue: Color {
+    Color(red: 83/255, green: 103/255, blue: 142/255)
+  }
+  
+  static var ow2BackgroundBlue2: Color {
+    Color(red: 178/255, green: 197/255, blue: 218/255)
+  }
+  
+  static var ow2IconDarkGray: Color {
+    Color(red: 103/255, green: 115/255, blue: 128/255)
+  }
+  
+  static var ow2IconLightGray: Color {
+    Color(red: 183/255, green: 202/255, blue: 223/255)
+  }
+  
 }
