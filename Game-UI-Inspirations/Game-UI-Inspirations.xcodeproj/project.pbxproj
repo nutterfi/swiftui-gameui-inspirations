@@ -100,6 +100,8 @@
 		2936E04F27707CDF0075FADF /* GIAchievementMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2936E04D27707CDF0075FADF /* GIAchievementMenu.swift */; };
 		2939687426BCFA7D00B08586 /* RDR2AwardBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2939687326BCFA7D00B08586 /* RDR2AwardBadge.swift */; };
 		2939687526BCFA7D00B08586 /* RDR2AwardBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2939687326BCFA7D00B08586 /* RDR2AwardBadge.swift */; };
+		293D55B928F2733C00DD2351 /* GoldenEyeWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293D55B828F2733C00DD2351 /* GoldenEyeWatch.swift */; };
+		293D55BB28F29EA700DD2351 /* Clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293D55BA28F29EA700DD2351 /* Clock.swift */; };
 		29421CA127192C6900CBEDBB /* GIItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29421CA027192C6900CBEDBB /* GIItem.swift */; };
 		29421CA227192C6900CBEDBB /* GIItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29421CA027192C6900CBEDBB /* GIItem.swift */; };
 		29421CA427192FC600CBEDBB /* GIReward.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29421CA327192FC600CBEDBB /* GIReward.swift */; };
@@ -460,6 +462,8 @@
 		2935A9DF27169EAE0043F964 /* GISelectionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GISelectionItem.swift; sourceTree = "<group>"; };
 		2936E04D27707CDF0075FADF /* GIAchievementMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIAchievementMenu.swift; sourceTree = "<group>"; };
 		2939687326BCFA7D00B08586 /* RDR2AwardBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDR2AwardBadge.swift; sourceTree = "<group>"; };
+		293D55B828F2733C00DD2351 /* GoldenEyeWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldenEyeWatch.swift; sourceTree = "<group>"; };
+		293D55BA28F29EA700DD2351 /* Clock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clock.swift; sourceTree = "<group>"; };
 		29421CA027192C6900CBEDBB /* GIItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIItem.swift; sourceTree = "<group>"; };
 		29421CA327192FC600CBEDBB /* GIReward.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIReward.swift; sourceTree = "<group>"; };
 		29421CA62719325800CBEDBB /* GIItemRarityBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIItemRarityBackground.swift; sourceTree = "<group>"; };
@@ -740,6 +744,15 @@
 			path = FFXIV;
 			sourceTree = "<group>";
 		};
+		293D55B728F2723600DD2351 /* GoldenEye */ = {
+			isa = PBXGroup;
+			children = (
+				293D55B828F2733C00DD2351 /* GoldenEyeWatch.swift */,
+				293D55BA28F29EA700DD2351 /* Clock.swift */,
+			);
+			path = GoldenEye;
+			sourceTree = "<group>";
+		};
 		2948EF07277ED31E00966236 /* DeathStranding */ = {
 			isa = PBXGroup;
 			children = (
@@ -818,6 +831,7 @@
 		2976E1A62626A44F00272ADC = {
 			isa = PBXGroup;
 			children = (
+				293D55B728F2723600DD2351 /* GoldenEye */,
 				2976E1AB2626A45000272ADC /* Shared */,
 				2976E1B52626A45000272ADC /* iOS */,
 				2976E1BC2626A45000272ADC /* macOS */,
@@ -1324,11 +1338,13 @@
 				296C1F1627F6A44D00BAEA23 /* Shimmer.swift in Sources */,
 				2906484F26FAD6CF009A20A1 /* DBHTitleScreenMenuItem.swift in Sources */,
 				29A22D122626DC60000D9EAF /* KountdownTimerView.swift in Sources */,
+				293D55BB28F29EA700DD2351 /* Clock.swift in Sources */,
 				290BBC3426CCC8AA004D57D9 /* TextEffectViewModel.swift in Sources */,
 				290B5CF7268ED22C00EB93BD /* HadesBoonDemo.swift in Sources */,
 				298CD785270FEF2A00C9D6B9 /* KiteAnimationDemo.swift in Sources */,
 				295794792650D91D00BDDE3A /* TLOUSkillModel.swift in Sources */,
 				29DD474328431E4900BF4BAE /* CIFilterView.swift in Sources */,
+				293D55B928F2733C00DD2351 /* GoldenEyeWatch.swift in Sources */,
 				29351A4926CF63F00069BE75 /* RDR2AwardViewModel.swift in Sources */,
 				29A4F49F283DEC9F0078F32D /* LAItem.swift in Sources */,
 				29C11DEF2763129200D0CA09 /* SpiderManSkillTreeView.swift in Sources */,
