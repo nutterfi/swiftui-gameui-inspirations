@@ -336,6 +336,7 @@
 		29BCCFB8277C2AD90055DE94 /* CircularText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BCCFB6277C2AD90055DE94 /* CircularText.swift */; };
 		29BCCFBA277C2DFF0055DE94 /* DrStrangeShield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BCCFB9277C2DFF0055DE94 /* DrStrangeShield.swift */; };
 		29BCCFBB277C2DFF0055DE94 /* DrStrangeShield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BCCFB9277C2DFF0055DE94 /* DrStrangeShield.swift */; };
+		29BD55D128F66B5D00C061F7 /* OW2UltimateMeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BD55D028F66B5D00C061F7 /* OW2UltimateMeter.swift */; };
 		29C11DE327630B6D00D0CA09 /* SpiderManSkillDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C11DE227630B6D00D0CA09 /* SpiderManSkillDetailView.swift */; };
 		29C11DE427630B6D00D0CA09 /* SpiderManSkillDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C11DE227630B6D00D0CA09 /* SpiderManSkillDetailView.swift */; };
 		29C11DE927630F0300D0CA09 /* SpiderManSkillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C11DE827630F0300D0CA09 /* SpiderManSkillView.swift */; };
@@ -589,6 +590,7 @@
 		29BB327B265E0C3F00C3CCFE /* DiamondDog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiamondDog.swift; sourceTree = "<group>"; };
 		29BCCFB6277C2AD90055DE94 /* CircularText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularText.swift; sourceTree = "<group>"; };
 		29BCCFB9277C2DFF0055DE94 /* DrStrangeShield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrStrangeShield.swift; sourceTree = "<group>"; };
+		29BD55D028F66B5D00C061F7 /* OW2UltimateMeter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OW2UltimateMeter.swift; sourceTree = "<group>"; };
 		29C11DE227630B6D00D0CA09 /* SpiderManSkillDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiderManSkillDetailView.swift; sourceTree = "<group>"; };
 		29C11DE827630F0300D0CA09 /* SpiderManSkillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiderManSkillView.swift; sourceTree = "<group>"; };
 		29C11DEB276310C000D0CA09 /* SpiderManSkillTreeWeb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiderManSkillTreeWeb.swift; sourceTree = "<group>"; };
@@ -915,6 +917,7 @@
 		2979E34C28ED3669001E8730 /* OW2 */ = {
 			isa = PBXGroup;
 			children = (
+				29BD55D028F66B5D00C061F7 /* OW2UltimateMeter.swift */,
 				2979E34D28ED3701001E8730 /* OW2FindingGameAnimation.swift */,
 			);
 			path = OW2;
@@ -1497,6 +1500,7 @@
 				29B44138262FDF2A00E442A6 /* TLOUIcon.swift in Sources */,
 				29EB0A61262BEA570032E598 /* ControlSelectionView.swift in Sources */,
 				2964BAB326C384B000F37FDC /* Game.swift in Sources */,
+				29BD55D128F66B5D00C061F7 /* OW2UltimateMeter.swift in Sources */,
 				29155FF3272BA64800BA2FE4 /* TLOUMenu.swift in Sources */,
 				29FC00032703A8DE00900F5B /* DBHTitleScreenMenu.swift in Sources */,
 				2906485526FAD882009A20A1 /* StrokeStyledRectangleDemo.swift in Sources */,
