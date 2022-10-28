@@ -7,10 +7,27 @@
 
 import SwiftUI
 import Shapes
+import Combine
+
+class ClockModel: ObservableObject {
+  
+  @Published private(set) var date: Date
+  
+  var subscribers = Set<AnyCancellable>()
+  
+  init() {
+    date = Date()
+    let _: () = Timer.publish(every: 0.1, on: .main, in: .common).autoconnect()
+      .sink { value in
+        self.date = Date()
+      }
+      .store(in: &subscribers)
+  }
+}
 
 struct Clock: View {
-  private let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
-  
+  @StateObject var model = ClockModel()
+
   @State private var hours: Double = 0
   @State private var minutes: Double = 0
   @State private var seconds: Double = 0
@@ -39,17 +56,15 @@ struct Clock: View {
       }
       .frame(width: proxy.size.width, height: proxy.size.height)
     }
-    .padding()
-    .onReceive(timer) { _ in
+    .onChange(of: model.date, perform: { newValue in
       updateTime()
-    }
-    .task {
-      _ = timer
-    }
+    })
+    .padding()
+    
   }
 
   func updateTime() {
-    let components = Calendar.current.dateComponents([.hour, .minute, .second], from: Date())
+    let components = Calendar.current.dateComponents([.hour, .minute, .second], from: model.date)
     hours = Double(components.hour ?? 0)
     minutes = Double(components.minute ?? 0)
     seconds = Double(components.second ?? 0)
