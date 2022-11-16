@@ -24,7 +24,8 @@ struct DrStrangeShieldDemo: View {
 
 struct DrStrangeShield: View {
   @State private var isAnimating = false
-
+  var runicText = "ᚠᚡᚣᚬᚸ ᛒᛓᛥ ᛠᛢ"
+  
     var body: some View {
       GeometryReader { proxy in
         let dim = min(proxy.size.width, proxy.size.height)
@@ -33,14 +34,15 @@ struct DrStrangeShield: View {
         
         ZStack {
           ZStack {
-          CircularText(text: "This is my shield. There are many like it. But this one is mine", size: 10)
+          CircularText(text: runicText, size: 40)
             .frame(width: dim, height: dim)
+          
           Circle()
             .strokeBorder(lineWidth: dim * 0.01)
             .frame(width: dim * 0.95, height: dim * 0.95)
           
           CirclePattern(pattern: Reuleaux.triangle, repetitions: 30)
-            .frame(width: dim * 0.90, height: dim * 0.9)
+            .frame(width: dim * 0.85, height: dim * 0.85)
 
           }
           .rotationEffect(.degrees(isAnimating ? 360 : 0))
@@ -50,17 +52,31 @@ struct DrStrangeShield: View {
             .strokeBorder(lineWidth: dim * 0.01)
             .frame(width: dim * 0.88, height: dim * 0.88)
           
-          CircularText(text: "This is my shield. There are many like it. But this one is mine", size: 10)
-            .frame(width: dim * 0.8, height: dim * 0.8)
-            .rotationEffect(.degrees(isAnimating ? 0 : 360))
-            .animation(Animation.linear(duration: 18).repeatForever(autoreverses: false), value: isAnimating)
+//          Circle()
+//            .strokeBorder(lineWidth: dim * 0.01)
+//            .frame(width: dim * 0.78, height: dim * 0.78)
+//
+//          Circle()
+//            .strokeBorder(lineWidth: dim * 0.01)
+//            .frame(width: dim * 0.75, height: dim * 0.75)
+          
+          let strokeStyleDashPhase = StrokeStyle(
+            lineWidth: isAnimating ? 10 : 2,
+            lineCap: isAnimating ? .butt : .square,
+            lineJoin: isAnimating ? .round : .bevel,
+            miterLimit: isAnimating ? 10 : 0,
+            dash: [20, 10, 5],
+            dashPhase: isAnimating ? 105 : 0
+          )
           
           Circle()
-            .strokeBorder(lineWidth: dim * 0.01)
-            .frame(width: dim * 0.78, height: dim * 0.78)
-          
-          Circle()
-            .strokeBorder(lineWidth: dim * 0.01)
+            .stroke(style: strokeStyleDashPhase)
+            .stroke(style: strokeStyleDashPhase)
+            .stroke(lineWidth: 2)
+            .animation(
+              Animation.linear(duration: 5).repeatForever(autoreverses: false),
+              value: isAnimating
+            )
             .frame(width: dim * 0.75, height: dim * 0.75)
           
           Group {

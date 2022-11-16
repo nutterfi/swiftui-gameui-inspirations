@@ -59,6 +59,8 @@ struct ContentView: View {
   func destination(for game: Game) -> some View {
     Group {
       switch game {
+      case .alanwake:
+        AlanWakeSelectionView()
       case .deathStranding:
         PorterGradeView()
       case .control:
@@ -73,6 +75,8 @@ struct ContentView: View {
         TLOUMenu()
       case .overwatch:
         OWUltimateMeterDemo()
+      case .overwatch2:
+        OW2FindingGameAnimation()
       case .mgsv:
         MGSVMissionTextDemo()
       case .swtor:
@@ -107,46 +111,48 @@ struct ContentView: View {
   func selectionView(for game: Game) -> some View {
     Group {
       switch game {
-      case Game.deathStranding:
+      case .deathStranding:
         DeathStrandingTitle()
-      case Game.control:
+      case .control:
         ControlSelectionView()
-      case Game.mk11:
+      case .mk11:
         MK11SelectionView()
-      case Game.overwatch:
+      case .overwatch:
         OverwatchIcon(primary: Color.white, secondary: Color.orange)
           .padding(5)
           .background(Color.black)
-      case Game.swtor:
+      case .overwatch2:
+        OW2SelectionView()
+      case .swtor:
         SWTOREmpireLogo(color: Color.purple)
           .padding(5)
           .background(Color.black)
-      case Game.rdr2:
+      case .rdr2:
         RDR2ShowdownTitle(title: "RDR2")
-      case Game.genshinImpact:
+      case .genshinImpact:
         GIItemRarityBackground(rarity: .four)
           .overlay(
             Text("Genshin Impact")
               .font(.custom("GillSans", size: 24))
               .foregroundColor(.white)
           )
-      case Game.tlou:
+      case .tlou:
         TLOUMainMenuIcon()
-      case Game.spiderMan:
+      case .spiderMan:
         SpiderManMask()
           .background(LinearGradient(colors: [.blue, .black], startPoint: .topLeading, endPoint: .bottomTrailing))
-      case Game.persona5:
+      case .persona5:
         Persona5MenuItem(text: "Persona5")
           .background(Color.red)
         .frame(maxWidth: .infinity, minHeight: 120)
-      case Game.lostArk:
+      case .lostArk:
         LostArkSelectionView()
           .frame(maxWidth: .infinity, minHeight: 120)
       default:
         defaultTitle(for: game)
       }
     }
-    .frame(height: 120)
+    .frame(height: 128)
   }
   
 }

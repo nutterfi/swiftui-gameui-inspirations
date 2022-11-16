@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Shapes
 
 struct OverwatchW: Shape {
   func path(in rect: CGRect) -> Path {
@@ -30,6 +31,7 @@ struct OverwatchW: Shape {
 struct OverwatchIcon<T: ShapeStyle, U: ShapeStyle>: View {
   var primary: T
   var secondary: U
+  var isAnimating : Bool = false
   var body: some View {
     GeometryReader { proxy in
       let dim = min(proxy.size.width, proxy.size.height)
@@ -39,8 +41,8 @@ struct OverwatchIcon<T: ShapeStyle, U: ShapeStyle>: View {
           .frame(width: dim, height: dim)
 
         OverwatchW()
+          .scale(x: -1, y: 1)
           .fill(primary)
-          .scaleEffect(x: -1)
           .frame(width: dim, height: dim)
         
         Circle()

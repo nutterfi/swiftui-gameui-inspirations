@@ -54,15 +54,18 @@ struct MK11Right: Shape {
 
 struct MK11_Previews: PreviewProvider {
     static var previews: some View {
-      HStack(spacing: 10) {
+      HStack(spacing: 0) {
         MK11Left()
           .fill(LinearGradient(colors: [.red, .black], startPoint: .top, endPoint: .bottom))
-            .frame(width: 60)
-        
+            .frame(width: 120)
+            .border(Color.red)
         MK11Right()
           .fill(LinearGradient(colors: [.red, .black], startPoint: .top, endPoint: .bottom))
-            .frame(width: 60)
+            .frame(width: 120)
+            .border(Color.red)
+
       }
       .frame(height: 200)
+//      .border(Color.red)
     }
 }

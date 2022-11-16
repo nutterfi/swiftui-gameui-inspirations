@@ -11,11 +11,7 @@ import Shapes
 class WheelOfFortuneViewModel: ObservableObject {
   @Published var games: [String] = []
   
-  var data: [String] {
-    [
-      Game.mgsv.rawValue, Game.control.rawValue, Game.mk11.rawValue, Game.rdr2.rawValue, Game.genshinImpact.rawValue, Game.overwatch.rawValue, Game.swtor.rawValue, Game.tlou.rawValue, Game.hades.rawValue, Game.detroit.rawValue, Game.destiny2.rawValue, Game.celeste.rawValue, "Shapes"
-    ]
-  }
+  let data: [String] = Game.allCases.map {$0.rawValue}
   
   func reset() {
     games = data.shuffled()
@@ -138,5 +134,6 @@ struct WheelOfFortune: View {
 struct WheelOfFortune_Previews: PreviewProvider {
   static var previews: some View {
     WheelOfFortune()
+      .drawingGroup()
   }
 }

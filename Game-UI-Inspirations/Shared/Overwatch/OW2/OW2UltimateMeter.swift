@@ -12,19 +12,22 @@ struct OW2UltimateMeterDemo: View {
   @State private var progress: Float = 0.25
 
   var body: some View {
-    VStack {
-      Slider(value: $progress)
-      Button {
-        progress = .zero
-      } label: {
-        Text("Ultimate Ready Toggle")
+    ZStack {
+      Color.black.ignoresSafeArea()
+      VStack {
+        Slider(value: $progress)
+        Button {
+          progress = .zero
+        } label: {
+          Text("Ultimate Ready Toggle")
+        }
+        .disabled(progress != 1)
+        .opacity(progress == 1 ?  1 : 0)
+        
+        Spacer()
+        OW2UltimateMeter(progress: $progress)
+          .padding()
       }
-      .disabled(progress != 1)
-      .opacity(progress == 1 ?  1 : 0)
-
-      Spacer()
-      OW2UltimateMeter(progress: $progress)
-        .padding()
     }
   }
 }
@@ -41,8 +44,6 @@ struct OW2UltimateMeter: View {
       let headphoneRotation: Double = ultimateReady ? .pi / 2 : 0
       
       ZStack {
-        
-        
           // Headphones
           Group {
             StrokeStyledCircle(
@@ -76,13 +77,12 @@ struct OW2UltimateMeter: View {
           )
             .inset(by: dim * 0.1)
             .rotation(.radians(-0.05 * 2 * .pi + headphoneRotation))
-          
+            .animation(.linear(duration: 0.25), value: ultimateReady)
           Circle()
             .inset(by: dim * 0.12)
             .strokeBordered(5)
         }
         .foregroundColor(Color.ow2UltimateGray)
-        
         
         // Meter
         
@@ -90,7 +90,6 @@ struct OW2UltimateMeter: View {
           .inset(by: dim * 0.18)
           .strokeBordered(dim * 0.08)
           .foregroundColor(Color.black.opacity(0.8))
-        
         
         StrokeStyledCircle(numberOfSegments: 66, dashPattern: [4, 1], lineWidthRatio: 0.1, trim: (0, CGFloat(progress)))
           .inset(by: dim * 0.18)

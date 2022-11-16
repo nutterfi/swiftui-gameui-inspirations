@@ -10,7 +10,7 @@ import Foundation
 enum Game: String, Identifiable, Hashable, CaseIterable {
   
   var id: String { self.rawValue }
-  var title: String { self.rawValue }
+  var title: String { id }
 
   case mgsv = "MGSV"
   case control = "Control"
@@ -19,6 +19,7 @@ enum Game: String, Identifiable, Hashable, CaseIterable {
   case rdr2 = "RDR2"
   case tlou = "The Last of Us"
   case overwatch = "Overwatch"
+  case overwatch2 = "Overwatch 2"
   case swtor = "SWTOR"
   case hades = "Hades"
   case ff14 = "FFXIV"
@@ -32,5 +33,5 @@ enum Game: String, Identifiable, Hashable, CaseIterable {
   case deathStranding = "Death Stranding"
   case ori = "Ori"
   case justCause4 = "Just Cause 4"
-  
+  case alanwake = "Alan Wake"
 }

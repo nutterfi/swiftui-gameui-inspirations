@@ -25,17 +25,17 @@ struct MK11SelectionView: View {
           RadialGradient(gradient: Gradient(colors: [.kombatYellow, .kombatBrown]), center: .center, startRadius: dim * 0.1, endRadius: dim * 0.35)
           HStack {
             Text("Mortal".uppercased())
-              .font(.headline)
-            MK11Left()
-              .foregroundColor(.black)
-              .frame(width: dim * 0.1, height: dim * 0.125 / 60 * 200)
-            
-            MK11Right()
-              .foregroundColor(.black)
-              .frame(width: dim * 0.1, height: dim * 0.125 / 60 * 200)
-            
+              .font(.system(size: 30))
+            HStack(spacing: 0) {
+              MK11Left()
+                .foregroundColor(.black)
+              
+              MK11Right()
+                .foregroundColor(.black)
+            }
+            .frame(width: dim * 0.25)
             Text("Kombat".uppercased())
-              .font(.headline)
+              .font(.system(size: 30))
           }
         }
         .overlay(
@@ -51,5 +51,6 @@ struct MK11SelectionView: View {
 struct MK11SelectionView_Previews: PreviewProvider {
     static var previews: some View {
         MK11SelectionView()
+      .frame(width: 512, height: 128)
     }
 }

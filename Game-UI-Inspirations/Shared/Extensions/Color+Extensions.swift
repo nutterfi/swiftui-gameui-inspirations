@@ -110,10 +110,6 @@ extension Color {
     Color(red: 38/255, green: 51/255, blue: 67/255)
   }
   
-//  static var ow2Orange: Color {
-//    Color(red: 223/255, green: 113/255, blue: 66/255)
-//  }
-  
   static var ow2BackgroundBlue: Color {
     Color(red: 83/255, green: 103/255, blue: 142/255)
   }
@@ -133,4 +129,6 @@ extension Color {
   static var ow2UltimateGray = Color(red: 78/255, green: 76/255, blue: 79/255)
   
   static let ow2Orange = Color("ow2Orange")
+  
+  static let alanWakeBlue = Color(red: 164/255, green: 194/255, blue: 212/255)
 }

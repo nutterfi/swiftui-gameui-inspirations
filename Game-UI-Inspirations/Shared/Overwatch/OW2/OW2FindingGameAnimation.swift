@@ -52,9 +52,11 @@ struct OW2FindingGameAnimation: View {
               .foregroundStyle(Color.ow2IconLightGray)
 
           }
+          .scaleEffect(0.7)
+
           .frame(width: proxy.size.width, height: proxy.size.height)
         }
-        .padding(50) // TODO: Fix padding
+//        .padding(50) // TODO: Fix padding
         .task {
           isAnimating.toggle()
       }
