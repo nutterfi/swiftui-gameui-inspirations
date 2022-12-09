@@ -59,6 +59,8 @@ struct ContentView: View {
   func destination(for game: Game) -> some View {
     Group {
       switch game {
+      case .arkhamAsylum:
+        BatmanLogoSlider()
       case .alanwake:
         AlanWakeSelectionView()
       case .deathStranding:
@@ -111,6 +113,8 @@ struct ContentView: View {
   func selectionView(for game: Game) -> some View {
     Group {
       switch game {
+      case .arkhamAsylum:
+        BatmanSelectionView()
       case .deathStranding:
         DeathStrandingTitle()
       case .control:

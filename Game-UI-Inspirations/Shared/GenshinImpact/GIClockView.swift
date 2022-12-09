@@ -36,9 +36,7 @@ struct GIClockView: View {
             .fill(Color.white)
             .frame(width: dim * 0.05, height: 0.05 * dim)
             .offset(x: 0, y: -0.28 * dim)
-          
 
-          
           let grad = AngularGradient(colors: [Color.red, .orange, .yellow, .green, .blue, .purple], center: .center)
           // User-defined arc
           Circle()
@@ -49,18 +47,14 @@ struct GIClockView: View {
           // gears
           Group {
           
-          Image(systemName: "gear")
-            .resizable()
-            .scaledToFit()
+            Gear()
             .foregroundColor(.gray)
             .frame(width: dim * 0.5, height: dim * 0.5)
             .rotationEffect(.degrees(isAnimating ? -360 : 0))
             .offset(x: -dim * 0.1, y: 0)
             .animation(Animation.linear(duration: 3).repeatForever(autoreverses: false), value: isAnimating)
             
-            Image(systemName: "gear")
-              .resizable()
-              .scaledToFit()
+            Gear()
               .foregroundColor(.gray)
               .frame(width: dim * 0.25, height: dim * 0.25)
               .rotationEffect(.degrees(isAnimating ? 360 : 0))

@@ -67,6 +67,8 @@
 		291B290C288138F00035BDCE /* JustCause4CompassBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291B290B288138F00035BDCE /* JustCause4CompassBorder.swift */; };
 		291B290D288138F00035BDCE /* JustCause4CompassBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291B290B288138F00035BDCE /* JustCause4CompassBorder.swift */; };
 		291ECAF3286817E2004B7A03 /* BDMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291ECAF2286817E2004B7A03 /* BDMenuItem.swift */; };
+		291ED0D42942FA2E00720075 /* GearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291ED0D32942FA2E00720075 /* GearView.swift */; };
+		291ED0D52942FA2E00720075 /* GearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291ED0D32942FA2E00720075 /* GearView.swift */; };
 		2920DB582785540E00DE5BEE /* PorterGradeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2920DB572785540E00DE5BEE /* PorterGradeView.swift */; };
 		2920DB592785540E00DE5BEE /* PorterGradeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2920DB572785540E00DE5BEE /* PorterGradeView.swift */; };
 		2920DB5B278566EB00DE5BEE /* TwoTonedIsotoxalPolygon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2920DB5A278566EB00DE5BEE /* TwoTonedIsotoxalPolygon.swift */; };
@@ -225,6 +227,10 @@
 		29813986263287BA00009D7B /* POIMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29813984263287BA00009D7B /* POIMarker.swift */; };
 		29816B6C263BBF1E0016F1BA /* Rustify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29816B6B263BBF1E0016F1BA /* Rustify.swift */; };
 		29816B6D263BBF1E0016F1BA /* Rustify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29816B6B263BBF1E0016F1BA /* Rustify.swift */; };
+		2987F60E2931D53E00DE8218 /* BatmanLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2987F60D2931D53E00DE8218 /* BatmanLogo.swift */; };
+		2987F60F2931D53E00DE8218 /* BatmanLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2987F60D2931D53E00DE8218 /* BatmanLogo.swift */; };
+		2987F6112931EB8800DE8218 /* BatmanSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2987F6102931EB8800DE8218 /* BatmanSelectionView.swift */; };
+		2987F6122931EB8800DE8218 /* BatmanSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2987F6102931EB8800DE8218 /* BatmanSelectionView.swift */; };
 		298CD783270FEF2900C9D6B9 /* TesselationDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298CD781270FEF2900C9D6B9 /* TesselationDemo.swift */; };
 		298CD784270FEF2900C9D6B9 /* TesselationDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298CD781270FEF2900C9D6B9 /* TesselationDemo.swift */; };
 		298CD785270FEF2A00C9D6B9 /* KiteAnimationDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298CD782270FEF2900C9D6B9 /* KiteAnimationDemo.swift */; };
@@ -451,6 +457,7 @@
 		291B290828812DCE0035BDCE /* JustCause4Compass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustCause4Compass.swift; sourceTree = "<group>"; };
 		291B290B288138F00035BDCE /* JustCause4CompassBorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JustCause4CompassBorder.swift; path = Shared/JustCause4/JustCause4CompassBorder.swift; sourceTree = SOURCE_ROOT; };
 		291ECAF2286817E2004B7A03 /* BDMenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDMenuItem.swift; sourceTree = "<group>"; };
+		291ED0D32942FA2E00720075 /* GearView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GearView.swift; sourceTree = "<group>"; };
 		2920DB572785540E00DE5BEE /* PorterGradeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PorterGradeView.swift; sourceTree = "<group>"; };
 		2920DB5A278566EB00DE5BEE /* TwoTonedIsotoxalPolygon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoTonedIsotoxalPolygon.swift; sourceTree = "<group>"; };
 		29230B3E26A1460C00A052E7 /* AthenaBoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthenaBoon.swift; sourceTree = "<group>"; };
@@ -539,6 +546,8 @@
 		29801ACA2647A0320010B4C8 /* SkillMaxHealth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillMaxHealth.swift; sourceTree = "<group>"; };
 		29813984263287BA00009D7B /* POIMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POIMarker.swift; sourceTree = "<group>"; };
 		29816B6B263BBF1E0016F1BA /* Rustify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rustify.swift; sourceTree = "<group>"; };
+		2987F60D2931D53E00DE8218 /* BatmanLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatmanLogo.swift; sourceTree = "<group>"; };
+		2987F6102931EB8800DE8218 /* BatmanSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatmanSelectionView.swift; sourceTree = "<group>"; };
 		298CD781270FEF2900C9D6B9 /* TesselationDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TesselationDemo.swift; sourceTree = "<group>"; };
 		298CD782270FEF2900C9D6B9 /* KiteAnimationDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KiteAnimationDemo.swift; sourceTree = "<group>"; };
 		298DA1C2269AA4CC0054463A /* OWUltimateMeter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OWUltimateMeter.swift; sourceTree = "<group>"; };
@@ -768,6 +777,7 @@
 			isa = PBXGroup;
 			children = (
 				2942149C290B84D200E205C6 /* AlanWakeSelectionView.swift */,
+				291ED0D32942FA2E00720075 /* GearView.swift */,
 			);
 			path = AlanWake;
 			sourceTree = "<group>";
@@ -868,6 +878,7 @@
 				29C9018D26A7D6F600AA9619 /* Reusable */,
 				297A96B9270D5BBA001489DF /* Demos */,
 				2942149B290B84BB00E205C6 /* AlanWake */,
+				2987F60C2931D51600DE8218 /* Arkham */,
 				29637C9328BB345C0065ECB5 /* AssassinsCreedOrigins */,
 				291ECAF1286817BF004B7A03 /* BoyfriendDungeon */,
 				2910179027040FF00021E672 /* Celeste */,
@@ -989,6 +1000,15 @@
 				29FADE1B269EA6E800CF6D73 /* MGSVMissionTextDemo.swift */,
 			);
 			path = MGSV;
+			sourceTree = "<group>";
+		};
+		2987F60C2931D51600DE8218 /* Arkham */ = {
+			isa = PBXGroup;
+			children = (
+				2987F60D2931D53E00DE8218 /* BatmanLogo.swift */,
+				2987F6102931EB8800DE8218 /* BatmanSelectionView.swift */,
+			);
+			path = Arkham;
 			sourceTree = "<group>";
 		};
 		298FE305264B930700BBC02A /* Skills */ = {
@@ -1423,6 +1443,7 @@
 				29150B1D26B653F500106A45 /* HermesBoon.swift in Sources */,
 				295E146427F013C900724FB7 /* LASecretDungeonFloorPattern.swift in Sources */,
 				29CA754327912F8800298F47 /* Persona5AnimatedMenu.swift in Sources */,
+				2987F60E2931D53E00DE8218 /* BatmanLogo.swift in Sources */,
 				29102706263E673300418FE1 /* ZeusBoon.swift in Sources */,
 				29AFD3942764595700493800 /* SpiderManSkill.swift in Sources */,
 				29BB327C265E0C3F00C3CCFE /* DiamondDog.swift in Sources */,
@@ -1434,6 +1455,7 @@
 				297DC70C265A106800980DDE /* MGSVLoadingView.swift in Sources */,
 				298FE2FF264B8F1C00BBC02A /* SkillHealingSpeed.swift in Sources */,
 				291026FF263E62EE00418FE1 /* BoonView.swift in Sources */,
+				2987F6112931EB8800DE8218 /* BatmanSelectionView.swift in Sources */,
 				2998BF022660B1CE00EA034B /* RibbonBanner.swift in Sources */,
 				29230B3F26A1460C00A052E7 /* AthenaBoon.swift in Sources */,
 				29EDA2D9283743CD00BC3C72 /* GearHoningCalculator.swift in Sources */,
@@ -1541,6 +1563,7 @@
 				291B290928812DCE0035BDCE /* JustCause4Compass.swift in Sources */,
 				2978B27528C1B451007EC9AF /* ACONewLocationBanner.swift in Sources */,
 				29C611D428530B0C00804EFD /* LAMenu.swift in Sources */,
+				291ED0D42942FA2E00720075 /* GearView.swift in Sources */,
 				29B02F002793DEF60034A6F9 /* P5AnimatedStars.swift in Sources */,
 				29304D2F26916F49003512A1 /* TestingTiledImageView.swift in Sources */,
 				29A22D4B2626E041000D9EAF /* RDR2MinimapModel.swift in Sources */,
@@ -1593,6 +1616,7 @@
 				29A22CFA2626D8C9000D9EAF /* LoadingRingsDemo.swift in Sources */,
 				29637C9628BB347A0065ECB5 /* ACOTargetView.swift in Sources */,
 				298FE30A264B939800BBC02A /* TLOUSkillSelectMenu.swift in Sources */,
+				2987F6122931EB8800DE8218 /* BatmanSelectionView.swift in Sources */,
 				294AA01728DAB7E300B9B14B /* OWPlayerWaitingIcon.swift in Sources */,
 				291A07E626BA5257000F4590 /* StrokeStyledPolygonDemo.swift in Sources */,
 				2959344128AF4489005F8EE0 /* FFXIVCharacterTabView.swift in Sources */,
@@ -1620,6 +1644,7 @@
 				29421CAB27193ED200CBEDBB /* GIInventoryMenu.swift in Sources */,
 				29A4F49D283DD99F0078F32D /* BreathGem.swift in Sources */,
 				297DC70D265A106800980DDE /* MGSVLoadingView.swift in Sources */,
+				291ED0D52942FA2E00720075 /* GearView.swift in Sources */,
 				29D66FDE286EA34B00FA0002 /* MokokoSeed.swift in Sources */,
 				295E145E27F0132500724FB7 /* OWDecorPattern.swift in Sources */,
 				290B5CF8268ED22C00EB93BD /* HadesBoonDemo.swift in Sources */,
@@ -1651,6 +1676,7 @@
 				29A22CFC2626D8C9000D9EAF /* ConsummateVDemo.swift in Sources */,
 				29C5AFC4272E420900BFACD4 /* RDR2Menu.swift in Sources */,
 				2957947F2650D94000BDDE3A /* TLOUSkillSelectMenuViewModel.swift in Sources */,
+				2987F60F2931D53E00DE8218 /* BatmanLogo.swift in Sources */,
 				291B290D288138F00035BDCE /* JustCause4CompassBorder.swift in Sources */,
 				2910377C275C745A00A9EEB6 /* LongPressProgressView.swift in Sources */,
 				29C9019326A801A400AA9619 /* OWUltimateMeterBorder.swift in Sources */,
