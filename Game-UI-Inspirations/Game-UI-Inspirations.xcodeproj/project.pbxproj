@@ -389,6 +389,8 @@
 		29DD474428431E4900BF4BAE /* CIFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD474228431E4900BF4BAE /* CIFilterView.swift */; };
 		29DD47472843234600BF4BAE /* Pixellate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD47462843234600BF4BAE /* Pixellate.swift */; };
 		29DD47482843234600BF4BAE /* Pixellate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD47462843234600BF4BAE /* Pixellate.swift */; };
+		29E03716295BF63E004D569F /* StarTrekFleetCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E03715295BF63E004D569F /* StarTrekFleetCommand.swift */; };
+		29E03717295BF63E004D569F /* StarTrekFleetCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E03715295BF63E004D569F /* StarTrekFleetCommand.swift */; };
 		29E7056A271BF39800D6B9CC /* IsotoxalPolygonDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E70569271BF39800D6B9CC /* IsotoxalPolygonDemo.swift */; };
 		29E7056B271BF39800D6B9CC /* IsotoxalPolygonDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E70569271BF39800D6B9CC /* IsotoxalPolygonDemo.swift */; };
 		29EB0A61262BEA570032E598 /* ControlSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EB0A60262BEA570032E598 /* ControlSelectionView.swift */; };
@@ -630,6 +632,7 @@
 		29DA940D27CF674800741B9B /* Path+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Path+Extensions.swift"; sourceTree = "<group>"; };
 		29DD474228431E4900BF4BAE /* CIFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CIFilterView.swift; sourceTree = "<group>"; };
 		29DD47462843234600BF4BAE /* Pixellate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pixellate.swift; sourceTree = "<group>"; };
+		29E03715295BF63E004D569F /* StarTrekFleetCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarTrekFleetCommand.swift; sourceTree = "<group>"; };
 		29E70569271BF39800D6B9CC /* IsotoxalPolygonDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsotoxalPolygonDemo.swift; sourceTree = "<group>"; };
 		29EB0A60262BEA570032E598 /* ControlSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlSelectionView.swift; sourceTree = "<group>"; };
 		29EB0A65262BF1D40032E598 /* ControlQuestMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlQuestMarker.swift; sourceTree = "<group>"; };
@@ -902,6 +905,7 @@
 				29A22CBC2626D27F000D9EAF /* RDR2 */,
 				290B177127572D3E0075AE24 /* SpiderMan */,
 				29DD474128431E2000BF4BAE /* StardewValley */,
+				29E03714295BF614004D569F /* StarTrekFleetCommand */,
 				291A07DE26BA4A24000F4590 /* SWTOR */,
 				29B44134262FDE7C00E442A6 /* TheLastOfUs */,
 				2976E1AE2626A45000272ADC /* Assets.xcassets */,
@@ -1252,6 +1256,14 @@
 			path = ViewModifiers;
 			sourceTree = "<group>";
 		};
+		29E03714295BF614004D569F /* StarTrekFleetCommand */ = {
+			isa = PBXGroup;
+			children = (
+				29E03715295BF63E004D569F /* StarTrekFleetCommand.swift */,
+			);
+			path = StarTrekFleetCommand;
+			sourceTree = "<group>";
+		};
 		29EDA2D4283741D400BC3C72 /* GearHoningSim */ = {
 			isa = PBXGroup;
 			children = (
@@ -1462,6 +1474,7 @@
 				29637C9528BB347A0065ECB5 /* ACOTargetView.swift in Sources */,
 				29FADE16269E99E400CF6D73 /* TypewriterTextView.swift in Sources */,
 				2910377B275C745A00A9EEB6 /* LongPressProgressView.swift in Sources */,
+				29E03716295BF63E004D569F /* StarTrekFleetCommand.swift in Sources */,
 				2920DB5B278566EB00DE5BEE /* TwoTonedIsotoxalPolygon.swift in Sources */,
 				29A4F49C283DD99F0078F32D /* BreathGem.swift in Sources */,
 				29FADE19269EA23000CF6D73 /* TypewriterTextViewModel.swift in Sources */,
@@ -1714,6 +1727,7 @@
 				297A6E40265E04F200201D1A /* DiamondGem.swift in Sources */,
 				295E146B27F013C900724FB7 /* LABardStigmaSkillView.swift in Sources */,
 				29AF031A273B7ED700B5BA4B /* RDR2CoreModel.swift in Sources */,
+				29E03717295BF63E004D569F /* StarTrekFleetCommand.swift in Sources */,
 				297416A928CD86B000949366 /* ArcanistIcon.swift in Sources */,
 				298FE2FB264B8C6400BBC02A /* SkillWeaponSway.swift in Sources */,
 				2906485626FAD882009A20A1 /* StrokeStyledRectangleDemo.swift in Sources */,
