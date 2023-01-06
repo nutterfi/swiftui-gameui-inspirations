@@ -47,6 +47,8 @@
 		2910F3E7269801F7008475D6 /* AphroditeBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2910F3E5269801F7008475D6 /* AphroditeBoon.swift */; };
 		2911E5102737870C00F3E967 /* RDR2HUDCoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2911E50F2737870C00F3E967 /* RDR2HUDCoreView.swift */; };
 		2911E5112737870C00F3E967 /* RDR2HUDCoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2911E50F2737870C00F3E967 /* RDR2HUDCoreView.swift */; };
+		2914FE292967D65200B80DA4 /* ArkhamInterviewCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2914FE282967D65200B80DA4 /* ArkhamInterviewCollectionView.swift */; };
+		2914FE2A2967D65200B80DA4 /* ArkhamInterviewCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2914FE282967D65200B80DA4 /* ArkhamInterviewCollectionView.swift */; };
 		29150B1D26B653F500106A45 /* HermesBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29150B1C26B653F500106A45 /* HermesBoon.swift */; };
 		29150B1E26B653F500106A45 /* HermesBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29150B1C26B653F500106A45 /* HermesBoon.swift */; };
 		29150B2026B659EC00106A45 /* AresBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29150B1F26B659EC00106A45 /* AresBoon.swift */; };
@@ -450,6 +452,7 @@
 		2910BBE7271FD5670019329D /* PersonProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonProfile.swift; sourceTree = "<group>"; };
 		2910F3E5269801F7008475D6 /* AphroditeBoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AphroditeBoon.swift; sourceTree = "<group>"; };
 		2911E50F2737870C00F3E967 /* RDR2HUDCoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDR2HUDCoreView.swift; sourceTree = "<group>"; };
+		2914FE282967D65200B80DA4 /* ArkhamInterviewCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArkhamInterviewCollectionView.swift; sourceTree = "<group>"; };
 		29150B1C26B653F500106A45 /* HermesBoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HermesBoon.swift; sourceTree = "<group>"; };
 		29150B1F26B659EC00106A45 /* AresBoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AresBoon.swift; sourceTree = "<group>"; };
 		29155FEF272BA2D500BA2FE4 /* TLOUMainMenuIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLOUMainMenuIcon.swift; sourceTree = "<group>"; };
@@ -1014,6 +1017,7 @@
 			children = (
 				2987F60D2931D53E00DE8218 /* BatmanLogo.swift */,
 				2987F6102931EB8800DE8218 /* BatmanSelectionView.swift */,
+				2914FE282967D65200B80DA4 /* ArkhamInterviewCollectionView.swift */,
 			);
 			path = Arkham;
 			sourceTree = "<group>";
@@ -1581,6 +1585,7 @@
 				291B290928812DCE0035BDCE /* JustCause4Compass.swift in Sources */,
 				2978B27528C1B451007EC9AF /* ACONewLocationBanner.swift in Sources */,
 				29C611D428530B0C00804EFD /* LAMenu.swift in Sources */,
+				2914FE292967D65200B80DA4 /* ArkhamInterviewCollectionView.swift in Sources */,
 				291ED0D42942FA2E00720075 /* GearView.swift in Sources */,
 				29B02F002793DEF60034A6F9 /* P5AnimatedStars.swift in Sources */,
 				29304D2F26916F49003512A1 /* TestingTiledImageView.swift in Sources */,
@@ -1755,6 +1760,7 @@
 				29C9019026A7D85500AA9619 /* OWUltimateReadyView.swift in Sources */,
 				2910270C263E6DAC00418FE1 /* PoseidonBoon.swift in Sources */,
 				2962057A26FD788C002F9D3E /* Destiny2FastTravelIcon.swift in Sources */,
+				2914FE2A2967D65200B80DA4 /* ArkhamInterviewCollectionView.swift in Sources */,
 				29AF031D273B7EFA00B5BA4B /* RDR2HUDCoreViewModel.swift in Sources */,
 				29C11DF02763129200D0CA09 /* SpiderManSkillTreeView.swift in Sources */,
 				29B44139262FDF2A00E442A6 /* TLOUIcon.swift in Sources */,

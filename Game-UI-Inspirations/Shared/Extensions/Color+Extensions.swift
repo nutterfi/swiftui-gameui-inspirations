@@ -73,7 +73,7 @@ extension Color {
   static var spiderManSkillBorder: Color {
     Color(red: 67/255, green: 108/255, blue: 118/255)
   }
-    
+  
   static var spiderManSkillFillLocked: Color {
     Color(red: 24/255, green: 34/255, blue: 48/255)
   }
@@ -89,7 +89,7 @@ extension Color {
   static var lostArkLightBrown: Color {
     Color(red: 131/255, green: 112/255, blue: 87/255)
   }
-
+  
   static var acoGold: Color {
     Color(red: 243/255, green: 233/255, blue: 157/255)
   }
@@ -131,4 +131,6 @@ extension Color {
   static let ow2Orange = Color("ow2Orange")
   
   static let alanWakeBlue = Color(red: 164/255, green: 194/255, blue: 212/255)
+  
+  static let arkhamGold = Color(red: 252/255, green: 174/255, blue: 6/255)
 }

@@ -60,7 +60,7 @@ struct ContentView: View {
     Group {
       switch game {
       case .arkhamAsylum:
-        BatmanLogoSlider()
+        ArkhamInterviewCollectionView()
       case .alanwake:
         AlanWakeSelectionView()
       case .deathStranding:

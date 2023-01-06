@@ -70,6 +70,7 @@ struct GearView: View {
           .rotationEffect(.radians(isAnimating ? 2 * .pi : .zero))
         .animation(Animation.linear(duration: duration).repeatForever(autoreverses: false), value: isAnimating)
         Gear()
+          .stroke()
           .foregroundColor(.blue)
           .rotationEffect(.radians(isAnimating ? -2 * .pi : .zero))
         .animation(Animation.linear(duration: duration).repeatForever(autoreverses: false), value: isAnimating)
