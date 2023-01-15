@@ -423,6 +423,8 @@
 		29EEFDD2276EFAA300290CA2 /* Spider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EEFDD0276EFAA300290CA2 /* Spider.swift */; };
 		29EF029127816DF30029C67B /* DeathStrandAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EF029027816DF30029C67B /* DeathStrandAnimation.swift */; };
 		29EF029227816DF30029C67B /* DeathStrandAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EF029027816DF30029C67B /* DeathStrandAnimation.swift */; };
+		29F1005E2973B58D008D04C8 /* JFOAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F1005D2973B58D008D04C8 /* JFOAlert.swift */; };
+		29F1005F2973B58D008D04C8 /* JFOAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F1005D2973B58D008D04C8 /* JFOAlert.swift */; };
 		29F428C32839D38B006A5AA4 /* lostArkHoningSuccessRates.plist in Resources */ = {isa = PBXBuildFile; fileRef = 29F428C22839D38B006A5AA4 /* lostArkHoningSuccessRates.plist */; };
 		29F428C42839D38B006A5AA4 /* lostArkHoningSuccessRates.plist in Resources */ = {isa = PBXBuildFile; fileRef = 29F428C22839D38B006A5AA4 /* lostArkHoningSuccessRates.plist */; };
 		29F5337C26858D5100EADD37 /* MGSViDroidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F5337B26858D5100EADD37 /* MGSViDroidView.swift */; };
@@ -659,6 +661,7 @@
 		29EEFDCD276EEA7400290CA2 /* SpiderManSkillLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiderManSkillLoadingView.swift; sourceTree = "<group>"; };
 		29EEFDD0276EFAA300290CA2 /* Spider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spider.swift; sourceTree = "<group>"; };
 		29EF029027816DF30029C67B /* DeathStrandAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeathStrandAnimation.swift; sourceTree = "<group>"; };
+		29F1005D2973B58D008D04C8 /* JFOAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JFOAlert.swift; sourceTree = "<group>"; };
 		29F428C22839D38B006A5AA4 /* lostArkHoningSuccessRates.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = lostArkHoningSuccessRates.plist; sourceTree = "<group>"; };
 		29F5337B26858D5100EADD37 /* MGSViDroidView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MGSViDroidView.swift; sourceTree = "<group>"; };
 		29FADE15269E99E400CF6D73 /* TypewriterTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypewriterTextView.swift; sourceTree = "<group>"; };
@@ -782,6 +785,7 @@
 		29229842296A78DC0047CB9E /* JediFallenOrder */ = {
 			isa = PBXGroup;
 			children = (
+				29F1005D2973B58D008D04C8 /* JFOAlert.swift */,
 			);
 			path = JediFallenOrder;
 			sourceTree = "<group>";
@@ -1535,6 +1539,7 @@
 				29A22D3D2626DFF3000D9EAF /* GILoadingProgressBar.swift in Sources */,
 				2943790528B1DD6300E7E717 /* ChaosBoon.swift in Sources */,
 				29AF031F273B7F9D00B5BA4B /* RDR2HUD.swift in Sources */,
+				29F1005E2973B58D008D04C8 /* JFOAlert.swift in Sources */,
 				2962057F26FD85DE002F9D3E /* ElevationMap.swift in Sources */,
 				297DC711265A107600980DDE /* MGSVLoadingViewModel.swift in Sources */,
 				298DA1C3269AA4CC0054463A /* OWUltimateMeter.swift in Sources */,
@@ -1817,6 +1822,7 @@
 				2956788C2722795400FA372A /* MasterlessStarglitter.swift in Sources */,
 				295794752650D8DE00BDDE3A /* SkillIcon.swift in Sources */,
 				29A22D4C2626E041000D9EAF /* RDR2MinimapModel.swift in Sources */,
+				29F1005F2973B58D008D04C8 /* JFOAlert.swift in Sources */,
 				2993C98828656288002E09CB /* MarqueeText.swift in Sources */,
 				298079B4295E9CA10098B173 /* STFCTutorialArrow.swift in Sources */,
 				29A22CFE2626D8C9000D9EAF /* ConsummateV.swift in Sources */,
