@@ -379,6 +379,12 @@
 		29CA754327912F8800298F47 /* Persona5AnimatedMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CA754227912F8800298F47 /* Persona5AnimatedMenu.swift */; };
 		29CA75452791378A00298F47 /* TextShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CA75442791378A00298F47 /* TextShape.swift */; };
 		29CA75462791378A00298F47 /* TextShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CA75442791378A00298F47 /* TextShape.swift */; };
+		29CFBC0C2977A9860083C6B8 /* KreeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CFBC0B2977A9860083C6B8 /* KreeSymbol.swift */; };
+		29CFBC0D2977A9860083C6B8 /* KreeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CFBC0B2977A9860083C6B8 /* KreeSymbol.swift */; };
+		29CFBC0F2977B58E0083C6B8 /* FactionBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CFBC0E2977B58E0083C6B8 /* FactionBanner.swift */; };
+		29CFBC102977B58E0083C6B8 /* FactionBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CFBC0E2977B58E0083C6B8 /* FactionBanner.swift */; };
+		29CFBC122977BFE90083C6B8 /* KrakoaFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CFBC112977BFE90083C6B8 /* KrakoaFont.swift */; };
+		29CFBC132977BFE90083C6B8 /* KrakoaFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CFBC112977BFE90083C6B8 /* KrakoaFont.swift */; };
 		29D0110E2759D014002E393B /* SpiderManSkillsMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D0110D2759D014002E393B /* SpiderManSkillsMenu.swift */; };
 		29D0110F2759D014002E393B /* SpiderManSkillsMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D0110D2759D014002E393B /* SpiderManSkillsMenu.swift */; };
 		29D011112759EAA1002E393B /* SpiderManSkillModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D011102759EAA1002E393B /* SpiderManSkillModel.swift */; };
@@ -639,6 +645,9 @@
 		29C9019126A801A400AA9619 /* OWUltimateMeterBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OWUltimateMeterBorder.swift; sourceTree = "<group>"; };
 		29CA754227912F8800298F47 /* Persona5AnimatedMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persona5AnimatedMenu.swift; sourceTree = "<group>"; };
 		29CA75442791378A00298F47 /* TextShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextShape.swift; sourceTree = "<group>"; };
+		29CFBC0B2977A9860083C6B8 /* KreeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KreeSymbol.swift; sourceTree = "<group>"; };
+		29CFBC0E2977B58E0083C6B8 /* FactionBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactionBanner.swift; sourceTree = "<group>"; };
+		29CFBC112977BFE90083C6B8 /* KrakoaFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KrakoaFont.swift; sourceTree = "<group>"; };
 		29D0110D2759D014002E393B /* SpiderManSkillsMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiderManSkillsMenu.swift; sourceTree = "<group>"; };
 		29D011102759EAA1002E393B /* SpiderManSkillModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiderManSkillModel.swift; sourceTree = "<group>"; };
 		29D2AEBD26AA7821005A35D1 /* ArtemisBoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtemisBoon.swift; sourceTree = "<group>"; };
@@ -928,6 +937,7 @@
 				2929B80E2695601400C86BBB /* FFXIV */,
 				29A22CBD2626D288000D9EAF /* GenshinImpact */,
 				293D55B728F2723600DD2351 /* GoldenEye */,
+				29CFBC0A2977A3D40083C6B8 /* GOTG */,
 				291026FD263E62BC00418FE1 /* Hades */,
 				291B290728812DA10035BDCE /* JustCause4 */,
 				295E145F27F013C900724FB7 /* LostArk */,
@@ -1279,6 +1289,16 @@
 			path = Persona5;
 			sourceTree = "<group>";
 		};
+		29CFBC0A2977A3D40083C6B8 /* GOTG */ = {
+			isa = PBXGroup;
+			children = (
+				29CFBC0B2977A9860083C6B8 /* KreeSymbol.swift */,
+				29CFBC0E2977B58E0083C6B8 /* FactionBanner.swift */,
+				29CFBC112977BFE90083C6B8 /* KrakoaFont.swift */,
+			);
+			path = GOTG;
+			sourceTree = "<group>";
+		};
 		29DD474128431E2000BF4BAE /* StardewValley */ = {
 			isa = PBXGroup;
 			children = (
@@ -1433,6 +1453,7 @@
 				29C11DEC276310C000D0CA09 /* SpiderManSkillTreeWeb.swift in Sources */,
 				296C1F1627F6A44D00BAEA23 /* Shimmer.swift in Sources */,
 				2906484F26FAD6CF009A20A1 /* DBHTitleScreenMenuItem.swift in Sources */,
+				29CFBC122977BFE90083C6B8 /* KrakoaFont.swift in Sources */,
 				29A22D122626DC60000D9EAF /* KountdownTimerView.swift in Sources */,
 				293D55BB28F29EA700DD2351 /* Clock.swift in Sources */,
 				290BBC3426CCC8AA004D57D9 /* TextEffectViewModel.swift in Sources */,
@@ -1476,6 +1497,7 @@
 				29FADE1C269EA6E800CF6D73 /* MGSVMissionTextDemo.swift in Sources */,
 				29A38D4728125A1400DEEB69 /* LostArkSelectionView.swift in Sources */,
 				29A22D522626E059000D9EAF /* Color+Extensions.swift in Sources */,
+				29CFBC0C2977A9860083C6B8 /* KreeSymbol.swift in Sources */,
 				2933C0A62772FA470063CF78 /* DragonCurveDemo.swift in Sources */,
 				2950E129268C2CDC005EFAA9 /* OverwatchLogoDemo.swift in Sources */,
 				2956788B2722795400FA372A /* MasterlessStarglitter.swift in Sources */,
@@ -1630,6 +1652,7 @@
 				29C11DE327630B6D00D0CA09 /* SpiderManSkillDetailView.swift in Sources */,
 				2920DB582785540E00DE5BEE /* PorterGradeView.swift in Sources */,
 				2911E5102737870C00F3E967 /* RDR2HUDCoreView.swift in Sources */,
+				29CFBC0F2977B58E0083C6B8 /* FactionBanner.swift in Sources */,
 				29A22CFD2626D8C9000D9EAF /* ConsummateV.swift in Sources */,
 				295E146627F013C900724FB7 /* TrebleClef.swift in Sources */,
 				2993C98728656288002E09CB /* MarqueeText.swift in Sources */,
@@ -1764,6 +1787,7 @@
 				29816B6D263BBF1E0016F1BA /* Rustify.swift in Sources */,
 				29A6CDD328068BBA006CDAF8 /* UIView+Extensions.swift in Sources */,
 				29A4F4A0283DEC9F0078F32D /* LAItem.swift in Sources */,
+				29CFBC0D2977A9860083C6B8 /* KreeSymbol.swift in Sources */,
 				296C1F1727F6A44D00BAEA23 /* Shimmer.swift in Sources */,
 				29922AC92633D270002469C2 /* MK11SelectionView.swift in Sources */,
 				29A22D4E2626E041000D9EAF /* RDR2MinimapView.swift in Sources */,
@@ -1784,6 +1808,7 @@
 				29B02F012793DEF60034A6F9 /* P5AnimatedStars.swift in Sources */,
 				29A13506270D49F900F19B6F /* RDR2ShowdownTitle.swift in Sources */,
 				29421CA227192C6900CBEDBB /* GIItem.swift in Sources */,
+				29CFBC132977BFE90083C6B8 /* KrakoaFont.swift in Sources */,
 				2960C696270A0B850024872D /* OrnateCorners.swift in Sources */,
 				290FD8CB28C472E3004BB351 /* AnimatedStrokeStyledCircleDemo.swift in Sources */,
 				29A22D4A2626E041000D9EAF /* RDR2MinimapViewModel.swift in Sources */,
@@ -1842,6 +1867,7 @@
 				2959344428AF4CC9005F8EE0 /* FFXIVCharacterPointsView.swift in Sources */,
 				2993C98C286572BD002E09CB /* NMSCraftingMenuItem.swift in Sources */,
 				29D3FAB72644F4B000B6A02F /* SkillVitamin.swift in Sources */,
+				29CFBC102977B58E0083C6B8 /* FactionBanner.swift in Sources */,
 				29EEFDD2276EFAA300290CA2 /* Spider.swift in Sources */,
 				29A22D402626DFF3000D9EAF /* MaskedProgressBar.swift in Sources */,
 				2964BAB426C384B000F37FDC /* Game.swift in Sources */,
