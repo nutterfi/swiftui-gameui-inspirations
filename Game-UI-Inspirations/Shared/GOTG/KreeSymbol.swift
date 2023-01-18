@@ -32,7 +32,7 @@ struct KreeSymbol: View {
             sides: 3,
             dashes: 3,
             dashPattern: [2, 1],
-            lineWidthRatio: 0.05/256 * dim,
+            lineWidthRatio: 0.08/256 * dim,
             dashPhaseRatio: -0.33
           )
           .inset(by: 85/256 * dim)
@@ -41,7 +41,7 @@ struct KreeSymbol: View {
             sides: 3,
             dashes: 3,
             dashPattern: [2, 3],
-            lineWidthRatio: 0.03/256 * dim,
+            lineWidthRatio: 0.08/256 * dim,
             dashPhaseRatio: -0.33
           )
           .inset(by:50/256 * dim)

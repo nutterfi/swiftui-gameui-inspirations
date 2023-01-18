@@ -8,6 +8,16 @@
 import SwiftUI
 import Shapes
 
+extension Color {
+  static let kreeBlue = Color(red: 34/255, green: 45/255, blue: 77/255)
+  
+  static let gotgDark = Color(red: 38/255, green: 3/255, blue: 23/255)
+  
+  static let gotgBorder = Color(red: 158/255, green: 88/255, blue: 125/255)
+  
+
+}
+
 struct Banner: Shape {
   var corner: CGPoint = CGPoint(x: 0.9, y: 0.5)
   
@@ -26,12 +36,13 @@ struct Banner: Shape {
 struct FactionBanner: View {
   var body: some View {
     ZStack {
+      LinearGradient(colors: [.purple, .purple.opacity(0.5), .kreeBlue], startPoint: .leading, endPoint: .trailing)
+      
       KreeSymbol()
         .rotationEffect(.radians(.pi))
-        .scaleEffect(x: -2, y: 2)
-        .offset(y: 20)
-      
-      LinearGradient(colors: [.purple, .purple.opacity(0.5), .blue], startPoint: .leading, endPoint: .trailing)
+        .scaleEffect(x: -3, y: 3)
+        .offset(x: 10, y: 40)
+        .opacity(0.5)
       
       Rectangle()
         .fill(ImagePaint(image: Image(systemName: "triangle")))
@@ -44,23 +55,23 @@ struct FactionBanner: View {
         Spacer()
         Text("ABCDEF")
           .font(.title2)
-          .kerning(18)
+          .kerning(17)
           .monospaced()
           .foregroundColor(.white)
-          .padding(.horizontal, 22)
+          .padding(.horizontal, 16)
       }
       
       RightTriangle()
-        .foregroundColor(.black.opacity(0.2))
+        .foregroundColor(.black.opacity(0.5))
         
 
     }
     .clipShape(
-      Banner(corner: .init(x: 0.92, y: 0.5))
+      Banner(corner: .init(x: 0.94, y: 0.5))
     )
     .overlay(
-      Banner(corner: .init(x: 0.92, y: 0.5))
-        .stroke(lineWidth: 3)
+      Banner(corner: .init(x: 0.94, y: 0.5))
+        .stroke(Color.gotgBorder, lineWidth: 1)
     )
   }
 }
@@ -69,5 +80,7 @@ struct FactionBanner_Previews: PreviewProvider {
   static var previews: some View {
     FactionBanner()
       .frame(width: 400, height: 100)
+      .background(Color.gotgDark)
+      .previewLayout(.sizeThatFits)
   }
 }
