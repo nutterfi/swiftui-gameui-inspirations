@@ -6,32 +6,39 @@
 //
 
 import SwiftUI
-
-var randomPositions: [CGPoint] = {
-  var positions = [CGPoint]()
-  let x = SystemRandomNumberGenerator()
-  for _ in 0..<100 {
-    let x = CGFloat.random(in: 0...1)
-    let y = CGFloat.random(in: 0...1)
-    positions.append(CGPoint(x: x, y: y))
-  }
-  return positions
-}()
+import Shapes
 
 struct SpongeFilter<S: Shape>: Shape {
   var base: S
+  var amount: Int = 100
   var size: CGFloat = 1.0
   
+  static func randomPositions(number: Int = 100) -> [CGPoint] {
+    var positions = [CGPoint]()
+    let _ = SystemRandomNumberGenerator()
+    for _ in 0..<number {
+      let x = CGFloat.random(in: 0...1)
+      let y = CGFloat.random(in: 0...1)
+      positions.append(CGPoint(x: x, y: y))
+    }
+    return positions
+  }
   
   func path(in rect: CGRect) -> Path {
     Path { path in
       
       var sponge = Path()
-      randomPositions.forEach { position in
+      Self.randomPositions(number: amount).forEach { position in
         let width = position.x * rect.width
         let height = position.y * rect.height
-        
-        sponge.addPath(Circle().path(in: .init(origin: .init(x: width, y: height), size: .init(width: size, height: size))))
+        sponge.addPath(
+          Circle().path(
+            in: CGRect(
+              origin: CGPoint(x: width - size / 2, y: height - size / 2),
+              size: CGSize(width: size, height: size)
+            )
+          )
+        )
       }
       
       let cgSponge = sponge.cgPath
@@ -40,7 +47,6 @@ struct SpongeFilter<S: Shape>: Shape {
       
       let difference = cgBase.subtracting(cgSponge)
       
-      
       path.addPath(Path(difference))
     }
   }
@@ -48,7 +54,7 @@ struct SpongeFilter<S: Shape>: Shape {
 
 struct SpongeFilter_Previews: PreviewProvider {
     static var previews: some View {
-      SpongeFilter(base: Circle(), size: 20)
+      SpongeFilter(base: Rectangle(), amount: 1000, size: 8)
       .frame(width: 256, height: 256)
     }
 }
