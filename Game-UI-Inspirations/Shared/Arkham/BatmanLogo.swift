@@ -86,88 +86,88 @@ struct BatmanLogo: Shape {
   func path(in rect: CGRect) -> Path {
     Path { path in
       path.move(
-        to: CGPoint(x: rect.midX, y: rect.height * 0.75)
+        to: CGPoint(x: rect.minX + rect.width * 0.5, y: rect.minY + rect.height * 0.75)
       )
       
       // N - 6
       path.addQuadCurve(
-        to: CGPoint(x: rect.width * 0.25, y: rect.height * 0.6),
-        control: CGPoint(x: rect.width * 0.4, y: rect.height * 0.4)
+        to: CGPoint(x: rect.minX + rect.width * 0.25, y: rect.minY + rect.height * 0.6),
+        control: CGPoint(x: rect.minX + rect.width * 0.4, y: rect.minY + rect.height * 0.4)
       )
       
       // N - 5
       path.addQuadCurve(
-        to: CGPoint(x: rect.width * 0.01, y: rect.height * 0.4),
-        control: CGPoint(x: rect.width * 0.2, y: rect.height * 0.35)
+        to: CGPoint(x: rect.minX + rect.width * 0.01, y: rect.minY + rect.height * 0.4),
+        control: CGPoint(x: rect.minX + rect.width * 0.2, y: rect.minY + rect.height * 0.35)
       )
       
       // N - 4
       path.addQuadCurve(
-        to: CGPoint(x: rect.width * 0.28, y: rect.height * 0.1),
-        control: CGPoint(x: rect.width * 0.05, y: rect.height * 0.2)
+        to: CGPoint(x: rect.minX + rect.width * 0.28, y: rect.minY + rect.height * 0.1),
+        control: CGPoint(x: rect.minX + rect.width * 0.05, y: rect.minY + rect.height * 0.2)
       )
       
       // N - 3
       path.addQuadCurve(
-        to: CGPoint(x: rect.width * 0.45, y: rect.height * 0.35),
-        control: CGPoint(x: rect.width * 0.1, y: rect.height * 0.2)
+        to: CGPoint(x: rect.minX + rect.width * 0.45, y: rect.minY + rect.height * 0.35),
+        control: CGPoint(x: rect.minX + rect.width * 0.1, y: rect.minY + rect.height * 0.2)
       )
       
       // N - 2
       path.addLine(
-        to: CGPoint(x: rect.width * 0.46, y: rect.height * 0.18)
+        to: CGPoint(x: rect.minX + rect.width * 0.46, y: rect.minY + rect.height * 0.18)
       )
       // N - 1
       path.addLine(
-        to: CGPoint(x: rect.width * 0.48, y: rect.height * 0.28)
+        to: CGPoint(x: rect.minX + rect.width * 0.48, y: rect.minY + rect.height * 0.28)
       )
      
       // final line to the midpoint of the cowl
       path.addLine(
-        to: CGPoint(x: rect.midX, y: rect.height * 0.28)
+        to: CGPoint(x: rect.minX + rect.width * 0.5, y: rect.minY + rect.height * 0.28)
       )
       /// ----- reversal time!!!
       
       // N - 1
       path.addLine(
-        to: CGPoint(x: rect.maxX - rect.width * 0.48, y: rect.height * 0.28)
+        to: CGPoint(x: rect.maxX - rect.width * 0.48, y: rect.minY + rect.height * 0.28)
       )
       
       // N - 2
       path.addLine(
-        to: CGPoint(x: rect.maxX - rect.width * 0.46, y: rect.height * 0.18)
+        to: CGPoint(x: rect.maxX - rect.width * 0.46, y: rect.minY + rect.height * 0.18)
       )
       
       // N - 2.5?
       path.addLine(
-        to: CGPoint(x: rect.maxX - rect.width * 0.45, y: rect.height * 0.35)
+        to: CGPoint(x: rect.maxX - rect.width * 0.45, y: rect.minY + rect.height * 0.35)
       )
       
       // N - 3*
       path.addQuadCurve(
-        to: CGPoint(x: rect.width * (1 - 0.28), y: rect.height * 0.1), // This is the endpoint of the PREVIOUS quadcurve from the first half
-        control: CGPoint(x: rect.width * (1 - 0.1), y: rect.height * 0.2)
+        to: CGPoint(x: rect.minX + rect.width * (1 - 0.28), y: rect.minY + rect.height * 0.1), // This is the endpoint of the PREVIOUS quadcurve from the first half
+        control: CGPoint(x: rect.minX + rect.width * (1 - 0.1), y: rect.minY + rect.height * 0.2)
       )
       
       // N - 4*
       path.addQuadCurve(
-        to: CGPoint(x: rect.width * (1 - 0.01), y: rect.height * 0.4),
-        control: CGPoint(x: rect.width * (1 - 0.05), y: rect.height * 0.2)
+        to: CGPoint(x: rect.minX + rect.width * (1 - 0.01), y: rect.minY + rect.height * 0.4),
+        control: CGPoint(x: rect.minX + rect.width * (1 - 0.05), y: rect.minY + rect.height * 0.2)
       )
       
       // N - 5*
       path.addQuadCurve(
-        to: CGPoint(x: rect.width * (1 - 0.25), y: rect.height * 0.6),
-        control: CGPoint(x: rect.width * (1 - 0.2), y: rect.height * 0.35)
+        to: CGPoint(x: rect.minX + rect.width * (1 - 0.25), y: rect.minY + rect.height * 0.6),
+        control: CGPoint(x: rect.minX + rect.width * (1 - 0.2), y: rect.minY + rect.height * 0.35)
       )
       
       // N - 6*
       path.addQuadCurve(
-        to: CGPoint(x: rect.midX, y: rect.height * 0.75),
-        control: CGPoint(x: rect.width * (1 - 0.4), y: rect.height * 0.4)
+        to: CGPoint(x: rect.minX + rect.width * 0.5, y: rect.minY + rect.height * 0.75),
+        control: CGPoint(x: rect.minX + rect.width * (1 - 0.4), y: rect.minY + rect.height * 0.4)
       )
       
-      path = path.offsetBy(dx: 0, dy: rect.height * 0.1)
+      path = path.offsetBy(dx: 0, dy: rect.minY + rect.height * 0.1)
     }
   }
   
