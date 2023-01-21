@@ -142,6 +142,8 @@
 		2952A69326DF3859007BABFC /* StarPolygonDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2952A69126DF3859007BABFC /* StarPolygonDemo.swift */; };
 		29532EFD26451D8B000F07F1 /* FireflySymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29532EFC26451D8B000F07F1 /* FireflySymbol.swift */; };
 		29532EFE26451D8B000F07F1 /* FireflySymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29532EFC26451D8B000F07F1 /* FireflySymbol.swift */; };
+		2953C38D297C694000125B7F /* BatmanLogoAnimatedBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2953C38C297C694000125B7F /* BatmanLogoAnimatedBorder.swift */; };
+		2953C38E297C694000125B7F /* BatmanLogoAnimatedBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2953C38C297C694000125B7F /* BatmanLogoAnimatedBorder.swift */; };
 		295678852722636C00FA372A /* Mora.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295678842722636C00FA372A /* Mora.swift */; };
 		295678862722636C00FA372A /* Mora.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295678842722636C00FA372A /* Mora.swift */; };
 		2956788827226CB500FA372A /* MasterlessStardust.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2956788727226CB500FA372A /* MasterlessStardust.swift */; };
@@ -519,6 +521,7 @@
 		2950E128268C2CDC005EFAA9 /* OverwatchLogoDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverwatchLogoDemo.swift; sourceTree = "<group>"; };
 		2952A69126DF3859007BABFC /* StarPolygonDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarPolygonDemo.swift; sourceTree = "<group>"; };
 		29532EFC26451D8B000F07F1 /* FireflySymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireflySymbol.swift; sourceTree = "<group>"; };
+		2953C38C297C694000125B7F /* BatmanLogoAnimatedBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatmanLogoAnimatedBorder.swift; sourceTree = "<group>"; };
 		295678842722636C00FA372A /* Mora.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mora.swift; sourceTree = "<group>"; };
 		2956788727226CB500FA372A /* MasterlessStardust.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterlessStardust.swift; sourceTree = "<group>"; };
 		2956788A2722795400FA372A /* MasterlessStarglitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterlessStarglitter.swift; sourceTree = "<group>"; };
@@ -1059,6 +1062,7 @@
 				2987F6102931EB8800DE8218 /* BatmanSelectionView.swift */,
 				2914FE282967D65200B80DA4 /* ArkhamInterviewCollectionView.swift */,
 				294F3EE7297113FE0000E48A /* ArkhamAsylumHUD.swift */,
+				2953C38C297C694000125B7F /* BatmanLogoAnimatedBorder.swift */,
 			);
 			path = Arkham;
 			sourceTree = "<group>";
@@ -1509,6 +1513,7 @@
 				29A22D102626DC60000D9EAF /* KombatKardView.swift in Sources */,
 				2962057C26FD7EFD002F9D3E /* Destiny2FastTravelView.swift in Sources */,
 				29EF029127816DF30029C67B /* DeathStrandAnimation.swift in Sources */,
+				2953C38D297C694000125B7F /* BatmanLogoAnimatedBorder.swift in Sources */,
 				2959344628AF532F005F8EE0 /* FFXIVTargetView.swift in Sources */,
 				2976E1C12626A45100272ADC /* ContentView.swift in Sources */,
 				2952A69226DF3859007BABFC /* StarPolygonDemo.swift in Sources */,
@@ -1824,6 +1829,7 @@
 				29229845296A79280047CB9E /* OpeningCrawl.swift in Sources */,
 				2910270C263E6DAC00418FE1 /* PoseidonBoon.swift in Sources */,
 				2962057A26FD788C002F9D3E /* Destiny2FastTravelIcon.swift in Sources */,
+				2953C38E297C694000125B7F /* BatmanLogoAnimatedBorder.swift in Sources */,
 				2914FE2A2967D65200B80DA4 /* ArkhamInterviewCollectionView.swift in Sources */,
 				29AF031D273B7EFA00B5BA4B /* RDR2HUDCoreViewModel.swift in Sources */,
 				29C11DF02763129200D0CA09 /* SpiderManSkillTreeView.swift in Sources */,
