@@ -8,43 +8,6 @@
 import SwiftUI
 import Shapes
 
-public struct InvertedShape<Content: Shape>: Shape {
-  public var shape: Content
-  public var inset: CGFloat
-  
-  public var animatableData: CGFloat {
-    get {
-      inset
-    }
-    set {
-      inset = newValue
-    }
-  }
-  
-  public init(shape: Content, inset: CGFloat = .zero) {
-    self.shape = shape
-    self.inset = inset
-  }
-  
-  public func path(in rect: CGRect) -> Path {
-    Path { path in
-      let insetRect = rect.insetBy(dx: inset, dy: inset)
-      
-      let framePath = Path(rect)
-      let shapePath = shape.path(in: insetRect)
-      let difference = shapePath.cgPath.symmetricDifference(framePath.cgPath)
-      
-      path.addPath(Path(difference))
-    }
-  }
-}
-
-extension Shape {
-  @inlinable public func invert(inset: CGFloat = .zero) -> InvertedShape<Self> {
-    InvertedShape(shape: self, inset: inset)
-  }
-}
-
 struct InvertedShapeDemo: View {
   @State var isAnimating = false
 

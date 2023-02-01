@@ -106,6 +106,12 @@
 		2935A9E127169EAE0043F964 /* GISelectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2935A9DF27169EAE0043F964 /* GISelectionItem.swift */; };
 		2936E04E27707CDF0075FADF /* GIAchievementMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2936E04D27707CDF0075FADF /* GIAchievementMenu.swift */; };
 		2936E04F27707CDF0075FADF /* GIAchievementMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2936E04D27707CDF0075FADF /* GIAchievementMenu.swift */; };
+		2938B4D8298A212200D7678D /* GuardianFadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2938B4D7298A212200D7678D /* GuardianFadeTransition.swift */; };
+		2938B4D9298A212200D7678D /* GuardianFadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2938B4D7298A212200D7678D /* GuardianFadeTransition.swift */; };
+		2938B4DB298A2F4600D7678D /* RandomIndexedTiledShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2938B4DA298A2F4600D7678D /* RandomIndexedTiledShape.swift */; };
+		2938B4DC298A2F4600D7678D /* RandomIndexedTiledShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2938B4DA298A2F4600D7678D /* RandomIndexedTiledShape.swift */; };
+		2938B4DE298A2F8200D7678D /* GotgSettingsMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2938B4DD298A2F8200D7678D /* GotgSettingsMenu.swift */; };
+		2938B4DF298A2F8200D7678D /* GotgSettingsMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2938B4DD298A2F8200D7678D /* GotgSettingsMenu.swift */; };
 		2939687426BCFA7D00B08586 /* RDR2AwardBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2939687326BCFA7D00B08586 /* RDR2AwardBadge.swift */; };
 		2939687526BCFA7D00B08586 /* RDR2AwardBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2939687326BCFA7D00B08586 /* RDR2AwardBadge.swift */; };
 		293D55B928F2733C00DD2351 /* GoldenEyeWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293D55B828F2733C00DD2351 /* GoldenEyeWatch.swift */; };
@@ -144,8 +150,8 @@
 		29532EFE26451D8B000F07F1 /* FireflySymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29532EFC26451D8B000F07F1 /* FireflySymbol.swift */; };
 		2953C38D297C694000125B7F /* BatmanLogoAnimatedBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2953C38C297C694000125B7F /* BatmanLogoAnimatedBorder.swift */; };
 		2953C38E297C694000125B7F /* BatmanLogoAnimatedBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2953C38C297C694000125B7F /* BatmanLogoAnimatedBorder.swift */; };
-		2953C393297E354D00125B7F /* InvertedShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2953C392297E354D00125B7F /* InvertedShape.swift */; };
-		2953C394297E354D00125B7F /* InvertedShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2953C392297E354D00125B7F /* InvertedShape.swift */; };
+		2953C393297E354D00125B7F /* InvertedShapeDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2953C392297E354D00125B7F /* InvertedShapeDemo.swift */; };
+		2953C394297E354D00125B7F /* InvertedShapeDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2953C392297E354D00125B7F /* InvertedShapeDemo.swift */; };
 		2953C396297E42A700125B7F /* ColorStopDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2953C395297E42A700125B7F /* ColorStopDemo.swift */; };
 		2953C397297E42A700125B7F /* ColorStopDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2953C395297E42A700125B7F /* ColorStopDemo.swift */; };
 		295678852722636C00FA372A /* Mora.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295678842722636C00FA372A /* Mora.swift */; };
@@ -355,6 +361,8 @@
 		29B7991D285C2FBD005FD3D2 /* OriSkillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B7991C285C2FBD005FD3D2 /* OriSkillView.swift */; };
 		29B7991F285C3433005FD3D2 /* OriSkillWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B7991E285C3433005FD3D2 /* OriSkillWheel.swift */; };
 		29B79921285C3E6B005FD3D2 /* OriSkillTreeDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B79920285C3E6B005FD3D2 /* OriSkillTreeDemo.swift */; };
+		29B79F9C2980E8C400C41A0A /* GotgInteractiveItemAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B79F9B2980E8C400C41A0A /* GotgInteractiveItemAlert.swift */; };
+		29B79F9D2980E8C400C41A0A /* GotgInteractiveItemAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B79F9B2980E8C400C41A0A /* GotgInteractiveItemAlert.swift */; };
 		29B98CB426B1118500E1B7FF /* GIClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B98CB326B1118500E1B7FF /* GIClockView.swift */; };
 		29B98CB526B1118500E1B7FF /* GIClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B98CB326B1118500E1B7FF /* GIClockView.swift */; };
 		29BB327C265E0C3F00C3CCFE /* DiamondDog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BB327B265E0C3F00C3CCFE /* DiamondDog.swift */; };
@@ -503,6 +511,9 @@
 		29351A4B26CF706D0069BE75 /* RDR2Badgeable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDR2Badgeable.swift; sourceTree = "<group>"; };
 		2935A9DF27169EAE0043F964 /* GISelectionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GISelectionItem.swift; sourceTree = "<group>"; };
 		2936E04D27707CDF0075FADF /* GIAchievementMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIAchievementMenu.swift; sourceTree = "<group>"; };
+		2938B4D7298A212200D7678D /* GuardianFadeTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuardianFadeTransition.swift; sourceTree = "<group>"; };
+		2938B4DA298A2F4600D7678D /* RandomIndexedTiledShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomIndexedTiledShape.swift; sourceTree = "<group>"; };
+		2938B4DD298A2F8200D7678D /* GotgSettingsMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GotgSettingsMenu.swift; sourceTree = "<group>"; };
 		2939687326BCFA7D00B08586 /* RDR2AwardBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDR2AwardBadge.swift; sourceTree = "<group>"; };
 		293D55B828F2733C00DD2351 /* GoldenEyeWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldenEyeWatch.swift; sourceTree = "<group>"; };
 		293D55BA28F29EA700DD2351 /* Clock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clock.swift; sourceTree = "<group>"; };
@@ -526,7 +537,7 @@
 		2952A69126DF3859007BABFC /* StarPolygonDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarPolygonDemo.swift; sourceTree = "<group>"; };
 		29532EFC26451D8B000F07F1 /* FireflySymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireflySymbol.swift; sourceTree = "<group>"; };
 		2953C38C297C694000125B7F /* BatmanLogoAnimatedBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatmanLogoAnimatedBorder.swift; sourceTree = "<group>"; };
-		2953C392297E354D00125B7F /* InvertedShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvertedShape.swift; sourceTree = "<group>"; };
+		2953C392297E354D00125B7F /* InvertedShapeDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvertedShapeDemo.swift; sourceTree = "<group>"; };
 		2953C395297E42A700125B7F /* ColorStopDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorStopDemo.swift; sourceTree = "<group>"; };
 		295678842722636C00FA372A /* Mora.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mora.swift; sourceTree = "<group>"; };
 		2956788727226CB500FA372A /* MasterlessStardust.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterlessStardust.swift; sourceTree = "<group>"; };
@@ -638,6 +649,7 @@
 		29B7991C285C2FBD005FD3D2 /* OriSkillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriSkillView.swift; sourceTree = "<group>"; };
 		29B7991E285C3433005FD3D2 /* OriSkillWheel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriSkillWheel.swift; sourceTree = "<group>"; };
 		29B79920285C3E6B005FD3D2 /* OriSkillTreeDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriSkillTreeDemo.swift; sourceTree = "<group>"; };
+		29B79F9B2980E8C400C41A0A /* GotgInteractiveItemAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GotgInteractiveItemAlert.swift; sourceTree = "<group>"; };
 		29B98CB326B1118500E1B7FF /* GIClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIClockView.swift; sourceTree = "<group>"; };
 		29BB327B265E0C3F00C3CCFE /* DiamondDog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiamondDog.swift; sourceTree = "<group>"; };
 		29BCCFB6277C2AD90055DE94 /* CircularText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularText.swift; sourceTree = "<group>"; };
@@ -1285,8 +1297,9 @@
 				2993C98628656288002E09CB /* MarqueeText.swift */,
 				294214A0290B92B700E205C6 /* SliderLabelView.swift */,
 				294F3EEA297120080000E48A /* SpongeFilter.swift */,
-				2953C392297E354D00125B7F /* InvertedShape.swift */,
+				2953C392297E354D00125B7F /* InvertedShapeDemo.swift */,
 				2953C395297E42A700125B7F /* ColorStopDemo.swift */,
+				2938B4DA298A2F4600D7678D /* RandomIndexedTiledShape.swift */,
 			);
 			path = Reusable;
 			sourceTree = "<group>";
@@ -1307,6 +1320,9 @@
 				29CFBC0B2977A9860083C6B8 /* KreeSymbol.swift */,
 				29CFBC0E2977B58E0083C6B8 /* FactionBanner.swift */,
 				29CFBC112977BFE90083C6B8 /* KrakoaFont.swift */,
+				29B79F9B2980E8C400C41A0A /* GotgInteractiveItemAlert.swift */,
+				2938B4D7298A212200D7678D /* GuardianFadeTransition.swift */,
+				2938B4DD298A2F8200D7678D /* GotgSettingsMenu.swift */,
 			);
 			path = GOTG;
 			sourceTree = "<group>";
@@ -1473,6 +1489,7 @@
 				298CD785270FEF2A00C9D6B9 /* KiteAnimationDemo.swift in Sources */,
 				295794792650D91D00BDDE3A /* TLOUSkillModel.swift in Sources */,
 				29DD474328431E4900BF4BAE /* CIFilterView.swift in Sources */,
+				2938B4D8298A212200D7678D /* GuardianFadeTransition.swift in Sources */,
 				293D55B928F2733C00DD2351 /* GoldenEyeWatch.swift in Sources */,
 				29351A4926CF63F00069BE75 /* RDR2AwardViewModel.swift in Sources */,
 				29229844296A79280047CB9E /* OpeningCrawl.swift in Sources */,
@@ -1492,7 +1509,7 @@
 				295678852722636C00FA372A /* Mora.swift in Sources */,
 				29A13505270D49F900F19B6F /* RDR2ShowdownTitle.swift in Sources */,
 				295E507826B3B3EA00DA9FD4 /* RDR2AwardItem.swift in Sources */,
-				2953C393297E354D00125B7F /* InvertedShape.swift in Sources */,
+				2953C393297E354D00125B7F /* InvertedShapeDemo.swift in Sources */,
 				294D37362710082700524868 /* SpirolateralAnimationDemo.swift in Sources */,
 				290B177327572D590075AE24 /* SpiderManMask.swift in Sources */,
 				29922ACD2633D2FA002469C2 /* MK11Left.swift in Sources */,
@@ -1600,6 +1617,8 @@
 				29EEFDCE276EEA7400290CA2 /* SpiderManSkillLoadingView.swift in Sources */,
 				29922AC82633D270002469C2 /* MK11SelectionView.swift in Sources */,
 				29E7056A271BF39800D6B9CC /* IsotoxalPolygonDemo.swift in Sources */,
+				2938B4DE298A2F8200D7678D /* GotgSettingsMenu.swift in Sources */,
+				2938B4DB298A2F4600D7678D /* RandomIndexedTiledShape.swift in Sources */,
 				2960C695270A0B850024872D /* OrnateCorners.swift in Sources */,
 				29A22D4D2626E041000D9EAF /* RDR2MinimapView.swift in Sources */,
 				294214A3290B984000E205C6 /* CGAffineTransformDemo.swift in Sources */,
@@ -1677,6 +1696,7 @@
 				29421CA72719325800CBEDBB /* GIItemRarityBackground.swift in Sources */,
 				295E145D27F0132500724FB7 /* OWDecorPattern.swift in Sources */,
 				29B79921285C3E6B005FD3D2 /* OriSkillTreeDemo.swift in Sources */,
+				29B79F9C2980E8C400C41A0A /* GotgInteractiveItemAlert.swift in Sources */,
 				29A22CF52626D8C9000D9EAF /* LoadingRingsViewModel.swift in Sources */,
 				29101792270410150021E672 /* CelesteDeathAnimation.swift in Sources */,
 				29A22D162626DC60000D9EAF /* KountdownTimerDemo.swift in Sources */,
@@ -1787,8 +1807,9 @@
 				29A38D4828125A1400DEEB69 /* LostArkSelectionView.swift in Sources */,
 				297DC712265A107600980DDE /* MGSVLoadingViewModel.swift in Sources */,
 				29B98CB526B1118500E1B7FF /* GIClockView.swift in Sources */,
+				29B79F9D2980E8C400C41A0A /* GotgInteractiveItemAlert.swift in Sources */,
 				29C11DE427630B6D00D0CA09 /* SpiderManSkillDetailView.swift in Sources */,
-				2953C394297E354D00125B7F /* InvertedShape.swift in Sources */,
+				2953C394297E354D00125B7F /* InvertedShapeDemo.swift in Sources */,
 				295E507926B3B3EA00DA9FD4 /* RDR2AwardItem.swift in Sources */,
 				2962058026FD85DE002F9D3E /* ElevationMap.swift in Sources */,
 				298DA1C7269AAEF50054463A /* OWUltimateMeterDemo.swift in Sources */,
@@ -1796,6 +1817,7 @@
 				2952A69326DF3859007BABFC /* StarPolygonDemo.swift in Sources */,
 				297A6E3B265E02B600201D1A /* DiamondDogsLogo.swift in Sources */,
 				29A22CF82626D8C9000D9EAF /* LoadingRingsView.swift in Sources */,
+				2938B4DC298A2F4600D7678D /* RandomIndexedTiledShape.swift in Sources */,
 				298CD786270FEF2A00C9D6B9 /* KiteAnimationDemo.swift in Sources */,
 				29EED47D280676C900504968 /* LABossAttackAreaAnimation.swift in Sources */,
 				29AF0327273B952200B5BA4B /* CodeSnippets.swift in Sources */,
@@ -1845,6 +1867,7 @@
 				2914FE2A2967D65200B80DA4 /* ArkhamInterviewCollectionView.swift in Sources */,
 				29AF031D273B7EFA00B5BA4B /* RDR2HUDCoreViewModel.swift in Sources */,
 				29C11DF02763129200D0CA09 /* SpiderManSkillTreeView.swift in Sources */,
+				2938B4D9298A212200D7678D /* GuardianFadeTransition.swift in Sources */,
 				29B44139262FDF2A00E442A6 /* TLOUIcon.swift in Sources */,
 				29C11DED276310C000D0CA09 /* SpiderManSkillTreeWeb.swift in Sources */,
 				29EB0A62262BEA570032E598 /* ControlSelectionView.swift in Sources */,
@@ -1897,6 +1920,7 @@
 				2939687526BCFA7D00B08586 /* RDR2AwardBadge.swift in Sources */,
 				29A38D45281254DE00DEEB69 /* LostArkLogo.swift in Sources */,
 				29BCCFBB277C2DFF0055DE94 /* DrStrangeShield.swift in Sources */,
+				2938B4DF298A2F8200D7678D /* GotgSettingsMenu.swift in Sources */,
 				290089022840815900F840D8 /* ProgressBarWithDeltaDemo.swift in Sources */,
 				29D3FABC2644F6C500B6A02F /* SkillSelectionRow.swift in Sources */,
 			);

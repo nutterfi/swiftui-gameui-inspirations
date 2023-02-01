@@ -8,17 +8,18 @@
 import SwiftUI
 import Shapes
 
-struct SpongeFilter<S: Shape>: Shape {
+struct SpongeFilter<S: Shape, T: Shape>: Shape {
   var base: S
   var amount: Int = 100
   var size: CGFloat = 1.0
+  var stencil: T
   
   static func randomPositions(number: Int = 100) -> [CGPoint] {
     var positions = [CGPoint]()
-    let _ = SystemRandomNumberGenerator()
+    var g = SystemRandomNumberGenerator()
     for _ in 0..<number {
-      let x = CGFloat.random(in: 0...1)
-      let y = CGFloat.random(in: 0...1)
+      let x = CGFloat.random(in: 0...1, using: &g)
+      let y = CGFloat.random(in: 0...1, using: &g)
       positions.append(CGPoint(x: x, y: y))
     }
     return positions
@@ -32,9 +33,9 @@ struct SpongeFilter<S: Shape>: Shape {
         let width = position.x * rect.width
         let height = position.y * rect.height
         sponge.addPath(
-          Circle().path(
+          stencil.path(
             in: CGRect(
-              origin: CGPoint(x: width - size / 2, y: height - size / 2),
+              origin: CGPoint(x: rect.minX + width - size / 2, y: rect.minY + height - size / 2),
               size: CGSize(width: size, height: size)
             )
           )
@@ -54,7 +55,11 @@ struct SpongeFilter<S: Shape>: Shape {
 
 struct SpongeFilter_Previews: PreviewProvider {
     static var previews: some View {
-      SpongeFilter(base: Rectangle(), amount: 1000, size: 8)
+      SpongeFilter(
+        base: Rectangle(),
+        amount: 1000,
+        size: 20,
+        stencil: BatmanLogo())
       .frame(width: 256, height: 256)
     }
 }

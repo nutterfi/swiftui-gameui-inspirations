@@ -53,7 +53,7 @@ struct FactionBanner: View {
           .frame(width: 90)
           .offset(x: 10, y: -10)
         Spacer()
-        Text("ABCDEF")
+        Text("AFCChDE")
           .font(.title2)
           .kerning(17)
           .monospaced()

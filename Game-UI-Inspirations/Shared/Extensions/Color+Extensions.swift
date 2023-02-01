@@ -135,4 +135,6 @@ extension Color {
   static let arkhamGold = Color(red: 252/255, green: 174/255, blue: 6/255)
   
   static let starWarsYellow = Color(red: 251/255, green: 218/255, blue: 74/255)
+  
+  static let gotgGreen = Color(red: 45/255, green: 249/255, blue: 193/255)
 }

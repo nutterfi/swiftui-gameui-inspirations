@@ -103,6 +103,9 @@ struct ContentView: View {
         OriSkillTreeDemo()
       case .justCause4:
         JustCause4Demo()
+      case .gotg:
+        FactionBanner()
+          .frame(height: 128)
       default:
         unknownGameView
       }
@@ -152,6 +155,8 @@ struct ContentView: View {
       case .lostArk:
         LostArkSelectionView()
           .frame(maxWidth: .infinity, minHeight: 120)
+      case .gotg:
+        KreeSymbol()
       default:
         defaultTitle(for: game)
       }
@@ -164,6 +169,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
   static var previews: some View {
     ContentView()
-      .previewInterfaceOrientation(.landscapeLeft)
+      
   }
 }
