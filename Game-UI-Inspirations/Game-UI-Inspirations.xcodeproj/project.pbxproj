@@ -116,6 +116,8 @@
 		2939687526BCFA7D00B08586 /* RDR2AwardBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2939687326BCFA7D00B08586 /* RDR2AwardBadge.swift */; };
 		293D55B928F2733C00DD2351 /* GoldenEyeWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293D55B828F2733C00DD2351 /* GoldenEyeWatch.swift */; };
 		293D55BB28F29EA700DD2351 /* Clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293D55BA28F29EA700DD2351 /* Clock.swift */; };
+		2941D033298CBFD500DB130D /* METalentIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2941D032298CBFD500DB130D /* METalentIcon.swift */; };
+		2941D034298CBFD500DB130D /* METalentIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2941D032298CBFD500DB130D /* METalentIcon.swift */; };
 		2942149D290B84D200E205C6 /* AlanWakeSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2942149C290B84D200E205C6 /* AlanWakeSelectionView.swift */; };
 		294214A1290B92B700E205C6 /* SliderLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294214A0290B92B700E205C6 /* SliderLabelView.swift */; };
 		294214A3290B984000E205C6 /* CGAffineTransformDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294214A2290B984000E205C6 /* CGAffineTransformDemo.swift */; };
@@ -517,6 +519,7 @@
 		2939687326BCFA7D00B08586 /* RDR2AwardBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDR2AwardBadge.swift; sourceTree = "<group>"; };
 		293D55B828F2733C00DD2351 /* GoldenEyeWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldenEyeWatch.swift; sourceTree = "<group>"; };
 		293D55BA28F29EA700DD2351 /* Clock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clock.swift; sourceTree = "<group>"; };
+		2941D032298CBFD500DB130D /* METalentIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = METalentIcon.swift; sourceTree = "<group>"; };
 		2942149C290B84D200E205C6 /* AlanWakeSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlanWakeSelectionView.swift; sourceTree = "<group>"; };
 		294214A0290B92B700E205C6 /* SliderLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderLabelView.swift; sourceTree = "<group>"; };
 		294214A2290B984000E205C6 /* CGAffineTransformDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGAffineTransformDemo.swift; sourceTree = "<group>"; };
@@ -842,6 +845,14 @@
 			path = GoldenEye;
 			sourceTree = "<group>";
 		};
+		2941D031298CBFA000DB130D /* MassEffect */ = {
+			isa = PBXGroup;
+			children = (
+				2941D032298CBFD500DB130D /* METalentIcon.swift */,
+			);
+			path = MassEffect;
+			sourceTree = "<group>";
+		};
 		2942149B290B84BB00E205C6 /* AlanWake */ = {
 			isa = PBXGroup;
 			children = (
@@ -962,6 +973,7 @@
 				291026FD263E62BC00418FE1 /* Hades */,
 				291B290728812DA10035BDCE /* JustCause4 */,
 				295E145F27F013C900724FB7 /* LostArk */,
+				2941D031298CBFA000DB130D /* MassEffect */,
 				297DC708265A0F0700980DDE /* MGSV */,
 				29A22CBB2626D279000D9EAF /* MK11 */,
 				2993C98928657290002E09CB /* NoMansSky */,
@@ -1554,6 +1566,7 @@
 				29102706263E673300418FE1 /* ZeusBoon.swift in Sources */,
 				29AFD3942764595700493800 /* SpiderManSkill.swift in Sources */,
 				29BB327C265E0C3F00C3CCFE /* DiamondDog.swift in Sources */,
+				2941D033298CBFD500DB130D /* METalentIcon.swift in Sources */,
 				291A07E026BA4A3E000F4590 /* SWTORLogo.swift in Sources */,
 				29A22D3B2626DFF3000D9EAF /* ProgressBar.swift in Sources */,
 				29A22D1C2626DC60000D9EAF /* KountdownTimerViewModel.swift in Sources */,
@@ -1904,6 +1917,7 @@
 				295678862722636C00FA372A /* Mora.swift in Sources */,
 				29C11DEA27630F0300D0CA09 /* SpiderManSkillView.swift in Sources */,
 				290BBC3526CCC8AA004D57D9 /* TextEffectViewModel.swift in Sources */,
+				2941D034298CBFD500DB130D /* METalentIcon.swift in Sources */,
 				29A22D172626DC60000D9EAF /* KountdownTimerDemo.swift in Sources */,
 				2959344428AF4CC9005F8EE0 /* FFXIVCharacterPointsView.swift in Sources */,
 				2993C98C286572BD002E09CB /* NMSCraftingMenuItem.swift in Sources */,
