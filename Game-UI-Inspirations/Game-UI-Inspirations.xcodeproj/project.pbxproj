@@ -140,8 +140,6 @@
 		294D37372710082700524868 /* SpirolateralAnimationDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294D37352710082700524868 /* SpirolateralAnimationDemo.swift */; };
 		294F3EE8297113FE0000E48A /* ArkhamAsylumHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294F3EE7297113FE0000E48A /* ArkhamAsylumHUD.swift */; };
 		294F3EE9297113FE0000E48A /* ArkhamAsylumHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294F3EE7297113FE0000E48A /* ArkhamAsylumHUD.swift */; };
-		294F3EEB297120080000E48A /* SpongeFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294F3EEA297120080000E48A /* SpongeFilter.swift */; };
-		294F3EEC297120080000E48A /* SpongeFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294F3EEA297120080000E48A /* SpongeFilter.swift */; };
 		294FF9482632AE300057869B /* TLOUIconDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294FF9472632AE300057869B /* TLOUIconDemo.swift */; };
 		294FF9492632AE300057869B /* TLOUIconDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294FF9472632AE300057869B /* TLOUIconDemo.swift */; };
 		2950E127268C24B4005EFAA9 /* OverwatchIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2950E126268C24B4005EFAA9 /* OverwatchIcon.swift */; };
@@ -154,8 +152,6 @@
 		2953C38E297C694000125B7F /* BatmanLogoAnimatedBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2953C38C297C694000125B7F /* BatmanLogoAnimatedBorder.swift */; };
 		2953C393297E354D00125B7F /* InvertedShapeDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2953C392297E354D00125B7F /* InvertedShapeDemo.swift */; };
 		2953C394297E354D00125B7F /* InvertedShapeDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2953C392297E354D00125B7F /* InvertedShapeDemo.swift */; };
-		2953C396297E42A700125B7F /* ColorStopDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2953C395297E42A700125B7F /* ColorStopDemo.swift */; };
-		2953C397297E42A700125B7F /* ColorStopDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2953C395297E42A700125B7F /* ColorStopDemo.swift */; };
 		295678852722636C00FA372A /* Mora.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295678842722636C00FA372A /* Mora.swift */; };
 		295678862722636C00FA372A /* Mora.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295678842722636C00FA372A /* Mora.swift */; };
 		2956788827226CB500FA372A /* MasterlessStardust.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2956788727226CB500FA372A /* MasterlessStardust.swift */; };
@@ -533,7 +529,6 @@
 		294B9B6128D6CC7100B79EEC /* PapersPleaseSettingsIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PapersPleaseSettingsIcon.swift; sourceTree = "<group>"; };
 		294D37352710082700524868 /* SpirolateralAnimationDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpirolateralAnimationDemo.swift; sourceTree = "<group>"; };
 		294F3EE7297113FE0000E48A /* ArkhamAsylumHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArkhamAsylumHUD.swift; sourceTree = "<group>"; };
-		294F3EEA297120080000E48A /* SpongeFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpongeFilter.swift; sourceTree = "<group>"; };
 		294FF9472632AE300057869B /* TLOUIconDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLOUIconDemo.swift; sourceTree = "<group>"; };
 		2950E126268C24B4005EFAA9 /* OverwatchIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverwatchIcon.swift; sourceTree = "<group>"; };
 		2950E128268C2CDC005EFAA9 /* OverwatchLogoDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverwatchLogoDemo.swift; sourceTree = "<group>"; };
@@ -541,7 +536,6 @@
 		29532EFC26451D8B000F07F1 /* FireflySymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireflySymbol.swift; sourceTree = "<group>"; };
 		2953C38C297C694000125B7F /* BatmanLogoAnimatedBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatmanLogoAnimatedBorder.swift; sourceTree = "<group>"; };
 		2953C392297E354D00125B7F /* InvertedShapeDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvertedShapeDemo.swift; sourceTree = "<group>"; };
-		2953C395297E42A700125B7F /* ColorStopDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorStopDemo.swift; sourceTree = "<group>"; };
 		295678842722636C00FA372A /* Mora.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mora.swift; sourceTree = "<group>"; };
 		2956788727226CB500FA372A /* MasterlessStardust.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterlessStardust.swift; sourceTree = "<group>"; };
 		2956788A2722795400FA372A /* MasterlessStarglitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterlessStarglitter.swift; sourceTree = "<group>"; };
@@ -1308,9 +1302,7 @@
 				290088FD28407EFD00F840D8 /* ProgressBarWithDelta.swift */,
 				2993C98628656288002E09CB /* MarqueeText.swift */,
 				294214A0290B92B700E205C6 /* SliderLabelView.swift */,
-				294F3EEA297120080000E48A /* SpongeFilter.swift */,
 				2953C392297E354D00125B7F /* InvertedShapeDemo.swift */,
-				2953C395297E42A700125B7F /* ColorStopDemo.swift */,
 				2938B4DA298A2F4600D7678D /* RandomIndexedTiledShape.swift */,
 			);
 			path = Reusable;
@@ -1583,7 +1575,6 @@
 				29FADE16269E99E400CF6D73 /* TypewriterTextView.swift in Sources */,
 				2910377B275C745A00A9EEB6 /* LongPressProgressView.swift in Sources */,
 				29E03716295BF63E004D569F /* StarTrekFleetCommand.swift in Sources */,
-				294F3EEB297120080000E48A /* SpongeFilter.swift in Sources */,
 				2920DB5B278566EB00DE5BEE /* TwoTonedIsotoxalPolygon.swift in Sources */,
 				29A4F49C283DD99F0078F32D /* BreathGem.swift in Sources */,
 				29FADE19269EA23000CF6D73 /* TypewriterTextViewModel.swift in Sources */,
@@ -1695,7 +1686,6 @@
 				29304D2F26916F49003512A1 /* TestingTiledImageView.swift in Sources */,
 				29A22D4B2626E041000D9EAF /* RDR2MinimapModel.swift in Sources */,
 				29CA75452791378A00298F47 /* TextShape.swift in Sources */,
-				2953C396297E42A700125B7F /* ColorStopDemo.swift in Sources */,
 				29C11DE327630B6D00D0CA09 /* SpiderManSkillDetailView.swift in Sources */,
 				2920DB582785540E00DE5BEE /* PorterGradeView.swift in Sources */,
 				2911E5102737870C00F3E967 /* RDR2HUDCoreView.swift in Sources */,
@@ -1740,7 +1730,6 @@
 				29922ACE2633D2FA002469C2 /* MK11Left.swift in Sources */,
 				29CA75462791378A00298F47 /* TextShape.swift in Sources */,
 				295E146527F013C900724FB7 /* LASecretDungeonFloorPattern.swift in Sources */,
-				294F3EEC297120080000E48A /* SpongeFilter.swift in Sources */,
 				2910F3E7269801F7008475D6 /* AphroditeBoon.swift in Sources */,
 				298DA1C4269AA4CC0054463A /* OWUltimateMeter.swift in Sources */,
 				29EEFDCF276EEA7400290CA2 /* SpiderManSkillLoadingView.swift in Sources */,
@@ -1876,7 +1865,6 @@
 				2910270C263E6DAC00418FE1 /* PoseidonBoon.swift in Sources */,
 				2962057A26FD788C002F9D3E /* Destiny2FastTravelIcon.swift in Sources */,
 				2953C38E297C694000125B7F /* BatmanLogoAnimatedBorder.swift in Sources */,
-				2953C397297E42A700125B7F /* ColorStopDemo.swift in Sources */,
 				2914FE2A2967D65200B80DA4 /* ArkhamInterviewCollectionView.swift in Sources */,
 				29AF031D273B7EFA00B5BA4B /* RDR2HUDCoreViewModel.swift in Sources */,
 				29C11DF02763129200D0CA09 /* SpiderManSkillTreeView.swift in Sources */,
