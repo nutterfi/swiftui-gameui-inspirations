@@ -403,6 +403,8 @@
 		29D011122759EAA1002E393B /* SpiderManSkillModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D011102759EAA1002E393B /* SpiderManSkillModel.swift */; };
 		29D2AEBE26AA7821005A35D1 /* ArtemisBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D2AEBD26AA7821005A35D1 /* ArtemisBoon.swift */; };
 		29D2AEBF26AA7821005A35D1 /* ArtemisBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D2AEBD26AA7821005A35D1 /* ArtemisBoon.swift */; };
+		29D2EDD329A1D8C00009EEA3 /* MEDecryptionMinigame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D2EDD229A1D8C00009EEA3 /* MEDecryptionMinigame.swift */; };
+		29D2EDD429A1D8C00009EEA3 /* MEDecryptionMinigame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D2EDD229A1D8C00009EEA3 /* MEDecryptionMinigame.swift */; };
 		29D3FAB62644F4B000B6A02F /* SkillVitamin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D3FAB52644F4B000B6A02F /* SkillVitamin.swift */; };
 		29D3FAB72644F4B000B6A02F /* SkillVitamin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D3FAB52644F4B000B6A02F /* SkillVitamin.swift */; };
 		29D3FABB2644F6C500B6A02F /* SkillSelectionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D3FABA2644F6C500B6A02F /* SkillSelectionRow.swift */; };
@@ -669,6 +671,7 @@
 		29D0110D2759D014002E393B /* SpiderManSkillsMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiderManSkillsMenu.swift; sourceTree = "<group>"; };
 		29D011102759EAA1002E393B /* SpiderManSkillModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiderManSkillModel.swift; sourceTree = "<group>"; };
 		29D2AEBD26AA7821005A35D1 /* ArtemisBoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtemisBoon.swift; sourceTree = "<group>"; };
+		29D2EDD229A1D8C00009EEA3 /* MEDecryptionMinigame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEDecryptionMinigame.swift; sourceTree = "<group>"; };
 		29D3FAB52644F4B000B6A02F /* SkillVitamin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillVitamin.swift; sourceTree = "<group>"; };
 		29D3FABA2644F6C500B6A02F /* SkillSelectionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillSelectionRow.swift; sourceTree = "<group>"; };
 		29D66FDC286EA34B00FA0002 /* MokokoSeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MokokoSeed.swift; sourceTree = "<group>"; };
@@ -843,6 +846,7 @@
 			isa = PBXGroup;
 			children = (
 				2941D032298CBFD500DB130D /* METalentIcon.swift */,
+				29D2EDD229A1D8C00009EEA3 /* MEDecryptionMinigame.swift */,
 			);
 			path = MassEffect;
 			sourceTree = "<group>";
@@ -1660,6 +1664,7 @@
 				29DA940E27CF674800741B9B /* Path+Extensions.swift in Sources */,
 				29EDA2D6283741F800BC3C72 /* GearHoningModel.swift in Sources */,
 				29155FF0272BA2D500BA2FE4 /* TLOUMainMenuIcon.swift in Sources */,
+				29D2EDD329A1D8C00009EEA3 /* MEDecryptionMinigame.swift in Sources */,
 				2929B8102695604600C86BBB /* FFXIVCharacterView.swift in Sources */,
 				29B44138262FDF2A00E442A6 /* TLOUIcon.swift in Sources */,
 				29EB0A61262BEA570032E598 /* ControlSelectionView.swift in Sources */,
@@ -1886,6 +1891,7 @@
 				29ACEC2C2642522C00DAE394 /* TLOUSkillsIcon.swift in Sources */,
 				29A22D1B2626DC60000D9EAF /* MenuView.swift in Sources */,
 				29A22D052626D93A000D9EAF /* QuestDescriptionView.swift in Sources */,
+				29D2EDD429A1D8C00009EEA3 /* MEDecryptionMinigame.swift in Sources */,
 				2956788C2722795400FA372A /* MasterlessStarglitter.swift in Sources */,
 				295794752650D8DE00BDDE3A /* SkillIcon.swift in Sources */,
 				29A22D4C2626E041000D9EAF /* RDR2MinimapModel.swift in Sources */,
