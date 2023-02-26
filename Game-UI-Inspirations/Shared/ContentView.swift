@@ -106,6 +106,9 @@ struct ContentView: View {
       case .gotg:
         FactionBanner()
           .frame(height: 128)
+      case .massEffect:
+        MEDecryptionMinigame()
+          .frame(height: 128)
       default:
         unknownGameView
       }
