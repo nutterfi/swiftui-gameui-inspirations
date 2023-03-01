@@ -9,7 +9,7 @@ import SwiftUI
 struct SliderLabelView: View {
   @Binding var value: CGFloat
   var label: String = ""
-  var range: ClosedRange<CGFloat>
+  var range: ClosedRange<CGFloat> = 0...1
   
   var minimumValue: String {
     String(format: "%.02f", range.lowerBound)

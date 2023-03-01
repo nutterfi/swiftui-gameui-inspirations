@@ -277,6 +277,8 @@
 		2993C98C286572BD002E09CB /* NMSCraftingMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2993C98A286572BD002E09CB /* NMSCraftingMenuItem.swift */; };
 		2998BF022660B1CE00EA034B /* RibbonBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2998BF012660B1CE00EA034B /* RibbonBanner.swift */; };
 		2998BF032660B1CE00EA034B /* RibbonBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2998BF012660B1CE00EA034B /* RibbonBanner.swift */; };
+		299E63EF29AB28F80068265E /* CGRect+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299E63EE29AB28F80068265E /* CGRect+Extensions.swift */; };
+		299E63F029AB28F80068265E /* CGRect+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299E63EE29AB28F80068265E /* CGRect+Extensions.swift */; };
 		29A13505270D49F900F19B6F /* RDR2ShowdownTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A13504270D49F900F19B6F /* RDR2ShowdownTitle.swift */; };
 		29A13506270D49F900F19B6F /* RDR2ShowdownTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A13504270D49F900F19B6F /* RDR2ShowdownTitle.swift */; };
 		29A22CF52626D8C9000D9EAF /* LoadingRingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22CF02626D8C9000D9EAF /* LoadingRingsViewModel.swift */; };
@@ -605,6 +607,7 @@
 		2993C98628656288002E09CB /* MarqueeText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarqueeText.swift; sourceTree = "<group>"; };
 		2993C98A286572BD002E09CB /* NMSCraftingMenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NMSCraftingMenuItem.swift; sourceTree = "<group>"; };
 		2998BF012660B1CE00EA034B /* RibbonBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RibbonBanner.swift; sourceTree = "<group>"; };
+		299E63EE29AB28F80068265E /* CGRect+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGRect+Extensions.swift"; sourceTree = "<group>"; };
 		29A13504270D49F900F19B6F /* RDR2ShowdownTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDR2ShowdownTitle.swift; sourceTree = "<group>"; };
 		29A22CF02626D8C9000D9EAF /* LoadingRingsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingRingsViewModel.swift; sourceTree = "<group>"; };
 		29A22CF12626D8C9000D9EAF /* LoadingRingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingRingsView.swift; sourceTree = "<group>"; };
@@ -1199,6 +1202,7 @@
 				29A22D512626E059000D9EAF /* Color+Extensions.swift */,
 				29AF0322273B83EA00B5BA4B /* View+Extensions.swift */,
 				29A6CDD128068BBA006CDAF8 /* UIView+Extensions.swift */,
+				299E63EE29AB28F80068265E /* CGRect+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -1693,6 +1697,7 @@
 				29CA75452791378A00298F47 /* TextShape.swift in Sources */,
 				29C11DE327630B6D00D0CA09 /* SpiderManSkillDetailView.swift in Sources */,
 				2920DB582785540E00DE5BEE /* PorterGradeView.swift in Sources */,
+				299E63EF29AB28F80068265E /* CGRect+Extensions.swift in Sources */,
 				2911E5102737870C00F3E967 /* RDR2HUDCoreView.swift in Sources */,
 				29CFBC0F2977B58E0083C6B8 /* FactionBanner.swift in Sources */,
 				29A22CFD2626D8C9000D9EAF /* ConsummateV.swift in Sources */,
@@ -1721,6 +1726,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2943790628B1DD6300E7E717 /* ChaosBoon.swift in Sources */,
+				299E63F029AB28F80068265E /* CGRect+Extensions.swift in Sources */,
 				29FADE17269E99E400CF6D73 /* TypewriterTextView.swift in Sources */,
 				29150B1E26B653F500106A45 /* HermesBoon.swift in Sources */,
 				2976E1DB2626AD5C00272ADC /* Pulsar.swift in Sources */,

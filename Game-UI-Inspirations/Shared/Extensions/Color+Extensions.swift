@@ -137,4 +137,15 @@ extension Color {
   static let starWarsYellow = Color(red: 251/255, green: 218/255, blue: 74/255)
   
   static let gotgGreen = Color(red: 45/255, green: 249/255, blue: 193/255)
+  
+  // Mass Effect
+  
+  static let meFroggerBlue = Color(red: 10/255, green: 35/255, blue: 80/255)
+  static let meFroggerMoreBluer = Color(red: 14/255, green: 23/255, blue: 90/255)
+  static let meFroggerEvenMoreBluerer = Color(red: 9/255, green: 17/255, blue: 72/255)
+  static let meFroggerPlayer = Color(red: 36/255, green: 141/255, blue: 176/255)
+  
+  static let meWinFroggerGreen = Color(red: 10/255, green: 200/255, blue: 60/255)
+  
+  static let meFroggerGray = Color(white: 58/255)
 }

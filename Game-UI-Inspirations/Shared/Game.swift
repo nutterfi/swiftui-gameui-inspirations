@@ -36,4 +36,5 @@ enum Game: String, Identifiable, Hashable, CaseIterable {
   case alanwake = "Alan Wake"
   case arkhamAsylum = "Batman: Arkham Asylum"
   case gotg = "Guardians of the Galaxy"
+  case massEffect = "Mass Effect"
 }

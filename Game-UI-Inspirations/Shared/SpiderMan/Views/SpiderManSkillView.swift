@@ -67,7 +67,7 @@ struct SpiderManSkillView: View {
               .repeatForever(autoreverses: true),
             value: animating
           )
-          .onAppear {
+          .task {
             animating.toggle()
           }
       )
