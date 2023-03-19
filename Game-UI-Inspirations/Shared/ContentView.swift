@@ -108,7 +108,8 @@ struct ContentView: View {
           .frame(height: 128)
       case .massEffect:
         MEDecryptionMinigame()
-          .frame(height: 128)
+      case .diablo4:
+          D4Waypoint()
       default:
         unknownGameView
       }
@@ -160,6 +161,15 @@ struct ContentView: View {
           .frame(maxWidth: .infinity, minHeight: 120)
       case .gotg:
         KreeSymbol()
+        case .diablo4:
+          Color.black
+            .frame(maxWidth: .infinity, minHeight: 120)
+            .overlay(
+              Text("Diablo IV")
+                .font(.system(size: 50, weight: .bold))
+                .foregroundColor(.red)
+            )
+          
       default:
         defaultTitle(for: game)
       }

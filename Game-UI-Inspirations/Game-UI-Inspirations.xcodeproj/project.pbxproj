@@ -208,6 +208,8 @@
 		2964BAB126C383EE00F37FDC /* SWTOREmpireLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2964BAAF26C383EE00F37FDC /* SWTOREmpireLogo.swift */; };
 		2964BAB326C384B000F37FDC /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2964BAB226C384B000F37FDC /* Game.swift */; };
 		2964BAB426C384B000F37FDC /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2964BAB226C384B000F37FDC /* Game.swift */; };
+		2969F64829C6BBB10027F12B /* D4Waypoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2969F64729C6BBB10027F12B /* D4Waypoint.swift */; };
+		2969F64929C6BBB10027F12B /* D4Waypoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2969F64729C6BBB10027F12B /* D4Waypoint.swift */; };
 		296C1F1627F6A44D00BAEA23 /* Shimmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296C1F1527F6A44D00BAEA23 /* Shimmer.swift */; };
 		296C1F1727F6A44D00BAEA23 /* Shimmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296C1F1527F6A44D00BAEA23 /* Shimmer.swift */; };
 		296C7F512706B35D00BFACC1 /* DBHLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296C7F502706B35D00BFACC1 /* DBHLoadingView.swift */; };
@@ -451,6 +453,8 @@
 		29F428C42839D38B006A5AA4 /* lostArkHoningSuccessRates.plist in Resources */ = {isa = PBXBuildFile; fileRef = 29F428C22839D38B006A5AA4 /* lostArkHoningSuccessRates.plist */; };
 		29F5337C26858D5100EADD37 /* MGSViDroidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F5337B26858D5100EADD37 /* MGSViDroidView.swift */; };
 		29F5337D26858D5100EADD37 /* MGSViDroidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F5337B26858D5100EADD37 /* MGSViDroidView.swift */; };
+		29F77CCE29BAF04E00848447 /* MEMinigameEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F77CCD29BAF04E00848447 /* MEMinigameEngine.swift */; };
+		29F77CCF29BAF04E00848447 /* MEMinigameEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F77CCD29BAF04E00848447 /* MEMinigameEngine.swift */; };
 		29FADE16269E99E400CF6D73 /* TypewriterTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FADE15269E99E400CF6D73 /* TypewriterTextView.swift */; };
 		29FADE17269E99E400CF6D73 /* TypewriterTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FADE15269E99E400CF6D73 /* TypewriterTextView.swift */; };
 		29FADE19269EA23000CF6D73 /* TypewriterTextViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FADE18269EA23000CF6D73 /* TypewriterTextViewModel.swift */; };
@@ -568,6 +572,7 @@
 		29637C9428BB347A0065ECB5 /* ACOTargetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACOTargetView.swift; sourceTree = "<group>"; };
 		2964BAAF26C383EE00F37FDC /* SWTOREmpireLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWTOREmpireLogo.swift; sourceTree = "<group>"; };
 		2964BAB226C384B000F37FDC /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		2969F64729C6BBB10027F12B /* D4Waypoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = D4Waypoint.swift; sourceTree = "<group>"; };
 		296C1F1527F6A44D00BAEA23 /* Shimmer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shimmer.swift; sourceTree = "<group>"; };
 		296C7F502706B35D00BFACC1 /* DBHLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBHLoadingView.swift; sourceTree = "<group>"; };
 		297416A728CD86B000949366 /* ArcanistIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcanistIcon.swift; sourceTree = "<group>"; };
@@ -697,6 +702,7 @@
 		29F1005D2973B58D008D04C8 /* JFOAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JFOAlert.swift; sourceTree = "<group>"; };
 		29F428C22839D38B006A5AA4 /* lostArkHoningSuccessRates.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = lostArkHoningSuccessRates.plist; sourceTree = "<group>"; };
 		29F5337B26858D5100EADD37 /* MGSViDroidView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MGSViDroidView.swift; sourceTree = "<group>"; };
+		29F77CCD29BAF04E00848447 /* MEMinigameEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEMinigameEngine.swift; sourceTree = "<group>"; };
 		29FADE15269E99E400CF6D73 /* TypewriterTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypewriterTextView.swift; sourceTree = "<group>"; };
 		29FADE18269EA23000CF6D73 /* TypewriterTextViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypewriterTextViewModel.swift; sourceTree = "<group>"; };
 		29FADE1B269EA6E800CF6D73 /* MGSVMissionTextDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MGSVMissionTextDemo.swift; sourceTree = "<group>"; };
@@ -850,6 +856,7 @@
 			children = (
 				2941D032298CBFD500DB130D /* METalentIcon.swift */,
 				29D2EDD229A1D8C00009EEA3 /* MEDecryptionMinigame.swift */,
+				29F77CCD29BAF04E00848447 /* MEMinigameEngine.swift */,
 			);
 			path = MassEffect;
 			sourceTree = "<group>";
@@ -938,6 +945,14 @@
 			path = AssassinsCreedOrigins;
 			sourceTree = "<group>";
 		};
+		2969F64629C6BB550027F12B /* Diablo4 */ = {
+			isa = PBXGroup;
+			children = (
+				2969F64729C6BBB10027F12B /* D4Waypoint.swift */,
+			);
+			path = Diablo4;
+			sourceTree = "<group>";
+		};
 		2976E1A62626A44F00272ADC = {
 			isa = PBXGroup;
 			children = (
@@ -967,6 +982,7 @@
 				2948EF07277ED31E00966236 /* DeathStranding */,
 				2962057726FD7841002F9D3E /* Destiny2 */,
 				2906484D26FAD656009A20A1 /* DetroitBecomeHuman */,
+				2969F64629C6BB550027F12B /* Diablo4 */,
 				2929B80E2695601400C86BBB /* FFXIV */,
 				29A22CBD2626D288000D9EAF /* GenshinImpact */,
 				293D55B728F2723600DD2351 /* GoldenEye */,
@@ -1514,6 +1530,7 @@
 				290BBC3126CCC06F004D57D9 /* TextEffectView.swift in Sources */,
 				29BCCFBA277C2DFF0055DE94 /* DrStrangeShield.swift in Sources */,
 				292D45D327AA3DBB003A1020 /* TextPath.swift in Sources */,
+				2969F64829C6BBB10027F12B /* D4Waypoint.swift in Sources */,
 				29A6CDD228068BBA006CDAF8 /* UIView+Extensions.swift in Sources */,
 				29A22D182626DC60000D9EAF /* KombatKardContentView.swift in Sources */,
 				295FECD226D89D5400C70220 /* RDR2ConfirmButton.swift in Sources */,
@@ -1657,6 +1674,7 @@
 				29A22D492626E041000D9EAF /* RDR2MinimapViewModel.swift in Sources */,
 				2935A9E027169EAE0043F964 /* GISelectionItem.swift in Sources */,
 				29150B2026B659EC00106A45 /* AresBoon.swift in Sources */,
+				29F77CCE29BAF04E00848447 /* MEMinigameEngine.swift in Sources */,
 				2959344328AF4CC9005F8EE0 /* FFXIVCharacterPointsView.swift in Sources */,
 				29D8B98927607A3300F21B7A /* SpiderManSkillViewModel.swift in Sources */,
 				291B290C288138F00035BDCE /* JustCause4CompassBorder.swift in Sources */,
@@ -1819,6 +1837,7 @@
 				294D37372710082700524868 /* SpirolateralAnimationDemo.swift in Sources */,
 				29A38D4828125A1400DEEB69 /* LostArkSelectionView.swift in Sources */,
 				297DC712265A107600980DDE /* MGSVLoadingViewModel.swift in Sources */,
+				29F77CCF29BAF04E00848447 /* MEMinigameEngine.swift in Sources */,
 				29B98CB526B1118500E1B7FF /* GIClockView.swift in Sources */,
 				29B79F9D2980E8C400C41A0A /* GotgInteractiveItemAlert.swift in Sources */,
 				29C11DE427630B6D00D0CA09 /* SpiderManSkillDetailView.swift in Sources */,
@@ -1878,6 +1897,7 @@
 				2953C38E297C694000125B7F /* BatmanLogoAnimatedBorder.swift in Sources */,
 				2914FE2A2967D65200B80DA4 /* ArkhamInterviewCollectionView.swift in Sources */,
 				29AF031D273B7EFA00B5BA4B /* RDR2HUDCoreViewModel.swift in Sources */,
+				2969F64929C6BBB10027F12B /* D4Waypoint.swift in Sources */,
 				29C11DF02763129200D0CA09 /* SpiderManSkillTreeView.swift in Sources */,
 				2938B4D9298A212200D7678D /* GuardianFadeTransition.swift in Sources */,
 				29B44139262FDF2A00E442A6 /* TLOUIcon.swift in Sources */,

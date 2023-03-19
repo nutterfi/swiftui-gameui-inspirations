@@ -1,10 +1,3 @@
-//
-//  Game.swift
-//  Game-UI-Inspirations
-//
-//  Created by nutterfi on 8/10/21.
-//
-
 import Foundation
 
 enum Game: String, Identifiable, Hashable, CaseIterable {
@@ -37,4 +30,5 @@ enum Game: String, Identifiable, Hashable, CaseIterable {
   case arkhamAsylum = "Batman: Arkham Asylum"
   case gotg = "Guardians of the Galaxy"
   case massEffect = "Mass Effect"
+  case diablo4 = "Diablo IV"
 }
