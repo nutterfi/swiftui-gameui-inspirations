@@ -19,17 +19,17 @@ struct DeathStrandingLetter: View {
   var body: some View {
     GeometryReader { proxy in
       let dim = min(proxy.size.width, proxy.size.height)
-      ZStack {
+      ZStack(alignment: .top) {
         VStack(spacing: 0) {
           Text(letter)
-            .font(.system(size: 36))
+            .font(.title)
             .foregroundColor(.gray)
           if let data = data {
             DataPath(data: data)
               .stroke()
               .rotation(.degrees(90), anchor: UnitPoint.top)
-              .frame(width: dim * 2, height: dim * 0.1)
-              .offset(x: 0, y: dim * 0.4)
+              .frame(height: dim * 0.05)
+              .offset(x: 0, y: dim * 0.2)
           }
           Spacer()
         }
@@ -49,9 +49,8 @@ struct DeathStrandingTitle: View {
         Group {
           Group {
             HStack(spacing: dim * 0.1) {
-              Spacer()
+              Color.clear.frame(width: dim * 0.25)
               DeathStrandingLetter(letter: "D")
-                .frame(width: dim * 0.1)
               DeathStrandingLetter(
                 letter: "E",
                 data: Math.dampedOscillator(
@@ -60,7 +59,6 @@ struct DeathStrandingTitle: View {
                   dampingFactor: 0.001
                 )
               )
-              .frame(width: dim * 0.1)
               
               DeathStrandingLetter(
                 letter: "A",
@@ -70,7 +68,6 @@ struct DeathStrandingTitle: View {
                   dampingFactor: 0.001
                 )
               )
-              .frame(width: dim * 0.1)
               
               DeathStrandingLetter(
                 letter: "T",
@@ -80,36 +77,37 @@ struct DeathStrandingTitle: View {
                   dampingFactor: 0.001
                 )
               )
-              .frame(width: dim * 0.1)
               DeathStrandingLetter(letter: "H")
-                .frame(width: dim * 0.1)
-              Spacer()
+              Color.clear.frame(width: dim * 0.25)
             }
           }
           
-          HStack {
-            DeathStrandingLetter(
-              letter: "S",
-              data: Math.dampedOscillator(
-                points: 1000,
-                sampleRate: 1000,
-                dampingFactor: 0.001
+          HStack(spacing: 0) {
+            Color.clear
+            Group {
+              DeathStrandingLetter(
+                letter: "S",
+                data: Math.dampedOscillator(
+                  points: 1000,
+                  sampleRate: 1000,
+                  dampingFactor: 0.001
+                )
               )
-            )
-            DeathStrandingLetter(
-              letter: "T",
-              data: Math.dampedOscillator(
-                points: 1000,
-                sampleRate: 1000,
-                dampingFactor: 0.001
+              DeathStrandingLetter(
+                letter: "T",
+                data: Math.dampedOscillator(
+                  points: 1000,
+                  sampleRate: 1000,
+                  dampingFactor: 0.001
+                )
               )
-            )
-            DeathStrandingLetter(
-              letter: "R"
-            )
-            DeathStrandingLetter(
-              letter: "A"
-            )
+              DeathStrandingLetter(
+                letter: "R"
+              )
+              DeathStrandingLetter(
+                letter: "A"
+              )
+            }
             DeathStrandingLetter(letter: "N")
             DeathStrandingLetter(letter: "D")
             DeathStrandingLetter(
@@ -136,6 +134,7 @@ struct DeathStrandingTitle: View {
                 dampingFactor: 0.001
               )
             )
+            Color.clear
           }
           .offset(x: 0, y: proxy.size.height * 0.4)
         }

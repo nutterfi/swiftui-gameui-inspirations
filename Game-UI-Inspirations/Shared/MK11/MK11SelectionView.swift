@@ -20,12 +20,12 @@ extension Color {
 struct MK11SelectionView: View {
     var body: some View {
       GeometryReader { proxy in
-        let dim = max(proxy.size.width, proxy.size.height)
+        let max = max(proxy.size.width, proxy.size.height)
+        let min = min(proxy.size.width, proxy.size.height)
+        
         ZStack {
-          RadialGradient(gradient: Gradient(colors: [.kombatYellow, .kombatBrown]), center: .center, startRadius: dim * 0.1, endRadius: dim * 0.35)
-          HStack {
-            Text("Mortal".uppercased())
-              .font(.system(size: 30))
+          RadialGradient(gradient: Gradient(colors: [.kombatYellow, .kombatBrown]), center: .center, startRadius: max * 0.1, endRadius: max * 0.35)
+                      
             HStack(spacing: 0) {
               MK11Left()
                 .foregroundColor(.black)
@@ -33,13 +33,10 @@ struct MK11SelectionView: View {
               MK11Right()
                 .foregroundColor(.black)
             }
-            .frame(width: dim * 0.25)
-            Text("Kombat".uppercased())
-              .font(.system(size: 30))
-          }
+            .frame(width: min * 0.9 / 1.75, height: min * 0.9)
         }
         .overlay(
-          RadialGradient(gradient: Gradient(colors: [.clear, .black]), center: .center, startRadius: dim * 0.1, endRadius: dim * 0.6)
+          RadialGradient(gradient: Gradient(colors: [.clear, .black]), center: .center, startRadius: max * 0.1, endRadius: max * 0.6)
         )
         
         .frame(width: proxy.size.width, height: proxy.size.height)
@@ -49,8 +46,9 @@ struct MK11SelectionView: View {
 }
 
 struct MK11SelectionView_Previews: PreviewProvider {
-    static var previews: some View {
-        MK11SelectionView()
+  static var previews: some View {
+    MK11SelectionView()
       .frame(width: 512, height: 128)
-    }
+      .previewLayout(.sizeThatFits)
+  }
 }

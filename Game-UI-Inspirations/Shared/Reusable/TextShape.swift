@@ -15,6 +15,7 @@ struct TextShape: NFiShape {
   
   func path(in rect: CGRect) -> Path {
     Path { thePath in
+      guard !rect.isEmpty else { return }
       let insetRect = rect.insetBy(dx: inset, dy: inset)
       thePath.addPath(path(rect: insetRect, char: letter))
     }

@@ -81,12 +81,16 @@ struct PorterGradeView: View {
   @StateObject var viewModel = PorterGradeViewModel()
   
   var body: some View {
-    VStack {
-      Slider(value: $viewModel.model.bridgeLink)
-      Slider(value: $viewModel.model.cargoCondition)
-      Slider(value: $viewModel.model.misc)
-      Slider(value: $viewModel.model.deliveryVolume)
-      Slider(value: $viewModel.model.deliveryTime)
+    HStack {
+      VStack {
+        SliderLabelView(value: $viewModel.model.bridgeLink, label: "Bridge Link")
+        
+        SliderLabelView(value: $viewModel.model.cargoCondition, label: "Cargo Condition")
+        SliderLabelView(value: $viewModel.model.misc, label: "Miscellaneous")
+        SliderLabelView(value: $viewModel.model.deliveryVolume, label: "Delivery Volume")
+        SliderLabelView(value: $viewModel.model.deliveryTime, label: "Delivery Time")
+      }
+      .frame(width: 300)
 
       GeometryReader { proxy in
         let rect = proxy.frame(in: .local)

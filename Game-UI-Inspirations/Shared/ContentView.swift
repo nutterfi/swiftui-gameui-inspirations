@@ -21,11 +21,18 @@ struct ContentView: View {
   @StateObject private var viewModel = ContentViewModel()
   @State var navigationPath = NavigationPath()
   
+  let items = Array(repeating: GridItem(), count: 3)
+  
   var body: some View {
     NavigationStack(path: $navigationPath) {
-      List(viewModel.games) { game in
-        NavigationLink(destination: destination(for: game)) {
-          selectionView(for: game)
+      ScrollView {
+        LazyVGrid(columns: items) {
+          ForEach(viewModel.games) { game in
+            NavigationLink(destination: destination(for: game)) {
+              selectionView(for: game)
+                .frame(height: 128)
+            }
+          }
         }
       }
     }
@@ -47,13 +54,15 @@ struct ContentView: View {
 
   }
   
-  func defaultTitle(for game: Game) -> some View {
-    Text(game.title)
-      .font(.largeTitle)
-      .multilineTextAlignment(.center)
-      .frame(maxWidth: .infinity, minHeight: 120)
-      .foregroundColor(.white)
-      .background(Color.blue)
+  func defaultTitle(for game: Game, color: Color = .blue, textColor: Color = .white) -> some View {
+    ZStack {
+      color.ignoresSafeArea()
+      Text(game.title)
+        .font(.title)
+        .multilineTextAlignment(.center)
+        .foregroundColor(textColor)
+    }
+  
   }
   
   func destination(for game: Game) -> some View {
@@ -120,61 +129,57 @@ struct ContentView: View {
   func selectionView(for game: Game) -> some View {
     Group {
       switch game {
-      case .arkhamAsylum:
-        BatmanSelectionView()
-      case .deathStranding:
-        DeathStrandingTitle()
-      case .control:
-        ControlSelectionView()
-      case .mk11:
-        MK11SelectionView()
-      case .overwatch:
-        OverwatchIcon(primary: Color.white, secondary: Color.orange)
-          .padding(5)
-          .background(Color.black)
-      case .overwatch2:
-        OW2SelectionView()
-      case .swtor:
-        SWTOREmpireLogo(color: Color.purple)
-          .padding(5)
-          .background(Color.black)
-      case .rdr2:
-        RDR2ShowdownTitle(title: "RDR2")
-      case .genshinImpact:
-        GIItemRarityBackground(rarity: .four)
-          .overlay(
-            Text("Genshin Impact")
-              .font(.custom("GillSans", size: 24))
-              .foregroundColor(.white)
-          )
-      case .tlou:
-        TLOUMainMenuIcon()
-      case .spiderMan:
-        SpiderManMask()
-          .background(LinearGradient(colors: [.blue, .black], startPoint: .topLeading, endPoint: .bottomTrailing))
-      case .persona5:
-        Persona5MenuItem(text: "Persona5")
-          .background(Color.red)
-        .frame(maxWidth: .infinity, minHeight: 120)
-      case .lostArk:
-        LostArkSelectionView()
-          .frame(maxWidth: .infinity, minHeight: 120)
-      case .gotg:
-        KreeSymbol()
-        case .diablo4:
-          Color.black
-            .frame(maxWidth: .infinity, minHeight: 120)
+        case .arkhamAsylum:
+          BatmanSelectionView()
+        case .deathStranding:
+          DeathStrandingTitle()
+            .foregroundColor(.black)
+        case .control:
+          ControlSelectionView()
+        case .mk11:
+          MK11SelectionView()
+        case .overwatch:
+          OverwatchIcon(primary: Color.white, secondary: Color.orange)
+            .padding(5)
+            .background(Color.black)
+        case .overwatch2:
+          OW2SelectionView()
+        case .swtor:
+          SWTOREmpireLogo(color: Color.purple)
+            .padding(5)
+            .background(Color.black)
+        case .rdr2:
+          RDR2ShowdownTitle(title: "RDR2")
+        case .genshinImpact:
+          GIItemRarityBackground(rarity: .four)
             .overlay(
-              Text("Diablo IV")
-                .font(.system(size: 50, weight: .bold))
-                .foregroundColor(.red)
+              Text("Genshin Impact")
+                .font(.custom("GillSans", size: 24))
+                .foregroundColor(.white)
             )
+        case .tlou:
+          TLOUMainMenuIcon()
+        case .spiderMan:
+          SpiderManMask()
+            .background(LinearGradient(colors: [.blue, .black], startPoint: .topLeading, endPoint: .bottomTrailing))
+        case .persona5:
+          Persona5MenuItem(text: "Persona5")
+            .background(Color.red)
+        case .lostArk:
+          LostArkSelectionView()
+        case .gotg:
+          ZStack {
+            Color.purple.opacity(0.3)
+            KreeSymbol()
+              .foregroundColor(.black)
+          }
+        case .diablo4:
+          defaultTitle(for: .diablo4, color: .black, textColor: .red)
           
-      default:
-        defaultTitle(for: game)
+        default:
+          defaultTitle(for: game)
       }
     }
-    .frame(height: 128)
   }
   
 }
@@ -182,6 +187,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
   static var previews: some View {
     ContentView()
-      
+      .previewLayout(.device)
   }
 }
