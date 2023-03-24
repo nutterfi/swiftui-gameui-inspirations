@@ -82,9 +82,8 @@ struct PorterGradeView: View {
   
   var body: some View {
     HStack {
-      VStack {
+      List {
         SliderLabelView(value: $viewModel.model.bridgeLink, label: "Bridge Link")
-        
         SliderLabelView(value: $viewModel.model.cargoCondition, label: "Cargo Condition")
         SliderLabelView(value: $viewModel.model.misc, label: "Miscellaneous")
         SliderLabelView(value: $viewModel.model.deliveryVolume, label: "Delivery Volume")

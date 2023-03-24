@@ -20,20 +20,24 @@ struct SliderLabelView: View {
   }
   
   var body: some View {
-    VStack {
-      Text(String(format: "%.02f", value))
-        .monospacedDigit()
+    VStack(spacing: 4) {
       HStack {
         Text(label)
-        Slider(
-          value: $value,
-          in: range,
-          minimumValueLabel: Text(minimumValue),
-          maximumValueLabel: Text(maximumValue)
-        ) {
-          Text("whatever")
-        }
+        Spacer()
+        Text(String(format: "%.02f", value))
+          .monospacedDigit()
       }
+      
+      Slider(
+        value: $value,
+        in: range,
+        minimumValueLabel: Text(minimumValue).font(.footnote),
+        maximumValueLabel: Text(maximumValue).font(.footnote)
+      ) {
+        Text("whatever")
+      }
+     
     }
+    .foregroundColor(.secondary)
   }
 }
