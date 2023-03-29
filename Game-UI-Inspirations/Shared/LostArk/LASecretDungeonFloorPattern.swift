@@ -41,7 +41,8 @@ struct LASecretDungeonFloorPattern: View {
               .strokeBorder(Color.lostArkLightBrown, lineWidth: dim * 0.01)
               .shadow(color: .black, radius: 1, x: 1, y: 1)
             
-            CirclePattern(pattern: Circle().fill(Color.lostArkLightBrown), repetitions: 56)
+            CirclePattern(pattern: Circle(), repetitions: 56)
+              .fill(Color.lostArkLightBrown)
               .frame(width: dim * 0.95, height: dim * 0.95)
               .shadow(color: .black, radius: 1, x: 1, y: 1)
 
@@ -60,8 +61,8 @@ struct LASecretDungeonFloorPattern: View {
               .rotationEffect(.radians(.pi / 8))
               .shadow(color: .black, radius: 1, x: 1, y: 1)
 
-            let pattern = TriquetraView(lineWidth: dim * 0.01)
-              .rotationEffect(.radians(.pi))
+            let pattern = Salinon()
+              .rotation(.radians(.pi))
             
             CirclePattern(
               pattern: pattern,

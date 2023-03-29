@@ -16,7 +16,7 @@ struct SWTOREmpireLogo: View {
         ZStack {
           StrokeStyledPolygon(
             sides: 6,
-            dashes: 6,
+            dashPatternCount: 6,
             dashPattern: [7, 3],
             lineWidthRatio: dim * 0.8 * 0.0001,
             dashPhaseRatio: 0.36,

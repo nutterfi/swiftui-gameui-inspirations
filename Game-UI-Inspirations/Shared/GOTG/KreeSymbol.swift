@@ -33,7 +33,7 @@ struct KreeSymbol: View {
           
           StrokeStyledPolygon(
             sides: 3,
-            dashes: 3,
+            dashPatternCount: 3,
             dashPattern: [2, 1],
             lineWidthRatio: 0.08/256 * dim,
             dashPhaseRatio: -0.33
@@ -43,7 +43,7 @@ struct KreeSymbol: View {
     
           StrokeStyledPolygon(
             sides: 3,
-            dashes: 3,
+            dashPatternCount: 3,
             dashPattern: [2, 3],
             lineWidthRatio: 0.08/256 * dim,
             dashPhaseRatio: -0.33

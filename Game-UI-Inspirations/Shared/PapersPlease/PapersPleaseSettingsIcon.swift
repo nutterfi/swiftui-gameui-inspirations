@@ -14,7 +14,7 @@ struct PapersPleaseSettingsIcon: View {
         Color.black
         StrokeStyledPolygon(
           sides: 12,
-          dashes: 48,
+          dashPatternCount: 48,
           lineWidthRatio: 0.03
         )
           .rotationEffect(.degrees(15))

@@ -25,9 +25,9 @@ struct LABardStigmaSkillView: View {
           .padding()
           
           CirclePattern(
-            pattern: TrebleClef()
-              .stroke(color, lineWidth: dim * 0.005),
+            pattern: TrebleClef(),
             repetitions: 4)
+            .stroke(lineWidth: dim * 0.005)
             .frame(width: dim * 0.92, height: dim * 0.92)
             .rotationEffect(.degrees(animating ? -360 : 0))
             .animation(Animation.linear(duration: 60).repeatForever(autoreverses: false), value: animating)
@@ -86,5 +86,6 @@ struct LABardStigmaSkillDemo: View {
 struct LABardStigmaSkillView_Previews: PreviewProvider {
     static var previews: some View {
       LABardStigmaSkillView()
+      .frame(width: 256, height: 256)
     }
 }

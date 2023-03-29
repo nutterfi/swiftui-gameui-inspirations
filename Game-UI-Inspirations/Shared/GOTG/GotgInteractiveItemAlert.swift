@@ -80,7 +80,7 @@ struct GotgInteractiveItemAlert: View {
       
       StrokeStyledPolygon(
         sides: 3,
-        dashes: 3,
+        dashPatternCount: 3,
         dashPattern: [7, 3],
         lineWidthRatio: 0.01,
         dashPhaseRatio: -0.15,
