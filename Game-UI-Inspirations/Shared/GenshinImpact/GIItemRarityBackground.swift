@@ -14,14 +14,13 @@ struct GIItemRarityBackground: View {
     GeometryReader { proxy in
       let dim = min(proxy.size.width, proxy.size.height)
       ZStack {
-        TriquetraView(lineWidth: dim * 0.12)
+        Triquetra(strokeStyle: .init(lineWidth: dim * 0.12), inset: dim * 0.1, centered: true)
           .foregroundColor(Color.white.opacity(0.08))
           .rotationEffect(.degrees(180))
-          .offset(x: 0, y: dim * 0.05)
         Circle()
           .foregroundColor(.white.opacity(0.08))
           .frame(width: dim * 0.15, height: dim * 0.15)
-          .offset(x: 0, y: -dim * 0.05)
+          .offset(x: 0, y: -dim * 0.1)
       }
       .background(
         LinearGradient(colors: [Color(rarity.color.0), Color(rarity.color.1)], startPoint: .topLeading, endPoint: .bottomTrailing)

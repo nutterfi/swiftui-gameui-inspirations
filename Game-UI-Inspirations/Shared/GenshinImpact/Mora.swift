@@ -24,11 +24,11 @@ struct Mora: View {
             .inset(by: dim * 0.15)
             .stroke(Color("giBrown"), lineWidth: dim * 0.02)
             .rotationEffect(.radians(.pi))
-
-          TriquetraView(lineWidth: dim * 0.1)
-            .scaleEffect(0.8)
+          
+          Triquetra(strokeStyle: .init(lineWidth: dim * 0.1), centered: true)
+            .scaleEffect(0.75)
             .foregroundColor(Color("giGold"))
-            .shadow(color: Color("giBrown"), radius: 5, x: 2, y: 2)
+            .shadow(color: Color("giBrown"), radius: 5, x: 5, y: 5)
             .offset(x: 0, y: -dim * 0.08)
           
         }
@@ -47,13 +47,10 @@ struct Mora: View {
 struct Mora_Previews: PreviewProvider {
     static var previews: some View {
       
-        ZStack {
-          Circle().foregroundColor(.white)
-            .frame(width: 500, height: 500)
-          Mora().frame(width: 480, height: 480)
-        }
-        .frame(width: 512, height: 512)
-      
+      ZStack {
+        Mora().padding()
+      }
+      .frame(width: 512, height: 512)
       .background(Color.black)
       .previewLayout(.sizeThatFits)
     }

@@ -43,10 +43,9 @@ struct LASecretDungeonFloorPattern: View {
             
             CirclePattern(pattern: Circle(), repetitions: 56)
               .fill(Color.lostArkLightBrown)
-              .frame(width: dim * 0.95, height: dim * 0.95)
+              .frame(width: dim * 0.96, height: dim * 0.96)
               .shadow(color: .black, radius: 1, x: 1, y: 1)
 
-            
             Circle()
               .inset(by: dim * 0.05)
               .stroke(Color.lostArkLightBrown, lineWidth: dim * 0.01)
@@ -70,7 +69,6 @@ struct LASecretDungeonFloorPattern: View {
               .frame(width: dim * 0.7, height: dim * 0.7)
               .foregroundColor(Color.lostArkLightBrown)
               .shadow(color: .black, radius: 1, x: 1, y: 1)
-            
           }
           
           // Inner circle
@@ -85,17 +83,15 @@ struct LASecretDungeonFloorPattern: View {
               .shadow(color: .black, radius: 1, x: 1, y: 1)
           }
           
-          TriquetraView(lineWidth: dim * 0.01)
+          Triquetra(strokeStyle: .init(lineWidth: dim * 0.01))
             .frame(width: dim * 0.4, height: dim * 0.4)
             .foregroundColor(Color.lostArkLightBrown)
-            .offset(x: 0, y: -dim * 0.025)
             .shadow(color: .black, radius: 1, x: 1, y: 1)
           
           Circle()
             .inset(by: dim * 0.4)
             .stroke(Color.lostArkLightBrown, lineWidth: dim * 0.01)
             .shadow(color: .black, radius: 1, x: 1, y: 1)
-          
         }
         .frame(width: proxy.size.width, height: proxy.size.height)
       }
@@ -110,7 +106,6 @@ struct LASecretDungeonFloorPatternDemo: View {
       ZStack {
         RadialGradient(colors: [.black, .kombatYellow], center: .center, startRadius: 0, endRadius: dim)
           .ignoresSafeArea()
-        
         
         LASecretDungeonFloorPattern()
           .padding()
@@ -129,5 +124,6 @@ struct LASecretDungeonFloorPatternDemo: View {
 struct LASecretDungeonFloorPattern_Previews: PreviewProvider {
     static var previews: some View {
       LASecretDungeonFloorPatternDemo()
+        .previewLayout(.sizeThatFits)
     }
 }
