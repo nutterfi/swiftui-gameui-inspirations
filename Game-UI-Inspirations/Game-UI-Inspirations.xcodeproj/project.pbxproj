@@ -11,6 +11,8 @@
 		290088FF28407EFD00F840D8 /* ProgressBarWithDelta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290088FD28407EFD00F840D8 /* ProgressBarWithDelta.swift */; };
 		290089012840815900F840D8 /* ProgressBarWithDeltaDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290089002840815900F840D8 /* ProgressBarWithDeltaDemo.swift */; };
 		290089022840815900F840D8 /* ProgressBarWithDeltaDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290089002840815900F840D8 /* ProgressBarWithDeltaDemo.swift */; };
+		290245B229F4DAAD0052DCCB /* FF7View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290245B129F4DAAD0052DCCB /* FF7View.swift */; };
+		290245B429F4E5BF0052DCCB /* FF7ViewFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290245B329F4E5BF0052DCCB /* FF7ViewFeed.swift */; };
 		2906484F26FAD6CF009A20A1 /* DBHTitleScreenMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2906484E26FAD6CF009A20A1 /* DBHTitleScreenMenuItem.swift */; };
 		2906485026FAD6CF009A20A1 /* DBHTitleScreenMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2906484E26FAD6CF009A20A1 /* DBHTitleScreenMenuItem.swift */; };
 		2906F21826D603A500E38EFF /* TextEffectViewDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2906F21726D603A500E38EFF /* TextEffectViewDemo.swift */; };
@@ -466,6 +468,8 @@
 /* Begin PBXFileReference section */
 		290088FD28407EFD00F840D8 /* ProgressBarWithDelta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarWithDelta.swift; sourceTree = "<group>"; };
 		290089002840815900F840D8 /* ProgressBarWithDeltaDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarWithDeltaDemo.swift; sourceTree = "<group>"; };
+		290245B129F4DAAD0052DCCB /* FF7View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FF7View.swift; sourceTree = "<group>"; };
+		290245B329F4E5BF0052DCCB /* FF7ViewFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FF7ViewFeed.swift; sourceTree = "<group>"; };
 		2906484E26FAD6CF009A20A1 /* DBHTitleScreenMenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBHTitleScreenMenuItem.swift; sourceTree = "<group>"; };
 		2906F21726D603A500E38EFF /* TextEffectViewDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEffectViewDemo.swift; sourceTree = "<group>"; };
 		290B177227572D590075AE24 /* SpiderManMask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiderManMask.swift; sourceTree = "<group>"; };
@@ -726,6 +730,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		290245B029F4DA380052DCCB /* FF7R */ = {
+			isa = PBXGroup;
+			children = (
+				290245B129F4DAAD0052DCCB /* FF7View.swift */,
+				290245B329F4E5BF0052DCCB /* FF7ViewFeed.swift */,
+			);
+			path = FF7R;
+			sourceTree = "<group>";
+		};
 		290414B62645EDAE00B2C258 /* FireflySymbol */ = {
 			isa = PBXGroup;
 			children = (
@@ -981,6 +994,7 @@
 				2962057726FD7841002F9D3E /* Destiny2 */,
 				2906484D26FAD656009A20A1 /* DetroitBecomeHuman */,
 				2969F64629C6BB550027F12B /* Diablo4 */,
+				290245B029F4DA380052DCCB /* FF7R */,
 				2929B80E2695601400C86BBB /* FFXIV */,
 				29A22CBD2626D288000D9EAF /* GenshinImpact */,
 				293D55B728F2723600DD2351 /* GoldenEye */,
@@ -1514,6 +1528,7 @@
 				295794792650D91D00BDDE3A /* TLOUSkillModel.swift in Sources */,
 				29DD474328431E4900BF4BAE /* CIFilterView.swift in Sources */,
 				2938B4D8298A212200D7678D /* GuardianFadeTransition.swift in Sources */,
+				290245B229F4DAAD0052DCCB /* FF7View.swift in Sources */,
 				293D55B928F2733C00DD2351 /* GoldenEyeWatch.swift in Sources */,
 				29351A4926CF63F00069BE75 /* RDR2AwardViewModel.swift in Sources */,
 				29229844296A79280047CB9E /* OpeningCrawl.swift in Sources */,
@@ -1679,6 +1694,7 @@
 				29EB0A66262BF1D40032E598 /* ControlQuestMarker.swift in Sources */,
 				2910270B263E6DAC00418FE1 /* PoseidonBoon.swift in Sources */,
 				294AA01628DAB7E300B9B14B /* OWPlayerWaitingIcon.swift in Sources */,
+				290245B429F4E5BF0052DCCB /* FF7ViewFeed.swift in Sources */,
 				29DA940E27CF674800741B9B /* Path+Extensions.swift in Sources */,
 				29EDA2D6283741F800BC3C72 /* GearHoningModel.swift in Sources */,
 				29155FF0272BA2D500BA2FE4 /* TLOUMainMenuIcon.swift in Sources */,

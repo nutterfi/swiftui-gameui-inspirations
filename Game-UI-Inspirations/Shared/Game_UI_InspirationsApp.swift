@@ -14,7 +14,7 @@ import SwiftUI
 struct Game_UI_InspirationsApp: App {
   var body: some Scene {
     WindowGroup {
-      ContentView()
+      FF7ViewFeed()
     }
   }
   
