@@ -17,6 +17,14 @@
 		2906485026FAD6CF009A20A1 /* DBHTitleScreenMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2906484E26FAD6CF009A20A1 /* DBHTitleScreenMenuItem.swift */; };
 		2906F21826D603A500E38EFF /* TextEffectViewDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2906F21726D603A500E38EFF /* TextEffectViewDemo.swift */; };
 		2906F21926D603A500E38EFF /* TextEffectViewDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2906F21726D603A500E38EFF /* TextEffectViewDemo.swift */; };
+		290AB8572A04ABD600E3FE66 /* JFOSaberColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290AB8562A04ABD600E3FE66 /* JFOSaberColorPicker.swift */; };
+		290AB8582A04ABD600E3FE66 /* JFOSaberColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290AB8562A04ABD600E3FE66 /* JFOSaberColorPicker.swift */; };
+		290AB85B2A04C31900E3FE66 /* SaberHilt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290AB85A2A04C31900E3FE66 /* SaberHilt.swift */; };
+		290AB85C2A04C31900E3FE66 /* SaberHilt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290AB85A2A04C31900E3FE66 /* SaberHilt.swift */; };
+		290AB85E2A04C36300E3FE66 /* JFOSelectedItemDecoration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290AB85D2A04C36300E3FE66 /* JFOSelectedItemDecoration.swift */; };
+		290AB85F2A04C36300E3FE66 /* JFOSelectedItemDecoration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290AB85D2A04C36300E3FE66 /* JFOSelectedItemDecoration.swift */; };
+		290AB8612A04C4A900E3FE66 /* JFOSaberColorItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290AB8602A04C4A900E3FE66 /* JFOSaberColorItem.swift */; };
+		290AB8622A04C4A900E3FE66 /* JFOSaberColorItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290AB8602A04C4A900E3FE66 /* JFOSaberColorItem.swift */; };
 		290B177327572D590075AE24 /* SpiderManMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290B177227572D590075AE24 /* SpiderManMask.swift */; };
 		290B177727573DB40075AE24 /* SpiderManMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290B177227572D590075AE24 /* SpiderManMask.swift */; };
 		290B5CF7268ED22C00EB93BD /* HadesBoonDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290B5CF6268ED22C00EB93BD /* HadesBoonDemo.swift */; };
@@ -472,6 +480,10 @@
 		290245B329F4E5BF0052DCCB /* FF7ViewFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FF7ViewFeed.swift; sourceTree = "<group>"; };
 		2906484E26FAD6CF009A20A1 /* DBHTitleScreenMenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBHTitleScreenMenuItem.swift; sourceTree = "<group>"; };
 		2906F21726D603A500E38EFF /* TextEffectViewDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEffectViewDemo.swift; sourceTree = "<group>"; };
+		290AB8562A04ABD600E3FE66 /* JFOSaberColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JFOSaberColorPicker.swift; sourceTree = "<group>"; };
+		290AB85A2A04C31900E3FE66 /* SaberHilt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaberHilt.swift; sourceTree = "<group>"; };
+		290AB85D2A04C36300E3FE66 /* JFOSelectedItemDecoration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JFOSelectedItemDecoration.swift; sourceTree = "<group>"; };
+		290AB8602A04C4A900E3FE66 /* JFOSaberColorItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JFOSaberColorItem.swift; sourceTree = "<group>"; };
 		290B177227572D590075AE24 /* SpiderManMask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiderManMask.swift; sourceTree = "<group>"; };
 		290B5CF6268ED22C00EB93BD /* HadesBoonDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HadesBoonDemo.swift; sourceTree = "<group>"; };
 		290BBC3026CCC06F004D57D9 /* TextEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEffectView.swift; sourceTree = "<group>"; };
@@ -759,6 +771,16 @@
 			path = DetroitBecomeHuman;
 			sourceTree = "<group>";
 		};
+		290AB8592A04C30200E3FE66 /* SaberColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				290AB85A2A04C31900E3FE66 /* SaberHilt.swift */,
+				290AB85D2A04C36300E3FE66 /* JFOSelectedItemDecoration.swift */,
+				290AB8602A04C4A900E3FE66 /* JFOSaberColorItem.swift */,
+			);
+			path = SaberColorPicker;
+			sourceTree = "<group>";
+		};
 		290B177127572D3E0075AE24 /* SpiderMan */ = {
 			isa = PBXGroup;
 			children = (
@@ -834,7 +856,9 @@
 		29229842296A78DC0047CB9E /* JediFallenOrder */ = {
 			isa = PBXGroup;
 			children = (
+				290AB8592A04C30200E3FE66 /* SaberColorPicker */,
 				29F1005D2973B58D008D04C8 /* JFOAlert.swift */,
+				290AB8562A04ABD600E3FE66 /* JFOSaberColorPicker.swift */,
 			);
 			path = JediFallenOrder;
 			sourceTree = "<group>";
@@ -1573,6 +1597,7 @@
 				2956788B2722795400FA372A /* MasterlessStarglitter.swift in Sources */,
 				2942149D290B84D200E205C6 /* AlanWakeSelectionView.swift in Sources */,
 				294F3EE8297113FE0000E48A /* ArkhamAsylumHUD.swift in Sources */,
+				290AB8572A04ABD600E3FE66 /* JFOSaberColorPicker.swift in Sources */,
 				290088FE28407EFD00F840D8 /* ProgressBarWithDelta.swift in Sources */,
 				29567DB7276D80FC00946491 /* LineSegmentGroup.swift in Sources */,
 				29BCCFB7277C2AD90055DE94 /* CircularText.swift in Sources */,
@@ -1617,6 +1642,7 @@
 				29EEFDD1276EFAA300290CA2 /* Spider.swift in Sources */,
 				29D0110E2759D014002E393B /* SpiderManSkillsMenu.swift in Sources */,
 				2976E1BF2626A45100272ADC /* Game_UI_InspirationsApp.swift in Sources */,
+				290AB8612A04C4A900E3FE66 /* JFOSaberColorItem.swift in Sources */,
 				29188616272505320060E33C /* RDR2Revolver.swift in Sources */,
 				294FF9482632AE300057869B /* TLOUIconDemo.swift in Sources */,
 				29A22CFB2626D8C9000D9EAF /* ConsummateVDemo.swift in Sources */,
@@ -1626,6 +1652,7 @@
 				29421CAA27193ED200CBEDBB /* GIInventoryMenu.swift in Sources */,
 				29C11DE927630F0300D0CA09 /* SpiderManSkillView.swift in Sources */,
 				290FD8CA28C472E3004BB351 /* AnimatedStrokeStyledCircleDemo.swift in Sources */,
+				290AB85E2A04C36300E3FE66 /* JFOSelectedItemDecoration.swift in Sources */,
 				29AF0326273B952200B5BA4B /* CodeSnippets.swift in Sources */,
 				2959344028AF4489005F8EE0 /* FFXIVCharacterTabView.swift in Sources */,
 				29421CA127192C6900CBEDBB /* GIItem.swift in Sources */,
@@ -1660,6 +1687,7 @@
 				29E7056A271BF39800D6B9CC /* IsotoxalPolygonDemo.swift in Sources */,
 				2938B4DE298A2F8200D7678D /* GotgSettingsMenu.swift in Sources */,
 				2938B4DB298A2F4600D7678D /* RandomIndexedTiledShape.swift in Sources */,
+				290AB85B2A04C31900E3FE66 /* SaberHilt.swift in Sources */,
 				2960C695270A0B850024872D /* OrnateCorners.swift in Sources */,
 				29A22D4D2626E041000D9EAF /* RDR2MinimapView.swift in Sources */,
 				294214A3290B984000E205C6 /* CGAffineTransformDemo.swift in Sources */,
@@ -1863,6 +1891,7 @@
 				2938B4DC298A2F4600D7678D /* RandomIndexedTiledShape.swift in Sources */,
 				298CD786270FEF2A00C9D6B9 /* KiteAnimationDemo.swift in Sources */,
 				29EED47D280676C900504968 /* LABossAttackAreaAnimation.swift in Sources */,
+				290AB8582A04ABD600E3FE66 /* JFOSaberColorPicker.swift in Sources */,
 				29AF0327273B952200B5BA4B /* CodeSnippets.swift in Sources */,
 				2910BBE9271FD5670019329D /* PersonProfile.swift in Sources */,
 				29816B6D263BBF1E0016F1BA /* Rustify.swift in Sources */,
@@ -1870,9 +1899,11 @@
 				29A4F4A0283DEC9F0078F32D /* LAItem.swift in Sources */,
 				29CFBC0D2977A9860083C6B8 /* KreeSymbol.swift in Sources */,
 				296C1F1727F6A44D00BAEA23 /* Shimmer.swift in Sources */,
+				290AB85C2A04C31900E3FE66 /* SaberHilt.swift in Sources */,
 				29922AC92633D270002469C2 /* MK11SelectionView.swift in Sources */,
 				29A22D4E2626E041000D9EAF /* RDR2MinimapView.swift in Sources */,
 				29FADE1A269EA23000CF6D73 /* TypewriterTextViewModel.swift in Sources */,
+				290AB85F2A04C36300E3FE66 /* JFOSelectedItemDecoration.swift in Sources */,
 				29351A4A26CF63F00069BE75 /* RDR2AwardViewModel.swift in Sources */,
 				29532EFE26451D8B000F07F1 /* FireflySymbol.swift in Sources */,
 				2978B27628C1B451007EC9AF /* ACONewLocationBanner.swift in Sources */,
@@ -1952,6 +1983,7 @@
 				2959344428AF4CC9005F8EE0 /* FFXIVCharacterPointsView.swift in Sources */,
 				2993C98C286572BD002E09CB /* NMSCraftingMenuItem.swift in Sources */,
 				29D3FAB72644F4B000B6A02F /* SkillVitamin.swift in Sources */,
+				290AB8622A04C4A900E3FE66 /* JFOSaberColorItem.swift in Sources */,
 				29CFBC102977B58E0083C6B8 /* FactionBanner.swift in Sources */,
 				29EEFDD2276EFAA300290CA2 /* Spider.swift in Sources */,
 				29A22D402626DFF3000D9EAF /* MaskedProgressBar.swift in Sources */,
