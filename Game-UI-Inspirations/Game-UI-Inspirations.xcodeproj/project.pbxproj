@@ -216,6 +216,8 @@
 		2964BAB126C383EE00F37FDC /* SWTOREmpireLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2964BAAF26C383EE00F37FDC /* SWTOREmpireLogo.swift */; };
 		2964BAB326C384B000F37FDC /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2964BAB226C384B000F37FDC /* Game.swift */; };
 		2964BAB426C384B000F37FDC /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2964BAB226C384B000F37FDC /* Game.swift */; };
+		296562EF2A0B500B00F9B0BB /* HiFiRushBeatBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296562EE2A0B500B00F9B0BB /* HiFiRushBeatBar.swift */; };
+		296562F02A0B500B00F9B0BB /* HiFiRushBeatBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296562EE2A0B500B00F9B0BB /* HiFiRushBeatBar.swift */; };
 		2969F64829C6BBB10027F12B /* D4Waypoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2969F64729C6BBB10027F12B /* D4Waypoint.swift */; };
 		2969F64929C6BBB10027F12B /* D4Waypoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2969F64729C6BBB10027F12B /* D4Waypoint.swift */; };
 		296C1F1627F6A44D00BAEA23 /* Shimmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296C1F1527F6A44D00BAEA23 /* Shimmer.swift */; };
@@ -585,6 +587,7 @@
 		29637C9428BB347A0065ECB5 /* ACOTargetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACOTargetView.swift; sourceTree = "<group>"; };
 		2964BAAF26C383EE00F37FDC /* SWTOREmpireLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWTOREmpireLogo.swift; sourceTree = "<group>"; };
 		2964BAB226C384B000F37FDC /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		296562EE2A0B500B00F9B0BB /* HiFiRushBeatBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiFiRushBeatBar.swift; sourceTree = "<group>"; };
 		2969F64729C6BBB10027F12B /* D4Waypoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = D4Waypoint.swift; sourceTree = "<group>"; };
 		296C1F1527F6A44D00BAEA23 /* Shimmer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shimmer.swift; sourceTree = "<group>"; };
 		296C7F502706B35D00BFACC1 /* DBHLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBHLoadingView.swift; sourceTree = "<group>"; };
@@ -979,6 +982,14 @@
 			path = AssassinsCreedOrigins;
 			sourceTree = "<group>";
 		};
+		296562ED2A0B4FEF00F9B0BB /* HiFiRush */ = {
+			isa = PBXGroup;
+			children = (
+				296562EE2A0B500B00F9B0BB /* HiFiRushBeatBar.swift */,
+			);
+			path = HiFiRush;
+			sourceTree = "<group>";
+		};
 		2969F64629C6BB550027F12B /* Diablo4 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1024,6 +1035,7 @@
 				293D55B728F2723600DD2351 /* GoldenEye */,
 				29CFBC0A2977A3D40083C6B8 /* GOTG */,
 				291026FD263E62BC00418FE1 /* Hades */,
+				296562ED2A0B4FEF00F9B0BB /* HiFiRush */,
 				291B290728812DA10035BDCE /* JustCause4 */,
 				295E145F27F013C900724FB7 /* LostArk */,
 				2941D031298CBFA000DB130D /* MassEffect */,
@@ -1539,6 +1551,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2936E04E27707CDF0075FADF /* GIAchievementMenu.swift in Sources */,
+				296562EF2A0B500B00F9B0BB /* HiFiRushBeatBar.swift in Sources */,
 				2976E1DA2626AD5C00272ADC /* Pulsar.swift in Sources */,
 				29C11DEC276310C000D0CA09 /* SpiderManSkillTreeWeb.swift in Sources */,
 				296C1F1627F6A44D00BAEA23 /* Shimmer.swift in Sources */,
@@ -1891,6 +1904,7 @@
 				2938B4DC298A2F4600D7678D /* RandomIndexedTiledShape.swift in Sources */,
 				298CD786270FEF2A00C9D6B9 /* KiteAnimationDemo.swift in Sources */,
 				29EED47D280676C900504968 /* LABossAttackAreaAnimation.swift in Sources */,
+				296562F02A0B500B00F9B0BB /* HiFiRushBeatBar.swift in Sources */,
 				290AB8582A04ABD600E3FE66 /* JFOSaberColorPicker.swift in Sources */,
 				29AF0327273B952200B5BA4B /* CodeSnippets.swift in Sources */,
 				2910BBE9271FD5670019329D /* PersonProfile.swift in Sources */,
