@@ -216,6 +216,8 @@
 		2964BAB126C383EE00F37FDC /* SWTOREmpireLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2964BAAF26C383EE00F37FDC /* SWTOREmpireLogo.swift */; };
 		2964BAB326C384B000F37FDC /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2964BAB226C384B000F37FDC /* Game.swift */; };
 		2964BAB426C384B000F37FDC /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2964BAB226C384B000F37FDC /* Game.swift */; };
+		296526702A0DF88E00B96F82 /* MEConversationWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2965266F2A0DF88E00B96F82 /* MEConversationWheel.swift */; };
+		296526712A0DF88E00B96F82 /* MEConversationWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2965266F2A0DF88E00B96F82 /* MEConversationWheel.swift */; };
 		296562EF2A0B500B00F9B0BB /* HiFiRushBeatBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296562EE2A0B500B00F9B0BB /* HiFiRushBeatBar.swift */; };
 		296562F02A0B500B00F9B0BB /* HiFiRushBeatBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296562EE2A0B500B00F9B0BB /* HiFiRushBeatBar.swift */; };
 		2969F64829C6BBB10027F12B /* D4Waypoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2969F64729C6BBB10027F12B /* D4Waypoint.swift */; };
@@ -587,6 +589,7 @@
 		29637C9428BB347A0065ECB5 /* ACOTargetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACOTargetView.swift; sourceTree = "<group>"; };
 		2964BAAF26C383EE00F37FDC /* SWTOREmpireLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWTOREmpireLogo.swift; sourceTree = "<group>"; };
 		2964BAB226C384B000F37FDC /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		2965266F2A0DF88E00B96F82 /* MEConversationWheel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEConversationWheel.swift; sourceTree = "<group>"; };
 		296562EE2A0B500B00F9B0BB /* HiFiRushBeatBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiFiRushBeatBar.swift; sourceTree = "<group>"; };
 		2969F64729C6BBB10027F12B /* D4Waypoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = D4Waypoint.swift; sourceTree = "<group>"; };
 		296C1F1527F6A44D00BAEA23 /* Shimmer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shimmer.swift; sourceTree = "<group>"; };
@@ -894,6 +897,7 @@
 				2941D032298CBFD500DB130D /* METalentIcon.swift */,
 				29D2EDD229A1D8C00009EEA3 /* MEDecryptionMinigame.swift */,
 				29F77CCD29BAF04E00848447 /* MEMinigameEngine.swift */,
+				2965266F2A0DF88E00B96F82 /* MEConversationWheel.swift */,
 			);
 			path = MassEffect;
 			sourceTree = "<group>";
@@ -1657,6 +1661,7 @@
 				2976E1BF2626A45100272ADC /* Game_UI_InspirationsApp.swift in Sources */,
 				290AB8612A04C4A900E3FE66 /* JFOSaberColorItem.swift in Sources */,
 				29188616272505320060E33C /* RDR2Revolver.swift in Sources */,
+				296526702A0DF88E00B96F82 /* MEConversationWheel.swift in Sources */,
 				294FF9482632AE300057869B /* TLOUIconDemo.swift in Sources */,
 				29A22CFB2626D8C9000D9EAF /* ConsummateVDemo.swift in Sources */,
 				294B9B6228D6CC7100B79EEC /* PapersPleaseSettingsIcon.swift in Sources */,
@@ -1900,6 +1905,7 @@
 				2933C0A72772FA470063CF78 /* DragonCurveDemo.swift in Sources */,
 				2952A69326DF3859007BABFC /* StarPolygonDemo.swift in Sources */,
 				297A6E3B265E02B600201D1A /* DiamondDogsLogo.swift in Sources */,
+				296526712A0DF88E00B96F82 /* MEConversationWheel.swift in Sources */,
 				29A22CF82626D8C9000D9EAF /* LoadingRingsView.swift in Sources */,
 				2938B4DC298A2F4600D7678D /* RandomIndexedTiledShape.swift in Sources */,
 				298CD786270FEF2A00C9D6B9 /* KiteAnimationDemo.swift in Sources */,

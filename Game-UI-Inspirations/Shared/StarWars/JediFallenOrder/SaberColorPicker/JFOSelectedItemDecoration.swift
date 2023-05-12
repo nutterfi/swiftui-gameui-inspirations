@@ -12,10 +12,14 @@ import Shapes
 struct JFOSelectedItemDecoration: View {
   var body: some View {
     ZStack {
-      StrokeStyledCircle(numberOfSegments: 1, dashPattern: [10, 1, 4, 1, 7, 1, 1], lineWidth: 2)
-        .inset(by: -10)
-        .foregroundColor(.jfoCopper)
-        .shadow(color: .white, radius: 1)
+      StrokeStyledCircle(
+        numberOfSegments: 1,
+        dashPattern: [10, 1, 4, 1, 7, 1, 1, 0],
+        lineWidth: 2
+      )
+      .inset(by: -10)
+      .foregroundColor(.jfoCopper)
+      .shadow(color: .white, radius: 1)
     }
   }
 }
