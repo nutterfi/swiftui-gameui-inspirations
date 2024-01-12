@@ -85,7 +85,6 @@ struct ACOQuestView: View {
         
         Salinon()
           .inset(by: dim * 0.3)
-        
       }
       .foregroundColor(.acoGoldAgain)
       .frame(width: proxy.size.width, height: proxy.size.height)

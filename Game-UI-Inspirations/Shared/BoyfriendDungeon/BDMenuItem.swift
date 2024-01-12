@@ -23,9 +23,8 @@ struct BDMenuItem: View {
           .inset(by: dim * 0.1)
           .stroke(lineWidth: 5)
           .overlay(
-            Image(systemName: "heart.fill")
-              .resizable()
-              .scaledToFit()
+            Heart()
+              .frame(width: dim * 0.5, height: dim * 0.5)
               .padding(dim * 0.2)
               .foregroundColor(.red)
           )

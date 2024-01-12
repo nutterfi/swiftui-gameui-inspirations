@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// TODO: Fix sync of the orange segment appearing
 struct OW2FindingGameAnimation: View {
   @State private var isAnimating = false
     var body: some View {

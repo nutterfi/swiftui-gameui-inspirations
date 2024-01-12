@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -261,6 +261,7 @@
 		29813986263287BA00009D7B /* POIMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29813984263287BA00009D7B /* POIMarker.swift */; };
 		29816B6C263BBF1E0016F1BA /* Rustify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29816B6B263BBF1E0016F1BA /* Rustify.swift */; };
 		29816B6D263BBF1E0016F1BA /* Rustify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29816B6B263BBF1E0016F1BA /* Rustify.swift */; };
+		2987AE962B50F39B0062C239 /* StarfoxShip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2987AE952B50F39B0062C239 /* StarfoxShip.swift */; };
 		2987F60E2931D53E00DE8218 /* BatmanLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2987F60D2931D53E00DE8218 /* BatmanLogo.swift */; };
 		2987F60F2931D53E00DE8218 /* BatmanLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2987F60D2931D53E00DE8218 /* BatmanLogo.swift */; };
 		2987F6112931EB8800DE8218 /* BatmanSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2987F6102931EB8800DE8218 /* BatmanSelectionView.swift */; };
@@ -616,6 +617,7 @@
 		298079B2295E9CA10098B173 /* STFCTutorialArrow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STFCTutorialArrow.swift; sourceTree = "<group>"; };
 		29813984263287BA00009D7B /* POIMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POIMarker.swift; sourceTree = "<group>"; };
 		29816B6B263BBF1E0016F1BA /* Rustify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rustify.swift; sourceTree = "<group>"; };
+		2987AE952B50F39B0062C239 /* StarfoxShip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarfoxShip.swift; sourceTree = "<group>"; };
 		2987F60D2931D53E00DE8218 /* BatmanLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatmanLogo.swift; sourceTree = "<group>"; };
 		2987F6102931EB8800DE8218 /* BatmanSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatmanSelectionView.swift; sourceTree = "<group>"; };
 		298CD781270FEF2900C9D6B9 /* TesselationDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TesselationDemo.swift; sourceTree = "<group>"; };
@@ -1017,6 +1019,7 @@
 		2976E1AB2626A45000272ADC /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				2987AE942B50F3820062C239 /* Starfox */,
 				2976E1AC2626A45000272ADC /* Game_UI_InspirationsApp.swift */,
 				2976E1AD2626A45000272ADC /* ContentView.swift */,
 				2964BAB226C384B000F37FDC /* Game.swift */,
@@ -1150,6 +1153,14 @@
 				29FADE1B269EA6E800CF6D73 /* MGSVMissionTextDemo.swift */,
 			);
 			path = MGSV;
+			sourceTree = "<group>";
+		};
+		2987AE942B50F3820062C239 /* Starfox */ = {
+			isa = PBXGroup;
+			children = (
+				2987AE952B50F39B0062C239 /* StarfoxShip.swift */,
+			);
+			path = Starfox;
 			sourceTree = "<group>";
 		};
 		2987F60C2931D51600DE8218 /* Arkham */ = {
@@ -1561,6 +1572,7 @@
 				296C1F1627F6A44D00BAEA23 /* Shimmer.swift in Sources */,
 				2906484F26FAD6CF009A20A1 /* DBHTitleScreenMenuItem.swift in Sources */,
 				29CFBC122977BFE90083C6B8 /* KrakoaFont.swift in Sources */,
+				2987AE962B50F39B0062C239 /* StarfoxShip.swift in Sources */,
 				29A22D122626DC60000D9EAF /* KountdownTimerView.swift in Sources */,
 				293D55BB28F29EA700DD2351 /* Clock.swift in Sources */,
 				290BBC3426CCC8AA004D57D9 /* TextEffectViewModel.swift in Sources */,
@@ -2145,7 +2157,7 @@
 				ENABLE_PREVIEWS = YES;
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				INFOPLIST_FILE = iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2168,7 +2180,7 @@
 				ENABLE_PREVIEWS = YES;
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				INFOPLIST_FILE = iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
