@@ -20,7 +20,7 @@ struct RDR2HUDCoreView: View {
       case .health:
         Heart()
       case .deadeye:
-        DoubleTeardrop()
+        UnevenRoundedRectangle(cornerRadii: RectangleCornerRadii(topLeading: 100, bottomTrailing: 100))
           .padding(5)
           .rotationEffect(.degrees(135))
       }

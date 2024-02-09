@@ -91,7 +91,7 @@ struct OriSkillWheel: View {
   }
   
   var backgroundView: some View {
-    IsotoxalPolygon(sides: 16, innerRadius: 0.5)
+    IsotoxalPolygon(sidePairs: 8, innerRadius: 0.5)
       .foregroundColor(.blue)
       .shadow(color: Color.blue, radius: 5)
       .shadow(color: Color.blue, radius: 5)

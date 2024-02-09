@@ -109,7 +109,7 @@ struct PorterGradeView: View {
           // TOP [0] is the max
           // midpoint (computed above) is the min
           // actual is min + fraction of the distance between min and max
-          let vertices = IsotoxalPolygon(sides: sides * 2, innerRadius: 0.38)
+          let vertices = IsotoxalPolygon(sidePairs: sides, innerRadius: 0.38)
             .vertices(in: proxy.frame(in: .local))
           
           // 2 paths per subgrade, to draw symmetric triangles with different colors

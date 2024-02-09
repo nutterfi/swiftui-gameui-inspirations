@@ -46,33 +46,33 @@ struct MasterlessStarglitter: View {
           }
           
           // backgrounded
-          IsotoxalPolygon(sides: 8, innerRadius: 0.5)
+          IsotoxalPolygon(sidePairs: 4, innerRadius: 0.5)
             .inset(by: dim * 0.1)
             .foregroundColor(Color("giStarglitterYellow"))
             .overlay(
-              IsotoxalPolygon(sides: 8, innerRadius: 0.5)
+              IsotoxalPolygon(sidePairs: 4, innerRadius: 0.5)
                 .inset(by: dim * 0.1)
                 .stroke(Color("giStarglitterYellow-1"))
             )
             .overlay(
               // TODO: Rounded corners
-              IsotoxalPolygon(sides: 8, innerRadius: 0.4)
+              IsotoxalPolygon(sidePairs: 4, innerRadius: 0.4)
                 .inset(by: dim * 0.2)
                 .foregroundColor(Color("giStarglitterYellow-1"))
             )
             .rotationEffect(.degrees(45))
           
           
-          IsotoxalPolygon(sides: 8, innerRadius: 0.5)
+          IsotoxalPolygon(sidePairs: 4, innerRadius: 0.5)
             .inset(by: dim * 0.05)
             .foregroundColor(Color("giLightBorder"))
             .overlay(
-              IsotoxalPolygon(sides: 8, innerRadius: 0.5)
+              IsotoxalPolygon(sidePairs: 4, innerRadius: 0.5)
                 .inset(by: dim * 0.05)
                 .stroke(Color("giNightSky"))
             )
           
-          IsotoxalPolygon(sides: 8, innerRadius: 0.5)
+          IsotoxalPolygon(sidePairs: 4, innerRadius: 0.5)
             .inset(by: dim * 0.1)
             .foregroundColor(Color("giNightSky"))
         }

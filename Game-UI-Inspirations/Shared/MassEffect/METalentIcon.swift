@@ -27,7 +27,7 @@ struct METalentIcon: View {
             .scale(0.5)
             .offset(x: 0, y: -dim * 0.15)
             .adding(
-              RoundedCornerRectangle(cornerRadius: dim * 0.25, corners: [.topLeft, .topRight])
+              UnevenRoundedRectangle(cornerRadii: RectangleCornerRadii(topLeading: dim * 0.25, topTrailing: dim * 0.25))
                 .scale(x: 0.8, y: 0.5)
                 .offset(x: 0, y: dim * 0.3)
             )

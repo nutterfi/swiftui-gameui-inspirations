@@ -50,7 +50,7 @@ struct GIItemView: View {
       case .mora:
         Mora()
       case .primogem:
-        TwoTonedIsotoxalPolygon(sides: 4, color1: .white, color2: Color("giBlue"))
+        TwoTonedIsotoxalPolygon(sides: 2, color1: .white, color2: Color("giBlue"))
       case .starglitter:
         MasterlessStarglitter()
       case .character:

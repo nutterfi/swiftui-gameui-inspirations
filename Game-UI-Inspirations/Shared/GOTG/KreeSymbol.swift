@@ -25,7 +25,7 @@ struct KreeSymbol: View {
             .strokeBordered(8/256 * dim)
             .offset(x: 0, y: -dim * 0.1)
           
-          IsotoxalPolygon(sides: 6, innerRadius: 0)
+          IsotoxalPolygon(sidePairs: 3, innerRadius: 0)
             .inset(by: 75/256 * dim)
             .rotation(.radians(-.pi/2))
             .strokeBordered(8/256 * dim)

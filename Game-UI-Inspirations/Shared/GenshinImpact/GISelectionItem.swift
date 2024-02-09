@@ -23,12 +23,12 @@ struct GISelectionItem: View {
         }
         .frame(height: proxy.size.height * 0.85)
         .clipShape(
-          RoundedCornerRectangle(cornerRadius: dim * 0.2, corners: [.bottomRight])
+          UnevenRoundedRectangle(bottomTrailingRadius: dim * 0.2)
         )
         
         HStack(spacing: 0) {
           ForEach(0..<item.rarity.rawValue, id:\.self) { _ in
-            IsotoxalPolygon(sides: 10, innerRadius: 0.6 ).fill(item.showStars ? Color.yellow : Color.clear)
+            IsotoxalPolygon(sidePairs: 5, innerRadius: 0.6 ).fill(item.showStars ? Color.yellow : Color.clear)
               .frame(width: dim * 0.15)
           }
         }
