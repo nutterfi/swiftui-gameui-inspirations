@@ -19,16 +19,16 @@ struct OWDecorPattern: View {
           Circle()
             .fill(Color.purple)
 
-          IsotoxalPolygon(sides: 16, innerRadius: 0.77)
+          IsotoxalPolygon(sidePairs: 8, innerRadius: 0.77)
             .inset(by: dim * 0.25)
             .stroke(lineWidth: dim * 0.01)
             .foregroundColor(.hadesZeusYellow)
           
-          IsotoxalPolygon(sides: 16, innerRadius: 0.77)
+          IsotoxalPolygon(sidePairs: 8, innerRadius: 0.77)
             .inset(by: dim * 0.38)
             .foregroundColor(.hadesZeusYellow)
           
-          IsotoxalPolygon(sides: 16, innerRadius: 0.77)
+          IsotoxalPolygon(sidePairs: 8, innerRadius: 0.77)
             .inset(by: dim * 0.4)
             .stroke(lineWidth: 1)
             

@@ -116,7 +116,7 @@ struct LACardBack: View {
             .inset(by: dim * 0.25)
             .strokeBorder(grad, lineWidth: dim * 0.03, antialiased: true)
           
-          IsotoxalPolygon(sides: 16, innerRadius: 0)
+          IsotoxalPolygon(sidePairs: 8, innerRadius: 0)
             .inset(by: dim * 0.1)
             .strokeBorder(grad, lineWidth: dim * 0.03, antialiased: true)
             .shadow(color: Color.hadesZeusYellow, radius: 2, x: 1, y: 1)

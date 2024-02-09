@@ -77,7 +77,7 @@ struct BreathGem: View {
           StarPolygon(points: 8, density: 2)
             .foregroundColor(gemColors.1)
             .overlay(
-              IsotoxalPolygon(sides: 16, innerRadius: 0.1)
+              IsotoxalPolygon(sidePairs: 8, innerRadius: 0.1)
                 .shadow(color: .black, radius: 2, x: 1, y: 1)
             )
             .frame(width: dim, height: dim)
@@ -94,13 +94,13 @@ struct BreathGem: View {
         
         Group {
           let inset = 0.22
-          Torx(sides: 4, controlPointRatio: 0.85)
+          Torx(sides: 4, controlPointInset: 0.85)
             .inset(by: dim * inset)
             .strokeBorder(gemColors.0)
-          Torx(sides: 4, controlPointRatio: 0.84)
+          Torx(sides: 4, controlPointInset: 0.84)
             .inset(by: dim * inset)
             .foregroundColor(gemColors.1)
-          Torx(sides: 4, controlPointRatio: 0.85)
+          Torx(sides: 4, controlPointInset: 0.85)
             .inset(by: dim * inset)
             .strokeBorder(gemColors.0)
             .rotationEffect(.degrees(45))
@@ -110,7 +110,7 @@ struct BreathGem: View {
             .frame(width: dim * 0.6, height: dim * 0.6)
             .offset(x: -dim * 0.1, y: -dim * 0.1)
           
-          Torx(sides: 4, controlPointRatio: 0.84)
+          Torx(sides: 4, controlPointInset: 0.84)
             .inset(by: dim * inset)
             .foregroundColor(gemColors.1)
             .rotationEffect(.degrees(45))

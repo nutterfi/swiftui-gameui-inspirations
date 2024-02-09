@@ -21,7 +21,7 @@ struct PersonProfile: View {
           
           VStack () {
             Spacer()
-            RoundedCornerRectangle(cornerRadius: dim * 0.25, corners: [.topLeft, .topRight])
+            UnevenRoundedRectangle(cornerRadii: RectangleCornerRadii(topLeading: dim * 0.25, topTrailing: dim * 0.25))
               .frame(width: dim, height: proxy.size.height * 0.3)
           }
 

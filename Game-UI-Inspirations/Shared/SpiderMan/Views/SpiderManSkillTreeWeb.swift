@@ -11,33 +11,33 @@ import Shapes
 /// the backdrop to the skill tree
 struct SpiderManSkillTreeWeb: View {
   var sides: Int
-  let controlPointRatio = 0.03
+  let controlPointInset = 0.03
   var body: some View {
     GeometryReader { proxy in
       let dim = min(proxy.size.width, proxy.size.height)
       let gradient = RadialGradient(colors: [.clear, .spiderManTeal], center: .center, startRadius: 0, endRadius: dim * 0.5)
       
       ZStack {
-        Torx(sides: sides, controlPointRatio: controlPointRatio)
+        Torx(sides: sides, controlPointInset: controlPointInset)
           .trim(from: 0, to: 0.5)
           .fill(gradient)
           
         ForEach(0..<5) { index in
-          Torx(sides: sides, controlPointRatio: controlPointRatio)
+          Torx(sides: sides, controlPointInset: controlPointInset)
             .inset(by: CGFloat(index) * dim * 0.08)
             .trim(from: 0, to: 0.5)
             .stroke(Color.spiderManSkillBorder)
         }
         
-        IsotoxalPolygon(sides: sides * 2, innerRadius: 0)
+        IsotoxalPolygon(sidePairs: sides, innerRadius: 0)
           .trim(from: 0, to: 0.5)
           .stroke(Color.spiderManSkillBorder, lineWidth: 1)
         
-        Torx(sides: sides, controlPointRatio: controlPointRatio)
+        Torx(sides: sides, controlPointInset: controlPointInset)
           .inset(by: dim * 0.32)
           .trim(from: 0, to: 0.5)
           .fill(.white)
-        Torx(sides: sides, controlPointRatio: controlPointRatio)
+        Torx(sides: sides, controlPointInset: controlPointInset)
           .inset(by: dim * 0.32)
           .trim(from: 0, to: 0.5)
           .fill(Color.spiderManSkillBorder)

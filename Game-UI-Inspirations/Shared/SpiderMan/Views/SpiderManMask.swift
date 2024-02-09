@@ -68,17 +68,17 @@ struct SpiderManMask: View {
         Circle()
           .strokeBorder(lineColor, lineWidth: dim * 0.03)
         
-        IsotoxalPolygon(sides: lines * 2, innerRadius: 0)
+        IsotoxalPolygon(sidePairs: lines, innerRadius: 0)
           .strokeBorder(lineColor, lineWidth: dim * 0.015)
 
-        Torx(sides: lines, controlPointRatio: 0.1)
+        Torx(sides: lines, controlPointInset: 0.1)
           .strokeBorder(lineColor, style: StrokeStyle(lineWidth: dim * 0.018, lineCap: .round, lineJoin: .miter, miterLimit: 0, dash: [], dashPhase: 0))
         
-        Torx(sides: lines, controlPointRatio: 0.1)
+        Torx(sides: lines, controlPointInset: 0.1)
           .inset(by: dim * 0.15)
           .stroke(lineColor, lineWidth: dim * 0.015)
         
-        Torx(sides: lines, controlPointRatio: 0.1)
+        Torx(sides: lines, controlPointInset: 0.1)
           .inset(by: dim * 0.28)
           .stroke(lineColor, lineWidth: dim * 0.015)
 

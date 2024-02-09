@@ -14,7 +14,8 @@ struct GIItemRarityBackground: View {
     GeometryReader { proxy in
       let dim = min(proxy.size.width, proxy.size.height)
       ZStack {
-        Triquetra(strokeStyle: .init(lineWidth: dim * 0.12), inset: dim * 0.1, centered: true)
+        Triquetra(strokeStyle: .init(lineWidth: dim * 0.12), centered: true)
+          .inset(by: dim * 0.1)
           .foregroundColor(Color.white.opacity(0.08))
           .rotationEffect(.degrees(180))
         Circle()

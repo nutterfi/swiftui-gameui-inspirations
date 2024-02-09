@@ -13,10 +13,10 @@ struct JustCause4Compass: View {
     GeometryReader { proxy in
       let dim = min(proxy.size.width, proxy.size.height)
       ZStack {
-        IsotoxalPolygon(sides: 8, innerRadius: 0.2)
+        IsotoxalPolygon(sidePairs: 4, innerRadius: 0.2)
           .frame(width: dim * 0.7, height: dim * 0.7)
           .overlay {
-            IsotoxalPolygon(sides: 8, innerRadius: 0.2)
+            IsotoxalPolygon(sidePairs: 4, innerRadius: 0.2)
               .stroke(Color.white, lineWidth: 5)
           }
           .rotationEffect(.degrees(45))
@@ -25,7 +25,7 @@ struct JustCause4Compass: View {
         TwoTonedIsotoxalPolygon(sides: 4, innerRadius: 0.2, color1: .white, color2: .black)
           .frame(width: dim, height: dim)
           .overlay {
-            IsotoxalPolygon(sides: 8, innerRadius: 0.2)
+            IsotoxalPolygon(sidePairs: 4, innerRadius: 0.2)
               .stroke(Color.white, lineWidth: 5)
           }
         

@@ -18,12 +18,12 @@ struct OWPlayerWaitingIcon: View {
         Color.acoBlue
         ForEach(0..<repeats, id: \.self) { index in
           let opacity = 0.1 * Double(index)
-          Torx(sides: 6, controlPointRatio: 0)
+          Torx(sides: 6, controlPointInset: 0)
             .inset(by: 0.05 * dim * Double(index))
             .foregroundColor(.white)
             .opacity(opacity)
         }
-        Torx(sides: 6, controlPointRatio: 0)
+        Torx(sides: 6, controlPointInset: 0)
           .inset(by: dim * 0.25)
         
         let vertices = ConvexPolygon(sides: 6)

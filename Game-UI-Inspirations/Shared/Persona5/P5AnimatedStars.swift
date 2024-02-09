@@ -17,31 +17,31 @@ struct P5AnimatedStarView: View {
     GeometryReader { proxy in
       ZStack {
         
-        IsotoxalPolygon(sides: 10, innerRadius: 0.5)
+        IsotoxalPolygon(sidePairs: 5, innerRadius: 0.5)
           .foregroundColor(primary)
 
         // OLD 1 : 0.75
-        IsotoxalPolygon(sides: 10, innerRadius: 0.5)
+        IsotoxalPolygon(sidePairs: 5, innerRadius: 0.5)
           .scaleEffect(animating ? 1.25 : 0.75)
           .foregroundColor(secondary)
 
-        IsotoxalPolygon(sides: 10, innerRadius: 0.5)
+        IsotoxalPolygon(sidePairs: 5, innerRadius: 0.5)
           .scaleEffect(animating ? 1 : 0.5)
           .foregroundColor(primary)
         
-        IsotoxalPolygon(sides: 10, innerRadius: 0.5)
+        IsotoxalPolygon(sidePairs: 5, innerRadius: 0.5)
           .scaleEffect(animating ? 0.75 : 0.25)
           .foregroundColor(secondary)
 
-        IsotoxalPolygon(sides: 10, innerRadius: 0.5)
+        IsotoxalPolygon(sidePairs: 5, innerRadius: 0.5)
           .scaleEffect(animating ? 0.5 : 0)
           .foregroundColor(primary)
 
-        IsotoxalPolygon(sides: 10, innerRadius: 0.5)
+        IsotoxalPolygon(sidePairs: 5, innerRadius: 0.5)
           .scaleEffect(animating ? 0.25 : 0)
           .foregroundColor(secondary)
       }
-      .clipShape(IsotoxalPolygon(sides: 10, innerRadius: 0.5))
+      .clipShape(IsotoxalPolygon(sidePairs: 5, innerRadius: 0.5))
       .frame(width: proxy.size.width, height: proxy.size.height)
       .animation(Animation.linear(duration: 2).repeatForever(autoreverses: false), value: animating)
       .drawingGroup()

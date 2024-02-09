@@ -44,16 +44,16 @@ struct MasterlessStardust: View {
               .foregroundColor(Color("giLightBorder"))
           }
           
-          IsotoxalPolygon(sides: 8, innerRadius: 0.5)
+          IsotoxalPolygon(sidePairs: 4, innerRadius: 0.5)
             .inset(by: dim * 0.15)
             .foregroundColor(Color("giLightBorder"))
             .overlay(
-              IsotoxalPolygon(sides: 8, innerRadius: 0.5)
+              IsotoxalPolygon(sidePairs: 4, innerRadius: 0.5)
                 .inset(by: dim * 0.15)
                 .stroke(Color.black)
             )
           
-          IsotoxalPolygon(sides: 8, innerRadius: 0.5)
+          IsotoxalPolygon(sidePairs: 4, innerRadius: 0.5)
             .inset(by: dim * 0.2)
             .foregroundColor(Color("giNightSky"))
         }

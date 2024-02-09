@@ -66,7 +66,7 @@ struct RDR2MinimapView: View {
                 
                 ForEach(0..<viewModel.entities.count, id:\.self) { index in
                   let entity = viewModel.entities[index]
-                  IsotoxalPolygon(sides: 8, innerRadius: 0.5)
+                  IsotoxalPolygon(sidePairs: 4, innerRadius: 0.5)
                     .fill(Color.red)
                     .frame(width:20, height: 20)
                     .offset(x: entity.position.x, y: entity.position.y)

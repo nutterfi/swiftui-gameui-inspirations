@@ -16,7 +16,7 @@ struct TLOUIcon: View {
           Rectangle()
             .stroke(Color.gray, lineWidth: dim / 30)
             .frame(width: dim, height: dim)
-          DoubleTeardrop()
+          UnevenRoundedRectangle(cornerRadii: RectangleCornerRadii(topLeading: 100, bottomTrailing: 100))
             .frame(width: dim * 0.85, height: dim * 0.85)
             .foregroundColor(.tlouSecondary)
           
