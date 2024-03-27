@@ -24,9 +24,11 @@ struct RDR2ShowdownTitle: View {
             .font(.custom("AmericanTypewriter", size: dim / 3))
           
           let frameParam: CGFloat = dim / 15
-          
+                    
           let vertices = Quad()
-            .vertices(in: CGRect(origin: .zero, size: proxy.size).inset(by: UIEdgeInsets(top: frameParam, left: frameParam, bottom: frameParam, right: frameParam)))
+            .vertices(in: CGRect(origin: .zero, size: proxy.size)
+//              .inset(by: UIEdgeInsets(top: frameParam, left: frameParam, bottom: frameParam, right: frameParam))
+            )
 
           Group {
             Reuleaux.pentagon // bottom left

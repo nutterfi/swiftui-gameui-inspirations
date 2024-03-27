@@ -40,9 +40,9 @@ struct FireflyPendant: View {
     //      if let image = renderer.cgImage {
     //        self.image = CIImage(cgImage: image)
       
-    guard let uiInputImage = await ImageRenderer(content: view).uiImage else { return }
+    guard let inputImage = await ImageRenderer(content: view).cgImage else { return }
     
-    let ciInputImage = CIImage(image: uiInputImage)
+    let ciInputImage = CIImage(cgImage: inputImage)
     filter.setValue(ciInputImage, forKey: kCIInputImageKey)
 //    guard let filteredImage = filter.outputImage else { return }
 //

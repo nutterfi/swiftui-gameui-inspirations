@@ -33,7 +33,7 @@ enum CircleAnimationState: CaseIterable {
   case decreasing
 }
 
-import UIKit
+import Foundation
 import CoreGraphics
 import Combine
 

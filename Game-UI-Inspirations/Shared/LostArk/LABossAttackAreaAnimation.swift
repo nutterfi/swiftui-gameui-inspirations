@@ -57,12 +57,20 @@ struct LABossAttackAreaAnimation: View {
         .task {
           animating = true
 
-          let uiimage = ConvexPolygon(sides: 6)
+          let polygon = ConvexPolygon(sides: 6)
             .rotation(.degrees(30))
             .stroke(Color.red.opacity(0.5), lineWidth: 5)
-            .uiImage(rect: CGRect(origin: .zero, size: CGSize(width: 49, height: 49)))
           
-          self.image = Image(uiImage: uiimage)
+          let renderer = ImageRenderer(content: polygon)
+          
+          #if canImport(UIKit)
+          guard let image = renderer.uiImage else { return }
+          self.image = Image(uiImage: image)
+          #else
+          guard let image = renderer.nsImage else { return }
+          self.image = Image(nsImage: image)
+          #endif
+////            .uiImage(rect: CGRect(origin: .zero, size: CGSize(width: 49, height: 49)))
         }
       
       }

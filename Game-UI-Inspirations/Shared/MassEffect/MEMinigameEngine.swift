@@ -144,8 +144,13 @@ class MEMinigameEngine: ObservableObject {
   //  MARK: - Game Tick
   
   private func createDisplayLink() {
+    #if canImport(UIKit)
     displayLink = CADisplayLink(target: self, selector: #selector(step))
-    displayLink?.add(to: .current, forMode: .default)
+    #else
+    displayLink = NSScreen.main?.displayLink(target: self, selector: #selector(step))
+    #endif
+
+    displayLink?.add(to: .current, forMode: .common)
   }
   
   @objc private func step(displaylink: CADisplayLink) {

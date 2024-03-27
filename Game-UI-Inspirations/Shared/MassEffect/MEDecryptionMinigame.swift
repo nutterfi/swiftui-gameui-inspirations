@@ -55,7 +55,7 @@ struct MEDecryptionMinigame: View {
     }
     .gesture(magnification)
     .gesture(rotation)
-    .onChange(of: magnifyBy) { newValue in
+    .onChange(of: magnifyBy) { _, newValue in
       engine.magnitude *= newValue
     }
    

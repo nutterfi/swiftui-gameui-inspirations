@@ -34,21 +34,10 @@ struct CIFilterView<T: View>: View {
   }
   
   func loadImage() async {
-    let uiInputImage: UIImage
+   
+    guard let image = await ImageRenderer(content: input).cgImage else { return }
     
-    if #available(iOS 16.0, *) {
-      guard let image = await ImageRenderer(content: input).uiImage else { return }
-      uiInputImage = image
-    } else {
-      uiInputImage = input.uiImage(
-        rect: CGRect(
-          origin: .zero,
-          size: outputSize
-        )
-      )
-    }
-    
-    let ciInputImage = CIImage(image: uiInputImage)
+    let ciInputImage = CIImage(cgImage: image)
     filter.setValue(ciInputImage, forKey: kCIInputImageKey)
     guard let filteredImage = filter.outputImage else { return }
     

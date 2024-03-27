@@ -5,8 +5,10 @@
 //  Created by nutterfi on 2/8/22.
 //
 
-import UIKit
 import SwiftUI
+
+#if canImport(UIKit)
+import UIKit
 
 extension UIView {
   var renderedImage: UIImage {
@@ -30,12 +32,4 @@ extension View {
   }
 }
 
-extension Image {
-
-    /// Creates a SwiftUI image from a CoreGraphics image instance.
-    /// - Parameter cgImage: The CoreGraphics image to wrap with a SwiftUI ``Image``
-    /// instance.
-  public init(cgImage: CGImage) {
-    self.init(uiImage: UIImage(cgImage: cgImage))
-  }
-}
+#endif

@@ -8,472 +8,494 @@
 
 /* Begin PBXBuildFile section */
 		290088FE28407EFD00F840D8 /* ProgressBarWithDelta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290088FD28407EFD00F840D8 /* ProgressBarWithDelta.swift */; };
-		290088FF28407EFD00F840D8 /* ProgressBarWithDelta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290088FD28407EFD00F840D8 /* ProgressBarWithDelta.swift */; };
 		290089012840815900F840D8 /* ProgressBarWithDeltaDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290089002840815900F840D8 /* ProgressBarWithDeltaDemo.swift */; };
-		290089022840815900F840D8 /* ProgressBarWithDeltaDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290089002840815900F840D8 /* ProgressBarWithDeltaDemo.swift */; };
 		290245B229F4DAAD0052DCCB /* FF7View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290245B129F4DAAD0052DCCB /* FF7View.swift */; };
 		290245B429F4E5BF0052DCCB /* FF7ViewFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290245B329F4E5BF0052DCCB /* FF7ViewFeed.swift */; };
 		2906484F26FAD6CF009A20A1 /* DBHTitleScreenMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2906484E26FAD6CF009A20A1 /* DBHTitleScreenMenuItem.swift */; };
-		2906485026FAD6CF009A20A1 /* DBHTitleScreenMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2906484E26FAD6CF009A20A1 /* DBHTitleScreenMenuItem.swift */; };
 		2906F21826D603A500E38EFF /* TextEffectViewDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2906F21726D603A500E38EFF /* TextEffectViewDemo.swift */; };
-		2906F21926D603A500E38EFF /* TextEffectViewDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2906F21726D603A500E38EFF /* TextEffectViewDemo.swift */; };
 		290AB8572A04ABD600E3FE66 /* JFOSaberColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290AB8562A04ABD600E3FE66 /* JFOSaberColorPicker.swift */; };
-		290AB8582A04ABD600E3FE66 /* JFOSaberColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290AB8562A04ABD600E3FE66 /* JFOSaberColorPicker.swift */; };
 		290AB85B2A04C31900E3FE66 /* SaberHilt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290AB85A2A04C31900E3FE66 /* SaberHilt.swift */; };
-		290AB85C2A04C31900E3FE66 /* SaberHilt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290AB85A2A04C31900E3FE66 /* SaberHilt.swift */; };
 		290AB85E2A04C36300E3FE66 /* JFOSelectedItemDecoration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290AB85D2A04C36300E3FE66 /* JFOSelectedItemDecoration.swift */; };
-		290AB85F2A04C36300E3FE66 /* JFOSelectedItemDecoration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290AB85D2A04C36300E3FE66 /* JFOSelectedItemDecoration.swift */; };
 		290AB8612A04C4A900E3FE66 /* JFOSaberColorItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290AB8602A04C4A900E3FE66 /* JFOSaberColorItem.swift */; };
-		290AB8622A04C4A900E3FE66 /* JFOSaberColorItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290AB8602A04C4A900E3FE66 /* JFOSaberColorItem.swift */; };
 		290B177327572D590075AE24 /* SpiderManMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290B177227572D590075AE24 /* SpiderManMask.swift */; };
-		290B177727573DB40075AE24 /* SpiderManMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290B177227572D590075AE24 /* SpiderManMask.swift */; };
 		290B5CF7268ED22C00EB93BD /* HadesBoonDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290B5CF6268ED22C00EB93BD /* HadesBoonDemo.swift */; };
-		290B5CF8268ED22C00EB93BD /* HadesBoonDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290B5CF6268ED22C00EB93BD /* HadesBoonDemo.swift */; };
 		290BBC3126CCC06F004D57D9 /* TextEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290BBC3026CCC06F004D57D9 /* TextEffectView.swift */; };
-		290BBC3226CCC06F004D57D9 /* TextEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290BBC3026CCC06F004D57D9 /* TextEffectView.swift */; };
 		290BBC3426CCC8AA004D57D9 /* TextEffectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290BBC3326CCC8AA004D57D9 /* TextEffectViewModel.swift */; };
-		290BBC3526CCC8AA004D57D9 /* TextEffectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290BBC3326CCC8AA004D57D9 /* TextEffectViewModel.swift */; };
 		290FD8CA28C472E3004BB351 /* AnimatedStrokeStyledCircleDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290FD8C928C472E3004BB351 /* AnimatedStrokeStyledCircleDemo.swift */; };
-		290FD8CB28C472E3004BB351 /* AnimatedStrokeStyledCircleDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290FD8C928C472E3004BB351 /* AnimatedStrokeStyledCircleDemo.swift */; };
 		29101792270410150021E672 /* CelesteDeathAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29101791270410150021E672 /* CelesteDeathAnimation.swift */; };
-		29101793270410160021E672 /* CelesteDeathAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29101791270410150021E672 /* CelesteDeathAnimation.swift */; };
 		29101795270429580021E672 /* CelesteDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29101794270429580021E672 /* CelesteDemo.swift */; };
-		29101796270429580021E672 /* CelesteDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29101794270429580021E672 /* CelesteDemo.swift */; };
 		291026FF263E62EE00418FE1 /* BoonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291026FE263E62EE00418FE1 /* BoonView.swift */; };
-		29102700263E62EE00418FE1 /* BoonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291026FE263E62EE00418FE1 /* BoonView.swift */; };
 		29102706263E673300418FE1 /* ZeusBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29102705263E673300418FE1 /* ZeusBoon.swift */; };
-		29102707263E673300418FE1 /* ZeusBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29102705263E673300418FE1 /* ZeusBoon.swift */; };
 		2910270B263E6DAC00418FE1 /* PoseidonBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2910270A263E6DAC00418FE1 /* PoseidonBoon.swift */; };
-		2910270C263E6DAC00418FE1 /* PoseidonBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2910270A263E6DAC00418FE1 /* PoseidonBoon.swift */; };
 		291035822734D677004DA378 /* WheelOfFortune.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291035812734D677004DA378 /* WheelOfFortune.swift */; };
-		291035832734D677004DA378 /* WheelOfFortune.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291035812734D677004DA378 /* WheelOfFortune.swift */; };
 		2910377B275C745A00A9EEB6 /* LongPressProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2910377A275C745A00A9EEB6 /* LongPressProgressView.swift */; };
-		2910377C275C745A00A9EEB6 /* LongPressProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2910377A275C745A00A9EEB6 /* LongPressProgressView.swift */; };
 		2910BBE8271FD5670019329D /* PersonProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2910BBE7271FD5670019329D /* PersonProfile.swift */; };
-		2910BBE9271FD5670019329D /* PersonProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2910BBE7271FD5670019329D /* PersonProfile.swift */; };
 		2910F3E6269801F7008475D6 /* AphroditeBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2910F3E5269801F7008475D6 /* AphroditeBoon.swift */; };
-		2910F3E7269801F7008475D6 /* AphroditeBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2910F3E5269801F7008475D6 /* AphroditeBoon.swift */; };
 		2911E5102737870C00F3E967 /* RDR2HUDCoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2911E50F2737870C00F3E967 /* RDR2HUDCoreView.swift */; };
-		2911E5112737870C00F3E967 /* RDR2HUDCoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2911E50F2737870C00F3E967 /* RDR2HUDCoreView.swift */; };
 		2914FE292967D65200B80DA4 /* ArkhamInterviewCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2914FE282967D65200B80DA4 /* ArkhamInterviewCollectionView.swift */; };
-		2914FE2A2967D65200B80DA4 /* ArkhamInterviewCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2914FE282967D65200B80DA4 /* ArkhamInterviewCollectionView.swift */; };
 		29150B1D26B653F500106A45 /* HermesBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29150B1C26B653F500106A45 /* HermesBoon.swift */; };
-		29150B1E26B653F500106A45 /* HermesBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29150B1C26B653F500106A45 /* HermesBoon.swift */; };
 		29150B2026B659EC00106A45 /* AresBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29150B1F26B659EC00106A45 /* AresBoon.swift */; };
-		29150B2126B659EC00106A45 /* AresBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29150B1F26B659EC00106A45 /* AresBoon.swift */; };
 		29155FF0272BA2D500BA2FE4 /* TLOUMainMenuIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29155FEF272BA2D500BA2FE4 /* TLOUMainMenuIcon.swift */; };
-		29155FF1272BA2D500BA2FE4 /* TLOUMainMenuIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29155FEF272BA2D500BA2FE4 /* TLOUMainMenuIcon.swift */; };
 		29155FF3272BA64800BA2FE4 /* TLOUMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29155FF2272BA64800BA2FE4 /* TLOUMenu.swift */; };
-		29155FF4272BA64800BA2FE4 /* TLOUMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29155FF2272BA64800BA2FE4 /* TLOUMenu.swift */; };
 		29188616272505320060E33C /* RDR2Revolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29188615272505320060E33C /* RDR2Revolver.swift */; };
-		29188617272505320060E33C /* RDR2Revolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29188615272505320060E33C /* RDR2Revolver.swift */; };
 		29188619272511E50060E33C /* RDR2RevolverLoadingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29188618272511E50060E33C /* RDR2RevolverLoadingAnimation.swift */; };
-		2918861A272511E50060E33C /* RDR2RevolverLoadingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29188618272511E50060E33C /* RDR2RevolverLoadingAnimation.swift */; };
 		291A07E026BA4A3E000F4590 /* SWTORLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291A07DF26BA4A3E000F4590 /* SWTORLogo.swift */; };
 		291B290928812DCE0035BDCE /* JustCause4Compass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291B290828812DCE0035BDCE /* JustCause4Compass.swift */; };
-		291B290A28812DCE0035BDCE /* JustCause4Compass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291B290828812DCE0035BDCE /* JustCause4Compass.swift */; };
 		291B290C288138F00035BDCE /* JustCause4CompassBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291B290B288138F00035BDCE /* JustCause4CompassBorder.swift */; };
-		291B290D288138F00035BDCE /* JustCause4CompassBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291B290B288138F00035BDCE /* JustCause4CompassBorder.swift */; };
 		291ECAF3286817E2004B7A03 /* BDMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291ECAF2286817E2004B7A03 /* BDMenuItem.swift */; };
 		291ED0D42942FA2E00720075 /* GearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291ED0D32942FA2E00720075 /* GearView.swift */; };
-		291ED0D52942FA2E00720075 /* GearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291ED0D32942FA2E00720075 /* GearView.swift */; };
 		2920DB582785540E00DE5BEE /* PorterGradeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2920DB572785540E00DE5BEE /* PorterGradeView.swift */; };
-		2920DB592785540E00DE5BEE /* PorterGradeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2920DB572785540E00DE5BEE /* PorterGradeView.swift */; };
 		2920DB5B278566EB00DE5BEE /* TwoTonedIsotoxalPolygon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2920DB5A278566EB00DE5BEE /* TwoTonedIsotoxalPolygon.swift */; };
-		2920DB5C278566EB00DE5BEE /* TwoTonedIsotoxalPolygon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2920DB5A278566EB00DE5BEE /* TwoTonedIsotoxalPolygon.swift */; };
 		29229844296A79280047CB9E /* OpeningCrawl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29229843296A79280047CB9E /* OpeningCrawl.swift */; };
-		29229845296A79280047CB9E /* OpeningCrawl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29229843296A79280047CB9E /* OpeningCrawl.swift */; };
 		29230B3F26A1460C00A052E7 /* AthenaBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29230B3E26A1460C00A052E7 /* AthenaBoon.swift */; };
-		29230B4026A1460C00A052E7 /* AthenaBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29230B3E26A1460C00A052E7 /* AthenaBoon.swift */; };
 		2926BCEE2635225100CEDC7E /* FireflyPendant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2926BCED2635225100CEDC7E /* FireflyPendant.swift */; };
-		2926BCEF2635225100CEDC7E /* FireflyPendant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2926BCED2635225100CEDC7E /* FireflyPendant.swift */; };
 		2926BCF32635260D00CEDC7E /* FireflyWing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2926BCF22635260D00CEDC7E /* FireflyWing.swift */; };
-		2926BCF42635260D00CEDC7E /* FireflyWing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2926BCF22635260D00CEDC7E /* FireflyWing.swift */; };
 		2926BCF8263529D400CEDC7E /* FireflyTail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2926BCF7263529D400CEDC7E /* FireflyTail.swift */; };
-		2926BCF9263529D400CEDC7E /* FireflyTail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2926BCF7263529D400CEDC7E /* FireflyTail.swift */; };
 		292961F32924ACFD0074366B /* OW2SelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292961F22924ACFD0074366B /* OW2SelectionView.swift */; };
-		292961F42924ACFD0074366B /* OW2SelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292961F22924ACFD0074366B /* OW2SelectionView.swift */; };
 		2929B8102695604600C86BBB /* FFXIVCharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2929B80F2695604600C86BBB /* FFXIVCharacterView.swift */; };
-		2929B8112695604600C86BBB /* FFXIVCharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2929B80F2695604600C86BBB /* FFXIVCharacterView.swift */; };
 		292D45D327AA3DBB003A1020 /* TextPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292D45D227AA3DBB003A1020 /* TextPath.swift */; };
-		292D45D427AA3DBB003A1020 /* TextPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292D45D227AA3DBB003A1020 /* TextPath.swift */; };
 		29304D2F26916F49003512A1 /* TestingTiledImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29304D2E26916F49003512A1 /* TestingTiledImageView.swift */; };
 		2931FC6128C44E4E00D7B60B /* ACOQuestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2931FC6028C44E4E00D7B60B /* ACOQuestView.swift */; };
-		2931FC6228C44E4E00D7B60B /* ACOQuestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2931FC6028C44E4E00D7B60B /* ACOQuestView.swift */; };
 		2933C0A62772FA470063CF78 /* DragonCurveDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2933C0A52772FA470063CF78 /* DragonCurveDemo.swift */; };
-		2933C0A72772FA470063CF78 /* DragonCurveDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2933C0A52772FA470063CF78 /* DragonCurveDemo.swift */; };
 		29350C712709930F00A2B8FA /* SpirolateralDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29350C702709930F00A2B8FA /* SpirolateralDemo.swift */; };
-		29350C722709930F00A2B8FA /* SpirolateralDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29350C702709930F00A2B8FA /* SpirolateralDemo.swift */; };
 		29351A4926CF63F00069BE75 /* RDR2AwardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29351A4826CF63F00069BE75 /* RDR2AwardViewModel.swift */; };
-		29351A4A26CF63F00069BE75 /* RDR2AwardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29351A4826CF63F00069BE75 /* RDR2AwardViewModel.swift */; };
 		29351A4C26CF706D0069BE75 /* RDR2Badgeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29351A4B26CF706D0069BE75 /* RDR2Badgeable.swift */; };
-		29351A4D26CF706D0069BE75 /* RDR2Badgeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29351A4B26CF706D0069BE75 /* RDR2Badgeable.swift */; };
 		2935A9E027169EAE0043F964 /* GISelectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2935A9DF27169EAE0043F964 /* GISelectionItem.swift */; };
-		2935A9E127169EAE0043F964 /* GISelectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2935A9DF27169EAE0043F964 /* GISelectionItem.swift */; };
 		2936E04E27707CDF0075FADF /* GIAchievementMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2936E04D27707CDF0075FADF /* GIAchievementMenu.swift */; };
-		2936E04F27707CDF0075FADF /* GIAchievementMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2936E04D27707CDF0075FADF /* GIAchievementMenu.swift */; };
 		2938B4D8298A212200D7678D /* GuardianFadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2938B4D7298A212200D7678D /* GuardianFadeTransition.swift */; };
-		2938B4D9298A212200D7678D /* GuardianFadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2938B4D7298A212200D7678D /* GuardianFadeTransition.swift */; };
 		2938B4DB298A2F4600D7678D /* RandomIndexedTiledShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2938B4DA298A2F4600D7678D /* RandomIndexedTiledShape.swift */; };
-		2938B4DC298A2F4600D7678D /* RandomIndexedTiledShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2938B4DA298A2F4600D7678D /* RandomIndexedTiledShape.swift */; };
 		2938B4DE298A2F8200D7678D /* GotgSettingsMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2938B4DD298A2F8200D7678D /* GotgSettingsMenu.swift */; };
-		2938B4DF298A2F8200D7678D /* GotgSettingsMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2938B4DD298A2F8200D7678D /* GotgSettingsMenu.swift */; };
 		2939687426BCFA7D00B08586 /* RDR2AwardBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2939687326BCFA7D00B08586 /* RDR2AwardBadge.swift */; };
-		2939687526BCFA7D00B08586 /* RDR2AwardBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2939687326BCFA7D00B08586 /* RDR2AwardBadge.swift */; };
 		293D55B928F2733C00DD2351 /* GoldenEyeWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293D55B828F2733C00DD2351 /* GoldenEyeWatch.swift */; };
 		293D55BB28F29EA700DD2351 /* Clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293D55BA28F29EA700DD2351 /* Clock.swift */; };
 		2941D033298CBFD500DB130D /* METalentIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2941D032298CBFD500DB130D /* METalentIcon.swift */; };
-		2941D034298CBFD500DB130D /* METalentIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2941D032298CBFD500DB130D /* METalentIcon.swift */; };
 		2942149D290B84D200E205C6 /* AlanWakeSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2942149C290B84D200E205C6 /* AlanWakeSelectionView.swift */; };
 		294214A1290B92B700E205C6 /* SliderLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294214A0290B92B700E205C6 /* SliderLabelView.swift */; };
 		294214A3290B984000E205C6 /* CGAffineTransformDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294214A2290B984000E205C6 /* CGAffineTransformDemo.swift */; };
 		29421CA127192C6900CBEDBB /* GIItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29421CA027192C6900CBEDBB /* GIItem.swift */; };
-		29421CA227192C6900CBEDBB /* GIItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29421CA027192C6900CBEDBB /* GIItem.swift */; };
 		29421CA427192FC600CBEDBB /* GIReward.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29421CA327192FC600CBEDBB /* GIReward.swift */; };
-		29421CA527192FC600CBEDBB /* GIReward.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29421CA327192FC600CBEDBB /* GIReward.swift */; };
 		29421CA72719325800CBEDBB /* GIItemRarityBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29421CA62719325800CBEDBB /* GIItemRarityBackground.swift */; };
-		29421CA82719325800CBEDBB /* GIItemRarityBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29421CA62719325800CBEDBB /* GIItemRarityBackground.swift */; };
 		29421CAA27193ED200CBEDBB /* GIInventoryMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29421CA927193ED200CBEDBB /* GIInventoryMenu.swift */; };
-		29421CAB27193ED200CBEDBB /* GIInventoryMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29421CA927193ED200CBEDBB /* GIInventoryMenu.swift */; };
 		29436F0A29CFFE0A009DBEEB /* D4Pentagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29436F0929CFFE0A009DBEEB /* D4Pentagram.swift */; };
-		29436F0B29CFFE0A009DBEEB /* D4Pentagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29436F0929CFFE0A009DBEEB /* D4Pentagram.swift */; };
 		2943790528B1DD6300E7E717 /* ChaosBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2943790428B1DD6300E7E717 /* ChaosBoon.swift */; };
-		2943790628B1DD6300E7E717 /* ChaosBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2943790428B1DD6300E7E717 /* ChaosBoon.swift */; };
 		2948EF09277ED33E00966236 /* DeathStrandingTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2948EF08277ED33E00966236 /* DeathStrandingTitle.swift */; };
-		2948EF0A277ED33E00966236 /* DeathStrandingTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2948EF08277ED33E00966236 /* DeathStrandingTitle.swift */; };
 		294AA01628DAB7E300B9B14B /* OWPlayerWaitingIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294AA01528DAB7E300B9B14B /* OWPlayerWaitingIcon.swift */; };
-		294AA01728DAB7E300B9B14B /* OWPlayerWaitingIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294AA01528DAB7E300B9B14B /* OWPlayerWaitingIcon.swift */; };
 		294B9B6228D6CC7100B79EEC /* PapersPleaseSettingsIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294B9B6128D6CC7100B79EEC /* PapersPleaseSettingsIcon.swift */; };
 		294D37362710082700524868 /* SpirolateralAnimationDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294D37352710082700524868 /* SpirolateralAnimationDemo.swift */; };
-		294D37372710082700524868 /* SpirolateralAnimationDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294D37352710082700524868 /* SpirolateralAnimationDemo.swift */; };
 		294F3EE8297113FE0000E48A /* ArkhamAsylumHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294F3EE7297113FE0000E48A /* ArkhamAsylumHUD.swift */; };
-		294F3EE9297113FE0000E48A /* ArkhamAsylumHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294F3EE7297113FE0000E48A /* ArkhamAsylumHUD.swift */; };
 		294FF9482632AE300057869B /* TLOUIconDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294FF9472632AE300057869B /* TLOUIconDemo.swift */; };
-		294FF9492632AE300057869B /* TLOUIconDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294FF9472632AE300057869B /* TLOUIconDemo.swift */; };
 		2950E127268C24B4005EFAA9 /* OverwatchIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2950E126268C24B4005EFAA9 /* OverwatchIcon.swift */; };
 		2950E129268C2CDC005EFAA9 /* OverwatchLogoDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2950E128268C2CDC005EFAA9 /* OverwatchLogoDemo.swift */; };
 		2952A69226DF3859007BABFC /* StarPolygonDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2952A69126DF3859007BABFC /* StarPolygonDemo.swift */; };
-		2952A69326DF3859007BABFC /* StarPolygonDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2952A69126DF3859007BABFC /* StarPolygonDemo.swift */; };
 		29532EFD26451D8B000F07F1 /* FireflySymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29532EFC26451D8B000F07F1 /* FireflySymbol.swift */; };
-		29532EFE26451D8B000F07F1 /* FireflySymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29532EFC26451D8B000F07F1 /* FireflySymbol.swift */; };
 		2953C38D297C694000125B7F /* BatmanLogoAnimatedBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2953C38C297C694000125B7F /* BatmanLogoAnimatedBorder.swift */; };
-		2953C38E297C694000125B7F /* BatmanLogoAnimatedBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2953C38C297C694000125B7F /* BatmanLogoAnimatedBorder.swift */; };
 		2953C393297E354D00125B7F /* InvertedShapeDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2953C392297E354D00125B7F /* InvertedShapeDemo.swift */; };
-		2953C394297E354D00125B7F /* InvertedShapeDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2953C392297E354D00125B7F /* InvertedShapeDemo.swift */; };
 		295678852722636C00FA372A /* Mora.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295678842722636C00FA372A /* Mora.swift */; };
-		295678862722636C00FA372A /* Mora.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295678842722636C00FA372A /* Mora.swift */; };
 		2956788827226CB500FA372A /* MasterlessStardust.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2956788727226CB500FA372A /* MasterlessStardust.swift */; };
-		2956788927226CB500FA372A /* MasterlessStardust.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2956788727226CB500FA372A /* MasterlessStardust.swift */; };
 		2956788B2722795400FA372A /* MasterlessStarglitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2956788A2722795400FA372A /* MasterlessStarglitter.swift */; };
-		2956788C2722795400FA372A /* MasterlessStarglitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2956788A2722795400FA372A /* MasterlessStarglitter.swift */; };
 		29567DB7276D80FC00946491 /* LineSegmentGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29567DB6276D80FC00946491 /* LineSegmentGroup.swift */; };
-		29567DB8276D80FC00946491 /* LineSegmentGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29567DB6276D80FC00946491 /* LineSegmentGroup.swift */; };
 		295794742650D8DE00BDDE3A /* SkillIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295794732650D8DE00BDDE3A /* SkillIcon.swift */; };
-		295794752650D8DE00BDDE3A /* SkillIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295794732650D8DE00BDDE3A /* SkillIcon.swift */; };
 		295794792650D91D00BDDE3A /* TLOUSkillModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295794782650D91D00BDDE3A /* TLOUSkillModel.swift */; };
-		2957947A2650D91D00BDDE3A /* TLOUSkillModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295794782650D91D00BDDE3A /* TLOUSkillModel.swift */; };
 		2957947E2650D94000BDDE3A /* TLOUSkillSelectMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2957947D2650D94000BDDE3A /* TLOUSkillSelectMenuViewModel.swift */; };
-		2957947F2650D94000BDDE3A /* TLOUSkillSelectMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2957947D2650D94000BDDE3A /* TLOUSkillSelectMenuViewModel.swift */; };
 		2959343A28AF41A1005F8EE0 /* FFXIVWindowHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2959343928AF41A1005F8EE0 /* FFXIVWindowHeaderView.swift */; };
-		2959343B28AF41A1005F8EE0 /* FFXIVWindowHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2959343928AF41A1005F8EE0 /* FFXIVWindowHeaderView.swift */; };
 		2959343D28AF42E1005F8EE0 /* FFXIVCharacterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2959343C28AF42E1005F8EE0 /* FFXIVCharacterModel.swift */; };
-		2959343E28AF42E1005F8EE0 /* FFXIVCharacterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2959343C28AF42E1005F8EE0 /* FFXIVCharacterModel.swift */; };
 		2959344028AF4489005F8EE0 /* FFXIVCharacterTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2959343F28AF4489005F8EE0 /* FFXIVCharacterTabView.swift */; };
-		2959344128AF4489005F8EE0 /* FFXIVCharacterTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2959343F28AF4489005F8EE0 /* FFXIVCharacterTabView.swift */; };
 		2959344328AF4CC9005F8EE0 /* FFXIVCharacterPointsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2959344228AF4CC9005F8EE0 /* FFXIVCharacterPointsView.swift */; };
-		2959344428AF4CC9005F8EE0 /* FFXIVCharacterPointsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2959344228AF4CC9005F8EE0 /* FFXIVCharacterPointsView.swift */; };
 		2959344628AF532F005F8EE0 /* FFXIVTargetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2959344528AF532F005F8EE0 /* FFXIVTargetView.swift */; };
-		2959344728AF532F005F8EE0 /* FFXIVTargetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2959344528AF532F005F8EE0 /* FFXIVTargetView.swift */; };
 		295E145D27F0132500724FB7 /* OWDecorPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295E145C27F0132500724FB7 /* OWDecorPattern.swift */; };
-		295E145E27F0132500724FB7 /* OWDecorPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295E145C27F0132500724FB7 /* OWDecorPattern.swift */; };
 		295E146427F013C900724FB7 /* LASecretDungeonFloorPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295E146027F013C900724FB7 /* LASecretDungeonFloorPattern.swift */; };
-		295E146527F013C900724FB7 /* LASecretDungeonFloorPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295E146027F013C900724FB7 /* LASecretDungeonFloorPattern.swift */; };
 		295E146627F013C900724FB7 /* TrebleClef.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295E146127F013C900724FB7 /* TrebleClef.swift */; };
-		295E146727F013C900724FB7 /* TrebleClef.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295E146127F013C900724FB7 /* TrebleClef.swift */; };
 		295E146827F013C900724FB7 /* PolygonSegmentWrapAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295E146227F013C900724FB7 /* PolygonSegmentWrapAnimation.swift */; };
-		295E146927F013C900724FB7 /* PolygonSegmentWrapAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295E146227F013C900724FB7 /* PolygonSegmentWrapAnimation.swift */; };
 		295E146A27F013C900724FB7 /* LABardStigmaSkillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295E146327F013C900724FB7 /* LABardStigmaSkillView.swift */; };
-		295E146B27F013C900724FB7 /* LABardStigmaSkillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295E146327F013C900724FB7 /* LABardStigmaSkillView.swift */; };
 		295E507526B3B16B00DA9FD4 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 295E507426B3B16B00DA9FD4 /* Colors.xcassets */; };
 		295E507626B3B16B00DA9FD4 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 295E507426B3B16B00DA9FD4 /* Colors.xcassets */; };
 		295E507826B3B3EA00DA9FD4 /* RDR2AwardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295E507726B3B3EA00DA9FD4 /* RDR2AwardItem.swift */; };
-		295E507926B3B3EA00DA9FD4 /* RDR2AwardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295E507726B3B3EA00DA9FD4 /* RDR2AwardItem.swift */; };
 		295E507B26B3B7CD00DA9FD4 /* RDR2AwardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295E507A26B3B7CD00DA9FD4 /* RDR2AwardView.swift */; };
-		295E507C26B3B7CD00DA9FD4 /* RDR2AwardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295E507A26B3B7CD00DA9FD4 /* RDR2AwardView.swift */; };
 		295FECD226D89D5400C70220 /* RDR2ConfirmButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295FECD126D89D5400C70220 /* RDR2ConfirmButton.swift */; };
-		295FECD326D89D5400C70220 /* RDR2ConfirmButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295FECD126D89D5400C70220 /* RDR2ConfirmButton.swift */; };
 		2960C695270A0B850024872D /* OrnateCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2960C694270A0B850024872D /* OrnateCorners.swift */; };
-		2960C696270A0B850024872D /* OrnateCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2960C694270A0B850024872D /* OrnateCorners.swift */; };
 		2962057926FD788C002F9D3E /* Destiny2FastTravelIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2962057826FD788B002F9D3E /* Destiny2FastTravelIcon.swift */; };
-		2962057A26FD788C002F9D3E /* Destiny2FastTravelIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2962057826FD788B002F9D3E /* Destiny2FastTravelIcon.swift */; };
 		2962057C26FD7EFD002F9D3E /* Destiny2FastTravelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2962057B26FD7EFD002F9D3E /* Destiny2FastTravelView.swift */; };
-		2962057D26FD7EFD002F9D3E /* Destiny2FastTravelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2962057B26FD7EFD002F9D3E /* Destiny2FastTravelView.swift */; };
 		2962057F26FD85DE002F9D3E /* ElevationMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2962057E26FD85DE002F9D3E /* ElevationMap.swift */; };
-		2962058026FD85DE002F9D3E /* ElevationMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2962057E26FD85DE002F9D3E /* ElevationMap.swift */; };
 		29637C9528BB347A0065ECB5 /* ACOTargetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29637C9428BB347A0065ECB5 /* ACOTargetView.swift */; };
-		29637C9628BB347A0065ECB5 /* ACOTargetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29637C9428BB347A0065ECB5 /* ACOTargetView.swift */; };
 		2964BAB026C383EE00F37FDC /* SWTOREmpireLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2964BAAF26C383EE00F37FDC /* SWTOREmpireLogo.swift */; };
-		2964BAB126C383EE00F37FDC /* SWTOREmpireLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2964BAAF26C383EE00F37FDC /* SWTOREmpireLogo.swift */; };
 		2964BAB326C384B000F37FDC /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2964BAB226C384B000F37FDC /* Game.swift */; };
-		2964BAB426C384B000F37FDC /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2964BAB226C384B000F37FDC /* Game.swift */; };
 		296526702A0DF88E00B96F82 /* MEConversationWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2965266F2A0DF88E00B96F82 /* MEConversationWheel.swift */; };
-		296526712A0DF88E00B96F82 /* MEConversationWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2965266F2A0DF88E00B96F82 /* MEConversationWheel.swift */; };
 		296562EF2A0B500B00F9B0BB /* HiFiRushBeatBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296562EE2A0B500B00F9B0BB /* HiFiRushBeatBar.swift */; };
-		296562F02A0B500B00F9B0BB /* HiFiRushBeatBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296562EE2A0B500B00F9B0BB /* HiFiRushBeatBar.swift */; };
 		2969F64829C6BBB10027F12B /* D4Waypoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2969F64729C6BBB10027F12B /* D4Waypoint.swift */; };
-		2969F64929C6BBB10027F12B /* D4Waypoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2969F64729C6BBB10027F12B /* D4Waypoint.swift */; };
 		296C1F1627F6A44D00BAEA23 /* Shimmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296C1F1527F6A44D00BAEA23 /* Shimmer.swift */; };
-		296C1F1727F6A44D00BAEA23 /* Shimmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296C1F1527F6A44D00BAEA23 /* Shimmer.swift */; };
 		296C7F512706B35D00BFACC1 /* DBHLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296C7F502706B35D00BFACC1 /* DBHLoadingView.swift */; };
-		296C7F522706B35D00BFACC1 /* DBHLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296C7F502706B35D00BFACC1 /* DBHLoadingView.swift */; };
 		297416A828CD86B000949366 /* ArcanistIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297416A728CD86B000949366 /* ArcanistIcon.swift */; };
-		297416A928CD86B000949366 /* ArcanistIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297416A728CD86B000949366 /* ArcanistIcon.swift */; };
 		297416AB28CDA35C00949366 /* LACardAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297416AA28CDA35C00949366 /* LACardAnimation.swift */; };
-		297416AC28CDA35C00949366 /* LACardAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297416AA28CDA35C00949366 /* LACardAnimation.swift */; };
 		2976E1BF2626A45100272ADC /* Game_UI_InspirationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2976E1AC2626A45000272ADC /* Game_UI_InspirationsApp.swift */; };
-		2976E1C02626A45100272ADC /* Game_UI_InspirationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2976E1AC2626A45000272ADC /* Game_UI_InspirationsApp.swift */; };
 		2976E1C12626A45100272ADC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2976E1AD2626A45000272ADC /* ContentView.swift */; };
-		2976E1C22626A45100272ADC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2976E1AD2626A45000272ADC /* ContentView.swift */; };
 		2976E1C32626A45100272ADC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2976E1AE2626A45000272ADC /* Assets.xcassets */; };
 		2976E1C42626A45100272ADC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2976E1AE2626A45000272ADC /* Assets.xcassets */; };
 		2976E1DA2626AD5C00272ADC /* Pulsar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2976E1D92626AD5C00272ADC /* Pulsar.swift */; };
-		2976E1DB2626AD5C00272ADC /* Pulsar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2976E1D92626AD5C00272ADC /* Pulsar.swift */; };
 		2978B27528C1B451007EC9AF /* ACONewLocationBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2978B27428C1B451007EC9AF /* ACONewLocationBanner.swift */; };
-		2978B27628C1B451007EC9AF /* ACONewLocationBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2978B27428C1B451007EC9AF /* ACONewLocationBanner.swift */; };
 		2979E34E28ED3701001E8730 /* OW2FindingGameAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2979E34D28ED3701001E8730 /* OW2FindingGameAnimation.swift */; };
 		297A3D74265185FD00D0C79E /* Shapes in Frameworks */ = {isa = PBXBuildFile; productRef = 297A3D73265185FD00D0C79E /* Shapes */; };
 		297A3D782651860A00D0C79E /* Shapes in Frameworks */ = {isa = PBXBuildFile; productRef = 297A3D772651860A00D0C79E /* Shapes */; };
 		297A6E3A265E02B600201D1A /* DiamondDogsLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297A6E39265E02B600201D1A /* DiamondDogsLogo.swift */; };
-		297A6E3B265E02B600201D1A /* DiamondDogsLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297A6E39265E02B600201D1A /* DiamondDogsLogo.swift */; };
 		297A6E3F265E04F200201D1A /* DiamondGem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297A6E3E265E04F200201D1A /* DiamondGem.swift */; };
-		297A6E40265E04F200201D1A /* DiamondGem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297A6E3E265E04F200201D1A /* DiamondGem.swift */; };
 		297A6E45265E057000201D1A /* RibbonShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297A6E44265E057000201D1A /* RibbonShapes.swift */; };
-		297A6E46265E057000201D1A /* RibbonShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297A6E44265E057000201D1A /* RibbonShapes.swift */; };
 		297DC70C265A106800980DDE /* MGSVLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297DC70B265A106800980DDE /* MGSVLoadingView.swift */; };
-		297DC70D265A106800980DDE /* MGSVLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297DC70B265A106800980DDE /* MGSVLoadingView.swift */; };
 		297DC711265A107600980DDE /* MGSVLoadingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297DC710265A107600980DDE /* MGSVLoadingViewModel.swift */; };
-		297DC712265A107600980DDE /* MGSVLoadingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297DC710265A107600980DDE /* MGSVLoadingViewModel.swift */; };
 		29801ACB2647A0320010B4C8 /* SkillMaxHealth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29801ACA2647A0320010B4C8 /* SkillMaxHealth.swift */; };
-		29801ACC2647A0320010B4C8 /* SkillMaxHealth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29801ACA2647A0320010B4C8 /* SkillMaxHealth.swift */; };
 		298079B3295E9CA10098B173 /* STFCTutorialArrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298079B2295E9CA10098B173 /* STFCTutorialArrow.swift */; };
-		298079B4295E9CA10098B173 /* STFCTutorialArrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298079B2295E9CA10098B173 /* STFCTutorialArrow.swift */; };
 		29813985263287BA00009D7B /* POIMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29813984263287BA00009D7B /* POIMarker.swift */; };
-		29813986263287BA00009D7B /* POIMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29813984263287BA00009D7B /* POIMarker.swift */; };
 		29816B6C263BBF1E0016F1BA /* Rustify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29816B6B263BBF1E0016F1BA /* Rustify.swift */; };
-		29816B6D263BBF1E0016F1BA /* Rustify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29816B6B263BBF1E0016F1BA /* Rustify.swift */; };
 		2987AE962B50F39B0062C239 /* StarfoxShip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2987AE952B50F39B0062C239 /* StarfoxShip.swift */; };
 		2987F60E2931D53E00DE8218 /* BatmanLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2987F60D2931D53E00DE8218 /* BatmanLogo.swift */; };
-		2987F60F2931D53E00DE8218 /* BatmanLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2987F60D2931D53E00DE8218 /* BatmanLogo.swift */; };
 		2987F6112931EB8800DE8218 /* BatmanSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2987F6102931EB8800DE8218 /* BatmanSelectionView.swift */; };
-		2987F6122931EB8800DE8218 /* BatmanSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2987F6102931EB8800DE8218 /* BatmanSelectionView.swift */; };
 		298CD783270FEF2900C9D6B9 /* TesselationDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298CD781270FEF2900C9D6B9 /* TesselationDemo.swift */; };
-		298CD784270FEF2900C9D6B9 /* TesselationDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298CD781270FEF2900C9D6B9 /* TesselationDemo.swift */; };
 		298CD785270FEF2A00C9D6B9 /* KiteAnimationDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298CD782270FEF2900C9D6B9 /* KiteAnimationDemo.swift */; };
-		298CD786270FEF2A00C9D6B9 /* KiteAnimationDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298CD782270FEF2900C9D6B9 /* KiteAnimationDemo.swift */; };
 		298DA1C3269AA4CC0054463A /* OWUltimateMeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298DA1C2269AA4CC0054463A /* OWUltimateMeter.swift */; };
-		298DA1C4269AA4CC0054463A /* OWUltimateMeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298DA1C2269AA4CC0054463A /* OWUltimateMeter.swift */; };
 		298DA1C6269AAEF50054463A /* OWUltimateMeterDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298DA1C5269AAEF50054463A /* OWUltimateMeterDemo.swift */; };
-		298DA1C7269AAEF50054463A /* OWUltimateMeterDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298DA1C5269AAEF50054463A /* OWUltimateMeterDemo.swift */; };
 		298FE2FA264B8C6400BBC02A /* SkillWeaponSway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298FE2F9264B8C6400BBC02A /* SkillWeaponSway.swift */; };
-		298FE2FB264B8C6400BBC02A /* SkillWeaponSway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298FE2F9264B8C6400BBC02A /* SkillWeaponSway.swift */; };
 		298FE2FF264B8F1C00BBC02A /* SkillHealingSpeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298FE2FE264B8F1C00BBC02A /* SkillHealingSpeed.swift */; };
-		298FE300264B8F1C00BBC02A /* SkillHealingSpeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298FE2FE264B8F1C00BBC02A /* SkillHealingSpeed.swift */; };
 		298FE309264B939800BBC02A /* TLOUSkillSelectMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298FE308264B939800BBC02A /* TLOUSkillSelectMenu.swift */; };
-		298FE30A264B939800BBC02A /* TLOUSkillSelectMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298FE308264B939800BBC02A /* TLOUSkillSelectMenu.swift */; };
 		29922AC82633D270002469C2 /* MK11SelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29922AC72633D270002469C2 /* MK11SelectionView.swift */; };
-		29922AC92633D270002469C2 /* MK11SelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29922AC72633D270002469C2 /* MK11SelectionView.swift */; };
 		29922ACD2633D2FA002469C2 /* MK11Left.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29922ACC2633D2FA002469C2 /* MK11Left.swift */; };
-		29922ACE2633D2FA002469C2 /* MK11Left.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29922ACC2633D2FA002469C2 /* MK11Left.swift */; };
 		299363D3273F969400CA089A /* GIAchievementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299363D2273F969400CA089A /* GIAchievementView.swift */; };
-		299363D4273F969400CA089A /* GIAchievementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299363D2273F969400CA089A /* GIAchievementView.swift */; };
 		2993C98728656288002E09CB /* MarqueeText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2993C98628656288002E09CB /* MarqueeText.swift */; };
-		2993C98828656288002E09CB /* MarqueeText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2993C98628656288002E09CB /* MarqueeText.swift */; };
 		2993C98B286572BD002E09CB /* NMSCraftingMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2993C98A286572BD002E09CB /* NMSCraftingMenuItem.swift */; };
-		2993C98C286572BD002E09CB /* NMSCraftingMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2993C98A286572BD002E09CB /* NMSCraftingMenuItem.swift */; };
 		2998BF022660B1CE00EA034B /* RibbonBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2998BF012660B1CE00EA034B /* RibbonBanner.swift */; };
-		2998BF032660B1CE00EA034B /* RibbonBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2998BF012660B1CE00EA034B /* RibbonBanner.swift */; };
 		299E63EF29AB28F80068265E /* CGRect+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299E63EE29AB28F80068265E /* CGRect+Extensions.swift */; };
-		299E63F029AB28F80068265E /* CGRect+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299E63EE29AB28F80068265E /* CGRect+Extensions.swift */; };
 		29A13505270D49F900F19B6F /* RDR2ShowdownTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A13504270D49F900F19B6F /* RDR2ShowdownTitle.swift */; };
-		29A13506270D49F900F19B6F /* RDR2ShowdownTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A13504270D49F900F19B6F /* RDR2ShowdownTitle.swift */; };
 		29A22CF52626D8C9000D9EAF /* LoadingRingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22CF02626D8C9000D9EAF /* LoadingRingsViewModel.swift */; };
-		29A22CF62626D8C9000D9EAF /* LoadingRingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22CF02626D8C9000D9EAF /* LoadingRingsViewModel.swift */; };
 		29A22CF72626D8C9000D9EAF /* LoadingRingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22CF12626D8C9000D9EAF /* LoadingRingsView.swift */; };
-		29A22CF82626D8C9000D9EAF /* LoadingRingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22CF12626D8C9000D9EAF /* LoadingRingsView.swift */; };
 		29A22CF92626D8C9000D9EAF /* LoadingRingsDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22CF22626D8C9000D9EAF /* LoadingRingsDemo.swift */; };
-		29A22CFA2626D8C9000D9EAF /* LoadingRingsDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22CF22626D8C9000D9EAF /* LoadingRingsDemo.swift */; };
 		29A22CFB2626D8C9000D9EAF /* ConsummateVDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22CF32626D8C9000D9EAF /* ConsummateVDemo.swift */; };
-		29A22CFC2626D8C9000D9EAF /* ConsummateVDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22CF32626D8C9000D9EAF /* ConsummateVDemo.swift */; };
 		29A22CFD2626D8C9000D9EAF /* ConsummateV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22CF42626D8C9000D9EAF /* ConsummateV.swift */; };
-		29A22CFE2626D8C9000D9EAF /* ConsummateV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22CF42626D8C9000D9EAF /* ConsummateV.swift */; };
 		29A22D042626D93A000D9EAF /* QuestDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D032626D93A000D9EAF /* QuestDescriptionView.swift */; };
-		29A22D052626D93A000D9EAF /* QuestDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D032626D93A000D9EAF /* QuestDescriptionView.swift */; };
 		29A22D102626DC60000D9EAF /* KombatKardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D092626DC60000D9EAF /* KombatKardView.swift */; };
-		29A22D112626DC60000D9EAF /* KombatKardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D092626DC60000D9EAF /* KombatKardView.swift */; };
 		29A22D122626DC60000D9EAF /* KountdownTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D0A2626DC60000D9EAF /* KountdownTimerView.swift */; };
-		29A22D132626DC60000D9EAF /* KountdownTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D0A2626DC60000D9EAF /* KountdownTimerView.swift */; };
 		29A22D162626DC60000D9EAF /* KountdownTimerDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D0C2626DC60000D9EAF /* KountdownTimerDemo.swift */; };
-		29A22D172626DC60000D9EAF /* KountdownTimerDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D0C2626DC60000D9EAF /* KountdownTimerDemo.swift */; };
 		29A22D182626DC60000D9EAF /* KombatKardContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D0D2626DC60000D9EAF /* KombatKardContentView.swift */; };
-		29A22D192626DC60000D9EAF /* KombatKardContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D0D2626DC60000D9EAF /* KombatKardContentView.swift */; };
 		29A22D1A2626DC60000D9EAF /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D0E2626DC60000D9EAF /* MenuView.swift */; };
-		29A22D1B2626DC60000D9EAF /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D0E2626DC60000D9EAF /* MenuView.swift */; };
 		29A22D1C2626DC60000D9EAF /* KountdownTimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D0F2626DC60000D9EAF /* KountdownTimerViewModel.swift */; };
-		29A22D1D2626DC60000D9EAF /* KountdownTimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D0F2626DC60000D9EAF /* KountdownTimerViewModel.swift */; };
 		29A22D3B2626DFF3000D9EAF /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D382626DFF3000D9EAF /* ProgressBar.swift */; };
-		29A22D3C2626DFF3000D9EAF /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D382626DFF3000D9EAF /* ProgressBar.swift */; };
 		29A22D3D2626DFF3000D9EAF /* GILoadingProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D392626DFF3000D9EAF /* GILoadingProgressBar.swift */; };
-		29A22D3E2626DFF3000D9EAF /* GILoadingProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D392626DFF3000D9EAF /* GILoadingProgressBar.swift */; };
 		29A22D3F2626DFF3000D9EAF /* MaskedProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D3A2626DFF3000D9EAF /* MaskedProgressBar.swift */; };
-		29A22D402626DFF3000D9EAF /* MaskedProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D3A2626DFF3000D9EAF /* MaskedProgressBar.swift */; };
 		29A22D472626E041000D9EAF /* RDR2MinimapDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D432626E041000D9EAF /* RDR2MinimapDemo.swift */; };
-		29A22D482626E041000D9EAF /* RDR2MinimapDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D432626E041000D9EAF /* RDR2MinimapDemo.swift */; };
 		29A22D492626E041000D9EAF /* RDR2MinimapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D442626E041000D9EAF /* RDR2MinimapViewModel.swift */; };
-		29A22D4A2626E041000D9EAF /* RDR2MinimapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D442626E041000D9EAF /* RDR2MinimapViewModel.swift */; };
 		29A22D4B2626E041000D9EAF /* RDR2MinimapModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D452626E041000D9EAF /* RDR2MinimapModel.swift */; };
-		29A22D4C2626E041000D9EAF /* RDR2MinimapModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D452626E041000D9EAF /* RDR2MinimapModel.swift */; };
 		29A22D4D2626E041000D9EAF /* RDR2MinimapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D462626E041000D9EAF /* RDR2MinimapView.swift */; };
-		29A22D4E2626E041000D9EAF /* RDR2MinimapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D462626E041000D9EAF /* RDR2MinimapView.swift */; };
 		29A22D522626E059000D9EAF /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D512626E059000D9EAF /* Color+Extensions.swift */; };
-		29A22D532626E059000D9EAF /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D512626E059000D9EAF /* Color+Extensions.swift */; };
 		29A38D44281254DE00DEEB69 /* LostArkLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A38D43281254DE00DEEB69 /* LostArkLogo.swift */; };
-		29A38D45281254DE00DEEB69 /* LostArkLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A38D43281254DE00DEEB69 /* LostArkLogo.swift */; };
 		29A38D4728125A1400DEEB69 /* LostArkSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A38D4628125A1400DEEB69 /* LostArkSelectionView.swift */; };
-		29A38D4828125A1400DEEB69 /* LostArkSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A38D4628125A1400DEEB69 /* LostArkSelectionView.swift */; };
 		29A4F49C283DD99F0078F32D /* BreathGem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A4F49B283DD99F0078F32D /* BreathGem.swift */; };
-		29A4F49D283DD99F0078F32D /* BreathGem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A4F49B283DD99F0078F32D /* BreathGem.swift */; };
 		29A4F49F283DEC9F0078F32D /* LAItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A4F49E283DEC9F0078F32D /* LAItem.swift */; };
-		29A4F4A0283DEC9F0078F32D /* LAItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A4F49E283DEC9F0078F32D /* LAItem.swift */; };
 		29A4F4A2283DFB260078F32D /* LACardBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A4F4A1283DFB260078F32D /* LACardBack.swift */; };
-		29A4F4A3283DFB260078F32D /* LACardBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A4F4A1283DFB260078F32D /* LACardBack.swift */; };
 		29A6CDD228068BBA006CDAF8 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A6CDD128068BBA006CDAF8 /* UIView+Extensions.swift */; };
-		29A6CDD328068BBA006CDAF8 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A6CDD128068BBA006CDAF8 /* UIView+Extensions.swift */; };
 		29AC8E91288D07470007D1C5 /* RDR2HUDCoreMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AC8E90288D07470007D1C5 /* RDR2HUDCoreMenu.swift */; };
-		29AC8E92288D07470007D1C5 /* RDR2HUDCoreMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AC8E90288D07470007D1C5 /* RDR2HUDCoreMenu.swift */; };
 		29ACEC2B2642522C00DAE394 /* TLOUSkillsIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29ACEC2A2642522C00DAE394 /* TLOUSkillsIcon.swift */; };
-		29ACEC2C2642522C00DAE394 /* TLOUSkillsIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29ACEC2A2642522C00DAE394 /* TLOUSkillsIcon.swift */; };
 		29AD4BB227717A130017F2DB /* StrokeStyledCircleDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AD4BB127717A130017F2DB /* StrokeStyledCircleDemo.swift */; };
-		29AD4BB327717A130017F2DB /* StrokeStyledCircleDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AD4BB127717A130017F2DB /* StrokeStyledCircleDemo.swift */; };
 		29AF0319273B7ED700B5BA4B /* RDR2CoreModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF0318273B7ED700B5BA4B /* RDR2CoreModel.swift */; };
-		29AF031A273B7ED700B5BA4B /* RDR2CoreModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF0318273B7ED700B5BA4B /* RDR2CoreModel.swift */; };
 		29AF031C273B7EFA00B5BA4B /* RDR2HUDCoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF031B273B7EFA00B5BA4B /* RDR2HUDCoreViewModel.swift */; };
-		29AF031D273B7EFA00B5BA4B /* RDR2HUDCoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF031B273B7EFA00B5BA4B /* RDR2HUDCoreViewModel.swift */; };
 		29AF031F273B7F9D00B5BA4B /* RDR2HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF031E273B7F9D00B5BA4B /* RDR2HUD.swift */; };
-		29AF0320273B7F9D00B5BA4B /* RDR2HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF031E273B7F9D00B5BA4B /* RDR2HUD.swift */; };
 		29AF0323273B83EA00B5BA4B /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF0322273B83EA00B5BA4B /* View+Extensions.swift */; };
-		29AF0324273B83EA00B5BA4B /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF0322273B83EA00B5BA4B /* View+Extensions.swift */; };
-		29AF0326273B952200B5BA4B /* CodeSnippets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF0325273B952200B5BA4B /* CodeSnippets.swift */; };
-		29AF0327273B952200B5BA4B /* CodeSnippets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF0325273B952200B5BA4B /* CodeSnippets.swift */; };
 		29AFD3942764595700493800 /* SpiderManSkill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AFD3932764595700493800 /* SpiderManSkill.swift */; };
-		29AFD3952764595700493800 /* SpiderManSkill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AFD3932764595700493800 /* SpiderManSkill.swift */; };
 		29B02F002793DEF60034A6F9 /* P5AnimatedStars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B02EFF2793DEF60034A6F9 /* P5AnimatedStars.swift */; };
-		29B02F012793DEF60034A6F9 /* P5AnimatedStars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B02EFF2793DEF60034A6F9 /* P5AnimatedStars.swift */; };
 		29B02F032793E30B0034A6F9 /* P5AnimatedStarParty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B02F022793E30B0034A6F9 /* P5AnimatedStarParty.swift */; };
-		29B02F042793E30B0034A6F9 /* P5AnimatedStarParty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B02F022793E30B0034A6F9 /* P5AnimatedStarParty.swift */; };
 		29B44138262FDF2A00E442A6 /* TLOUIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B44137262FDF2A00E442A6 /* TLOUIcon.swift */; };
-		29B44139262FDF2A00E442A6 /* TLOUIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B44137262FDF2A00E442A6 /* TLOUIcon.swift */; };
 		29B7991B285C2EFC005FD3D2 /* OriSkill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B7991A285C2EFC005FD3D2 /* OriSkill.swift */; };
 		29B7991D285C2FBD005FD3D2 /* OriSkillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B7991C285C2FBD005FD3D2 /* OriSkillView.swift */; };
 		29B7991F285C3433005FD3D2 /* OriSkillWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B7991E285C3433005FD3D2 /* OriSkillWheel.swift */; };
 		29B79921285C3E6B005FD3D2 /* OriSkillTreeDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B79920285C3E6B005FD3D2 /* OriSkillTreeDemo.swift */; };
 		29B79F9C2980E8C400C41A0A /* GotgInteractiveItemAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B79F9B2980E8C400C41A0A /* GotgInteractiveItemAlert.swift */; };
-		29B79F9D2980E8C400C41A0A /* GotgInteractiveItemAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B79F9B2980E8C400C41A0A /* GotgInteractiveItemAlert.swift */; };
 		29B98CB426B1118500E1B7FF /* GIClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B98CB326B1118500E1B7FF /* GIClockView.swift */; };
-		29B98CB526B1118500E1B7FF /* GIClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B98CB326B1118500E1B7FF /* GIClockView.swift */; };
 		29BB327C265E0C3F00C3CCFE /* DiamondDog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BB327B265E0C3F00C3CCFE /* DiamondDog.swift */; };
-		29BB327D265E0C3F00C3CCFE /* DiamondDog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BB327B265E0C3F00C3CCFE /* DiamondDog.swift */; };
 		29BCCFB7277C2AD90055DE94 /* CircularText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BCCFB6277C2AD90055DE94 /* CircularText.swift */; };
-		29BCCFB8277C2AD90055DE94 /* CircularText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BCCFB6277C2AD90055DE94 /* CircularText.swift */; };
 		29BCCFBA277C2DFF0055DE94 /* DrStrangeShield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BCCFB9277C2DFF0055DE94 /* DrStrangeShield.swift */; };
-		29BCCFBB277C2DFF0055DE94 /* DrStrangeShield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BCCFB9277C2DFF0055DE94 /* DrStrangeShield.swift */; };
 		29BD55D128F66B5D00C061F7 /* OW2UltimateMeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BD55D028F66B5D00C061F7 /* OW2UltimateMeter.swift */; };
 		29C11DE327630B6D00D0CA09 /* SpiderManSkillDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C11DE227630B6D00D0CA09 /* SpiderManSkillDetailView.swift */; };
-		29C11DE427630B6D00D0CA09 /* SpiderManSkillDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C11DE227630B6D00D0CA09 /* SpiderManSkillDetailView.swift */; };
 		29C11DE927630F0300D0CA09 /* SpiderManSkillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C11DE827630F0300D0CA09 /* SpiderManSkillView.swift */; };
-		29C11DEA27630F0300D0CA09 /* SpiderManSkillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C11DE827630F0300D0CA09 /* SpiderManSkillView.swift */; };
 		29C11DEC276310C000D0CA09 /* SpiderManSkillTreeWeb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C11DEB276310C000D0CA09 /* SpiderManSkillTreeWeb.swift */; };
-		29C11DED276310C000D0CA09 /* SpiderManSkillTreeWeb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C11DEB276310C000D0CA09 /* SpiderManSkillTreeWeb.swift */; };
 		29C11DEF2763129200D0CA09 /* SpiderManSkillTreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C11DEE2763129200D0CA09 /* SpiderManSkillTreeView.swift */; };
-		29C11DF02763129200D0CA09 /* SpiderManSkillTreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C11DEE2763129200D0CA09 /* SpiderManSkillTreeView.swift */; };
 		29C5AFC3272E420900BFACD4 /* RDR2Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C5AFC2272E420900BFACD4 /* RDR2Menu.swift */; };
-		29C5AFC4272E420900BFACD4 /* RDR2Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C5AFC2272E420900BFACD4 /* RDR2Menu.swift */; };
 		29C611D428530B0C00804EFD /* LAMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C611D328530B0C00804EFD /* LAMenu.swift */; };
-		29C611D528530B0C00804EFD /* LAMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C611D328530B0C00804EFD /* LAMenu.swift */; };
 		29C71B2A276C064300CAFA70 /* LongPressHoldable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C71B29276C064300CAFA70 /* LongPressHoldable.swift */; };
-		29C71B2B276C064300CAFA70 /* LongPressHoldable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C71B29276C064300CAFA70 /* LongPressHoldable.swift */; };
 		29C9018F26A7D85500AA9619 /* OWUltimateReadyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C9018E26A7D85500AA9619 /* OWUltimateReadyView.swift */; };
-		29C9019026A7D85500AA9619 /* OWUltimateReadyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C9018E26A7D85500AA9619 /* OWUltimateReadyView.swift */; };
 		29C9019226A801A400AA9619 /* OWUltimateMeterBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C9019126A801A400AA9619 /* OWUltimateMeterBorder.swift */; };
-		29C9019326A801A400AA9619 /* OWUltimateMeterBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C9019126A801A400AA9619 /* OWUltimateMeterBorder.swift */; };
 		29CA754327912F8800298F47 /* Persona5AnimatedMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CA754227912F8800298F47 /* Persona5AnimatedMenu.swift */; };
 		29CA75452791378A00298F47 /* TextShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CA75442791378A00298F47 /* TextShape.swift */; };
-		29CA75462791378A00298F47 /* TextShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CA75442791378A00298F47 /* TextShape.swift */; };
 		29CFBC0C2977A9860083C6B8 /* KreeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CFBC0B2977A9860083C6B8 /* KreeSymbol.swift */; };
-		29CFBC0D2977A9860083C6B8 /* KreeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CFBC0B2977A9860083C6B8 /* KreeSymbol.swift */; };
 		29CFBC0F2977B58E0083C6B8 /* FactionBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CFBC0E2977B58E0083C6B8 /* FactionBanner.swift */; };
-		29CFBC102977B58E0083C6B8 /* FactionBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CFBC0E2977B58E0083C6B8 /* FactionBanner.swift */; };
 		29CFBC122977BFE90083C6B8 /* KrakoaFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CFBC112977BFE90083C6B8 /* KrakoaFont.swift */; };
-		29CFBC132977BFE90083C6B8 /* KrakoaFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CFBC112977BFE90083C6B8 /* KrakoaFont.swift */; };
 		29D0110E2759D014002E393B /* SpiderManSkillsMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D0110D2759D014002E393B /* SpiderManSkillsMenu.swift */; };
-		29D0110F2759D014002E393B /* SpiderManSkillsMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D0110D2759D014002E393B /* SpiderManSkillsMenu.swift */; };
 		29D011112759EAA1002E393B /* SpiderManSkillModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D011102759EAA1002E393B /* SpiderManSkillModel.swift */; };
-		29D011122759EAA1002E393B /* SpiderManSkillModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D011102759EAA1002E393B /* SpiderManSkillModel.swift */; };
 		29D2AEBE26AA7821005A35D1 /* ArtemisBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D2AEBD26AA7821005A35D1 /* ArtemisBoon.swift */; };
-		29D2AEBF26AA7821005A35D1 /* ArtemisBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D2AEBD26AA7821005A35D1 /* ArtemisBoon.swift */; };
 		29D2EDD329A1D8C00009EEA3 /* MEDecryptionMinigame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D2EDD229A1D8C00009EEA3 /* MEDecryptionMinigame.swift */; };
-		29D2EDD429A1D8C00009EEA3 /* MEDecryptionMinigame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D2EDD229A1D8C00009EEA3 /* MEDecryptionMinigame.swift */; };
 		29D3FAB62644F4B000B6A02F /* SkillVitamin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D3FAB52644F4B000B6A02F /* SkillVitamin.swift */; };
-		29D3FAB72644F4B000B6A02F /* SkillVitamin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D3FAB52644F4B000B6A02F /* SkillVitamin.swift */; };
 		29D3FABB2644F6C500B6A02F /* SkillSelectionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D3FABA2644F6C500B6A02F /* SkillSelectionRow.swift */; };
-		29D3FABC2644F6C500B6A02F /* SkillSelectionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D3FABA2644F6C500B6A02F /* SkillSelectionRow.swift */; };
 		29D66FDD286EA34B00FA0002 /* MokokoSeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D66FDC286EA34B00FA0002 /* MokokoSeed.swift */; };
-		29D66FDE286EA34B00FA0002 /* MokokoSeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D66FDC286EA34B00FA0002 /* MokokoSeed.swift */; };
 		29D8B98927607A3300F21B7A /* SpiderManSkillViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D8B98827607A3300F21B7A /* SpiderManSkillViewModel.swift */; };
-		29D8B98A27607A3300F21B7A /* SpiderManSkillViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D8B98827607A3300F21B7A /* SpiderManSkillViewModel.swift */; };
 		29DA940E27CF674800741B9B /* Path+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DA940D27CF674800741B9B /* Path+Extensions.swift */; };
-		29DA940F27CF674800741B9B /* Path+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DA940D27CF674800741B9B /* Path+Extensions.swift */; };
+		29DCADF62BB3D8D3001639DC /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DCADF52BB3D8D3001639DC /* Image.swift */; };
+		29DCAE0B2BB3DF23001639DC /* StarfoxShip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2987AE952B50F39B0062C239 /* StarfoxShip.swift */; };
+		29DCAE0C2BB3DF23001639DC /* Game_UI_InspirationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2976E1AC2626A45000272ADC /* Game_UI_InspirationsApp.swift */; };
+		29DCAE0D2BB3DF23001639DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2976E1AD2626A45000272ADC /* ContentView.swift */; };
+		29DCAE0E2BB3DF23001639DC /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2964BAB226C384B000F37FDC /* Game.swift */; };
+		29DCAE0F2BB3DF23001639DC /* Path+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DA940D27CF674800741B9B /* Path+Extensions.swift */; };
+		29DCAE102BB3DF23001639DC /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D512626E059000D9EAF /* Color+Extensions.swift */; };
+		29DCAE112BB3DF23001639DC /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF0322273B83EA00B5BA4B /* View+Extensions.swift */; };
+		29DCAE122BB3DF23001639DC /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A6CDD128068BBA006CDAF8 /* UIView+Extensions.swift */; };
+		29DCAE132BB3DF23001639DC /* CGRect+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299E63EE29AB28F80068265E /* CGRect+Extensions.swift */; };
+		29DCAE142BB3DF23001639DC /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DCADF52BB3D8D3001639DC /* Image.swift */; };
+		29DCAE152BB3DF23001639DC /* Pixellate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD47462843234600BF4BAE /* Pixellate.swift */; };
+		29DCAE162BB3DF23001639DC /* LineSegmentGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29567DB6276D80FC00946491 /* LineSegmentGroup.swift */; };
+		29DCAE172BB3DF23001639DC /* LongPressHoldable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C71B29276C064300CAFA70 /* LongPressHoldable.swift */; };
+		29DCAE182BB3DF23001639DC /* MaskedProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D3A2626DFF3000D9EAF /* MaskedProgressBar.swift */; };
+		29DCAE192BB3DF23001639DC /* PersonProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2910BBE7271FD5670019329D /* PersonProfile.swift */; };
+		29DCAE1A2BB3DF23001639DC /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D382626DFF3000D9EAF /* ProgressBar.swift */; };
+		29DCAE1B2BB3DF23001639DC /* Rustify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29816B6B263BBF1E0016F1BA /* Rustify.swift */; };
+		29DCAE1C2BB3DF23001639DC /* TypewriterTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FADE15269E99E400CF6D73 /* TypewriterTextView.swift */; };
+		29DCAE1D2BB3DF23001639DC /* TypewriterTextViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FADE18269EA23000CF6D73 /* TypewriterTextViewModel.swift */; };
+		29DCAE1E2BB3DF23001639DC /* TestingTiledImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29304D2E26916F49003512A1 /* TestingTiledImageView.swift */; };
+		29DCAE1F2BB3DF23001639DC /* TextEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290BBC3026CCC06F004D57D9 /* TextEffectView.swift */; };
+		29DCAE202BB3DF23001639DC /* TextEffectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290BBC3326CCC8AA004D57D9 /* TextEffectViewModel.swift */; };
+		29DCAE212BB3DF23001639DC /* CircularText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BCCFB6277C2AD90055DE94 /* CircularText.swift */; };
+		29DCAE222BB3DF23001639DC /* TwoTonedIsotoxalPolygon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2920DB5A278566EB00DE5BEE /* TwoTonedIsotoxalPolygon.swift */; };
+		29DCAE232BB3DF23001639DC /* TextShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CA75442791378A00298F47 /* TextShape.swift */; };
+		29DCAE242BB3DF23001639DC /* TextPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292D45D227AA3DBB003A1020 /* TextPath.swift */; };
+		29DCAE252BB3DF23001639DC /* Shimmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296C1F1527F6A44D00BAEA23 /* Shimmer.swift */; };
+		29DCAE262BB3DF23001639DC /* ProgressBarWithDelta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290088FD28407EFD00F840D8 /* ProgressBarWithDelta.swift */; };
+		29DCAE272BB3DF23001639DC /* MarqueeText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2993C98628656288002E09CB /* MarqueeText.swift */; };
+		29DCAE282BB3DF23001639DC /* SliderLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294214A0290B92B700E205C6 /* SliderLabelView.swift */; };
+		29DCAE292BB3DF23001639DC /* InvertedShapeDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2953C392297E354D00125B7F /* InvertedShapeDemo.swift */; };
+		29DCAE2A2BB3DF23001639DC /* RandomIndexedTiledShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2938B4DA298A2F4600D7678D /* RandomIndexedTiledShape.swift */; };
+		29DCAE2B2BB3DF23001639DC /* DragonCurveDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2933C0A52772FA470063CF78 /* DragonCurveDemo.swift */; };
+		29DCAE2C2BB3DF23001639DC /* SpirolateralAnimationDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294D37352710082700524868 /* SpirolateralAnimationDemo.swift */; };
+		29DCAE2D2BB3DF24001639DC /* KiteAnimationDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298CD782270FEF2900C9D6B9 /* KiteAnimationDemo.swift */; };
+		29DCAE2E2BB3DF24001639DC /* TesselationDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298CD781270FEF2900C9D6B9 /* TesselationDemo.swift */; };
+		29DCAE2F2BB3DF24001639DC /* TextEffectViewDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2906F21726D603A500E38EFF /* TextEffectViewDemo.swift */; };
+		29DCAE302BB3DF24001639DC /* StarPolygonDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2952A69126DF3859007BABFC /* StarPolygonDemo.swift */; };
+		29DCAE312BB3DF24001639DC /* SpirolateralDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29350C702709930F00A2B8FA /* SpirolateralDemo.swift */; };
+		29DCAE322BB3DF24001639DC /* StrokeStyledCircleDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AD4BB127717A130017F2DB /* StrokeStyledCircleDemo.swift */; };
+		29DCAE332BB3DF24001639DC /* OrnateCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2960C694270A0B850024872D /* OrnateCorners.swift */; };
+		29DCAE342BB3DF24001639DC /* WheelOfFortune.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291035812734D677004DA378 /* WheelOfFortune.swift */; };
+		29DCAE352BB3DF24001639DC /* LongPressProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2910377A275C745A00A9EEB6 /* LongPressProgressView.swift */; };
+		29DCAE362BB3DF24001639DC /* DrStrangeShield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BCCFB9277C2DFF0055DE94 /* DrStrangeShield.swift */; };
+		29DCAE372BB3DF24001639DC /* ProgressBarWithDeltaDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290089002840815900F840D8 /* ProgressBarWithDeltaDemo.swift */; };
+		29DCAE382BB3DF24001639DC /* AnimatedStrokeStyledCircleDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290FD8C928C472E3004BB351 /* AnimatedStrokeStyledCircleDemo.swift */; };
+		29DCAE392BB3DF24001639DC /* CGAffineTransformDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294214A2290B984000E205C6 /* CGAffineTransformDemo.swift */; };
+		29DCAE3A2BB3DF24001639DC /* AlanWakeSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2942149C290B84D200E205C6 /* AlanWakeSelectionView.swift */; };
+		29DCAE3B2BB3DF24001639DC /* GearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291ED0D32942FA2E00720075 /* GearView.swift */; };
+		29DCAE3C2BB3DF24001639DC /* BatmanLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2987F60D2931D53E00DE8218 /* BatmanLogo.swift */; };
+		29DCAE3D2BB3DF24001639DC /* BatmanSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2987F6102931EB8800DE8218 /* BatmanSelectionView.swift */; };
+		29DCAE3E2BB3DF24001639DC /* ArkhamInterviewCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2914FE282967D65200B80DA4 /* ArkhamInterviewCollectionView.swift */; };
+		29DCAE3F2BB3DF24001639DC /* ArkhamAsylumHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294F3EE7297113FE0000E48A /* ArkhamAsylumHUD.swift */; };
+		29DCAE402BB3DF24001639DC /* BatmanLogoAnimatedBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2953C38C297C694000125B7F /* BatmanLogoAnimatedBorder.swift */; };
+		29DCAE412BB3DF24001639DC /* ACOTargetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29637C9428BB347A0065ECB5 /* ACOTargetView.swift */; };
+		29DCAE422BB3DF24001639DC /* ACONewLocationBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2978B27428C1B451007EC9AF /* ACONewLocationBanner.swift */; };
+		29DCAE432BB3DF24001639DC /* ACOQuestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2931FC6028C44E4E00D7B60B /* ACOQuestView.swift */; };
+		29DCAE442BB3DF24001639DC /* BDMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291ECAF2286817E2004B7A03 /* BDMenuItem.swift */; };
+		29DCAE452BB3DF24001639DC /* CelesteDeathAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29101791270410150021E672 /* CelesteDeathAnimation.swift */; };
+		29DCAE462BB3DF24001639DC /* CelesteDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29101794270429580021E672 /* CelesteDemo.swift */; };
+		29DCAE472BB3DF24001639DC /* QuestDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D032626D93A000D9EAF /* QuestDescriptionView.swift */; };
+		29DCAE482BB3DF24001639DC /* ConsummateV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22CF42626D8C9000D9EAF /* ConsummateV.swift */; };
+		29DCAE492BB3DF24001639DC /* LoadingRingsDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22CF22626D8C9000D9EAF /* LoadingRingsDemo.swift */; };
+		29DCAE4A2BB3DF24001639DC /* LoadingRingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22CF12626D8C9000D9EAF /* LoadingRingsView.swift */; };
+		29DCAE4B2BB3DF24001639DC /* LoadingRingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22CF02626D8C9000D9EAF /* LoadingRingsViewModel.swift */; };
+		29DCAE4C2BB3DF24001639DC /* ConsummateVDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22CF32626D8C9000D9EAF /* ConsummateVDemo.swift */; };
+		29DCAE4D2BB3DF24001639DC /* Pulsar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2976E1D92626AD5C00272ADC /* Pulsar.swift */; };
+		29DCAE4E2BB3DF24001639DC /* ControlSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EB0A60262BEA570032E598 /* ControlSelectionView.swift */; };
+		29DCAE4F2BB3DF24001639DC /* ControlQuestMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EB0A65262BF1D40032E598 /* ControlQuestMarker.swift */; };
+		29DCAE502BB3DF24001639DC /* DeathStrandingTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2948EF08277ED33E00966236 /* DeathStrandingTitle.swift */; };
+		29DCAE512BB3DF24001639DC /* DeathStrandAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EF029027816DF30029C67B /* DeathStrandAnimation.swift */; };
+		29DCAE522BB3DF24001639DC /* PorterGradeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2920DB572785540E00DE5BEE /* PorterGradeView.swift */; };
+		29DCAE532BB3DF24001639DC /* Destiny2FastTravelIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2962057826FD788B002F9D3E /* Destiny2FastTravelIcon.swift */; };
+		29DCAE542BB3DF24001639DC /* Destiny2FastTravelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2962057B26FD7EFD002F9D3E /* Destiny2FastTravelView.swift */; };
+		29DCAE552BB3DF24001639DC /* DBHTitleScreenMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2906484E26FAD6CF009A20A1 /* DBHTitleScreenMenuItem.swift */; };
+		29DCAE562BB3DF24001639DC /* DBHTitleScreenMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FC00022703A8DE00900F5B /* DBHTitleScreenMenu.swift */; };
+		29DCAE572BB3DF24001639DC /* DBHLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296C7F502706B35D00BFACC1 /* DBHLoadingView.swift */; };
+		29DCAE582BB3DF24001639DC /* D4Waypoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2969F64729C6BBB10027F12B /* D4Waypoint.swift */; };
+		29DCAE592BB3DF24001639DC /* D4Pentagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29436F0929CFFE0A009DBEEB /* D4Pentagram.swift */; };
+		29DCAE5A2BB3DF24001639DC /* FF7View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290245B129F4DAAD0052DCCB /* FF7View.swift */; };
+		29DCAE5B2BB3DF24001639DC /* FF7ViewFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290245B329F4E5BF0052DCCB /* FF7ViewFeed.swift */; };
+		29DCAE5C2BB3DF24001639DC /* FFXIVCharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2929B80F2695604600C86BBB /* FFXIVCharacterView.swift */; };
+		29DCAE5D2BB3DF24001639DC /* FFXIVWindowHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2959343928AF41A1005F8EE0 /* FFXIVWindowHeaderView.swift */; };
+		29DCAE5E2BB3DF24001639DC /* FFXIVCharacterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2959343C28AF42E1005F8EE0 /* FFXIVCharacterModel.swift */; };
+		29DCAE5F2BB3DF24001639DC /* FFXIVCharacterTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2959343F28AF4489005F8EE0 /* FFXIVCharacterTabView.swift */; };
+		29DCAE602BB3DF24001639DC /* FFXIVCharacterPointsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2959344228AF4CC9005F8EE0 /* FFXIVCharacterPointsView.swift */; };
+		29DCAE612BB3DF24001639DC /* FFXIVTargetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2959344528AF532F005F8EE0 /* FFXIVTargetView.swift */; };
+		29DCAE622BB3DF24001639DC /* GIAchievementMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2936E04D27707CDF0075FADF /* GIAchievementMenu.swift */; };
+		29DCAE632BB3DF24001639DC /* GIAchievementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299363D2273F969400CA089A /* GIAchievementView.swift */; };
+		29DCAE642BB3DF24001639DC /* GILoadingProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D392626DFF3000D9EAF /* GILoadingProgressBar.swift */; };
+		29DCAE652BB3DF24001639DC /* GIClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B98CB326B1118500E1B7FF /* GIClockView.swift */; };
+		29DCAE662BB3DF24001639DC /* GISelectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2935A9DF27169EAE0043F964 /* GISelectionItem.swift */; };
+		29DCAE672BB3DF24001639DC /* GIItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29421CA027192C6900CBEDBB /* GIItem.swift */; };
+		29DCAE682BB3DF24001639DC /* GIReward.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29421CA327192FC600CBEDBB /* GIReward.swift */; };
+		29DCAE692BB3DF24001639DC /* GIItemRarityBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29421CA62719325800CBEDBB /* GIItemRarityBackground.swift */; };
+		29DCAE6A2BB3DF24001639DC /* GIInventoryMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29421CA927193ED200CBEDBB /* GIInventoryMenu.swift */; };
+		29DCAE6B2BB3DF24001639DC /* Mora.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295678842722636C00FA372A /* Mora.swift */; };
+		29DCAE6C2BB3DF24001639DC /* MasterlessStardust.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2956788727226CB500FA372A /* MasterlessStardust.swift */; };
+		29DCAE6D2BB3DF24001639DC /* MasterlessStarglitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2956788A2722795400FA372A /* MasterlessStarglitter.swift */; };
+		29DCAE6E2BB3DF24001639DC /* GoldenEyeWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293D55B828F2733C00DD2351 /* GoldenEyeWatch.swift */; };
+		29DCAE6F2BB3DF24001639DC /* Clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293D55BA28F29EA700DD2351 /* Clock.swift */; };
+		29DCAE702BB3DF24001639DC /* KreeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CFBC0B2977A9860083C6B8 /* KreeSymbol.swift */; };
+		29DCAE712BB3DF24001639DC /* FactionBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CFBC0E2977B58E0083C6B8 /* FactionBanner.swift */; };
+		29DCAE722BB3DF24001639DC /* KrakoaFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CFBC112977BFE90083C6B8 /* KrakoaFont.swift */; };
+		29DCAE732BB3DF24001639DC /* GotgInteractiveItemAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B79F9B2980E8C400C41A0A /* GotgInteractiveItemAlert.swift */; };
+		29DCAE742BB3DF24001639DC /* GuardianFadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2938B4D7298A212200D7678D /* GuardianFadeTransition.swift */; };
+		29DCAE752BB3DF24001639DC /* GotgSettingsMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2938B4DD298A2F8200D7678D /* GotgSettingsMenu.swift */; };
+		29DCAE762BB3DF24001639DC /* BoonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291026FE263E62EE00418FE1 /* BoonView.swift */; };
+		29DCAE772BB3DF25001639DC /* ZeusBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29102705263E673300418FE1 /* ZeusBoon.swift */; };
+		29DCAE782BB3DF25001639DC /* PoseidonBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2910270A263E6DAC00418FE1 /* PoseidonBoon.swift */; };
+		29DCAE792BB3DF25001639DC /* HadesBoonDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290B5CF6268ED22C00EB93BD /* HadesBoonDemo.swift */; };
+		29DCAE7A2BB3DF25001639DC /* AphroditeBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2910F3E5269801F7008475D6 /* AphroditeBoon.swift */; };
+		29DCAE7B2BB3DF25001639DC /* AthenaBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29230B3E26A1460C00A052E7 /* AthenaBoon.swift */; };
+		29DCAE7C2BB3DF25001639DC /* ArtemisBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D2AEBD26AA7821005A35D1 /* ArtemisBoon.swift */; };
+		29DCAE7D2BB3DF25001639DC /* HermesBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29150B1C26B653F500106A45 /* HermesBoon.swift */; };
+		29DCAE7E2BB3DF25001639DC /* AresBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29150B1F26B659EC00106A45 /* AresBoon.swift */; };
+		29DCAE7F2BB3DF25001639DC /* ChaosBoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2943790428B1DD6300E7E717 /* ChaosBoon.swift */; };
+		29DCAE802BB3DF25001639DC /* HiFiRushBeatBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296562EE2A0B500B00F9B0BB /* HiFiRushBeatBar.swift */; };
+		29DCAE812BB3DF25001639DC /* JustCause4CompassBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291B290B288138F00035BDCE /* JustCause4CompassBorder.swift */; };
+		29DCAE822BB3DF25001639DC /* JustCause4Compass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291B290828812DCE0035BDCE /* JustCause4Compass.swift */; };
+		29DCAE832BB3DF25001639DC /* LAItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A4F49E283DEC9F0078F32D /* LAItem.swift */; };
+		29DCAE842BB3DF25001639DC /* GearHoningModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EDA2D5283741F800BC3C72 /* GearHoningModel.swift */; };
+		29DCAE852BB3DF25001639DC /* GearHoningCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EDA2D8283743CD00BC3C72 /* GearHoningCalculator.swift */; };
+		29DCAE862BB3DF25001639DC /* requiredMaterials.json in Sources */ = {isa = PBXBuildFile; fileRef = 29EDA2DB2837460100BC3C72 /* requiredMaterials.json */; };
+		29DCAE872BB3DF25001639DC /* GearHoningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EDA2DE2837496700BC3C72 /* GearHoningView.swift */; };
+		29DCAE892BB3DF25001639DC /* LASecretDungeonFloorPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295E146027F013C900724FB7 /* LASecretDungeonFloorPattern.swift */; };
+		29DCAE8A2BB3DF25001639DC /* TrebleClef.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295E146127F013C900724FB7 /* TrebleClef.swift */; };
+		29DCAE8B2BB3DF25001639DC /* PolygonSegmentWrapAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295E146227F013C900724FB7 /* PolygonSegmentWrapAnimation.swift */; };
+		29DCAE8C2BB3DF25001639DC /* LABardStigmaSkillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295E146327F013C900724FB7 /* LABardStigmaSkillView.swift */; };
+		29DCAE8D2BB3DF25001639DC /* LABossAttackAreaAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EED47B280676C900504968 /* LABossAttackAreaAnimation.swift */; };
+		29DCAE8E2BB3DF25001639DC /* LostArkLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A38D43281254DE00DEEB69 /* LostArkLogo.swift */; };
+		29DCAE8F2BB3DF25001639DC /* LostArkSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A38D4628125A1400DEEB69 /* LostArkSelectionView.swift */; };
+		29DCAE902BB3DF25001639DC /* BreathGem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A4F49B283DD99F0078F32D /* BreathGem.swift */; };
+		29DCAE912BB3DF25001639DC /* LACardBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A4F4A1283DFB260078F32D /* LACardBack.swift */; };
+		29DCAE922BB3DF25001639DC /* LAMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C611D328530B0C00804EFD /* LAMenu.swift */; };
+		29DCAE932BB3DF25001639DC /* MokokoSeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D66FDC286EA34B00FA0002 /* MokokoSeed.swift */; };
+		29DCAE942BB3DF25001639DC /* ArcanistIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297416A728CD86B000949366 /* ArcanistIcon.swift */; };
+		29DCAE952BB3DF25001639DC /* LACardAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297416AA28CDA35C00949366 /* LACardAnimation.swift */; };
+		29DCAE962BB3DF25001639DC /* METalentIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2941D032298CBFD500DB130D /* METalentIcon.swift */; };
+		29DCAE972BB3DF25001639DC /* MEDecryptionMinigame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D2EDD229A1D8C00009EEA3 /* MEDecryptionMinigame.swift */; };
+		29DCAE982BB3DF25001639DC /* MEMinigameEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F77CCD29BAF04E00848447 /* MEMinigameEngine.swift */; };
+		29DCAE992BB3DF25001639DC /* MEConversationWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2965266F2A0DF88E00B96F82 /* MEConversationWheel.swift */; };
+		29DCAE9A2BB3DF25001639DC /* DiamondDogsLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297A6E39265E02B600201D1A /* DiamondDogsLogo.swift */; };
+		29DCAE9B2BB3DF25001639DC /* DiamondGem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297A6E3E265E04F200201D1A /* DiamondGem.swift */; };
+		29DCAE9C2BB3DF25001639DC /* RibbonShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297A6E44265E057000201D1A /* RibbonShapes.swift */; };
+		29DCAE9D2BB3DF25001639DC /* DiamondDog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BB327B265E0C3F00C3CCFE /* DiamondDog.swift */; };
+		29DCAE9E2BB3DF25001639DC /* RibbonBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2998BF012660B1CE00EA034B /* RibbonBanner.swift */; };
+		29DCAE9F2BB3DF25001639DC /* MGSViDroidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F5337B26858D5100EADD37 /* MGSViDroidView.swift */; };
+		29DCAEA02BB3DF25001639DC /* MGSVLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297DC70B265A106800980DDE /* MGSVLoadingView.swift */; };
+		29DCAEA12BB3DF25001639DC /* MGSVLoadingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297DC710265A107600980DDE /* MGSVLoadingViewModel.swift */; };
+		29DCAEA22BB3DF25001639DC /* MGSVMissionTextDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FADE1B269EA6E800CF6D73 /* MGSVMissionTextDemo.swift */; };
+		29DCAEA32BB3DF25001639DC /* KountdownTimerDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D0C2626DC60000D9EAF /* KountdownTimerDemo.swift */; };
+		29DCAEA42BB3DF25001639DC /* KountdownTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D0A2626DC60000D9EAF /* KountdownTimerView.swift */; };
+		29DCAEA52BB3DF25001639DC /* KountdownTimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D0F2626DC60000D9EAF /* KountdownTimerViewModel.swift */; };
+		29DCAEA62BB3DF25001639DC /* KombatKardContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D0D2626DC60000D9EAF /* KombatKardContentView.swift */; };
+		29DCAEA72BB3DF25001639DC /* KombatKardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D092626DC60000D9EAF /* KombatKardView.swift */; };
+		29DCAEA82BB3DF25001639DC /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D0E2626DC60000D9EAF /* MenuView.swift */; };
+		29DCAEA92BB3DF25001639DC /* MK11SelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29922AC72633D270002469C2 /* MK11SelectionView.swift */; };
+		29DCAEAA2BB3DF25001639DC /* MK11Left.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29922ACC2633D2FA002469C2 /* MK11Left.swift */; };
+		29DCAEAB2BB3DF25001639DC /* NMSCraftingMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2993C98A286572BD002E09CB /* NMSCraftingMenuItem.swift */; };
+		29DCAEAC2BB3DF25001639DC /* OriSkill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B7991A285C2EFC005FD3D2 /* OriSkill.swift */; };
+		29DCAEAD2BB3DF25001639DC /* OriSkillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B7991C285C2FBD005FD3D2 /* OriSkillView.swift */; };
+		29DCAEAE2BB3DF25001639DC /* OriSkillWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B7991E285C3433005FD3D2 /* OriSkillWheel.swift */; };
+		29DCAEAF2BB3DF25001639DC /* OriSkillTreeDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B79920285C3E6B005FD3D2 /* OriSkillTreeDemo.swift */; };
+		29DCAEB02BB3DF25001639DC /* OW2UltimateMeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BD55D028F66B5D00C061F7 /* OW2UltimateMeter.swift */; };
+		29DCAEB12BB3DF25001639DC /* OW2FindingGameAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2979E34D28ED3701001E8730 /* OW2FindingGameAnimation.swift */; };
+		29DCAEB22BB3DF25001639DC /* OW2SelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292961F22924ACFD0074366B /* OW2SelectionView.swift */; };
+		29DCAEB32BB3DF25001639DC /* OWDecorPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295E145C27F0132500724FB7 /* OWDecorPattern.swift */; };
+		29DCAEB42BB3DF25001639DC /* OverwatchIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2950E126268C24B4005EFAA9 /* OverwatchIcon.swift */; };
+		29DCAEB52BB3DF25001639DC /* OverwatchLogoDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2950E128268C2CDC005EFAA9 /* OverwatchLogoDemo.swift */; };
+		29DCAEB62BB3DF25001639DC /* OWUltimateMeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298DA1C2269AA4CC0054463A /* OWUltimateMeter.swift */; };
+		29DCAEB72BB3DF25001639DC /* OWUltimateMeterDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298DA1C5269AAEF50054463A /* OWUltimateMeterDemo.swift */; };
+		29DCAEB82BB3DF25001639DC /* OWUltimateReadyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C9018E26A7D85500AA9619 /* OWUltimateReadyView.swift */; };
+		29DCAEB92BB3DF25001639DC /* OWUltimateMeterBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C9019126A801A400AA9619 /* OWUltimateMeterBorder.swift */; };
+		29DCAEBA2BB3DF25001639DC /* OWPlayerWaitingIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294AA01528DAB7E300B9B14B /* OWPlayerWaitingIcon.swift */; };
+		29DCAEBB2BB3DF25001639DC /* PapersPleaseSettingsIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294B9B6128D6CC7100B79EEC /* PapersPleaseSettingsIcon.swift */; };
+		29DCAEBC2BB3DF25001639DC /* Persona5AnimatedMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CA754227912F8800298F47 /* Persona5AnimatedMenu.swift */; };
+		29DCAEBD2BB3DF25001639DC /* P5AnimatedStars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B02EFF2793DEF60034A6F9 /* P5AnimatedStars.swift */; };
+		29DCAEBE2BB3DF25001639DC /* P5AnimatedStarParty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B02F022793E30B0034A6F9 /* P5AnimatedStarParty.swift */; };
+		29DCAEBF2BB3DF25001639DC /* RDR2HUDCoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF031B273B7EFA00B5BA4B /* RDR2HUDCoreViewModel.swift */; };
+		29DCAEC02BB3DF25001639DC /* RDR2CoreModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF0318273B7ED700B5BA4B /* RDR2CoreModel.swift */; };
+		29DCAEC12BB3DF25001639DC /* RDR2HUDCoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2911E50F2737870C00F3E967 /* RDR2HUDCoreView.swift */; };
+		29DCAEC22BB3DF25001639DC /* RDR2HUDCoreMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AC8E90288D07470007D1C5 /* RDR2HUDCoreMenu.swift */; };
+		29DCAEC32BB3DF25001639DC /* RDR2HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF031E273B7F9D00B5BA4B /* RDR2HUD.swift */; };
+		29DCAEC42BB3DF26001639DC /* RDR2Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C5AFC2272E420900BFACD4 /* RDR2Menu.swift */; };
+		29DCAEC52BB3DF26001639DC /* RDR2MinimapDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D432626E041000D9EAF /* RDR2MinimapDemo.swift */; };
+		29DCAEC62BB3DF26001639DC /* RDR2MinimapModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D452626E041000D9EAF /* RDR2MinimapModel.swift */; };
+		29DCAEC72BB3DF26001639DC /* RDR2MinimapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D462626E041000D9EAF /* RDR2MinimapView.swift */; };
+		29DCAEC82BB3DF26001639DC /* RDR2MinimapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A22D442626E041000D9EAF /* RDR2MinimapViewModel.swift */; };
+		29DCAEC92BB3DF26001639DC /* RDR2AwardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295E507726B3B3EA00DA9FD4 /* RDR2AwardItem.swift */; };
+		29DCAECA2BB3DF26001639DC /* RDR2AwardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295E507A26B3B7CD00DA9FD4 /* RDR2AwardView.swift */; };
+		29DCAECB2BB3DF26001639DC /* RDR2AwardBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2939687326BCFA7D00B08586 /* RDR2AwardBadge.swift */; };
+		29DCAECC2BB3DF26001639DC /* RDR2AwardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29351A4826CF63F00069BE75 /* RDR2AwardViewModel.swift */; };
+		29DCAECD2BB3DF26001639DC /* RDR2Badgeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29351A4B26CF706D0069BE75 /* RDR2Badgeable.swift */; };
+		29DCAECE2BB3DF26001639DC /* RDR2ConfirmButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295FECD126D89D5400C70220 /* RDR2ConfirmButton.swift */; };
+		29DCAECF2BB3DF26001639DC /* ElevationMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2962057E26FD85DE002F9D3E /* ElevationMap.swift */; };
+		29DCAED02BB3DF26001639DC /* RDR2ShowdownTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A13504270D49F900F19B6F /* RDR2ShowdownTitle.swift */; };
+		29DCAED12BB3DF26001639DC /* RDR2Revolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29188615272505320060E33C /* RDR2Revolver.swift */; };
+		29DCAED22BB3DF26001639DC /* RDR2RevolverLoadingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29188618272511E50060E33C /* RDR2RevolverLoadingAnimation.swift */; };
+		29DCAED32BB3DF26001639DC /* SpiderManSkillViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D8B98827607A3300F21B7A /* SpiderManSkillViewModel.swift */; };
+		29DCAED42BB3DF26001639DC /* SpiderManSkillModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D011102759EAA1002E393B /* SpiderManSkillModel.swift */; };
+		29DCAED52BB3DF26001639DC /* SpiderManSkill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AFD3932764595700493800 /* SpiderManSkill.swift */; };
+		29DCAED62BB3DF26001639DC /* SpiderManMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290B177227572D590075AE24 /* SpiderManMask.swift */; };
+		29DCAED72BB3DF26001639DC /* SpiderManSkillsMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D0110D2759D014002E393B /* SpiderManSkillsMenu.swift */; };
+		29DCAED82BB3DF26001639DC /* SpiderManSkillDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C11DE227630B6D00D0CA09 /* SpiderManSkillDetailView.swift */; };
+		29DCAED92BB3DF26001639DC /* SpiderManSkillTreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C11DEE2763129200D0CA09 /* SpiderManSkillTreeView.swift */; };
+		29DCAEDA2BB3DF26001639DC /* SpiderManSkillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C11DE827630F0300D0CA09 /* SpiderManSkillView.swift */; };
+		29DCAEDB2BB3DF26001639DC /* SpiderManSkillTreeWeb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C11DEB276310C000D0CA09 /* SpiderManSkillTreeWeb.swift */; };
+		29DCAEDC2BB3DF26001639DC /* SpiderManSkillLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EEFDCD276EEA7400290CA2 /* SpiderManSkillLoadingView.swift */; };
+		29DCAEDD2BB3DF26001639DC /* Spider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EEFDD0276EFAA300290CA2 /* Spider.swift */; };
+		29DCAEDE2BB3DF26001639DC /* CIFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD474228431E4900BF4BAE /* CIFilterView.swift */; };
+		29DCAEDF2BB3DF26001639DC /* StarTrekFleetCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E03715295BF63E004D569F /* StarTrekFleetCommand.swift */; };
+		29DCAEE02BB3DF26001639DC /* STFCTutorialArrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298079B2295E9CA10098B173 /* STFCTutorialArrow.swift */; };
+		29DCAEE12BB3DF26001639DC /* SaberHilt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290AB85A2A04C31900E3FE66 /* SaberHilt.swift */; };
+		29DCAEE22BB3DF26001639DC /* JFOSelectedItemDecoration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290AB85D2A04C36300E3FE66 /* JFOSelectedItemDecoration.swift */; };
+		29DCAEE32BB3DF26001639DC /* JFOSaberColorItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290AB8602A04C4A900E3FE66 /* JFOSaberColorItem.swift */; };
+		29DCAEE42BB3DF26001639DC /* JFOAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F1005D2973B58D008D04C8 /* JFOAlert.swift */; };
+		29DCAEE52BB3DF26001639DC /* JFOSaberColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290AB8562A04ABD600E3FE66 /* JFOSaberColorPicker.swift */; };
+		29DCAEE62BB3DF26001639DC /* SWTORLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291A07DF26BA4A3E000F4590 /* SWTORLogo.swift */; };
+		29DCAEE72BB3DF26001639DC /* SWTOREmpireLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2964BAAF26C383EE00F37FDC /* SWTOREmpireLogo.swift */; };
+		29DCAEE82BB3DF26001639DC /* OpeningCrawl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29229843296A79280047CB9E /* OpeningCrawl.swift */; };
+		29DCAEE92BB3DF26001639DC /* SkillVitamin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D3FAB52644F4B000B6A02F /* SkillVitamin.swift */; };
+		29DCAEEA2BB3DF26001639DC /* SkillSelectionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D3FABA2644F6C500B6A02F /* SkillSelectionRow.swift */; };
+		29DCAEEB2BB3DF26001639DC /* SkillMaxHealth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29801ACA2647A0320010B4C8 /* SkillMaxHealth.swift */; };
+		29DCAEEC2BB3DF26001639DC /* SkillHealingSpeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298FE2FE264B8F1C00BBC02A /* SkillHealingSpeed.swift */; };
+		29DCAEED2BB3DF26001639DC /* SkillWeaponSway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298FE2F9264B8C6400BBC02A /* SkillWeaponSway.swift */; };
+		29DCAEEE2BB3DF26001639DC /* TLOUSkillSelectMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298FE308264B939800BBC02A /* TLOUSkillSelectMenu.swift */; };
+		29DCAEEF2BB3DF26001639DC /* SkillIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295794732650D8DE00BDDE3A /* SkillIcon.swift */; };
+		29DCAEF02BB3DF26001639DC /* TLOUSkillModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295794782650D91D00BDDE3A /* TLOUSkillModel.swift */; };
+		29DCAEF12BB3DF26001639DC /* TLOUSkillSelectMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2957947D2650D94000BDDE3A /* TLOUSkillSelectMenuViewModel.swift */; };
+		29DCAEF22BB3DF26001639DC /* FireflySymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29532EFC26451D8B000F07F1 /* FireflySymbol.swift */; };
+		29DCAEF32BB3DF26001639DC /* FireflyTail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2926BCF7263529D400CEDC7E /* FireflyTail.swift */; };
+		29DCAEF42BB3DF26001639DC /* FireflyWing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2926BCF22635260D00CEDC7E /* FireflyWing.swift */; };
+		29DCAEF52BB3DF26001639DC /* TLOUIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B44137262FDF2A00E442A6 /* TLOUIcon.swift */; };
+		29DCAEF62BB3DF26001639DC /* POIMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29813984263287BA00009D7B /* POIMarker.swift */; };
+		29DCAEF72BB3DF26001639DC /* TLOUIconDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294FF9472632AE300057869B /* TLOUIconDemo.swift */; };
+		29DCAEF82BB3DF26001639DC /* FireflyPendant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2926BCED2635225100CEDC7E /* FireflyPendant.swift */; };
+		29DCAEF92BB3DF26001639DC /* TLOUSkillsIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29ACEC2A2642522C00DAE394 /* TLOUSkillsIcon.swift */; };
+		29DCAEFA2BB3DF26001639DC /* TLOUMainMenuIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29155FEF272BA2D500BA2FE4 /* TLOUMainMenuIcon.swift */; };
+		29DCAEFB2BB3DF26001639DC /* TLOUMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29155FF2272BA64800BA2FE4 /* TLOUMenu.swift */; };
 		29DD474328431E4900BF4BAE /* CIFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD474228431E4900BF4BAE /* CIFilterView.swift */; };
-		29DD474428431E4900BF4BAE /* CIFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD474228431E4900BF4BAE /* CIFilterView.swift */; };
 		29DD47472843234600BF4BAE /* Pixellate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD47462843234600BF4BAE /* Pixellate.swift */; };
-		29DD47482843234600BF4BAE /* Pixellate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DD47462843234600BF4BAE /* Pixellate.swift */; };
 		29E03716295BF63E004D569F /* StarTrekFleetCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E03715295BF63E004D569F /* StarTrekFleetCommand.swift */; };
-		29E03717295BF63E004D569F /* StarTrekFleetCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E03715295BF63E004D569F /* StarTrekFleetCommand.swift */; };
 		29EB0A61262BEA570032E598 /* ControlSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EB0A60262BEA570032E598 /* ControlSelectionView.swift */; };
-		29EB0A62262BEA570032E598 /* ControlSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EB0A60262BEA570032E598 /* ControlSelectionView.swift */; };
 		29EB0A66262BF1D40032E598 /* ControlQuestMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EB0A65262BF1D40032E598 /* ControlQuestMarker.swift */; };
-		29EB0A67262BF1D40032E598 /* ControlQuestMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EB0A65262BF1D40032E598 /* ControlQuestMarker.swift */; };
 		29EDA2D6283741F800BC3C72 /* GearHoningModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EDA2D5283741F800BC3C72 /* GearHoningModel.swift */; };
-		29EDA2D7283741F800BC3C72 /* GearHoningModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EDA2D5283741F800BC3C72 /* GearHoningModel.swift */; };
 		29EDA2D9283743CD00BC3C72 /* GearHoningCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EDA2D8283743CD00BC3C72 /* GearHoningCalculator.swift */; };
-		29EDA2DA283743CD00BC3C72 /* GearHoningCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EDA2D8283743CD00BC3C72 /* GearHoningCalculator.swift */; };
 		29EDA2DC2837460100BC3C72 /* requiredMaterials.json in Resources */ = {isa = PBXBuildFile; fileRef = 29EDA2DB2837460100BC3C72 /* requiredMaterials.json */; };
 		29EDA2DD2837460100BC3C72 /* requiredMaterials.json in Resources */ = {isa = PBXBuildFile; fileRef = 29EDA2DB2837460100BC3C72 /* requiredMaterials.json */; };
 		29EDA2DF2837496700BC3C72 /* GearHoningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EDA2DE2837496700BC3C72 /* GearHoningView.swift */; };
-		29EDA2E02837496700BC3C72 /* GearHoningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EDA2DE2837496700BC3C72 /* GearHoningView.swift */; };
 		29EED47C280676C900504968 /* LABossAttackAreaAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EED47B280676C900504968 /* LABossAttackAreaAnimation.swift */; };
-		29EED47D280676C900504968 /* LABossAttackAreaAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EED47B280676C900504968 /* LABossAttackAreaAnimation.swift */; };
 		29EEFDCE276EEA7400290CA2 /* SpiderManSkillLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EEFDCD276EEA7400290CA2 /* SpiderManSkillLoadingView.swift */; };
-		29EEFDCF276EEA7400290CA2 /* SpiderManSkillLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EEFDCD276EEA7400290CA2 /* SpiderManSkillLoadingView.swift */; };
 		29EEFDD1276EFAA300290CA2 /* Spider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EEFDD0276EFAA300290CA2 /* Spider.swift */; };
-		29EEFDD2276EFAA300290CA2 /* Spider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EEFDD0276EFAA300290CA2 /* Spider.swift */; };
 		29EF029127816DF30029C67B /* DeathStrandAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EF029027816DF30029C67B /* DeathStrandAnimation.swift */; };
-		29EF029227816DF30029C67B /* DeathStrandAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EF029027816DF30029C67B /* DeathStrandAnimation.swift */; };
 		29F1005E2973B58D008D04C8 /* JFOAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F1005D2973B58D008D04C8 /* JFOAlert.swift */; };
-		29F1005F2973B58D008D04C8 /* JFOAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F1005D2973B58D008D04C8 /* JFOAlert.swift */; };
 		29F428C32839D38B006A5AA4 /* lostArkHoningSuccessRates.plist in Resources */ = {isa = PBXBuildFile; fileRef = 29F428C22839D38B006A5AA4 /* lostArkHoningSuccessRates.plist */; };
 		29F428C42839D38B006A5AA4 /* lostArkHoningSuccessRates.plist in Resources */ = {isa = PBXBuildFile; fileRef = 29F428C22839D38B006A5AA4 /* lostArkHoningSuccessRates.plist */; };
 		29F5337C26858D5100EADD37 /* MGSViDroidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F5337B26858D5100EADD37 /* MGSViDroidView.swift */; };
-		29F5337D26858D5100EADD37 /* MGSViDroidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F5337B26858D5100EADD37 /* MGSViDroidView.swift */; };
 		29F77CCE29BAF04E00848447 /* MEMinigameEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F77CCD29BAF04E00848447 /* MEMinigameEngine.swift */; };
-		29F77CCF29BAF04E00848447 /* MEMinigameEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F77CCD29BAF04E00848447 /* MEMinigameEngine.swift */; };
 		29FADE16269E99E400CF6D73 /* TypewriterTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FADE15269E99E400CF6D73 /* TypewriterTextView.swift */; };
-		29FADE17269E99E400CF6D73 /* TypewriterTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FADE15269E99E400CF6D73 /* TypewriterTextView.swift */; };
 		29FADE19269EA23000CF6D73 /* TypewriterTextViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FADE18269EA23000CF6D73 /* TypewriterTextViewModel.swift */; };
-		29FADE1A269EA23000CF6D73 /* TypewriterTextViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FADE18269EA23000CF6D73 /* TypewriterTextViewModel.swift */; };
 		29FADE1C269EA6E800CF6D73 /* MGSVMissionTextDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FADE1B269EA6E800CF6D73 /* MGSVMissionTextDemo.swift */; };
-		29FADE1D269EA6E800CF6D73 /* MGSVMissionTextDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FADE1B269EA6E800CF6D73 /* MGSVMissionTextDemo.swift */; };
 		29FC00032703A8DE00900F5B /* DBHTitleScreenMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FC00022703A8DE00900F5B /* DBHTitleScreenMenu.swift */; };
-		29FC00042703A8DE00900F5B /* DBHTitleScreenMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FC00022703A8DE00900F5B /* DBHTitleScreenMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -666,7 +688,6 @@
 		29AF031B273B7EFA00B5BA4B /* RDR2HUDCoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDR2HUDCoreViewModel.swift; sourceTree = "<group>"; };
 		29AF031E273B7F9D00B5BA4B /* RDR2HUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDR2HUD.swift; sourceTree = "<group>"; };
 		29AF0322273B83EA00B5BA4B /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
-		29AF0325273B952200B5BA4B /* CodeSnippets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeSnippets.swift; sourceTree = "<group>"; };
 		29AFD3932764595700493800 /* SpiderManSkill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiderManSkill.swift; sourceTree = "<group>"; };
 		29B02EFF2793DEF60034A6F9 /* P5AnimatedStars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P5AnimatedStars.swift; sourceTree = "<group>"; };
 		29B02F022793E30B0034A6F9 /* P5AnimatedStarParty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P5AnimatedStarParty.swift; sourceTree = "<group>"; };
@@ -704,6 +725,7 @@
 		29D66FDC286EA34B00FA0002 /* MokokoSeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MokokoSeed.swift; sourceTree = "<group>"; };
 		29D8B98827607A3300F21B7A /* SpiderManSkillViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiderManSkillViewModel.swift; sourceTree = "<group>"; };
 		29DA940D27CF674800741B9B /* Path+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Path+Extensions.swift"; sourceTree = "<group>"; };
+		29DCADF52BB3D8D3001639DC /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		29DD474228431E4900BF4BAE /* CIFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CIFilterView.swift; sourceTree = "<group>"; };
 		29DD47462843234600BF4BAE /* Pixellate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pixellate.swift; sourceTree = "<group>"; };
 		29E03715295BF63E004D569F /* StarTrekFleetCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarTrekFleetCommand.swift; sourceTree = "<group>"; };
@@ -1276,6 +1298,7 @@
 				29AF0322273B83EA00B5BA4B /* View+Extensions.swift */,
 				29A6CDD128068BBA006CDAF8 /* UIView+Extensions.swift */,
 				299E63EE29AB28F80068265E /* CGRect+Extensions.swift */,
+				29DCADF52BB3D8D3001639DC /* Image.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -1363,7 +1386,6 @@
 			isa = PBXGroup;
 			children = (
 				29DD47452843233400BF4BAE /* ViewModifiers */,
-				29AF0325273B952200B5BA4B /* CodeSnippets.swift */,
 				29567DB6276D80FC00946491 /* LineSegmentGroup.swift */,
 				29C71B29276C064300CAFA70 /* LongPressHoldable.swift */,
 				29A22D3A2626DFF3000D9EAF /* MaskedProgressBar.swift */,
@@ -1630,6 +1652,7 @@
 				2962057C26FD7EFD002F9D3E /* Destiny2FastTravelView.swift in Sources */,
 				29EF029127816DF30029C67B /* DeathStrandAnimation.swift in Sources */,
 				2953C38D297C694000125B7F /* BatmanLogoAnimatedBorder.swift in Sources */,
+				29DCADF62BB3D8D3001639DC /* Image.swift in Sources */,
 				2959344628AF532F005F8EE0 /* FFXIVTargetView.swift in Sources */,
 				2976E1C12626A45100272ADC /* ContentView.swift in Sources */,
 				2952A69226DF3859007BABFC /* StarPolygonDemo.swift in Sources */,
@@ -1679,7 +1702,6 @@
 				29C11DE927630F0300D0CA09 /* SpiderManSkillView.swift in Sources */,
 				290FD8CA28C472E3004BB351 /* AnimatedStrokeStyledCircleDemo.swift in Sources */,
 				290AB85E2A04C36300E3FE66 /* JFOSelectedItemDecoration.swift in Sources */,
-				29AF0326273B952200B5BA4B /* CodeSnippets.swift in Sources */,
 				2959344028AF4489005F8EE0 /* FFXIVCharacterTabView.swift in Sources */,
 				29421CA127192C6900CBEDBB /* GIItem.swift in Sources */,
 				29A22D3D2626DFF3000D9EAF /* GILoadingProgressBar.swift in Sources */,
@@ -1807,224 +1829,246 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2943790628B1DD6300E7E717 /* ChaosBoon.swift in Sources */,
-				299E63F029AB28F80068265E /* CGRect+Extensions.swift in Sources */,
-				29FADE17269E99E400CF6D73 /* TypewriterTextView.swift in Sources */,
-				29150B1E26B653F500106A45 /* HermesBoon.swift in Sources */,
-				2976E1DB2626AD5C00272ADC /* Pulsar.swift in Sources */,
-				29A22D132626DC60000D9EAF /* KountdownTimerView.swift in Sources */,
-				2957947A2650D91D00BDDE3A /* TLOUSkillModel.swift in Sources */,
-				29D0110F2759D014002E393B /* SpiderManSkillsMenu.swift in Sources */,
-				297A6E46265E057000201D1A /* RibbonShapes.swift in Sources */,
-				2926BCF9263529D400CEDC7E /* FireflyTail.swift in Sources */,
-				29A22D192626DC60000D9EAF /* KombatKardContentView.swift in Sources */,
-				2918861A272511E50060E33C /* RDR2RevolverLoadingAnimation.swift in Sources */,
-				298CD784270FEF2900C9D6B9 /* TesselationDemo.swift in Sources */,
-				29922ACE2633D2FA002469C2 /* MK11Left.swift in Sources */,
-				29CA75462791378A00298F47 /* TextShape.swift in Sources */,
-				295E146527F013C900724FB7 /* LASecretDungeonFloorPattern.swift in Sources */,
-				2910F3E7269801F7008475D6 /* AphroditeBoon.swift in Sources */,
-				298DA1C4269AA4CC0054463A /* OWUltimateMeter.swift in Sources */,
-				29EEFDCF276EEA7400290CA2 /* SpiderManSkillLoadingView.swift in Sources */,
-				29A22CFA2626D8C9000D9EAF /* LoadingRingsDemo.swift in Sources */,
-				29637C9628BB347A0065ECB5 /* ACOTargetView.swift in Sources */,
-				298FE30A264B939800BBC02A /* TLOUSkillSelectMenu.swift in Sources */,
-				2987F6122931EB8800DE8218 /* BatmanSelectionView.swift in Sources */,
-				294AA01728DAB7E300B9B14B /* OWPlayerWaitingIcon.swift in Sources */,
-				2959344128AF4489005F8EE0 /* FFXIVCharacterTabView.swift in Sources */,
-				29801ACC2647A0320010B4C8 /* SkillMaxHealth.swift in Sources */,
-				2906F21926D603A500E38EFF /* TextEffectViewDemo.swift in Sources */,
-				29F5337D26858D5100EADD37 /* MGSViDroidView.swift in Sources */,
-				29AC8E92288D07470007D1C5 /* RDR2HUDCoreMenu.swift in Sources */,
-				29A22D532626E059000D9EAF /* Color+Extensions.swift in Sources */,
-				2959343B28AF41A1005F8EE0 /* FFXIVWindowHeaderView.swift in Sources */,
-				29A22D112626DC60000D9EAF /* KombatKardView.swift in Sources */,
-				2976E1C22626A45100272ADC /* ContentView.swift in Sources */,
-				29436F0B29CFFE0A009DBEEB /* D4Pentagram.swift in Sources */,
-				29AD4BB327717A130017F2DB /* StrokeStyledCircleDemo.swift in Sources */,
-				295FECD326D89D5400C70220 /* RDR2ConfirmButton.swift in Sources */,
-				290088FF28407EFD00F840D8 /* ProgressBarWithDelta.swift in Sources */,
-				29EDA2E02837496700BC3C72 /* GearHoningView.swift in Sources */,
-				299363D4273F969400CA089A /* GIAchievementView.swift in Sources */,
-				295E146727F013C900724FB7 /* TrebleClef.swift in Sources */,
-				29AFD3952764595700493800 /* SpiderManSkill.swift in Sources */,
-				2906485026FAD6CF009A20A1 /* DBHTitleScreenMenuItem.swift in Sources */,
-				29813986263287BA00009D7B /* POIMarker.swift in Sources */,
-				29102707263E673300418FE1 /* ZeusBoon.swift in Sources */,
-				29BB327D265E0C3F00C3CCFE /* DiamondDog.swift in Sources */,
-				29A22D3C2626DFF3000D9EAF /* ProgressBar.swift in Sources */,
-				29A22D1D2626DC60000D9EAF /* KountdownTimerViewModel.swift in Sources */,
-				29421CAB27193ED200CBEDBB /* GIInventoryMenu.swift in Sources */,
-				29A4F49D283DD99F0078F32D /* BreathGem.swift in Sources */,
-				297DC70D265A106800980DDE /* MGSVLoadingView.swift in Sources */,
-				291ED0D52942FA2E00720075 /* GearView.swift in Sources */,
-				29D66FDE286EA34B00FA0002 /* MokokoSeed.swift in Sources */,
-				295E145E27F0132500724FB7 /* OWDecorPattern.swift in Sources */,
-				290B5CF8268ED22C00EB93BD /* HadesBoonDemo.swift in Sources */,
-				29DD474428431E4900BF4BAE /* CIFilterView.swift in Sources */,
-				29EDA2DA283743CD00BC3C72 /* GearHoningCalculator.swift in Sources */,
-				2936E04F27707CDF0075FADF /* GIAchievementMenu.swift in Sources */,
-				298FE300264B8F1C00BBC02A /* SkillHealingSpeed.swift in Sources */,
-				290BBC3226CCC06F004D57D9 /* TextEffectView.swift in Sources */,
-				29D011122759EAA1002E393B /* SpiderManSkillModel.swift in Sources */,
-				29FC00042703A8DE00900F5B /* DBHTitleScreenMenu.swift in Sources */,
-				2920DB5C278566EB00DE5BEE /* TwoTonedIsotoxalPolygon.swift in Sources */,
-				2920DB592785540E00DE5BEE /* PorterGradeView.swift in Sources */,
-				2935A9E127169EAE0043F964 /* GISelectionItem.swift in Sources */,
-				2931FC6228C44E4E00D7B60B /* ACOQuestView.swift in Sources */,
-				29155FF4272BA64800BA2FE4 /* TLOUMenu.swift in Sources */,
-				29DD47482843234600BF4BAE /* Pixellate.swift in Sources */,
-				2911E5112737870C00F3E967 /* RDR2HUDCoreView.swift in Sources */,
-				2956788927226CB500FA372A /* MasterlessStardust.swift in Sources */,
-				295E146927F013C900724FB7 /* PolygonSegmentWrapAnimation.swift in Sources */,
-				29188617272505320060E33C /* RDR2Revolver.swift in Sources */,
-				29AF0324273B83EA00B5BA4B /* View+Extensions.swift in Sources */,
-				29D2AEBF26AA7821005A35D1 /* ArtemisBoon.swift in Sources */,
-				29102700263E62EE00418FE1 /* BoonView.swift in Sources */,
-				2998BF032660B1CE00EA034B /* RibbonBanner.swift in Sources */,
-				294F3EE9297113FE0000E48A /* ArkhamAsylumHUD.swift in Sources */,
-				29EF029227816DF30029C67B /* DeathStrandAnimation.swift in Sources */,
-				2976E1C02626A45100272ADC /* Game_UI_InspirationsApp.swift in Sources */,
-				294FF9492632AE300057869B /* TLOUIconDemo.swift in Sources */,
-				29A22CFC2626D8C9000D9EAF /* ConsummateVDemo.swift in Sources */,
-				29C5AFC4272E420900BFACD4 /* RDR2Menu.swift in Sources */,
-				2957947F2650D94000BDDE3A /* TLOUSkillSelectMenuViewModel.swift in Sources */,
-				2987F60F2931D53E00DE8218 /* BatmanLogo.swift in Sources */,
-				291B290D288138F00035BDCE /* JustCause4CompassBorder.swift in Sources */,
-				2910377C275C745A00A9EEB6 /* LongPressProgressView.swift in Sources */,
-				29C9019326A801A400AA9619 /* OWUltimateMeterBorder.swift in Sources */,
-				29350C722709930F00A2B8FA /* SpirolateralDemo.swift in Sources */,
-				29A22D3E2626DFF3000D9EAF /* GILoadingProgressBar.swift in Sources */,
-				295E507C26B3B7CD00DA9FD4 /* RDR2AwardView.swift in Sources */,
-				29A4F4A3283DFB260078F32D /* LACardBack.swift in Sources */,
-				294D37372710082700524868 /* SpirolateralAnimationDemo.swift in Sources */,
-				29A38D4828125A1400DEEB69 /* LostArkSelectionView.swift in Sources */,
-				297DC712265A107600980DDE /* MGSVLoadingViewModel.swift in Sources */,
-				29F77CCF29BAF04E00848447 /* MEMinigameEngine.swift in Sources */,
-				29B98CB526B1118500E1B7FF /* GIClockView.swift in Sources */,
-				29B79F9D2980E8C400C41A0A /* GotgInteractiveItemAlert.swift in Sources */,
-				29C11DE427630B6D00D0CA09 /* SpiderManSkillDetailView.swift in Sources */,
-				2953C394297E354D00125B7F /* InvertedShapeDemo.swift in Sources */,
-				295E507926B3B3EA00DA9FD4 /* RDR2AwardItem.swift in Sources */,
-				2962058026FD85DE002F9D3E /* ElevationMap.swift in Sources */,
-				298DA1C7269AAEF50054463A /* OWUltimateMeterDemo.swift in Sources */,
-				2933C0A72772FA470063CF78 /* DragonCurveDemo.swift in Sources */,
-				2952A69326DF3859007BABFC /* StarPolygonDemo.swift in Sources */,
-				297A6E3B265E02B600201D1A /* DiamondDogsLogo.swift in Sources */,
-				296526712A0DF88E00B96F82 /* MEConversationWheel.swift in Sources */,
-				29A22CF82626D8C9000D9EAF /* LoadingRingsView.swift in Sources */,
-				2938B4DC298A2F4600D7678D /* RandomIndexedTiledShape.swift in Sources */,
-				298CD786270FEF2A00C9D6B9 /* KiteAnimationDemo.swift in Sources */,
-				29EED47D280676C900504968 /* LABossAttackAreaAnimation.swift in Sources */,
-				296562F02A0B500B00F9B0BB /* HiFiRushBeatBar.swift in Sources */,
-				290AB8582A04ABD600E3FE66 /* JFOSaberColorPicker.swift in Sources */,
-				29AF0327273B952200B5BA4B /* CodeSnippets.swift in Sources */,
-				2910BBE9271FD5670019329D /* PersonProfile.swift in Sources */,
-				29816B6D263BBF1E0016F1BA /* Rustify.swift in Sources */,
-				29A6CDD328068BBA006CDAF8 /* UIView+Extensions.swift in Sources */,
-				29A4F4A0283DEC9F0078F32D /* LAItem.swift in Sources */,
-				29CFBC0D2977A9860083C6B8 /* KreeSymbol.swift in Sources */,
-				296C1F1727F6A44D00BAEA23 /* Shimmer.swift in Sources */,
-				290AB85C2A04C31900E3FE66 /* SaberHilt.swift in Sources */,
-				29922AC92633D270002469C2 /* MK11SelectionView.swift in Sources */,
-				29A22D4E2626E041000D9EAF /* RDR2MinimapView.swift in Sources */,
-				29FADE1A269EA23000CF6D73 /* TypewriterTextViewModel.swift in Sources */,
-				290AB85F2A04C36300E3FE66 /* JFOSelectedItemDecoration.swift in Sources */,
-				29351A4A26CF63F00069BE75 /* RDR2AwardViewModel.swift in Sources */,
-				29532EFE26451D8B000F07F1 /* FireflySymbol.swift in Sources */,
-				2978B27628C1B451007EC9AF /* ACONewLocationBanner.swift in Sources */,
-				2926BCF42635260D00CEDC7E /* FireflyWing.swift in Sources */,
-				297A6E40265E04F200201D1A /* DiamondGem.swift in Sources */,
-				295E146B27F013C900724FB7 /* LABardStigmaSkillView.swift in Sources */,
-				29AF031A273B7ED700B5BA4B /* RDR2CoreModel.swift in Sources */,
-				29E03717295BF63E004D569F /* StarTrekFleetCommand.swift in Sources */,
-				297416A928CD86B000949366 /* ArcanistIcon.swift in Sources */,
-				298FE2FB264B8C6400BBC02A /* SkillWeaponSway.swift in Sources */,
-				2926BCEF2635225100CEDC7E /* FireflyPendant.swift in Sources */,
-				2929B8112695604600C86BBB /* FFXIVCharacterView.swift in Sources */,
-				29B02F012793DEF60034A6F9 /* P5AnimatedStars.swift in Sources */,
-				29A13506270D49F900F19B6F /* RDR2ShowdownTitle.swift in Sources */,
-				29421CA227192C6900CBEDBB /* GIItem.swift in Sources */,
-				29CFBC132977BFE90083C6B8 /* KrakoaFont.swift in Sources */,
-				2960C696270A0B850024872D /* OrnateCorners.swift in Sources */,
-				290FD8CB28C472E3004BB351 /* AnimatedStrokeStyledCircleDemo.swift in Sources */,
-				29A22D4A2626E041000D9EAF /* RDR2MinimapViewModel.swift in Sources */,
-				29B02F042793E30B0034A6F9 /* P5AnimatedStarParty.swift in Sources */,
-				297416AC28CDA35C00949366 /* LACardAnimation.swift in Sources */,
-				29421CA82719325800CBEDBB /* GIItemRarityBackground.swift in Sources */,
-				2962057D26FD7EFD002F9D3E /* Destiny2FastTravelView.swift in Sources */,
-				29EB0A67262BF1D40032E598 /* ControlQuestMarker.swift in Sources */,
-				2948EF0A277ED33E00966236 /* DeathStrandingTitle.swift in Sources */,
-				29C611D528530B0C00804EFD /* LAMenu.swift in Sources */,
-				291035832734D677004DA378 /* WheelOfFortune.swift in Sources */,
-				29C9019026A7D85500AA9619 /* OWUltimateReadyView.swift in Sources */,
-				29229845296A79280047CB9E /* OpeningCrawl.swift in Sources */,
-				2910270C263E6DAC00418FE1 /* PoseidonBoon.swift in Sources */,
-				2962057A26FD788C002F9D3E /* Destiny2FastTravelIcon.swift in Sources */,
-				2953C38E297C694000125B7F /* BatmanLogoAnimatedBorder.swift in Sources */,
-				2914FE2A2967D65200B80DA4 /* ArkhamInterviewCollectionView.swift in Sources */,
-				29AF031D273B7EFA00B5BA4B /* RDR2HUDCoreViewModel.swift in Sources */,
-				2969F64929C6BBB10027F12B /* D4Waypoint.swift in Sources */,
-				29C11DF02763129200D0CA09 /* SpiderManSkillTreeView.swift in Sources */,
-				2938B4D9298A212200D7678D /* GuardianFadeTransition.swift in Sources */,
-				29B44139262FDF2A00E442A6 /* TLOUIcon.swift in Sources */,
-				29C11DED276310C000D0CA09 /* SpiderManSkillTreeWeb.swift in Sources */,
-				29EB0A62262BEA570032E598 /* ControlSelectionView.swift in Sources */,
-				29101796270429580021E672 /* CelesteDemo.swift in Sources */,
-				291B290A28812DCE0035BDCE /* JustCause4Compass.swift in Sources */,
-				29351A4D26CF706D0069BE75 /* RDR2Badgeable.swift in Sources */,
-				2964BAB126C383EE00F37FDC /* SWTOREmpireLogo.swift in Sources */,
-				29FADE1D269EA6E800CF6D73 /* MGSVMissionTextDemo.swift in Sources */,
-				29150B2126B659EC00106A45 /* AresBoon.swift in Sources */,
-				29A22D482626E041000D9EAF /* RDR2MinimapDemo.swift in Sources */,
-				29D8B98A27607A3300F21B7A /* SpiderManSkillViewModel.swift in Sources */,
-				2959344728AF532F005F8EE0 /* FFXIVTargetView.swift in Sources */,
-				29DA940F27CF674800741B9B /* Path+Extensions.swift in Sources */,
-				29C71B2B276C064300CAFA70 /* LongPressHoldable.swift in Sources */,
-				29ACEC2C2642522C00DAE394 /* TLOUSkillsIcon.swift in Sources */,
-				29A22D1B2626DC60000D9EAF /* MenuView.swift in Sources */,
-				29A22D052626D93A000D9EAF /* QuestDescriptionView.swift in Sources */,
-				29D2EDD429A1D8C00009EEA3 /* MEDecryptionMinigame.swift in Sources */,
-				2956788C2722795400FA372A /* MasterlessStarglitter.swift in Sources */,
-				295794752650D8DE00BDDE3A /* SkillIcon.swift in Sources */,
-				29A22D4C2626E041000D9EAF /* RDR2MinimapModel.swift in Sources */,
-				29F1005F2973B58D008D04C8 /* JFOAlert.swift in Sources */,
-				2993C98828656288002E09CB /* MarqueeText.swift in Sources */,
-				298079B4295E9CA10098B173 /* STFCTutorialArrow.swift in Sources */,
-				29A22CFE2626D8C9000D9EAF /* ConsummateV.swift in Sources */,
-				2959343E28AF42E1005F8EE0 /* FFXIVCharacterModel.swift in Sources */,
-				29101793270410160021E672 /* CelesteDeathAnimation.swift in Sources */,
-				292961F42924ACFD0074366B /* OW2SelectionView.swift in Sources */,
-				29A22CF62626D8C9000D9EAF /* LoadingRingsViewModel.swift in Sources */,
-				29BCCFB8277C2AD90055DE94 /* CircularText.swift in Sources */,
-				296C7F522706B35D00BFACC1 /* DBHLoadingView.swift in Sources */,
-				29155FF1272BA2D500BA2FE4 /* TLOUMainMenuIcon.swift in Sources */,
-				29AF0320273B7F9D00B5BA4B /* RDR2HUD.swift in Sources */,
-				29EDA2D7283741F800BC3C72 /* GearHoningModel.swift in Sources */,
-				295678862722636C00FA372A /* Mora.swift in Sources */,
-				29C11DEA27630F0300D0CA09 /* SpiderManSkillView.swift in Sources */,
-				290BBC3526CCC8AA004D57D9 /* TextEffectViewModel.swift in Sources */,
-				2941D034298CBFD500DB130D /* METalentIcon.swift in Sources */,
-				29A22D172626DC60000D9EAF /* KountdownTimerDemo.swift in Sources */,
-				2959344428AF4CC9005F8EE0 /* FFXIVCharacterPointsView.swift in Sources */,
-				2993C98C286572BD002E09CB /* NMSCraftingMenuItem.swift in Sources */,
-				29D3FAB72644F4B000B6A02F /* SkillVitamin.swift in Sources */,
-				290AB8622A04C4A900E3FE66 /* JFOSaberColorItem.swift in Sources */,
-				29CFBC102977B58E0083C6B8 /* FactionBanner.swift in Sources */,
-				29EEFDD2276EFAA300290CA2 /* Spider.swift in Sources */,
-				29A22D402626DFF3000D9EAF /* MaskedProgressBar.swift in Sources */,
-				2964BAB426C384B000F37FDC /* Game.swift in Sources */,
-				290B177727573DB40075AE24 /* SpiderManMask.swift in Sources */,
-				29421CA527192FC600CBEDBB /* GIReward.swift in Sources */,
-				29567DB8276D80FC00946491 /* LineSegmentGroup.swift in Sources */,
-				292D45D427AA3DBB003A1020 /* TextPath.swift in Sources */,
-				29230B4026A1460C00A052E7 /* AthenaBoon.swift in Sources */,
-				2939687526BCFA7D00B08586 /* RDR2AwardBadge.swift in Sources */,
-				29A38D45281254DE00DEEB69 /* LostArkLogo.swift in Sources */,
-				29BCCFBB277C2DFF0055DE94 /* DrStrangeShield.swift in Sources */,
-				2938B4DF298A2F8200D7678D /* GotgSettingsMenu.swift in Sources */,
-				290089022840815900F840D8 /* ProgressBarWithDeltaDemo.swift in Sources */,
-				29D3FABC2644F6C500B6A02F /* SkillSelectionRow.swift in Sources */,
+				29DCAE0B2BB3DF23001639DC /* StarfoxShip.swift in Sources */,
+				29DCAE0C2BB3DF23001639DC /* Game_UI_InspirationsApp.swift in Sources */,
+				29DCAE0D2BB3DF23001639DC /* ContentView.swift in Sources */,
+				29DCAE0E2BB3DF23001639DC /* Game.swift in Sources */,
+				29DCAE0F2BB3DF23001639DC /* Path+Extensions.swift in Sources */,
+				29DCAE102BB3DF23001639DC /* Color+Extensions.swift in Sources */,
+				29DCAE112BB3DF23001639DC /* View+Extensions.swift in Sources */,
+				29DCAE122BB3DF23001639DC /* UIView+Extensions.swift in Sources */,
+				29DCAE132BB3DF23001639DC /* CGRect+Extensions.swift in Sources */,
+				29DCAE142BB3DF23001639DC /* Image.swift in Sources */,
+				29DCAE152BB3DF23001639DC /* Pixellate.swift in Sources */,
+				29DCAE162BB3DF23001639DC /* LineSegmentGroup.swift in Sources */,
+				29DCAE172BB3DF23001639DC /* LongPressHoldable.swift in Sources */,
+				29DCAE182BB3DF23001639DC /* MaskedProgressBar.swift in Sources */,
+				29DCAE192BB3DF23001639DC /* PersonProfile.swift in Sources */,
+				29DCAE1A2BB3DF23001639DC /* ProgressBar.swift in Sources */,
+				29DCAE1B2BB3DF23001639DC /* Rustify.swift in Sources */,
+				29DCAE1C2BB3DF23001639DC /* TypewriterTextView.swift in Sources */,
+				29DCAE1D2BB3DF23001639DC /* TypewriterTextViewModel.swift in Sources */,
+				29DCAE1E2BB3DF23001639DC /* TestingTiledImageView.swift in Sources */,
+				29DCAE1F2BB3DF23001639DC /* TextEffectView.swift in Sources */,
+				29DCAE202BB3DF23001639DC /* TextEffectViewModel.swift in Sources */,
+				29DCAE212BB3DF23001639DC /* CircularText.swift in Sources */,
+				29DCAE222BB3DF23001639DC /* TwoTonedIsotoxalPolygon.swift in Sources */,
+				29DCAE232BB3DF23001639DC /* TextShape.swift in Sources */,
+				29DCAE242BB3DF23001639DC /* TextPath.swift in Sources */,
+				29DCAE252BB3DF23001639DC /* Shimmer.swift in Sources */,
+				29DCAE262BB3DF23001639DC /* ProgressBarWithDelta.swift in Sources */,
+				29DCAE272BB3DF23001639DC /* MarqueeText.swift in Sources */,
+				29DCAE282BB3DF23001639DC /* SliderLabelView.swift in Sources */,
+				29DCAE292BB3DF23001639DC /* InvertedShapeDemo.swift in Sources */,
+				29DCAE2A2BB3DF23001639DC /* RandomIndexedTiledShape.swift in Sources */,
+				29DCAE2B2BB3DF23001639DC /* DragonCurveDemo.swift in Sources */,
+				29DCAE2C2BB3DF23001639DC /* SpirolateralAnimationDemo.swift in Sources */,
+				29DCAE2D2BB3DF24001639DC /* KiteAnimationDemo.swift in Sources */,
+				29DCAE2E2BB3DF24001639DC /* TesselationDemo.swift in Sources */,
+				29DCAE2F2BB3DF24001639DC /* TextEffectViewDemo.swift in Sources */,
+				29DCAE302BB3DF24001639DC /* StarPolygonDemo.swift in Sources */,
+				29DCAE312BB3DF24001639DC /* SpirolateralDemo.swift in Sources */,
+				29DCAE322BB3DF24001639DC /* StrokeStyledCircleDemo.swift in Sources */,
+				29DCAE332BB3DF24001639DC /* OrnateCorners.swift in Sources */,
+				29DCAE342BB3DF24001639DC /* WheelOfFortune.swift in Sources */,
+				29DCAE352BB3DF24001639DC /* LongPressProgressView.swift in Sources */,
+				29DCAE362BB3DF24001639DC /* DrStrangeShield.swift in Sources */,
+				29DCAE372BB3DF24001639DC /* ProgressBarWithDeltaDemo.swift in Sources */,
+				29DCAE382BB3DF24001639DC /* AnimatedStrokeStyledCircleDemo.swift in Sources */,
+				29DCAE392BB3DF24001639DC /* CGAffineTransformDemo.swift in Sources */,
+				29DCAE3A2BB3DF24001639DC /* AlanWakeSelectionView.swift in Sources */,
+				29DCAE3B2BB3DF24001639DC /* GearView.swift in Sources */,
+				29DCAE3C2BB3DF24001639DC /* BatmanLogo.swift in Sources */,
+				29DCAE3D2BB3DF24001639DC /* BatmanSelectionView.swift in Sources */,
+				29DCAE3E2BB3DF24001639DC /* ArkhamInterviewCollectionView.swift in Sources */,
+				29DCAE3F2BB3DF24001639DC /* ArkhamAsylumHUD.swift in Sources */,
+				29DCAE402BB3DF24001639DC /* BatmanLogoAnimatedBorder.swift in Sources */,
+				29DCAE412BB3DF24001639DC /* ACOTargetView.swift in Sources */,
+				29DCAE422BB3DF24001639DC /* ACONewLocationBanner.swift in Sources */,
+				29DCAE432BB3DF24001639DC /* ACOQuestView.swift in Sources */,
+				29DCAE442BB3DF24001639DC /* BDMenuItem.swift in Sources */,
+				29DCAE452BB3DF24001639DC /* CelesteDeathAnimation.swift in Sources */,
+				29DCAE462BB3DF24001639DC /* CelesteDemo.swift in Sources */,
+				29DCAE472BB3DF24001639DC /* QuestDescriptionView.swift in Sources */,
+				29DCAE482BB3DF24001639DC /* ConsummateV.swift in Sources */,
+				29DCAE492BB3DF24001639DC /* LoadingRingsDemo.swift in Sources */,
+				29DCAE4A2BB3DF24001639DC /* LoadingRingsView.swift in Sources */,
+				29DCAE4B2BB3DF24001639DC /* LoadingRingsViewModel.swift in Sources */,
+				29DCAE4C2BB3DF24001639DC /* ConsummateVDemo.swift in Sources */,
+				29DCAE4D2BB3DF24001639DC /* Pulsar.swift in Sources */,
+				29DCAE4E2BB3DF24001639DC /* ControlSelectionView.swift in Sources */,
+				29DCAE4F2BB3DF24001639DC /* ControlQuestMarker.swift in Sources */,
+				29DCAE502BB3DF24001639DC /* DeathStrandingTitle.swift in Sources */,
+				29DCAE512BB3DF24001639DC /* DeathStrandAnimation.swift in Sources */,
+				29DCAE522BB3DF24001639DC /* PorterGradeView.swift in Sources */,
+				29DCAE532BB3DF24001639DC /* Destiny2FastTravelIcon.swift in Sources */,
+				29DCAE542BB3DF24001639DC /* Destiny2FastTravelView.swift in Sources */,
+				29DCAE552BB3DF24001639DC /* DBHTitleScreenMenuItem.swift in Sources */,
+				29DCAE562BB3DF24001639DC /* DBHTitleScreenMenu.swift in Sources */,
+				29DCAE572BB3DF24001639DC /* DBHLoadingView.swift in Sources */,
+				29DCAE582BB3DF24001639DC /* D4Waypoint.swift in Sources */,
+				29DCAE592BB3DF24001639DC /* D4Pentagram.swift in Sources */,
+				29DCAE5A2BB3DF24001639DC /* FF7View.swift in Sources */,
+				29DCAE5B2BB3DF24001639DC /* FF7ViewFeed.swift in Sources */,
+				29DCAE5C2BB3DF24001639DC /* FFXIVCharacterView.swift in Sources */,
+				29DCAE5D2BB3DF24001639DC /* FFXIVWindowHeaderView.swift in Sources */,
+				29DCAE5E2BB3DF24001639DC /* FFXIVCharacterModel.swift in Sources */,
+				29DCAE5F2BB3DF24001639DC /* FFXIVCharacterTabView.swift in Sources */,
+				29DCAE602BB3DF24001639DC /* FFXIVCharacterPointsView.swift in Sources */,
+				29DCAE612BB3DF24001639DC /* FFXIVTargetView.swift in Sources */,
+				29DCAE622BB3DF24001639DC /* GIAchievementMenu.swift in Sources */,
+				29DCAE632BB3DF24001639DC /* GIAchievementView.swift in Sources */,
+				29DCAE642BB3DF24001639DC /* GILoadingProgressBar.swift in Sources */,
+				29DCAE652BB3DF24001639DC /* GIClockView.swift in Sources */,
+				29DCAE662BB3DF24001639DC /* GISelectionItem.swift in Sources */,
+				29DCAE672BB3DF24001639DC /* GIItem.swift in Sources */,
+				29DCAE682BB3DF24001639DC /* GIReward.swift in Sources */,
+				29DCAE692BB3DF24001639DC /* GIItemRarityBackground.swift in Sources */,
+				29DCAE6A2BB3DF24001639DC /* GIInventoryMenu.swift in Sources */,
+				29DCAE6B2BB3DF24001639DC /* Mora.swift in Sources */,
+				29DCAE6C2BB3DF24001639DC /* MasterlessStardust.swift in Sources */,
+				29DCAE6D2BB3DF24001639DC /* MasterlessStarglitter.swift in Sources */,
+				29DCAE6E2BB3DF24001639DC /* GoldenEyeWatch.swift in Sources */,
+				29DCAE6F2BB3DF24001639DC /* Clock.swift in Sources */,
+				29DCAE702BB3DF24001639DC /* KreeSymbol.swift in Sources */,
+				29DCAE712BB3DF24001639DC /* FactionBanner.swift in Sources */,
+				29DCAE722BB3DF24001639DC /* KrakoaFont.swift in Sources */,
+				29DCAE732BB3DF24001639DC /* GotgInteractiveItemAlert.swift in Sources */,
+				29DCAE742BB3DF24001639DC /* GuardianFadeTransition.swift in Sources */,
+				29DCAE752BB3DF24001639DC /* GotgSettingsMenu.swift in Sources */,
+				29DCAE762BB3DF24001639DC /* BoonView.swift in Sources */,
+				29DCAE772BB3DF25001639DC /* ZeusBoon.swift in Sources */,
+				29DCAE782BB3DF25001639DC /* PoseidonBoon.swift in Sources */,
+				29DCAE792BB3DF25001639DC /* HadesBoonDemo.swift in Sources */,
+				29DCAE7A2BB3DF25001639DC /* AphroditeBoon.swift in Sources */,
+				29DCAE7B2BB3DF25001639DC /* AthenaBoon.swift in Sources */,
+				29DCAE7C2BB3DF25001639DC /* ArtemisBoon.swift in Sources */,
+				29DCAE7D2BB3DF25001639DC /* HermesBoon.swift in Sources */,
+				29DCAE7E2BB3DF25001639DC /* AresBoon.swift in Sources */,
+				29DCAE7F2BB3DF25001639DC /* ChaosBoon.swift in Sources */,
+				29DCAE802BB3DF25001639DC /* HiFiRushBeatBar.swift in Sources */,
+				29DCAE812BB3DF25001639DC /* JustCause4CompassBorder.swift in Sources */,
+				29DCAE822BB3DF25001639DC /* JustCause4Compass.swift in Sources */,
+				29DCAE832BB3DF25001639DC /* LAItem.swift in Sources */,
+				29DCAE842BB3DF25001639DC /* GearHoningModel.swift in Sources */,
+				29DCAE852BB3DF25001639DC /* GearHoningCalculator.swift in Sources */,
+				29DCAE862BB3DF25001639DC /* requiredMaterials.json in Sources */,
+				29DCAE872BB3DF25001639DC /* GearHoningView.swift in Sources */,
+				29DCAE892BB3DF25001639DC /* LASecretDungeonFloorPattern.swift in Sources */,
+				29DCAE8A2BB3DF25001639DC /* TrebleClef.swift in Sources */,
+				29DCAE8B2BB3DF25001639DC /* PolygonSegmentWrapAnimation.swift in Sources */,
+				29DCAE8C2BB3DF25001639DC /* LABardStigmaSkillView.swift in Sources */,
+				29DCAE8D2BB3DF25001639DC /* LABossAttackAreaAnimation.swift in Sources */,
+				29DCAE8E2BB3DF25001639DC /* LostArkLogo.swift in Sources */,
+				29DCAE8F2BB3DF25001639DC /* LostArkSelectionView.swift in Sources */,
+				29DCAE902BB3DF25001639DC /* BreathGem.swift in Sources */,
+				29DCAE912BB3DF25001639DC /* LACardBack.swift in Sources */,
+				29DCAE922BB3DF25001639DC /* LAMenu.swift in Sources */,
+				29DCAE932BB3DF25001639DC /* MokokoSeed.swift in Sources */,
+				29DCAE942BB3DF25001639DC /* ArcanistIcon.swift in Sources */,
+				29DCAE952BB3DF25001639DC /* LACardAnimation.swift in Sources */,
+				29DCAE962BB3DF25001639DC /* METalentIcon.swift in Sources */,
+				29DCAE972BB3DF25001639DC /* MEDecryptionMinigame.swift in Sources */,
+				29DCAE982BB3DF25001639DC /* MEMinigameEngine.swift in Sources */,
+				29DCAE992BB3DF25001639DC /* MEConversationWheel.swift in Sources */,
+				29DCAE9A2BB3DF25001639DC /* DiamondDogsLogo.swift in Sources */,
+				29DCAE9B2BB3DF25001639DC /* DiamondGem.swift in Sources */,
+				29DCAE9C2BB3DF25001639DC /* RibbonShapes.swift in Sources */,
+				29DCAE9D2BB3DF25001639DC /* DiamondDog.swift in Sources */,
+				29DCAE9E2BB3DF25001639DC /* RibbonBanner.swift in Sources */,
+				29DCAE9F2BB3DF25001639DC /* MGSViDroidView.swift in Sources */,
+				29DCAEA02BB3DF25001639DC /* MGSVLoadingView.swift in Sources */,
+				29DCAEA12BB3DF25001639DC /* MGSVLoadingViewModel.swift in Sources */,
+				29DCAEA22BB3DF25001639DC /* MGSVMissionTextDemo.swift in Sources */,
+				29DCAEA32BB3DF25001639DC /* KountdownTimerDemo.swift in Sources */,
+				29DCAEA42BB3DF25001639DC /* KountdownTimerView.swift in Sources */,
+				29DCAEA52BB3DF25001639DC /* KountdownTimerViewModel.swift in Sources */,
+				29DCAEA62BB3DF25001639DC /* KombatKardContentView.swift in Sources */,
+				29DCAEA72BB3DF25001639DC /* KombatKardView.swift in Sources */,
+				29DCAEA82BB3DF25001639DC /* MenuView.swift in Sources */,
+				29DCAEA92BB3DF25001639DC /* MK11SelectionView.swift in Sources */,
+				29DCAEAA2BB3DF25001639DC /* MK11Left.swift in Sources */,
+				29DCAEAB2BB3DF25001639DC /* NMSCraftingMenuItem.swift in Sources */,
+				29DCAEAC2BB3DF25001639DC /* OriSkill.swift in Sources */,
+				29DCAEAD2BB3DF25001639DC /* OriSkillView.swift in Sources */,
+				29DCAEAE2BB3DF25001639DC /* OriSkillWheel.swift in Sources */,
+				29DCAEAF2BB3DF25001639DC /* OriSkillTreeDemo.swift in Sources */,
+				29DCAEB02BB3DF25001639DC /* OW2UltimateMeter.swift in Sources */,
+				29DCAEB12BB3DF25001639DC /* OW2FindingGameAnimation.swift in Sources */,
+				29DCAEB22BB3DF25001639DC /* OW2SelectionView.swift in Sources */,
+				29DCAEB32BB3DF25001639DC /* OWDecorPattern.swift in Sources */,
+				29DCAEB42BB3DF25001639DC /* OverwatchIcon.swift in Sources */,
+				29DCAEB52BB3DF25001639DC /* OverwatchLogoDemo.swift in Sources */,
+				29DCAEB62BB3DF25001639DC /* OWUltimateMeter.swift in Sources */,
+				29DCAEB72BB3DF25001639DC /* OWUltimateMeterDemo.swift in Sources */,
+				29DCAEB82BB3DF25001639DC /* OWUltimateReadyView.swift in Sources */,
+				29DCAEB92BB3DF25001639DC /* OWUltimateMeterBorder.swift in Sources */,
+				29DCAEBA2BB3DF25001639DC /* OWPlayerWaitingIcon.swift in Sources */,
+				29DCAEBB2BB3DF25001639DC /* PapersPleaseSettingsIcon.swift in Sources */,
+				29DCAEBC2BB3DF25001639DC /* Persona5AnimatedMenu.swift in Sources */,
+				29DCAEBD2BB3DF25001639DC /* P5AnimatedStars.swift in Sources */,
+				29DCAEBE2BB3DF25001639DC /* P5AnimatedStarParty.swift in Sources */,
+				29DCAEBF2BB3DF25001639DC /* RDR2HUDCoreViewModel.swift in Sources */,
+				29DCAEC02BB3DF25001639DC /* RDR2CoreModel.swift in Sources */,
+				29DCAEC12BB3DF25001639DC /* RDR2HUDCoreView.swift in Sources */,
+				29DCAEC22BB3DF25001639DC /* RDR2HUDCoreMenu.swift in Sources */,
+				29DCAEC32BB3DF25001639DC /* RDR2HUD.swift in Sources */,
+				29DCAEC42BB3DF26001639DC /* RDR2Menu.swift in Sources */,
+				29DCAEC52BB3DF26001639DC /* RDR2MinimapDemo.swift in Sources */,
+				29DCAEC62BB3DF26001639DC /* RDR2MinimapModel.swift in Sources */,
+				29DCAEC72BB3DF26001639DC /* RDR2MinimapView.swift in Sources */,
+				29DCAEC82BB3DF26001639DC /* RDR2MinimapViewModel.swift in Sources */,
+				29DCAEC92BB3DF26001639DC /* RDR2AwardItem.swift in Sources */,
+				29DCAECA2BB3DF26001639DC /* RDR2AwardView.swift in Sources */,
+				29DCAECB2BB3DF26001639DC /* RDR2AwardBadge.swift in Sources */,
+				29DCAECC2BB3DF26001639DC /* RDR2AwardViewModel.swift in Sources */,
+				29DCAECD2BB3DF26001639DC /* RDR2Badgeable.swift in Sources */,
+				29DCAECE2BB3DF26001639DC /* RDR2ConfirmButton.swift in Sources */,
+				29DCAECF2BB3DF26001639DC /* ElevationMap.swift in Sources */,
+				29DCAED02BB3DF26001639DC /* RDR2ShowdownTitle.swift in Sources */,
+				29DCAED12BB3DF26001639DC /* RDR2Revolver.swift in Sources */,
+				29DCAED22BB3DF26001639DC /* RDR2RevolverLoadingAnimation.swift in Sources */,
+				29DCAED32BB3DF26001639DC /* SpiderManSkillViewModel.swift in Sources */,
+				29DCAED42BB3DF26001639DC /* SpiderManSkillModel.swift in Sources */,
+				29DCAED52BB3DF26001639DC /* SpiderManSkill.swift in Sources */,
+				29DCAED62BB3DF26001639DC /* SpiderManMask.swift in Sources */,
+				29DCAED72BB3DF26001639DC /* SpiderManSkillsMenu.swift in Sources */,
+				29DCAED82BB3DF26001639DC /* SpiderManSkillDetailView.swift in Sources */,
+				29DCAED92BB3DF26001639DC /* SpiderManSkillTreeView.swift in Sources */,
+				29DCAEDA2BB3DF26001639DC /* SpiderManSkillView.swift in Sources */,
+				29DCAEDB2BB3DF26001639DC /* SpiderManSkillTreeWeb.swift in Sources */,
+				29DCAEDC2BB3DF26001639DC /* SpiderManSkillLoadingView.swift in Sources */,
+				29DCAEDD2BB3DF26001639DC /* Spider.swift in Sources */,
+				29DCAEDE2BB3DF26001639DC /* CIFilterView.swift in Sources */,
+				29DCAEDF2BB3DF26001639DC /* StarTrekFleetCommand.swift in Sources */,
+				29DCAEE02BB3DF26001639DC /* STFCTutorialArrow.swift in Sources */,
+				29DCAEE12BB3DF26001639DC /* SaberHilt.swift in Sources */,
+				29DCAEE22BB3DF26001639DC /* JFOSelectedItemDecoration.swift in Sources */,
+				29DCAEE32BB3DF26001639DC /* JFOSaberColorItem.swift in Sources */,
+				29DCAEE42BB3DF26001639DC /* JFOAlert.swift in Sources */,
+				29DCAEE52BB3DF26001639DC /* JFOSaberColorPicker.swift in Sources */,
+				29DCAEE62BB3DF26001639DC /* SWTORLogo.swift in Sources */,
+				29DCAEE72BB3DF26001639DC /* SWTOREmpireLogo.swift in Sources */,
+				29DCAEE82BB3DF26001639DC /* OpeningCrawl.swift in Sources */,
+				29DCAEE92BB3DF26001639DC /* SkillVitamin.swift in Sources */,
+				29DCAEEA2BB3DF26001639DC /* SkillSelectionRow.swift in Sources */,
+				29DCAEEB2BB3DF26001639DC /* SkillMaxHealth.swift in Sources */,
+				29DCAEEC2BB3DF26001639DC /* SkillHealingSpeed.swift in Sources */,
+				29DCAEED2BB3DF26001639DC /* SkillWeaponSway.swift in Sources */,
+				29DCAEEE2BB3DF26001639DC /* TLOUSkillSelectMenu.swift in Sources */,
+				29DCAEEF2BB3DF26001639DC /* SkillIcon.swift in Sources */,
+				29DCAEF02BB3DF26001639DC /* TLOUSkillModel.swift in Sources */,
+				29DCAEF12BB3DF26001639DC /* TLOUSkillSelectMenuViewModel.swift in Sources */,
+				29DCAEF22BB3DF26001639DC /* FireflySymbol.swift in Sources */,
+				29DCAEF32BB3DF26001639DC /* FireflyTail.swift in Sources */,
+				29DCAEF42BB3DF26001639DC /* FireflyWing.swift in Sources */,
+				29DCAEF52BB3DF26001639DC /* TLOUIcon.swift in Sources */,
+				29DCAEF62BB3DF26001639DC /* POIMarker.swift in Sources */,
+				29DCAEF72BB3DF26001639DC /* TLOUIconDemo.swift in Sources */,
+				29DCAEF82BB3DF26001639DC /* FireflyPendant.swift in Sources */,
+				29DCAEF92BB3DF26001639DC /* TLOUSkillsIcon.swift in Sources */,
+				29DCAEFA2BB3DF26001639DC /* TLOUMainMenuIcon.swift in Sources */,
+				29DCAEFB2BB3DF26001639DC /* TLOUMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2203,7 +2247,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nutterfi.Game-UI-Inspirations";
 				PRODUCT_NAME = "Game-UI-Inspirations";
 				SDKROOT = macosx;
@@ -2225,7 +2269,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nutterfi.Game-UI-Inspirations";
 				PRODUCT_NAME = "Game-UI-Inspirations";
 				SDKROOT = macosx;
@@ -2271,7 +2315,7 @@
 			repositoryURL = "https://github.com/nutterfi/shapes.git";
 			requirement = {
 				kind = exactVersion;
-				version = 0.3.7;
+				version = 0.3.8;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

@@ -18,8 +18,4 @@ struct Game_UI_InspirationsApp: App {
     }
   }
   
-  init() {
-    UITableView.appearance().backgroundColor = .clear
-    UITableViewCell.appearance().backgroundColor = .clear
-  }
 }

@@ -9,6 +9,7 @@ import SwiftUI
 import CoreImage
 import CoreImage.CIFilterBuiltins
 
+#if canImport(UIKit)
 // https://stackoverflow.com/questions/26542035/create-uiimage-with-solid-color-in-swift
 extension UIColor {
     func image(_ size: CGSize = CGSize(width: 1, height: 1)) -> UIImage {
@@ -26,7 +27,7 @@ class MGSViDroidViewModel : ObservableObject {
 struct MGSViDroidView: View {
   let context = CIContext()
   
-  // source imag
+  // source image
   @State private var inputImage: UIImage?
   // result image
   @State private var image: Image?
@@ -126,3 +127,4 @@ struct MGSViDroidView_Previews: PreviewProvider {
         .previewDevice("iPad Air (4th generation)")
     }
 }
+#endif
